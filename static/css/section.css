@@ -122,7 +122,28 @@ section.meetup-featured div.featured-image{
     background-color: #cccccc;
     height: 13em;
     width: 100%;
-    background: url('../assets/images/meetup.jpg');
+    background: url('../assets/images/meetup-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.meetup-featured div.featured-image:nth-child(1){
+    background: url('../assets/images/meetup-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.meetup-featured div.featured-image:nth-child(2){
+    background: url('../assets/images/meetup-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.meetup-featured div.featured-image:nth-child(3){
+    background: url('../assets/images/meetup-3.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
