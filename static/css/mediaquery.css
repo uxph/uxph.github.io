@@ -1,5 +1,5 @@
 /* UXPH Responsive Web Designing */
-@media only screen and (max-width: 1040px){
+@media only screen and (max-width: 962px){
 
     nav ul, nav button{
         display: none;
@@ -10,7 +10,7 @@
         background-color: #182336;
         position: fixed;
         box-sizing: border-box;
-        padding: 4em 1em;
+        padding: 5em 1em;
         width: 100%;
         height: 100%;
         z-index: 1000;
@@ -19,7 +19,7 @@
     }
 
     nav#mobile-nav #close-nav{
-        width: 2em;
+        width: 1.5em;
         position: absolute;
         right: 1.5em;
         top: 1.5em;
@@ -46,7 +46,7 @@
 
     nav #hamburger{
         display: block;
-        width: 2em !important;
+        width: 1.5em !important;
         margin-right: 1.5em;
         cursor: pointer;
     }

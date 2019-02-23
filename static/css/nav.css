@@ -4,6 +4,10 @@ nav#mobile-nav{
     display: none;
 }
 
+nav#mobile-nav ul li.active{
+    color: var(--main-blue);
+}
+
 nav #hamburger{
     display: none;
 }

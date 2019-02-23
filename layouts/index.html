@@ -33,7 +33,7 @@
                     <p>
                         <b class="blue">UXPH</b> {{ .Site.Data.info.about }}
                     <p>
-                    <a href="#"><button>Join the Facebook Community!</button></a>
+                    <a href="{{ .Site.Data.info.facebook_page }}" target="_blank"><button>Join the Facebook Community!</button></a>
                 </div>
             </div>
         </section>
@@ -143,5 +143,6 @@
         <section id="gmaps"></section>
         -->
         {{ partial "components/footer" (dict "path" "") }}
+        <script>setActive(0)</script>
     </body>
 </html>

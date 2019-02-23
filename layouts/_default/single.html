@@ -8,5 +8,6 @@
         {{ partial "components/nav" (dict "path" "../") }}
         {{ partial .Params.page . }}
         {{ partial "components/footer" (dict "path" "../")  }}
+        <script>setActive({{ .Params.active }});</script>
     </body>
 </html>
