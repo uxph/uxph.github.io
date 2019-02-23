@@ -73,7 +73,7 @@
 
     header#index-edition{
         background: url('../assets/images/uxph_hero_home.png') no-repeat;
-        background-position: right 20em !important;
+        background-position: right bottom !important;
         background-attachment: fixed;
         background-size: contain;
         padding-bottom: 13em;
