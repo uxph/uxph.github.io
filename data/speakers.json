@@ -1,0 +1,61 @@
+{
+    "a": {
+        "name": "MON IBRAHIM",
+        "topic": "Keynote Speech",
+        "img": "assets/speakers/mon.png"
+    },
+
+    "b": {
+        "name": "ALEX CHAPARRO, PH.D.",
+        "topic": "Applying Theory of Attention and Perception to Design",
+        "img": "assets/speakers/alex.png"
+    },
+
+    "c":{
+        "name": "HENRY NAHURSKI",
+        "topic": "“How might we..”: Giving and Receiving Better Feedback in UX and Design",
+        "img": "assets/speakers/henry.png"
+    },
+
+    "d":{
+        "name": "ONDREJ MACHART",
+        "topic": "How to design for people, not users: Olympic case study",
+        "img": "assets/speakers/ondrej.png"
+    },
+
+    "e":{
+        "name": "RHEA ALTHEA GUNTALILIB",
+        "topic": "Inclusive Design: How I Learned It, and How You Can Too",
+        "img": "assets/speakers/rhea.png"
+    },
+
+    "f":{
+        "name": "PAUL SHERMAN, PH.D.",
+        "topic": "Transformative User Research at the Speed of Business: A field research primer and toolkit",
+        "img": "assets/speakers/sherman.png"
+    },
+
+    "g":{
+        "name": "LIAM HUTCHINSON",
+        "topic": "Everyone Is A Designer",
+        "img": "assets/speakers/liam.png"
+    },
+
+    "h":{
+        "name": "BEN KIM",
+        "topic": "Evangelizing UX and Design Culture within Organizations",
+        "img": "assets/speakers/ben.jpg"
+    },
+
+    "i":{
+        "name": "SAMANTHA YUEN",
+        "topic": "Listening your way to be a better designer",
+        "img": "assets/speakers/sam.png"
+    },
+
+    "j":{
+        "name": "NIAW DE LEON",
+        "topic": "Lorem Dimsum: An Introduction to Verbal Design",
+        "img": "assets/speakers/niaw.png"
+    }
+}

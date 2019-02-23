@@ -1,0 +1,28 @@
+<nav>
+    <div class="wrapper">
+        <div id="main-nav">
+            <img src="{{ .path }}assets/icons/menu_options.svg" id="hamburger" />
+            <a href="/">
+                <img src="{{ .path }}assets/logo/uxph_logo.svg" id="nav-logo" />
+            </a>
+            <ul>
+                <a href="/"><li>About</li></a>
+                <a href="/volunteer/"><li>Volunteer</li></a>
+                <a href="/sponsor/"><li>Sponsor</li></a>
+                <a href="#"><li>Register</li></a>
+            </ul>
+        </div>
+        <button id="cta">Buy Tickets</button>
+    </div>
+</nav>
+
+<nav id="mobile-nav" class="hide">
+    <img src="{{ .path }}assets/icons/close.svg" id="close-nav" />
+    <ul>
+        <a href="/"><li>About</li></a>
+        <a href="/volunteer/"><li>Volunteer</li></a>
+        <a href="/sponsor/"><li>Sponsor</li></a>
+        <a href="#"><li>Register</li></a>
+    </ul>
+    <button id="cta">Buy Tickets</button>
+</nav>

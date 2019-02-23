@@ -1,0 +1,127 @@
+/* UXPH Responsive Web Designing */
+@media only screen and (max-width: 1040px){
+
+    nav ul, nav button{
+        display: none;
+    }
+
+    nav#mobile-nav{
+        display: block;
+        background-color: #182336;
+        position: fixed;
+        box-sizing: border-box;
+        padding: 4em 1em;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        transform: translateX(0);
+        transition: ease all 0.2s;
+    }
+
+    nav#mobile-nav #close-nav{
+        width: 2em;
+        position: absolute;
+        right: 1.5em;
+        top: 1.5em;
+    }
+
+    nav#mobile-nav ul, nav#mobile-nav button{
+        display: block;
+        margin-bottom: 2em;
+    }
+
+    nav#mobile-nav ul li{
+        display: block;
+        font-size: 1.1em;
+        border-bottom: thin solid #555;
+        color: white;
+        text-align: left;
+    }
+
+    nav#mobile-nav button{
+        box-shadow: none;
+        width: 100%;
+        font-size: 1em
+    }
+
+    nav #hamburger{
+        display: block;
+        width: 2em !important;
+        margin-right: 1.5em;
+        cursor: pointer;
+    }
+
+    nav div.wrapper{
+        justify-content: flex-start !important;
+        align-items: flex-start;
+    }
+
+    nav #nav-logo{
+        width: 8em;
+        margin: 1em 0;
+    }
+
+    html, body{
+        box-sizing: border-box !important;
+    }
+
+    header div.wrapper, section div.wrapper, footer, div.wrapper{
+        flex-direction: column !important;
+        justify-content: flex-start;
+        box-sizing: border-box;
+    }
+
+    header#index-edition{
+        background: url('../assets/images/uxph_hero_home.png') no-repeat;
+        background-position: right 20em !important;
+        background-attachment: fixed;
+        background-size: contain;
+        padding-bottom: 13em;
+    }
+
+    header #main-info{
+        width: 100% !important;
+    }
+
+    header #hero-image{
+        display: none;
+    }
+
+    section #role-info{
+        width: 100% !important;
+    }
+
+    section #team-sidebar{
+        width: 100% !important;
+        margin: 0;
+        margin-bottom: 2em;
+    }
+
+    section #team-sidebar li{
+        padding: 1em 0;
+    }
+
+    div.wrapper{
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 0 1.5em;
+        margin: 0 !important;
+    }
+
+    div.wrapper img.featured-image{
+        width: 100%;
+    }
+
+    div.column-content{
+        flex-direction: column;
+        margin: 0 !important;
+    }
+
+    div.column-content div.featured-image{
+        margin: 0.5em 0 !important;
+    }
+
+    footer #copyright{
+        margin-bottom: 2em;
+    }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ .Site.Data.info.name }}</title>
+        {{ partial "components/meta" (dict "path" "") }}
+    </head>
+    <body>
+        {{ partial "components/nav" (dict "path" "") }}
+
+        <header id="index-edition">
+            <div class="wrapper">
+                <div id="main-heading">
+                    <h1 class="red">UXPH 2019:</h1>
+                    <h1 class="blue larger">{{ .Site.Data.info.theme }}</h1>
+                </div>
+                <div id="main-info">
+                    <div class="content-wrapper">
+                        <img src="assets/icons/calendar.svg" />
+                        <p>{{ .Site.Data.info.date }}</p>
+                    </div>
+                    <div class="content-wrapper">
+                        <img src="assets/icons/pin.svg" />
+                        <p>{{ .Site.Data.info.venue }}</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="featured">
+            <div class="wrapper">
+                <img src="assets/images/illustration_1.svg" class="featured-image" />
+                <div class="content-wrapper">
+                    <h2>What is UXPH?</h2>
+                    <p>
+                        <b class="blue">UXPH</b> {{ .Site.Data.info.about }}
+                    <p>
+                    <a href="#"><button>Join the Community!</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="featured reversed pale">
+            <div class="wrapper">
+                <img src="assets/images/illustration_2.svg" class="featured-image" />
+                <div class="content-wrapper">
+                    <h2>The UXPH Team</h2>
+                    <p>
+                        <b class="red">User Experience Philippines (UXPH)</b> {{ .Site.Data.info.team }}
+                    <p>
+                    <a href="/volunteer/"><button>Join the Team!</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="featured">
+            <div class="wrapper">
+                <img src="assets/images/illustration_3.svg" class="featured-image" />
+                <div class="content-wrapper">
+                    <h2>Be a Community Sponsor</h2>
+                    <p>
+                        {{ .Site.Data.info.community_sponsor }}
+                    <p>
+                    <a href="/sponsor/"><button>Become a Sponsor!</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="meetup-featured pale">
+            <div class="wrapper">
+                <h2>Past Meetups</h2>
+                <div class="column-content">
+                    <div class="featured-image"></div>
+                    <div class="featured-image"></div>
+                    <div class="featured-image"></div>
+                </div>
+            </div>
+        </section>
+        <!--
+        <section class="speaker-featured">
+            <div class="wrapper">
+                <h2>Speakers</h2>
+                <div class="carousel">
+                    {{ range .Site.Data.speakers }}
+                    <div class="content-wrapper">
+                        <div>
+                            <img src="{{ .img }}"/>
+                            <h3>{{ .name }}</h3>
+                            <p>{{ .topic }}</p>
+                        </div>
+                        <button>More Info</button>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+        <section class="speaker-featured">
+            <div class="wrapper">
+                <h2>Workshop Facilitators</h2>
+                <div class="carousel">
+                    {{ range .Site.Data.speakers }}
+                    <div class="content-wrapper">
+                        <div>
+                            <img src="{{ .img }}"/>
+                            <h3>{{ .name }}</h3>
+                            <p>{{ .topic }}</p>
+                        </div>
+                        <button>More Info</button>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+        <section class="schedule-featured">
+            <div class="wrapper">
+                <h2>Schedule</h2>
+                <div class="day-wrapper">
+                    <div>
+                        <h4 class="red">Saturday, May 26</h4>
+                        <h3 class="blue">DAY ONE</h3>
+
+                        {{ range .Site.Data.day_one }}
+                        <div class="content-wrapper">
+                            <p class="time">{{ .time }}</p>
+                            <div class="event">
+                                <p><b>{{ .agenda }}<b></p>
+                                <p>{{ .facilitator }}</p>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div>
+                        <h4 class="red">Sunday, May 27</h4>
+                        <h3 class="blue">DAY TWO</h3>
+                        {{ range .Site.Data.day_one }}
+                        <div class="content-wrapper">
+                            <p class="time">{{ .time }}</p>
+                            <div class="event">
+                                <p><b>{{ .agenda }}<b></p>
+                                <p>{{ .facilitator }}</p>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gmaps"></section>
+        -->
+        {{ partial "components/footer" (dict "path" "") }}
+    </body>
+</html>

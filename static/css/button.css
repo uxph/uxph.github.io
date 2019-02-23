@@ -1,0 +1,31 @@
+/* UXPH button stylesheet */
+
+button{
+	background-color: var(--main-blue);
+	color: white;
+	border-radius: 0.3em;
+	border: thin solid var(--main-blue);
+	text-transform: uppercase;
+	padding: 0.9em 2.5em;
+	cursor: pointer;
+	box-shadow: 0px 5px 21px #DDDDDD;
+	font-size: 0.8em;
+	outline: none;
+	transition: ease all 0.2s;
+}
+
+button:hover{
+	box-shadow: 0px 5px 11px #CCCCCC;
+	transition: ease all 0.2s;
+}
+
+button.hallow{
+	background-color: transparent;
+	color: var(--main-blue);
+	box-shadow: none;
+}
+
+button.hallow:hover{
+	border-color: var(--main-blue-dark);
+	color: var(--main-blue-dark);
+}

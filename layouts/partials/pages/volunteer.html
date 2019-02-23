@@ -1,0 +1,43 @@
+<header id="volunteer-edition">
+    <div class="wrapper">
+        <div id="main-heading">
+            <h1 class="red">Be A Part Of</h1>
+            <h1 class="blue larger">The Organizing Team</h1>
+        </div>
+        <div id="main-info">
+            <div class="content-wrapper">
+                <p>
+                    {{ .Site.Data.info.team_recruitment }}
+                </p>
+            </div>
+            <button>Learn More</button>
+        </div>
+        <img src="../assets/images/ninja_share.png" id="hero-image" />
+    </div>
+</header>
+<section>
+    <div class="wrapper flex-wrapper">
+        <ul id="team-sidebar">
+            {{ range .Site.Data.team }}
+            <li>{{ .role }}</li>
+            {{ end }}
+        </ul>
+        <div class="content-wrapper" id="role-info">
+            <h2 id="role-name">{{ .Site.Data.team.a.role }}</h2>
+            <p id="role-description">{{ .Site.Data.team.a.description }}</p>
+            <br/>
+            <h3 class="blue">Responsibilities</h3>
+            <ul id="role-responsibilities">
+                <li>{{ .Site.Data.team.a.responsibilities.a }}</li>
+            </ul>
+            <h3 class="blue">Requirements</h3>
+            <ul id="role-requirements">
+                <li>{{ .Site.Data.team.a.requirements.a }}</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    add_role({{ .Site.Data.team }});
+    set_role_content(0);
+</script>

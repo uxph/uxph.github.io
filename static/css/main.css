@@ -1,0 +1,67 @@
+/* UXPH main stylsheet */
+
+/* component stylesheet imports */
+@import url(nav.css);
+@import url(button.css);
+@import url(header.css);
+@import url(section.css);
+@import url(footer.css);
+@import url(mediaquery.css);
+
+:root{
+	--main-blue: #15B0DE;
+	--main-blue-dark: #007BBF;
+	--main-red: #EC3558;
+	--main-red-dark: #CE0000;
+	--main-pale: #F9F9F9;
+
+	font-family: 'Roboto', sans-serif;
+	color: #555555;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin-top: 62.59px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	color: black;
+}
+
+p{
+	font-weight: lighter;
+	line-height: 1.8em;
+	font-size: 1em;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+b{
+	font-weight: normal;
+	color: black;
+}
+
+ul li{
+	font-weight: lighter;
+}
+
+.blue{
+	color: var(--main-blue);
+}
+
+.red{
+	color: var(--main-red);
+}
+
+div.wrapper{
+	width: 60em;
+	margin: auto;
+}

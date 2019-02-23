@@ -1,0 +1,37 @@
+{
+    "a": {
+        "time": "7:30 - 8:45",
+        "agenda": "Registration",
+        "facilitator": ""
+    },
+
+    "b": {
+        "time": "9:00 - 9:10",
+        "agenda": "Opening/Introduction",
+        "facilitator": "UXPH"
+    },
+
+    "c": {
+        "time": "9:10 - 9:40",
+        "agenda": "Welcome Speech",
+        "facilitator": "Beck Eclipse, Chief Customer Experience Officer, Globe Telecom"
+    },
+
+    "d": {
+        "time": "9:40 - 9:45",
+        "agenda": "Intro of Keynote Speaker",
+        "facilitator": "Ian Pestelos"
+    },
+
+    "e": {
+        "time": "9:45 - 10:30",
+        "agenda": "Keynote Speaker",
+        "facilitator": "Mon Ibrahim"
+    },
+
+    "f": {
+        "time": "10:30 - 11:30",
+        "agenda": "Applying Theory of Attention and Perception to Design",
+        "facilitator": "Dr. Alex Chapparo"
+    }
+}

@@ -1,0 +1,43 @@
+<header id="sponsor-edition">
+    <div class="wrapper">
+        <div id="main-heading">
+            <h1 class="red">Sponsorship</h1>
+            <h1 class="blue larger">Opportunities</h1>
+        </div>
+        <div id="main-info">
+            <div class="content-wrapper">
+                <img src="../assets/icons/phone_call.svg" />
+                <p>
+                    Corrine Arancel <br/>
+                    101 Garmer Building, 516 Shaw
+                    Boulevard, Hagdan Bato, Pasig City,
+                    Metro Manila<br/>
+                    +63 25347330
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
+{{ $placement := "left" }}
+{{ range .Site.Data.partners }}
+<section class="featured {{ if eq .placement $placement }}reversed{{ end }}">
+    <div class="wrapper">
+        <img src="../{{ .img }}" class="featured-image" />
+        <div class="content-wrapper">
+            <h2>{{ .role }}</h2>
+            <p>{{ .description }}<p>
+            <button>Download Sponsorship Package</button>
+        </div>
+    </div>
+</section>
+{{ end }}
+<section class="meetup-featured pale">
+    <div class="wrapper">
+        <h2>Past Meetups</h2>
+        <div class="column-content">
+            <div class="featured-image"></div>
+            <div class="featured-image"></div>
+            <div class="featured-image"></div>
+        </div>
+    </div>
+</section>
