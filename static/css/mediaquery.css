@@ -72,11 +72,10 @@
     }
 
     header#index-edition{
-        background: url('../assets/images/uxph_hero_home.png') no-repeat;
+        /* background: url('../assets/images/UXPH_hero_2019.png') no-repeat; */
         background-position: right bottom !important;
         background-attachment: fixed;
         background-size: contain;
-        padding-bottom: 13em;
     }
 
     header #main-info{

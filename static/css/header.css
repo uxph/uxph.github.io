@@ -7,11 +7,24 @@ header{
 }
 
 header#index-edition{
-    background: url('../assets/images/uxph_hero_home.png') no-repeat;
+    /* background: url('../assets/images/UXPH_hero_2019.png') no-repeat; */
     background-position: 25em 8em;
     background-attachment: fixed;
     background-size: 70em;
-    padding-bottom: 13em;
+    /* padding-bottom: 13em; */
+	overflow: hidden;
+	position: relative;
+}
+
+header#index-edition div.wrapper{
+	position: relative;
+}
+
+header#index-edition #hero-image{
+	width: 50em;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 header#volunteer-edition{
