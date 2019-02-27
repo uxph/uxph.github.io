@@ -1,5 +1,20 @@
 /* UXPH Responsive Web Designing */
-@media only screen and (max-width: 962px){
+@media only screen and (max-width: 1024px){
+    header > div.wrapper, section > div.wrapper,
+    footer > div.wrapper, nav > div.wrapper{
+        width: 55em;
+    }
+
+    header#index-edition #hero-image{
+    	width: 40em;
+    }
+
+    section.featured img.featured-image{
+        width: 22em;
+    }
+}
+
+@media only screen and (max-width: 768px){
 
     nav ul, nav button{
         display: none;
