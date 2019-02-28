@@ -11,7 +11,7 @@
                     <b>Contact Person:</b><br/>
                     Jordan Deja <br/><br/>
                     <b>Email Address: </b><br/>
-                    jordan.deja@dlsu.edu.ph
+                    info@uxph.org
                 </p>
             </div>
         </div>
@@ -24,7 +24,16 @@
         <img src="../{{ .img }}" class="featured-image" />
         <div class="content-wrapper">
             <h2>{{ .role }}</h2>
-            <p>{{ .description }}<p>
+            <p>
+                {{ .description }}
+                <br/><br/>
+                <span class="hook"></span>
+                <script type="text/javascript">
+                    var x = {{ .hook }};
+                    x = $.parseHTML(x);
+                    $($(".hook")[$(".hook").length - 1]).append(x);
+                </script>
+            </p>
             <button>Download Package</button>
         </div>
     </div>

@@ -128,22 +128,43 @@ section.meetup-featured div.featured-image{
     background-size: cover;
 }
 
-section.meetup-featured div.featured-image:nth-child(1){
+section.meetup-featured div.column-content:nth-child(3) div.featured-image:nth-child(1){
     background: url('../assets/images/meetup-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-section.meetup-featured div.featured-image:nth-child(2){
+section.meetup-featured div.column-content:nth-child(3) div.featured-image:nth-child(2){
     background: url('../assets/images/meetup-2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-section.meetup-featured div.featured-image:nth-child(3){
+section.meetup-featured div.column-content:nth-child(3) div.featured-image:nth-child(3){
     background: url('../assets/images/meetup-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.meetup-featured div.column-content:nth-child(2) div.featured-image:nth-child(1){
+    background: url('../assets/images/meetup-4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.meetup-featured div.column-content:nth-child(2) div.featured-image:nth-child(2){
+    background: url('../assets/images/meetup-5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.meetup-featured div.column-content:nth-child(2) div.featured-image:nth-child(3){
+    background: url('../assets/images/meetup-6.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

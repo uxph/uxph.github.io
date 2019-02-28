@@ -11,6 +11,7 @@ button{
 	box-shadow: 0px 5px 21px #DDDDDD;
 	font-size: 0.8em;
 	outline: none;
+	margin: 1em 0;
 	transition: ease all 0.2s;
 }
 
