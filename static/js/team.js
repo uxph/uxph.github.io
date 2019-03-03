@@ -20,6 +20,7 @@ function set_role_content(index){
 
     $('#role-name').text(team_info[index].role);
     $('#role-description').append('<p>' + team_info[index].description + '</p>');
+    $('#role-url').attr('href', team_info[index].url);
 
     jQuery.each(team_info[index].responsibilities, function(i, val){
         $('#role-responsibilities').append('<li>' + val + '</li>');
