@@ -29,4 +29,16 @@ function set_role_content(index){
     jQuery.each(team_info[index].requirements, function(i, val){
         $('#role-requirements').append('<li>' + val + '</li>');
     });
+
+    if(index != 3){
+        $('#responsibilities-label').html('Responsibilities');
+        $('#role-requirements').show();
+        $('#requirements-label').show();
+    }
+
+    else{
+        $('#responsibilities-label').html('Responsibilities & Requirements');
+        $('#role-requirements').hide();
+        $('#requirements-label').hide();
+    }
 }
