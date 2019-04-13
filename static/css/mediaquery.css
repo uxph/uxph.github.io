@@ -93,6 +93,14 @@
         background-size: contain;
     }
 
+    header#index-edition .event-square{
+        display: block;
+    }
+
+    header#index-edition .event-banner{
+        display: none;
+    }
+
     header #main-info{
         width: 100% !important;
     }

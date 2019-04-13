@@ -1,7 +1,7 @@
 /* UXPH Header Stylesheet */
 
 header{
-	background-color: var(--main-pale) !important;
+	background-color: var(--main-pale);
 	padding-top: 5em;
 	padding-bottom: 5em;
 }
@@ -14,6 +14,8 @@ header#index-edition{
     /* padding-bottom: 13em; */
 	overflow: hidden;
 	position: relative;
+    padding: 0;
+    background-color: white;
 }
 
 header#index-edition div.wrapper{
@@ -25,6 +27,15 @@ header#index-edition #hero-image{
 	position: absolute;
 	right: 0;
 	top: 0;
+}
+
+header#index-edition .event-banner, header#index-edition .event-square{
+    width: 100%;
+    display: block;
+}
+
+header#index-edition .event-square{
+    display: none;
 }
 
 header#volunteer-edition{
