@@ -30,7 +30,7 @@
         height: 100%;
         z-index: 1000;
         transform: translateX(0);
-        transition: ease all 0.2s;
+        transition: ease all 0.3s;
     }
 
     nav#mobile-nav #close-nav{
@@ -132,6 +132,10 @@
 
     div.wrapper img.featured-image{
         width: 100%;
+    }
+    
+    header#index-edition div.wrapper {
+        padding: 0;
     }
 
     div.column-content{
