@@ -15,7 +15,7 @@ header#index-edition{
 	overflow: hidden;
 	position: relative;
     padding: 0;
-    background-color: white;
+    background-color: var(--main-pale);
 }
 
 header#index-edition div.wrapper{
