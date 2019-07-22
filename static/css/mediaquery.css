@@ -55,7 +55,7 @@
 
     nav#mobile-nav button{
         box-shadow: none;
-        width: 100%;
+        width: 70%;
         font-size: 1em
     }
 
@@ -133,7 +133,7 @@
     div.wrapper img.featured-image{
         width: 100%;
     }
-    
+
     header#index-edition div.wrapper {
         padding: 0;
     }
