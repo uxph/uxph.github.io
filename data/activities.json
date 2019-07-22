@@ -1,0 +1,203 @@
+{
+	"MNL": {
+		"0": {
+			"activity_id": 0,
+			"event_id": 0,
+			"name": "<insert name here>",
+			"time": "1:00pm - 2:00pm",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		}
+	},
+
+	"CBU": {
+		"a": {
+			"activity_id": 0,
+			"event_id": 0,
+			"name": "Egress for Booth Partners and Registration Start",
+			"time": "6:00am - 8:50am",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"b": {
+			"activity_id": 1,
+			"event_id": 0,
+			"name": "UXPH & CebUXD Opening Remarks",
+			"time": "9:00am - 9:15am",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"c": {
+			"activity_id": 2,
+			"event_id": 0,
+			"name": "Keynote 1 - Intro to Usability Testing",
+			"time": "9:15am - 10:00am",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"d": {
+			"activity_id": 3,
+			"event_id": 0,
+			"name": "Keynote 2 - Importance of Functional Design",
+			"time": "10:00am - 10:45am",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"e": {
+			"activity_id": 4,
+			"event_id": 0,
+			"name": "Keynote 3 - Business of UX Design",
+			"time": "10:45am - 11:30am",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"f": {
+			"activity_id": 5,
+			"event_id": 0,
+			"name": "Lunch Break",
+			"time": "12:00pm - 1:30pm",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"g": {
+			"activity_id": 6,
+			"event_id": 0,
+			"name": "Convene in Main Hall for afternoon session instructions",
+			"time": "1:30pm",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"h": {
+			"activity_id": 7,
+			"event_id": 0,
+			"name": "BREAKOUT WORKSHOPS START",
+			"time": "1:45pm - 4:30pm",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"i": {
+			"activity_id": 8,
+			"event_id": 0,
+			"name": "Figma 101",
+			"time": "Workshop 1",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"j": {
+			"activity_id": 9,
+			"event_id": 0,
+			"name": "Applying Usability Testing Principles in the Workplace",
+			"time": "Workshop 2",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"k": {
+			"activity_id": 10,
+			"event_id": 0,
+			"name": "How to Facilitate a Design Sprint 2.0 for your team",
+			"time": "Workshop 3",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		},
+
+		"l": {
+			"activity_id": 11,
+			"event_id": 0,
+			"name": "Closing Program and Group Photo",
+			"time": "4:30pm - 5:30pm",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		}
+	},
+
+	"DVO": {
+		"0": {
+			"activity_id": 0,
+			"event_id": 0,
+			"name": "<insert name here>",
+			"time": "1:00pm - 2:00pm",
+			"type": "lecture / workshop",
+			"speaker": {
+				"photo": "<image url>",
+				"name": "<insert name here>",
+				"topic": "<insert topic here>",
+				"bio": "<insert bio here>"
+			}
+		}
+	}
+}

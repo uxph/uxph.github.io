@@ -1,44 +1,30 @@
-/* UXPH navigation stylesheet */
-
-nav#mobile-nav{
-    display: none;
-}
-
-nav#mobile-nav ul li.active{
-    color: var(--main-blue);
-}
-
-nav #hamburger{
-    display: none;
-}
-
-nav.hide{
-    transform: translateX(-110%) !important;
-}
-
-nav{
+nav {
     margin: 0;
     padding: 0;
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: var(--main-pale);
+    background-color: var(--neutral-black);
     box-sizing: border-box;
     z-index: 999 !important;
 }
 
-nav > div.wrapper{
+nav > div.wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav ul{
+nav #nav-logo {
+    width: 11em;
+}
+
+nav ul {
     margin: 0;
     padding: 0;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 1.3em 1em;
@@ -46,55 +32,16 @@ nav ul li{
     border-bottom: 2px solid transparent;
     cursor: pointer;
     transition: ease all 0.2s;
-    color: black;
+    color: var(--neutral-gray);
     font-weight: normal;
 }
 
-nav #main-nav{
-    display: flex;
-    align-items: center;
+nav ul li:hover {
+    color: var(--neutral-white);
+    border-bottom: 2px solid var(--neutral-white);
 }
 
-nav #nav-logo{
-    width: 6em;
-    display: block;
-    cursor: pointer;
-    margin-right: 1em;
-}
-
-nav #main-nav ul li:hover{
-    border-bottom-color: var(--main-blue);
-    transition: ease all 0.1s;
-}
-
-nav #main-nav ul li.active{
-    border-bottom-color: var(--main-blue);
-}
-
-ul#team-sidebar{
-	color: #333;
-    margin: 0;
-    padding: 0;
-    margin-right: 5em;
-    width: 50em;
-}
-
-ul#team-sidebar li{
-    list-style-type: none;
-    font-size: 1em;
-    padding: 1.8em 0;
-    padding-top: 0;
-    border-bottom: thin solid transparent;
-    cursor: pointer;
-    transition: ease all 0.1s;
-    font-weight: lighter;
-}
-
-ul#team-sidebar li:hover{
-    color: var(--main-blue);
-}
-
-ul#team-sidebar li.active{
-    color: var(--main-blue);
-    font-weight: bold;
+nav ul li.active {
+    color: var(--neutral-white);
+    border-bottom: 2px solid var(--neutral-white);
 }

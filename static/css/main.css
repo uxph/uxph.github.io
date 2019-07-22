@@ -1,67 +1,204 @@
-/* UXPH main stylsheet */
-
-/* component stylesheet imports */
-@import url(nav.css);
+/* importing other css files */
 @import url(button.css);
-@import url(header.css);
-@import url(section.css);
+@import url(nav.css);
 @import url(footer.css);
-@import url(mediaquery.css);
 
-:root{
-	--main-blue: #15B0DE;
-	--main-blue-dark: #007BBF;
-	--main-red: #EC3558;
-	--main-red-dark: #CE0000;
-	--main-pale: #F9F9F9;
+/* official accents */
+:root {
+    --primary-violet: #6a11cb;
+    --primary-blue: #2575fc;
+    --primary-pink: #ee609c;
+    --primary-purple: #b465da;
+    --primary-light-blue: #009efd;
+    --primary-green: #2af598;
 
-	font-family: 'Roboto', sans-serif;
-	color: #555555;
+    --secondary-red: #f83600;
+    --secondary-yellow: #f9d423;
+    --secondary-indigo: #020f75;
+
+    --neutral-black: #162135;
+    --neutral-gray: #878c95;
+    --neutral-peach: #ece1df;
+    --neutral-white: #ffffff;
+
+    --uxph-black: #182336;
+    --uxph-blue: #15B0DE;
+    --uxph-red: #EC3558;
+
+    --primary-blue-rgba: rgba(37, 117, 252, 0.5);
+    --primary-light-blue-rgba: rgba(0, 158, 253, 0.5);
+
+    font-family: 'DM Sans', sans-serif;
+    color: var(--neutral-black);
 }
 
-html, body{
-	margin: 0;
-	padding: 0;
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--neutral-black);
 }
 
-body{
-	margin-top: 62.59px;
+body {
+    box-sizing: border-box;
+    margin-top: 65px;
 }
 
-h1, h2, h3, h4, h5, h6{
-	font-weight: normal;
-	color: black;
+h1#main-headline {
+    font-size: 2.2em;
 }
 
-p{
-	font-weight: lighter;
-	line-height: 1.8em;
-	font-size: 1em;
+p#main-excerpt {
+    font-size: 1.1em;
 }
 
-a{
-	color: inherit;
-	text-decoration: none;
+p#main-excerpt i {
+    display: inline-block;
+    margin-right: 1em;
 }
 
-b{
-	font-weight: normal;
-	color: black;
+b {
+    font-weight: bolder;
 }
 
-ul li{
-	font-weight: lighter;
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.blue{
-	color: var(--main-blue);
+a.text-link {
+    color: var(--primary-light-blue);
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    transition: ease all 0.2s;
 }
 
-.red{
-	color: var(--main-red);
+a.text-link i.fa {
+    font-size: 1.3em;
 }
 
-div.wrapper{
-	width: 60em;
-	margin: auto;
+a.text-link:hover {
+    color: var(--primary-blue);
+}
+
+p {
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1.9em;
+}
+
+header, section {
+    padding: 5em 0;
+}
+
+.blue {
+    color: var(--primary-light-blue);
+}
+
+.red {
+    color: var(--uxph-red);
+}
+
+.purple {
+    color: var(--primary-purple);
+}
+
+.pink {
+    color: var(--primary-pink);
+}
+
+.green {
+    color: var(--primary-green);
+}
+
+.yellow {
+    color: var(--secondary-yellow);
+}
+
+div.wrapper {
+    width: 50em;
+    margin: auto;
+}
+
+/* section styling */
+.dark {
+    background-color: var(--neutral-black);
+    color: var(--neutral-white);
+}
+
+section.featured > div.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.featured img.featured-image {
+    display: block;
+    width: 18em;
+    margin-right: 3em;
+}
+
+section.featured.reversed > div.wrapper {
+    flex-direction: row-reverse;
+}
+
+section.featured.reversed img.featured-image {
+    margin-right: 0;
+    margin-left: 3em;
+}
+
+/* Other roadshow styling */
+div#other-roadshow {
+    display: flex;
+}
+
+div#other-roadshow div.content-wrapper {
+    padding: 1em 2em;
+    margin-right: 1em;
+    border-radius: 0.3em;
+    border: 2px solid var(--neutral-white);
+}
+
+div#other-roadshow div.content-wrapper * {
+    margin: 0;
+    padding: 0;
+}
+
+div#other-roadshow div#davao-roadshow {
+    border-color: var(--primary-green);
+    color: var(--primary-green);
+}
+
+div#other-roadshow div#manila-roadshow {
+    border-color: var(--primary-purple);
+    color: var(--primary-purple);
+}
+
+/* program flow styling */
+div.marker i {
+    font-size: 1.4em;
+}
+
+div.marker span {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+div.timeline {
+    border-left: 2px solid var(--neutral-white);
+    margin-left: 0.55em;
+    padding-left: 2em;
+    padding-top: 0em;
+    padding-bottom: 3em;
+}
+
+div.timeline .activity-name {
+    margin: 0;
+    padding: 0;
+}
+
+/* map styling */
+img#map {
+    display: block;
+    width: 100%;
+    border-radius: 0.3em;
 }

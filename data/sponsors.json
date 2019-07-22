@@ -1,0 +1,7 @@
+{
+	"sponsor_name": {
+		"logo": "<image url>",
+		"name": "<insert sponsor name here>",
+		"type": "What type of sponsor is this?"
+	}
+}

@@ -1,8 +1,8 @@
-/* UXPH footer stylesheet */
+/* footer stylesheet */
 
 footer{
     padding: 5em 0;
-    background-color: #182336;
+    background-color: var(--neutral-black);
     color: white;
 }
 
