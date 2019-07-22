@@ -1,10 +1,17 @@
 $(document).ready(function(){
     $('#close').click(function(){
         $('#mobile-nav').addClass("hide");
+        $('#negative').addClass("hide");
+    });
+
+    $('#negative').click(function(){
+        $('#mobile-nav').addClass("hide");
+        $('#negative').addClass("hide");
     });
 
     $('#hamburger').click(function(){
         $('#mobile-nav').removeClass("hide");
+        $('#negative').removeClass("hide");
     });
 });
 

@@ -69,6 +69,21 @@ nav#mobile-nav.hide {
     right: -50em;
 }
 
+div#negative {
+    position: fixed;
+    width: 17%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: transparent;
+    transition: ease all 0.3s;
+    z-index: 999;
+}
+
+div#negative.hide {
+    left: -50em;
+}
+
 nav#mobile-nav img#close {
     display: block;
     width: 1.5em;
