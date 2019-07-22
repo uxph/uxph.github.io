@@ -1,0 +1,50 @@
+/* responsive web design */
+
+@media only screen and (max-width: 768px) {
+    div.wrapper {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    #web-nav {
+        display: none !important;
+    }
+
+    #hamburger {
+        display: block !important;
+    }
+
+    div.wrapper {
+        width: 90% !important;
+    }
+
+    nav {
+        padding: 1em 0 !important;
+    }
+
+    section.featured > div.wrapper {
+        flex-direction: column !important;
+    }
+
+    section.featured.reversed > div.wrapper {
+        flex-direction: column !important;
+    }
+
+    section.featured > div.wrapper img.featured-image {
+        margin: 0 auto !important;
+    }
+
+    footer div.column-content {
+        flex-direction: column !important;
+    }
+
+    footer > div.wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer #social-media {
+        margin-top: 2em !important;
+    }
+}

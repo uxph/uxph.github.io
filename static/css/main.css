@@ -2,6 +2,7 @@
 @import url(button.css);
 @import url(nav.css);
 @import url(footer.css);
+@import url(responsive.css);
 
 /* official accents */
 :root {
@@ -41,6 +42,11 @@ html, body {
 body {
     box-sizing: border-box;
     margin-top: 65px;
+}
+
+#hamburger {
+    display: none;
+    width: 2em;
 }
 
 h1#main-headline {
@@ -161,6 +167,7 @@ div#other-roadshow div.content-wrapper {
 div#other-roadshow div.content-wrapper * {
     margin: 0;
     padding: 0;
+    line-height: 1.4em;
 }
 
 div#other-roadshow div#davao-roadshow {
