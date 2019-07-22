@@ -19,8 +19,21 @@
         width: 90% !important;
     }
 
+    div#other-roadshow {
+        flex-direction: column !important;
+    }
+
+    div#davao-roadshow {
+        margin-bottom: 1em !important;
+    }
+
     nav {
         padding: 1em 0 !important;
+    }
+
+    nav#mobile-nav{
+        display: block !important;
+        padding: 1.5em !important;
     }
 
     section.featured > div.wrapper {

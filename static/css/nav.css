@@ -43,5 +43,44 @@ nav ul li:hover {
 
 nav ul li.active {
     color: var(--neutral-white);
-    border-bottom: 2px solid var(--neutral-white);
+    border-bottom-color: var(--neutral-white);
+}
+
+#hamburger {
+    display: none;
+    width: 1.5em;
+}
+
+nav#mobile-nav {
+    position: fixed;
+    top: 0;
+    right: 0em;
+    width: 83%;
+    height: 100%;
+    display: none;
+    padding: 2em 3em;
+    background-color: var(--neutral-black);
+    z-index: 999;
+    box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.5);
+    transition: ease all 0.3s;
+}
+
+nav#mobile-nav.hide {
+    right: -50em;
+}
+
+nav#mobile-nav img#close {
+    display: block;
+    width: 1.5em;
+}
+
+nav#mobile-nav ul li {
+    display: block;
+    text-align: left;
+    border-bottom: thin solid var(--neutral-gray);
+}
+
+nav#mobile-nav ul li.active {
+    color: var(--neutral-white);
+    border-bottom-color: var(--neutral-white);
 }

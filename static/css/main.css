@@ -44,11 +44,6 @@ body {
     margin-top: 65px;
 }
 
-#hamburger {
-    display: none;
-    width: 2em;
-}
-
 h1#main-headline {
     font-size: 2.2em;
 }
@@ -94,7 +89,7 @@ p {
 }
 
 header, section {
-    padding: 5em 0;
+    padding: 2em 0;
 }
 
 .blue {
@@ -130,6 +125,10 @@ div.wrapper {
 .dark {
     background-color: var(--neutral-black);
     color: var(--neutral-white);
+}
+
+section.featured {
+    padding: 5em 0;
 }
 
 section.featured > div.wrapper {
