@@ -72,6 +72,9 @@ nav#mobile-nav.hide {
 nav#mobile-nav img#close {
     display: block;
     width: 1.5em;
+    height: 1.5em;
+    margin: 0;
+    padding: 0;
 }
 
 nav#mobile-nav ul li {
