@@ -23,6 +23,10 @@
         flex-direction: column !important;
     }
 
+    div#other-roadshow div.content-wrapper {
+        margin-right: 0 !important;
+    }
+
     div#davao-roadshow {
         margin-bottom: 1em !important;
     }
