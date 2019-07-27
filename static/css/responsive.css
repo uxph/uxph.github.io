@@ -4,9 +4,17 @@
     div.wrapper {
         width: 90% !important;
     }
+
+    img#event-banner {
+        width: 100% !important;
+    }
 }
 
 @media only screen and (max-width: 675px) {
+    img#event-banner {
+        width: 100% !important;
+    }
+
     #web-nav {
         display: none !important;
     }
