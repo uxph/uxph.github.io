@@ -9,7 +9,7 @@
 
         <header id="index-edition">
             <div class="wrapper">
-                <img src="assets/event-images/event-banner.jpg" class="event-banner" />
+                <img src="assets/event-images/event-banner.png" class="event-banner" />
                 <img src="assets/event-images/event-square.jpg" class="event-square" />
             </div>
         </header>
@@ -64,77 +64,6 @@
                 </div>
             </div>
         </section>
-        <!--
-        <section class="speaker-featured">
-            <div class="wrapper">
-                <h2>Speakers</h2>
-                <div class="carousel">
-                    {{ range .Site.Data.speakers }}
-                    <div class="content-wrapper">
-                        <div>
-                            <img src="{{ .img }}"/>
-                            <h3>{{ .name }}</h3>
-                            <p>{{ .topic }}</p>
-                        </div>
-                        <button>More Info</button>
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
-        </section>
-        <section class="speaker-featured">
-            <div class="wrapper">
-                <h2>Workshop Facilitators</h2>
-                <div class="carousel">
-                    {{ range .Site.Data.speakers }}
-                    <div class="content-wrapper">
-                        <div>
-                            <img src="{{ .img }}"/>
-                            <h3>{{ .name }}</h3>
-                            <p>{{ .topic }}</p>
-                        </div>
-                        <button>More Info</button>
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
-        </section>
-        <section class="schedule-featured">
-            <div class="wrapper">
-                <h2>Schedule</h2>
-                <div class="day-wrapper">
-                    <div>
-                        <h4 class="red">Saturday, May 26</h4>
-                        <h3 class="blue">DAY ONE</h3>
-
-                        {{ range .Site.Data.day_one }}
-                        <div class="content-wrapper">
-                            <p class="time">{{ .time }}</p>
-                            <div class="event">
-                                <p><b>{{ .agenda }}<b></p>
-                                <p>{{ .facilitator }}</p>
-                            </div>
-                        </div>
-                        {{ end }}
-                    </div>
-                    <div>
-                        <h4 class="red">Sunday, May 27</h4>
-                        <h3 class="blue">DAY TWO</h3>
-                        {{ range .Site.Data.day_one }}
-                        <div class="content-wrapper">
-                            <p class="time">{{ .time }}</p>
-                            <div class="event">
-                                <p><b>{{ .agenda }}<b></p>
-                                <p>{{ .facilitator }}</p>
-                            </div>
-                        </div>
-                        {{ end }}
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="gmaps"></section>
-        -->
         {{ partial "components/footer" (dict "path" "") }}
         <script>setActive(0)</script>
     </body>
