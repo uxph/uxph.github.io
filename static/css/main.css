@@ -17,7 +17,8 @@
     --secondary-yellow: #f9d423;
     --secondary-indigo: #020f75;
 
-    --neutral-black: #162135;
+    /*--neutral-black: #162135;*/
+    --neutral-black: #130f2e;
     --neutral-gray: #878c95;
     --neutral-peach: #ece1df;
     --neutral-white: #ffffff;
@@ -200,7 +201,7 @@ div.timeline {
     margin-left: 0.55em;
     padding-left: 2em;
     padding-top: 0em;
-    padding-bottom: 3em;
+    padding-bottom: 1.2em;
 }
 
 div.timeline .activity-name {
