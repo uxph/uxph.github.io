@@ -41,11 +41,11 @@
 
     div#speaker-wrapper div.content-wrapper {
         flex-direction: column !important;
+        align-items: flex-start !important;
     }
 
     div#speaker-wrapper img.featured-image {
         margin: 0 !important;
-        align-items: flex-start;
     }
 
     nav {
