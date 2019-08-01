@@ -1,0 +1,45 @@
+{
+	"MNL": {
+		"speaker": {
+			"photo": "<image url>",
+			"name": "<insert name here>",
+			"topic": "<insert topic here>",
+			"bio": "<insert bio here>"
+		}
+	},
+
+	"CBU": {
+		"a": {
+			"photo": "https://www.uxphilippines.com/henry.png",
+			"name": "Henry Nahurski",
+			"topic": "\"How might we..\": Giving and Receiving Better Feedback in UX and Design",
+			"excerpt": "Henry Nahurski is a User Experience (UX) Designer at HealthPartners, an integrated, nonprofit health care provider and health insurance company. He has a Bachelor of Fine Arts, Major in Art & Graphic Design from the University of Minnesota-Twin Cities.",
+			"bio": "Henry Nahurski is a User Experience (UX) Designer at HealthPartners, an integrated, nonprofit health care provider and health insurance company located in Bloomington, Minnesota, USA. Prior to that, he was a UX Designer at Honeywell International where he designed end-to-end experiences of residential, commercial, and industrial products and services. Henry's career in UX started with a UX Apprenticeship at The Nerdery. He has a Bachelor of Fine Arts, Major in Art & Graphic Design from the University of Minnesota-Twin Cities. He has a passion for gathering and analyzing information about the world and the way people behave—and using that knowledge to create visions of the future. In his free time, he likes exploring new places, spending time outdoors, and playing music with his friends."
+		},
+
+		"b": {
+			"photo": "https://www.uxphilippines.com/sherman.png",
+			"name": "Paul Sherman, PH.D.",
+			"topic": "Transformative User Research at the Speed of Business: A field research primer and toolkit",
+			"excerpt": "is an Assistant Professor and Program Coordinator at Kent State’s Master of Science program in User Experience Design.",
+			"bio": "Paul Sherman, Ph.D. has worked in the field of usability and user-centered design since the days of dial-up. He has conducted user research, usability testing and UX/UI design for mobile, web and desktop products and services in a number of domains, including security, telecom, banking, accounting and tax preparation applications, financial planning and portfolio management applications, ecommerce sites and online mobile game apps. He also creates and teaches graduate courses at Kent State’s Master of Science program in User Experience Design, where is he an Assistant Professor and Program Coordinator. \n During the 2000’s he was Senior Director of User-Centered Design at Sage Software in Atlanta, Georgia, where he led efforts to redesign the UI and workflow for Peachtree Accounting and several other business management desktop and web-based products. He was also a User-Centered Design Manager at Intuit. In the 1990s he was a Member of Technical Staff at Lucent Technologies in New Jersey. Paul received his Ph.D. in 1997 from the University of Texas at Austin."
+		},
+
+		"c": {
+			"photo": "https://www.uxphilippines.com/ben.jpg",
+			"name": "Ben Kim",
+			"topic": "Evangelizing UX and Design Culture within Organizations",
+			"excerpt": "Ben Kim is the Head of Design & UX for the iPrice Group, an e-commerce platform operating in 7 countries in Asia, including the Philippines. He leads a team of designers, researchers, and developers in ushering user-centered products for the organization.",
+			"bio": "Ben Kim is the Head of Design & UX for the iPrice Group, an e-commerce platform operating in 7 countries in Asia, including the Philippines. He leads a team of designers, researchers, and developers in ushering user-centered products for the organization. Ben is also the Founder of Apical Design, where he mentors ASEAN Startups in UX, Design, and Product Strategy. In the past, he has partnered with a wide variety of companies including Silicon Valley startups, Lexus, investment banks, international publishing companies, and Fortune Global 100 corporations."
+		}
+	},
+
+	"DVO": {
+		"speaker": {
+			"photo": "<image url>",
+			"name": "<insert name here>",
+			"topic": "<insert topic here>",
+			"bio": "<insert bio here>"
+		}
+	}
+}

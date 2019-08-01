@@ -1,3 +1,17 @@
+<div id="modal">
+    <div class="wrapper">
+        <div id="modal-wrapper">
+            <img src="../assets/icons/close.svg" id="modal-close" />
+            <br/>
+            <div class="content-wrapper">
+                <!-- auto-generated content -->
+            </div>
+        </div>
+        <br/><br/><br/><br/><br/>
+    </div>
+    <div id="overlay"></div>
+</div>
+
 <section class="dark">
     <div class="wrapper">
         <img src="../assets/event-images/cebu-banner.jpg" id="event-banner" />
@@ -23,6 +37,25 @@
         <p>
             For this event, we are expecting over 100 professionals not only in visual design, industrial design, user interface design and user experience design, but also professionals who are interested in product development with applications in both tech and non-tech businesses.
         </p>
+    </div>
+</section>
+<section class="dark">
+    <div class="wrapper">
+        <h2>Speakers</h2>
+        <div id="speaker-wrapper">
+            {{ range .Site.Data.speakers.CBU }}
+            <script type="text/javascript">addProfile({{ .name }}, {{ .bio }}, {{ .photo }});</script>
+            <div class="content-wrapper">
+                <img src="{{ .photo }}" class="featured-image" />
+                <div>
+                    <h2>{{ .name }}</h2>
+                    <h3 class="yellow">{{ .topic }}</h3>
+                    <p>{{ .excerpt }}</p>
+                    <button class="hollow" onclick="updateModalSpeaker({{ .name }})">More info</button>
+                </div>
+            </div>
+            {{ end }}
+        </div>
     </div>
 </section>
 <section class="dark">

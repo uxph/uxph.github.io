@@ -84,12 +84,18 @@ div#negative.hide {
     left: -50em;
 }
 
-nav#mobile-nav img#close {
+nav#mobile-nav img#close, img#modal-close {
     display: block;
     width: 1.5em;
     height: 1.5em;
     margin: 0;
     padding: 0;
+    cursor: pointer;
+}
+
+img#modal-close {
+    width: 1em;
+    height: 1em;
 }
 
 nav#mobile-nav ul li {
