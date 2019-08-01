@@ -4,7 +4,8 @@
         "description": "We hold a lot of meetups and workshops at various co-working spaces and tech offices. If you'd like to showcase your space and support our growing community, we'd love to talk. Download our Sponsorship Package to get started!",
         "hook": "Send us an email at <b class=\"blue\">info@uxph.org</b> or download our Sponsorship Package to get started.",
         "img": "assets/images/illustration_3.svg",
-        "placement":"right"
+        "placement":"right",
+        "url": "https://drive.google.com/file/d/1w6vTJZezoKKw4wK_0MaVW_XrtkXuSpt4/view"
     },
 
     "b": {
@@ -12,6 +13,7 @@
         "description": "We're all for supporting the greater community! If your organization would like to learn more about UX and design practices, we'd love to help. We can have members of our organization visit your meetup and share some information and insight. We'd be happy to have members of other organizations visit our events as well to do the same.",
         "hook": "Send us a message at <b class=\"blue\">info@uxph.org</b>.",
         "img": "assets/images/illustration_1.svg",
-        "placement":"left"
+        "placement":"left",
+        "url": "https://drive.google.com/file/d/1w6vTJZezoKKw4wK_0MaVW_XrtkXuSpt4/view"
     }
 }
