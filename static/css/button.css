@@ -25,7 +25,7 @@ button:hover {
 
 button.hollow {
 	background-color: transparent;
-    border: 2px solid var(--primary-light-blue);
+	border: 2px solid var(--primary-light-blue);
 	color: var(--primary-light-blue);
 	box-shadow: none;
 }

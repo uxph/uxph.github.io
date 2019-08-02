@@ -1,65 +1,65 @@
 /* footer stylesheet */
 
 footer{
-    padding: 5em 0;
-    background-color: var(--neutral-black);
-    color: white;
+	padding: 5em 0;
+	background-color: var(--neutral-black);
+	color: white;
 }
 
 footer div.wrapper{
-    display: flex;
+	display: flex;
 }
 
 footer #copyright{
-    margin-right: 5em;
+	margin-right: 5em;
 }
 
 footer #footer-logo{
-    display: block;
-    width: 10em;
+	display: block;
+	width: 10em;
 }
 
 footer p{
-    line-height: 1.5em;
-    font-size: 1em;
+	line-height: 1.5em;
+	font-size: 1em;
 }
 
 footer h3, footer h5{
-    color: white;
-    margin: 0;
+	color: white;
+	margin: 0;
 }
 
 footer h3{
-    font-size: 1.3em;
+	font-size: 1.3em;
 }
 
 footer h5{
-    font-size: 0.9em;
+	font-size: 0.9em;
 }
 
 footer .column-content{
-    display: flex;
+	display: flex;
 }
 
 footer a{
-    color: #cccccc;
-    font-weight: lighter;
-    margin: 1em 0;
-    font-size: 0.9em;
+	color: #cccccc;
+	font-weight: lighter;
+	margin: 1em 0;
+	font-size: 0.9em;
 }
 
 footer div.content-wrapper{
-    margin: 1.5em 0;
-    margin-right: 3.5em;
+	margin: 1.5em 0;
+	margin-right: 3.5em;
 }
 
 footer div.content-wrapper > div{
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 footer .ic{
-    display: block;
-    margin-right: 0.7em;
-    width: 1.5em;
+	display: block;
+	margin-right: 0.7em;
+	width: 1.5em;
 }
