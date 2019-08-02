@@ -282,8 +282,8 @@ div#speaker-wrapper div.content-wrapper {
 
 div#speaker-wrapper div.content-wrapper img.featured-image {
     display: block;
-    width: 15em;
-    height: 15em;
+    width: 15em !important;
+    height: 15em !important;
     margin-right: 2em;
     border-radius: 100%;
 }
