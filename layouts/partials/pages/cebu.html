@@ -30,7 +30,7 @@
     </div>
     <br/><br/><br/>
     <div class="wrapper">
-        <h2>Description</h2>
+        <h1 class="section-heading">Description</h1>
         <p>
             On the <span class="yellow">31st of August</span>, we will be celebrating the Cebu leg of the UXPH National Roadshow themed "<span class="yellow">Cultivating Design Culture.</span>" This is part of a national effort to spread the knowledge of user experience design not only to tech professionals but also to business who would greatly benefit from its processes and methodology.
         </p>
@@ -39,9 +39,9 @@
         </p>
     </div>
 </section>
-<section class="dark">
+<section class="dark alternate">
     <div class="wrapper">
-        <h2>Speakers</h2>
+        <h1 class="section-heading">Speakers</h1>
         <div id="speaker-wrapper">
             {{ range .Site.Data.speakers.CBU }}
             <script type="text/javascript">addProfile({{ .name }}, {{ .bio }}, {{ .photo }});</script>
@@ -60,7 +60,7 @@
 </section>
 <section class="dark">
     <div class="wrapper">
-        <h1>Program Flow</h1>
+        <h1 class="section-heading">Program Flow</h1>
         <p><i>* Program details and speakers to be finalized closer to the event.</i></p>
         <br/>
 
@@ -75,14 +75,15 @@
         {{ end }}
     </div>
 </section>
-<section class="dark">
+<section class="dark alternate">
     <div class="wrapper">
-        <h1>Getting There</h1>
+        <h1 class="section-heading">Getting There</h1>
         <p>
             <b class="yellow">Full Address:</b>
             <br/>
             The Company Cebu IT Park West Geonzon Street, Cebu City, Central Visayas
         </p>
         <img src="../assets/maps/cebu.png" id="map" />
+        <br/>
     </div>
 </section>

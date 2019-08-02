@@ -102,6 +102,10 @@ h1#main-headline {
     font-size: 2.2em;
 }
 
+h1.section-heading {
+    font-size: 2em;
+}
+
 p#main-excerpt {
     font-size: 1.1em;
 }
@@ -179,6 +183,10 @@ div.wrapper {
 .dark {
     background-color: var(--neutral-black);
     color: var(--neutral-white);
+}
+
+.dark.alternate {
+    background-color:  var(--neutral-black-1);
 }
 
 section.featured {
