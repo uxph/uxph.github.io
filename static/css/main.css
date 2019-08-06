@@ -17,7 +17,7 @@
     --secondary-yellow: #f9d423;
     --secondary-indigo: #020f75;
 
-    /*--neutral-black: #162135;*/
+    --neutral-black-1: #0e0a24;
     --neutral-black: #130f2e;
     --neutral-gray: #878c95;
     --neutral-peach: #ece1df;
@@ -45,6 +45,58 @@ body {
     margin-top: 65px;
 }
 
+body.stiff {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+/* modal styling */
+div#modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    z-index: 1500;
+    padding: 5% 0;
+    display: none;
+    overflow-y: scroll;
+}
+
+div#overlay {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    position: absolute;
+}
+
+div#modal-wrapper {
+    background-color: var(--neutral-black);
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.7);
+    padding: 2em;
+    margin: auto;
+}
+
+div#modal-wrapper div.content-wrapper img.featured-image {
+    width: 15em;
+    /* height: 15em; */
+    display: block;
+    border-radius: 100%;
+    margin: auto;
+}
+
+div#modal-wrapper div.content-wrapper * {
+    text-align: center;
+}
+
+div#modal-wrapper div.content-wrapper p {
+    color: var(--neutral-white);
+}
+
 img#event-banner {
     width: 100%;
     border-radius: 0.7em;
@@ -53,6 +105,10 @@ img#event-banner {
 
 h1#main-headline {
     font-size: 2.2em;
+}
+
+h1.section-heading {
+    font-size: 2em;
 }
 
 p#main-excerpt {
@@ -134,6 +190,10 @@ div.wrapper {
     color: var(--neutral-white);
 }
 
+.dark.alternate {
+    background-color:  var(--neutral-black-1);
+}
+
 section.featured {
     padding: 5em 0;
 }
@@ -205,9 +265,14 @@ div.timeline {
     padding-bottom: 1.2em;
 }
 
+div.timeline.lunch {
+    border-left-color: transparent !important; 
+}
+
 div.timeline .activity-name {
     margin: 0;
     padding: 0;
+    font-size: 1.1em;
 }
 
 /* map styling */
@@ -215,4 +280,21 @@ img#map {
     display: block;
     width: 100%;
     border-radius: 0.3em;
+}
+
+/* speaker styling */
+div#speaker-wrapper div.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+    border-bottom: thin solid var(--neutral-black-1);
+}
+
+div#speaker-wrapper div.content-wrapper img.featured-image {
+    display: block;
+    width: 15em !important;
+    /* height: 240px !important; */
+    margin-right: 2em;
+    border-radius: 100%;
 }

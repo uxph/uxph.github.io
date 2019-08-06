@@ -39,6 +39,15 @@
         margin-bottom: 1em !important;
     }
 
+    div#speaker-wrapper div.content-wrapper {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    div#speaker-wrapper img.featured-image {
+        margin: 0 !important;
+    }
+
     nav {
         padding: 1em 0 !important;
     }

@@ -1,0 +1,87 @@
+{
+	"MNL": {
+		"speaker": {
+			"photo": "<image url>",
+			"name": "<insert name here>",
+			"topic": "<insert topic here>",
+			"bio": "<insert bio here>"
+		}
+	},
+
+	"CBU": {
+		"a": {
+			"photo": "../assets/speakers/micael.png",
+			"name": "Micael Andrei Diaz de Rivera",
+			"topic": "Design, Data, and Analytics",
+			"excerpt": "Mica, who currently handles Design Ops at Make, is a software developer turned experience designer. He has over a decade of combined work experience touching both local and international products and brands.",
+			"bio": "Mica is a software developer turned experience designer and has had over a decade of combined work experience touching both local and international products and brands. His fascination for data, analytics, and statistics has led him to work on initiatives that dabble in the quantitative measurement of user experiences. On extraordinary days you’d find him alone in the plains of Mongolia or in the streets of Kolkata finding ways to connect life experiences to experience design. He currently handles Design Operations at Make Technology by Ace Saatchi & Saatchi."
+		},
+
+		"b": {
+			"photo": "../assets/speakers/dae.png",
+			"name": "Dae Lee",
+			"topic": "Understanding behavioral psychology to influence better design and team culture",
+			"excerpt": "Dae Lee is a certified Lego® Serious Play® Facilitator and is currently a PhD candidate in organization development, while facilitating lectures and workshops to university students and companies internationally.",
+			"bio": "Dae specializes in company culture design. He focuses on building shared cultures by using unorthodox tools and methods for organizations to reach and sustain their peak potential. He has the goal of making each member of an organization understand why they’re there, what they need to do, and make them choose to stay because they want to and not because they have to.  His human-centered approach emanates from deep-seated empathy and disciplined structure from his product design background, further cemented through a profound understanding of the human psyche through intensive practice of military psychology under the United Nations Armistice Commission.  Currently he is a certified Lego® Serious Play® Facilitator and is currently a PhD candidate in organization development, while facilitating lectures and workshops to university students and companies internationally."
+		},
+
+		"c": {
+			"photo": "../assets/speakers/fish.png",
+			"name": "Fish Ibasco",
+			"topic": "Managing large, decentralized design teams",
+			"excerpt": "Fish Ibasco, one of the Experience Design Leads at Accenture Interactive's Experience Design Studio, has been helping build the internal UX capability to put the Philippines on the map as a trusted studio for UX consultancy.",
+			"bio": "Fish Ibasco is one of the Experience Design Leads at Accenture Interactive’s Experience Design Studio. She has been helping shape and build the internal UX capability to put the Philippines on the map as a trusted studio for UX consultancy. Throughout her 6+ year journey, she has augmented product and design teams across the globe as an interaction and interface designer for digital platforms. Her major challenge presently is streamlining studio DesignOps and slaying monsters at Monster Hunter World."
+		}
+	},
+
+	"workshop_CBU": {
+		"a": {
+			"photo": "../assets/speakers/edzel.png",
+			"name": "Edzel Rubite",
+			"topic": "Figma 101",
+			"excerpt": "Edzel, a UI/UX Team Lead Designer at Ripeconcepts, is a self-taught designer for more than 10 years, who started as a graphic designer turned digital product designer. He also organized the first Cebu Behance Portfolio Review and Cebu Dribbble Meetup.",
+			"bio": "Edzel is a self-taught designer for more than 10 years started as a graphic designer turned digital product designer. Passionate about art and design in general, co-founded DesignUbec, an annual art+design exhibit, started building design community by organizing the first Cebu Behance Portfolio Review and Cebu Dribbble Meetup. Currently he is working as a UI/UX Team Lead Designer at Ripeconcepts."
+		},
+
+		"b": {
+			"photo": "../assets/speakers/jake.png",
+			"name": "Jake Mapalo",
+			"topic": "Figma 101",
+			"excerpt": "Jake is a freelance designer for 10 years who is passionate in designing interfaces and digital experiences. He currently leads a design movement called Bohol Creatives which aims to uplift and educate the visual design scene at Bohol.",
+			"bio": "Jake is a freelance designer for 10 years who is passionate in designing interfaces and digital experiences. Aside from his occasional hairfall and high-blood pressure, Jake is very actively in running and supporting the local design community. He currently leads a design movement called Bohol Creatives which aims to uplift and educate the visual design scene at Bohol. He also has co-organized and volunteered in multiple events such as the Sketch Meetup Cebu, Dribbble Meetup Cebu and the latest UXPH Roadshow."
+		},
+
+		"c": {
+			"photo": "../assets/speakers/mary.png",
+			"name": "Mary Rose Tan",
+			"topic": "Figma 101",
+			"excerpt": "Rose is a Product Designer at Symph. She loves designing interfaces as much as frontend development. She is also passionate in organizing design events and facilitating workshops for the local community, like FrontendFridays by Symph.",
+			"bio": "Rose is a Product Designer at Symph. She loves designing interfaces as much as frontend development. Aside from graduating at the top of her class (ehem, magna cum laude) – Rose is also passionate about helping organize design events and facilitating workshops for the local community. One of these events is FrontendFridays by Symph, which is a homegrown monthly meetup for designers and devs. She has also assisted in running design sprints for various events and in recent months conducted Figma workshops at Globe Telecom and during iHub's Digital Art Summer Workshop. If you don’t see her in the office, she’ll most likely be outside going on food trips, or doodling vivid illustrations of whatever her current muse is."
+		},
+
+		"d": {
+			"photo": "../assets/speakers/raine.png",
+			"name": "Raine Liao",
+			"topic": "Customer Journey Mapping",
+			"excerpt": "Raine is a Senior UX Designer at Home Credit, Philippines. Holding over 10 years industry experience, she was previously a freelance product designer, front-end developer, design researcher, and team lead at Cambridge University Press.",
+			"bio": "Raine is a Senior UX Designer at Home Credit, Philippines. Holding over 10 years industry experience, she was previously a freelance product designer, front-end developer, design researcher, and team lead at Cambridge University Press. She also conducts and facilitates design workshops focused on Customer Development and Research while mentoring designers in the local tech community."
+		},
+
+		"e": {
+			"photo": "../assets/speakers/angela.png",
+			"name": "Anj Garong",
+			"topic": "Usability Testing",
+			"excerpt": "Anj, a Product Design Manager at Sprout Solutions, is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups.",
+			"bio": "Anj is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups. She is immersed both in the academe and recently, in design communities, teaching Human-Centered Design at iACADEMY, and helping out Figma PH and UXSEA. Today, she spends most of her time in Sprout Solutions, a SaaS HR and Payroll technology startup, where she functions as a Product Design Manager, and she squeezes in workouts, movies, worship nights, and binge-sleeping for self-care."
+		}
+	},
+
+	"DVO": {
+		"speaker": {
+			"photo": "<image url>",
+			"name": "<insert name here>",
+			"topic": "<insert topic here>",
+			"bio": "<insert bio here>"
+		}
+	}
+}

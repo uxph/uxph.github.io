@@ -19,169 +19,113 @@
 		"a": {
 			"activity_id": 0,
 			"event_id": 0,
-			"name": "Egress for Booth Partners and Registration Start",
-			"time": "6:00am - 8:50am",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Registration Begins",
+			"time": "7:00 AM",
+			"type": "organizers"
 		},
 
 		"b": {
 			"activity_id": 1,
 			"event_id": 0,
-			"name": "UXPH & CebUXD Opening Remarks",
-			"time": "9:00am - 9:15am",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "UXPH & Co-Presenter Opening Remarks",
+			"time": "8:00 AM",
+			"type": "organizers"
 		},
 
 		"c": {
 			"activity_id": 2,
 			"event_id": 0,
-			"name": "Keynote 1 - Intro to Usability Testing",
-			"time": "9:15am - 10:00am",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Keynote Speaker: Micael Diaz de Rivera on Design, Data, and Analytics.",
+			"time": "8:30 AM",
+			"type": "keynote"
 		},
 
 		"d": {
 			"activity_id": 3,
 			"event_id": 0,
-			"name": "Keynote 2 - Importance of Functional Design",
-			"time": "10:00am - 10:45am",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Keynote Speaker: Dae Lee on Understanding behavioral psychology to influence better design and team culture",
+			"time": "9:30 AM",
+			"type": "keynote"
 		},
 
 		"e": {
 			"activity_id": 4,
 			"event_id": 0,
-			"name": "Keynote 3 - Business of UX Design",
-			"time": "10:45am - 11:30am",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Keynote Speaker: Patricia Ibasco on Managing large, decentralized design teams",
+			"time": "10:30 AM",
+			"type": "keynote"
 		},
 
 		"f": {
 			"activity_id": 5,
 			"event_id": 0,
-			"name": "Lunch Break",
-			"time": "12:00pm - 1:30pm",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Co-Presenter Activity",
+			"time": "11:30 AM",
+			"type": "organizers"
 		},
 
 		"g": {
 			"activity_id": 6,
 			"event_id": 0,
-			"name": "Convene in Main Hall for afternoon session instructions",
-			"time": "1:30pm",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Lunch Break",
+			"time": "12:00 PM",
+			"type": "break"
 		},
 
 		"h": {
 			"activity_id": 7,
 			"event_id": 0,
-			"name": "BREAKOUT WORKSHOPS START",
-			"time": "1:45pm - 4:30pm",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Workshop Preparations",
+			"time": "1:00 PM",
+			"type": "organizers"
 		},
 
 		"i": {
-			"activity_id": 8,
+			"activity_id": 7,
 			"event_id": 0,
-			"name": "Figma 101",
-			"time": "Workshop 1",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Workshop Tracks",
+			"time": "1:30 PM",
+			"type": "organizers"
 		},
 
 		"j": {
-			"activity_id": 9,
+			"activity_id": 8,
 			"event_id": 0,
-			"name": "Applying Usability Testing Principles in the Workplace",
-			"time": "Workshop 2",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Figma 101 with Edzel Rubite, Jake Mapalo, Mary Rose",
+			"time": "Workshop 1",
+			"type": "workshop"
 		},
 
 		"k": {
-			"activity_id": 10,
+			"activity_id": 9,
 			"event_id": 0,
-			"name": "How to Facilitate a Design Sprint 2.0 for your team",
-			"time": "Workshop 3",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Customer Journey Mapping with Raine Liao",
+			"time": "Workshop 2",
+			"type": "workshop"
 		},
 
 		"l": {
+			"activity_id": 10,
+			"event_id": 0,
+			"name": "Usability Testing with Anj Garong",
+			"time": "Workshop 3",
+			"type": "workshop"
+		},
+
+		"m": {
 			"activity_id": 11,
 			"event_id": 0,
-			"name": "Closing Program and Group Photo",
-			"time": "4:30pm - 5:30pm",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Co-Presenter Activity",
+			"time": "4:30pm",
+			"type": "organizers"
+		},
+
+		"n": {
+			"activity_id": 12,
+			"event_id": 0,
+			"name": "Closing Remarks",
+			"time": "5:00 PM",
+			"type": "organizers"
 		}
 	},
 
