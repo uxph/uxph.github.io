@@ -58,22 +58,46 @@
 		</div>
 	</div>
 </section>
+<section class="dark alternate">
+	<div class="wrapper">
+		<h1 class="section-heading">Workshop Facilitators</h1>
+		<div id="speaker-wrapper">
+			{{ range .Site.Data.speakers.workshop_CBU }}
+			<script type="text/javascript">addProfile({{ .name }}, {{ .bio }}, {{ .photo }});</script>
+			<div class="content-wrapper">
+				<img src="{{ .photo }}" class="featured-image" />
+				<div>
+					<h2>{{ .name }}</h2>
+					<h3 class="yellow">{{ .topic }}</h3>
+					<p>{{ .excerpt }}</p>
+					<button class="hollow" onclick="updateModalSpeaker({{ .name }})">More info</button>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
 <section class="dark">
 	<div class="wrapper">
 		<h1 class="section-heading">Program Flow</h1>
 		<p><i>* Program details and speakers to be finalized closer to the event.</i></p>
 		<br/>
-
 		{{ range .Site.Data.activities.CBU }}
-		<div class="marker">
-			<i class="fa fa-bullseye"></i>
-			<span class="time yellow">{{ .time }}</span>
-		</div>
-		<div class="timeline">
-			<p class="activity-name">{{ .name }}</p>
-		</div>
+			{{ $t := "break" }}
+			{{ if ne .type "workshop" }}
+				<div class="marker">
+					<i class="fa fa-bullseye {{ if eq .type $t }}yellow{{ end }}"></i>
+					<span class="time yellow">{{ .time }}</span>
+				</div>
+			{{ end }}
+			<div class="timeline {{ if eq .type $t }}lunch{{ end }}">
+				{{ if eq .type "workshop" }}<span class="time yellow">{{ .time }}</span>{{ end }}
+				<p class="activity-name {{ if eq .type $t }}yellow{{ end }}">{{ .name }}</p>
+			</div>
+			{{ if eq .type $t }}<br/><br/>{{ end }}
 		{{ end }}
 	</div>
+	<br/>
 </section>
 <section class="dark alternate">
 	<div class="wrapper">

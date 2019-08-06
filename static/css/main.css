@@ -265,9 +265,14 @@ div.timeline {
     padding-bottom: 1.2em;
 }
 
+div.timeline.lunch {
+    border-left-color: transparent !important; 
+}
+
 div.timeline .activity-name {
     margin: 0;
     padding: 0;
+    font-size: 1.1em;
 }
 
 /* map styling */
