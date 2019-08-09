@@ -3,6 +3,7 @@
 @import url(nav.css);
 @import url(footer.css);
 @import url(responsive.css);
+@import url(light.css);
 
 /* official accents */
 :root {
@@ -22,6 +23,7 @@
     --neutral-gray: #878c95;
     --neutral-peach: #ece1df;
     --neutral-white: #ffffff;
+    --neutral-whitish: #f9f9f9;
 
     --uxph-black: #182336;
     --uxph-blue: #15B0DE;
@@ -37,10 +39,10 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: var(--neutral-black);
 }
 
 body {
+    background-color: var(--neutral-black);
     box-sizing: border-box;
     margin-top: 65px;
 }
