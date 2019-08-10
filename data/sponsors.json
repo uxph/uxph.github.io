@@ -1,7 +1,33 @@
 {
-	"sponsor_name": {
-		"logo": "<image url>",
-		"name": "<insert sponsor name here>",
-		"type": "What type of sponsor is this?"
+	"community_partners": {
+		"art_n_nature": {
+			"logo": "sponsor-logos/art-n-nature.png",
+			"name": "Art n' Nature"
+		},
+
+		"cebuxd": {
+			"logo": "sponsor-logos/cebuxd.png",
+			"name": "CebuXD"
+		},
+
+		"collabox": {
+			"logo": "sponsor-logos/collabox.jpg",
+			"name": "CollaboX"
+		},
+
+		"home_credit": {
+			"logo": "sponsor-logos/home-credit.png",
+			"name": "Home Credit"
+		},
+
+		"symph": {
+			"logo": "sponsor-logos/symph.png",
+			"name": "Symph"
+		},
+
+		"uxdvo": {
+			"logo": "sponsor-logos/uxdvo.png",
+			"name": "UXDVO"
+		}
 	}
 }

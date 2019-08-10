@@ -27,6 +27,14 @@
         width: 90% !important;
     }
 
+    div#overview-wrapper {
+        flex-direction: column !important;
+    }
+
+    div#overview-wrapper > div {
+        max-width: 100% !important;
+    }
+
     div#other-roadshow {
         flex-direction: column !important;
     }
@@ -39,13 +47,21 @@
         margin-bottom: 1em !important;
     }
 
-    div#speaker-wrapper div.content-wrapper {
-        flex-direction: column !important;
-        align-items: flex-start !important;
+    div.speaker-wrapper { 
+        justify-content: space-between !important;
     }
 
-    div#speaker-wrapper img.featured-image {
-        margin: 0 !important;
+    div.speaker-wrapper div.content-wrapper {
+        align-items: center !important;
+        width: 40% !important;
+    }
+
+    div.speaker-wrapper img.featured-image {
+        width: 10em !important;
+    }
+
+    div#timeline-wrapper {
+        width: 100% !important;
     }
 
     nav {

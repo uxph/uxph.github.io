@@ -41,20 +41,37 @@
 				<br/><br/>
 			</div>
 		</section>
-		<section class="dark featured alternate">
+		<section class="dark alternate">
 			<div class="wrapper">
-				<img src="assets/illustrations/illustration_1.svg" class="featured-image" />
 				<div class="content-wrapper">
-					<h1>What is UXPH?</h1>
-					<p>
-						<b class="blue">UXPH</b> {{ .Site.Data.info.about }}
+					<h1 class="section-heading centered">What is UXPH?</h1>
+					<p class="centered">
+						<b class="blue">User Experience Philippines (UXPH)</b> {{ .Site.Data.info.about }}
 					</p>
-					<a href="{{ .Site.Data.info.facebook_page }}" target="_blank">
-						<button class="hollow">Join the Facebook Community</button>
+					<br/>
+					<p class="centered">
+						{{ .Site.Data.info.theme }}
+					</p>
+					<br/>
+					<a href="{{ .Site.Data.info.website }}" target="_blank">
+						<button class="hollow centered">More about UXPH</button>
 					</a>
+					<br/>
 				</div>
 			</div>
 		</section>
+		<section class="dark">
+			<div class="wrapper">
+				<h1 class="section-heading centered">Community Partners</h1>
+				<br/>
+				<div class="sponsor-wrapper">
+					{{ range .Site.Data.sponsors.community_partners }}
+					<img src="assets/{{ .logo }}" class="featured-image" />
+					{{ end }}
+				</div>
+			</div>
+		</section>
+		<!--
 		<section class="dark featured reversed">
 			<div class="wrapper">
 				<img src="assets/illustrations/illustration_2.svg" class="featured-image" />
@@ -81,6 +98,15 @@
 						<button class="hollow">Become a sponsor!</button>
 					</a>
 				</div>
+			</div>
+		</section>
+		-->
+		<section class="dark alternate">
+			<div class="wrapper">
+				<br/><br/><br/>
+				<h1 class="section-heading centered">Want to partner with us?</h1>
+				<p class="centered">If you’d like to partner with us for any or all of our events, please reach out to <span class="yellow">info@uxph.org</span>.</p>
+				<br/><br/><br/>
 			</div>
 		</section>
 		{{ partial "components/footer" (dict "path" "") }}

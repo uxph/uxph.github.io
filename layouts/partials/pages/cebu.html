@@ -15,74 +15,80 @@
 <section class="dark">
 	<div class="wrapper">
 		<img src="../assets/event-images/cebu-banner.png" id="event-banner" />
-		<br/>
-		<h1 id="main-headline">UXPH National Roadshow: Cebu</h1>
-		<p id="main-excerpt">
-			<i class="fa fa-calendar"></i>August 31, 2019
-			<br/>
-			<i class="fa fa-clock"></i>8:00 AM - 5:00 PM
-			<br/>
-			<i class="fa fa-map-marker-alt"></i>The Company CEBU, IT Park
-		</p>
-		<a href="https://www.eventbrite.com/e/uxph-national-roadshow-cebu-tickets-66096104227" target="_blank">
-			<button>Buy Tickets</button>
-		</a>
 	</div>
-	<br/><br/><br/>
-	<div class="wrapper">
-		<h1 class="section-heading">Description</h1>
-		<p>
-			On the <span class="yellow">31st of August</span>, we will be celebrating the Cebu leg of the UXPH National Roadshow themed "<span class="yellow">Cultivating Design Culture.</span>" This is part of a national effort to spread the knowledge of user experience design not only to tech professionals but also to business who would greatly benefit from its processes and methodology.
-		</p>
-		<p>
-			For this event, we are expecting over 100 professionals not only in visual design, industrial design, user interface design and user experience design, but also professionals who are interested in product development with applications in both tech and non-tech businesses.
-		</p>
-		<br/>
+</section>
+
+<section class="dark">
+	<div class="wrapper" id="overview-wrapper">
+		<div>
+			<h1 class="section-heading">UXPH Roadshow: Cebu</h1>
+			<p>
+				On the <span class="yellow">31st of August</span>, we will be celebrating the Cebu leg of the UXPH National Roadshow themed "<span class="yellow">Cultivating Design Culture.</span>" This is part of a national effort to spread the knowledge of user experience design not only to tech professionals but also to business who would greatly benefit from its processes and methodology.
+			</p>
+			<p>
+				For this event, we are expecting over 100 professionals not only in visual design, industrial design, user interface design and user experience design, but also professionals who are interested in product development with applications in both tech and non-tech businesses.
+			</p>
+			<br/>
+		</div>
+		<div class="overview-wrapper">
+			<p id="main-excerpt">
+				<img src="../assets/maps/cebu.png" id="map" />
+				<br/>
+				<i class="fa fa-calendar"></i>August 31, 2019
+				<br/>
+				<i class="fa fa-clock"></i>8:00 AM - 5:00 PM
+				<br/>
+				<i class="fa fa-map-marker-alt"></i>The Company CEBU, IT Park
+			</p>
+			<a href="https://www.eventbrite.com/e/uxph-national-roadshow-cebu-tickets-66096104227" target="_blank">
+				<button>Buy Tickets</button>
+			</a>
+		</div>
 	</div>
 </section>
 <section class="dark alternate">
 	<div class="wrapper">
-		<h1 class="section-heading">Speakers</h1>
-		<div id="speaker-wrapper">
+		<h1 class="section-heading centered">Speakers</h1>
+		<div class="speaker-wrapper">
 			{{ range .Site.Data.speakers.CBU }}
-			<script type="text/javascript">addProfile({{ .name }}, {{ .bio }}, {{ .photo }});</script>
-			<div class="content-wrapper">
+			<script type="text/javascript">addProfile({{ .name }}, {{ .title }}, {{ .topic }}, {{ .bio }}, {{ .photo }});</script>
+			<div class="content-wrapper" onclick="updateModalSpeaker({{ .name }})">
 				<img src="{{ .photo }}" class="featured-image" />
 				<div>
 					<h2>{{ .name }}</h2>
-					<h3 class="yellow">{{ .topic }}</h3>
-					<p>{{ .excerpt }}</p>
-					<button class="hollow" onclick="updateModalSpeaker({{ .name }})">More info</button>
+					<p class="yellow">{{ .title }}</p>
 				</div>
 			</div>
 			{{ end }}
 		</div>
+		<br/>
 	</div>
 </section>
 <section class="dark">
 	<div class="wrapper">
-		<h1 class="section-heading">Workshop Facilitators</h1>
-		<div id="speaker-wrapper">
+		<h1 class="section-heading centered">Workshop Facilitators</h1>
+		<div class="speaker-wrapper">
 			{{ range .Site.Data.speakers.workshop_CBU }}
-			<script type="text/javascript">addProfile({{ .name }}, {{ .bio }}, {{ .photo }});</script>
-			<div class="content-wrapper">
+			<script type="text/javascript">addProfile({{ .name }}, {{ .title }}, {{ .topic }}, {{ .bio }}, {{ .photo }});</script>
+			<div class="content-wrapper" onclick="updateModalSpeaker({{ .name }})">
 				<img src="{{ .photo }}" class="featured-image" />
 				<div>
 					<h2>{{ .name }}</h2>
 					<h3 class="yellow">{{ .topic }}</h3>
-					<p>{{ .excerpt }}</p>
-					<button class="hollow" onclick="updateModalSpeaker({{ .name }})">More info</button>
+					<p class="gray">{{ .title }}</p>
 				</div>
 			</div>
 			{{ end }}
 		</div>
+		<br/>
 	</div>
 </section>
 <section class="dark alternate">
 	<div class="wrapper">
-		<h1 class="section-heading">Program Flow</h1>
-		<p><i>* Program details and speakers to be finalized closer to the event.</i></p>
+		<h1 class="section-heading centered">Program Flow</h1>
+		<p class="centered"><i>* Program details and speakers to be finalized closer to the event.</i></p>
 		<br/>
+		<div id="timeline-wrapper">
 		{{ range .Site.Data.activities.CBU }}
 			{{ $t := "break" }}
 			{{ if ne .type "workshop" }}
@@ -97,18 +103,15 @@
 			</div>
 			{{ if eq .type $t }}<br/><br/>{{ end }}
 		{{ end }}
+		</div>
 	</div>
 	<br/>
 </section>
-<section class="dark">
+<section class="dark alternate">
 	<div class="wrapper">
-		<h1 class="section-heading">Getting There</h1>
-		<p>
-			<b class="yellow">Full Address:</b>
-			<br/>
-			The Company Cebu IT Park West Geonzon Street, Cebu City, Central Visayas
-		</p>
-		<img src="../assets/maps/cebu.png" id="map" />
-		<br/>
+		<br/><br/><br/>
+		<h1 class="section-heading centered">Want to partner with us?</h1>
+		<p class="centered">If you’d like to partner with us for any or all of our events, please reach out to <span class="yellow">info@uxph.org</span>.</p>
+		<br/><br/><br/>
 	</div>
 </section>

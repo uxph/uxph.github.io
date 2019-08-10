@@ -1,0 +1,12 @@
+<section class="dark">
+	<div class="wrapper">
+		<h1 class="section-heading centered">Community Partners</h1>
+		<br/>
+		<div class="sponsor-wrapper">
+			{{ .sponsors.community_partners.uxdvo.name }}
+			{{ range .sponsors.community_partners }}
+			<img src="../{{ .logo }}" class="featured-image">
+			{{ end }}
+		</div>
+	</div>
+</section>

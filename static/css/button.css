@@ -34,3 +34,8 @@ button.hollow:hover {
 	border-color: var(--primary-blue);
 	color: var(--primary-blue);
 }
+
+button.centered {
+	display: block;
+	margin: 0.5em auto;
+}
