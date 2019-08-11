@@ -24,6 +24,20 @@ body#light nav ul li.active {
     border-bottom-color: var(--primary-blue);
 }
 
+body#light nav.true-dark {
+	background-color: var(--neutral-black);
+}
+
+body#light nav.true-dark ul li:hover {
+    color: var(--primary-blue);
+    border-bottom: 2px solid var(--primary-blue);
+}
+
+body#light nav.true-dark ul li.active {
+    color: var(--primary-blue);
+    border-bottom-color: var(--primary-blue);
+}
+
 body#light section.dark {
 	background-color: var(--neutral-whitish);
 	color: var(--neutral-black);
@@ -31,6 +45,11 @@ body#light section.dark {
 
 body#light section.dark.alternate {
 	background-color: var(--neutral-white);
+}
+
+body#light section.true-dark {
+	background-color: var(--neutral-black);
+	color: var(--neutral-white);
 }
 
 body#light .yellow {
