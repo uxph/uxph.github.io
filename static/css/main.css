@@ -450,7 +450,7 @@ div.sponsor-wrapper img.featured-image:hover {
 /* flare styling */
 section {
 	opacity: 1;
-	transition: ease all 0.4s;
+	transition: ease all 0.3s;
 }
 
 .hidden {
