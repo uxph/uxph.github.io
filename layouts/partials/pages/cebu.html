@@ -51,7 +51,7 @@
 		<h1 class="section-heading centered">Speakers</h1>
 		<div class="speaker-wrapper">
 			{{ range .Site.Data.speakers.CBU }}
-			<script type="text/javascript">addProfile({{ .name }}, {{ .title }}, {{ .topic }}, {{ .bio }}, {{ .photo }});</script>
+			<script type="text/javascript">addProfile({{ .name }}, {{ .title }}, {{ .topic }}, {{ .bio }}, {{ .photo }}, {{ .linkedin }});</script>
 			<div class="content-wrapper" onclick="updateModalSpeaker({{ .name }})">
 				<img src="{{ .photo }}" class="featured-image" />
 				<div>
@@ -69,7 +69,7 @@
 		<h1 class="section-heading centered">Workshop Facilitators</h1>
 		<div class="speaker-wrapper">
 			{{ range .Site.Data.speakers.workshop_CBU }}
-			<script type="text/javascript">addProfile({{ .name }}, {{ .title }}, {{ .topic }}, {{ .bio }}, {{ .photo }});</script>
+			<script type="text/javascript">addProfile({{ .name }}, {{ .title }}, {{ .topic }}, {{ .bio }}, {{ .photo }}, {{ .linkedin }});</script>
 			<div class="content-wrapper" onclick="updateModalSpeaker({{ .name }})">
 				<img src="{{ .photo }}" class="featured-image" />
 				<div>

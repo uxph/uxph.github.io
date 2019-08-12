@@ -3,8 +3,8 @@
 // { name : [bio, photo] }
 var profiles = {};
 
-function addProfile(name, title, topic, bio, photo) {
-	profiles[name] = [title, topic, bio, photo];
+function addProfile(name, title, topic, bio, photo, linkedin) {
+	profiles[name] = [title, topic, bio, photo, linkedin];
 }
 
 function updateModalSpeaker(name) {
@@ -19,9 +19,9 @@ function updateModalSpeaker(name) {
 		<p>${profiles[name][2]}</p>
 		<br/>
 		<div class="social-wrapper">
-			<a href="#" target="blank"><i class="fas fa-globe"></i></a>
-			<a href="#" target="blank"><i class="fab fa-twitter"></i></a>
-			<a href="#" target="blank"><i class="fab fa-linkedin"></i></a>
+			<!--<a href="#" target="blank"><i class="fas fa-globe"></i></a>-->
+			<!--<a href="#" target="blank"><i class="fab fa-twitter"></i></a>-->
+			<a href="${profiles[name][4]}" target="blank"><i class="fab fa-linkedin"></i></a>
 		</div>
 		`
 		);
