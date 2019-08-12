@@ -32,6 +32,11 @@
 		"uxdvo": {
 			"logo": "sponsor-logos/uxdvo.png",
 			"name": "UXDVO"
+		},
+
+		"unisol": {
+			"logo": "sponsor-logos/unisol.png",
+			"name": "Unisol"
 		}
 	},
 
@@ -39,6 +44,11 @@
 		"cebuxd": {
 			"logo": "sponsor-logos/cebuxd.png",
 			"name": "CebuXD"
+		},
+
+		"unisol": {
+			"logo": "sponsor-logos/unisol.png",
+			"name": "Unisol"
 		}
 	},
 
