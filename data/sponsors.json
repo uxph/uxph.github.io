@@ -1,13 +1,15 @@
 {
-	"community_partners": {
+	"copresenters": {
+		"home_credit": {
+			"logo": "sponsor-logos/home-credit.png",
+			"name": "Home Credit"
+		}
+	},
+
+	"sponsors": {
 		"art_n_nature": {
 			"logo": "sponsor-logos/art-n-nature.png",
 			"name": "Art n' Nature"
-		},
-
-		"cebuxd": {
-			"logo": "sponsor-logos/cebuxd.png",
-			"name": "CebuXD"
 		},
 
 		"collabox": {
@@ -15,16 +17,32 @@
 			"name": "CollaboX"
 		},
 
-		"home_credit": {
-			"logo": "sponsor-logos/home-credit.png",
-			"name": "Home Credit"
-		},
-
 		"symph": {
 			"logo": "sponsor-logos/symph.png",
 			"name": "Symph"
+		}
+	},
+
+	"partners_all": {
+		"cebuxd": {
+			"logo": "sponsor-logos/cebuxd.png",
+			"name": "CebuXD"
 		},
 
+		"uxdvo": {
+			"logo": "sponsor-logos/uxdvo.png",
+			"name": "UXDVO"
+		}
+	},
+
+	"partners_cbu": {
+		"cebuxd": {
+			"logo": "sponsor-logos/cebuxd.png",
+			"name": "CebuXD"
+		}
+	},
+
+	"partners_dvo": {
 		"uxdvo": {
 			"logo": "sponsor-logos/uxdvo.png",
 			"name": "UXDVO"

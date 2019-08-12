@@ -18,7 +18,7 @@
 	</div>
 </section>
 
-<section class="dark alternate hidden">
+<section class="dark hidden">
 	<div class="wrapper" id="overview-wrapper">
 		<div>
 			<h1 class="section-heading">UXPH Roadshow: Cebu</h1>
@@ -46,7 +46,7 @@
 		</div>
 	</div>
 </section>
-<section class="dark hidden">
+<section class="dark alternate hidden">
 	<div class="wrapper">
 		<h1 class="section-heading centered">Speakers</h1>
 		<div class="speaker-wrapper">
@@ -64,7 +64,7 @@
 		<br/>
 	</div>
 </section>
-<section class="dark alternate hidden">
+<section class="dark hidden">
 	<div class="wrapper">
 		<h1 class="section-heading centered">Workshop Facilitators</h1>
 		<div class="speaker-wrapper">
@@ -83,7 +83,7 @@
 		<br/>
 	</div>
 </section>
-<section class="dark hidden">
+<section class="dark alternate hidden">
 	<div class="wrapper">
 		<h1 class="section-heading centered">Program Flow</h1>
 		<p class="centered"><i>* Program details and speakers to be finalized closer to the event.</i></p>
@@ -99,13 +99,44 @@
 			{{ end }}
 			<div class="timeline {{ if eq .type $t }}lunch{{ end }}">
 				{{ if eq .type "workshop" }}<span class="time yellow">{{ .time }}</span>{{ end }}
-				<p class="activity-name {{ if eq .type $t }}yellow{{ end }}">{{ .name }}</p>
+				<p class="activity-name {{ if eq .type $t }}yellow{{ end }}">
+					{{ .name }}
+					{{ if ne .sub "N/A" }}<br/><span class="gray">{{ .sub }}</span>{{ end }}
+				</p>
 			</div>
 			{{ if eq .type $t }}<br/><br/>{{ end }}
 		{{ end }}
 		</div>
 	</div>
 	<br/>
+</section>
+<section class="dark true-dark hidden">
+	<div class="wrapper">
+		<h1 class="section-heading centered">Our Co-presenter</h1>
+		<div class="sponsor-wrapper">
+			{{ range .Site.Data.sponsors.copresenters }}
+			<img src="../assets/{{ .logo }}" class="featured-image" />
+			{{ end }}
+		</div>
+
+		<br/>
+
+		<h1 class="section-heading centered">Sponsors</h1>
+		<div class="sponsor-wrapper">
+			{{ range .Site.Data.sponsors.sponsors }}
+			<img src="../assets/{{ .logo }}" class="featured-image" />
+			{{ end }}
+		</div>
+
+		<br/>
+
+		<h1 class="section-heading centered">Community Partners</h1>
+		<div class="sponsor-wrapper">
+			{{ range .Site.Data.sponsors.partners_cbu }}
+			<img src="../assets/{{ .logo }}" class="featured-image" />
+			{{ end }}
+		</div>
+	</div>
 </section>
 <section class="dark alternate hidden">
 	<div class="wrapper">

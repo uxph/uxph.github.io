@@ -20,6 +20,7 @@
 			"activity_id": 0,
 			"event_id": 0,
 			"name": "Registration Begins",
+			"sub": "",
 			"time": "7:00 AM",
 			"type": "organizers"
 		},
@@ -28,6 +29,7 @@
 			"activity_id": 1,
 			"event_id": 0,
 			"name": "UXPH & Co-Presenter Opening Remarks",
+			"sub": "",
 			"time": "8:00 AM",
 			"type": "organizers"
 		},
@@ -35,7 +37,8 @@
 		"c": {
 			"activity_id": 2,
 			"event_id": 0,
-			"name": "Keynote Speaker: Micael Diaz de Rivera on Design, Data, and Analytics.",
+			"name": "Keynote Speaker: Micael Diaz de Rivera",
+			"sub": "Design, Data, and Analytics",
 			"time": "8:30 AM",
 			"type": "keynote"
 		},
@@ -43,7 +46,8 @@
 		"d": {
 			"activity_id": 3,
 			"event_id": 0,
-			"name": "Keynote Speaker: Dae Lee on Understanding behavioral psychology to influence better design and team culture",
+			"name": "Keynote Speaker: Dae Lee",
+			"sub": "Understanding behavioral psychology to influence better design and team culture",
 			"time": "9:30 AM",
 			"type": "keynote"
 		},
@@ -51,7 +55,8 @@
 		"e": {
 			"activity_id": 4,
 			"event_id": 0,
-			"name": "Keynote Speaker: Patricia Ibasco on Managing large, decentralized design teams",
+			"name": "Keynote Speaker: Patricia Ibasco",
+			"sub": "Managing large, decentralized design teams",
 			"time": "10:30 AM",
 			"type": "keynote"
 		},
@@ -60,6 +65,7 @@
 			"activity_id": 5,
 			"event_id": 0,
 			"name": "Co-Presenter Activity",
+			"sub": "N/A",
 			"time": "11:30 AM",
 			"type": "organizers"
 		},
@@ -68,6 +74,7 @@
 			"activity_id": 6,
 			"event_id": 0,
 			"name": "Lunch Break",
+			"sub": "N/A",
 			"time": "12:00 PM",
 			"type": "break"
 		},
@@ -76,6 +83,7 @@
 			"activity_id": 7,
 			"event_id": 0,
 			"name": "Workshop Preparations",
+			"sub": "N/A",
 			"time": "1:00 PM",
 			"type": "organizers"
 		},
@@ -84,6 +92,7 @@
 			"activity_id": 7,
 			"event_id": 0,
 			"name": "Workshop Tracks",
+			"sub": "N/A",
 			"time": "1:30 PM",
 			"type": "organizers"
 		},
@@ -91,7 +100,8 @@
 		"j": {
 			"activity_id": 8,
 			"event_id": 0,
-			"name": "Figma 101 with Edzel Rubite, Jake Mapalo, Mary Rose",
+			"name": "Figma 101",
+			"sub": "Edzel Rubite, Jake Mapalo & Mary Rose Tan",
 			"time": "Workshop 1",
 			"type": "workshop"
 		},
@@ -99,7 +109,8 @@
 		"k": {
 			"activity_id": 9,
 			"event_id": 0,
-			"name": "Customer Journey Mapping with Raine Liao",
+			"name": "Customer Journey Mapping",
+			"sub": "Raine Liao",
 			"time": "Workshop 2",
 			"type": "workshop"
 		},
@@ -107,7 +118,8 @@
 		"l": {
 			"activity_id": 10,
 			"event_id": 0,
-			"name": "Usability Testing with Anj Garong",
+			"name": "Usability Testing",
+			"sub": "Anj Garong",
 			"time": "Workshop 3",
 			"type": "workshop"
 		},
@@ -116,6 +128,7 @@
 			"activity_id": 11,
 			"event_id": 0,
 			"name": "Co-Presenter Activity",
+			"sub": "N/A",
 			"time": "4:30pm",
 			"type": "organizers"
 		},
@@ -124,6 +137,7 @@
 			"activity_id": 12,
 			"event_id": 0,
 			"name": "Closing Remarks",
+			"sub": "N/A",
 			"time": "5:00 PM",
 			"type": "organizers"
 		}
