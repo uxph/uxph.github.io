@@ -3,16 +3,27 @@
 // { name : [bio, photo] }
 var profiles = {};
 
-function addProfile(name, bio, photo) {
-	profiles[name] = [bio, photo];
+function addProfile(name, title, topic, bio, photo, linkedin) {
+	profiles[name] = [title, topic, bio, photo, linkedin];
 }
 
 function updateModalSpeaker(name) {
 	$('#modal-wrapper .content-wrapper').append(
-		`<img src="${profiles[name][1]}" class="featured-image" />
+		`<img src="${profiles[name][3]}" class="featured-image" />
 		<br/>
 		<h2 class="yellow">${name}</h2>
-		<p>${profiles[name][0]}</p>`
+		<h3 class="white title-topic">${profiles[name][0]}</h3>
+		<br/>
+		<h4 class="gray title-topic">${profiles[name][1]}</h4>
+		<br/>
+		<p>${profiles[name][2]}</p>
+		<br/>
+		<div class="social-wrapper">
+			<!--<a href="#" target="blank"><i class="fas fa-globe"></i></a>-->
+			<!--<a href="#" target="blank"><i class="fab fa-twitter"></i></a>-->
+			<a href="${profiles[name][4]}" target="blank"><i class="fab fa-linkedin"></i></a>
+		</div>
+		`
 		);
 
 	$('#modal').show();

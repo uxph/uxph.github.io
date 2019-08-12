@@ -3,7 +3,7 @@ title: "UXPH National Roadshow: Cebu"
 date: 2019-02-17T20:13:32+08:00
 draft: false
 page: "pages/cebu"
-active: "0"
+active: "1"
 event_id: 1
 ticket: "https://www.eventbrite.com/e/uxph-national-roadshow-cebu-tickets-66096104227"
 from_date: "August 31, 2019"

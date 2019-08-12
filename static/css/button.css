@@ -9,11 +9,12 @@ button{
 	padding-top: 0.9em;
 	cursor: pointer;
 	box-shadow: 0px 5px 11px var(--primary-light-blue-rgba);
-	font-size: 0.85em;
+	font-size: 0.9em;
 	outline: none;
 	margin-right: 0.5em;
 	margin-top: 0.5em;
 	transition: ease all 0.2s;
+	font-weight: 500;
 }
 
 button:hover {
@@ -33,4 +34,9 @@ button.hollow {
 button.hollow:hover {
 	border-color: var(--primary-blue);
 	color: var(--primary-blue);
+}
+
+button.centered {
+	display: block;
+	margin: 0.5em auto;
 }

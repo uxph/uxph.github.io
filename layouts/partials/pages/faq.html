@@ -1,0 +1,11 @@
+<section class="dark hidden">
+	<div class="wrapper">
+		<h1 class="section-heading">Frequently Asked Questions</h1>
+		{{ range .Site.Data.faqs }}
+		<div class="qa">
+			<h3 class="blue">{{ .Q }}</h3>
+			<p>{{ .A }}</p>
+		</div>
+		{{ end }}
+	</div>
+</section>
