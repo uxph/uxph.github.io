@@ -124,7 +124,9 @@
 		<h1 class="section-heading centered">Sponsors</h1>
 		<div class="sponsor-wrapper">
 			{{ range .Site.Data.sponsors.sponsors }}
-			<img src="../assets/{{ .logo }}" class="featured-image" />
+				{{ if eq .cbu "true" }}
+					<img src="../assets/{{ .logo }}" class="featured-image" />
+				{{ end }}
 			{{ end }}
 		</div>
 

@@ -9,17 +9,34 @@
 	"sponsors": {
 		"art_n_nature": {
 			"logo": "sponsor-logos/art-n-nature.png",
-			"name": "Art n' Nature"
+			"name": "Art n' Nature",
+			"cbu": "true",
+			"dvo": "true",
+			"mnl": "true"
 		},
 
 		"collabox": {
 			"logo": "sponsor-logos/collabox.png",
-			"name": "CollaboX"
+			"name": "CollaboX",
+			"cbu": "true",
+			"dvo": "true",
+			"mnl": "true"
 		},
 
 		"symph": {
 			"logo": "sponsor-logos/symph.png",
-			"name": "Symph"
+			"name": "Symph",
+			"cbu": "true",
+			"dvo": "true",
+			"mnl": "true"
+		},
+
+		"unisol": {
+			"logo": "sponsor-logos/unisol.png",
+			"name": "Unisol",
+			"cbu": "true",
+			"dvo": "true",
+			"mnl": "true"
 		}
 	},
 
@@ -32,11 +49,6 @@
 		"uxdvo": {
 			"logo": "sponsor-logos/uxdvo.png",
 			"name": "UXDVO"
-		},
-
-		"unisol": {
-			"logo": "sponsor-logos/unisol.png",
-			"name": "Unisol"
 		}
 	},
 
@@ -44,11 +56,6 @@
 		"cebuxd": {
 			"logo": "sponsor-logos/cebuxd.png",
 			"name": "CebuXD"
-		},
-
-		"unisol": {
-			"logo": "sponsor-logos/unisol.png",
-			"name": "Unisol"
 		}
 	},
 
