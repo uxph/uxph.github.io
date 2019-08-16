@@ -49,6 +49,11 @@
 		"uxdvo": {
 			"logo": "sponsor-logos/uxdvo.png",
 			"name": "UXDVO"
+		},
+
+		"tech_shake": {
+			"logo": "sponsor-logos/tech-shake.png",
+			"name": "TechShake"
 		}
 	},
 
