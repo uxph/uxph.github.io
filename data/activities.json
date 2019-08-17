@@ -103,25 +103,28 @@
 			"name": "Figma 101",
 			"sub": "Edzel Rubite, Jake Mapalo & Mary Rose Tan",
 			"time": "Workshop 1",
-			"type": "workshop"
+			"type": "workshop",
+			"description": "Figma is a web-based design application, with excellent wireframing, prototyping, and code-generation tools. It’s currently (arguably) the industry’s best interface design tool, with powerful features which helps teams collaborate on every phase of the design process. In Figma 101 you’ll learn the basics of creating simple interfaces from low to high fidelity wireframes. This is ideal for people who want to transition from photoshop or sketch and wants to learn the basics of wireframing."
 		},
 
 		"k": {
 			"activity_id": 9,
 			"event_id": 0,
-			"name": "Customer Journey Mapping",
+			"name": "Creating Actionable Customer Journey Map",
 			"sub": "Raine Liao",
 			"time": "Workshop 2",
-			"type": "workshop"
+			"type": "workshop",
+			"description": "Customer journey map is a powerful tool that combines storytelling and visualisation to help the team understand the customer’s needs. It is essential to make the ideal journey a reality. This workshop is a combination of lecture, games and hands on practical application of journey mapping. It is ideal for people who would like to improve the end to end customer experience. People who are working on an application or a website can also benefit by having a perspective on the overall customer experience. Having basic knowledge in User Experience or Customer Experience is an advantage but not a prerequisite for attending this workshop."
 		},
 
 		"l": {
 			"activity_id": 10,
 			"event_id": 0,
-			"name": "Usability Testing",
+			"name": "Applying Usability Testing Principles in the Workplace",
 			"sub": "Anj Garong",
 			"time": "Workshop 3",
-			"type": "workshop"
+			"type": "workshop",
+			"description": "Usability Testing is a way for designers and solution providers to validate their ideas — made tangible by prototyping — with real users. In this workshop, participants will learn about the basics of Usability Testing, through interactive lecture and hands-on activities. There will also be tips on how to apply Usability Testing principles to our day-to-day work."
 		},
 
 		"m": {

@@ -201,6 +201,11 @@ header, section {
 	padding: 4em 0;
 }
 
+section#event-wrapper {
+	padding: 2em 0;
+	padding-bottom: 0em;
+}
+
 .blue {
 	color: var(--primary-light-blue);
 }
@@ -336,6 +341,19 @@ div.timeline {
 
 div.timeline.lunch {
 	border-left-color: transparent !important; 
+}
+
+div.timeline.workshop {
+	transition: ease all 0.2s;
+	border: 2px solid transparent;
+	border-left: 2px solid var(--neutral-white);
+	cursor: pointer;
+}
+
+div.timeline.workshop:hover {
+	border: 2px solid var(--primary-light-blue-rgba);
+	border-radius: 0.5em;
+	padding: 1.5em 2em;
 }
 
 div.timeline .activity-name {
