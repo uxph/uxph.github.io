@@ -115,7 +115,10 @@
 		<h1 class="section-heading centered">Our Co-presenter</h1>
 		<div class="sponsor-wrapper">
 			{{ range .Site.Data.sponsors.copresenters }}
-			<img src="../assets/{{ .logo }}" class="featured-image" />
+			<div>
+				<img src="../assets/{{ .logo }}" class="featured-image" />
+				<h3 class="sponsor-name gray">{{ .name }}</h3>
+			</div>
 			{{ end }}
 		</div>
 
@@ -125,7 +128,10 @@
 		<div class="sponsor-wrapper">
 			{{ range .Site.Data.sponsors.sponsors }}
 				{{ if eq .cbu "true" }}
-					<img src="../assets/{{ .logo }}" class="featured-image" />
+					<div>
+						<img src="../assets/{{ .logo }}" class="featured-image" />
+						<h3 class="sponsor-name gray">{{ .name }}</h3>
+					</div>
 				{{ end }}
 			{{ end }}
 		</div>
@@ -135,7 +141,10 @@
 		<h1 class="section-heading centered">Community Partners</h1>
 		<div class="sponsor-wrapper">
 			{{ range .Site.Data.sponsors.partners_cbu }}
-			<img src="../assets/{{ .logo }}" class="featured-image" />
+			<div>
+				<img src="../assets/{{ .logo }}" class="featured-image" />
+				<h3 class="sponsor-name gray">{{ .name }}</h3>
+			</div>
 			{{ end }}
 		</div>
 	</div>

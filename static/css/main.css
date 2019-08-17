@@ -443,8 +443,19 @@ div.sponsor-wrapper img.featured-image {
 	margin: 1.7em;
 }
 
-div.sponsor-wrapper img.featured-image:hover {
-	filter: grayscale(0%);
+div.sponsor-wrapper > div {
+	border: 2px solid transparent;
+	border-radius: 0.5em;
+	transition: ease all 0.2s;
+	cursor: pointer;
+}
+
+div.sponsor-wrapper > div:hover {
+	border: 2px solid var(--primary-light-blue-rgba);
+}
+
+div.sponsor-wrapper .sponsor-name {
+	text-align: center;
 }
 
 /* flare styling */
