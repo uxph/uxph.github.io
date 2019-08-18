@@ -66,10 +66,12 @@
 				<h1 class="section-heading centered">Our Co-presenter</h1>
 				<div class="sponsor-wrapper">
 					{{ range .Site.Data.sponsors.copresenters }}
-					<div>
-						<img src="assets/{{ .logo }}" class="featured-image" />
-						<h3 class="sponsor-name gray">{{ .name }}</h3>
-					</div>
+					<a href="{{ .url }}" target="_blank">
+						<div>
+							<img src="assets/{{ .logo }}" class="featured-image" />
+							<h3 class="sponsor-name gray">{{ .name }}</h3>
+						</div>
+					</a>
 					{{ end }}
 				</div>
 
@@ -78,10 +80,12 @@
 				<h1 class="section-heading centered">Sponsors</h1>
 				<div class="sponsor-wrapper">
 					{{ range .Site.Data.sponsors.sponsors }}
-					<div>
-						<img src="assets/{{ .logo }}" class="featured-image" />
-						<h3 class="sponsor-name gray">{{ .name }}</h3>
-					</div>
+					<a href="{{ .url }}" target="_blank">
+						<div>
+							<img src="assets/{{ .logo }}" class="featured-image" />
+							<h3 class="sponsor-name gray">{{ .name }}</h3>
+						</div>
+					</a>
 					{{ end }}
 				</div>
 
@@ -90,10 +94,12 @@
 				<h1 class="section-heading centered">Community Partners</h1>
 				<div class="sponsor-wrapper">
 					{{ range .Site.Data.sponsors.partners_all }}
-					<div>
-						<img src="assets/{{ .logo }}" class="featured-image" />
-						<h3 class="sponsor-name gray">{{ .name }}</h3>
-					</div>
+					<a href="{{ .url }}" target="_blank">
+						<div>
+							<img src="assets/{{ .logo }}" class="featured-image" />
+							<h3 class="sponsor-name gray">{{ .name }}</h3>
+						</div>
+					</a>
 					{{ end }}
 				</div>
 			</div>

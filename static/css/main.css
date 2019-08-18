@@ -461,14 +461,14 @@ div.sponsor-wrapper img.featured-image {
 	margin: 1.7em;
 }
 
-div.sponsor-wrapper > div {
+div.sponsor-wrapper > a > div {
 	border: 2px solid transparent;
 	border-radius: 0.5em;
 	transition: ease all 0.2s;
 	cursor: pointer;
 }
 
-div.sponsor-wrapper > div:hover {
+div.sponsor-wrapper > a > div:hover {
 	border: 2px solid var(--primary-light-blue-rgba);
 }
 

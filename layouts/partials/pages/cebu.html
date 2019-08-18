@@ -98,12 +98,16 @@
 					<span class="time yellow">{{ .time }}</span>
 				</div>
 			{{ end }}
-			<div class="timeline {{ if eq .type $t }}lunch{{ end }}{{ if eq .type $w }}workshop{{ end }}" {{ if eq .type $w }}onclick="updateModalWorkshop({{ .name }})"{{ end }}>
+			<div class="timeline {{ if eq .type $t }}lunch{{ end }}">
 				{{ if eq .type "workshop" }}<span class="time yellow">{{ .time }}</span>{{ end }}
 				<p class="activity-name {{ if eq .type $t }}yellow{{ end }}">
 					{{ .name }}
 					{{ if ne .sub "N/A" }}<br/><span class="gray">{{ .sub }}</span>{{ end }}
 				</p>
+				{{ if eq .type $w }}
+					<button class="hollow" onclick="updateModalWorkshop({{ .name }})">Learn More</button>
+					<br/><br/>
+				{{ end }}
 			</div>
 			{{ if eq .type $t }}<br/><br/>{{ end }}
 
@@ -120,10 +124,12 @@
 		<h1 class="section-heading centered">Our Co-presenter</h1>
 		<div class="sponsor-wrapper">
 			{{ range .Site.Data.sponsors.copresenters }}
-			<div>
-				<img src="../assets/{{ .logo }}" class="featured-image" />
-				<h3 class="sponsor-name gray">{{ .name }}</h3>
-			</div>
+			<a href="{{ .url }}" target="_blank">
+				<div>
+					<img src="../assets/{{ .logo }}" class="featured-image" />
+					<h3 class="sponsor-name gray">{{ .name }}</h3>
+				</div>
+			</a>
 			{{ end }}
 		</div>
 
@@ -133,10 +139,12 @@
 		<div class="sponsor-wrapper">
 			{{ range .Site.Data.sponsors.sponsors }}
 				{{ if eq .cbu "true" }}
-					<div>
-						<img src="../assets/{{ .logo }}" class="featured-image" />
-						<h3 class="sponsor-name gray">{{ .name }}</h3>
-					</div>
+					<a href="{{ .url }}" target="_blank">
+						<div>
+							<img src="../assets/{{ .logo }}" class="featured-image" />
+							<h3 class="sponsor-name gray">{{ .name }}</h3>
+						</div>
+					</a>
 				{{ end }}
 			{{ end }}
 		</div>
@@ -146,10 +154,12 @@
 		<h1 class="section-heading centered">Community Partners</h1>
 		<div class="sponsor-wrapper">
 			{{ range .Site.Data.sponsors.partners_cbu }}
-			<div>
-				<img src="../assets/{{ .logo }}" class="featured-image" />
-				<h3 class="sponsor-name gray">{{ .name }}</h3>
-			</div>
+			<a href="{{ .url }}" target="_blank">
+				<div>
+					<img src="../assets/{{ .logo }}" class="featured-image" />
+					<h3 class="sponsor-name gray">{{ .name }}</h3>
+				</div>
+			</a>
 			{{ end }}
 		</div>
 	</div>
