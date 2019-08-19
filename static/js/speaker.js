@@ -25,7 +25,7 @@ function updateModalSpeaker(name) {
 		<div class="social-wrapper">
 			<!--<a href="#" target="blank"><i class="fas fa-globe"></i></a>-->
 			<!--<a href="#" target="blank"><i class="fab fa-twitter"></i></a>-->
-			<a href="${profiles[name][4]}" target="blank"><i class="fab fa-linkedin"></i></a>
+			${profiles[name][4] == '' ? '<!--' : ''}<a href="${profiles[name][4]}" target="blank"><i class="fab fa-linkedin"></i></a>${profiles[name][4] == '' ? '-->' : ''}
 		</div>
 		`
 		);
