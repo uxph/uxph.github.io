@@ -31,6 +31,7 @@
 
 	--primary-blue-rgba: rgba(37, 117, 252, 0.5);
 	--primary-light-blue-rgba: rgba(0, 158, 253, 0.5);
+	--primary-light-blue-rgba-weak: rgba(0, 158, 253, 0.2);
 
 	font-family: 'DM Sans', sans-serif;
 	color: var(--neutral-black);
@@ -139,6 +140,7 @@ div#modal-wrapper div.content-wrapper div.social-wrapper i:hover {
 	color: var(--neutral-whitish);
 }
 
+/* header section styling */
 img#event-banner {
 	width: 100%;
 	border-radius: 0.7em;
@@ -164,6 +166,43 @@ p#main-excerpt {
 p#main-excerpt i {
 	display: inline-block;
 	margin-right: 1em;
+}
+
+div#city-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+div#city-wrapper div.city-card {
+	width: 32%;
+	border-radius: 0.5em;
+	background-color: var(--neutral-black-1);
+	border: 2px solid var(--primary-light-blue-rgba-weak);
+	overflow: hidden;
+}
+
+div#city-wrapper div.city-card div.details {
+	padding: 1.2em 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#city-wrapper div.city-card div.details p {
+	font-size: 1.2em;
+	margin: 0;
+	margin-top: 0.1em;
+}
+
+div#city-wrapper div.city-card div.details button {
+	font-size: 0.8em;
+	padding: 1.1em 1em;
+	margin: 0;
+}
+
+div#city-wrapper div.city-card img.featured-image {
+	display: block;
+	width: 100%;
 }
 
 b {
