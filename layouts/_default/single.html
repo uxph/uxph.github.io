@@ -6,7 +6,9 @@
     </head>
     <body>
         {{ partial "components/nav" (dict "path" "../") }}
-        {{ partial .Params.page . }}
+        {{ if eq .Type "roadshow" }}
+            {{ partial .Params.page . }}
+        {{ end }}
         {{ partial "components/footer" (dict "path" "../")  }}
         <script>setActive({{ .Params.active }});</script>
     </body>

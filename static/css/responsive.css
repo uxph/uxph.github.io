@@ -96,6 +96,14 @@
 		width: 100% !important;
 	}
 
+	div#modal-wrapper {
+		padding: 2em 1em !important;
+	}
+
+	div#modal-wrapper div.content-wrapper .title-topic {
+		width: 100% !important;
+	}
+
 	nav {
 		padding: 1em 0 !important;
 	}

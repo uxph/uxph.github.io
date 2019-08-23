@@ -94,7 +94,7 @@
 			{{ $w := "workshop" }}
 			{{ if ne .type "workshop" }}
 				<div class="marker">
-					<i class="fa fa-bullseye {{ if eq .type $t }}yellow{{ end }}"></i>
+					<i class="far fa-dot-circle {{ if eq .type $t }}yellow{{ end }}"></i>
 					<span class="time yellow">{{ .time }}</span>
 				</div>
 			{{ end }}

@@ -22,7 +22,7 @@
 	--neutral-black: #130f2e;
 	--neutral-gray: #878c95;
 	--neutral-peach: #ece1df;
-	--neutral-white: #ffffff;
+	--neutral-white: #dedede;
 	--neutral-whitish: #f9f9f9;
 
 	--uxph-black: #182336;
@@ -362,7 +362,7 @@ div#timeline-wrapper {
 }
 
 div.marker i {
-	font-size: 1.4em;
+	font-size: 1.3em;
 }
 
 div.marker span {
@@ -371,7 +371,7 @@ div.marker span {
 }
 
 div.timeline {
-	border-left: 2px solid var(--neutral-white);
+	border-left: 2px dashed var(--neutral-white);
 	margin-left: 0.55em;
 	padding-left: 2em;
 	padding-top: 0em;
