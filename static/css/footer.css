@@ -34,7 +34,7 @@ footer h3{
 }
 
 footer h5{
-	font-size: 0.9em;
+	font-size: 1.1em;
 }
 
 footer .column-content{
@@ -53,7 +53,7 @@ footer div.content-wrapper{
 	margin-right: 3.5em;
 }
 
-footer div.content-wrapper > div{
+footer div.content-wrapper > a > div{
 	display: flex;
 	align-items: center;
 }

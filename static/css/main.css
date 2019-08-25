@@ -505,6 +505,7 @@ div.sponsor-wrapper > a > div {
 	border-radius: 0.5em;
 	transition: ease all 0.2s;
 	cursor: pointer;
+	max-width: 214.375px;
 }
 
 div.sponsor-wrapper > a > div:hover {

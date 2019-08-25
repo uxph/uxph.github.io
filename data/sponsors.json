@@ -40,6 +40,51 @@
 			"name": "Unisol",
 			"url": "",
 			"cbu": "true",
+			"dvo": "false",
+			"mnl": "true"
+		},
+
+		"addu": {
+			"logo": "sponsor-logos/addu.png",
+			"name": "Ateneo de Davao University",
+			"url": "http://www.addu.edu.ph/",
+			"cbu": "false",
+			"dvo": "true",
+			"mnl": "true"
+		},
+
+		"style_genie": {
+			"logo": "sponsor-logos/style-genie.png",
+			"name": "StyleGenie",
+			"url": "https://stylegenie.ph/",
+			"cbu": "false",
+			"dvo": "true",
+			"mnl": "true"
+		},
+
+		"insular_life": {
+			"logo": "sponsor-logos/insular-life.png",
+			"name": "Insular Life",
+			"url": "https://www.insularlife.com.ph/",
+			"cbu": "false",
+			"dvo": "true",
+			"mnl": "true"
+		},
+
+		"canva": {
+			"logo": "sponsor-logos/canva.png",
+			"name": "Canva",
+			"url": "https://www.canva.com/",
+			"cbu": "false",
+			"dvo": "true",
+			"mnl": "true"
+		},
+
+		"unionbank": {
+			"logo": "sponsor-logos/unionbank.png",
+			"name": "UnionBank",
+			"url": "https://www.unionbankph.com/",
+			"cbu": "false",
 			"dvo": "true",
 			"mnl": "true"
 		}
@@ -78,6 +123,12 @@
 			"logo": "sponsor-logos/uxdvo.png",
 			"name": "UXDVO",
 			"url": "https://www.facebook.com/uxdvo/"
+		},
+
+		"tech_shake": {
+			"logo": "sponsor-logos/tech-shake.png",
+			"name": "TechShake",
+			"url": "https://www.techshake.asia"
 		}
 	}
 }
