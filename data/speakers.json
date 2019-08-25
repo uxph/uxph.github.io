@@ -16,7 +16,7 @@
 			"website": "",
 			"linkedin": "https://www.linkedin.com/in/madiazderivera/",
 			"twitter": "",
-			"topic": "Design, Data, and Analytics",
+			"topic": "Demystifying User Experience Design Deliverables",
 			"excerpt": "Mica is the Head of Design Operations at Make Technology, a UX consultancy in Manila. His love for data, analytics, and statistics has led him to hold over a decade of extensive experience with design, development, and team management in the technology industry. He is also one of the founding members of UXPH!",
 			"bio": "Mica is a software developer turned experience designer and has had over a decade of combined work experience touching both local and international products and brands. His fascination for data, analytics, and statistics has led him to work on initiatives that dabble in the quantitative measurement of user experiences. On extraordinary days you’d find him alone in the plains of Mongolia or in the streets of Kolkata finding ways to connect life experiences to experience design. He is currently the Head of Design Operations at Make Technology by Ace Saatchi & Saatchi."
 		},
@@ -40,9 +40,21 @@
 			"website": "",
 			"linkedin": "https://www.linkedin.com/in/tisha-ibasco-41463063/",
 			"twitter": "",
-			"topic": "Managing large, decentralized design teams",
+			"topic": "Jump-starting UX in Organizations: Building the engine that keeps your UX team running",
 			"excerpt": "Fish Ibasco is one of the Experience Design Leads at Accenture Interactive's Experience Design Studio. Throughout her 6 year journey in design, she has worked with and managed teams across the globe and has helped put the Philippines on the map as a trusted source for UX expertise.",
 			"bio": "Fish Ibasco is one of the Experience Design Leads at Accenture Interactive’s Experience Design Studio. She has been helping shape and build the internal UX capability to put the Philippines on the map as a trusted studio for UX consultancy. Throughout her 6+ year journey, she has augmented product and design teams across the globe as an interaction and interface designer for digital platforms. Her major challenge presently is streamlining studio DesignOps and slaying monsters at Monster Hunter World."
+		},
+
+		"d": {
+			"photo": "../assets/speakers/oliver.png",
+			"name": "Oliver Bayani",
+			"title": "Senior UX Designer, Home Credit Philippines",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/oliver-bayani-b781a056/",
+			"twitter": "",
+			"topic": "Design at HomeCredit",
+			"excerpt": "Oliver oversees user research and UX writing at Home Credit Philippines. He was a journalist for 8 years, writing about the most creative people in advertising for Marketing Magazine Philippines and Adobo Magazine. Before Home Credit, he was the Co-founder and VP- Product & Design of SnippetMedia, a news app enjoyed by over 2 million Filipinos.",
+			"bio": "Oliver oversees user research and UX writing at Home Credit Philippines. He was a journalist for 8 years, writing about the most creative people in advertising for Marketing Magazine Philippines and Adobo Magazine. Before Home Credit, he was the Co-founder and VP-Product & Design of SnippetMedia, a news app enjoyed by over 2 million Filipinos."
 		}
 	},
 
@@ -72,37 +84,49 @@
 		},
 
 		"c": {
-			"photo": "../assets/speakers/mary.png",
-			"name": "Mary Rose Tan",
-			"title": "Product Designer, Symph",
+			"photo": "../assets/speakers/oscar.png",
+			"name": "Oscar Valles",
+			"title": "Student, UP Cebu",
 			"website": "",
-			"linkedin": "https://www.linkedin.com/in/maryrosetan/",
+			"linkedin": "",
 			"twitter": "",
 			"topic": "Figma 101",
-			"excerpt": "Rose is a Product Designer at Symph. She loves designing interfaces as much as frontend development. She is also passionate about organizing design events and facilitating workshops for the local community, like FrontendFridays by Symph.",
-			"bio": "Rose is a Product Designer at Symph. She loves designing interfaces as much as frontend development. Aside from graduating at the top of her class (ehem, magna cum laude) – Rose is also passionate about helping organize design events and facilitating workshops for the local community. One of these events is FrontendFridays by Symph, which is a homegrown monthly meetup for designers and devs. She has also assisted in running design sprints for various events and in recent months conducted Figma workshops at Globe Telecom and during iHub's Digital Art Summer Workshop. If you don’t see her in the office, she’ll most likely be outside going on food trips, or doodling vivid illustrations of whatever her current muse is."
+			"excerpt": "Oscar is a UI/UX Designer, Front-End Developer and Co-founder of CodeChum. Outside of work, Oscar is still a second year Computer Science student of UP Cebu, hustling to maintain his GWA and help organizations, while still leaving enough time for fun.",
+			"bio": "Oscar is a UI/UX Designer, Front-End Developer and Co-founder of CodeChum, a platform for programming professors to educate the next generation of problem solvers. He is also an advocate for Figma, having previously led a workshop on the application last January on Frontend Fridays by Symph. Outside of work, Oscar is still a second year Computer Science student of UP Cebu, hustling to maintain his GWA and help organizations, while still leaving enough time for fun."
 		},
 
 		"d": {
+			"photo": "../assets/speakers/clint.png",
+			"name": "Clint Bustrillos",
+			"title": "Product Design Lead, Abstract",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/clintbustrillos/",
+			"twitter": "",
+			"topic": "Figma 101",
+			"excerpt": "Clint is a designer, currently leading product design at Abstract. After graduating at the Yoobee School of Design in New Zealand, he worked as a senior product designer at Symph. He is passionate in the local creative community and has volunteered for events like Dribbble Meetup, Sketch Meetup and Startup Weekend.",
+			"bio": "Clint has the wrong qualifications, and shouldn’t even be here. Fortunately, nobody told him and he went on being a designer anyway. Currently, he leads product design at Abstract where he ships pretty pixels and nurtures other designers. Prior to that, he also was a senior product designer at Symph. He graduated with a diploma of Level 7 Studies at Yoobee School of Design at Wellington, New Zealand and is an active volunteer for events like Dribbble Meetup, Sketch Meetup and Startup Weekend. In his spare time, he enjoys freediving in Bohol – in a quest of discovering mermaids and other sea creatures."
+		},
+
+		"e": {
 			"photo": "../assets/speakers/raine.png",
 			"name": "Raine Liao",
 			"title": "UX Designer, HomeCredit",
 			"website": "",
 			"linkedin": "https://www.linkedin.com/in/raineliao/",
 			"twitter": "",
-			"topic": "Customer Journey Mapping",
+			"topic": "Creating Actionable Customer Journey Map",
 			"excerpt": "Raine is a Senior UX Designer at Home Credit, Philippines. Holding over 10 years industry experience, she was previously a freelance product designer, front-end developer, design researcher, and team lead at Cambridge University Press.",
 			"bio": "Raine is a Senior UX Designer at Home Credit, Philippines. Holding over 10 years industry experience, she was previously a freelance product designer, front-end developer, design researcher, and team lead at Cambridge University Press. She also conducts and facilitates design workshops focused on Customer Development and Research while mentoring designers in the local tech community."
 		},
 
-		"e": {
+		"f": {
 			"photo": "../assets/speakers/angela.png",
 			"name": "Anj Garong",
 			"title": "Product Design Manager, Sprout Solutions",
 			"website": "",
 			"linkedin": "https://www.linkedin.com/in/anjgarong/",
 			"twitter": "",
-			"topic": "Usability Testing",
+			"topic": "Applying Usability Testing Principles in the Workplace",
 			"excerpt": "Anj, a Product Design Manager at Sprout Solutions, is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups.",
 			"bio": "Anj is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups. She is immersed in the academe and recently, in design communities, teaching Human-Centered Design at iACADEMY, and helping out Figma PH and UXSEA. Today, she spends most of her time in Sprout Solutions, a SaaS HR and Payroll technology startup, where she functions as a Product Design Manager. She somehow manages to squeeze in workouts, movies, worship nights, and binge-sleeping for self-care."
 		}

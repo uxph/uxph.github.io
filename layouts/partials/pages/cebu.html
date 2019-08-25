@@ -1,3 +1,6 @@
+<script type="text/javascript">
+	setColor("yellow");
+</script>
 <div id="modal">
 	<div class="wrapper">
 		<div id="modal-wrapper">
@@ -23,7 +26,7 @@
 		<div>
 			<h1 class="section-heading">UXPH Roadshow: Cebu</h1>
 			<p>
-				On the <span class="yellow">31st of August</span>, we will be celebrating the Cebu leg of the UXPH National Roadshow themed "<span class="yellow">Cultivating Design Culture.</span>" This is part of a national effort to spread the knowledge of user experience design not only to tech professionals but also to business who would greatly benefit from its processes and methodology.
+				On the <span class="yellow">31st of August</span>, we will be celebrating the Cebu leg of the UXPH National Roadshow themed "<span class="yellow">Cultivating Design Cultures.</span>" This is part of a national effort to spread the knowledge of user experience design not only to tech professionals but also to business who would greatly benefit from its processes and methodology.
 			</p>
 			<p>
 				For this event, we are expecting over 100 professionals not only in visual design, industrial design, user interface design and user experience design, but also professionals who are interested in product development with applications in both tech and non-tech businesses.
@@ -91,9 +94,10 @@
 		<div id="timeline-wrapper">
 		{{ range .Site.Data.activities.CBU }}
 			{{ $t := "break" }}
+			{{ $w := "workshop" }}
 			{{ if ne .type "workshop" }}
 				<div class="marker">
-					<i class="fa fa-bullseye {{ if eq .type $t }}yellow{{ end }}"></i>
+					<i class="far fa-dot-circle {{ if eq .type $t }}yellow{{ end }}"></i>
 					<span class="time yellow">{{ .time }}</span>
 				</div>
 			{{ end }}
@@ -103,8 +107,16 @@
 					{{ .name }}
 					{{ if ne .sub "N/A" }}<br/><span class="gray">{{ .sub }}</span>{{ end }}
 				</p>
+				{{ if eq .type $w }}
+					<button class="hollow" onclick="updateModalWorkshop({{ .name }})">Learn More</button>
+					<br/><br/>
+				{{ end }}
 			</div>
 			{{ if eq .type $t }}<br/><br/>{{ end }}
+
+			{{ if eq .type $w }}
+			<script type="text/javascript">addWorkshop({{ .name }}, {{ .sub }}, {{ .description }});</script>
+			{{ end }}
 		{{ end }}
 		</div>
 	</div>
@@ -115,7 +127,12 @@
 		<h1 class="section-heading centered">Our Co-presenter</h1>
 		<div class="sponsor-wrapper">
 			{{ range .Site.Data.sponsors.copresenters }}
-			<img src="../assets/{{ .logo }}" class="featured-image" />
+			<a href="{{ .url }}" target="_blank">
+				<div>
+					<img src="../assets/{{ .logo }}" class="featured-image" />
+					<h3 class="sponsor-name gray">{{ .name }}</h3>
+				</div>
+			</a>
 			{{ end }}
 		</div>
 
@@ -124,7 +141,14 @@
 		<h1 class="section-heading centered">Sponsors</h1>
 		<div class="sponsor-wrapper">
 			{{ range .Site.Data.sponsors.sponsors }}
-			<img src="../assets/{{ .logo }}" class="featured-image" />
+				{{ if eq .cbu "true" }}
+					<a href="{{ .url }}" target="_blank">
+						<div>
+							<img src="../assets/{{ .logo }}" class="featured-image" />
+							<h3 class="sponsor-name gray">{{ .name }}</h3>
+						</div>
+					</a>
+				{{ end }}
 			{{ end }}
 		</div>
 
@@ -133,7 +157,12 @@
 		<h1 class="section-heading centered">Community Partners</h1>
 		<div class="sponsor-wrapper">
 			{{ range .Site.Data.sponsors.partners_cbu }}
-			<img src="../assets/{{ .logo }}" class="featured-image" />
+			<a href="{{ .url }}" target="_blank">
+				<div>
+					<img src="../assets/{{ .logo }}" class="featured-image" />
+					<h3 class="sponsor-name gray">{{ .name }}</h3>
+				</div>
+			</a>
 			{{ end }}
 		</div>
 	</div>

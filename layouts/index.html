@@ -7,40 +7,42 @@
 	<body>
 		{{ partial "components/nav" (dict "path" "../") }}
 		<img src="assets/event-images/main-square.png" id="event-square" />
-		<section class="dark">
+		<section class="dark hidden">
 			<div class="wrapper">
 				<img src="assets/event-images/main-banner.png" id="event-banner" />
-				<br/>
-				<h1 id="main-headline">UXPH National Roadshow 2019</h1>
-				<p id="main-excerpt">
-					<i class="fa fa-calendar"></i>August 31, 2019
-					<br/>
-					<i class="fa fa-clock"></i>8:00 AM - 5:00 PM
-					<br/>
-					<i class="fa fa-map-marker-alt"></i>The Company CEBU, IT Park
-				</p>
-				<a href="https://www.eventbrite.com/e/uxph-national-roadshow-cebu-tickets-66096104227" target="_blank">
-					<button>Buy Tickets</button>
-				</a>
-				<a href="/cebu">
-					<button class="hollow">Learn More</button>
-				</a>
-			</div>
-			<br/><br/><br/>
-			<div class="wrapper">
-				<h2>Upcoming Roadshows</h2>
-				<div id="other-roadshow">
-					<div id="davao-roadshow" class="content-wrapper">
-						<h3>Davao Roadshow</h3>
-						<p>Coming Soon!</p>
+				<br class="hide"/><br class="hide"/><br class="hide"/>
+				<div id="city-wrapper">
+					<a href="/cebu/">
+						<div class="city-card">
+							<img src="assets/event-images/cebu-square.png" class="featured-image" />
+							<div class="details">
+								<!--
+								<a href="https://www.eventbrite.com/e/uxph-national-roadshow-cebu-tickets-66096104227" target="_blank">
+									<button>Buy Tickets</button>
+								</a>
+								-->
+								<a href="/cebu">
+									<button class="hollow">See Event Details</button>
+								</a>
+							</div>
+						</div>
+					</a>
+					<div class="city-card">
+						<img src="assets/event-images/dvo_soon.png" class="featured-image" />
+						<div class="details">
+							<p>Coming in <span class="green">September!</span></p>
+						</div>
 					</div>
-					<div id="manila-roadshow" class="content-wrapper">
-						<h3>Manila Roadshow</h3>
-						<p>Coming Soon!</p>
+
+					<div class="city-card">
+						<img src="assets/event-images/mnl_soon.png" class="featured-image" />
+						<div class="details">
+							<p>Coming in <span class="purple">October!</span></p>
+						</div>
 					</div>
 				</div>
-				<br/><br/>
 			</div>
+			<br class="hide"/><br class="hide"/><br class="hide"/>
 		</section>
 		<section class="dark alternate hidden">
 			<div class="wrapper">
@@ -66,7 +68,12 @@
 				<h1 class="section-heading centered">Our Co-presenter</h1>
 				<div class="sponsor-wrapper">
 					{{ range .Site.Data.sponsors.copresenters }}
-					<img src="assets/{{ .logo }}" class="featured-image" />
+					<a href="{{ .url }}" target="_blank">
+						<div>
+							<img src="assets/{{ .logo }}" class="featured-image" />
+							<h3 class="sponsor-name gray">{{ .name }}</h3>
+						</div>
+					</a>
 					{{ end }}
 				</div>
 
@@ -75,7 +82,12 @@
 				<h1 class="section-heading centered">Sponsors</h1>
 				<div class="sponsor-wrapper">
 					{{ range .Site.Data.sponsors.sponsors }}
-					<img src="assets/{{ .logo }}" class="featured-image" />
+					<a href="{{ .url }}" target="_blank">
+						<div>
+							<img src="assets/{{ .logo }}" class="featured-image" />
+							<h3 class="sponsor-name gray">{{ .name }}</h3>
+						</div>
+					</a>
 					{{ end }}
 				</div>
 
@@ -84,41 +96,16 @@
 				<h1 class="section-heading centered">Community Partners</h1>
 				<div class="sponsor-wrapper">
 					{{ range .Site.Data.sponsors.partners_all }}
-					<img src="assets/{{ .logo }}" class="featured-image" />
+					<a href="{{ .url }}" target="_blank">
+						<div>
+							<img src="assets/{{ .logo }}" class="featured-image" />
+							<h3 class="sponsor-name gray">{{ .name }}</h3>
+						</div>
+					</a>
 					{{ end }}
 				</div>
 			</div>
 		</section>
-		<!--
-		<section class="dark featured reversed">
-			<div class="wrapper">
-				<img src="assets/illustrations/illustration_2.svg" class="featured-image" />
-				<div class="content-wrapper">
-					<h1>The UXPH Team</h1>
-					<p>
-						<b class="red">User Experience Philippines (UXPH)</b> {{ .Site.Data.info.team }}
-					</p>
-					<a href="https://uxph.org/volunteer" target="_blank">
-						<button class="hollow">Join the team!</button>
-					</a>
-				</div>
-			</div>
-		</section>
-		<section class="dark featured alternate">
-			<div class="wrapper">
-				<img src="assets/illustrations/illustration_3.svg" class="featured-image" />
-				<div class="content-wrapper">
-					<h1>Be a community partner</h1>
-					<p>
-						{{ .Site.Data.info.community_sponsor }}
-					</p>
-					<a href="https://drive.google.com/open?id=1vCiFGGg7NKjCqoL0ZuJEJrGQDEmQ34Rm" target="_blank">
-						<button class="hollow">Become a sponsor!</button>
-					</a>
-				</div>
-			</div>
-		</section>
-		-->
 		<section class="dark alternate hidden">
 			<div class="wrapper">
 				<h1 class="section-heading centered">Want to partner with us?</h1>

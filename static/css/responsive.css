@@ -11,8 +11,21 @@
 }
 
 @media only screen and (max-width: 675px) {
+	br.hide {
+		display: none;
+	}
+
 	section#event-wrapper {
 		display: none !important;
+	}
+
+	div#city-wrapper {
+		flex-direction: column !important;
+	}
+
+	div#city-wrapper div.city-card {
+		width: 100% !important;
+		margin-bottom: 2em;
 	}
 
 	img#event-banner {
@@ -80,6 +93,14 @@
 	}
 
 	div#timeline-wrapper {
+		width: 100% !important;
+	}
+
+	div#modal-wrapper {
+		padding: 2em 1em !important;
+	}
+
+	div#modal-wrapper div.content-wrapper .title-topic {
 		width: 100% !important;
 	}
 

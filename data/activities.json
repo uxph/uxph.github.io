@@ -28,7 +28,7 @@
 		"b": {
 			"activity_id": 1,
 			"event_id": 0,
-			"name": "UXPH & Co-Presenter Opening Remarks",
+			"name": "UXPH & CebUXD Opening Remarks",
 			"sub": "",
 			"time": "8:00 AM",
 			"type": "organizers"
@@ -38,7 +38,7 @@
 			"activity_id": 2,
 			"event_id": 0,
 			"name": "Keynote Speaker: Micael Diaz de Rivera",
-			"sub": "Design, Data, and Analytics",
+			"sub": "Demystifying User Experience Design Deliverables",
 			"time": "8:30 AM",
 			"type": "keynote"
 		},
@@ -56,7 +56,7 @@
 			"activity_id": 4,
 			"event_id": 0,
 			"name": "Keynote Speaker: Patricia Ibasco",
-			"sub": "Managing large, decentralized design teams",
+			"sub": "Jump-starting UX in Organizations: Building the engine that keeps your UX team running",
 			"time": "10:30 AM",
 			"type": "keynote"
 		},
@@ -64,10 +64,10 @@
 		"f": {
 			"activity_id": 5,
 			"event_id": 0,
-			"name": "Co-Presenter Activity",
-			"sub": "N/A",
+			"name": "Keynote Speaker: Oliver Bayani",
+			"sub": "Design at HomeCredit",
 			"time": "11:30 AM",
-			"type": "organizers"
+			"type": "keynote"
 		},
 
 		"g": {
@@ -101,27 +101,30 @@
 			"activity_id": 8,
 			"event_id": 0,
 			"name": "Figma 101",
-			"sub": "Edzel Rubite, Jake Mapalo & Mary Rose Tan",
+			"sub": "Oscar Valles, Edzel Rubite, Jake Mapalo & Clint Bustrillow",
 			"time": "Workshop 1",
-			"type": "workshop"
+			"type": "workshop",
+			"description": "Figma is a web-based design application, with excellent wireframing, prototyping, and code-generation tools. It’s currently (arguably) the industry’s best interface design tool, with powerful features which helps teams collaborate on every phase of the design process. In Figma 101 you’ll learn the basics of creating simple interfaces from low to high fidelity wireframes. This is ideal for people who want to transition from photoshop or sketch and wants to learn the basics of wireframing."
 		},
 
 		"k": {
 			"activity_id": 9,
 			"event_id": 0,
-			"name": "Customer Journey Mapping",
+			"name": "Creating Actionable Customer Journey Map",
 			"sub": "Raine Liao",
 			"time": "Workshop 2",
-			"type": "workshop"
+			"type": "workshop",
+			"description": "Customer journey map is a powerful tool that combines storytelling and visualisation to help the team understand the customer’s needs. It is essential to make the ideal journey a reality. This workshop is a combination of lecture, games and hands on practical application of journey mapping. It is ideal for people who would like to improve the end to end customer experience. People who are working on an application or a website can also benefit by having a perspective on the overall customer experience. Having basic knowledge in User Experience or Customer Experience is an advantage but not a prerequisite for attending this workshop."
 		},
 
 		"l": {
 			"activity_id": 10,
 			"event_id": 0,
-			"name": "Usability Testing",
+			"name": "Applying Usability Testing Principles in the Workplace",
 			"sub": "Anj Garong",
 			"time": "Workshop 3",
-			"type": "workshop"
+			"type": "workshop",
+			"description": "Usability Testing is a way for designers and solution providers to validate their ideas — made tangible by prototyping — with real users. In this workshop, participants will learn about the basics of Usability Testing, through interactive lecture and hands-on activities. There will also be tips on how to apply Usability Testing principles to our day-to-day work."
 		},
 
 		"m": {
@@ -144,18 +147,133 @@
 	},
 
 	"DVO": {
-		"0": {
+		"a": {
 			"activity_id": 0,
 			"event_id": 0,
-			"name": "<insert name here>",
-			"time": "1:00pm - 2:00pm",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Registration Begins",
+			"sub": "",
+			"time": "7:00 AM",
+			"type": "organizers"
+		},
+
+		"b": {
+			"activity_id": 1,
+			"event_id": 0,
+			"name": "UXPH & UXDVO Opening Remarks",
+			"sub": "",
+			"time": "8:00 AM",
+			"type": "organizers"
+		},
+
+		"c": {
+			"activity_id": 2,
+			"event_id": 0,
+			"name": "Keynote Speaker: TBA",
+			"sub": "",
+			"time": "8:30 AM",
+			"type": "keynote"
+		},
+
+		"d": {
+			"activity_id": 3,
+			"event_id": 0,
+			"name": "Keynote Speaker: TBA",
+			"sub": "",
+			"time": "9:30 AM",
+			"type": "keynote"
+		},
+
+		"e": {
+			"activity_id": 4,
+			"event_id": 0,
+			"name": "Keynote Speaker: TBA",
+			"sub": "",
+			"time": "10:30 AM",
+			"type": "keynote"
+		},
+
+		"f": {
+			"activity_id": 5,
+			"event_id": 0,
+			"name": "Sponsor's Presentation",
+			"sub": "N/A",
+			"time": "11:30 AM",
+			"type": "keynote"
+		},
+
+		"g": {
+			"activity_id": 6,
+			"event_id": 0,
+			"name": "Lunch Break",
+			"sub": "N/A",
+			"time": "12:00 PM",
+			"type": "break"
+		},
+
+		"h": {
+			"activity_id": 7,
+			"event_id": 0,
+			"name": "Convene in Main Hall for afternoon session instructions",
+			"sub": "N/A",
+			"time": "1:00 PM",
+			"type": "organizers"
+		},
+
+		"i": {
+			"activity_id": 7,
+			"event_id": 0,
+			"name": "WORKSHOPS START",
+			"sub": "N/A",
+			"time": "1:30 PM",
+			"type": "organizers"
+		},
+
+		"j": {
+			"activity_id": 8,
+			"event_id": 0,
+			"name": "TBA",
+			"sub": "",
+			"time": "Workshop 1",
+			"type": "workshop",
+			"description": ""
+		},
+
+		"k": {
+			"activity_id": 9,
+			"event_id": 0,
+			"name": "TBA",
+			"sub": "",
+			"time": "Workshop 2",
+			"type": "workshop",
+			"description": ""
+		},
+
+		"l": {
+			"activity_id": 10,
+			"event_id": 0,
+			"name": "TBA",
+			"sub": "",
+			"time": "Workshop 3",
+			"type": "workshop",
+			"description": ""
+		},
+
+		"m": {
+			"activity_id": 11,
+			"event_id": 0,
+			"name": "Sponsor's Presentation",
+			"sub": "N/A",
+			"time": "4:30pm",
+			"type": "organizers"
+		},
+
+		"n": {
+			"activity_id": 12,
+			"event_id": 0,
+			"name": "Closing Program and Networking",
+			"sub": "N/A",
+			"time": "5:00 PM",
+			"type": "organizers"
 		}
 	}
 }

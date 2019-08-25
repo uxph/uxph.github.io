@@ -17,4 +17,5 @@ abbreviation: "MNL"
 for_web: "<url>"
 for_mobile: "<url>"
 header_image: "<url>"
+type: "roadshow"
 ---
