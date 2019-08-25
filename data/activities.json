@@ -64,10 +64,10 @@
 		"f": {
 			"activity_id": 5,
 			"event_id": 0,
-			"name": "Co-Presenter Activity",
-			"sub": "N/A",
+			"name": "Keynote Speaker: Oliver Bayani",
+			"sub": "Design at HomeCredit",
 			"time": "11:30 AM",
-			"type": "organizers"
+			"type": "keynote"
 		},
 
 		"g": {
