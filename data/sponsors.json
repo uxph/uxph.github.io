@@ -14,7 +14,8 @@
 			"url": "http://www.artandnaturecebu.com",
 			"cbu": "true",
 			"dvo": "true",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "true"
 		},
 
 		"collabox": {
@@ -23,7 +24,8 @@
 			"url": "https://www.facebook.com/pg/collaboxdotco",
 			"cbu": "true",
 			"dvo": "true",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "true"
 		},
 
 		"symph": {
@@ -32,7 +34,8 @@
 			"url": "https://symph.co",
 			"cbu": "true",
 			"dvo": "true",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "true"
 		},
 
 		"unisol": {
@@ -41,7 +44,8 @@
 			"url": "",
 			"cbu": "true",
 			"dvo": "false",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "true"
 		},
 
 		"addu": {
@@ -50,7 +54,8 @@
 			"url": "http://www.addu.edu.ph/",
 			"cbu": "false",
 			"dvo": "true",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "false"
 		},
 
 		"style_genie": {
@@ -59,7 +64,8 @@
 			"url": "https://stylegenie.ph/",
 			"cbu": "false",
 			"dvo": "true",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "true"
 		},
 
 		"insular_life": {
@@ -68,7 +74,8 @@
 			"url": "https://www.insularlife.com.ph/",
 			"cbu": "false",
 			"dvo": "true",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "true"
 		},
 
 		"canva": {
@@ -77,7 +84,8 @@
 			"url": "https://www.canva.com/",
 			"cbu": "false",
 			"dvo": "true",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "true"
 		},
 
 		"unionbank": {
@@ -86,7 +94,8 @@
 			"url": "https://www.unionbankph.com/",
 			"cbu": "false",
 			"dvo": "true",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "true"
 		}
 	},
 
