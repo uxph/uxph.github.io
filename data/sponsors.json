@@ -84,7 +84,8 @@
 			"url": "https://www.canva.com/",
 			"cbu": "false",
 			"dvo": "true",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "true"
 		},
 
 		"unionbank": {
@@ -93,7 +94,8 @@
 			"url": "https://www.unionbankph.com/",
 			"cbu": "false",
 			"dvo": "true",
-			"mnl": "true"
+			"mnl": "true",
+			"main": "true"
 		}
 	},
 
