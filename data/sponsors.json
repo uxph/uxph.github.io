@@ -16,7 +16,7 @@
 			"dvo": "true",
 			"mnl": "true",
 			"main": "true",
-			"tier": "silver"
+			"tier": "bronze"
 		},
 
 		"collabox": {
@@ -60,7 +60,7 @@
 			"dvo": "true",
 			"mnl": "true",
 			"main": "false",
-			"tier": "silver"
+			"tier": "gold"
 		},
 
 		"style_genie": {
@@ -105,6 +105,17 @@
 			"mnl": "true",
 			"main": "true",
 			"tier": "bronze"
+		},
+
+		"uxarmy": {
+			"logo": "sponsor-logos/uxarmy.png",
+			"name": "UX Army",
+			"url": "https://www.uxarmy.com/",
+			"cbu": "true",
+			"dvo": "true",
+			"mnl": "true",
+			"main": "true",
+			"tier": "gold"
 		}
 	},
 
@@ -133,6 +144,12 @@
 			"logo": "sponsor-logos/cebuxd.png",
 			"name": "CebuXD",
 			"url": "https://www.facebook.com/CebUXD/"
+		},
+
+		"tech_shake": {
+			"logo": "sponsor-logos/tech-shake.png",
+			"name": "TechShake",
+			"url": "https://www.techshake.asia"
 		}
 	},
 

@@ -445,7 +445,7 @@ div.speaker-wrapper div.content-wrapper p {
 div.speaker-wrapper div.content-wrapper img.featured-image {
 	display: block;
 	margin: auto;
-	width: 14em;
+	width: 8.5em;
 	border-radius: 100%;
 }
 
@@ -491,8 +491,8 @@ div.sponsor-wrapper {
 }
 
 div.sponsor-wrapper img.featured-image {
-	width: 8.5em;
-	height: 8.5em;
+	width: 7em;
+	height: 7em;
 	background-color: var(--neutral-whitish);
 	border-radius: 100%;
 	filter: grayscale(0%);
@@ -529,6 +529,8 @@ div.sponsor-wrapper .sponsor-name {
 /* tier styling */
 div#tiers {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 	box-sizing: border-box;
 	flex-wrap: wrap;
