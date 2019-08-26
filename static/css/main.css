@@ -196,8 +196,9 @@ div#city-wrapper div.city-card div.details p {
 
 div#city-wrapper div.city-card div.details button {
 	font-size: 0.8em;
-	padding: 1.1em 1em;
-	margin: 0;
+	padding: 1em 1em;
+	margin: 0 0.5em;
+	display: inline-block;
 }
 
 div#city-wrapper div.city-card img.featured-image {
