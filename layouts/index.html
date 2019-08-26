@@ -83,12 +83,12 @@
 				<div class="sponsor-wrapper">
 					{{ range .Site.Data.sponsors.sponsors }}
 					{{ if eq .main "true" }}
-					<a href="{{ .url }}" target="_blank">
-						<div>
-							<img src="assets/{{ .logo }}" class="featured-image" />
-							<h3 class="sponsor-name gray">{{ .name }}</h3>
-						</div>
-					</a>
+						<a href="{{ .url }}" target="_blank">
+							<div>
+								<img src="assets/{{ .logo }}" class="featured-image" />
+								<h3 class="sponsor-name gray">{{ .name }}</h3>
+							</div>
+						</a>
 					{{ end }}
 					{{ end }}
 				</div>
