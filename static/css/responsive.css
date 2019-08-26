@@ -96,6 +96,10 @@
 		margin: 1.7em 0.5em !important;
 	}
 
+	div.sponsor-wrapper .sponsor-name {
+		width: 6em !important;
+	}
+
 	div#timeline-wrapper {
 		width: 100% !important;
 	}

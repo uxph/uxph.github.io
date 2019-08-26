@@ -15,7 +15,8 @@
 			"cbu": "true",
 			"dvo": "true",
 			"mnl": "true",
-			"main": "true"
+			"main": "true",
+			"tier": "silver"
 		},
 
 		"collabox": {
@@ -25,7 +26,8 @@
 			"cbu": "true",
 			"dvo": "true",
 			"mnl": "true",
-			"main": "true"
+			"main": "true",
+			"tier": "gold"
 		},
 
 		"symph": {
@@ -35,7 +37,8 @@
 			"cbu": "true",
 			"dvo": "true",
 			"mnl": "true",
-			"main": "true"
+			"main": "true",
+			"tier": "bronze"
 		},
 
 		"unisol": {
@@ -45,7 +48,8 @@
 			"cbu": "true",
 			"dvo": "false",
 			"mnl": "true",
-			"main": "false"
+			"main": "false",
+			"tier": "bronze"
 		},
 
 		"addu": {
@@ -55,7 +59,8 @@
 			"cbu": "false",
 			"dvo": "true",
 			"mnl": "true",
-			"main": "false"
+			"main": "false",
+			"tier": "silver"
 		},
 
 		"style_genie": {
@@ -65,7 +70,8 @@
 			"cbu": "false",
 			"dvo": "true",
 			"mnl": "true",
-			"main": "true"
+			"main": "true",
+			"tier": "silver"
 		},
 
 		"insular_life": {
@@ -75,7 +81,8 @@
 			"cbu": "false",
 			"dvo": "true",
 			"mnl": "true",
-			"main": "true"
+			"main": "true",
+			"tier": "bronze"
 		},
 
 		"canva": {
@@ -85,7 +92,8 @@
 			"cbu": "false",
 			"dvo": "true",
 			"mnl": "true",
-			"main": "true"
+			"main": "true",
+			"tier": "silver"
 		},
 
 		"unionbank": {
@@ -95,7 +103,8 @@
 			"cbu": "false",
 			"dvo": "true",
 			"mnl": "true",
-			"main": "true"
+			"main": "true",
+			"tier": "bronze"
 		}
 	},
 
