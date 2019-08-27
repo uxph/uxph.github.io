@@ -150,6 +150,12 @@
 			"logo": "sponsor-logos/tech-shake.png",
 			"name": "TechShake",
 			"url": "https://www.techshake.asia"
+		},
+
+		"cebu_deisgn_week": {
+			"logo": "sponsor-logos/cebu-design-week.png",
+			"name": "Cebu Design Week",
+			"url": "https://www.cebudesignweek.com/"
 		}
 	},
 
