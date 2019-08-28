@@ -105,6 +105,28 @@
 			"mnl": "true",
 			"main": "true",
 			"tier": "gold"
+		},
+
+		"abstract": {
+			"logo": "sponsor-logos/abstract.png",
+			"name": "Abstract",
+			"url": "https://abstract.ph/",
+			"cbu": "true",
+			"dvo": "true",
+			"mnl": "true",
+			"main": "true",
+			"tier": "bronze"
+		},
+
+		"graphik_nine": {
+			"logo": "sponsor-logos/graphik-nine.png",
+			"name": "Graphik Nine",
+			"url": "https://www.facebook.com/grafiknine/",
+			"cbu": "true",
+			"dvo": "true",
+			"mnl": "true",
+			"main": "true",
+			"tier": "bronze"
 		}
 	},
 
@@ -125,6 +147,18 @@
 			"logo": "sponsor-logos/tech-shake.png",
 			"name": "TechShake",
 			"url": "https://www.techshake.asia"
+		},
+
+		"cebu_design_week": {
+			"logo": "sponsor-logos/cebu-design-week.png",
+			"name": "Cebu Design Week",
+			"url": "https://www.cebudesignweek.com/"
+		},
+
+		"pwdo": {
+			"logo": "sponsor-logos/pwdo.png",
+			"name": "Philippine Web Designers Organization",
+			"url": "https://pwdo.org/"
 		}
 	},
 
@@ -145,6 +179,12 @@
 			"logo": "sponsor-logos/cebu-design-week.png",
 			"name": "Cebu Design Week",
 			"url": "https://www.cebudesignweek.com/"
+		},
+
+		"pwdo": {
+			"logo": "sponsor-logos/pwdo.png",
+			"name": "Philippine Web Designers Organization",
+			"url": "https://pwdo.org/"
 		}
 	},
 
@@ -159,6 +199,12 @@
 			"logo": "sponsor-logos/tech-shake.png",
 			"name": "TechShake",
 			"url": "https://www.techshake.asia"
+		},
+
+		"pwdo": {
+			"logo": "sponsor-logos/pwdo.png",
+			"name": "Philippine Web Designers Organization",
+			"url": "https://pwdo.org/"
 		}
 	}
 }
