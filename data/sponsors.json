@@ -112,7 +112,7 @@
 			"name": "Abstract",
 			"url": "https://abstract.ph/",
 			"cbu": "true",
-			"dvo": "true",
+			"dvo": "false",
 			"mnl": "true",
 			"main": "true",
 			"tier": "bronze"
@@ -123,7 +123,7 @@
 			"name": "Graphik Nine",
 			"url": "https://www.facebook.com/grafiknine/",
 			"cbu": "true",
-			"dvo": "true",
+			"dvo": "false",
 			"mnl": "true",
 			"main": "true",
 			"tier": "bronze"
