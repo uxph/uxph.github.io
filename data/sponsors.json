@@ -48,7 +48,7 @@
 			"cbu": "true",
 			"dvo": "false",
 			"mnl": "true",
-			"main": "false",
+			"main": "true",
 			"tier": "bronze"
 		},
 
@@ -59,7 +59,7 @@
 			"cbu": "false",
 			"dvo": "true",
 			"mnl": "true",
-			"main": "false",
+			"main": "true",
 			"tier": "gold"
 		},
 
@@ -94,17 +94,6 @@
 			"mnl": "true",
 			"main": "true",
 			"tier": "silver"
-		},
-
-		"unionbank": {
-			"logo": "sponsor-logos/unionbank.png",
-			"name": "UnionBank",
-			"url": "https://www.unionbankph.com/",
-			"cbu": "false",
-			"dvo": "true",
-			"mnl": "true",
-			"main": "true",
-			"tier": "bronze"
 		},
 
 		"uxarmy": {
