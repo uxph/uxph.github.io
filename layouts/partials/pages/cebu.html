@@ -153,6 +153,24 @@
 			</div>
 
 			<div class="tier-wrapper">
+				<h1 class="yellow">Silver Sponsors</h1>
+				<div class="sponsor-wrapper tier">
+					{{ range .Site.Data.sponsors.sponsors }}
+					{{ if eq .cbu "true" }}
+						{{ if eq .tier "silver" }}
+						<a href="{{ .url }}" target="_blank">
+							<div>
+								<img src="../assets/{{ .logo }}" class="featured-image" />
+								<h3 class="sponsor-name gray">{{ .name }}</h3>
+							</div>
+						</a>
+						{{ end }}
+					{{ end }}
+					{{ end }}
+				</div>
+			</div>
+
+			<div class="tier-wrapper">
 				<h1 class="yellow">Bronze Sponsors</h1>
 				<div class="sponsor-wrapper tier">
 					{{ range .Site.Data.sponsors.sponsors }}
