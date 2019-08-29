@@ -67,7 +67,7 @@
 			"logo": "sponsor-logos/style-genie.png",
 			"name": "StyleGenie",
 			"url": "https://stylegenie.ph/",
-			"cbu": "false",
+			"cbu": "true",
 			"dvo": "true",
 			"mnl": "true",
 			"main": "true",
