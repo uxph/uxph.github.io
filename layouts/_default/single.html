@@ -2,14 +2,26 @@
 <html>
     <head>
         <title>{{ .Title }} - {{ .Site.Data.info.name }}</title>
-        {{ partial "components/meta" (dict "path" "../") }}
+        {{ if eq .Type "roadshow" }}
+            {{ partial "components/meta" (dict "path" "../") }}
+        {{ end }}
+
+        {{ if eq .Type "certificate" }}
+            {{ partial "components/meta" (dict "path" "../../") }}
+        {{ end }}
     </head>
     <body>
-        {{ partial "components/nav" (dict "path" "../") }}
         {{ if eq .Type "roadshow" }}
-            {{ partial .Params.page . }}
+            {{ partial "components/nav" (dict "path" "../") }}
+                {{ partial .Params.page . }}
+            {{ partial "components/footer" (dict "path" "../")  }}
         {{ end }}
-        {{ partial "components/footer" (dict "path" "../")  }}
+
+        {{ if eq .Type "certificate" }}
+            {{ partial "components/nav" (dict "path" "../../") }}
+                {{ partial .Params.page . }}
+            {{ partial "components/footer" (dict "path" "../../")  }}
+        {{ end }}
         <script>setActive({{ .Params.active }});</script>
     </body>
 </html>
