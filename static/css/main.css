@@ -278,6 +278,10 @@ section#event-wrapper {
 	color: var(--neutral-white);
 }
 
+.whitest {
+	color: white;
+}
+
 div.wrapper {
 	width: 55em;
 	margin: auto;
