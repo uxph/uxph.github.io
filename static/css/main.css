@@ -558,3 +558,44 @@ section {
 	opacity: 0;
 	transition: ease all 0.3s;
 }
+
+/* e-certificate styling */
+
+iframe {
+	border: 2px solid var(--primary-light-blue-rgba);
+	border-radius: 0.5em;
+	margin-top: 3em;
+	opacity: 0;
+	transition: ease all 0.3s;
+}
+
+input[type="text"] {
+	border: 2px solid var(--primary-light-blue-rgba);
+	background-color: transparent;
+	font-family: 'DM Sans', sans-serif;
+	text-indent: 30px;
+	color: var(--primary-light-blue);
+	transition: ease all 0.2s;
+	padding: 0.8em 0;
+	width: 100%;
+	border-radius: 0.5em;
+	font-size: 1.2em;
+	outline: none;
+}
+
+input[type="text"]:hover {
+	border: 2px solid var(--primary-light-blue-rgba);
+}
+
+input[type="text"]:focus {
+	border: 2px solid var(--primary-light-blue);
+}
+
+.animate {
+	opacity: 1;
+}
+
+#generate {
+	width: 100.5%;
+	margin: 1em auto;
+}
