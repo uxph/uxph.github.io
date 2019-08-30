@@ -562,11 +562,16 @@ section {
 /* e-certificate styling */
 
 iframe {
-	border: 2px solid var(--primary-light-blue-rgba);
 	border-radius: 0.5em;
 	margin-top: 3em;
-	opacity: 0;
 	transition: ease all 0.3s;
+	border: 2px solid var(--primary-light-blue-rgba);
+	opacity: 0;
+}
+
+iframe#feedback {
+	opacity: 1;
+	border: 2px solid transparent;
 }
 
 input[type="text"] {
