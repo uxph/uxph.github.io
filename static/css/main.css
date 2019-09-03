@@ -182,23 +182,44 @@ div#city-wrapper div.city-card {
 }
 
 div#city-wrapper div.city-card div.details {
-	padding: 1.2em 0;
+	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 }
 
 div#city-wrapper div.city-card div.details p {
 	font-size: 1.2em;
 	margin: 0;
-	margin-top: 0.1em;
+	margin-top: 0.5em;
 }
 
 div#city-wrapper div.city-card div.details button {
 	font-size: 0.8em;
-	padding: 1em 1em;
-	margin: 0 0.5em;
-	display: inline-block;
+	margin: 0;
+	padding: 1.5em 1em;
+	width: 100%;
+	display: block;
+	border-radius: 0;
+	flex: 1;
+	border-bottom-left-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+	/*border-top: 2px solid transparent !important;*/
+	border-color: transparent;
+}
+
+div#city-wrapper div.city-card div.details button.first-button {
+	border-bottom-right-radius: 0;
+}
+
+div#city-wrapper div.city-card div.details button.second-button {
+	border-bottom-left-radius: 0;
+}
+
+div#city-wrapper div.city-card div.details button > a {
+	width: 100%;
+	padding: 0.35em 0em;
 }
 
 div#city-wrapper div.city-card img.featured-image {

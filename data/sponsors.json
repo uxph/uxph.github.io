@@ -89,7 +89,7 @@
 			"logo": "sponsor-logos/canva.png",
 			"name": "Canva",
 			"url": "https://www.canva.com/",
-			"cbu": "false",
+			"cbu": "true",
 			"dvo": "true",
 			"mnl": "true",
 			"main": "true",

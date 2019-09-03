@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		{{ partial "components/nav" (dict "path" "../") }}
-		<img src="assets/event-images/main-square.png" id="event-square" />
+		<img src="assets/event-images/main-banner.png" id="event-square" />
 		<section class="dark hidden">
 			<div class="wrapper">
 				<img src="assets/event-images/main-banner.png" id="event-banner" />
@@ -14,34 +14,35 @@
 				<div id="city-wrapper">
 					<a href="/cebu/">
 						<div class="city-card">
-							<img src="assets/event-images/cebu-square.png" class="featured-image" />
+							<img src="assets/event-images/cebu-card.png" class="featured-image" />
 							<div class="details">
 								<!--
 								<a href="https://www.eventbrite.com/e/uxph-national-roadshow-cebu-tickets-66096104227" target="_blank">
 									<button>Buy Tickets</button>
 								</a>
 								-->
-								<a href="/cebu">
-									<button class="hollow">See Event Details</button>
-								</a>
+								<button class="hollow"><a href="/cebu">See Event Details</a></button>
 							</div>
 						</div>
 					</a>
 					<a href="/davao/">
 						<div class="city-card">
-							<img src="assets/event-images/dvo_soon.png" class="featured-image" />
+							<img src="assets/event-images/dvo-card.png" class="featured-image" />
 							<!--
 							<div class="details">
 								<p>Coming in <span class="green">September!</span></p>
 							</div>
 							-->
 							<div class="details">
-								<a href="https://www.eventbrite.com/e/uxph-national-roadshow-2019-davao-tickets-69857328149" target="_blank">
-									<button>Buy Tickets</button>
-								</a>
-								<a href="/davao/">
-									<button class="hollow">See Event Details</button>
-								</a>
+								<button class="first-button">
+									<a href="https://www.eventbrite.com/e/uxph-national-roadshow-2019-davao-tickets-69857328149" target="_blank">
+										Buy Tickets
+									</a>
+								</button>
+								
+								<button class="hollow second-button">
+									<a href="/davao/">See Event Details</a>
+								</button>
 							</div>
 						</div>
 					</a>

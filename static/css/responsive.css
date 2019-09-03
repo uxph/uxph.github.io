@@ -32,6 +32,10 @@
 		margin-bottom: 2em;
 	}
 
+	div#city-wrapper div.city-card .details p {
+		margin: 1em 0 !important;
+	}
+
 	img#event-banner {
 		display: none !important;
 		width: 100% !important;
