@@ -159,6 +159,12 @@
 			"logo": "sponsor-logos/pwdo.png",
 			"name": "Philippine Web Designers Organization",
 			"url": "https://pwdo.org/"
+		},
+
+		"roots": {
+			"logo": "sponsor-logos/roots.png",
+			"name": "Roots",
+			"url": "https://rootspodcast.design/"
 		}
 	},
 
@@ -205,6 +211,12 @@
 			"logo": "sponsor-logos/pwdo.png",
 			"name": "Philippine Web Designers Organization",
 			"url": "https://pwdo.org/"
+		},
+
+		"roots": {
+			"logo": "sponsor-logos/roots.png",
+			"name": "Roots",
+			"url": "https://rootspodcast.design/"
 		}
 	}
 }
