@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Cebu
   create: all
-  match: content/cebu/*
+  match: "/cebu/*"
 - type: directory
   path: content
   label: Pages
