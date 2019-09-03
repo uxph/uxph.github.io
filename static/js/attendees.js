@@ -226,8 +226,8 @@ const cebu_attendees = [
  },
  {
    "order_no": "998909551",
-   "first_name": "Alexander",
-   "last_name": "Obedo"
+   "first_name": "Patrick",
+   "last_name": "Amoy"
  },
  {
    "order_no": "998909551",
