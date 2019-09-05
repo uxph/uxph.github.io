@@ -17,11 +17,17 @@ fields:
 - type: text
   name: page
   label: page
+  hidden: true
+  default: pages/blogs
 - type: text
   name: active
   label: active
+  hidden: true
+  default: '5'
 - type: text
   name: type
   label: type
+  default: blog
+  hidden: true
 pages:
 - content/blogs/sample-blog-from-forestry.md
