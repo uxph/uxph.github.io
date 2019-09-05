@@ -9,3 +9,7 @@ type = "blog"
 
 +++
 I hope this works! This is so that everyone can use this, even those who do not know how to code.
+
+![](/uploads/clement-h-95YRwf6CNw8-unsplash.jpg)
+
+    console.log('hello world');
