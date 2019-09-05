@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ .Title }} - {{ .Site.Data.info.name }}</title>
+        {{ partial "components/meta" (dict "path" "../../") }}
+    </head>
+    <body>
+        {{ partial "components/nav" (dict "path" "../../") }}
+        <section class="hidden">
+            <div class="wrapper">
+                <h1 class="section-heading white">Roadshow Blogs</h1>
+                <br/><br/>
+                {{ range .Pages }}
+                    <div class="blog-item">
+                        <a href="{{ .URL }}">
+                            <!-- <img src="../../assets/illustrations/illustration_1.svg" class="featured-image" /> -->
+                            <div style="background-image: url('../../assets/event-images/{{ .Params.image }}');" class="featured-image"></div>
+                        </a>
+                        <div>
+                            <a href="{{ .URL }}"><h1>{{ .Title }}</h1></a>
+                            <div class="excerpt">
+                                {{ .Content }}
+                            </div>
+                            <a href="{{ .URL }}"><button>Read more</button></a>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <hr/>
+                    <br/><br/>
+                {{ end }}
+            </div>
+        </section>
+        {{ partial "components/footer" (dict "path" "../../")  }}
+        <script>setActive({{ .Params.active }});</script>
+        <script src="../../js/blog.js"></script>
+    </body>
+</html>

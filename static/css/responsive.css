@@ -149,4 +149,18 @@
 	footer #social-media {
 		margin-top: 2em !important;
 	}
+
+	/* blog list styling */
+	div.blog-item {
+		flex-direction: column;
+	}
+
+	div.blog-item img.featured-image {
+		width: 90% !important;
+	}
+
+	div.blog-item p, div.blog-item h1 {
+		width: 100% !important;
+		white-space: normal !important;
+	}
 }
