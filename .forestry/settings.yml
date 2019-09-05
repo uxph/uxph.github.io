@@ -6,9 +6,9 @@ webhook_url:
 sections:
 - type: directory
   path: ''
-  label: Cebu
+  label: Blogs
   create: all
-  match: content/cebu/*
+  match: content/blogs/*
 - type: directory
   path: content
   label: Pages
