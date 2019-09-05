@@ -31,7 +31,7 @@
             {{ partial "components/nav" (dict "path" "../../") }}
             <section id="blog-entry" class="hidden">
                 <div class="wrapper">
-                    <img src="../../assets/event-images/{{ .Params.image }}" id="featured-image" />
+                    <img src="../..{{ .Params.image }}" id="featured-image" />
                     <br/><br/>
                     <h1 id="blog-title">{{ .Title }}</h1>
                     <span class="gray">by {{ .Params.author }} • <i>{{ dateFormat "January 2, 2006" .Date  }}</i></span>
