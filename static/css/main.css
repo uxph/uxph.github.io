@@ -3,7 +3,8 @@
 @import url(nav.css);
 @import url(footer.css);
 @import url(responsive.css);
-@import url(light.css);
+/* @import url(light.css); */
+@import url(blog.css);
 
 /* official accents */
 :root {
@@ -59,6 +60,11 @@ h1, h2, h3, h4, h5, h6 {
 
 b {
 	font-weight: lighter;
+}
+
+hr {
+	border: none;
+	border-top: thin solid var(--neutral-gray);
 }
 
 p.large {
@@ -477,6 +483,10 @@ div.speaker-wrapper div.content-wrapper img.featured-image {
 /* FAQ styling */
 div.qa {
 	margin: 4em 0;
+}
+
+div.qa p {
+	font-size: 18px;
 }
 
 /* Back-to-top button styling */

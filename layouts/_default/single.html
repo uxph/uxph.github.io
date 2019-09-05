@@ -9,6 +9,10 @@
         {{ if eq .Type "certificate" }}
             {{ partial "components/meta" (dict "path" "../../") }}
         {{ end }}
+
+        {{ if eq .Type "blog" }}
+            {{ partial "components/meta" (dict "path" "../../") }}
+        {{ end }}
     </head>
     <body>
         {{ if eq .Type "roadshow" }}
@@ -20,6 +24,27 @@
         {{ if eq .Type "certificate" }}
             {{ partial "components/nav" (dict "path" "../../") }}
                 {{ partial .Params.page . }}
+            {{ partial "components/footer" (dict "path" "../../")  }}
+        {{ end }}
+
+        {{ if eq .Type "blog" }}
+            {{ partial "components/nav" (dict "path" "../../") }}
+            <section id="blog-entry" class="hidden">
+                <div class="wrapper">
+                    <img src="../../assets/event-images/{{ .Params.image }}" id="featured-image" />
+                    <br/><br/>
+                    <h1 id="blog-title">{{ .Title }}</h1>
+                    <span class="gray">by {{ .Params.author }} • <i>{{ dateFormat "January 2, 2006" .Date  }}</i></span>
+                    <div id="content">
+                        {{ .Content }}
+                    </div>
+                    <br/>
+                    <a href="/blogs" class="text-link blue">
+                        <i class="fa fa-long-arrow-alt-left blue"></i>&nbsp; Back to Roadshow Blogs
+                    </a>
+                </div>
+            </section>
+
             {{ partial "components/footer" (dict "path" "../../")  }}
         {{ end }}
         <script>setActive({{ .Params.active }});</script>
