@@ -109,6 +109,8 @@ Members of CebUXD held closed-door workshops with smaller groups and taught them
 
 ### Applying usability testing principles in the workplace with Anj Garong
 
+![](/uploads/anj.jpg)
+
 [Anj Garong](https://www.linkedin.com/in/anjgarong/), a Product Design Manager at Sprout Solutions, discussed the basics of usability testing and facilitated an interactive lecture and hands-on activities for participants to get a knack on conducting usability testing sessions. She also shared some tips and best practices on how to apply the usability testing principles at work, so they can share the culture within their companies as well.
 
 ## Wrapping up the event
@@ -118,6 +120,13 @@ The day was very packed for all of our attendees. We received fantastic feedback
 UXPH wanted to make sure we gave a big impression on the local Cebu community. On top of the information-rich program, each conference attendee received a UXPH Roadshow T-Shirt, limited edition UXPH Roadshow stickers, and prizes and giveaways from our generous sponsors.
 
 As a bonus, volunteers from CebUXD put together a Same Day Edit video of the event!
+
+{{< universal >}}
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/357044838" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<p><a href="https://vimeo.com/357044838">UXPH 2019 Cebu Leg</a> from <a href="https://vimeo.com/user15553081">Francis Alturas</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+{{< /universal >}}
 
 ## What’s next?
 
