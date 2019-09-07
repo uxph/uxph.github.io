@@ -123,8 +123,10 @@ As a bonus, volunteers from CebUXD put together a Same Day Edit video of the eve
 
 {{< universal >}}
 
-<iframe src="https://www.youtube.com/embed/v_IK0R-aKw4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<video controls src="https://vimeo.com/357044838?fbclid=IwAR2tqdGUiGB0954m-bDl4azEe_gbMF6WnCZGMgJvV4RNFDFLfCFv4HSwfdo"></video>
 {{< /universal >}}
+
+{{< tweet 1167638578895056898 >}}
 
 ## What’s next?
 
