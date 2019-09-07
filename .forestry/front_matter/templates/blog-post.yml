@@ -14,6 +14,13 @@ fields:
 - type: file
   name: image
   label: image
+- name: city
+  type: text
+  config:
+    required: false
+  label: city
+  hidden: false
+  default: cebu
 - type: text
   name: page
   label: page
@@ -29,12 +36,5 @@ fields:
   label: type
   default: blog
   hidden: true
-- name: city
-  type: text
-  config:
-    required: false
-  label: city
-  hidden: false
-  default: cebu
 pages:
 - content/blogs/sample-blog-from-forestry.md
