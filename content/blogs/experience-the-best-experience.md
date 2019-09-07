@@ -1,21 +1,23 @@
 +++
 active = "5"
 author = "UX Philippines"
+city = "cebu"
 date = "2019-09-06T16:00:00+00:00"
 image = "/uploads/EDSxM99UYAAKHbg.jpeg"
 page = "pages/blogs"
-title = "Experience the best experience"
+title = "A recap of the UXPH National Roadshow: Cebu"
 type = "blog"
-city = "cebu"
 
 +++
-Last week, User Experience Philippines (UXPH) held its first ever National Roadshow across the Philippines, starting in Cebu. It was held on August 31, 2019 at The Company, located at the 15th floor of HM Tower in IT Park, Cebu.
+On August 31, 2019, UXPH (User Experience Philippines) held its first ever National Roadshow across the Philippines, starting in Cebu City.
 
-UXPH partnered with CebUXD, the local design community in Cebu comprised of User Experience (UX) practitioners, software developers, graphic designers, project managers, and students shared under the philosophy of user-centered design and design thinking. They helped connect the Cebuanos who wanted to learn more about different UX topics and participate in workshops facilitated by different professionals.
+The Roadshow events are structured with keynote speakers in the morning followed by various workshops for UX methodologies in the afternoon. UXPH partnered with CebUXD, the local design organization in Cebu comprised of a diverse group of design enthusiasts and practitioners. They helped connect the Cebuanos who wanted to learn more about different UX topics and participate in workshops facilitated by different professionals
 
-## All about UX design deliverables
+## The Morning Talks
 
-The day started with a talk from Mica Diaz de Rivera, Head of Operations at Make Technology Inc. on demystifying UX design deliverables. He shared that, according to a study from [Nielsen Norman Group](http://nngroup.com) (NNGroup), the top 3 UX deliverables are prototypes, usability reports, and customer journey maps. He then connected these three deliverables with the 3 workshops that would happen in the afternoon session of the roadshow.
+### Keynote 1: All about UX design deliverables
+
+The day started with a talk from Mica Diaz de Rivera, Head of Operations at Make Technology Inc. on Demystifying UX Design Deliverables. He shared that, according to a study from [Nielsen Norman Group](http://nngroup.com) (NNGroup), the top 3 UX deliverables are prototypes, usability reports, and customer journey maps. He then connected these three deliverables with the 3 workshops that would happen in the afternoon session of the roadshow.
 
 {{< twitter >}}
 <div class="embed_tweet">
@@ -23,9 +25,9 @@ The day started with a talk from Mica Diaz de Rivera, Head of Operations at Make
 </div>
 {{< /twitter >}}
 
-## Building UX design teams within organizations
+### Keynote 2: Building UX design teams within organizations
 
-The next speaker, Fish Ibasco, Experience Design Lead at Accenture Philippines, then talked about how to jumpstart UX in organizations, and retold stories on how she landed her job at Accenture. She explained how she looked for members for her new UX design team, and related the experience to Game of Thrones. She considered herself as Sansa Stark, the “innocent designer."
+The next speaker, Fish Ibasco, Experience Design Lead at Accenture Philippines, then talked about how to jumpstart UX in organizations, and retold stories on how she landed her job at Accenture. She explained how she looked for members for her new UX design team, and related the experience to Game of Thrones. She considered herself as Sansa Stark, the “innocent designer”.
 
 {{< twitter >}}
 <div class="embed_tweet">
@@ -45,9 +47,9 @@ Fish gave tips on how to plan for a minimum viable design team in companies and 
 </div>
 {{< /twitter >}}
 
-## Designing at Home Credit
+### Keynote 3: Designing at Home Credit
 
-Oliver Bayani from Home Credit Philippines, our co-presenter for the 2019 UXPH Roadshow, then takes the stage and shares how design is done at his company. He discusses how design culture emerges as it comes out naturally within the different interactions with your teammates within your company.
+Oliver Bayani from Home Credit Philippines, our co-presenter for the 2019 UXPH Roadshow, then took the stage and shares how design is done at his company. He discusses how design culture emerges as it comes out naturally within the different interactions with your teammates within your company.
 
 {{< twitter >}}
 <div class="embed_tweet">
@@ -57,7 +59,7 @@ Oliver Bayani from Home Credit Philippines, our co-presenter for the 2019 UXPH R
 </div>
 {{< /twitter >}}
 
-## Design and team culture in the context of behavioral science
+### Keynote 4: Design and team culture in the context of behavioral science
 
 Our last speaker, Dae Lee, Culture Designer at Four Wall Global, ends the morning session by sharing his knowledge on behavioral science and how context is very important when doing things to influence or change the design and team culture within your company.
 
@@ -81,32 +83,42 @@ He also reminds everyone that they shouldn’t try to change people, and instead
 </div>
 {{< /twitter >}}
 
-## Workshops for different UX methods and deliverables
+## The Workshop Tracks
 
 The afternoon session had participants break up into three different workshops: Figma 101, Creating actionable customer journey maps, and Applying usability testing principles in the workplace.
 
 ### Figma 101 with CebUXD
 
-Members of CebUXD held closed-door workshops with smaller groups and taught them all about the basics of using Figma, a collaborative design tool. \[list down things that they may have learned during the workshop?\]
+Members of CebUXD held closed-door workshops with smaller groups and taught them all about the basics of using Figma, one of the collaborative design tools of choice in the design industry. The participants learned all about the intricacies of the tool and how to create quick but effective prototypes within the software.
 
 ### Creating actionable customer journey maps with Raine Liao
 
-Raine Liao, a UX designer from Home Credit Philippines, taught participants how to create actionable customer journey maps that they may apply and use within their teams. The workshop was a mix of a lecture on what customer journey maps are, and a hands-on practical application of journey mapping.
+Raine Liao, a UX designer from Home Credit Philippines, taught participants how to create actionable customer journey maps that they may apply and use within their teams. The workshop was a mix of a lecture on what customer journey maps are, and a hands-on practical application of journey mapping through the use of a board game.
 
 ### Applying usability testing principles in the workplace with Anj Garong
 
 Anj Garong, a Product Design Manager at Sprout Solutions, discussed the basics of usability testing and facilitated an interactive lecture and hands-on activities for participants to get a knack on conducting usability testing sessions. She also shared some tips and best practices on how to apply the usability testing principles at work, so they can share the culture within their companies as well.
 
-### Giveaways from numerous sponsors
+## Wrapping up the event
 
-At the lobby of the venue, there were various booths that participants could visit before the event started, and in-between breaks. We’d like to take this opportunity to thank all of the companies and groups who sponsored the 2019 UXPH Roadshow and helped to turn it into a reality:
+The day was very packed for all of our attendees. We received fantastic feedback from all of our participants, and our event was featured in the local news channel, the SunStar! ([https://www.sunstar.com.ph/article/1821593?fbclid=IwAR2moStLgxV3AHFRhTlvz4Drh6hNIlTAM-swfpuVCa5MyQjFdRARjmxqkBI](https://www.sunstar.com.ph/article/1821593?fbclid=IwAR2moStLgxV3AHFRhTlvz4Drh6hNIlTAM-swfpuVCa5MyQjFdRARjmxqkBI "https://www.sunstar.com.ph/article/1821593?fbclid=IwAR2moStLgxV3AHFRhTlvz4Drh6hNIlTAM-swfpuVCa5MyQjFdRARjmxqkBI"))
 
-Our co-presenter: Home Credit Philippines;
+UXPH wanted to make sure we gave a big impression on the local Cebu community. On top of the information-rich program, each conference attendee received a UXPH Roadshow T-Shirt, limited edition UXPH Roadshow stickers, and prizes and giveaways from our generous sponsors.
 
-Our Gold sponsors: CollaboX and UX Army;
+As a bonus, volunteers from CebUXD put together a Same Day Edit video of the event!
 
-Our Silver sponsors: Canva and StyleGenie Asia;
+## What’s next?
 
-Our Bronze sponsors: Symph, UNISOL, Art n’ Nature, Insular Life, Grafik 9, and Abstract Digital Inc;
+Our 2nd stop is Davao City on September 28, 2019! We’ve paired up with the local design group, UXDVO, to bring you another full day conference packed with speakers and workshops in Ateneo de Davao university.
 
-And our Community Partners: CebuUXD, UX Davao, TechShake, Cebu Design Week, and Philippine Web Designers Organization;
+[https://roadshow.uxph.org/davao/](https://roadshow.uxph.org/davao/ "https://roadshow.uxph.org/davao/")
+
+[https://uxphroadshowdavao.eventbrite.com/](https://uxphroadshowdavao.eventbrite.com/ "https://uxphroadshowdavao.eventbrite.com/")
+
+Our 3rd and final stop for the year is in our homebase, Manila, on October 26th, 2019. Please stay tuned for details!
+
+## Thank you to our sponsors
+
+We’d like to take this opportunity to thank all of the companies and groups who sponsored the 2019 UXPH Roadshow, helping us turn it into a huge success.
+
+If your company is interested in supporting UXPH and our national effort of connecting the design communities across The Philippines for a more mature, design-driven country, please get in touch with us at info@uxph.org.
