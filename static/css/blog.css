@@ -72,3 +72,7 @@ section#blog-entry div#content {
 section#blog-entry div#content > p {
 	font-size: 21px;
 }
+
+section#blog-entry .twitter-tweet {
+	margin: 2em auto !important;
+}
