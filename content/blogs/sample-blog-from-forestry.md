@@ -4,7 +4,7 @@ author = "Mike Jaren Yap"
 date = "2019-09-04T16:00:00+00:00"
 image = "/uploads/photo-1515879218367-8466d910aaa4.jpeg"
 page = "pages/blogs"
-title = "Sample blog from Forestry"
+title = "Sample blog from Forestrywww"
 type = "blog"
 
 +++
