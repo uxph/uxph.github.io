@@ -37,4 +37,5 @@ fields:
   default: blog
   hidden: true
 pages:
+- content/blogs/a-recap-of-the-uxph-national-roadshow-cebu-1.md
 - content/blogs/sample-blog-from-forestry.md
