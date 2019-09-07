@@ -17,7 +17,7 @@ The Roadshow events are structured with keynote speakers in the morning followed
 
 ### Keynote 1: All about UX design deliverables
 
-The day started with a talk from Mica Diaz de Rivera, Head of Operations at Make Technology Inc. on Demystifying UX Design Deliverables. He shared that, according to a study from [Nielsen Norman Group](http://nngroup.com) (NNGroup), the top 3 UX deliverables are prototypes, usability reports, and customer journey maps. He then connected these three deliverables with the 3 workshops that would happen in the afternoon session of the roadshow.
+The day started with a talk from [Mica Diaz de Rivera](https://www.linkedin.com/in/madiazderivera/), Head of Operations at Make Technology Inc. on Demystifying UX Design Deliverables. He shared that, according to a study from [Nielsen Norman Group](http://nngroup.com) (NNGroup), the top 3 UX deliverables are prototypes, usability reports, and customer journey maps. He then connected these three deliverables with the 3 workshops that would happen in the afternoon session of the roadshow.
 
 {{< twitter >}}
 <div class="embed_tweet">
@@ -27,7 +27,7 @@ The day started with a talk from Mica Diaz de Rivera, Head of Operations at Make
 
 ### Keynote 2: Building UX design teams within organizations
 
-The next speaker, Fish Ibasco, Experience Design Lead at Accenture Philippines, then talked about how to jumpstart UX in organizations, and retold stories on how she landed her job at Accenture. She explained how she looked for members for her new UX design team, and related the experience to Game of Thrones. She considered herself as Sansa Stark, the “innocent designer”.
+The next speaker, [Fish Ibasco](https://www.linkedin.com/in/tisha-ibasco-41463063/), Experience Design Lead at Accenture Philippines, then talked about how to jumpstart UX in organizations, and retold stories on how she landed her job at Accenture. She explained how she looked for members for her new UX design team, and related the experience to Game of Thrones. She considered herself as Sansa Stark, the “innocent designer”.
 
 {{< twitter >}}
 <div class="embed_tweet">
@@ -49,7 +49,7 @@ Fish gave tips on how to plan for a minimum viable design team in companies and 
 
 ### Keynote 3: Designing at Home Credit
 
-Oliver Bayani from Home Credit Philippines, our co-presenter for the 2019 UXPH Roadshow, then took the stage and shares how design is done at his company. He discusses how design culture emerges as it comes out naturally within the different interactions with your teammates within your company.
+[Oliver Bayani](https://www.linkedin.com/in/oliver-bayani-b781a056/) from Home Credit Philippines, our co-presenter for the 2019 UXPH Roadshow, then took the stage and shares how design is done at his company. He discusses how design culture emerges as it comes out naturally within the different interactions with your teammates within your company.
 
 {{< twitter >}}
 <div class="embed_tweet">
@@ -61,7 +61,7 @@ Oliver Bayani from Home Credit Philippines, our co-presenter for the 2019 UXPH R
 
 ### Keynote 4: Design and team culture in the context of behavioral science
 
-Our last speaker, Dae Lee, Culture Designer at Four Wall Global, ends the morning session by sharing his knowledge on behavioral science and how context is very important when doing things to influence or change the design and team culture within your company.
+Our last speaker, [Dae Lee](https://www.linkedin.com/in/dae-lee-a30880a1/), Culture Designer at Four Wall Global, ends the morning session by sharing his knowledge on behavioral science and how context is very important when doing things to influence or change the design and team culture within your company.
 
 Dae shared how motivation, ability, and triggers can change or influence behavior, and related these to different UX methods that are being used by many designers today.
 
@@ -93,11 +93,11 @@ Members of CebUXD held closed-door workshops with smaller groups and taught them
 
 ### Creating actionable customer journey maps with Raine Liao
 
-Raine Liao, a UX designer from Home Credit Philippines, taught participants how to create actionable customer journey maps that they may apply and use within their teams. The workshop was a mix of a lecture on what customer journey maps are, and a hands-on practical application of journey mapping through the use of a board game.
+[Raine Liao](https://www.linkedin.com/in/raineliao/), a UX designer from Home Credit Philippines, taught participants how to create actionable customer journey maps that they may apply and use within their teams. The workshop was a mix of a lecture on what customer journey maps are, and a hands-on practical application of journey mapping through the use of a board game.
 
 ### Applying usability testing principles in the workplace with Anj Garong
 
-Anj Garong, a Product Design Manager at Sprout Solutions, discussed the basics of usability testing and facilitated an interactive lecture and hands-on activities for participants to get a knack on conducting usability testing sessions. She also shared some tips and best practices on how to apply the usability testing principles at work, so they can share the culture within their companies as well.
+[Anj Garong](https://www.linkedin.com/in/anjgarong/), a Product Design Manager at Sprout Solutions, discussed the basics of usability testing and facilitated an interactive lecture and hands-on activities for participants to get a knack on conducting usability testing sessions. She also shared some tips and best practices on how to apply the usability testing principles at work, so they can share the culture within their companies as well.
 
 ## Wrapping up the event
 
