@@ -152,11 +152,14 @@
 
 	/* blog list styling */
 	div.blog-item {
-		flex-direction: column;
+		flex-direction: column !important;
+		justify-content: center !important;
 	}
 
-	div.blog-item img.featured-image {
-		width: 90% !important;
+	div.blog-item .featured-image {
+		width: 100% !important;
+		margin: 0 !important;
+		margin-bottom: 1.5em !important;
 	}
 
 	div.blog-item p, div.blog-item h1 {

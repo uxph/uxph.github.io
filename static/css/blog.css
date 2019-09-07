@@ -3,7 +3,6 @@
 div.blog-item {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 div.blog-item p {
@@ -16,7 +15,7 @@ div.blog-item p {
 }
 
 div.blog-item h1 {
-	color: var(--primary-light-blue);
+	color: var(--primary-blue) !important;
 	font-size: 1.875em;
 	overflow: hidden;
 	white-space: nowrap;
@@ -51,7 +50,6 @@ section#blog-entry #content *, section#blog-entry #blog-title {
 
 section#blog-entry h1#blog-title {
 	margin: 0;
-	line-height: 2em;
 	font-size: 2.125em;
 	color: var(--primary-light-blue)
 }
@@ -67,5 +65,5 @@ section#blog-entry div#content {
 }
 
 section#blog-entry div#content > p {
-	font-size: 1.125em;
+	font-size: 21px;
 }
