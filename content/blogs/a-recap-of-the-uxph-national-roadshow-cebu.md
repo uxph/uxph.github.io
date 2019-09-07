@@ -123,9 +123,7 @@ As a bonus, volunteers from CebUXD put together a Same Day Edit video of the eve
 
 {{< universal >}}
 
-<iframe src="https://player.vimeo.com/video/357044838" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<p><a href="https://vimeo.com/357044838">UXPH 2019 Cebu Leg</a> from <a href="https://vimeo.com/user15553081">Francis Alturas</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="https://www.youtube.com/embed/v_IK0R-aKw4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 {{< /universal >}}
 
 ## What’s next?
