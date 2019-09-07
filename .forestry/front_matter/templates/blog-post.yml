@@ -14,6 +14,13 @@ fields:
 - type: file
   name: image
   label: image
+- name: city
+  type: text
+  config:
+    required: false
+  label: city
+  hidden: false
+  default: cebu
 - type: text
   name: page
   label: page
@@ -30,4 +37,5 @@ fields:
   default: blog
   hidden: true
 pages:
+- content/blogs/a-recap-of-the-uxph-national-roadshow-cebu.md
 - content/blogs/sample-blog-from-forestry.md

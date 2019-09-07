@@ -30,6 +30,7 @@
 
         {{ if eq .Type "blog" }}
             {{ partial "components/nav" (dict "path" "../../") }}
+            {{ $city := .Params.city }}
             <section id="blog-entry" class="hidden">
                 <div class="wrapper">
                     <img src="../..{{ .Params.image }}" id="featured-image" />
@@ -40,10 +41,154 @@
                     <div id="content">
                         {{ .Content }}
                     </div>
-                    <br/>
+
+                    <h1 class="section-heading">Our Co-presenter</h1>
+                    <div class="sponsor-wrapper">
+                        {{ range .Site.Data.sponsors.copresenters }}
+                        <a href="{{ .url }}" target="_blank">
+                            <div>
+                                <img src="../../assets/{{ .logo }}" class="featured-image" />
+                                <h3 class="sponsor-name gray">{{ .name }}</h3>
+                            </div>
+                        </a>
+                        {{ end }}
+                    </div>
+
+                    <div id="tiers">
+                        <div class="tier-wrapper">
+                            <h1 class="section-heading">Gold Sponsors</h1>
+                            <div class="sponsor-wrapper tier">
+                                {{ range .Site.Data.sponsors.sponsors }}
+                                <!-- Conditions whether to push through -->
+                                {{ $push := "false" }}
+                                {{ if eq $city "cebu" }}
+                                    {{ if eq .cbu "true" }} {{ $push = "true" }} {{ end }}
+                                {{ end }}
+                                {{ if eq $city "davao" }}
+                                    {{ if eq .dvo "true" }} {{ $push = "true" }} {{ end }}
+                                {{ end }}
+                                {{ if eq $city "manila" }}
+                                    {{ if eq .mnl "true" }} {{ $push = "true" }} {{ end }}
+                                {{ end }}
+
+
+                                {{ if eq $push "true" }}
+                                    {{ if eq .tier "gold" }}
+                                    <a href="{{ .url }}" target="_blank">
+                                        <div>
+                                            <img src="../../assets/{{ .logo }}" class="featured-image" />
+                                            <h3 class="sponsor-name gray">{{ .name }}</h3>
+                                        </div>
+                                    </a>
+                                    {{ end }}
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
+
+                        <div class="tier-wrapper">
+                            <h1 class="section-heading">Silver Sponsors</h1>
+                            <div class="sponsor-wrapper tier">
+                                {{ range .Site.Data.sponsors.sponsors }}
+                                <!-- Conditions whether to push through -->
+                                {{ $push := "false" }}
+                                {{ if eq $city "cebu" }}
+                                    {{ if eq .cbu "true" }} {{ $push = "true" }} {{ end }}
+                                {{ end }}
+                                {{ if eq $city "davao" }}
+                                    {{ if eq .dvo "true" }} {{ $push = "true" }} {{ end }}
+                                {{ end }}
+                                {{ if eq $city "manila" }}
+                                    {{ if eq .mnl "true" }} {{ $push = "true" }} {{ end }}
+                                {{ end }}
+
+                                {{ if eq .cbu "true" }}
+                                    {{ if eq .tier "silver" }}
+                                    <a href="{{ .url }}" target="_blank">
+                                        <div>
+                                            <img src="../../assets/{{ .logo }}" class="featured-image" />
+                                            <h3 class="sponsor-name gray">{{ .name }}</h3>
+                                        </div>
+                                    </a>
+                                    {{ end }}
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
+
+                        <div class="tier-wrapper">
+                            <h1 class="section-heading">Bronze Sponsors</h1>
+                            <div class="sponsor-wrapper tier">
+                                {{ range .Site.Data.sponsors.sponsors }}
+                                <!-- Conditions whether to push through -->
+                                {{ $push := "false" }}
+                                {{ if eq $city "cebu" }}
+                                    {{ if eq .cbu "true" }} {{ $push = "true" }} {{ end }}
+                                {{ end }}
+                                {{ if eq $city "davao" }}
+                                    {{ if eq .dvo "true" }} {{ $push = "true" }} {{ end }}
+                                {{ end }}
+                                {{ if eq $city "manila" }}
+                                    {{ if eq .mnl "true" }} {{ $push = "true" }} {{ end }}
+                                {{ end }}
+
+                                {{ if eq .cbu "true" }}
+                                    {{ if eq .tier "bronze" }}
+                                    <a href="{{ .url }}" target="_blank">
+                                        <div>
+                                            <img src="../../assets/{{ .logo }}" class="featured-image" />
+                                            <h3 class="sponsor-name gray">{{ .name }}</h3>
+                                        </div>
+                                    </a>
+                                    {{ end }}
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1 class="section-heading">Community Partners</h1>
+                    <div class="sponsor-wrapper">
+                        <!-- Conditions whether to push through -->
+                        {{ $push := "false" }}
+                        {{ if eq $city "cebu" }}
+                            {{ range .Site.Data.sponsors.partners_cbu }}
+                            <a href="{{ .url }}" target="_blank">
+                                <div>
+                                    <img src="../../assets/{{ .logo }}" class="featured-image" />
+                                    <h3 class="sponsor-name gray">{{ .name }}</h3>
+                                </div>
+                            </a>
+                            {{ end }}
+                        {{ end }}
+                        {{ if eq $city "davao" }}
+                            {{ range .Site.Data.sponsors.partners_dvo }}
+                            <a href="{{ .url }}" target="_blank">
+                                <div>
+                                    <img src="../../assets/{{ .logo }}" class="featured-image" />
+                                    <h3 class="sponsor-name gray">{{ .name }}</h3>
+                                </div>
+                            </a>
+                            {{ end }}
+                        {{ end }}
+                        {{ if eq $city "manila" }}
+                            {{ range .Site.Data.sponsors.partners_mnl }}
+                            <a href="{{ .url }}" target="_blank">
+                                <div>
+                                    <img src="../../assets/{{ .logo }}" class="featured-image" />
+                                    <h3 class="sponsor-name gray">{{ .name }}</h3>
+                                </div>
+                            </a>
+                            {{ end }}
+                        {{ end }}
+
+                    </div>
+
+                    <br/><br/><br/>
                     <a href="/blogs" class="text-link blue">
                         <i class="fa fa-long-arrow-alt-left blue"></i>&nbsp; Back to Roadshow Blogs
                     </a>
+                    <br/><br/>
                 </div>
             </section>
 
