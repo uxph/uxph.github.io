@@ -5,7 +5,7 @@ city = "cebu"
 date = "2019-09-06T16:00:00+00:00"
 image = "/uploads/class.jpg"
 page = "pages/blogs"
-title = "A recap of the UXPH National Roadshow: Cebus"
+title = "A recap of the UXPH National Roadshow: Cebu"
 type = "blog"
 
 +++
@@ -123,7 +123,7 @@ As a bonus, volunteers from CebUXD put together a Same Day Edit video of the eve
 
 {{< universal >}}
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/357044838" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<iframe src="https://player.vimeo.com/video/357044838" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <p><a href="https://vimeo.com/357044838">UXPH 2019 Cebu Leg</a> from <a href="https://vimeo.com/user15553081">Francis Alturas</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 {{< /universal >}}
