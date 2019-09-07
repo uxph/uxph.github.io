@@ -150,19 +150,3 @@ Twitter: [https://twitter.com/UXPH_](https://twitter.com/UXPH_ "https://twitter.
 Instagram: [https://instagram.com/uxph_](https://instagram.com/uxph_ "https://instagram.com/uxph_")
 
 LinkedIn: [https://www.linkedin.com/company/uxph](https://www.linkedin.com/company/uxph "https://www.linkedin.com/company/uxph")
-
-## Co-presenter
-
-Home Credit Philippines
-
-## Gold sponsors
-
-CollaboX and UXArmy
-
-## Silver sponsors
-
-Canva and StyleGenie Asia
-
-## Bronze sponsors
-
-Symph, UNISOL, Art n’ Nature, Insular Life, Grafik 9, and Abstract Digital Inc;
