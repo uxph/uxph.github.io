@@ -56,13 +56,18 @@ section#blog-entry #content a {
 section#blog-entry h1#blog-title {
 	margin: 0;
 	font-size: 2.125em;
-	color: var(--primary-light-blue)
+	color: var(--primary-light-blue);
 }
 
 section#blog-entry div#content i,
 section#blog-entry div#content b,
-section#blog-entry div#content u {
-	color: var(--neutral-white);
+section#blog-entry div#content u,
+section#blog-entry div#content h2,
+section#blog-entry div#content h3,
+section#blog-entry div#content h4,
+section#blog-entry div#content h5,
+section#blog-entry div#content h6 {
+	color: var(--neutral-black);
 }
 
 section#blog-entry div#content {
