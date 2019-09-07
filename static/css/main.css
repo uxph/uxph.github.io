@@ -64,7 +64,7 @@ b {
 
 hr {
 	border: none;
-	border-top: thin solid var(--neutral-gray);
+	border-top: thin solid #e7e7e7;
 }
 
 p.large {
