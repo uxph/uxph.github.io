@@ -4,7 +4,8 @@
         <title>{{ .Title }} - {{ .Site.Data.info.name }}</title>
         {{ partial "components/meta" (dict "path" "../../") }}
     </head>
-    <body>
+    {{ $type := "blog" }}
+    <body {{ if eq .Type $type }}id="light"{{ end }}>
         {{ partial "components/nav" (dict "path" "../../") }}
         <section class="hidden">
             <div class="wrapper">

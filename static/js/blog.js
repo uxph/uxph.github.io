@@ -8,4 +8,10 @@ $('document').ready(function() {
 	}
 
 	$('section hr:last-of-type').remove();
+
+	lightNav(); // replace roadshow logo to negative version
 });
+
+function lightNav() {
+	$('body#light #nav-logo').attr('src', '../../assets/logos/UXPH_logo-neg@2x.png')
+}

@@ -1,3 +1,8 @@
+:root {
+	--light-theme-p: #666;
+	--light-theme-heading: #333;
+}
+
 body#light {
 	background-color: var(--neutral-whitish);
 }
@@ -11,7 +16,7 @@ body#light div#modal-wrapper p {
 }
 
 body#light nav {
-	background-color: var(--neutral-whitish);
+	background-color: #f5f5f5 !important;
 }
 
 body#light nav ul li:hover {
@@ -64,19 +69,36 @@ body#light div.timeline {
 	border-left-color: var(--neutral-black);
 }
 
-body#light footer {
-	color: var(--neutral-black);
-	background-color: var(--neutral-whitish);
-}
-
-body#light footer h3, body#light footer h5 {
-	color: var(--neutral-black);
-}
-
-body#light footer a {
-	color: var(--neutral-gray);
+body#light h1,
+body#light h2,
+body#light h3,
+body#light h4,
+body#light h5,
+body#light h6 {
+	color: var(--light-theme-heading);
 }
 
 body#light p {
-	color: var(--neutral-gray);
+	color: var(--light-theme-p) !important;
+}
+
+body#light footer p {
+	color: white !important;
+}
+
+body#light footer {
+	background-color: var(--neutral-black);
+	color: white;
+}
+
+body#light footer h3, body#light footer h5 {
+	color: white;
+}
+
+body#light footer a {
+	color: #cccccc;
+}
+
+body#light footer .coc {
+	color: var(--primary-light-blue) !important;
 }

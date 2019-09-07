@@ -14,7 +14,8 @@
             {{ partial "components/meta" (dict "path" "../../") }}
         {{ end }}
     </head>
-    <body>
+    {{ $type := "blog" }}
+    <body {{ if eq .Type $type }}id="light"{{ end }}>
         {{ if eq .Type "roadshow" }}
             {{ partial "components/nav" (dict "path" "../") }}
                 {{ partial .Params.page . }}
@@ -34,6 +35,7 @@
                     <img src="../..{{ .Params.image }}" id="featured-image" />
                     <br/><br/>
                     <h1 id="blog-title">{{ .Title }}</h1>
+                    <br/>
                     <span class="gray">by {{ .Params.author }} • <i>{{ dateFormat "January 2, 2006" .Date  }}</i></span>
                     <div id="content">
                         {{ .Content }}
@@ -46,6 +48,7 @@
             </section>
 
             {{ partial "components/footer" (dict "path" "../../")  }}
+            <script src="../../js/blog.js"></script>
         {{ end }}
         <script>setActive({{ .Params.active }});</script>
     </body>
