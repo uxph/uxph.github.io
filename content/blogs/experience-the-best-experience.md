@@ -6,6 +6,7 @@ image = "/uploads/EDSxM99UYAAKHbg.jpeg"
 page = "pages/blogs"
 title = "Experience the best experience"
 type = "blog"
+city = "cebu"
 
 +++
 Last week, User Experience Philippines (UXPH) held its first ever National Roadshow across the Philippines, starting in Cebu. It was held on August 31, 2019 at The Company, located at the 15th floor of HM Tower in IT Park, Cebu.
