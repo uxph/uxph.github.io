@@ -121,8 +121,6 @@ UXPH wanted to make sure we gave a big impression on the local Cebu community. O
 
 As a bonus, volunteers from CebUXD put together a [Same Day Edit video](https://vimeo.com/357044838?fbclid=IwAR2tqdGUiGB0954m-bDl4azEe_gbMF6WnCZGMgJvV4RNFDFLfCFv4HSwfdo) of the event!
 
-{{< vimeo 357044838 >}}
-
 ## What’s next?
 
 Our 2nd stop is Davao City on September 28, 2019! We’ve paired up with the local design group, UXDVO, to bring you another full day conference packed with speakers and workshops in Ateneo de Davao university.
