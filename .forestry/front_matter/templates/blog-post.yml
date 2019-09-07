@@ -30,5 +30,5 @@ fields:
   default: blog
   hidden: true
 pages:
-- content/blogs/sample-blog-from-forestry.md
 - content/blogs/experience-the-best-experience.md
+- content/blogs/sample-blog-from-forestry.md

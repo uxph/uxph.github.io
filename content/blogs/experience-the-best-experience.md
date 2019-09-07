@@ -2,7 +2,7 @@
 active = "5"
 author = "UX Philippines"
 date = "2019-09-06T16:00:00+00:00"
-image = "/uploads/EDSNRRgU4AATZNa.jpeg"
+image = "/uploads/EDSxM99UYAAKHbg.jpeg"
 page = "pages/blogs"
 title = "Experience the best experience"
 type = "blog"
