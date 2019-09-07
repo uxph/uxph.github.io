@@ -102,3 +102,7 @@ body#light footer a {
 body#light footer .coc {
 	color: var(--primary-light-blue) !important;
 }
+
+body#light #back-to-top {
+	background-color: white !important;
+}
