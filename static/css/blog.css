@@ -71,7 +71,7 @@ section#blog-entry div#content h4,
 section#blog-entry div#content h5,
 section#blog-entry div#content h6 {
 	color: var(--neutral-black);
-	margin-top: 1.3em;
+	margin-top: 3em;
 }
 
 section#blog-entry div#content {
