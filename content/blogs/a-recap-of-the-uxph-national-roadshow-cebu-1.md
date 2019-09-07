@@ -3,7 +3,7 @@ active = "5"
 author = "UX Philippines"
 city = "cebu"
 date = "2019-09-06T16:00:00+00:00"
-image = ""
+image = "/uploads/class.jpg"
 page = "pages/blogs"
 title = "A recap of the UXPH National Roadshow: Cebu"
 type = "blog"
@@ -17,6 +17,8 @@ The Roadshow events are structured with keynote speakers in the morning followed
 
 ### Keynote 1: All about UX design deliverables
 
+![](/uploads/mica.jpg)
+
 The day started with a talk from [Mica Diaz de Rivera](https://www.linkedin.com/in/madiazderivera/), Head of Operations at Make Technology Inc. on Demystifying UX Design Deliverables. He shared that, according to a study from [Nielsen Norman Group](http://nngroup.com) (NNGroup), the top 3 UX deliverables are prototypes, usability reports, and customer journey maps. He then connected these three deliverables with the 3 workshops that would happen in the afternoon session of the roadshow.
 
 {{< twitter >}}
@@ -26,6 +28,8 @@ The day started with a talk from [Mica Diaz de Rivera](https://www.linkedin.com/
 {{< /twitter >}}
 
 ### Keynote 2: Building UX design teams within organizations
+
+![](/uploads/fish.jpg)
 
 The next speaker, [Fish Ibasco](https://www.linkedin.com/in/tisha-ibasco-41463063/), Experience Design Lead at Accenture Philippines, then talked about how to jumpstart UX in organizations, and retold stories on how she landed her job at Accenture. She explained how she looked for members for her new UX design team, and related the experience to Game of Thrones. She considered herself as Sansa Stark, the “innocent designer”.
 
@@ -49,6 +53,8 @@ Fish gave tips on how to plan for a minimum viable design team in companies and 
 
 ### Keynote 3: Designing at Home Credit
 
+![](/uploads/oliver.jpg)
+
 [Oliver Bayani](https://www.linkedin.com/in/oliver-bayani-b781a056/) from Home Credit Philippines, our co-presenter for the 2019 UXPH Roadshow, then took the stage and shares how design is done at his company. He discusses how design culture emerges as it comes out naturally within the different interactions with your teammates within your company.
 
 {{< twitter >}}
@@ -60,6 +66,8 @@ Fish gave tips on how to plan for a minimum viable design team in companies and 
 {{< /twitter >}}
 
 ### Keynote 4: Design and team culture in the context of behavioral science
+
+![](/uploads/dae.jpg)
 
 Our last speaker, [Dae Lee](https://www.linkedin.com/in/dae-lee-a30880a1/), Culture Designer at Four Wall Global, ends the morning session by sharing his knowledge on behavioral science and how context is very important when doing things to influence or change the design and team culture within your company.
 
@@ -89,9 +97,13 @@ The afternoon session had participants break up into three different workshops: 
 
 ### Figma 101 with CebUXD
 
+![](/uploads/fimga.jpg)
+
 Members of CebUXD held closed-door workshops with smaller groups and taught them all about the basics of using Figma, one of the collaborative design tools of choice in the design industry. The participants learned all about the intricacies of the tool and how to create quick but effective prototypes within the software.
 
 ### Creating actionable customer journey maps with Raine Liao
+
+![](/uploads/cjm.jpg)
 
 [Raine Liao](https://www.linkedin.com/in/raineliao/), a UX designer from Home Credit Philippines, taught participants how to create actionable customer journey maps that they may apply and use within their teams. The workshop was a mix of a lecture on what customer journey maps are, and a hands-on practical application of journey mapping through the use of a board game.
 
