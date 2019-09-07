@@ -119,7 +119,7 @@ The day was very packed for all of our attendees. We received fantastic feedback
 
 UXPH wanted to make sure we gave a big impression on the local Cebu community. On top of the information-rich program, each conference attendee received a UXPH Roadshow T-Shirt, limited edition UXPH Roadshow stickers, and prizes and giveaways from our generous sponsors.
 
-As a bonus, volunteers from CebUXD put together a Same Day Edit video of the event!
+As a bonus, volunteers from CebUXD put together a [Same Day Edit video](https://vimeo.com/357044838?fbclid=IwAR2tqdGUiGB0954m-bDl4azEe_gbMF6WnCZGMgJvV4RNFDFLfCFv4HSwfdo) of the event!
 
 {{< vimeo 357044838 >}}
 
