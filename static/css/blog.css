@@ -48,6 +48,11 @@ section#blog-entry #content *, section#blog-entry #blog-title {
 	color: var(--neutral-white);
 }
 
+section#blog-entry #content a {
+	color: var(--primary-light-blue);
+	word-wrap: break-word;
+}
+
 section#blog-entry h1#blog-title {
 	margin: 0;
 	font-size: 2.125em;
