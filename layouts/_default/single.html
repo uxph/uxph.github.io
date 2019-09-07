@@ -30,7 +30,6 @@
 
         {{ if eq .Type "blog" }}
             {{ partial "components/nav" (dict "path" "../../") }}
-            {{ $city := .Params.city }}
             <section id="blog-entry" class="hidden">
                 <div class="wrapper">
                     <img src="../..{{ .Params.image }}" id="featured-image" />
@@ -59,20 +58,8 @@
                             <h1 class="section-heading">Gold Sponsors</h1>
                             <div class="sponsor-wrapper tier">
                                 {{ range .Site.Data.sponsors.sponsors }}
-                                <!-- Conditions whether to push through -->
-                                {{ $push := "false" }}
-                                {{ if eq $city "cebu" }}
-                                    {{ if eq .cbu "true" }} {{ $push = "true" }} {{ end }}
-                                {{ end }}
-                                {{ if eq $city "davao" }}
-                                    {{ if eq .dvo "true" }} {{ $push = "true" }} {{ end }}
-                                {{ end }}
-                                {{ if eq $city "manila" }}
-                                    {{ if eq .mnl "true" }} {{ $push = "true" }} {{ end }}
-                                {{ end }}
 
-
-                                {{ if eq $push "true" }}
+                                {{ if eq .cbu "true" }}
                                     {{ if eq .tier "gold" }}
                                     <a href="{{ .url }}" target="_blank">
                                         <div>
@@ -90,17 +77,6 @@
                             <h1 class="section-heading">Silver Sponsors</h1>
                             <div class="sponsor-wrapper tier">
                                 {{ range .Site.Data.sponsors.sponsors }}
-                                <!-- Conditions whether to push through -->
-                                {{ $push := "false" }}
-                                {{ if eq $city "cebu" }}
-                                    {{ if eq .cbu "true" }} {{ $push = "true" }} {{ end }}
-                                {{ end }}
-                                {{ if eq $city "davao" }}
-                                    {{ if eq .dvo "true" }} {{ $push = "true" }} {{ end }}
-                                {{ end }}
-                                {{ if eq $city "manila" }}
-                                    {{ if eq .mnl "true" }} {{ $push = "true" }} {{ end }}
-                                {{ end }}
 
                                 {{ if eq .cbu "true" }}
                                     {{ if eq .tier "silver" }}
@@ -120,17 +96,6 @@
                             <h1 class="section-heading">Bronze Sponsors</h1>
                             <div class="sponsor-wrapper tier">
                                 {{ range .Site.Data.sponsors.sponsors }}
-                                <!-- Conditions whether to push through -->
-                                {{ $push := "false" }}
-                                {{ if eq $city "cebu" }}
-                                    {{ if eq .cbu "true" }} {{ $push = "true" }} {{ end }}
-                                {{ end }}
-                                {{ if eq $city "davao" }}
-                                    {{ if eq .dvo "true" }} {{ $push = "true" }} {{ end }}
-                                {{ end }}
-                                {{ if eq $city "manila" }}
-                                    {{ if eq .mnl "true" }} {{ $push = "true" }} {{ end }}
-                                {{ end }}
 
                                 {{ if eq .cbu "true" }}
                                     {{ if eq .tier "bronze" }}
