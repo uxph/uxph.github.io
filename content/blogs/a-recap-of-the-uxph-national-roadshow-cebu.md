@@ -121,7 +121,7 @@ UXPH wanted to make sure we gave a big impression on the local Cebu community. O
 
 As a bonus, volunteers from CebUXD put together a Same Day Edit video of the event!
 
-{{< youtube tzvL7NdHwD0 >}}
+{{< vimeo 357044838 >}}
 
 ## What’s next?
 
