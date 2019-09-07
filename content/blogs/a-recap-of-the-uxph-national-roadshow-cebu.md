@@ -11,7 +11,7 @@ type = "blog"
 +++
 On August 31, 2019, UXPH (User Experience Philippines) held its first ever National Roadshow across the Philippines, starting in Cebu City.
 
-The Roadshow events are structured with keynote speakers in the morning followed by various workshops for UX methodologies in the afternoon. UXPH partnered with CebUXD, the local design organization in Cebu comprised of a diverse group of design enthusiasts and practitioners. They helped connect the Cebuanos who wanted to learn more about different UX topics and participate in workshops facilitated by different professionals
+The Roadshow events are structured with keynote speakers in the morning followed by various workshops for UX methodologies in the afternoon. UXPH partnered with CebUXD, the local design organization in Cebu comprised of a diverse group of design enthusiasts and practitioners. They helped connect the Cebuanos who wanted to learn more about different UX topics and participate in workshops facilitated by different professionals.
 
 ## The Morning Talks
 
@@ -95,19 +95,19 @@ He also reminds everyone that they shouldn’t try to change people, and instead
 
 The afternoon session had participants break up into three different workshops: Figma 101, Creating actionable customer journey maps, and Applying usability testing principles in the workplace.
 
-### Figma 101 with CebUXD
+### Workshop 1: Figma 101
 
 ![](/uploads/fimga.jpg)
 
 Members of CebUXD held closed-door workshops with smaller groups and taught them all about the basics of using Figma, one of the collaborative design tools of choice in the design industry. The participants learned all about the intricacies of the tool and how to create quick but effective prototypes within the software.
 
-### Creating actionable customer journey maps with Raine Liao
+### Workshop 2: Creating actionable customer journey maps
 
 ![](/uploads/cjm.jpg)
 
 [Raine Liao](https://www.linkedin.com/in/raineliao/), a UX designer from Home Credit Philippines, taught participants how to create actionable customer journey maps that they may apply and use within their teams. The workshop was a mix of a lecture on what customer journey maps are, and a hands-on practical application of journey mapping through the use of a board game.
 
-### Applying usability testing principles in the workplace with Anj Garong
+### Workshop 3: Applying usability testing principles in the workplace
 
 ![](/uploads/anj.jpg)
 
@@ -127,9 +127,9 @@ As a bonus, volunteers from CebUXD put together a Same Day Edit video of the eve
 
 Our 2nd stop is Davao City on September 28, 2019! We’ve paired up with the local design group, UXDVO, to bring you another full day conference packed with speakers and workshops in Ateneo de Davao university.
 
-[https://roadshow.uxph.org/davao/](https://roadshow.uxph.org/davao/ "https://roadshow.uxph.org/davao/")
+For more details, you can visit our website: [https://roadshow.uxph.org/davao](https://roadshow.uxph.org/davao "https://roadshow.uxph.org/davao")
 
-[https://uxphroadshowdavao.eventbrite.com/](https://uxphroadshowdavao.eventbrite.com/ "https://uxphroadshowdavao.eventbrite.com/")
+Get tickets via Eventbrite: [https://uxphroadshowdavao.eventbrite.com](https://uxphroadshowdavao.eventbrite.com "https://uxphroadshowdavao.eventbrite.com")
 
 Our 3rd and final stop for the year is in our homebase, Manila, on October 26th, 2019. Please stay tuned for details!
 
@@ -150,3 +150,19 @@ Twitter: [https://twitter.com/UXPH_](https://twitter.com/UXPH_ "https://twitter.
 Instagram: [https://instagram.com/uxph_](https://instagram.com/uxph_ "https://instagram.com/uxph_")
 
 LinkedIn: [https://www.linkedin.com/company/uxph](https://www.linkedin.com/company/uxph "https://www.linkedin.com/company/uxph")
+
+## Co-presenter
+
+Home Credit Philippines
+
+## Gold sponsors
+
+CollaboX and UXArmy
+
+## Silver sponsors
+
+Canva and StyleGenie Asia
+
+## Bronze sponsors
+
+Symph, UNISOL, Art n’ Nature, Insular Life, Grafik 9, and Abstract Digital Inc;
