@@ -109,13 +109,13 @@ Members of CebUXD held closed-door workshops with smaller groups and taught them
 
 ### Workshop 3: Applying usability testing principles in the workplace
 
-![](/uploads/anj.jpg)
+![](/uploads/DSC_0478.jpg)
 
 [Anj Garong](https://www.linkedin.com/in/anjgarong/), a Product Design Manager at Sprout Solutions, discussed the basics of usability testing and facilitated an interactive lecture and hands-on activities for participants to get a knack on conducting usability testing sessions. She also shared some tips and best practices on how to apply the usability testing principles at work, so they can share the culture within their companies as well.
 
 ## Wrapping up the event
 
-The day was very packed for all of our attendees. We received fantastic feedback from all of our participants, and our event was featured in the local news channel, the SunStar! ([https://www.sunstar.com.ph/article/1821593?fbclid=IwAR2moStLgxV3AHFRhTlvz4Drh6hNIlTAM-swfpuVCa5MyQjFdRARjmxqkBI](https://www.sunstar.com.ph/article/1821593?fbclid=IwAR2moStLgxV3AHFRhTlvz4Drh6hNIlTAM-swfpuVCa5MyQjFdRARjmxqkBI "https://www.sunstar.com.ph/article/1821593?fbclid=IwAR2moStLgxV3AHFRhTlvz4Drh6hNIlTAM-swfpuVCa5MyQjFdRARjmxqkBI"))
+The day was very packed for all of our attendees. We received fantastic feedback from all of our participants, and our event was featured in the local news channel, the [SunStar](https://www.sunstar.com.ph/article/1821593?fbclid=IwAR2moStLgxV3AHFRhTlvz4Drh6hNIlTAM-swfpuVCa5MyQjFdRARjmxqkBI)!
 
 UXPH wanted to make sure we gave a big impression on the local Cebu community. On top of the information-rich program, each conference attendee received a UXPH Roadshow T-Shirt, limited edition UXPH Roadshow stickers, and prizes and giveaways from our generous sponsors.
 
@@ -139,14 +139,36 @@ We’d like to take this opportunity to thank all of the companies and groups wh
 
 If your company is interested in supporting UXPH and our national effort of connecting the design communities across The Philippines for a more mature, design-driven country, please get in touch with us at info@uxph.org.
 
-## Follow us on Social Media
+{{< sponsor >}}
+<h1 class="section-heading">Our Co-presenter</h1>
+<div class="sponsor-wrapper">
+{{ range .Site.Data.sponsors.copresenters }}
+<a href="{{ .url }}" target="_blank">
+<div>
+<img src="../../assets/{{ .logo }}" class="featured-image" />
+<h3 class="sponsor-name gray">{{ .name }}</h3>
+</div>
+</a>
+{{ end }}
+</div>
 
-Facebook page: [https://fb.com/UXPhilippines](https://fb.com/UXPhilippines "https://fb.com/UXPhilippines")
-
-Facebook group: [https://fb.com/groups/uxphilippines](https://fb.com/groups/uxphilippines "https://fb.com/groups/uxphilippines")
-
-Twitter: [https://twitter.com/UXPH_](https://twitter.com/UXPH_ "https://twitter.com/UXPH_")
-
-Instagram: [https://instagram.com/uxph_](https://instagram.com/uxph_ "https://instagram.com/uxph_")
-
-LinkedIn: [https://www.linkedin.com/company/uxph](https://www.linkedin.com/company/uxph "https://www.linkedin.com/company/uxph")
+<div id="tiers">
+<div class="tier-wrapper">
+<h1 class="section-heading">Gold Sponsors</h1>
+<div class="sponsor-wrapper tier">
+{{ range .Site.Data.sponsors.sponsors }}
+{{ if eq .cbu "true" }}
+{{ if eq .tier "gold" }}
+<a href="{{ .url }}" target="_blank">
+<div>
+<img src="../../assets/{{ .logo }}" class="featured-image" />
+<h3 class="sponsor-name gray">{{ .name }}</h3>
+</div>
+</a>
+{{ end }}
+{{ end }}
+{{ end }}
+</div>
+</div>
+</div>
+{{< /sponsor >}}
