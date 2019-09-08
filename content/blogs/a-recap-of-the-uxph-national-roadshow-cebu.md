@@ -137,9 +137,9 @@ Our 3rd and final stop for the year is in our homebase, Manila, on October 26th,
 
 We’d like to take this opportunity to thank all of the companies and groups who sponsored the 2019 UXPH Roadshow, helping us turn it into a huge success.
 
-If your company is interested in supporting UXPH and our national effort of connecting the design communities across The Philippines for a more mature, design-driven country, please get in touch with us at info@uxph.org.
+If your company is interested in supporting UXPH and our national effort of connecting the design communities across The Philippines for a more mature, design-driven country, please get in touch with us at [info@uxph.org](mailto:info@uxph.org).
 
-{{< sponsor >}} 
+{{< sponsor >}}
 
 <h2 class="section-heading">Our Co-presenter</h2> <div class="sponsor-wrapper"> <div class="sponsor-modal" id="home-credit"> <img src="../../assets/sponsor-logos/home-credit.png" class="featured-image" /> <h3 class="sponsor-name gray">Home Credit </h3> </div> </div>
 
