@@ -139,30 +139,22 @@ We’d like to take this opportunity to thank all of the companies and groups wh
 
 If your company is interested in supporting UXPH and our national effort of connecting the design communities across The Philippines for a more mature, design-driven country, please get in touch with us at info@uxph.org.
 
-{{< sponsor >}}
-<h1 class="section-heading">Our Co-presenter</h1>
-<div class="sponsor-wrapper">
-<div>
-<img src="../../assets/sponsor-logos/home-credit.png" class="featured-image" />
-<h3 class="sponsor-name gray">Home Credit Philippines</h3>
-</div>
-</div>
+{{< sponsor >}} 
 
-<div id="tiers">
-<div class="tier-wrapper">
-<h1 class="section-heading">Gold Sponsors</h1>
-<div class="sponsor-wrapper tier">
-  
+<h2 class="section-heading">Our Co-presenter</h2> <div class="sponsor-wrapper"> <div> <img src="../../assets/sponsor-logos/home-credit.png" class="featured-image" /> <h3 class="sponsor-name gray">Home Credit Philippines</h3> </div> </div>
+
+<div id="tiers"> <div class="tier-wrapper"> <h2 class="section-heading">Gold Sponsors</h2> <div class="sponsor-wrapper tier">
+
 <div>
 <img src="../../assets/sponsor-logos/collabox.png" class="featured-image" />
 <h3 class="sponsor-name gray">CollaboX</h3>
 </div>
-  
+
 <div>
 <img src="../../assets/sponsor-logos/uxarmy.png" class="featured-image" />
 <h3 class="sponsor-name gray">UXArmy</h3>
 </div>
-  
+
 </div>
 </div>
 </div>
