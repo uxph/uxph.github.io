@@ -141,19 +141,13 @@ If your company is interested in supporting UXPH and our national effort of conn
 
 {{< sponsor >}} 
 
-<h2 class="section-heading">Our Co-presenter</h2> <div class="sponsor-wrapper"> <div> <img src="../../assets/sponsor-logos/home-credit.png" class="featured-image" /> <h3 class="sponsor-name gray">Home Credit </h3> </div> </div>
+<h2 class="section-heading">Our Co-presenter</h2> <div class="sponsor-wrapper"> <div class="sponsor-modal" id="home-credit"> <img src="../../assets/sponsor-logos/home-credit.png" class="featured-image" /> <h3 class="sponsor-name gray">Home Credit </h3> </div> </div>
 
 <div id="tiers"> <div class="tier-wrapper"> <h2 class="section-heading">Gold Sponsors</h2> <div class="sponsor-wrapper tier">
 
-<div>
-<img src="../../assets/sponsor-logos/collabox.png" class="featured-image" />
-<h3 class="sponsor-name gray">CollaboX</h3>
-</div>
+<div class="sponsor-modal" id="collabox"> <img src="../../assets/sponsor-logos/collabox.png" class="featured-image" /> <h3 class="sponsor-name gray">CollaboX</h3> </div>
 
-<div>
-<img src="../../assets/sponsor-logos/uxarmy.png" class="featured-image" />
-<h3 class="sponsor-name gray">UXArmy</h3>
-</div>
+<div class="sponsor-modal" id="uxarmy"> <img src="../../assets/sponsor-logos/uxarmy.png" class="featured-image" /> <h3 class="sponsor-name gray">UXArmy</h3> </div>
 
 </div>
 </div>
