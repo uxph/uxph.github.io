@@ -141,7 +141,7 @@ If your company is interested in supporting UXPH and our national effort of conn
 
 {{< sponsor >}} 
 
-<h2 class="section-heading">Our Co-presenter</h2> <div class="sponsor-wrapper"> <div> <img src="../../assets/sponsor-logos/home-credit.png" class="featured-image" /> <h3 class="sponsor-name gray">Home Credit Philippines</h3> </div> </div>
+<h2 class="section-heading">Our Co-presenter</h2> <div class="sponsor-wrapper"> <div> <img src="../../assets/sponsor-logos/home-credit.png" class="featured-image" /> <h3 class="sponsor-name gray">Home Credit </h3> </div> </div>
 
 <div id="tiers"> <div class="tier-wrapper"> <h2 class="section-heading">Gold Sponsors</h2> <div class="sponsor-wrapper tier">
 
@@ -159,3 +159,15 @@ If your company is interested in supporting UXPH and our national effort of conn
 </div>
 </div>
 {{< /sponsor >}}
+
+## Silver sponsors
+
+[Canva](https://www.canva.com/) and [StyleGenie Asia](https://stylegenie.ph/)
+
+## Bronze sponsors
+
+[Symph](https://symph.co), [UNISOL](#), [Art n’ Nature](http://www.artandnaturecebu.com), [Insular Life](https://www.insularlife.com.ph/), [Grafik 9](https://www.facebook.com/grafiknine/), and [Abstract Digital Inc.](https://abstract.ph/)
+
+## Our Community Partners
+
+[CebuUXD](https://www.facebook.com/CebUXD/), [UX Davao](https://www.facebook.com/uxdvo/), [TechShake](https://www.techshake.asia), [Cebu Design Week](https://www.cebudesignweek.com/), and [Philippine Web Designers Organization](https://pwdo.org/)
