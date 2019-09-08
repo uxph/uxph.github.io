@@ -41,113 +41,59 @@
                         {{ .Content }}
                     </div>
 
-                    <h1 class="section-heading">Our Co-presenter</h1>
-                    <div class="sponsor-wrapper">
-                        {{ range .Site.Data.sponsors.copresenters }}
-                        <a href="{{ .url }}" target="_blank">
-                            <div>
-                                <img src="../../assets/{{ .logo }}" class="featured-image" />
-                                <h3 class="sponsor-name gray">{{ .name }}</h3>
+                    <h2>Follow us on Social Media</h2>
+                    <div class="column-content">
+                        <div>
+                            <div class="content-wrapper">
+                                <a href="https://www.facebook.com/UXPhilippines" target="_blank">
+                                    <div>
+                                        <img src="../../assets/icons/ic_facebook.png" class="ic" />
+                                        <h5>Facebook Page</h5>
+                                    </div>
+                                </a>
+                                <!--<a href="https://www.facebook.com/UXPhilippines" target="_blank">www.facebook.com/UXPhilippines</a>-->
                             </div>
-                        </a>
-                        {{ end }}
-                    </div>
-
-                    <div id="tiers">
-                        <div class="tier-wrapper">
-                            <h1 class="section-heading">Gold Sponsors</h1>
-                            <div class="sponsor-wrapper tier">
-                                {{ range .Site.Data.sponsors.sponsors }}
-
-                                {{ if eq .cbu "true" }}
-                                    {{ if eq .tier "gold" }}
-                                    <a href="{{ .url }}" target="_blank">
-                                        <div>
-                                            <img src="../../assets/{{ .logo }}" class="featured-image" />
-                                            <h3 class="sponsor-name gray">{{ .name }}</h3>
-                                        </div>
-                                    </a>
-                                    {{ end }}
-                                {{ end }}
-                                {{ end }}
+                            <div class="content-wrapper">
+                                <a href="https://www.facebook.com/groups/uxphilippines" target="_blank">
+                                    <div>
+                                        <img src="../../assets/icons/ic_facebook.png" class="ic" />
+                                        <h5>Facebook Group</h5>
+                                    </div>
+                                </a>
+                                <!--<a href="https://www.facebook.com/groups/uxphilippines" target="_blank">www.facebook.com/groups/uxphilippines</a>-->
                             </div>
                         </div>
-
-                        <div class="tier-wrapper">
-                            <h1 class="section-heading">Silver Sponsors</h1>
-                            <div class="sponsor-wrapper tier">
-                                {{ range .Site.Data.sponsors.sponsors }}
-
-                                {{ if eq .cbu "true" }}
-                                    {{ if eq .tier "silver" }}
-                                    <a href="{{ .url }}" target="_blank">
-                                        <div>
-                                            <img src="../../assets/{{ .logo }}" class="featured-image" />
-                                            <h3 class="sponsor-name gray">{{ .name }}</h3>
-                                        </div>
-                                    </a>
-                                    {{ end }}
-                                {{ end }}
-                                {{ end }}
+                        <div>
+                            <div class="content-wrapper">
+                                <a href="https://www.twitter.com/UXPH_" target="_blank">
+                                    <div>
+                                        <img src="../../assets/icons/ic_twitter.png" class="ic" />
+                                        <h5>Twitter</h5>
+                                    </div>
+                                </a>
+                                <!--<a href="https://www.twitter.com/UXPH_" target="_blank">www.twitter.com/UXPH_</a>-->
+                            </div>
+                            <div class="content-wrapper">
+                                <a href="https://www.linkedin.com/company/uxph/about/" target="_blank">
+                                    <div>
+                                        <img src="../../assets/icons/ic_linkedin.png" class="ic" />
+                                        <h5>Linkedin</h5>
+                                    </div>
+                                </a>
+                                <!--<a href="https://www.linkedin.com/company/uxph/about/" target="_blank">https://www.linkedin.com/company/uxph</a>-->
                             </div>
                         </div>
-
-                        <div class="tier-wrapper">
-                            <h1 class="section-heading">Bronze Sponsors</h1>
-                            <div class="sponsor-wrapper tier">
-                                {{ range .Site.Data.sponsors.sponsors }}
-
-                                {{ if eq .cbu "true" }}
-                                    {{ if eq .tier "bronze" }}
-                                    <a href="{{ .url }}" target="_blank">
-                                        <div>
-                                            <img src="../../assets/{{ .logo }}" class="featured-image" />
-                                            <h3 class="sponsor-name gray">{{ .name }}</h3>
-                                        </div>
-                                    </a>
-                                    {{ end }}
-                                {{ end }}
-                                {{ end }}
+                        <div>
+                            <div class="content-wrapper">
+                                <a href="https://instagram.com/uxph_" target="_blank">
+                                    <div>
+                                        <img src="../../assets/icons/ic_instagram.png" class="ic" />
+                                        <h5>Instagram</h5>
+                                    </div>
+                                </a>
+                                <!--<a href="https://www.twitter.com/UXPH_" target="_blank">www.twitter.com/UXPH_</a>-->
                             </div>
                         </div>
-                    </div>
-                    
-                    {{ $city := .Params.city }}
-                    <h1 class="section-heading">Community Partners</h1>
-                    <div class="sponsor-wrapper">
-                        <!-- Conditions whether to push through -->
-                        {{ $push := "false" }}
-                        {{ if eq $city "cebu" }}
-                            {{ range .Site.Data.sponsors.partners_cbu }}
-                            <a href="{{ .url }}" target="_blank">
-                                <div>
-                                    <img src="../../assets/{{ .logo }}" class="featured-image" />
-                                    <h3 class="sponsor-name gray">{{ .name }}</h3>
-                                </div>
-                            </a>
-                            {{ end }}
-                        {{ end }}
-                        {{ if eq $city "davao" }}
-                            {{ range .Site.Data.sponsors.partners_dvo }}
-                            <a href="{{ .url }}" target="_blank">
-                                <div>
-                                    <img src="../../assets/{{ .logo }}" class="featured-image" />
-                                    <h3 class="sponsor-name gray">{{ .name }}</h3>
-                                </div>
-                            </a>
-                            {{ end }}
-                        {{ end }}
-                        {{ if eq $city "manila" }}
-                            {{ range .Site.Data.sponsors.partners_mnl }}
-                            <a href="{{ .url }}" target="_blank">
-                                <div>
-                                    <img src="../../assets/{{ .logo }}" class="featured-image" />
-                                    <h3 class="sponsor-name gray">{{ .name }}</h3>
-                                </div>
-                            </a>
-                            {{ end }}
-                        {{ end }}
-
                     </div>
 
                     <br/><br/><br/>

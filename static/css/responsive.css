@@ -137,7 +137,11 @@
 		margin: 0 auto !important;
 	}
 
-	footer div.column-content {
+	section#blog-entry div.column-content .content-wrapper {
+		margin: 0 !important;
+	}
+
+	footer div.column-content, section#blog-entry div.column-content {
 		flex-direction: column !important;
 	}
 

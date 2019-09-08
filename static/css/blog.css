@@ -21,7 +21,8 @@ div.blog-item h1 {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	width: 20em;
-	margin-top: 0;
+	margin: 0;
+	margin-bottom: 0.5em;
 }
 
 div.blog-item .featured-image {
@@ -35,6 +36,10 @@ div.blog-item .featured-image {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+/*div.blog-item .excerpt {
+	margin-top: 1.5em;
+}*/
 
 /* blog entry styling */
 section#blog-entry #featured-image,
@@ -82,6 +87,10 @@ section#blog-entry div#content > p {
 	font-size: 18px;
 }
 
+section#blog-entry div#content a:hover {
+	text-decoration: underline;
+}
+
 section#blog-entry .twitter-tweet {
 	margin: 2em auto !important;
 }
@@ -103,4 +112,35 @@ section#blog-entry .tier-wrapper {
 	display: block !important;
 	width: 100% !important;
 	margin: 1.7em 0 !important;
+}
+
+section#blog-entry .column-content{
+	display: flex;
+}
+
+/*footer a{
+	color: #cccccc;
+	font-weight: lighter;
+	margin: 1em 0;
+	font-size: 0.9em;
+}*/
+
+section#blog-entry .column-content div.content-wrapper h5 {
+	font-size: 1em;
+}
+
+section#blog-entry div.content-wrapper{
+	margin: 0;
+	margin-right: 3.5em;
+}
+
+section#blog-entry div.content-wrapper > a > div{
+	display: flex;
+	align-items: center;
+}
+
+section#blog-entry .ic{
+	display: block;
+	margin-right: 0.7em;
+	width: 1.7em;
 }

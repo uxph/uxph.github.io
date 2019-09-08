@@ -19,6 +19,7 @@
                         </a>
                         <div>
                             <a href="{{ .URL }}"><h1>{{ .Title }}</h1></a>
+                            <span class="gray"><i>{{ dateFormat "January 2, 2006" .Date  }}</i></span>
                             <div class="excerpt">
                                 {{ .Content }}
                             </div>
