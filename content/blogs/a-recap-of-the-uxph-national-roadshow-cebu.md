@@ -142,32 +142,27 @@ If your company is interested in supporting UXPH and our national effort of conn
 {{< sponsor >}}
 <h1 class="section-heading">Our Co-presenter</h1>
 <div class="sponsor-wrapper">
-{{ range .Site.Data.sponsors.copresenters }}
-<a href="{{ .url }}" target="_blank">
 <div>
-<img src="../../assets/{{ .logo }}" class="featured-image" />
-<h3 class="sponsor-name gray">{{ .name }}</h3>
+<img src="../../assets/sponsor-logos/home-credit.png" class="featured-image" />
+<h3 class="sponsor-name gray">Home Credit Philippines</h3>
 </div>
-</a>
-{{ end }}
 </div>
 
 <div id="tiers">
 <div class="tier-wrapper">
 <h1 class="section-heading">Gold Sponsors</h1>
 <div class="sponsor-wrapper tier">
-{{ range .Site.Data.sponsors.sponsors }}
-{{ if eq .cbu "true" }}
-{{ if eq .tier "gold" }}
-<a href="{{ .url }}" target="_blank">
+  
 <div>
-<img src="../../assets/{{ .logo }}" class="featured-image" />
-<h3 class="sponsor-name gray">{{ .name }}</h3>
+<img src="../../assets/sponsor-logos/collabox.png" class="featured-image" />
+<h3 class="sponsor-name gray">CollaboX</h3>
 </div>
-</a>
-{{ end }}
-{{ end }}
-{{ end }}
+  
+<div>
+<img src="../../assets/sponsor-logos/uxarmy.png" class="featured-image" />
+<h3 class="sponsor-name gray">UXArmy</h3>
+</div>
+  
 </div>
 </div>
 </div>
