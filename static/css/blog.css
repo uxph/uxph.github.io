@@ -134,6 +134,17 @@ section#blog-entry div.content-wrapper{
 	margin-right: 3.5em;
 }
 
+section#blog-entry div.sponsor-modal {
+	border: 2px solid transparent;
+	border-radius: 0.5em;
+	transition: ease all 0.2s;
+	cursor: pointer;
+}
+
+section#blog-entry div.sponsor-modal:hover {
+	border: 2px solid var(--primary-light-blue-rgba);
+}
+
 section#blog-entry div.content-wrapper > a > div{
 	display: flex;
 	align-items: center;

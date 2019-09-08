@@ -29,6 +29,20 @@
         {{ end }}
 
         {{ if eq .Type "blog" }}
+            <div id="modal">
+                <div class="wrapper">
+                    <div id="modal-wrapper">
+                        <img src="../../assets/icons/close.svg" id="modal-close" />
+                        <br/>
+                        <div class="content-wrapper">
+                            <!-- auto-generated content -->
+                        </div>
+                    </div>
+                    <br/><br/><br/><br/><br/><br/>
+                </div>
+                <div id="overlay"></div>
+            </div>
+
             {{ partial "components/nav" (dict "path" "../../") }}
             <section id="blog-entry" class="hidden">
                 <div class="wrapper">

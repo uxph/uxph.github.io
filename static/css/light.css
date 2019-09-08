@@ -7,12 +7,26 @@ body#light {
 	background-color: var(--neutral-whitish);
 }
 
-body#light div#modal-wrapper {
-	background-color: var(--neutral-white);
+body#light div#modal-wrapper * {
+	color: var(--neutral-white) !important;
 }
 
-body#light div#modal-wrapper p {
-	color: var(--neutral-black);
+body#light div#modal-wrapper .featured-image {
+	background-color: white;
+}
+
+body#light div#modal-wrapper .title-topic {
+	color: var(--neutral-gray) !important;
+}
+
+body#light div#modal-wrapper .text-link {
+	display: block;
+	text-align: center !important;
+	color: var(--primary-light-blue) !important;
+}
+
+body#light div#modal-wrapper .text-link:hover {
+	text-decoration: underline;
 }
 
 body#light nav {
