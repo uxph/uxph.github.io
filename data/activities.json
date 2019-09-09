@@ -193,11 +193,11 @@
 		},
 
 		"f": {
-			"activity_id": 5,
+			"activity_id": 4,
 			"event_id": 0,
-			"name": "Sponsor's Presentation",
-			"sub": "N/A",
-			"time": "11:30 AM",
+			"name": "Keynote Speaker: Ely Apao",
+			"sub": "Designing your UX Career & Forming Design Teams",
+			"time": "10:30 AM",
 			"type": "keynote"
 		},
 
