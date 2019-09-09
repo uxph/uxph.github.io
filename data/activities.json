@@ -159,7 +159,7 @@
 		"b": {
 			"activity_id": 1,
 			"event_id": 0,
-			"name": "UXPH & UXDVO Opening Remarks",
+			"name": "UXPH & Co-Presenter Opening Remarks",
 			"sub": "",
 			"time": "8:00 AM",
 			"type": "organizers"
@@ -168,7 +168,7 @@
 		"c": {
 			"activity_id": 2,
 			"event_id": 0,
-			"name": "Keynote Speaker: TBA",
+			"name": "Keynote Speaker: Micael Andrei Diaz de Rivera",
 			"sub": "",
 			"time": "8:30 AM",
 			"type": "keynote"
@@ -177,8 +177,8 @@
 		"d": {
 			"activity_id": 3,
 			"event_id": 0,
-			"name": "Keynote Speaker: TBA",
-			"sub": "",
+			"name": "Keynote Speaker: Nico Encarnacion",
+			"sub": "UX Management",
 			"time": "9:30 AM",
 			"type": "keynote"
 		},
@@ -186,8 +186,8 @@
 		"e": {
 			"activity_id": 4,
 			"event_id": 0,
-			"name": "Keynote Speaker: TBA",
-			"sub": "",
+			"name": "Keynote Speaker: Ondrej Machart",
+			"sub": "Your UX Mission: Undercover, Unleashed",
 			"time": "10:30 AM",
 			"type": "keynote"
 		},
@@ -213,61 +213,52 @@
 		"h": {
 			"activity_id": 7,
 			"event_id": 0,
-			"name": "Convene in Main Hall for afternoon session instructions",
+			"name": "Workshop Preparations",
 			"sub": "N/A",
 			"time": "1:00 PM",
 			"type": "organizers"
 		},
 
 		"i": {
-			"activity_id": 7,
+			"activity_id": 8,
 			"event_id": 0,
-			"name": "WORKSHOPS START",
-			"sub": "N/A",
-			"time": "1:30 PM",
-			"type": "organizers"
+			"name": "Figma 101",
+			"sub": "Anj Garong, Miramark Diaz & Paul Sabandal",
+			"time": "Workshop 1",
+			"type": "workshop",
+			"description": "Figma is a web-based design application, with excellent wireframing, prototyping, and code-generation tools. It’s currently (arguably) the industry’s best interface design tool, with powerful features which helps teams collaborate on every phase of the design process. In Figma 101 you’ll learn the basics of creating simple interfaces from low to high fidelity wireframes. This is ideal for people who want to transition from photoshop or sketch and wants to learn the basics of wireframing."
 		},
 
 		"j": {
-			"activity_id": 8,
+			"activity_id": 9,
 			"event_id": 0,
-			"name": "TBA",
-			"sub": "",
-			"time": "Workshop 1",
+			"name": "UX 101",
+			"sub": "Raine Liao",
+			"time": "Workshop 2",
 			"type": "workshop",
-			"description": ""
+			"description": "Workshop details coming soon!"
 		},
 
 		"k": {
-			"activity_id": 9,
+			"activity_id": 10,
 			"event_id": 0,
-			"name": "TBA",
-			"sub": "",
-			"time": "Workshop 2",
+			"name": "UX Research 101",
+			"sub": "Alexis Collado",
+			"time": "Workshop 3",
 			"type": "workshop",
-			"description": ""
+			"description": "Workshop details coming soon!"
 		},
 
 		"l": {
-			"activity_id": 10,
-			"event_id": 0,
-			"name": "TBA",
-			"sub": "",
-			"time": "Workshop 3",
-			"type": "workshop",
-			"description": ""
-		},
-
-		"m": {
 			"activity_id": 11,
 			"event_id": 0,
-			"name": "Sponsor's Presentation",
+			"name": "Co-Presenter Activity",
 			"sub": "N/A",
 			"time": "4:30pm",
 			"type": "organizers"
 		},
 
-		"n": {
+		"m": {
 			"activity_id": 12,
 			"event_id": 0,
 			"name": "Closing Program and Networking",

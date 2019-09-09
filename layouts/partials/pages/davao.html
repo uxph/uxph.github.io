@@ -50,14 +50,39 @@
 		</div>
 	</div>
 </section>
+<section class="dark alternate hidden">
+	<div class="wrapper">
+		<h1 class="section-heading centered">Speakers</h1>
+		<div class="speaker-wrapper">
+			{{ range .Site.Data.speakers.DVO }}
+			<script type="text/javascript">addProfile({{ .name }}, {{ .title }}, {{ .topic }}, {{ .bio }}, {{ .photo }}, {{ .linkedin }});</script>
+			<div class="content-wrapper" onclick="updateModalSpeaker({{ .name }})">
+				<img src="{{ .photo }}" class="featured-image" />
+				<div>
+					<h2>{{ .name }}</h2>
+					<p class="green">{{ .title }}</p>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
 <section class="dark hidden">
 	<div class="wrapper">
-		<h1 class="section-heading centered">
-		Speakers & Workshop Facilitators <br/><br/>
-		<span class="green">Stay Tuned!</span>
-		</h1>
-		<br /><br />
-		<!-- Auto-generated -->
+		<h1 class="section-heading centered">Workshop Facilitators</h1>
+		<div class="speaker-wrapper">
+			{{ range .Site.Data.speakers.workshop_DVO }}
+			<script type="text/javascript">addProfile({{ .name }}, {{ .title }}, {{ .topic }}, {{ .bio }}, {{ .photo }}, {{ .linkedin }});</script>
+			<div class="content-wrapper" onclick="updateModalSpeaker({{ .name }})">
+				<img src="{{ .photo }}" class="featured-image" />
+				<div>
+					<h2>{{ .name }}</h2>
+					<h3 class="green">{{ .topic }}</h3>
+					<p class="gray">{{ .title }}</p>
+				</div>
+			</div>
+			{{ end }}
+		</div>
 	</div>
 </section>
 <section class="dark alternate hidden">
@@ -83,12 +108,10 @@
 				{{ .name }}
 				{{ if ne .sub "N/A" }}<br /><span class="gray">{{ .sub }}</span>{{ end }}
 				</p>
-				<!--
 				{{ if eq .type $w }}
 				<button class="hollow" onclick="updateModalWorkshop({{ .name }})">Learn More</button>
 				<br/><br/>
 				{{ end }}
-				-->
 			</div>
 			{{ if eq .type $t }}<br /><br />{{ end }}
 

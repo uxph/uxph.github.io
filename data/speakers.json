@@ -133,11 +133,102 @@
 	},
 
 	"DVO": {
-		"speaker": {
-			"photo": "<image url>",
-			"name": "<insert name here>",
-			"topic": "<insert topic here>",
-			"bio": "<insert bio here>"
+		"a": {
+			"photo": "../assets/speakers/micael.png",
+			"name": "Micael Andrei Diaz de Rivera",
+			"title": "Head of Design Operations, Make Technology",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/madiazderivera/",
+			"twitter": "",
+			"topic": "TBA",
+			"excerpt": "Mica is the Head of Design Operations at Make Technology, a UX consultancy in Manila. His love for data, analytics, and statistics has led him to hold over a decade of extensive experience with design, development, and team management in the technology industry. He is also one of the founding members of UXPH!",
+			"bio": "Mica is a software developer turned experience designer and has had over a decade of combined work experience touching both local and international products and brands. His fascination for data, analytics, and statistics has led him to work on initiatives that dabble in the quantitative measurement of user experiences. On extraordinary days you’d find him alone in the plains of Mongolia or in the streets of Kolkata finding ways to connect life experiences to experience design. He is currently the Head of Design Operations at Make Technology by Ace Saatchi & Saatchi."
+		},
+
+		"b": {
+			"photo": "../assets/speakers/nico.png",
+			"name": "Nico Encarnacion",
+			"title": "UX Manager, Make Technology",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/nicoencarnacion/",
+			"twitter": "",
+			"topic": "UX Management",
+			"excerpt": "Nico is the UX Manager at Make Technology. He leads a team of talented researchers and designers in defining needs and providing solutions for some of the largest FinTech and Real Estate companies in the Philippines. He started his career as an illustrator, frontend developer and UI designer and is now focused in people management and expanding their team’s capabilities and portfolio.",
+			"bio": "Nico is the UX Manager at Make Technology. He leads a team of talented researchers and designers in defining needs and providing solutions for some of the largest FinTech and Real Estate companies in the Philippines. He started his career as an illustrator, frontend developer and UI designer and is now focused in people management and expanding their team’s capabilities and portfolio."
+		},
+
+		"c": {
+			"photo": "../assets/speakers/ondra.png",
+			"name": "Ondrej Machart",
+			"title": "Product & Design Manager, Home Credit",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/ondrejmachart/",
+			"twitter": "",
+			"topic": "Your UX Mission: Undercover, Unleashed",
+			"excerpt": "Ondrej is a Product & Design Manager at Home Credit Philippines. His name is hard to pronounce, because he comes from Czech Republic where pretty much every name is hard to pronounce - which may be the reason why he has decided to try and simplify everything around us. That includes areas like digital payments, communication during Olympic Games or - as his current mission states - online shopping in the Philippines.",
+			"bio": "Ondrej is a Product & Design Manager at Home Credit Philippines. His name is hard to pronounce, because he comes from Czech Republic where pretty much every name is hard to pronounce - which may be the reason why he has decided to try and simplify everything around us. That includes areas like digital payments, communication during Olympic Games or - as his current mission states - online shopping in the Philippines."
+		}
+	},
+
+	"workshop_DVO": {
+		"a": {
+			"photo": "../assets/speakers/angela.png",
+			"name": "Anj Garong",
+			"title": "Product Design Manager, Sprout Solutions",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/anjgarong/",
+			"twitter": "",
+			"topic": "Figma 101",
+			"excerpt": "Anj, a Product Design Manager at Sprout Solutions, is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups.",
+			"bio": "Anj is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups. She is immersed in the academe and recently, in design communities, teaching Human-Centered Design at iACADEMY, and helping out Figma PH and UXSEA. Today, she spends most of her time in Sprout Solutions, a SaaS HR and Payroll technology startup, where she functions as a Product Design Manager. She somehow manages to squeeze in workouts, movies, worship nights, and binge-sleeping for self-care."
+		},
+
+		"b": {
+			"photo": "../assets/speakers/paul.png",
+			"name": "Paul James Sabandal",
+			"title": "Head of Product Development, Qwikwire",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/paulsabandal/",
+			"twitter": "",
+			"topic": "Figma 101",
+			"excerpt": "Paul Sabandal is the Head of Product Development at Qwikwire, a multi-awarded startup that provides cross-border payment solutions for real-estate — they handle international online payments for clients AyalaLand, Century Properties, Double Dragon and other top real-estate companies in the Philippines. He leads the end-to-end processes related to product discovery. He also co-founded Figma Philippines, helping teach the collaborative design tool Figma through meet-ups for the community.",
+			"bio": "Paul Sabandal is the Head of Product Development at Qwikwire, a multi-awarded startup that provides cross-border payment solutions for real-estate — they handle international online payments for clients AyalaLand, Century Properties, Double Dragon and other top real-estate companies in the Philippines. He leads the end-to-end processes related to product discovery. He also co-founded Figma Philippines, helping teach the collaborative design tool Figma through meet-ups for the community."
+		},
+
+		"c": {
+			"photo": "../assets/speakers/miramark.png",
+			"name": "Miramark Diaz",
+			"title": "UX Designer, Cebu Pacific",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/miramark-diaz-a8712454/",
+			"twitter": "",
+			"topic": "Figma 101",
+			"excerpt": "Miramark Diaz is a designer who has been creating digital products for brands, companies, & startups. He's excited about design gestures and motions that feels intuitive and natural for the human eye. Which adding a way of delightfulness on the user experience. Currently, he is working at Cebu Pacific as a design manager. He enjoys the process of translating concepts, ideas, sketches, and human interactions into usable designs. His drive to learn, do, and create is fueled by his hunger for the mastery of the process and continuous cycle of problem-solving. He believes that we can make things better for other people through good design.",
+			"bio": "Miramark Diaz is a designer who has been creating digital products for brands, companies, & startups. He's excited about design gestures and motions that feels intuitive and natural for the human eye. Which adding a way of delightfulness on the user experience. Currently, he is working at Cebu Pacific as a design manager. He enjoys the process of translating concepts, ideas, sketches, and human interactions into usable designs. His drive to learn, do, and create is fueled by his hunger for the mastery of the process and continuous cycle of problem-solving. He believes that we can make things better for other people through good design."
+		},
+
+		"d": {
+			"photo": "../assets/speakers/raine.png",
+			"name": "Raine Liao",
+			"title": "UX Designer, HomeCredit",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/raineliao/",
+			"twitter": "",
+			"topic": "UX 101",
+			"excerpt": "Raine is a Senior UX Designer at Home Credit, Philippines. Holding over 10 years industry experience, she was previously a freelance product designer, front-end developer, design researcher, and team lead at Cambridge University Press.",
+			"bio": "Raine is a Senior UX Designer at Home Credit, Philippines. Holding over 10 years industry experience, she was previously a freelance product designer, front-end developer, design researcher, and team lead at Cambridge University Press. She also conducts and facilitates design workshops focused on Customer Development and Research while mentoring designers in the local tech community."
+		},
+
+		"e": {
+			"photo": "../assets/speakers/alexis.png",
+			"name": "Alexis Collado",
+			"title": "Product Designer, Kalibrr",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/alexiscollado/",
+			"twitter": "",
+			"topic": "UX Research 101",
+			"excerpt": "Alexis Collado is a creator, connector, and coach. His mission in life is to help people become who they want to become. For his day job, Alexis does digital product design for Kalibrr, the first Y-Combinator startup in the Philippines. He's also the founder and design coach of Specter, a platform where designers can maximize their potential and get personalized mentorship and coaching.",
+			"bio": "Alexis Collado is a creator, connector, and coach. His mission in life is to help people become who they want to become. For his day job, Alexis does digital product design for Kalibrr, the first Y-Combinator startup in the Philippines. He's also the founder and design coach of Specter, a platform where designers can maximize their potential and get personalized mentorship and coaching. He produces Roots, a podcast where he tells the stories of great Filipino designers he’s met around the world. Alexis also co-hosts a podcast called UX Almusal — where he and Christian San Jose converse on design topics that matter. He's the co-organizer of UX+, a user experience conference tailored to professionals and students of design and technology. In university, he founded the first student UX organization in the Philippines — User Experience Society. It now has chapters in Ateneo de Manila University, Chapman University in California, De La Salle University, Ateneo de Davao University, and the Asian Institute of Management. He also interned for award-winning companies like Jump Digital, Freelancer.com, NuWorks Interactive Labs, Agoda, and Edukasyon.ph."
 		}
 	}
 }
