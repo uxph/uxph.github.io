@@ -127,10 +127,21 @@
 			"mnl": "true",
 			"main": "true",
 			"tier": "bronze"
+		},
+
+		"anflocor": {
+			"logo": "sponsor-logos/anflocor.png",
+			"name": "Anflocor",
+			"url": "https://www.anflocor.com/",
+			"cbu": "false",
+			"dvo": "true",
+			"mnl": "true",
+			"main": "true",
+			"tier": "silver"
 		}
 	},
 
-	"partners_all": {
+	"partners_main": {
 		"cebuxd": {
 			"logo": "sponsor-logos/cebuxd.png",
 			"name": "CebuXD",
@@ -165,6 +176,12 @@
 			"logo": "sponsor-logos/roots.png",
 			"name": "Roots",
 			"url": "https://rootspodcast.design/"
+		},
+
+		"uxsea": {
+			"logo": "sponsor-logos/uxsea.png",
+			"name": "UXSEA Society",
+			"url": "https://uxsea.org/"
 		}
 	},
 
@@ -191,6 +208,12 @@
 			"logo": "sponsor-logos/pwdo.png",
 			"name": "Philippine Web Designers Organization",
 			"url": "https://pwdo.org/"
+		},
+
+		"uxsea": {
+			"logo": "sponsor-logos/uxsea.png",
+			"name": "UXSEA Society",
+			"url": "https://uxsea.org/"
 		}
 	},
 
@@ -217,6 +240,12 @@
 			"logo": "sponsor-logos/roots.png",
 			"name": "Roots",
 			"url": "https://rootspodcast.design/"
+		},
+
+		"uxsea": {
+			"logo": "sponsor-logos/uxsea.png",
+			"name": "UXSEA Society",
+			"url": "https://uxsea.org/"
 		}
 	}
 }
