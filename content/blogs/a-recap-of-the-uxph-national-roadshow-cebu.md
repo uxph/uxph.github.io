@@ -69,7 +69,7 @@ Fish gave tips on how to plan for a minimum viable design team in companies and 
 
 ![](/uploads/dae.jpg)
 
-Our last speaker, [Dae Lee](https://www.linkedin.com/in/dae-lee-a30880a1/), Culture Designer at Four Wall Global, ends the morning session by sharing his knowledge on behavioral science and how context is very important when doing things to influence or change the design and team culture within your company.
+Our last speaker, [Dae Lee](https://www.linkedin.com/in/dae-lee-a30880a1/), Culture Designer at Fourth Wall Global, ends the morning session by sharing his knowledge on behavioral science and how context is very important when doing things to influence or change the design and team culture within your company.
 
 Dae shared how motivation, ability, and triggers can change or influence behavior, and related these to different UX methods that are being used by many designers today.
 
