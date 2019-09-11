@@ -182,6 +182,12 @@
 			"logo": "sponsor-logos/uxsea.png",
 			"name": "UXSEA Society",
 			"url": "https://uxsea.org/"
+		},
+
+		"idf": {
+			"logo": "sponsor-logos/idf.png",
+			"name": "Interaction Design Foundation",
+			"url": "https://uxsea.org/"
 		}
 	},
 
@@ -214,6 +220,12 @@
 			"logo": "sponsor-logos/uxsea.png",
 			"name": "UXSEA Society",
 			"url": "https://uxsea.org/"
+		},
+
+		"idf": {
+			"logo": "sponsor-logos/idf.png",
+			"name": "Interaction Design Foundation",
+			"url": "https://uxsea.org/"
 		}
 	},
 
@@ -245,6 +257,12 @@
 		"uxsea": {
 			"logo": "sponsor-logos/uxsea.png",
 			"name": "UXSEA Society",
+			"url": "https://uxsea.org/"
+		},
+
+		"idf": {
+			"logo": "sponsor-logos/idf.png",
+			"name": "Interaction Design Foundation",
 			"url": "https://uxsea.org/"
 		}
 	}
