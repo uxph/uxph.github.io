@@ -84,7 +84,7 @@
 		"j": {
 			"activity_id": 7,
 			"event_id": 0,
-			"name": "Convene in Main Hall for afternoon session instructions",
+			"name": "Workshop Preparations",
 			"sub": "N/A",
 			"time": "1:30 PM",
 			"type": "organizers"
@@ -93,7 +93,7 @@
 		"k": {
 			"activity_id": 7,
 			"event_id": 0,
-			"name": "WORKSHOP START",
+			"name": "Workshop Tracks",
 			"sub": "N/A",
 			"time": "2:00 PM",
 			"type": "organizers"
@@ -373,6 +373,15 @@
 		},
 
 		"i": {
+			"activity_id": 7,
+			"event_id": 0,
+			"name": "Workshop Tracks",
+			"sub": "N/A",
+			"time": "1:00 PM",
+			"type": "organizers"
+		},
+
+		"j": {
 			"activity_id": 8,
 			"event_id": 0,
 			"name": "Figma 101",
@@ -382,7 +391,7 @@
 			"description": "Figma is a web-based design application, with excellent wireframing, prototyping, and code-generation tools. It’s currently (arguably) the industry’s best interface design tool, with powerful features which helps teams collaborate on every phase of the design process. In Figma 101 you’ll learn the basics of creating simple interfaces from low to high fidelity wireframes. This is ideal for people who want to transition from photoshop or sketch and wants to learn the basics of wireframing."
 		},
 
-		"j": {
+		"k": {
 			"activity_id": 9,
 			"event_id": 0,
 			"name": "UX 101",
@@ -392,7 +401,7 @@
 			"description": "This workshop will cover the basics and many components of User Experience. You will learn about the design process, different roles and benefits of doing UX. By the end of the workshop, participants will have a clear understanding of UX and what it takes to create Good User Experience."
 		},
 
-		"k": {
+		"l": {
 			"activity_id": 10,
 			"event_id": 0,
 			"name": "UX Research 101",
@@ -402,7 +411,7 @@
 			"description": "Cover the basic UX research methods and get hands-on experience in executing the techniques productively and carefully."
 		},
 
-		"l": {
+		"m": {
 			"activity_id": 11,
 			"event_id": 0,
 			"name": "Co-Presenter Activity",
@@ -411,7 +420,7 @@
 			"type": "organizers"
 		},
 
-		"m": {
+		"n": {
 			"activity_id": 12,
 			"event_id": 0,
 			"name": "Closing Program and Networking",

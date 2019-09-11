@@ -47,7 +47,7 @@
 			"url": "",
 			"cbu": "true",
 			"dvo": "false",
-			"mnl": "true",
+			"mnl": "false",
 			"main": "true",
 			"tier": "bronze"
 		},
@@ -113,7 +113,7 @@
 			"url": "https://abstract.ph/",
 			"cbu": "true",
 			"dvo": "false",
-			"mnl": "true",
+			"mnl": "false",
 			"main": "true",
 			"tier": "bronze"
 		},
@@ -124,7 +124,7 @@
 			"url": "https://www.facebook.com/grafiknine/",
 			"cbu": "true",
 			"dvo": "false",
-			"mnl": "true",
+			"mnl": "false",
 			"main": "true",
 			"tier": "bronze"
 		},
@@ -135,9 +135,31 @@
 			"url": "https://www.anflocor.com/",
 			"cbu": "false",
 			"dvo": "true",
-			"mnl": "true",
+			"mnl": "false",
 			"main": "true",
 			"tier": "silver"
+		},
+
+		"true-money": {
+			"logo": "sponsor-logos/true-money.png",
+			"name": "True Money",
+			"url": "https://truemoney.com.ph/",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true",
+			"tier": "bronze"
+		},
+
+		"globe-labs": {
+			"logo": "sponsor-logos/globe-labs.png",
+			"name": "Globe Labs",
+			"url": "https://www.globelabs.com.ph/#!/home",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true",
+			"tier": "gold"
 		}
 	},
 
