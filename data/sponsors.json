@@ -58,7 +58,7 @@
 			"url": "http://www.addu.edu.ph/",
 			"cbu": "false",
 			"dvo": "true",
-			"mnl": "true",
+			"mnl": "false",
 			"main": "true",
 			"tier": "gold"
 		},
@@ -164,6 +164,39 @@
 			"logo": "sponsor-logos/cebu-design-week.png",
 			"name": "Cebu Design Week",
 			"url": "https://www.cebudesignweek.com/"
+		},
+
+		"pwdo": {
+			"logo": "sponsor-logos/pwdo.png",
+			"name": "Philippine Web Designers Organization",
+			"url": "https://pwdo.org/"
+		},
+
+		"roots": {
+			"logo": "sponsor-logos/roots.png",
+			"name": "Roots",
+			"url": "https://rootspodcast.design/"
+		},
+
+		"uxsea": {
+			"logo": "sponsor-logos/uxsea.png",
+			"name": "UXSEA Society",
+			"url": "https://uxsea.org/"
+		},
+
+		"idf": {
+			"logo": "sponsor-logos/idf.png",
+			"name": "Interaction Design Foundation",
+			"url": "https://www.interaction-design.org/"
+		}
+	},
+
+	"partners_mnl": {
+
+		"tech_shake": {
+			"logo": "sponsor-logos/tech-shake.png",
+			"name": "TechShake",
+			"url": "https://www.techshake.asia"
 		},
 
 		"pwdo": {

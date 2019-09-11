@@ -1,17 +1,170 @@
 {
 	"MNL": {
-		"0": {
+		"a": {
 			"activity_id": 0,
 			"event_id": 0,
-			"name": "<insert name here>",
-			"time": "1:00pm - 2:00pm",
-			"type": "lecture / workshop",
-			"speaker": {
-				"photo": "<image url>",
-				"name": "<insert name here>",
-				"topic": "<insert topic here>",
-				"bio": "<insert bio here>"
-			}
+			"name": "Registration Begins",
+			"sub": "",
+			"time": "7:00 AM",
+			"type": "organizers"
+		},
+
+		"b": {
+			"activity_id": 1,
+			"event_id": 0,
+			"name": "UXPH Opening Remarks",
+			"sub": "",
+			"time": "8:00 AM",
+			"type": "organizers"
+		},
+
+		"c": {
+			"activity_id": 2,
+			"event_id": 0,
+			"name": "Keynote Speaker 1",
+			"sub": "TBA",
+			"time": "8:30 AM",
+			"type": "keynote"
+		},
+
+		"d": {
+			"activity_id": 3,
+			"event_id": 0,
+			"name": "Lightning Speaker 1",
+			"sub": "TBA",
+			"time": "9:15 AM",
+			"type": "keynote"
+		},
+
+		"e": {
+			"activity_id": 4,
+			"event_id": 0,
+			"name": "Keynote Speaker 2",
+			"sub": "TBA",
+			"time": "9:45 AM",
+			"type": "keynote"
+		},
+
+		"f": {
+			"activity_id": 4,
+			"event_id": 0,
+			"name": "Lightning Speaker 2",
+			"sub": "TBA",
+			"time": "10:30 AM",
+			"type": "keynote"
+		},
+
+		"g": {
+			"activity_id": 4,
+			"event_id": 0,
+			"name": "Keynote Speaker 3",
+			"sub": "TBA",
+			"time": "11:00 AM",
+			"type": "keynote"
+		},
+
+		"h": {
+			"activity_id": 4,
+			"event_id": 0,
+			"name": "Lightning Speaker 3",
+			"sub": "TBA",
+			"time": "11:45 AM",
+			"type": "keynote"
+		},
+
+		"i": {
+			"activity_id": 6,
+			"event_id": 0,
+			"name": "Lunch Break",
+			"sub": "N/A",
+			"time": "12:15 PM",
+			"type": "break"
+		},
+
+		"j": {
+			"activity_id": 7,
+			"event_id": 0,
+			"name": "Convene in Main Hall for afternoon session instructions",
+			"sub": "N/A",
+			"time": "1:30 PM",
+			"type": "organizers"
+		},
+
+		"k": {
+			"activity_id": 7,
+			"event_id": 0,
+			"name": "WORKSHOP START",
+			"sub": "N/A",
+			"time": "2:00 PM",
+			"type": "organizers"
+		},
+
+		"l": {
+			"activity_id": 8,
+			"event_id": 0,
+			"name": "TBA",
+			"sub": "",
+			"time": "Workshop 1",
+			"type": "workshop",
+			"description": ""
+		},
+
+		"m": {
+			"activity_id": 8,
+			"event_id": 0,
+			"name": "TBA",
+			"sub": "",
+			"time": "Workshop 2",
+			"type": "workshop",
+			"description": ""
+		},
+
+		"n": {
+			"activity_id": 8,
+			"event_id": 0,
+			"name": "TBA",
+			"sub": "",
+			"time": "Workshop 3",
+			"type": "workshop",
+			"description": ""
+		},
+
+		"o": {
+			"activity_id": 8,
+			"event_id": 0,
+			"name": "TBA",
+			"sub": "",
+			"time": "Workshop 4",
+			"type": "workshop",
+			"description": ""
+		},
+
+		"p": {
+			"activity_id": 8,
+			"event_id": 0,
+			"name": "TBA",
+			"sub": "",
+			"time": "Workshop 5",
+			"type": "workshop",
+			"description": ""
+		},
+
+		"q": {
+			"activity_id": 11,
+			"event_id": 0,
+			"name": "Sponsor's Presentation",
+			"sub": "N/A",
+			"time": "4:30pm",
+			"type": "organizers"
+		},
+
+		"r": {
+			"activity_id": 12,
+			"event_id": 0,
+			"name": "Closing Program and Networking",
+			"sub": "N/A",
+			"time": "5:00 PM",
+			"type": "organizers"
 		}
 	},
 

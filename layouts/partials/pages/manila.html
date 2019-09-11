@@ -1,8 +1,193 @@
+<div id="modal">
+	<div class="wrapper">
+		<div id="modal-wrapper">
+			<img src="../assets/icons/close.svg" id="modal-close" />
+			<br />
+			<div class="content-wrapper">
+				<!-- auto-generated content -->
+			</div>
+		</div>
+		<br /><br /><br /><br /><br /><br />
+	</div>
+	<div id="overlay"></div>
+</div>
+<img src="../assets/event-images/manila-banner.png" id="event-square" />
+<section class="dark hidden" id="event-wrapper">
+	<div class="wrapper">
+		<img src="../assets/event-images/manila-banner.png" id="event-banner" />
+	</div>
+</section>
+
+<section class="dark overview-section">
+	<div class="wrapper" id="overview-wrapper">
+		<div>
+			<h1 class="section-heading">UXPH Roadshow: Manila</h1>
+			<p>
+				On <span class="purple">October 26th 2019</span>, we will be celebrating the Manila leg of the UXPH National Roadshow themed “<span class="purple">Cultivating Design Cultures</span>”. This is part of a national effort to spread the knowledge of user experience design not only to tech professionals but also to business who would greatly benefit from its processes and methodology.
+			</p>
+			<p>
+				For this event, we are expecting over 300 professionals not only in visual design, industrial design, user interface design and user experience design, but also professionals who are interested in product development with applications in both tech and non-tech businesses.
+			</p>
+			<br />
+		</div>
+		<div class="overview-wrapper">
+			<p id="main-excerpt">
+				<img src="../assets/maps/manila.png" id="map" />
+				<br />
+				<i class="fa fa-calendar"></i>October 26, 2019
+				<br />
+				<i class="fa fa-clock"></i>8:00 AM - 5:00 PM
+				<br />
+				<i class="fa fa-map-marker-alt"></i>The Globe Tower
+			</p>
+			<a href="https://www.eventbrite.com/e/uxph-national-roadshow-2019-manila-tickets-72237090081" target="_blank">
+				<button>Buy Tickets</button>
+			</a>
+		</div>
+	</div>
+</section>
 <section class="dark hidden">
-    <div class="wrapper">
-        <h1 id="main-headline">Coming Soon</h1>
-        <a href="/" class="text-link">
-            <i class="fa fa-long-arrow-alt-left"></i>&nbsp; Back to roadshow
-        </a>
-    </div>
+	<div class="wrapper">
+		<h1 class="section-heading centered">
+			Speakers & Workshop Facilitators
+			<br/><br/>
+			<span class="purple">Stay Tuned!</span>
+		</h1>
+	</div>
+</section>
+<section class="dark alternate hidden">
+	<div class="wrapper">
+		<h1 class="section-heading centered">Program Flow</h1>
+		<p class="centered">
+			<i>* Program details and speakers to be finalized closer to the event.</i>
+		</p>
+		<br />
+		<div id="timeline-wrapper">
+			{{ range.Site.Data.activities.MNL }}
+			{{ $t := "break" }}
+			{{ $w := "workshop" }}
+			{{ if ne .type "workshop" }}
+			<div class="marker">
+				<i class="far fa-dot-circle {{ if eq .type $t }}purple{{ end }}"></i>
+				<span class="time purple">{{ .time }}</span>
+			</div>
+			{{ end }}
+			<div class="timeline {{ if eq .type $t }}lunch{{ end }}">
+				{{ if eq .type "workshop" }}<span class="time purple">{{ .time }}</span>{{ end }}
+				<p class="activity-name {{ if eq .type $t }}purple{{ end }}">
+				{{ .name }}
+				{{ if ne .sub "N/A" }}<br /><span class="gray">{{ .sub }}</span>{{ end }}
+				</p>
+				<!-- {{ if eq .type $w }}
+				<button class="hollow" onclick="updateModalWorkshop({{ .name }})">Learn More</button>
+				<br/><br/>
+				{{ end }} -->
+			</div>
+			{{ if eq .type $t }}<br /><br />{{ end }}
+
+			{{ if eq .type $w }}
+			<script type="text/javascript">
+			addWorkshop({{ .name }}, {{ .sub }}, {{ .description }});
+			</script>
+			{{ end }}
+			{{ end }}
+		</div>
+	</div>
+	<br />
+</section>
+<section class="dark true-dark hidden">
+	<div class="wrapper">
+		<h1 class="section-heading centered">Our Co-presenter</h1>
+		<div class="sponsor-wrapper">
+			{{ range.Site.Data.sponsors.copresenters }}
+			<a href="{{ .url }}" target="_blank">
+				<div>
+					<img src="../assets/{{ .logo }}" class="featured-image" />
+					<h3 class="sponsor-name gray">{{ .name }}</h3>
+				</div>
+			</a>
+			{{ end }}
+		</div>
+
+		<br />
+
+		<div id="tiers">
+			<div class="tier-wrapper">
+				<h1 class="purple">Gold Sponsors</h1>
+				<div class="sponsor-wrapper tier">
+					{{ range .Site.Data.sponsors.sponsors }}
+					{{ if eq .mnl "true" }}
+						{{ if eq .tier "gold" }}
+						<a href="{{ .url }}" target="_blank">
+							<div>
+								<img src="../assets/{{ .logo }}" class="featured-image" />
+								<h3 class="sponsor-name gray">{{ .name }}</h3>
+							</div>
+						</a>
+						{{ end }}
+					{{ end }}
+					{{ end }}
+				</div>
+			</div>
+
+			<div class="tier-wrapper">
+				<h1 class="purple">Silver Sponsors</h1>
+				<div class="sponsor-wrapper tier">
+					{{ range .Site.Data.sponsors.sponsors }}
+					{{ if eq .mnl "true" }}
+						{{ if eq .tier "silver" }}
+						<a href="{{ .url }}" target="_blank">
+							<div>
+								<img src="../assets/{{ .logo }}" class="featured-image" />
+								<h3 class="sponsor-name gray">{{ .name }}</h3>
+							</div>
+						</a>
+						{{ end }}
+					{{ end }}
+					{{ end }}
+				</div>
+			</div>
+
+			<div class="tier-wrapper">
+				<h1 class="purple">Bronze Sponsors</h1>
+				<div class="sponsor-wrapper tier">
+					{{ range .Site.Data.sponsors.sponsors }}
+					{{ if eq .mnl "true" }}
+						{{ if eq .tier "bronze" }}
+						<a href="{{ .url }}" target="_blank">
+							<div>
+								<img src="../assets/{{ .logo }}" class="featured-image" />
+								<h3 class="sponsor-name gray">{{ .name }}</h3>
+							</div>
+						</a>
+						{{ end }}
+					{{ end }}
+					{{ end }}
+				</div>
+			</div>
+		</div>
+
+		<br />
+
+		<h1 class="section-heading centered">Community Partners</h1>
+		<div class="sponsor-wrapper">
+			{{ range.Site.Data.sponsors.partners_mnl }}
+			<a href="{{ .url }}" target="_blank">
+				<div>
+					<img src="../assets/{{ .logo }}" class="featured-image" />
+					<h3 class="sponsor-name gray">{{ .name }}</h3>
+				</div>
+			</a>
+			{{ end }}
+		</div>
+	</div>
+</section>
+<section class="dark alternate">
+	<div class="wrapper">
+		<h1 class="section-heading centered">Want to partner with us?</h1>
+		<p class="centered large">
+		If you’d like to partner with us for any or all of our events, please
+		reach out to <span class="purple">info@uxph.org</span>.
+		</p>
+	</div>
 </section>
