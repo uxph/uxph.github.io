@@ -177,8 +177,8 @@
 			"linkedin": "https://www.linkedin.com/in/jozzua/",
 			"twitter": "",
 			"topic": "Designing your UX Career & Forming Design Teams",
-			"excerpt": "Ely gained 11 years of experience applying, coaching, teaching & learning design thinking and product development in the tech community. He has practical experiences in enterprises including US Auto Parts and JG Summit Holdings Inc. Expertise in forming, managing & coaching design & product teams.",
-			"bio": "Ely gained 11 years of experience applying, coaching, teaching & learning design thinking and product development in the tech community. He has practical experiences in enterprises including US Auto Parts and JG Summit Holdings Inc. Expertise in forming, managing & coaching design & product teams."
+			"excerpt": "Ely Apao is a CX Manager at JG Summit Holdings. He founded UX Philippines, a non-profit org that hosts the largest PH community of individuals passionate about UX, and aims to help spread awareness for design practices all over PH.",
+			"bio": "Ely Apao is a Customer Experience Manager at JG Summit Holdings. He founded UX Philippines,  a non-profit organization that hosts the Philippines' largest community of individuals passionate about the realm of User Experience. The organization aims to help spread awareness and raise the bar for design practices all over the Philippines. Previously, he also held UX roles at companies like OLX and US Auto Parts as a UX and Product Development  Manager. "
 		}
 
 	},
@@ -233,15 +233,15 @@
 		},
 
 		"e": {
-			"photo": "../assets/speakers/alexis.png",
-			"name": "Alexis Collado",
-			"title": "Product Designer, Kalibrr",
+			"photo": "../assets/speakers/justine.png",
+			"name": "Justine Win",
+			"title": "Incoming Product Designer, Shopify",
 			"website": "",
-			"linkedin": "https://www.linkedin.com/in/alexiscollado/",
+			"linkedin": "https://www.linkedin.com/in/justinewin/",
 			"twitter": "",
-			"topic": "UX Research 101",
-			"excerpt": "Alexis Collado is a creator, connector, and coach. His mission in life is to help people become who they want to become. For his day job, Alexis does digital product design for Kalibrr, the first Y-Combinator startup in the Philippines. He's also the founder and design coach of Specter, a platform where designers can maximize their potential and get personalized mentorship and coaching.",
-			"bio": "Alexis Collado is a creator, connector, and coach. His mission in life is to help people become who they want to become. For his day job, Alexis does digital product design for Kalibrr, the first Y-Combinator startup in the Philippines. He's also the founder and design coach of Specter, a platform where designers can maximize their potential and get personalized mentorship and coaching. He produces Roots, a podcast where he tells the stories of great Filipino designers he’s met around the world. Alexis also co-hosts a podcast called UX Almusal — where he and Christian San Jose converse on design topics that matter. He's the co-organizer of UX+, a user experience conference tailored to professionals and students of design and technology. In university, he founded the first student UX organization in the Philippines — User Experience Society. It now has chapters in Ateneo de Manila University, Chapman University in California, De La Salle University, Ateneo de Davao University, and the Asian Institute of Management. He also interned for award-winning companies like Jump Digital, Freelancer.com, NuWorks Interactive Labs, Agoda, and Edukasyon.ph."
+			"topic": "Creating a Design Portfolio",
+			"excerpt": "Justine Win is a product designer and UI developer passionate in building useful products for people. Most of the time, you can find her facilitating design sprints and sharing thoughts on design and tech in Medium.",
+			"bio": "Justine Win is a product designer and UI developer who's passionate in building useful products for people. Most of the time, you can find her facilitating design sprints, sharing thoughts on design and tech in Medium, and playing mobile games. With the goal of forming design-embedded teams, she spends her energy showing the value of design to non-designers."
 		}
 	}
 }

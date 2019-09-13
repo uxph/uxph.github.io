@@ -402,13 +402,13 @@
 		},
 
 		"l": {
-			"activity_id": 10,
+			"activity_id": 9,
 			"event_id": 0,
-			"name": "UX Research 101",
-			"sub": "Alexis Collado",
+			"name": "Creating a Design Portfolio",
+			"sub": "Justine Win",
 			"time": "Workshop 3",
 			"type": "workshop",
-			"description": "Cover the basic UX research methods and get hands-on experience in executing the techniques productively and carefully."
+			"description": "How do you create a portfolio that flaunts your strengths and sets you apart? In this workshop, you’ll learn how to build a stellar portfolio by writing a well-structured case study, curating relevant works, and showcasing your portfolio in the right format and platform. This workshop is for designers who are looking into establishing their online presence or improving their personal brand."
 		},
 
 		"m": {
