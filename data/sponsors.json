@@ -4,6 +4,12 @@
 			"logo": "sponsor-logos/home-credit.png",
 			"name": "Home Credit",
 			"url": "https://www.homecredit.ph/"
+		},
+
+		"onerent": {
+			"logo": "sponsor-logos/onerent.png",
+			"name": "Onerent",
+			"url": "https://www.onerent.co/"
 		}
 	},
 
@@ -79,9 +85,9 @@
 			"name": "Insular Life",
 			"url": "https://www.insularlife.com.ph/",
 			"cbu": "false",
-			"dvo": "true",
-			"mnl": "true",
-			"main": "true",
+			"dvo": "false",
+			"mnl": "false",
+			"main": "false",
 			"tier": "bronze"
 		},
 
@@ -160,6 +166,17 @@
 			"mnl": "true",
 			"main": "true",
 			"tier": "gold"
+		},
+
+		"dash10": {
+			"logo": "sponsor-logos/dash10.png",
+			"name": "Dash10",
+			"url": "https://www.dash10.ph/",
+			"cbu": "false",
+			"dvo": "true",
+			"mnl": "false",
+			"main": "true",
+			"tier": "bronze"
 		}
 	},
 

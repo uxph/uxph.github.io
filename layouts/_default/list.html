@@ -7,6 +7,11 @@
     {{ $type := "blog" }}
     <body {{ if eq .Type $type }}id="light"{{ end }}>
         {{ partial "components/nav" (dict "path" "../../") }}
+        {{ if eq .Type "roadshow" }}
+            {{ partial .Params.page . }}
+        {{ end }}
+
+        {{ if eq .Type $type }}
         <section class="hidden">
             <div class="wrapper">
                 <h1 class="section-heading white">Roadshow Blogs</h1>
@@ -32,6 +37,8 @@
                 {{ end }}
             </div>
         </section>
+        {{ end }}
+        
         {{ partial "components/footer" (dict "path" "../../")  }}
         <script>setActive({{ .Params.active }});</script>
         <script src="../../js/blog.js"></script>
