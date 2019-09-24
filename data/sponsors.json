@@ -60,7 +60,7 @@
 
 		"addu": {
 			"logo": "sponsor-logos/addu.png",
-			"name": "Ateneo de Davao University",
+			"name": "ADDU Computer Studies",
 			"url": "http://www.addu.edu.ph/",
 			"cbu": "false",
 			"dvo": "true",
@@ -227,6 +227,24 @@
 			"logo": "sponsor-logos/idf.png",
 			"name": "Interaction Design Foundation",
 			"url": "https://www.interaction-design.org/"
+		},
+
+		"davaojs": {
+			"logo": "sponsor-logos/davao-js.png",
+			"name": "DavaoJS",
+			"url": "https://www.facebook.com/davaojs/"
+		},
+
+		"dgdc": {
+			"logo": "sponsor-logos/dgdc.png",
+			"name": "Davao Graphic Designers Community",
+			"url": "https://www.facebook.com/DGDCommunity/"
+		},
+
+		"devcon": {
+			"logo": "sponsor-logos/devcon.png",
+			"name": "DevCon Davap",
+			"url": "https://www.facebook.com/DevConDavao/"
 		}
 	},
 
@@ -336,6 +354,24 @@
 			"logo": "sponsor-logos/idf.png",
 			"name": "Interaction Design Foundation",
 			"url": "https://www.interaction-design.org/"
+		},
+
+		"davaojs": {
+			"logo": "sponsor-logos/davao-js.png",
+			"name": "DavaoJS",
+			"url": "https://www.facebook.com/davaojs/"
+		},
+
+		"dgdc": {
+			"logo": "sponsor-logos/dgdc.png",
+			"name": "Davao Graphic Designers Community",
+			"url": "https://www.facebook.com/DGDCommunity/"
+		},
+
+		"devcon": {
+			"logo": "sponsor-logos/devcon.png",
+			"name": "DevCon Davap",
+			"url": "https://www.facebook.com/DevConDavao/"
 		}
 	}
 }

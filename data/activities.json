@@ -385,7 +385,7 @@
 			"activity_id": 8,
 			"event_id": 0,
 			"name": "Figma 101",
-			"sub": "Anj Garong, Miramark Diaz & Paul Sabandal",
+			"sub": "Miramark Diaz & Paul Sabandal",
 			"time": "Workshop 1",
 			"type": "workshop",
 			"description": "Figma is a web-based design application, with excellent wireframing, prototyping, and code-generation tools. It’s currently (arguably) the industry’s best interface design tool, with powerful features which helps teams collaborate on every phase of the design process. In Figma 101 you’ll learn the basics of creating simple interfaces from low to high fidelity wireframes. This is ideal for people who want to transition from photoshop or sketch and wants to learn the basics of wireframing."
@@ -404,11 +404,11 @@
 		"l": {
 			"activity_id": 9,
 			"event_id": 0,
-			"name": "Creating a Design Portfolio",
-			"sub": "Justine Win",
+			"name": "Onerent Design Competition",
+			"sub": "",
 			"time": "Workshop 3",
 			"type": "workshop",
-			"description": "How do you create a portfolio that flaunts your strengths and sets you apart? In this workshop, you’ll learn how to build a stellar portfolio by writing a well-structured case study, curating relevant works, and showcasing your portfolio in the right format and platform. This workshop is for designers who are looking into establishing their online presence or improving their personal brand."
+			"description": "<img src='../assets/event-images/onerent-competition.png' class='modal-image' />"
 		},
 
 		"m": {

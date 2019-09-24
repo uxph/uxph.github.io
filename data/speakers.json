@@ -184,19 +184,8 @@
 	},
 
 	"workshop_DVO": {
-		"a": {
-			"photo": "../assets/speakers/angela.png",
-			"name": "Anj Garong",
-			"title": "Product Design Manager, Sprout Solutions",
-			"website": "",
-			"linkedin": "https://www.linkedin.com/in/anjgarong/",
-			"twitter": "",
-			"topic": "Figma 101",
-			"excerpt": "Anj, a Product Design Manager at Sprout Solutions, is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups.",
-			"bio": "Anj is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups. She is immersed in the academe and recently, in design communities, teaching Human-Centered Design at iACADEMY, and helping out Figma PH and UXSEA. Today, she spends most of her time in Sprout Solutions, a SaaS HR and Payroll technology startup, where she functions as a Product Design Manager. She somehow manages to squeeze in workouts, movies, worship nights, and binge-sleeping for self-care."
-		},
 
-		"b": {
+		"a": {
 			"photo": "../assets/speakers/paul.png",
 			"name": "Paul James Sabandal",
 			"title": "Head of Product Development, Qwikwire",
@@ -208,7 +197,7 @@
 			"bio": "Paul Sabandal is the Head of Product Development at Qwikwire, a multi-awarded startup that provides cross-border payment solutions for real-estate — they handle international online payments for clients AyalaLand, Century Properties, Double Dragon and other top real-estate companies in the Philippines. He leads the end-to-end processes related to product discovery. He also co-founded Figma Philippines, helping teach the collaborative design tool Figma through meet-ups for the community."
 		},
 
-		"c": {
+		"b": {
 			"photo": "../assets/speakers/miramark.png",
 			"name": "Miramark Diaz",
 			"title": "UX Designer, Cebu Pacific",
@@ -220,7 +209,7 @@
 			"bio": "Miramark Diaz is a designer who has been creating digital products for brands, companies, & startups. He's excited about design gestures and motions that feels intuitive and natural for the human eye. Which adding a way of delightfulness on the user experience. Currently, he is working at Cebu Pacific as a design manager. He enjoys the process of translating concepts, ideas, sketches, and human interactions into usable designs. His drive to learn, do, and create is fueled by his hunger for the mastery of the process and continuous cycle of problem-solving. He believes that we can make things better for other people through good design."
 		},
 
-		"d": {
+		"c": {
 			"photo": "../assets/speakers/raine.png",
 			"name": "Raine Liao",
 			"title": "UX Designer, HomeCredit",
@@ -230,18 +219,6 @@
 			"topic": "UX 101",
 			"excerpt": "Raine is a Senior UX Designer at Home Credit, Philippines. Holding over 10 years industry experience, she was previously a freelance product designer, front-end developer, design researcher, and team lead at Cambridge University Press.",
 			"bio": "Raine is a Senior UX Designer at Home Credit, Philippines. Holding over 10 years industry experience, she was previously a freelance product designer, front-end developer, design researcher, and team lead at Cambridge University Press. She also conducts and facilitates design workshops focused on Customer Development and Research while mentoring designers in the local tech community."
-		},
-
-		"e": {
-			"photo": "../assets/speakers/justine.png",
-			"name": "Justine Win",
-			"title": "Incoming Product Designer, Shopify",
-			"website": "",
-			"linkedin": "https://www.linkedin.com/in/justinewin/",
-			"twitter": "",
-			"topic": "Creating a Design Portfolio",
-			"excerpt": "Justine Win is a product designer and UI developer passionate in building useful products for people. Most of the time, you can find her facilitating design sprints and sharing thoughts on design and tech in Medium.",
-			"bio": "Justine Win is a product designer and UI developer who's passionate in building useful products for people. Most of the time, you can find her facilitating design sprints, sharing thoughts on design and tech in Medium, and playing mobile games. With the goal of forming design-embedded teams, she spends her energy showing the value of design to non-designers."
 		}
 	}
 }

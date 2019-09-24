@@ -40,11 +40,15 @@ function updateModalSpeaker(name) {
 }
 
 function updateModalWorkshop(topic) {
+	let temp_topic = topic
+	if(workshops[topic][1].includes('img src'))
+		topic = "";
+
 	$('#modal-wrapper .content-wrapper').append(
 		`<h2 class="${color}">${topic}</h2>
-		<h3 class="white title-topic">${workshops[topic][0]}</h3>
+		<h3 class="white title-topic">${workshops[temp_topic][0]}</h3>
 		<br/>
-		<p>${workshops[topic][1]}</p>
+		<p>${workshops[temp_topic][1]}</p>
 		<br/>
 		`
 		);

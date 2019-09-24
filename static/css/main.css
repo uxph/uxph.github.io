@@ -146,6 +146,11 @@ div#modal-wrapper div.content-wrapper div.social-wrapper i:hover {
 	color: var(--neutral-whitish);
 }
 
+div#modal-wrapper img.modal-image {
+	display: block;
+	width: 100%;
+}
+
 /* header section styling */
 img#event-banner {
 	width: 100%;
