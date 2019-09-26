@@ -140,7 +140,7 @@
 			"website": "",
 			"linkedin": "https://www.linkedin.com/in/madiazderivera/",
 			"twitter": "",
-			"topic": "TBA",
+			"topic": "UX for Designers, Developers, and Anyone in Between",
 			"excerpt": "Mica is the Head of Design Operations at Make Technology, a UX consultancy in Manila. His love for data, analytics, and statistics has led him to hold over a decade of extensive experience with design, development, and team management in the technology industry. He is also one of the founding members of UXPH!",
 			"bio": "Mica is a software developer turned experience designer and has had over a decade of combined work experience touching both local and international products and brands. His fascination for data, analytics, and statistics has led him to work on initiatives that dabble in the quantitative measurement of user experiences. On extraordinary days you’d find him alone in the plains of Mongolia or in the streets of Kolkata finding ways to connect life experiences to experience design. He is currently the Head of Design Operations at Make Technology by Ace Saatchi & Saatchi."
 		},
@@ -219,6 +219,18 @@
 			"topic": "UX 101",
 			"excerpt": "Raine is a Senior UX Designer at Home Credit, Philippines. Holding over 10 years industry experience, she was previously a freelance product designer, front-end developer, design researcher, and team lead at Cambridge University Press.",
 			"bio": "Raine is a Senior UX Designer at Home Credit, Philippines. Holding over 10 years industry experience, she was previously a freelance product designer, front-end developer, design researcher, and team lead at Cambridge University Press. She also conducts and facilitates design workshops focused on Customer Development and Research while mentoring designers in the local tech community."
+		},
+
+		"d": {
+			"photo": "../assets/speakers/jordan.png",
+			"name": "Jordan Deja",
+			"title": "Core Organizer, UX Philippines",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/jrdndj/",
+			"twitter": "",
+			"topic": "Building a UX Career Matrix for Students",
+			"excerpt": "Jordan holds 10+ years of melting pot experience in the IT Industry, Academe (Teaching and Research), User Experience, and Business Consultancy. He is an active mentor and volunteer for various tech communities and often speaks at events and conferences in the Philippines such as GDG PH, UXPH, and many others.",
+			"bio": "Jordan holds 10+ years of melting pot experience in the IT Industry, Academe (Teaching and Research), User Experience, and Business Consultancy. He is an active mentor and volunteer for various tech communities and often speaks at events and conferences in the Philippines such as GDG PH, UXPH, and many others."
 		}
 	}
 }
