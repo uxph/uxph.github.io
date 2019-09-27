@@ -723,16 +723,6 @@ const davao_attendees = [
    "last_name": "Gaynor"
  },
  {
-   "order_no": "1043638903",
-   "first_name": "Jena Marie",
-   "last_name": "Buenviaje"
- },
- {
-   "order_no": "1043638903",
-   "first_name": "Beatricci Deanne",
-   "last_name": "Madjus"
- },
- {
    "order_no": "1043667619",
    "first_name": "Marie Antoinette",
    "last_name": "Go"
@@ -839,7 +829,7 @@ const davao_attendees = [
  },
  {
    "order_no": "1070194205",
-   "first_name": "Francis John",
+   "first_name": "Francis John ",
    "last_name": "Macatangay"
  },
  {
@@ -941,5 +931,45 @@ const davao_attendees = [
    "order_no": "1075502883",
    "first_name": "Jim",
    "last_name": "Zandueta"
+ },
+ {
+   "order_no": "1075636667",
+   "first_name": "Brian Chester",
+   "last_name": "Lao"
+ },
+ {
+   "order_no": "1075636667",
+   "first_name": "Arvin John",
+   "last_name": "Argoncillo"
+ },
+ {
+   "order_no": "1075636667",
+   "first_name": "Janelle",
+   "last_name": "Fernandez"
+ },
+ {
+   "order_no": "1075636667",
+   "first_name": "Akiyuki",
+   "last_name": "Kato"
+ },
+ {
+   "order_no": "1075636667",
+   "first_name": "Gabriel",
+   "last_name": "Congson"
+ },
+ {
+   "order_no": "1075669885",
+   "first_name": "Jemerson",
+   "last_name": "Canaya"
+ },
+ {
+   "order_no": "1043638903",
+   "first_name": "Jonell",
+   "last_name": "Longjas"
+ },
+ {
+   "order_no": "1043638903",
+   "first_name": "Genelito",
+   "last_name": "Marte Jr."
  }
 ];
