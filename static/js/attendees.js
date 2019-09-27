@@ -555,3 +555,391 @@ const cebu_attendees = [
    "last_name": "Largoza"
  }
 ];
+
+const davao_attendees = [
+ {
+   "order_no": "1028411101",
+   "first_name": "Jeremy David",
+   "last_name": "Reyes"
+ },
+ {
+   "order_no": "1028473907",
+   "first_name": "Hannah",
+   "last_name": "Malmis"
+ },
+ {
+   "order_no": "1028550125",
+   "first_name": "Anthony",
+   "last_name": "Moya"
+ },
+ {
+   "order_no": "1029372289",
+   "first_name": "Jeanyl",
+   "last_name": "Gumapo"
+ },
+ {
+   "order_no": "1029372289",
+   "first_name": "John Paul",
+   "last_name": "Labro"
+ },
+ {
+   "order_no": "1029372289",
+   "first_name": "Neil Ivan",
+   "last_name": "Palacios"
+ },
+ {
+   "order_no": "1029372289",
+   "first_name": "Mark Kenneth",
+   "last_name": "Jimenez"
+ },
+ {
+   "order_no": "1029372289",
+   "first_name": "Koji",
+   "last_name": "Kunimoto"
+ },
+ {
+   "order_no": "1029483623",
+   "first_name": "Jairah-Mae",
+   "last_name": "Viduya"
+ },
+ {
+   "order_no": "1029580471",
+   "first_name": "Ram",
+   "last_name": "Alturas"
+ },
+ {
+   "order_no": "1029580471",
+   "first_name": "Philip",
+   "last_name": "Gonzales"
+ },
+ {
+   "order_no": "1029580471",
+   "first_name": "Wilmon",
+   "last_name": "Agulo"
+ },
+ {
+   "order_no": "1029580471",
+   "first_name": "Brad",
+   "last_name": "Potts"
+ },
+ {
+   "order_no": "1029580471",
+   "first_name": "Renielle",
+   "last_name": "Cavan"
+ },
+ {
+   "order_no": "1029580471",
+   "first_name": "Roldan",
+   "last_name": "Montecalbo"
+ },
+ {
+   "order_no": "1029602685",
+   "first_name": "Michael Angelo",
+   "last_name": "Mahinay"
+ },
+ {
+   "order_no": "1030930051",
+   "first_name": "Adam",
+   "last_name": "Gemenez"
+ },
+ {
+   "order_no": "1035460085",
+   "first_name": "Romel",
+   "last_name": "Gudes"
+ },
+ {
+   "order_no": "1035460085",
+   "first_name": "Micah",
+   "last_name": "Mapayo"
+ },
+ {
+   "order_no": "1035460085",
+   "first_name": "John Patrick",
+   "last_name": "Agduma"
+ },
+ {
+   "order_no": "1035477657",
+   "first_name": "Ericson",
+   "last_name": "Luciano"
+ },
+ {
+   "order_no": "1035484823",
+   "first_name": "May Flor",
+   "last_name": "Lape"
+ },
+ {
+   "order_no": "1035632739",
+   "first_name": "Karla Nadhine",
+   "last_name": "Enero"
+ },
+ {
+   "order_no": "1035632739",
+   "first_name": "Creselle John",
+   "last_name": "Lazo"
+ },
+ {
+   "order_no": "1035832219",
+   "first_name": "Harriet",
+   "last_name": "Cacdac"
+ },
+ {
+   "order_no": "1036393755",
+   "first_name": "Don",
+   "last_name": "Dasalla"
+ },
+ {
+   "order_no": "1036493715",
+   "first_name": "Denise Marie",
+   "last_name": "Suarez"
+ },
+ {
+   "order_no": "1036520415",
+   "first_name": "Kent Charles",
+   "last_name": "Cutamora"
+ },
+ {
+   "order_no": "1037261281",
+   "first_name": "Junel Lawrence",
+   "last_name": "Cordova"
+ },
+ {
+   "order_no": "1041787751",
+   "first_name": "Rinnah",
+   "last_name": "Sumarago"
+ },
+ {
+   "order_no": "1041840635",
+   "first_name": "Ayna Vor",
+   "last_name": "Aguja"
+ },
+ {
+   "order_no": "1041840635",
+   "first_name": "Alyana Marie",
+   "last_name": "Aguja"
+ },
+ {
+   "order_no": "1042139925",
+   "first_name": "Ann-Louise",
+   "last_name": "Gaynor"
+ },
+ {
+   "order_no": "1043638903",
+   "first_name": "Jena Marie",
+   "last_name": "Buenviaje"
+ },
+ {
+   "order_no": "1043638903",
+   "first_name": "Beatricci Deanne",
+   "last_name": "Madjus"
+ },
+ {
+   "order_no": "1043667619",
+   "first_name": "Marie Antoinette",
+   "last_name": "Go"
+ },
+ {
+   "order_no": "1043667619",
+   "first_name": "Randy",
+   "last_name": "Famador"
+ },
+ {
+   "order_no": "1043686399",
+   "first_name": "Roque Jay",
+   "last_name": "Maneja"
+ },
+ {
+   "order_no": "1043686399",
+   "first_name": "Roque Jay",
+   "last_name": "Maneja"
+ },
+ {
+   "order_no": "1044226145",
+   "first_name": "John",
+   "last_name": "Espino"
+ },
+ {
+   "order_no": "1055529619",
+   "first_name": "Mark",
+   "last_name": "Tabique"
+ },
+ {
+   "order_no": "1059115827",
+   "first_name": "Guillian Marie D.",
+   "last_name": "Adriatico"
+ },
+ {
+   "order_no": "1063187229",
+   "first_name": "Angelo Mari",
+   "last_name": "Apigo"
+ },
+ {
+   "order_no": "1064765633",
+   "first_name": "Dandy",
+   "last_name": "Ojeda"
+ },
+ {
+   "order_no": "1064914421",
+   "first_name": "Joshua",
+   "last_name": "Delica"
+ },
+ {
+   "order_no": "1066181211",
+   "first_name": "mark lawrence",
+   "last_name": "mangawang"
+ },
+ {
+   "order_no": "1068925051",
+   "first_name": "Sophia Liaume",
+   "last_name": "Velasco"
+ },
+ {
+   "order_no": "1069288801",
+   "first_name": "Christian Edward",
+   "last_name": "Alonzo"
+ },
+ {
+   "order_no": "1070131981",
+   "first_name": "Melvin Rey",
+   "last_name": "Basco"
+ },
+ {
+   "order_no": "1070194205",
+   "first_name": "Charisse",
+   "last_name": "Yap"
+ },
+ {
+   "order_no": "1070194205",
+   "first_name": "Levy Lou",
+   "last_name": "Abatayo"
+ },
+ {
+   "order_no": "1070194205",
+   "first_name": "Michell Ann",
+   "last_name": "Espanto"
+ },
+ {
+   "order_no": "1070194205",
+   "first_name": "Reanna Jane",
+   "last_name": "Dagatan"
+ },
+ {
+   "order_no": "1070194205",
+   "first_name": "Zerxa Aeon",
+   "last_name": "Mamac"
+ },
+ {
+   "order_no": "1070194205",
+   "first_name": "Giann Lowell",
+   "last_name": "Evale"
+ },
+ {
+   "order_no": "1070194205",
+   "first_name": "Neil Justin ",
+   "last_name": "Evale"
+ },
+ {
+   "order_no": "1070194205",
+   "first_name": "Francis John",
+   "last_name": "Macatangay"
+ },
+ {
+   "order_no": "1070194205",
+   "first_name": "Rylle Gillian",
+   "last_name": "Intes"
+ },
+ {
+   "order_no": "1070194205",
+   "first_name": "Rhobert Vincent",
+   "last_name": "Odoya"
+ },
+ {
+   "order_no": "1070321073",
+   "first_name": "Mary Cathleen",
+   "last_name": "Delfin"
+ },
+ {
+   "order_no": "1070325533",
+   "first_name": "Von Janrey",
+   "last_name": "Reta"
+ },
+ {
+   "order_no": "1070392699",
+   "first_name": "Marianne Coleen",
+   "last_name": "Yuson"
+ },
+ {
+   "order_no": "1070455165",
+   "first_name": "Romeo",
+   "last_name": "Abendan"
+ },
+ {
+   "order_no": "1071985075",
+   "first_name": "Jimuel",
+   "last_name": "Banawan"
+ },
+ {
+   "order_no": "1072351613",
+   "first_name": "Romar Mayer",
+   "last_name": "Micabalo"
+ },
+ {
+   "order_no": "1072351613",
+   "first_name": "Kernel Sandi",
+   "last_name": "Catubig"
+ },
+ {
+   "order_no": "1072351613",
+   "first_name": "Ralph",
+   "last_name": "Aleman"
+ },
+ {
+   "order_no": "1072351613",
+   "first_name": "Johnnica",
+   "last_name": "Castro"
+ },
+ {
+   "order_no": "1072811913",
+   "first_name": "Nikolai",
+   "last_name": "Teves"
+ },
+ {
+   "order_no": "1072876365",
+   "first_name": "Jamie Therese",
+   "last_name": "Gundaya"
+ },
+ {
+   "order_no": "1029580471",
+   "first_name": "Nereliza",
+   "last_name": "Vison"
+ },
+ {
+   "order_no": "1073978865",
+   "first_name": "Loisa",
+   "last_name": "Cachuela"
+ },
+ {
+   "order_no": "1073978865",
+   "first_name": "Chinphiline",
+   "last_name": "Lu"
+ },
+ {
+   "order_no": "1074067035",
+   "first_name": "Mylene",
+   "last_name": "Caballero"
+ },
+ {
+   "order_no": "1074272903",
+   "first_name": "Rebekah Diana",
+   "last_name": "Espino"
+ },
+ {
+   "order_no": "1075405259",
+   "first_name": "Alfonso",
+   "last_name": "Balao"
+ },
+ {
+   "order_no": "1075502883",
+   "first_name": "Jim",
+   "last_name": "Zandueta"
+ }
+];
