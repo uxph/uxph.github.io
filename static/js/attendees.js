@@ -1344,8 +1344,8 @@ const davao_attendees = [
  },
  {
    "order_no": "WALKIN-75",
-   "first_name": "Timbreza",
-   "last_name": "Gerard"
+   "first_name": "Gerard",
+   "last_name": "Timbreza"
  },
  {
    "order_no": "WALKIN-76",
