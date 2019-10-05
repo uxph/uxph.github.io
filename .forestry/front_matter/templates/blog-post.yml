@@ -37,4 +37,5 @@ fields:
   default: blog
   hidden: true
 pages:
+- content/blogs/a-recap-of-the-uxph-national-roadshow-davao.md
 - content/blogs/a-recap-of-the-uxph-national-roadshow-cebu.md
