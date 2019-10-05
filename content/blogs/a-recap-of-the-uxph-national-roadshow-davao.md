@@ -317,7 +317,7 @@ _The Winner of the Grand Prize iPhone 11 giveaway from our second Co-presenter, 
 
 Designers.cam—run by Ely Apao—also made a video highlighting some of the activities during the Davao roadshow:
 
-\[embed YouTube video: https://www.youtube.com/watch?v=Zp-E25IkNc4\]
+{{< youtube Zp-E25IkNc4 >}}
 
 ## The last leg
 
