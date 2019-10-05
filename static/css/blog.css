@@ -17,9 +17,9 @@ div.blog-item p {
 div.blog-item h1 {
 	color: var(--primary-blue) !important;
 	font-size: 1.875em;
-	overflow: hidden;
+	/*overflow: hidden;
 	white-space: nowrap;
-	text-overflow: ellipsis;
+	text-overflow: ellipsis;*/
 	width: 20em;
 	margin: 0;
 	margin-bottom: 0.5em;
