@@ -49,9 +49,9 @@ section#blog-entry img {
 	display: block;
 }
 
-section#blog-entry #content *, section#blog-entry #blog-title {
+/*section#blog-entry #content *, section#blog-entry #blog-title {
 	color: var(--neutral-white);
-}
+}*/
 
 section#blog-entry #content a {
 	color: var(--primary-light-blue);

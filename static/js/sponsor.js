@@ -31,6 +31,26 @@ const sponsors = {
 			['https://www.uxarmy.com/', 'fas fa-globe'],
 			['https://www.facebook.com/UXArmy/', 'fab fa-facebook-square'],
 			['https://www.linkedin.com/company/uxarmy/', 'fab fa-linkedin']]
+	},
+
+	'onerent': {
+		'name': 'OneRent',
+		'type': 'Gold Sponsor',
+		'desc': [
+			`Our mission is to deliver a simple and efficient rental experience that everyone can trust, empowering homeowners to focus on growing with us while enabling renters to shape what they call home. We’re working to do just that, but we’ve come a long way since our beginning in early 2014.`],
+		'social': [
+			['http://www.onerent.co', 'fas fa-globe'],
+			['https://www.facebook.com/OnerentPH/', 'fab fa-facebook-square'],
+			['https://www.linkedin.com/company/onerentph/', 'fab fa-linkedin']]
+	},
+
+	'addu': {
+		'name': 'Computer Studies Cluster, Ateneo de Davao University',
+		'type': 'Gold Sponsor',
+		'desc': [""],
+		'social': [
+			['http://cssec.addu.edu.ph/', 'fas fa-globe'],
+			['https://www.facebook.com/addu.cs/', 'fab fa-facebook-square']]
 	}
 };
 
