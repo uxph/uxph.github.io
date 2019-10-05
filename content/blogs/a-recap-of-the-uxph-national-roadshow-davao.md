@@ -24,7 +24,6 @@ The day started with a talk from Mica Diaz de Rivera, Head of Operations at Make
 
 \[embed tweet: https://twitter.com/uxphofficial/status/1177755665017688064\]
 
-  
 To further drive one of the points he shared, he asked participants to partner up and do a bunch of tasks in succession. At first, he asked each pair to recite numbers in succession after their partner said it. So if one person says “1”, their partner goes “2”, and then it repeats. He made each task harder to show how consistency—or lack of it—affects how people do certain things.
 
 Here’s a preview of what participants did during his talk:
@@ -33,7 +32,6 @@ Here’s a preview of what participants did during his talk:
 
 He ends his talk by challenging everyone to live life more, so they can gain insights and be inspired anywhere and everywhere they go. By doing so, they help become more holistic designers and are constantly reminded of different ways to build and create delightful experiences.
 
-  
 \[embed tweet: https://twitter.com/uxphofficial/status/1177766855563300864\]
 
 ### Keynote 2: UX Management
@@ -104,7 +102,6 @@ The afternoon session had participants break up into five different workshops: U
 
 The UX 101 workshops were in such demand that we had to create two break out sessions! Raine Liao and Boggs Labayen from Home Credit Philippines facilitated these two workshops and taught participants all about the fundamentals and principles of UX.
 
-  
 \[embed tweet: https://twitter.com/uxphofficial/status/1177835599518035968\]
 
 ![](/uploads/image06.jpg)  
@@ -128,7 +125,6 @@ Jordan Deja, a Professor from De La Salle University, held a workshop for studen
 
 The workshop was filled up mainly by college students looking to explore design and UX as a viable career choice. They worked on constructing a journey roadmap that they can use in planning their careers. The session was insightful and helped students plan their next steps, know which specific career moves to take and identify gaps and areas for improvement within themselves.
 
-  
 \[embed tweet: https://twitter.com/uxphofficial/status/1177835770901458945\]
 
 ![](/uploads/image010.jpg)  
@@ -155,12 +151,10 @@ The UXPH and UXDVO team were so excited that a lot of students and professionals
 
 UXPH wanted to make sure we gave a big impression on the local Davao community. On top of a whole day full of learning, each conference attendee received a UXPH Roadshow T-Shirt, limited edition UXPH Roadshow stickers, prizes, and more giveaways and benefits from our generous sponsors UXArmy, Stylegenie, and the Interaction Design Foundation.
 
-  
 ![](/uploads/image013.jpg)  
 _The UXPH Keynote Speakers and Facilitators receiving CollaboX Speaker Tokens  
 (From left to right; Nico Encarnacion, Edward Alonzo, Paul Sabandal, Raine Liao, Miramark Diaz, Boggs Labayen, Onrdraj Machart, Ely Apao, Mica de Rivera)_
 
-  
 ![](/uploads/image014.jpg)  
 _Winners of giveaways from Symph_
 
@@ -170,12 +164,10 @@ _Winners of giveaways from our Co-presenter, HomeCredit_
 ![](/uploads/image016.jpg)  
 _The Winner of the Grand Prize iPhone 11 giveaway from our second Co-presenter, Onerent_
 
-  
 \[embed FB post of Onerent with Chinchin Lu\]
 
 Designers.cam—run by Ely Apao—also made a video highlighting some of the activities during the Davao roadshow:
 
-  
 \[embed YouTube video: https://www.youtube.com/watch?v=Zp-E25IkNc4\]
 
 ## The last leg
@@ -186,7 +178,6 @@ For more information, check out our [Manila event page](https://roadshow.uxph.or
 
 Don’t forget to share your experiences online by posting about it with the hashtags **#UXPHRoadshow** and **#UXPHRoadshowDVO** and keep updated on upcoming UX meetups and events by following our social media channels:
 
-  
 For more details, you can visit our website: [https://roadshow.uxph.org/manila](https://roadshow.uxph.org/manila "https://roadshow.uxph.org/manila")
 
 Get tickets via Eventbrite: [https://uxphroadshowmanila.eventbrite.com](https://roadshow.uxph.org/manila "https://roadshow.uxph.org/manila")
@@ -195,12 +186,23 @@ Get tickets via Eventbrite: [https://uxphroadshowmanila.eventbrite.com](https://
 
 We’d like to thank all of the companies, communities, and groups who sponsored the 2019 UXPH National Roadshow, helping us turn it into a huge success.
 
-  
 If your company or organization is interested in supporting UXPH and our national effort of connecting the design communities across The Philippines for a more mature, design-driven country, please get in touch with us at [info@uxph.org](mailto:info@uxph.org).
 
 {{< sponsor >}}
 
-<h2 class="section-heading">Our Co-presenter</h2> <div class="sponsor-wrapper"> <div class="sponsor-modal" id="home-credit"> <img src="../../assets/sponsor-logos/home-credit.png" class="featured-image" /> <h3 class="sponsor-name gray">Home Credit </h3> </div> </div>
+<h2 class="section-heading">Our Co-presenter</h2>
+
+<div class="sponsor-wrapper">
+
+<div class="sponsor-modal" id="home-credit"> <img src="../../assets/sponsor-logos/home-credit.png" class="featured-image" /> <h3 class="sponsor-name gray">Home Credit </h3>
+
+</div>
+
+<div class="sponsor-modal" id="onerent"> <img src="../../assets/sponsor-logos/onerent.png" class="featured-image" /> <h3 class="sponsor-name gray">OneRent</h3>
+
+</div>
+
+</div>
 
 <div id="tiers"> <div class="tier-wrapper"> <h2 class="section-heading">Gold Sponsors</h2> <div class="sponsor-wrapper tier">
 
@@ -208,18 +210,20 @@ If your company or organization is interested in supporting UXPH and our nationa
 
 <div class="sponsor-modal" id="uxarmy"> <img src="../../assets/sponsor-logos/uxarmy.png" class="featured-image" /> <h3 class="sponsor-name gray">UXArmy</h3> </div>
 
+<div class="sponsor-modal" id="addu"> <img src="../../assets/sponsor-logos/addu.png" class="featured-image" /> <h3 class="sponsor-name gray">Computer Studies Cluster, Ateneo de Davao University</h3> </div>
+
 </div> </div> </div>
 
 {{< /sponsor >}}
 
 ## Silver sponsors
 
-[Canva](https://www.canva.com/) and [StyleGenie Asia](https://stylegenie.ph/)
+[Anflocor Management](https://www.anflocor.com), [Canva](https://www.canva.com/), and [StyleGenie Asia](https://stylegenie.ph/)
 
 ## Bronze sponsors
 
-[Symph](https://symph.co), [UNISOL](#), [Art n’ Nature](http://www.artandnaturecebu.com), [Insular Life](https://www.insularlife.com.ph/), [Grafik 9](https://www.facebook.com/grafiknine/), and [Abstract Digital Inc.](https://abstract.ph/)
+[Symph](https://symph.co/), [Art n’ Nature](http://www.artandnaturecebu.com/), and [Dash10](https://www.dash10.ph)
 
 ## Our Community Partners
 
-[CebuUXD](https://www.facebook.com/CebUXD/), [UX Davao](https://www.facebook.com/uxdvo/), [TechShake](https://www.techshake.asia), [Cebu Design Week](https://www.cebudesignweek.com/), and [Philippine Web Designers Organization](https://pwdo.org/)
+[Davao JS](https://www.facebook.com/davaojs/), [DevCon Davao](https://www.facebook.com/DevConDavao/), [Davao Graphic Designers Community](https://www.facebook.com/DGDCommunity/), [UXDVO](https://www.facebook.com/uxdvo/), [Interaction Design Foundation](https://www.interaction-design.org/invite?ep=uxph-roadshow), [Roots Podcast Design](https://rootspodcast.design), [TechShake](https://www.techshake.asia/), [UXSEA Society](https://uxsea.org/), and [Philippine Web Designers Organization](https://pwdo.org/)
