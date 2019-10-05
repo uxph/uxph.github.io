@@ -18,8 +18,8 @@ The UXPH Roadshow events are structured with keynote speakers in the morning, fo
 ### Keynote 1: UX for Designers, Developers, and anyone in between
 
 ![](/uploads/image02.jpg)  
-_Mica Diaz de Rivera, Head of Operations at Make Technology Inc.  
-_{{< universal >}}
+_Mica Diaz de Rivera, Head of Operations at Make Technology Inc._
+{{< universal >}}
 
 <br/>
 
