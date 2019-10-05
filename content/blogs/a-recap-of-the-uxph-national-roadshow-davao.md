@@ -53,8 +53,7 @@ He ends his talk by challenging everyone to live life more, so they can gain ins
 
 ### Keynote 2: UX Management
 
-![](/uploads/image03.jpg)
-
+![](/uploads/image03-1.jpg)  
 _Nico Encarnacion, UX Manager at Make Technology Inc._
 
 {{< universal >}}
@@ -129,7 +128,7 @@ He ends his talk by encouraging everyone to keep talking to the people, and to e
 
 ### Keynote 4: Designing our career and forming design teams
 
-![](/uploads/image05.jpg)
+![](/uploads/image05 (1).jpg)
 
 _Ely Apao, Customer Experience Manager at JG Summit Holdings, Inc. and Co-founder of UXPH_
 
