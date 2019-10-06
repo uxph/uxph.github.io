@@ -21,6 +21,10 @@ fields:
   label: city
   hidden: false
   default: cebu
+- name: show
+  type: boolean
+  label: show
+  default: true
 - type: text
   name: page
   label: page
