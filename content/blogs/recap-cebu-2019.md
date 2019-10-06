@@ -5,7 +5,7 @@ city = "cebu"
 date = "2019-09-06T16:00:00+00:00"
 image = "/uploads/class.jpg"
 page = "pages/blogs"
-title = "Cebu UXPH Roadshow 2019"
+title = "Recap: UXPH Roadshow 2019, Cebu"
 type = "blog"
 
 +++
