@@ -1,10 +1,11 @@
 $('document').ready(function() {
-	var excerpts = $('.excerpt p:first-of-type');
+	var excerpts = $('.excerpt');
 
 	for(let i = 0; i < excerpts.length; i++) {
 		let div = $('.excerpt')[i];
+		let content = $(excerpts[i].children[0]).clone();
 		$(div).empty();
-		$(div).append($(excerpts)[i]);
+		$(div).append(content);
 	}
 
 	$('section hr:last-of-type').remove();
