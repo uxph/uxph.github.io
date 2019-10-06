@@ -7,6 +7,7 @@ image = "/uploads/image01.jpg"
 page = "pages/blogs"
 title = "Recap: UXPH Roadshow 2019, Davao"
 type = "blog"
+show = "true"
 
 +++
 On September 28, 2019, UXPH (User Experience Philippines) held the second leg of their first ever National Roadshow across the Philippines, and landed in Davao City.

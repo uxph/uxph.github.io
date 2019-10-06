@@ -11,7 +11,14 @@
         {{ end }}
 
         {{ if eq .Type "blog" }}
-            {{ partial "components/meta" (dict "path" "../../") }}
+            {{ if eq .Params.city "davao" }}
+                {{ partial "components/metadavao" (dict "path" "../../") }}
+            {{ end }}
+
+
+            {{ if eq .Params.city "cebu" }}
+                {{ partial "components/meta" (dict "path" "../../") }}
+            {{ end }}
         {{ end }}
     </head>
     {{ $type := "blog" }}

@@ -17,6 +17,7 @@
                 <h1 class="section-heading white">Roadshow Blogs</h1>
                 <br/><br/>
                 {{ range .Pages }}
+                {{ if eq .Params.show "true" }}
                     <div class="blog-item">
                         <a href="{{ .URL }}">
                             <!-- <img src="../../assets/illustrations/illustration_1.svg" class="featured-image" /> -->
@@ -34,6 +35,7 @@
                     <br/><br/>
                     <hr/>
                     <br/><br/>
+                {{ end }}
                 {{ end }}
             </div>
         </section>

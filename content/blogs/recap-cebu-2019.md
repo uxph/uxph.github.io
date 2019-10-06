@@ -7,6 +7,7 @@ image = "/uploads/class.jpg"
 page = "pages/blogs"
 title = "Recap: UXPH Roadshow 2019, Cebu"
 type = "blog"
+show = "true"
 
 +++
 On August 31, 2019, UXPH (User Experience Philippines) held its first ever National Roadshow across the Philippines, starting in Cebu City.
