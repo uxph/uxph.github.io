@@ -24,7 +24,7 @@ The day started with a talk from [Mica Diaz de Rivera](https://www.linkedin.com/
 
 {{< twitter >}}
 <div class="embed_tweet">
-<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Mica unveils the top 3 UX deliverables according to an NN Group survey:<br><br>Prototyping, Usability Reports, and Customer Journey Maps.<br><br>He also connected these deliverables to the three different workshops that we'll have in the afternoon!<a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/OScfu3xFWz">pic.twitter.com/OScfu3xFWz</a></p>— UX Philippines (@UXPH_) <a href="https://twitter.com/UXPH_/status/1167608188130037760?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Mica unveils the top 3 UX deliverables according to an NN Group survey:<br><br>Prototyping, Usability Reports, and Customer Journey Maps.<br><br>He also connected these deliverables to the three different workshops that we'll have in the afternoon!<a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/OScfu3xFWz">pic.twitter.com/OScfu3xFWz</a></p>— UX Philippines (@uxphofficial) <a href="https://twitter.com/uxphofficial/status/1167608188130037760?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 {{< /twitter >}}
 
@@ -37,7 +37,7 @@ The next speaker, [Fish Ibasco](https://www.linkedin.com/in/tisha-ibasco-4146306
 {{< twitter >}}
 <div class="embed_tweet">
 
-<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">While looking for members in her UX design team, she relates the experience with Game of Thrones. She consider herself as Sansa Stark, the "innocent designer". <a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/F31JSZPpK7">pic.twitter.com/F31JSZPpK7</a></p>— UX Philippines (@UXPH_) <a href="https://twitter.com/UXPH_/status/1167616043277148160?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">While looking for members in her UX design team, she relates the experience with Game of Thrones. She consider herself as Sansa Stark, the "innocent designer". <a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/F31JSZPpK7">pic.twitter.com/F31JSZPpK7</a></p>— UX Philippines (@uxphofficial) <a href="https://twitter.com/uxphofficial/status/1167616043277148160?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
 {{< /twitter >}}
@@ -47,7 +47,7 @@ Fish gave tips on how to plan for a minimum viable design team in companies and 
 {{< twitter >}}
 <div class="embed_tweet">
 
-<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Fish is now discussing how designers can plan for the minimum viable design team when starting within companies or organizations. <a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/WtavAL3h1a">pic.twitter.com/WtavAL3h1a</a></p>— UX Philippines (@UXPH_) <a href="https://twitter.com/UXPH_/status/1167619168549490689?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Fish is now discussing how designers can plan for the minimum viable design team when starting within companies or organizations. <a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/WtavAL3h1a">pic.twitter.com/WtavAL3h1a</a></p>— UX Philippines (@uxphofficial) <a href="https://twitter.com/uxphofficial/status/1167619168549490689?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
 {{< /twitter >}}
@@ -61,7 +61,7 @@ Fish gave tips on how to plan for a minimum viable design team in companies and 
 {{< twitter >}}
 <div class="embed_tweet">
 
-<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Oliver talks about design culture as being emergent, as it comes out naturally with the different interactions within your company. <a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/LAScACaPNv">pic.twitter.com/LAScACaPNv</a></p>— UX Philippines (@UXPH_) <a href="https://twitter.com/UXPH_/status/1167626449785802752?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Oliver talks about design culture as being emergent, as it comes out naturally with the different interactions within your company. <a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/LAScACaPNv">pic.twitter.com/LAScACaPNv</a></p>— UX Philippines (@uxphofficial) <a href="https://twitter.com/uxphofficial/status/1167626449785802752?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
 {{< /twitter >}}
@@ -77,7 +77,7 @@ Dae shared how motivation, ability, and triggers can change or influence behavio
 {{< twitter >}}
 <div class="embed_tweet">
 
-<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Dae explains how behaviors can be changed by the following factors : Motivation, Ability, and Trigger, and how these relate to different UX methods. <a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/qpXO70waPW">pic.twitter.com/qpXO70waPW</a></p>— UX Philippines (@UXPH_) <a href="https://twitter.com/UXPH_/status/1167638578895056898?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Dae explains how behaviors can be changed by the following factors : Motivation, Ability, and Trigger, and how these relate to different UX methods. <a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/qpXO70waPW">pic.twitter.com/qpXO70waPW</a></p>— UX Philippines (@uxphofficial) <a href="https://twitter.com/uxphofficial/status/1167638578895056898?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
 {{< /twitter >}}
@@ -87,7 +87,7 @@ He also reminds everyone that they shouldn’t try to change people, and instead
 {{< twitter >}}
 <div class="embed_tweet">
 
-<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Dae explains what culture is in the context of behavioral science, and how companies can influence change within their teams.<a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/0IxPERttIj">pic.twitter.com/0IxPERttIj</a></p>— UX Philippines (@UXPH_) <a href="https://twitter.com/UXPH_/status/1167639706374303744?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Dae explains what culture is in the context of behavioral science, and how companies can influence change within their teams.<a href="https://twitter.com/hashtag/UXPHRoadshow?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshow</a> <a href="https://twitter.com/hashtag/UXPHRoadshowCEB?src=hash&ref_src=twsrc%5Etfw">#UXPHRoadshowCEB</a> <a href="https://t.co/0IxPERttIj">pic.twitter.com/0IxPERttIj</a></p>— UX Philippines (@uxphofficial) <a href="https://twitter.com/uxphofficial/status/1167639706374303744?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
 {{< /twitter >}}
