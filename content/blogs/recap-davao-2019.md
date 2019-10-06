@@ -5,7 +5,7 @@ city = "davao"
 date = "2019-10-05T15:00:00+00:00"
 image = "/uploads/image01.jpg"
 page = "pages/blogs"
-title = "Davao UXPH Roadshow 2019"
+title = "Recap: UXPH Roadshow 2019, Davao"
 type = "blog"
 
 +++
