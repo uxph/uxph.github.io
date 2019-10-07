@@ -12,7 +12,7 @@
 		"b": {
 			"activity_id": 1,
 			"event_id": 0,
-			"name": "UXPH Opening Remarks",
+			"name": "UXPH & Co-Presenter Opening Remarks",
 			"sub": "",
 			"time": "8:00 AM",
 			"type": "organizers"
@@ -21,8 +21,8 @@
 		"c": {
 			"activity_id": 2,
 			"event_id": 0,
-			"name": "Keynote Speaker 1",
-			"sub": "TBA",
+			"name": "Keynote Speaker: Dae Lee",
+			"sub": "Understanding behavioral science to influence better design and team culture",
 			"time": "8:30 AM",
 			"type": "keynote"
 		},
