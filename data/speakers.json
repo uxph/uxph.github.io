@@ -1,10 +1,125 @@
 {
 	"MNL": {
-		"speaker": {
-			"photo": "<image url>",
-			"name": "<insert name here>",
-			"topic": "<insert topic here>",
-			"bio": "<insert bio here>"
+		"a": {
+			"photo": "../assets/speakers/ricky.png",
+			"name": "Ricky Yu",
+			"title": "UX Researcher, Mozilla Taiwan",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/liweiyu/",
+			"twitter": "",
+			"topic": "Lean Cross-cultural Research in Practice",
+			"excerpt": "Ricky is a UX researcher at Mozilla Taiwan who specializes in behavior study, exploratory research, cross-cultural research, trend research, concept validation, usability testing, and experience design mapping.",
+			"bio": "Over 5 years experienced user and design researcher with a demonstrated history of working in the Internet and various industries. Skilled in behavior study, exploratory research, cross-cultural research, trend research, concept validation, usability testing and experience design mapping. Currently focusing on exploring future products for Southeast Asia market with UX and data team."
+		},
+
+		"b": {
+			"photo": "../assets/speakers/julee.png",
+			"name": "Julee Hyunju Lee",
+			"title": "Product Design Manager, Facebook Singapore",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/hyunjulee/",
+			"twitter": "",
+			"topic": "TBA",
+			"excerpt": "Julee is a recognised as a leader in the design community. She continues to organise meetups as the founder of Design Bootcamp Asia, and is also a regular keynote speaker at UX conferences worldwide.",
+			"bio": "For the love of design—that is at the heart of who Julee is. Having spent 15 years doing what she loves most, Julee’s extensive product and design skillsets across various disciplines have been vital in delivering world-class products for top companies like PayPal, Intuit, Cisco, Yahoo! and Samsung. Julee is a recognised as a leader in the design community. She continues to organise meetups as the founder of Design Bootcamp Asia, and is also a regular keynote speaker at UX conferences worldwide. Julee received her Bachelor of Fine Arts in Communication Design from Carnegie Mellon University in the U.S. and Master of Arts in Digital Media Management from Hyper Island."
+		},
+
+		"c": {
+			"photo": "../assets/speakers/dae.png",
+			"name": "Dae Lee",
+			"title": "Culture Designer, Fourth Wall Global",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/dae-lee-a30880a1/",
+			"twitter": "",
+			"topic": "Understanding behavioral science to influence better design and team culture",
+			"excerpt": "Dae Lee is a certified Lego® Serious Play® Facilitator who specializes in company culture design. He is currently a managing partner in Fourth Wall Global, a leader in company culture design, and a PhD candidate in organization development. He also facilitates lectures and workshops to university students and companies both locally and internationally.",
+			"bio": "Dae specializes in company culture design. He focuses on building shared cultures by using unorthodox tools and methods for organizations to reach and sustain their peak potential. He has the goal of making each member of an organization understand why they’re there, what they need to do, and make them choose to stay because they want to and not because they have to. His human-centered approach emanates from deep-seated empathy and disciplined structure from his product design background, further cemented through a profound understanding of the human psyche through intensive practice of military psychology under the United Nations Armistice Commission. Currently he is a certified Lego® Serious Play® Facilitator, a managing partner in Fourth Wall Global, a leader in company culture design, and is currently a PhD candidate in organization development, while facilitating lectures and workshops to university students and companies internationally."
+		},
+
+		"d": {
+			"photo": "../assets/speakers/obias.png",
+			"name": "Angela Obias-Tuban",
+			"title": "UX Strategy Lead, Metrobank",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/angelaobias/",
+			"twitter": "",
+			"topic": "Impact: Driving and measuring 'experience'",
+			"excerpt": "Angela is the UX Strategy Lead at Metrobank. She has been a quantitative research analyst, qualitative researcher, User Experience Design manager, digital strategist, and teacher over her 12-year career.",
+			"bio": "Angela Obias-Tuban is the UX Strategy Lead at Metrobank. She has been a quantitative research analyst, qualitative researcher, User Experience Design manager, digital strategist and teacher over her 12-year career. Angela is a former teacher in Ateneo De Manila University and the Certified Digital Marketer Program, where she taught Foundations of Digital Business, Technology Venture Planning and What Works on The Web. She was also the co-founder and a design researcher of Priority Studios. She was formerly a product design mentor for the Ideaspace Foundation, Associate Planning Director at McCann Worldgroup, Head of Digital Strategy for Nuworks Interactive Labs and ABS-CBN Corporation. She founded and led ABS-CBN’s User Experience and Interaction Design team, and created a User Experience course plan for On-Off Design (regional design agency). Now, she turns her focus onto banking, plus learning how to parent."
+		},
+
+		"f": {
+			"photo": "../assets/speakers/micael.png",
+			"name": "Micael Andrei Diaz de Rivera",
+			"title": "Head of Design Operations, Make Technology",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/madiazderivera/",
+			"twitter": "",
+			"topic": "TBA",
+			"excerpt": "Mica is the Head of Design Operations at Make Technology, a UX consultancy in Manila. His love for data, analytics, and statistics has led him to hold over a decade of extensive experience with design, development, and team management in the technology industry. He is also one of the founding members of UXPH!",
+			"bio": "Mica is a software developer turned experience designer and has had over a decade of combined work experience touching both local and international products and brands. His fascination for data, analytics, and statistics has led him to work on initiatives that dabble in the quantitative measurement of user experiences. On extraordinary days you’d find him alone in the plains of Mongolia or in the streets of Kolkata finding ways to connect life experiences to experience design. He is currently the Head of Design Operations at Make Technology by Ace Saatchi & Saatchi."
+		},
+
+		"g": {
+			"photo": "../assets/speakers/mark.png",
+			"name": "Mark Lacsamana",
+			"title": "Senior Product Designer, Kalibrr",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/mark-lester-lacsamana-aa7aa066/",
+			"twitter": "",
+			"topic": "Temporary The P in empathy",
+			"excerpt": "Mark is a UX Designer and Researcher who loves obsessing about design problems. He is currently a Senior Product Designer at Kalibrr where he helps lead the product design improve the of job seeking and hiring experience.",
+			"bio": "Mark is a UX Designer and Design Researcher from Manila and he loves obsessing about design problems. He is currently a Senior Product Designer at Kalibrr where he helps lead the product design improve the of job seeking and hiring experience. You may have heard of him from his medium articles as well as from his time designing the mobile shopping experiences and design systems of OLX Philippines. His passions mostly lay in his work with the tech community using UX for advocacies in Human Rights and Public Health."
+		}
+	},
+
+	"workshop_MNL": {
+		"a": {
+			"photo": "../assets/speakers/christine.png",
+			"name": "Christine Balatbat",
+			"title": "UX Researcher, JG Summit",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/avesen20/",
+			"twitter": "",
+			"topic": "Analyzing Qualitative Usability Tests",
+			"excerpt": "Tin has been in the design industry for 7 years, a co-founder of UXPH, and former UX Research Manager of OLX Philippines. She has helped local and international businesses achieve their goals by helping them make informed decisions through design research.",
+			"bio": "Tin has been in the UX industry for 7 years, is the co-founder of UXPH, and former UX Research Manager of OLX Philippines. She has helped local and international businesses achieve their goals by helping them make informed decisions. She specializes in design research and is a big believer in learning by doing. When she's not UX-ing you can find her freediving with sea turtles."
+		},
+
+		"b": {
+			"photo": "../assets/speakers/matthew.png",
+			"name": "Matthew Green",
+			"title": "Senior Designer, ADB",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/matthewagreen/",
+			"twitter": "",
+			"topic": "UX Research Workshop",
+			"excerpt": "Matt has been a principal consultant, researcher, and interaction designer roles for private, government, and military clients all over the world. He consults on innovation and the human experience of data display, complex transactional systems, and web and mobile applications.",
+			"bio": "Principal Consultant, Somia CX Matthew’s current project is with the Asian Development Bank. Working with a global research team, Matthew is using design research to understand how ADB’s over 4000 employees and dozens of digital systems coordinate to support governments in South East Asia. Previously, he has worked as a UX lead, researcher, and interaction designer on projects from San Francisco, Boston, Chicago, Washington DC, Jakarta, Sydney, and Yangon, Fiji, and Phnom Penh for various private sector, government and military clients."
+		},
+
+		"c": {
+			"photo": "../assets/speakers/paul.png",
+			"name": "Paul James Sabandal",
+			"title": "Head of Product Development, Qwikwire",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/paulsabandal/",
+			"twitter": "",
+			"topic": "Figma 101",
+			"excerpt": "Paul Sabandal is the Head of Product Development at Qwikwire, a multi-awarded startup that provides cross-border payment solutions for real-estate — they handle international online payments for clients AyalaLand, Century Properties, Double Dragon and other top real-estate companies in the Philippines. He leads the end-to-end processes related to product discovery. He also co-founded Figma Philippines, helping teach the collaborative design tool Figma through meet-ups for the community.",
+			"bio": "Paul Sabandal is the Head of Product Development at Qwikwire, a multi-awarded startup that provides cross-border payment solutions for real-estate — they handle international online payments for clients AyalaLand, Century Properties, Double Dragon and other top real-estate companies in the Philippines. He leads the end-to-end processes related to product discovery. He also co-founded Figma Philippines, helping teach the collaborative design tool Figma through meet-ups for the community."
+		},
+
+		"d": {
+			"photo": "../assets/speakers/angela.png",
+			"name": "Anj Garong",
+			"title": "Product Design Manager, Sprout Solutions",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/anjgarong/",
+			"twitter": "",
+			"topic": "Figma 101",
+			"excerpt": "Anj, a Product Design Manager at Sprout Solutions, is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups.",
+			"bio": "Anj is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups. She is immersed in the academe and recently, in design communities, teaching Human-Centered Design at iACADEMY, and helping out Figma PH and UXSEA. Today, she spends most of her time in Sprout Solutions, a SaaS HR and Payroll technology startup, where she functions as a Product Design Manager. She somehow manages to squeeze in workouts, movies, worship nights, and binge-sleeping for self-care."
 		}
 	},
 

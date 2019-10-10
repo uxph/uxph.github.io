@@ -177,6 +177,28 @@
 			"mnl": "false",
 			"main": "true",
 			"tier": "bronze"
+		},
+
+		"abs_cbn": {
+			"logo": "sponsor-logos/abs-cbn.png",
+			"name": "ABS CBN",
+			"url": "https://news.abs-cbn.com/",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true",
+			"tier": "gold"
+		},
+
+		"ing": {
+			"logo": "sponsor-logos/ing.png",
+			"name": "ING",
+			"url": "https://www.ing.com/Home.htm",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true",
+			"tier": "gold"
 		}
 	},
 
