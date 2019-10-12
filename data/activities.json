@@ -12,7 +12,7 @@
 		"b": {
 			"activity_id": 1,
 			"event_id": 0,
-			"name": "UXPH & Co-Presenter Opening Remarks",
+			"name": "UXPH Opening Remarks",
 			"sub": "",
 			"time": "8:00 AM",
 			"type": "organizers"
@@ -28,28 +28,28 @@
 		},
 
 		"d": {
-			"activity_id": 3,
+			"activity_id": 4,
 			"event_id": 0,
-			"name": "Lightning Speaker: Boggs Labayen",
-			"sub": "Defending the role of the design/er",
+			"name": "Keynote Speaker: Angela Obias-Tuban",
+			"sub": "Impact: Driving and measuring 'experience'",
 			"time": "9:15 AM",
 			"type": "keynote"
 		},
 
 		"e": {
-			"activity_id": 4,
+			"activity_id": 3,
 			"event_id": 0,
-			"name": "Keynote Speaker: Julee Hyunju Lee",
-			"sub": "TBA",
-			"time": "9:45 AM",
+			"name": "Lightning Speaker: Boggs Labayen",
+			"sub": "Defending the role of the design/er",
+			"time": "10:00 AM",
 			"type": "keynote"
 		},
 
 		"f": {
 			"activity_id": 4,
 			"event_id": 0,
-			"name": "Lightning Speaker: Mica Diaz de Rivera",
-			"sub": "TBA",
+			"name": "Keynote Speaker: Dae Lee",
+			"sub": "Understanding behavioral science to influence better design and team culture",
 			"time": "10:30 AM",
 			"type": "keynote"
 		},
@@ -57,102 +57,113 @@
 		"g": {
 			"activity_id": 4,
 			"event_id": 0,
-			"name": "Keynote Speaker: Dae Lee",
-			"sub": "Understanding behavioral science to influence better design and team culture",
-			"time": "11:00 AM",
+			"name": "Lightning Speaker: Mark Lacsamana",
+			"sub": "The P in empathy",
+			"time": "11:15 AM",
 			"type": "keynote"
 		},
 
 		"h": {
 			"activity_id": 4,
 			"event_id": 0,
-			"name": "Lightning Speaker: Mark Lacsamana",
-			"sub": "The P in empathy",
+			"name": "Keynote Speaker: Julee Hyunju Lee",
+			"sub": "TBA",
 			"time": "11:45 AM",
 			"type": "keynote"
 		},
 
 		"i": {
-			"activity_id": 4,
-			"event_id": 0,
-			"name": "Keynote Speaker: Angela Obias-Tuban",
-			"sub": "Impact: Driving and measuring 'experience'",
-			"time": "11:45 AM",
-			"type": "keynote"
-		},
-
-		"j": {
 			"activity_id": 6,
 			"event_id": 0,
 			"name": "Lunch Break",
 			"sub": "N/A",
-			"time": "12:15 PM",
+			"time": "12:30 PM",
 			"type": "break"
 		},
 
-		"k": {
+		"j": {
 			"activity_id": 7,
 			"event_id": 0,
 			"name": "Workshop Preparations",
-			"sub": "N/A",
-			"time": "1:30 PM",
-			"type": "organizers"
-		},
-
-		"l": {
-			"activity_id": 7,
-			"event_id": 0,
-			"name": "Workshop Tracks",
 			"sub": "N/A",
 			"time": "2:00 PM",
 			"type": "organizers"
 		},
 
+		"k": {
+			"activity_id": 7,
+			"event_id": 0,
+			"name": "Workshop Tracks",
+			"sub": "N/A",
+			"time": "2:30 PM",
+			"type": "organizers"
+		},
+
+		"l": {
+			"activity_id": 8,
+			"event_id": 0,
+			"name": "Figma 101",
+			"sub": "Anj Garong",
+			"time": "Workshop 1",
+			"type": "workshop",
+			"description": "Figma is a web-based design application, with excellent wireframing, prototyping, and code-generation tools. It’s currently (arguably) the industry’s best interface design tool, with powerful features which helps teams collaborate on every phase of the design process. In Figma 101 you’ll learn the basics of creating simple interfaces from low to high fidelity wireframes. This is ideal for people who want to transition from photoshop or sketch and wants to learn the basics of wireframing."
+		},
+
 		"m": {
 			"activity_id": 8,
 			"event_id": 0,
-			"name": "Analyzing Qualitative Usability Tests",
-			"sub": "Christine Balatbat",
-			"time": "Workshop 1",
+			"name": "Figma 101",
+			"sub": "Paul James Sabandal",
+			"time": "Workshop 2",
 			"type": "workshop",
-			"description": "Analyzing Qualitative Usability Tests Synthesizing thick data gathered from usability tests can be overwhelming, so how do you start?  It actually depends on three things: where you are in the development cycle, if you’re in an agency or product environment and your experience in usability testing. In this lecture, Tin will teach you how to select the best analysis framework and how to synthesize your data. The lecture is a mix of individual and group activities. Tin will also review your work and provide feedback. Attendees must have experience in moderating qualitative usability test sessions."
+			"description": "Figma is a web-based design application, with excellent wireframing, prototyping, and code-generation tools. It’s currently (arguably) the industry’s best interface design tool, with powerful features which helps teams collaborate on every phase of the design process. In Figma 101 you’ll learn the basics of creating simple interfaces from low to high fidelity wireframes. This is ideal for people who want to transition from photoshop or sketch and wants to learn the basics of wireframing."
 		},
 
 		"n": {
 			"activity_id": 8,
 			"event_id": 0,
-			"name": "UX Research Workshop",
-			"sub": "Matthew Green",
-			"time": "Workshop 2",
+			"name": "Analyzing Qualitative Usability Tests",
+			"sub": "Christine Balatbat",
+			"time": "Workshop 3",
 			"type": "workshop",
-			"description": " A practical workshop with hands-on learning on how to plan UX research applied to a problem. It will give an overview on specific qualitative methods and will cover biases and assumptions.  In-depth exercises on interview discussion guides, interviewing, downloading data, and insights will give attendees practical tools to use in their work. It will also cover topics of how to start/build a research team and what happens with you have a lot of data. This workshop is for people with some UX experience."
+			"description": "Analyzing Qualitative Usability Tests Synthesizing thick data gathered from usability tests can be overwhelming, so how do you start?  It actually depends on three things: where you are in the development cycle, if you’re in an agency or product environment and your experience in usability testing. In this lecture, Tin will teach you how to select the best analysis framework and how to synthesize your data. The lecture is a mix of individual and group activities. Tin will also review your work and provide feedback. Attendees must have experience in moderating qualitative usability test sessions."
 		},
 
 		"o": {
 			"activity_id": 8,
 			"event_id": 0,
-			"name": "Figma 101",
-			"sub": "Paul James Sabandal & Anj Garong",
-			"time": "Workshop 3",
+			"name": "UX Research Workshop",
+			"sub": "Matthew Green",
+			"time": "Workshop 4",
 			"type": "workshop",
-			"description": "Figma is a web-based design application, with excellent wireframing, prototyping, and code-generation tools. It’s currently (arguably) the industry’s best interface design tool, with powerful features which helps teams collaborate on every phase of the design process. In Figma 101 you’ll learn the basics of creating simple interfaces from low to high fidelity wireframes. This is ideal for people who want to transition from photoshop or sketch and wants to learn the basics of wireframing."
+			"description": " A practical workshop with hands-on learning on how to plan UX research applied to a problem. It will give an overview on specific qualitative methods and will cover biases and assumptions.  In-depth exercises on interview discussion guides, interviewing, downloading data, and insights will give attendees practical tools to use in their work. It will also cover topics of how to start/build a research team and what happens with you have a lot of data. This workshop is for people with some UX experience."
 		},
 
 		"p": {
-			"activity_id": 11,
+			"activity_id": 9,
 			"event_id": 0,
-			"name": "Sponsor's Presentation",
-			"sub": "N/A",
-			"time": "4:30pm",
-			"type": "organizers"
+			"name": "Onerent Design Competition",
+			"sub": "",
+			"time": "Workshop 5",
+			"type": "workshop",
+			"description": "Details coming soon!"
 		},
 
 		"q": {
 			"activity_id": 12,
 			"event_id": 0,
-			"name": "Closing Program and Networking",
+			"name": "Closing Program and Giveaways",
 			"sub": "N/A",
 			"time": "5:00 PM",
+			"type": "organizers"
+		},
+
+		"r": {
+			"activity_id": 12,
+			"event_id": 0,
+			"name": "Event ends",
+			"sub": "N/A",
+			"time": "6:00 PM",
 			"type": "organizers"
 		}
 	},

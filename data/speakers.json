@@ -49,18 +49,6 @@
 		},
 
 		"f": {
-			"photo": "../assets/speakers/micael.png",
-			"name": "Micael Andrei Diaz de Rivera",
-			"title": "Head of Design Operations, Make Technology",
-			"website": "",
-			"linkedin": "https://www.linkedin.com/in/madiazderivera/",
-			"twitter": "",
-			"topic": "TBA",
-			"excerpt": "Mica is the Head of Design Operations at Make Technology, a UX consultancy in Manila. His love for data, analytics, and statistics has led him to hold over a decade of extensive experience with design, development, and team management in the technology industry. He is also one of the founding members of UXPH!",
-			"bio": "Mica is a software developer turned experience designer and has had over a decade of combined work experience touching both local and international products and brands. His fascination for data, analytics, and statistics has led him to work on initiatives that dabble in the quantitative measurement of user experiences. On extraordinary days you’d find him alone in the plains of Mongolia or in the streets of Kolkata finding ways to connect life experiences to experience design. He is currently the Head of Design Operations at Make Technology by Ace Saatchi & Saatchi."
-		},
-
-		"g": {
 			"photo": "../assets/speakers/mark.png",
 			"name": "Mark Lacsamana",
 			"title": "Senior Product Designer, Kalibrr",
