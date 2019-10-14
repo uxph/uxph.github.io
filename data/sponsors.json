@@ -298,6 +298,12 @@
 			"url": "https://www.facebook.com/designweekphilippines/"
 		},
 
+		"skylabs": {
+			"logo": "sponsor-logos/skylabs.png",
+			"name": "SkyLabs",
+			"url": "https://www.facebook.com/skylabsph/"
+		},
+
 		"uxsoc-ust": {
 			"logo": "sponsor-logos/uxsoc-ust.png",
 			"name": "User Experience Society - UST",
@@ -352,6 +358,12 @@
 			"logo": "sponsor-logos/mnl-design-week.png",
 			"name": "Manila Design Week",
 			"url": "https://www.facebook.com/designweekphilippines/"
+		},
+
+		"skylabs": {
+			"logo": "sponsor-logos/skylabs.png",
+			"name": "SkyLabs",
+			"url": "https://www.facebook.com/skylabsph/"
 		},
 
 		"uxsoc-ust": {
