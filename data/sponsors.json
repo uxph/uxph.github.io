@@ -199,6 +199,29 @@
 			"mnl": "true",
 			"main": "true",
 			"tier": "gold"
+		},
+
+		"anc": {
+			"logo": "sponsor-logos/anc.png",
+			"name": "ANC",
+			"url": "https://news.abs-cbn.com/anc",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true",
+			"tier": "gold"
+		},
+
+
+		"dcp": {
+			"logo": "sponsor-logos/dti.png",
+			"name": "DCP",
+			"url": "https://designcenter.ph/",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true",
+			"tier": "gold"
 		}
 	},
 
@@ -267,11 +290,34 @@
 			"logo": "sponsor-logos/devcon.png",
 			"name": "DevCon Davao",
 			"url": "https://www.facebook.com/DevConDavao/"
+		},
+
+		"mnl-design-week": {
+			"logo": "sponsor-logos/mnl-design-week.png",
+			"name": "Manila Design Week",
+			"url": "https://www.facebook.com/designweekphilippines/"
+		},
+
+		"uxsoc-ust": {
+			"logo": "sponsor-logos/uxsoc-ust.png",
+			"name": "User Experience Society - UST",
+			"url": "https://www.facebook.com/uxsocietyust/"
+		},
+
+		"uxsoc-dlsu": {
+			"logo": "sponsor-logos/uxsoc-dlsu.png",
+			"name": "User Experience Society - DLSU",
+			"url": "https://dlsu.uxsociety.org/"
+		},
+
+		"uxsoc-admu": {
+			"logo": "sponsor-logos/uxsoc-admu.png",
+			"name": "User Experience Society - ADMU",
+			"url": "https://uxsociety.org/"
 		}
 	},
 
 	"partners_mnl": {
-
 		"tech_shake": {
 			"logo": "sponsor-logos/tech-shake.png",
 			"name": "TechShake",
@@ -300,6 +346,30 @@
 			"logo": "sponsor-logos/idf.png",
 			"name": "Interaction Design Foundation",
 			"url": "https://www.interaction-design.org/"
+		},
+
+		"mnl-design-week": {
+			"logo": "sponsor-logos/mnl-design-week.png",
+			"name": "Manila Design Week",
+			"url": "https://www.facebook.com/designweekphilippines/"
+		},
+
+		"uxsoc-ust": {
+			"logo": "sponsor-logos/uxsoc-ust.png",
+			"name": "User Experience Society - UST",
+			"url": "https://www.facebook.com/uxsocietyust/"
+		},
+
+		"uxsoc-dlsu": {
+			"logo": "sponsor-logos/uxsoc-dlsu.png",
+			"name": "User Experience Society - DLSU",
+			"url": "https://dlsu.uxsociety.org/"
+		},
+
+		"uxsoc-admu": {
+			"logo": "sponsor-logos/uxsoc-admu.png",
+			"name": "User Experience Society - ADMU",
+			"url": "https://uxsociety.org/"
 		}
 	},
 

@@ -58,6 +58,18 @@
 			"topic": "The P in empathy",
 			"excerpt": "Mark is a UX Designer and Researcher who loves obsessing about design problems. He is currently a Senior Product Designer at Kalibrr where he helps lead the product design improve the of job seeking and hiring experience.",
 			"bio": "Mark is a UX Designer and Design Researcher from Manila and he loves obsessing about design problems. He is currently a Senior Product Designer at Kalibrr where he helps lead the product design improve the of job seeking and hiring experience. You may have heard of him from his medium articles as well as from his time designing the mobile shopping experiences and design systems of OLX Philippines. His passions mostly lay in his work with the tech community using UX for advocacies in Human Rights and Public Health."
+		},
+
+		"g": {
+			"photo": "../assets/speakers/boggs.png",
+			"name": "Boggs Labayen",
+			"title": "UX Lead, HomeCredit Philippines",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/jose-ildefonso-labayen-01013851/",
+			"twitter": "",
+			"topic": "Defending the role of the design/er",
+			"excerpt": "Boggs is the UX Lead at HomeCredit Philippines. He comes armed with 10 years of design industry experience, having worked with companies like ABS-CBN, ASPAC Creatives Incorporated, and Quiddity, among others.",
+			"bio": "Boggs Labayen is armed with 10 years of experience in designing products. He strongly believes in adding value to the users of the products he is designing for. His mission is to safeguard the experiences of the users led him to different gigs from different industries and companies such as ABS-CBN, ASPAC creatives Incorporated, Quiddity usability lab, and now leading a great pool of UX unicorns at Home Credit Philippines."
 		}
 	},
 
@@ -87,27 +99,63 @@
 		},
 
 		"c": {
-			"photo": "../assets/speakers/paul.png",
-			"name": "Paul James Sabandal",
-			"title": "Head of Product Development, Qwikwire",
+			"photo": "../assets/speakers/anjo.png",
+			"name": "Anjo Cerdeña",
+			"title": "Product Design Manager, Sprout Solutions",
 			"website": "",
-			"linkedin": "https://www.linkedin.com/in/paulsabandal/",
+			"linkedin": "https://www.linkedin.com/in/anjocerdena/",
 			"twitter": "",
 			"topic": "Figma 101",
-			"excerpt": "Paul Sabandal is the Head of Product Development at Qwikwire, a multi-awarded startup that provides cross-border payment solutions for real-estate — they handle international online payments for clients AyalaLand, Century Properties, Double Dragon and other top real-estate companies in the Philippines. He leads the end-to-end processes related to product discovery. He also co-founded Figma Philippines, helping teach the collaborative design tool Figma through meet-ups for the community.",
-			"bio": "Paul Sabandal is the Head of Product Development at Qwikwire, a multi-awarded startup that provides cross-border payment solutions for real-estate — they handle international online payments for clients AyalaLand, Century Properties, Double Dragon and other top real-estate companies in the Philippines. He leads the end-to-end processes related to product discovery. He also co-founded Figma Philippines, helping teach the collaborative design tool Figma through meet-ups for the community."
+			"excerpt": "Anjo is the Design Lead at Maria Health, working to make health plans accessible to Filipinos. He's also been managing projects for Papermill Collective where he first used Figma in 2015.",
+			"bio": "Anjo is the Design Lead at Maria Health, working to make health plans accessible to Filipinos. He's also been managing projects for Papermill Collective where he first used Figma in 2015."
 		},
 
 		"d": {
-			"photo": "../assets/speakers/angela.png",
-			"name": "Anj Garong",
-			"title": "Product Design Manager, Sprout Solutions",
+			"photo": "../assets/speakers/jelvin.png",
+			"name": "Jelvin Base",
+			"title": "Head of Product Development, Qwikwire",
 			"website": "",
-			"linkedin": "https://www.linkedin.com/in/anjgarong/",
+			"linkedin": "https://www.linkedin.com/in/jelvin/",
 			"twitter": "",
 			"topic": "Figma 101",
-			"excerpt": "Anj, a Product Design Manager at Sprout Solutions, is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups.",
-			"bio": "Anj is a design educator with foundation in software engineering and years of practical knowledge from developing web and mobile apps, designing experiences, to managing teams at startups. She is immersed in the academe and recently, in design communities, teaching Human-Centered Design at iACADEMY, and helping out Figma PH and UXSEA. Today, she spends most of her time in Sprout Solutions, a SaaS HR and Payroll technology startup, where she functions as a Product Design Manager. She somehow manages to squeeze in workouts, movies, worship nights, and binge-sleeping for self-care."
+			"excerpt": "Jelvin Base is an independent designer based in Manila that has worked with startups, brands, and companies both local and international. He is also a member of Figma PH, a community-led organization that aims to share the value of Figma to the fellow designers in the industry.",
+			"bio": "Jelvin Base is an independent designer based in Manila that has worked with startups, brands, and companies both local and international. He is also a member of Figma PH, a community-led organization that aims to share the value of Figma to the fellow designers in the industry."
+		},
+
+		"e": {
+			"photo": "../assets/speakers/marx.png",
+			"name": "Marx Consuegra",
+			"title": "UX Lead",
+			"website": "",
+			"linkedin": "",
+			"twitter": "",
+			"topic": "OneRent Design Competition",
+			"excerpt": "Marx Consuegra is a community mover who founded Davao Graphic Designers Community and UXDVO. His currently the Growth Design Lead of Onerent, a PropTech startup company based in Silicon Valley.",
+			"bio": "Marx Consuegra is a community mover who founded Davao Graphic Designers Community and UXDVO. His currently the Growth Design Lead of Onerent, a PropTech startup company based in Silicon Valley. Before joining Onerent, Marx worked with different startup companies as freelance UX Designer for Large CRM, FinTech, Real Estate and Social Media company. Outside design realm, Marx is a food junkie who loves to cook during his free time."
+		},
+
+		"f": {
+			"photo": "../assets/speakers/micael.png",
+			"name": "Micael Andrei Diaz de Rivera",
+			"title": "Head of Design Operations, Make Technology",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/madiazderivera/",
+			"twitter": "",
+			"topic": "TBA",
+			"excerpt": "Mica is the Head of Design Operations at Make Technology, a UX consultancy in Manila. His love for data, analytics, and statistics has led him to hold over a decade of extensive experience with design, development, and team management in the technology industry. He is also one of the founding members of UXPH!",
+			"bio": "Mica is a software developer turned experience designer and has had over a decade of combined work experience touching both local and international products and brands. His fascination for data, analytics, and statistics has led him to work on initiatives that dabble in the quantitative measurement of user experiences. On extraordinary days you’d find him alone in the plains of Mongolia or in the streets of Kolkata finding ways to connect life experiences to experience design. He is currently the Head of Design Operations at Make Technology by Ace Saatchi & Saatchi."
+		},
+
+		"g": {
+			"photo": "../assets/speakers/antonet.png",
+			"name": "Antonet Kay Domingo",
+			"title": "UX Lead, ING Business Shared Services",
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/antonet-kay-domingo/",
+			"twitter": "",
+			"topic": "Design Thinking - Double Diamond Process",
+			"excerpt": "Antonet is the UX Lead for ING Philippines. Her background in visual design, marketing, and branding along with her desire for continuous learning helped her pave her way into becoming an advocate for empathic user experience design.",
+			"bio": "Antonet is the UX Lead for ING Business Shared Services and, with a team of skillful designers, is in charge of customer experience for ING Philippines. Her professional background in visual design, marketing, and branding along with her desire for continuous learning helped her pave her way into becoming an advocate for empathic user experience design."
 		}
 	},
 

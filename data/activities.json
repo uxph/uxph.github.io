@@ -102,8 +102,8 @@
 		"l": {
 			"activity_id": 8,
 			"event_id": 0,
-			"name": "Figma 101",
-			"sub": "Anj Garong",
+			"name": "Figma 101 (Session 1)",
+			"sub": "Anjo Cerdeña",
 			"time": "Workshop 1",
 			"type": "workshop",
 			"description": "Figma is a web-based design application, with excellent wireframing, prototyping, and code-generation tools. It’s currently (arguably) the industry’s best interface design tool, with powerful features which helps teams collaborate on every phase of the design process. In Figma 101 you’ll learn the basics of creating simple interfaces from low to high fidelity wireframes. This is ideal for people who want to transition from photoshop or sketch and wants to learn the basics of wireframing."
@@ -112,8 +112,8 @@
 		"m": {
 			"activity_id": 8,
 			"event_id": 0,
-			"name": "Figma 101",
-			"sub": "Paul James Sabandal",
+			"name": "Figma 101 (Session 2)",
+			"sub": "Jelvin Base",
 			"time": "Workshop 2",
 			"type": "workshop",
 			"description": "Figma is a web-based design application, with excellent wireframing, prototyping, and code-generation tools. It’s currently (arguably) the industry’s best interface design tool, with powerful features which helps teams collaborate on every phase of the design process. In Figma 101 you’ll learn the basics of creating simple interfaces from low to high fidelity wireframes. This is ideal for people who want to transition from photoshop or sketch and wants to learn the basics of wireframing."
@@ -136,20 +136,40 @@
 			"sub": "Matthew Green",
 			"time": "Workshop 4",
 			"type": "workshop",
-			"description": " A practical workshop with hands-on learning on how to plan UX research applied to a problem. It will give an overview on specific qualitative methods and will cover biases and assumptions.  In-depth exercises on interview discussion guides, interviewing, downloading data, and insights will give attendees practical tools to use in their work. It will also cover topics of how to start/build a research team and what happens with you have a lot of data. This workshop is for people with some UX experience."
+			"description": "A practical workshop with hands-on learning on how to plan UX research applied to a problem. It will give an overview on specific qualitative methods and will cover biases and assumptions.  In-depth exercises on interview discussion guides, interviewing, downloading data, and insights will give attendees practical tools to use in their work. It will also cover topics of how to start/build a research team and what happens with you have a lot of data. This workshop is for people with some UX experience."
 		},
 
 		"p": {
-			"activity_id": 9,
+			"activity_id": 8,
 			"event_id": 0,
-			"name": "Onerent Design Competition",
-			"sub": "",
+			"name": "TBA",
+			"sub": "Micael Diaz de Rivera",
 			"time": "Workshop 5",
 			"type": "workshop",
 			"description": "Details coming soon!"
 		},
 
 		"q": {
+			"activity_id": 8,
+			"event_id": 0,
+			"name": "Design Thinking: Double Diamond Process",
+			"sub": "Antonet Kay Domingo",
+			"time": "Workshop 6",
+			"type": "workshop",
+			"description": " Integrating the Double Diamond approach in Design Thinking aims to introduce two ways of thinking into the methodology: Divergent and Convergent thinking. This expands on the effectivity of the design process, and gives us more confidence that we are solving the right problem, and are solving them right. By the end of the workshop, participants are expected to have the base knowledge they need to approach problems and solutions through divergent-to-convergent thinking. This workshop is best fit for those with a working knowledge of Design Thinking. This is also recommended for product owners/managers, or for design teams looking for a more structured approach in their design process."
+		},
+
+		"r": {
+			"activity_id": 9,
+			"event_id": 0,
+			"name": "Onerent Design Competition",
+			"sub": "Marx Consuegra",
+			"time": "Workshop 5",
+			"type": "workshop",
+			"description": "Details coming soon!"
+		},
+
+		"s": {
 			"activity_id": 12,
 			"event_id": 0,
 			"name": "Closing Program and Giveaways",
@@ -158,7 +178,7 @@
 			"type": "organizers"
 		},
 
-		"r": {
+		"t": {
 			"activity_id": 12,
 			"event_id": 0,
 			"name": "Event ends",
