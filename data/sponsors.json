@@ -222,6 +222,17 @@
 			"mnl": "true",
 			"main": "true",
 			"tier": "gold"
+		},
+
+		"nuworks": {
+			"logo": "sponsor-logos/nuworks.png",
+			"name": "NuWorks",
+			"url": "https://www.nuworks.ph/",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true",
+			"tier": "bronze"
 		}
 	},
 
