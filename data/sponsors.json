@@ -233,6 +233,17 @@
 			"mnl": "true",
 			"main": "true",
 			"tier": "bronze"
+		},
+
+		"manulife": {
+			"logo": "sponsor-logos/manulife.png",
+			"name": "Manulife",
+			"url": "https://www.manulife.com.ph/",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true",
+			"tier": "gold"
 		}
 	},
 
