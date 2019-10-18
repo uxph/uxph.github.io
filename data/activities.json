@@ -86,7 +86,7 @@
 			"event_id": 0,
 			"name": "Workshop Preparations",
 			"sub": "N/A",
-			"time": "2:00 PM",
+			"time": "1:45 PM",
 			"type": "organizers"
 		},
 
@@ -95,7 +95,7 @@
 			"event_id": 0,
 			"name": "Workshop Tracks",
 			"sub": "N/A",
-			"time": "2:30 PM",
+			"time": "2:00 PM",
 			"type": "organizers"
 		},
 
@@ -142,11 +142,11 @@
 		"p": {
 			"activity_id": 8,
 			"event_id": 0,
-			"name": "TBA",
+			"name": "Quantifying the User Experience",
 			"sub": "Micael Diaz de Rivera",
 			"time": "Workshop 5",
 			"type": "workshop",
-			"description": "Details coming soon!"
+			"description": "This workshop is about working backwards from the most common questions and problems you’ll encounter as you conduct, analyze, and report on user research projects. This is ideal for people working on projects who want to expand their team’s use of quantitative data and demonstrate impact, but aren’t sure where to start."
 		},
 
 		"q": {
@@ -174,7 +174,7 @@
 			"event_id": 0,
 			"name": "Closing Program and Giveaways",
 			"sub": "N/A",
-			"time": "5:00 PM",
+			"time": "4:45 PM",
 			"type": "organizers"
 		},
 
