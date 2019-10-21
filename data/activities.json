@@ -163,10 +163,10 @@
 			"activity_id": 9,
 			"event_id": 0,
 			"name": "Onerent Design Competition",
-			"sub": "Marx Consuegra",
+			"sub": "",
 			"time": "Workshop 5",
 			"type": "workshop",
-			"description": "Details coming soon!"
+			"description": "<img src='../assets/event-images/onerent-competition-mnl.png' class='modal-image' />"
 		},
 
 		"s": {
