@@ -5,9 +5,9 @@ city = "cebu"
 date = "2019-09-06T16:00:00+00:00"
 image = "/uploads/class.jpg"
 page = "pages/blogs"
+show = "true"
 title = "Recap: UXPH Roadshow 2019, Cebu"
 type = "blog"
-show = "true"
 
 +++
 On August 31, 2019, UXPH (User Experience Philippines) held its first ever National Roadshow across the Philippines, starting in Cebu City.
@@ -123,6 +123,16 @@ UXPH wanted to make sure we gave a big impression on the local Cebu community. O
 As a bonus, volunteers from CebUXD put together a [Same Day Edit video](https://vimeo.com/357044838?fbclid=IwAR2tqdGUiGB0954m-bDl4azEe_gbMF6WnCZGMgJvV4RNFDFLfCFv4HSwfdo) of the event!
 
 {{< vimeo 357044838 >}}
+
+{{< universal >}}
+
+<a href="https://vimeo.com/357044838?fbclid=IwAR2tqdGUiGB0954m-bDl4azEe_gbMF6WnCZGMgJvV4RNFDFLfCFv4HSwfdo" target="blank">
+
+<img src="../../uploads/cebu-recap-vimeo.png" />
+
+</a>
+
+ {{< /universal >}}
 
 ## What’s next?
 
