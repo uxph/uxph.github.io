@@ -313,11 +313,6 @@ _The Winner of the Grand Prize iPhone 11 giveaway from our second Co-presenter, 
 
 {{< /universal >}}
 
-{{< universal >}}
-
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FOnerentPH%2Fposts%2F1007142496283480&width=750&show_text=true&height=202&appId" width="750" height="202" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-{{< /universal >}}
-
 Designers.cam—run by Ely Apao—also made a video highlighting some of the activities during the Davao roadshow:
 
 {{< universal >}}
