@@ -636,7 +636,7 @@ input[type="text"]:focus {
 	opacity: 1;
 }
 
-#generate {
+#generate, #order-num-submit {
 	width: 100.5%;
 	margin: 1em auto;
 }
