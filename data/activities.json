@@ -63,15 +63,6 @@
 			"type": "keynote"
 		},
 
-		"h": {
-			"activity_id": 4,
-			"event_id": 0,
-			"name": "Keynote Speaker: Julee Hyunju Lee",
-			"sub": "TBA",
-			"time": "11:45 AM",
-			"type": "keynote"
-		},
-
 		"i": {
 			"activity_id": 6,
 			"event_id": 0,
@@ -164,7 +155,7 @@
 			"event_id": 0,
 			"name": "Onerent Design Competition",
 			"sub": "",
-			"time": "Workshop 5",
+			"time": "Workshop 7",
 			"type": "workshop",
 			"description": "<img src='../assets/event-images/onerent-competition-mnl.png' class='modal-image' />"
 		},
