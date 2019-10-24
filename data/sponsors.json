@@ -179,17 +179,6 @@
 			"tier": "bronze"
 		},
 
-		"abs_cbn": {
-			"logo": "sponsor-logos/abs-cbn.png",
-			"name": "ABS CBN",
-			"url": "https://news.abs-cbn.com/",
-			"cbu": "false",
-			"dvo": "false",
-			"mnl": "true",
-			"main": "true",
-			"tier": "gold"
-		},
-
 		"ing": {
 			"logo": "sponsor-logos/ing.png",
 			"name": "ING",
@@ -200,18 +189,6 @@
 			"main": "true",
 			"tier": "gold"
 		},
-
-		"anc": {
-			"logo": "sponsor-logos/anc.png",
-			"name": "ANC",
-			"url": "https://news.abs-cbn.com/anc",
-			"cbu": "false",
-			"dvo": "false",
-			"mnl": "true",
-			"main": "true",
-			"tier": "gold"
-		},
-
 
 		"dcp": {
 			"logo": "sponsor-logos/dti.png",
@@ -348,12 +325,6 @@
 			"logo": "sponsor-logos/dsc-loyola.png",
 			"name": "DSC Loyola",
 			"url": "https://www.facebook.com/dscloyola/"
-		},
-
-		"ggfm": {
-			"logo": "sponsor-logos/ggfm.png",
-			"name": "Green Giant FM",
-			"url": "http://greengiantfm.com/"
 		}
 	},
 
@@ -422,12 +393,6 @@
 			"logo": "sponsor-logos/dsc-loyola.png",
 			"name": "DSC Loyola",
 			"url": "https://www.facebook.com/dscloyola/"
-		},
-
-		"ggfm": {
-			"logo": "sponsor-logos/ggfm.png",
-			"name": "Green Giant FM",
-			"url": "http://greengiantfm.com/"
 		}
 	},
 
@@ -540,6 +505,16 @@
 			"logo": "sponsor-logos/anc.png",
 			"name": "ANC",
 			"url": "https://news.abs-cbn.com/anc",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true"
+		},
+
+		"ggfm": {
+			"logo": "sponsor-logos/ggfm.png",
+			"name": "Green Giant FM",
+			"url": "http://greengiantfm.com/",
 			"cbu": "false",
 			"dvo": "false",
 			"mnl": "true",
