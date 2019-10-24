@@ -523,5 +523,27 @@
 			"name": "DevCon Davao",
 			"url": "https://www.facebook.com/DevConDavao/"
 		}
+	},
+
+	"media_partners": {
+		"abs_cbn": {
+			"logo": "sponsor-logos/abs-cbn.png",
+			"name": "ABS CBN",
+			"url": "https://news.abs-cbn.com/",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true"
+		},
+
+		"anc": {
+			"logo": "sponsor-logos/anc.png",
+			"name": "ANC",
+			"url": "https://news.abs-cbn.com/anc",
+			"cbu": "false",
+			"dvo": "false",
+			"mnl": "true",
+			"main": "true"
+		}
 	}
 }
