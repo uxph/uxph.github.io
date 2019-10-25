@@ -51,8 +51,8 @@ const manila_attendees = [
  },
  {
    "order_no": "1053969133",
-   "first_name": "Ryan Joeyson",
-   "last_name": "Uy"
+   "first_name": "Albert",
+   "last_name": "Dy"
  },
  {
    "order_no": "1054116899",
