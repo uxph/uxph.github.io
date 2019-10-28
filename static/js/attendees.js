@@ -456,7 +456,7 @@ const manila_attendees = [
  },
  {
    "order_no": "1092784587",
-   "first_name": "Milhsen ",
+   "first_name": "Milhsen",
    "last_name": "Miranda"
  },
  {
