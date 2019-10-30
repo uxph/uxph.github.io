@@ -233,7 +233,7 @@
 		<script type="text/javascript">
 			var name = "";
 			function sentence_case(str) {
-				return str.toLowerCase().split(' ').map(x => x[0].toUpperCase() + x.substring(1, x.length)).join(' ');
+				return str.toLowerCase().split(' ').filter(x => x != '').map(x => x[0].toUpperCase() + x.substring(1, x.length)).join(' ');
 			}
 
 			function generate_certificate() {
