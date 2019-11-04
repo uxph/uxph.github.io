@@ -152,8 +152,8 @@
 			"url": "https://truemoney.com.ph/",
 			"cbu": "false",
 			"dvo": "false",
-			"mnl": "true",
-			"main": "true",
+			"mnl": "false",
+			"main": "false",
 			"tier": "bronze"
 		},
 
