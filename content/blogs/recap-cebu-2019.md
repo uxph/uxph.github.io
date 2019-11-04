@@ -2,7 +2,7 @@
 active = "5"
 author = "UX Philippines"
 city = "cebu"
-date = "2019-09-06T16:00:00+00:00"
+date = 2019-09-06T16:00:00Z
 image = "/uploads/class.jpg"
 page = "pages/blogs"
 show = "true"
@@ -130,7 +130,7 @@ As a bonus, volunteers from CebUXD put together a [Same Day Edit video](https://
 
 </a>
 
- {{< /universal >}}
+{{< /universal >}}
 
 ## What’s next?
 
@@ -174,3 +174,5 @@ If your company is interested in supporting UXPH and our national effort of conn
 ## Our Community Partners
 
 [CebuUXD](https://www.facebook.com/CebUXD/), [UX Davao](https://www.facebook.com/uxdvo/), [TechShake](https://www.techshake.asia), [Cebu Design Week](https://www.cebudesignweek.com/), and [Philippine Web Designers Organization](https://pwdo.org/)
+
+This article was written and proofread by Chi Señires, Mars Quinay, and Aldrich Tan.

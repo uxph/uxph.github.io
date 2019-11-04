@@ -2,7 +2,7 @@
 active = "5"
 author = "UX Philippines"
 city = "davao"
-date = "2019-10-05T15:00:00+00:00"
+date = 2019-10-05T15:00:00Z
 image = "/uploads/image01.jpg"
 page = "pages/blogs"
 show = "true"
@@ -323,7 +323,7 @@ Designers.cam—run by Ely Apao—also made a video highlighting some of the act
 
 </a>
 
- {{< /universal >}}
+{{< /universal >}}
 
 ## The last leg
 
@@ -382,3 +382,5 @@ If your company or organization is interested in supporting UXPH and our nationa
 ## Our Community Partners
 
 [Davao JS](https://www.facebook.com/davaojs/), [DevCon Davao](https://www.facebook.com/DevConDavao/), [Davao Graphic Designers Community](https://www.facebook.com/DGDCommunity/), [UXDVO](https://www.facebook.com/uxdvo/), [Interaction Design Foundation](https://www.interaction-design.org/invite?ep=uxph-roadshow), [Roots Podcast Design](https://rootspodcast.design), [TechShake](https://www.techshake.asia/), [UXSEA Society](https://uxsea.org/), and [Philippine Web Designers Organization](https://pwdo.org/)
+
+This article was written and proofread by Chi Señires, Mars Quinay, and Aldrich Tan.
