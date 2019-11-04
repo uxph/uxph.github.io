@@ -37,5 +37,6 @@ fields:
   default: blog
   hidden: true
 pages:
+- content/blogs/recap-uxph-roadshow-2019-manila.md
 - content/blogs/a-recap-of-the-uxph-national-roadshow-cebu.md
 - content/blogs/a-recap-of-the-uxph-national-roadshow-davao.md
