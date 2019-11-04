@@ -19,6 +19,10 @@
             {{ if eq .Params.city "cebu" }}
                 {{ partial "components/metacebu" (dict "path" "../../") }}
             {{ end }}
+
+            {{ if eq .Params.city "manila" }}
+                {{ partial "components/metamanila" (dict "path" "../../") }}
+            {{ end }}
         {{ end }}
     </head>
     {{ $type := "blog" }}
@@ -116,6 +120,11 @@
                             </div>
                         </div>
                     </div>
+
+                    <p>
+                        ---<br/>
+                        <i>This article was written and proofread by Chi Señires, Mars Quinay, Charlene Mae Arkaina, and Aldrich Tan.</i>
+                    </p>
 
                     <br/><br/><br/>
                     <a href="/blogs" class="text-link blue">

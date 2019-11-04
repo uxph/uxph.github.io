@@ -5,6 +5,7 @@ city = "manila"
 date = 2019-11-04T13:00:00Z
 image = "/uploads/image16.jpg"
 page = "pages/blogs"
+show = "true"
 title = "Recap: UXPH Roadshow 2019, Manila"
 type = "blog"
 
