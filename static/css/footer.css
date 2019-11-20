@@ -45,12 +45,12 @@ footer a{
     color: #cccccc;
     font-weight: lighter;
     margin: 1em 0;
-    font-size: 0.9em;
+    font-size: 0.75em;
 }
 
 footer div.content-wrapper{
     margin: 1.5em 0;
-    margin-right: 3.5em;
+    margin-right: 1.8em;
 }
 
 footer div.content-wrapper > div{
@@ -62,4 +62,8 @@ footer .ic{
     display: block;
     margin-right: 0.7em;
     width: 1.5em;
+}
+
+footer #coc {
+    font-size: 1.3em !important;
 }

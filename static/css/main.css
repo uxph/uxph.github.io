@@ -61,6 +61,10 @@ ul li{
 	color: var(--main-red);
 }
 
+.centered {
+	text-align: center;
+}
+
 div.wrapper{
 	width: 60em;
 	margin: auto;
