@@ -676,7 +676,7 @@ _The Winner of the Grand Prize iPhone 11 giveaway from our second Co-presenter, 
 
 {{< /universal >}}
 
-Ely Apao, one of the founders of UXPH, also made a behind-the-scenes video on what happened during the Manila roadshow. Watch it [on YouTube](https://www.youtube.com/watch?v=rfzlHQ_uJD4).
+Ely Apao, one of the founders of UXPH, also made a behind-the-scenes video on what happened during the Manila roadshow. Watch it [on YouTube](https://www.youtube.com/watch?v=EWZ5HRa2qf8).
 
 We’ll have a full event video up soon! It’ll be posted in this section.
 
