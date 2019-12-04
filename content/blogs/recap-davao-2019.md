@@ -317,7 +317,7 @@ Designers.cam—run by Ely Apao—also made a video highlighting some of the act
 
 {{< universal >}}
 
-<a href="https://www.youtube.com/watch?v=Zp-E25IkNc4" target="blank">
+<a href="https://www.youtube.com/watch?v=D6yxJ4U7rso" target="blank">
 
 <img src="../../uploads/davao-recap-youtube.png" />
 
