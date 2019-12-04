@@ -124,7 +124,7 @@ As a bonus, volunteers from CebUXD put together a [Same Day Edit video](https://
 
 {{< universal >}}
 
-<a href="https://vimeo.com/357044838?fbclid=IwAR2tqdGUiGB0954m-bDl4azEe_gbMF6WnCZGMgJvV4RNFDFLfCFv4HSwfdo" target="blank">
+<a href="https://www.youtube.com/watch?v=DZkuJUjh8C8" target="blank">
 
 <img src="../../uploads/cebu-recap-vimeo.png" />
 
