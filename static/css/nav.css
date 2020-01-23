@@ -67,7 +67,7 @@ nav #main-nav ul li:hover{
     transition: ease all 0.1s;
 }
 
-nav #main-nav ul li.active{
+nav ul#nav-items li.active{
     border-bottom-color: var(--main-blue);
 }
 

@@ -9,7 +9,7 @@ $(document).ready(function(){
 });
 
 function setActive(index){
-    var main_items = $('#main-nav ul li');
+    var main_items = $('#nav-items li');
     var mobile_items = $('#mobile-nav ul li');
 
     main_items.removeClass("active");
