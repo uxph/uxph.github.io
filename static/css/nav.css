@@ -62,7 +62,7 @@ nav #nav-logo{
     margin-right: 1em;
 }
 
-nav #main-nav ul li:hover{
+nav ul#nav-items li:hover{
     border-bottom-color: var(--main-blue);
     transition: ease all 0.1s;
 }
