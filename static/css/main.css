@@ -7,6 +7,8 @@
 @import url(section.css);
 @import url(footer.css);
 @import url(mediaquery.css);
+@import url(bootstrap-utilities.css);
+@import url(team.css);
 
 :root{
 	--main-blue: #15B0DE;
@@ -46,7 +48,7 @@ a{
 
 b{
 	font-weight: normal;
-	color: black;
+	/*color: black;*/
 }
 
 ul li{
@@ -68,4 +70,10 @@ ul li{
 div.wrapper{
 	width: 60em;
 	margin: auto;
+}
+
+
+.flex-between {
+	display: flex;
+	justify-content: space-between;
 }
