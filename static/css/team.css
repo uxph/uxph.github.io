@@ -7,7 +7,10 @@
 .team-wrapper .featured-image {
 	width: 6em;
 	height: 6em;
-	box-shadow: inset 0px 0px 20px #cecece;
+	box-shadow: inset 0px 0px 11px #dedede;
+	background-position: center;
+	background-size: 6em !important;
+	background-repeat: no-repeat;
 }
 
 .team-wrapper h2 {
