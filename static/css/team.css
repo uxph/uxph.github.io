@@ -5,14 +5,14 @@
 }
 
 .team-wrapper .featured-image {
-	width: 6em;
-	height: 6em;
-	box-shadow: inset 0px 0px 11px #dedede;
+	width: 5.5em;
+	height: 5.5em;
+	box-shadow: inset 0px 0px 11px #eaeaea;
 	background-position: center;
-	background-size: 6em !important;
+	background-size: cover !important;
 	background-repeat: no-repeat;
 }
 
 .team-wrapper h2 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
