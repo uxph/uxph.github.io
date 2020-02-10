@@ -5,13 +5,39 @@
 		{{ partial "components/meta" (dict "path" "") }}
 	</head>
 	<body>
+		<!-- Navigation -->
 		{{ partial "components/nav" (dict "path" "") }}
-		<div class="wrapper padding-y-96">
-			<h1 class="text-center margin-bottom-8">UX Philippines</h1>
-			<p class="text-center">
-				Host of the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related.
-			</p>
-		</div>
+		<header class="bg-dark">
+			<div class="wrapper padding-bottom-192 padding-top-128 text-white position-relative">
+				<img src="assets/logos/uxph_logo.svg" class="width-192 padding-bottom-24" id="header-logo" />
+				<h1 class="text-center margin-bottom-8">UX Philippines</h1>
+				<p class="text-center">
+					Host of the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related.
+					<br/><br/>
+				</p>
+				<div id="current-event-overlap" class="bg-white rounded shadow padding-y-8 position-absolute padding-y-32 padding-x-32 width-768 d-flex space-between">
+					<div style="width: 256px; height: 200px; background-color: #ccc" class="rounded-lg margin-right-32"></div>
+					<div>
+						<h2 class="text-dark">Do UXsee What I See?</h2>
+						<p class="text-black-50 margin-bottom-12">January 29, 2020 - 7pm - Cignal HQ</p>
+						<p class="text-dark">
+							Join us and 5 UX leaders as they share their insights on the State of UX in 2020.
+						</p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="wrapper padding-y-192">
+				<h1 class="font-size-32 margin-bottom-16">About UXPH</h1>
+				<p>
+					UXPH is a non-profit organization that hosts the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related. The organization runs annual conferences and monthly meetups to deliver valuable information, insight, and engagement to anyone seeking to learn and improve their craft. The organization aims to help spread awareness and raise the bar for design practices all over the Philippines. Events are free, and online participation is always encouraged. Join our Facebook group!
+				</p>
+			</div>
+		</section>
+
+		<!-- Footer -->
 		{{ partial "components/footer" (dict "path" "") }}
 	</body>
 </html>

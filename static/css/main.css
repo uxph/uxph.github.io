@@ -1,6 +1,7 @@
 /* Main stylesheet */
 
 @import url(utilities.css);
+@import url(overlaps.css);
 @import url(bootstrap-utilities.css);
 
 @font-face {
@@ -51,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	line-height: var(--value-32);
+	line-height: 1.75rem;
 	margin: 0;
 }
 
@@ -59,4 +60,9 @@ div.wrapper {
 	width: var(--value-768);
 	padding: 0 var(--value-64);
 	margin: auto;
+}
+
+#header-logo {
+	display: block;
+	margin: 0 auto !important;
 }
