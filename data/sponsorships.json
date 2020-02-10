@@ -1,0 +1,9 @@
+{
+	"sponsorship_name": {
+		"name": "<name>",
+		"description": "<description>",
+		"hook": "<hook>",
+		"image_url": "<url>",
+		"url": "<url>"
+	}
+}

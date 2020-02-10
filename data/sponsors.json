@@ -1,0 +1,7 @@
+{
+	"sponsor_name": {
+		"name": "<name>",
+		"tier": "<gold | silver | bronze>",
+		"image_url": "<url>"
+	}
+}

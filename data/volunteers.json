@@ -1,0 +1,9 @@
+{
+	"role_name": {
+		"name": "<name>",
+		"description": "<description>",
+		"responsibilities": ["<responsibilities>"],
+		"requirements": ["<requirements>"],
+		"url": "<url>"
+	}
+}

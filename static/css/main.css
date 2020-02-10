@@ -1,79 +1,62 @@
-/* UXPH main stylsheet */
+/* Main stylesheet */
 
-/* component stylesheet imports */
-@import url(nav.css);
-@import url(button.css);
-@import url(header.css);
-@import url(section.css);
-@import url(footer.css);
-@import url(mediaquery.css);
+@import url(utilities.css);
 @import url(bootstrap-utilities.css);
-@import url(team.css);
 
-:root{
+@font-face {
+	font-family: 'circular';
+	src: url('../assets/fonts/CircularStd-Book.otf') format("opentype");
+}
+
+@font-face {
+	font-family: 'circular-bold';
+	src: url('../assets/fonts/CircularStd-Bold.otf') format("opentype");
+}
+
+:root {
 	--main-blue: #15B0DE;
 	--main-blue-dark: #007BBF;
 	--main-red: #EC3558;
 	--main-red-dark: #CE0000;
-	--main-pale: #F9F9F9;
 
-	font-family: 'Roboto', sans-serif;
-	color: #555555;
+	--value-4: 0.25rem;
+	--value-8: 0.5rem;
+	--value-12: 0.75rem;
+	--value-16: 1rem;
+	--value-24: 1.5rem;
+	--value-32: 2rem;
+	--value-48: 3rem;
+	--value-64: 4rem;
+	--value-96: 6rem;
+	--value-128: 8rem;
+	--value-192: 12rem;
+	--value-256: 16rem;
+	--value-384: 24rem;
+	--value-512: 32rem;
+	--value-640: 40rem;
+	--value-768: 48rem;
+
+	color: #333333;
+	font-family: 'circular', sans-serif;
 }
 
-html, body{
+body, html {
 	margin: 0;
 	padding: 0;
 }
 
-body{
-	margin-top: 62.59px;
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'circular-bold', sans-serif;
+	margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6{
-	font-weight: normal;
-	color: black;
+p {
+	line-height: var(--value-32);
+	margin: 0;
 }
 
-p{
-	font-weight: lighter;
-	line-height: 1.8em;
-	font-size: 1em;
-}
-
-a{
-	color: inherit;
-	text-decoration: none;
-}
-
-b{
-	font-weight: normal;
-	/*color: black;*/
-}
-
-ul li{
-	font-weight: lighter;
-}
-
-.blue{
-	color: var(--main-blue);
-}
-
-.red{
-	color: var(--main-red);
-}
-
-.centered {
-	text-align: center;
-}
-
-div.wrapper{
-	width: 60em;
+div.wrapper {
+	width: var(--value-768);
+	padding: 0 var(--value-64);
 	margin: auto;
-}
-
-
-.flex-between {
-	display: flex;
-	justify-content: space-between;
 }

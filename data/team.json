@@ -1,79 +1,17 @@
 {
-    "a": {
-        "role": "Community Manager",
-        "description": "The community manager will be the at the core of the organization’s momentum as they will be in charge of engaging with the online and offline community, scheduling meetups, and helping useful and insightful content flow. This role is for a 6 months to 1 year commitment.",
-        "responsibilities": {
-            "a": "Public Relations; UXPH Community Managers will act as the spokespeople for the UXPH Organization.",
-            "b": "Event coordination; Schedule meetups, plan event topics, seek sponsorship, seek speakers, coordinate event logistics on event days, coordinate and manage materials for event days",
-            "c": "Content Curation; create or source content to share with the community, coordinate with the marketing team with regards to social media and event postings",
-            "d": "Community Engagement; Leads the community in achieving its goals, objectives and activities. Conducts him/herself in the highest level of standard representative of the community, motivating and recruiting volunteers and mentors that will serve the needs of the community. Issues sanctions and deals with problematic members of the community in ensuring members uphold the highest code of conduct.",
-            "e": "Sponsorships and Partnerships; Identifies and faces with multiple entities, organizations, individuals towards building fruitful engagements in supporting, and securing funds that support UXPH’s initiatives.",
-            "f": "Depending on circumstance, there is possibility for travel benefits or stipends."
-        },
-        "requirements": {
-            "a": "Strong organizational skills",
-            "b": "Strong written and verbal communication skills",
-            "c": "Outgoing personality and interpersonal skills",
-            "d": "Experience with event coordination is a huge plus; no design background needed",
-            "e": "Experience with social media tools and campaigns is a plus",
-            "f": "Time requirements; 5-15 hours a week on average, more during event and convention periods"
-        },
-        "url": "https://drive.google.com/file/d/1QYNHAOxoPRBa0HYs62dF1SToJY-3LUyM/view?usp=sharing"
-    },
+	"board_members": {
+		"person": {
+			"name": "<name>",
+			"role": "<role>",
+			"image_url": "<url>"
+		}
+	},
 
-    "b": {
-        "role": "Marketing Manager & Coordinators",
-        "description": "The marketing manager will be the at the core of the organization’s momentum as they will be in charge of engaging with the online and offline community through online and offline platforms. They will work closely with the Community Manager to execute community and organization initiatives. This role is for a 6 months to 1 year commitment.",
-        "responsibilities": {
-            "a": "Public Relations; UXPH Marketing Managers will be in charge of all social media channels and engaging the community online.",
-            "b": "Strategy; Work with the team to come up with a viable marketing plan for the organization and measure results both online and offline.",
-            "c": "Content Curation; create or source content to share with the community, coordinate with the marketing and community team with regards to social media and event postings",
-            "d": "Content Management; manage and update the content on social media outlets and the UXPH Website",
-            "e": "SWAG; come up with ideas for freebies for the community, source, and produce them. Coordinates and sources with suppliers of the different freebies for the community."
-        },
-        "requirements": {
-            "a": "Strong organizational skills",
-            "b": "Strong written and verbal communication skills",
-            "c": "Marketing background huge plus; no design background needed",
-            "d": "Experience with social media tools is a plus",
-            "e": "Experience to managing marketing campaigns is a huge plus",
-            "f": "Time requirements; 5-10 hours a week on average, more during event and convention periods"
-        },
-        "url": "https://drive.google.com/open?id=1pU8tSKdkoT2KgYbPDDo0rU0T33WLRYQ9"
-    },
+	"committee_leads": {
 
-    "c": {
-        "role": "Visual Designers",
-        "description": "We’re looking for visual designers who want to take on creating promotional materials and collateral for our events and community initiatives. Creative work will be featured all over our websites, social media outlets, and events. These visual designers will be on a volunteer rotation or per-event basis.",
-        "responsibilities": {
-            "a": "Creative! Create marketing collateral for UXPH events and initiatives.",
-            "b": "Coordination; coordinate with the community manager and marketing managers with regards to content and output"
-        },
-        "requirements": {
-            "a": "Experience with designing for print and web is a plus",
-            "b": "Experience with Photoshop, Illustrator, or other creative tools",
-            "c": "Experience with designing for marketing campaigns is a plus",
-            "d": "Open to work under pressure and is keen to receiving critique/feedback",
-            "e": "Time requirements; 3-6 hours a week on average, more during event and convention periods"
-        },
-        "url": "https://drive.google.com/open?id=1UMq4QQcHd7ZG7C5XSlhzWp4qBb9GZsXk"
-    },
+	},
 
-    "d": {
-        "role": "Community Volunteers",
-        "description": "We’re looking for motivated individuals who just want to help out during events and gatherings in terms of logistics, content gathering, and just being a part of the fun! You’ll be able to learn and meet new people during events and planning.This role is on a per-event basis.",
-        "responsibilities": {
-            "a": "Good communication skills and ability to work with minimum instruction",
-            "b": "No design background or skills required!",
-            "c": "Healthy fit and willing to work the extra hours.",
-            "d": "Time requirements; 3-6 hours a week on average; at least 4 working hours during event and convention periods; Presence during Ingress and Egress."
-        },
-        "requirements": {
-            "a": "Good communication skills and ability to work with minimum instruction",
-            "b": "No design background or skills required!",
-            "c": "Healthy fit and willing to work the extra hours.",
-            "d": "Time requirements; 3-6 hours a week on average; at least 4 working hours during event and convention periods; Presence during Ingress and Egress."
-        },
-        "url": "https://drive.google.com/open?id=1IreWNhgt3WlxzrDHSjsFVpn3Xrvy0Xeu"
-    }
+	"coordinators": {
+
+	}
 }

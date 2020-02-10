@@ -1,0 +1,23 @@
+{
+	"current": {
+		"event_name": {
+			"name": "<name>",
+			"date": "<date>",
+			"time": "<time>",
+			"venue": "<venue>",
+			"description": "<description>",
+			"image_url": "<url>",
+			"ticket_url": "<url>",
+			"become_speaker_url": "<url>",
+			"blog_url": "<url>"
+		}
+	},
+
+	"upcoming": {
+
+	},
+
+	"past": {
+
+	}
+}
