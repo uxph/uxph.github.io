@@ -19,6 +19,7 @@
 	--main-blue-dark: #007BBF;
 	--main-red: #EC3558;
 	--main-red-dark: #CE0000;
+	--main-gray: #C4C4C4;
 
 	--value-4: 0.25rem;
 	--value-8: 0.5rem;
@@ -54,6 +55,11 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	line-height: 1.75rem;
 	margin: 0;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
 }
 
 div.wrapper {
