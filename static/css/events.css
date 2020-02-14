@@ -5,15 +5,6 @@
 	height: 201px;
 }
 
-button {
-	border-radius: 8px;
-	background-color: #c4c4c4;
-	font-size: 12px;
-	font-weight: bold;
-	box-shadow: none;
-	border-style: none;
-}
-
 .sponsors h2 {
 	color: #a3a3a3;
 }

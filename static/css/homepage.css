@@ -1,0 +1,16 @@
+/* homepage stylesheet */
+
+#header-nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: var(--value-16);
+	margin: 0 var(--value-4);
+	text-align: center;
+	cursor: pointer;
+}
+
+#volunteer-perks li {
+	display: flex;
+	align-items: center;
+	margin-top: var(--value-24);
+}
