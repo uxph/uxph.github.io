@@ -1,0 +1,15 @@
+/* about stylesheet */
+
+#what-we-do .featured-image {
+	min-width: 184px !important;
+	height: 174px;
+}
+
+#meet-the-team .featured-image {
+	width: var(--value-96);
+	height: var(--value-96);
+}
+
+.team-feed > div {
+	flex: 0 50%;
+}
