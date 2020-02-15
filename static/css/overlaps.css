@@ -1,5 +1,10 @@
 /* overlaps stylesheet */
 #current-event-overlap {
 	box-sizing: border-box;
-	bottom: -25%;
+	bottom: -22%;
+}
+
+#mission-vision-overlap {
+	box-sizing: border-box;
+	bottom: -12%;
 }

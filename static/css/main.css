@@ -19,6 +19,7 @@
 	--main-blue-dark: #007BBF;
 	--main-red: #EC3558;
 	--main-red-dark: #CE0000;
+	--main-gray: #C4C4C4;
 
 	--value-4: 0.25rem;
 	--value-8: 0.5rem;
@@ -51,9 +52,35 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+h1 {
+	font-size: var(--value-32);
+}
+
+h2 {
+	font-size: var(--value-24);
+}
+
 p {
 	line-height: 1.75rem;
 	margin: 0;
+	font-size: var(--value-16);
+}
+
+ a {
+ 	text-decoration: none;
+ 	color: inherit;
+ }
+
+button {
+	cursor: pointer;
+	outline: none;
+	border-radius: var(--value-8);
+	background-color: #c4c4c4;
+	font-size: var(--value-12);
+	font-weight: bold;
+	box-shadow: none;
+	border-style: none;
+	padding: var(--value-12) var(--value-24);
 }
 
 div.wrapper {

@@ -8,9 +8,17 @@
 		<!-- Navigation -->
 		{{ partial "components/nav" (dict "path" "") }}
 		<header class="bg-dark">
-			<div class="wrapper padding-bottom-192 padding-top-128 text-white position-relative">
+			<div class="wrapper padding-bottom-192 padding-top-48 text-white position-relative">
+				<nav id="header-nav" class="margin-bottom-96">
+					<ul class="mx-0 my-0 px-0 py-0 d-flex justify-content-center">
+						<li><a href="/">Home</a></li>
+						<li><a href="/about/">About Us</a></li>
+						<li><a href="/events/">Events</a></li>
+						<li><a href="/sponsorships/">Get Involved</a></li>
+					</ul>
+				</nav>
 				<img src="assets/logos/uxph_logo.svg" class="width-192 padding-bottom-24" id="header-logo" />
-				<h1 class="text-center margin-bottom-8">UX Philippines</h1>
+				<h1 class="text-center margin-bottom-8 font-size-32">UX Philippines</h1>
 				<p class="text-center">
 					Host of the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related.
 					<br/><br/>
@@ -20,24 +28,105 @@
 					<div>
 						<h2 class="text-dark">Do UXsee What I See?</h2>
 						<p class="text-black-50 margin-bottom-12">January 29, 2020 - 7pm - Cignal HQ</p>
-						<p class="text-dark">
+						<p class="text-dark padding-bottom-24">
 							Join us and 5 UX leaders as they share their insights on the State of UX in 2020.
 						</p>
+						<div>
+							<button class="margin-right-4">Get tickets</button>
+							<button>Become a speaker</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</header>
 
-		<section>
-			<div class="wrapper padding-y-192">
-				<h1 class="font-size-32 margin-bottom-16">About UXPH</h1>
-				<p>
+		<section class="padding-top-256 padding-bottom-96">
+			<div class="wrapper">
+				<h1 class="margin-bottom-16">About UXPH</h1>
+				<p class="margin-bottom-24">
 					UXPH is a non-profit organization that hosts the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related. The organization runs annual conferences and monthly meetups to deliver valuable information, insight, and engagement to anyone seeking to learn and improve their craft. The organization aims to help spread awareness and raise the bar for design practices all over the Philippines. Events are free, and online participation is always encouraged. Join our Facebook group!
 				</p>
+				<button>Join the Facebook Community</button>
+			</div>
+		</section>
+
+		<section class="bg-light padding-y-96">
+			<div class="wrapper">
+				<div>
+					<h2 class="margin-bottom-16">Be a part of the organizing team</h2>
+					<ul class="px-0 py-0 mx-0 my-0" id="volunteer-perks">
+						<li>
+							<i class="far fa-check-circle margin-right-16"></i>
+							<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+						</li>
+						<li>
+							<i class="far fa-check-circle margin-right-16"></i>
+							<span>Venenatis dolor est, pellentesque facilisis.</span>
+						</li>
+						<li>
+							<i class="far fa-check-circle margin-right-16"></i>
+							<span>Ut dignissim massa mauris adipiscing.</span>
+						</li>
+						<li>
+							<i class="far fa-check-circle margin-right-16"></i>
+							<span>Metus lectus a aliquet eu ornare ante laoreet vitae turpis.</span>
+						</li>
+						<li>
+							<i class="far fa-check-circle margin-right-16"></i>
+							<span>Nunc scelerisque enim, dolor id sed id lorem.</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="padding-y-96">
+			<div class="wrapper">
+				<h2 class="margin-bottom-16">Be a community partner</h2>
+				<p class="margin-bottom-24">
+					UXPH hosts monthly meetups and workshops all around Metro Manila. We hold our events at various locations to both showcase companies that are passionate about design and community engagement, and to maximize our reach within the community. If your company or organization would like to partner with us as a venue sponsor, or on any other capacity, please reach out!
+				</p>
+				<button>Become a sponsor</button>
+			</div>
+		</section>
+
+		<section class="padding-y-96 bg-light">
+			<div class="wrapper">
+				<div class="d-flex justify-content-between">
+					<div class="flex-grow-1">
+						<h2>Upcoming Events</h2>
+						<div class="margin-y-24">
+							<p><b>Purus egestas mauris turpis.</b></p>
+							<p class="text-secondary">January 20, 2020</p>
+						</div>
+						<div class="margin-y-24">
+							<p><b>Eu at mauris sit et facilisis nulla.</b></p>
+							<p class="text-secondary">January 20, 2020</p>
+						</div>
+						<button>View more</button>
+					</div>
+					<div class="flex-grow-1">
+						<h2>Past Events</h2>
+						<div class="margin-y-24">
+							<p><b>Vel amet elementum orci aliquet.</b></p>
+							<p class="text-secondary">January 20, 2020</p>
+						</div>
+						<div class="margin-y-24">
+							<p><b>Adipiscing quis ac leo sed.</b></p>
+							<p class="text-secondary">January 20, 2020</p>
+						</div>
+						<div class="margin-y-24">
+							<p><b>Augue et justo tempor elementum.</b></p>
+							<p class="text-secondary">January 20, 2020</p>
+						</div>
+						<button>View more</button>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<!-- Footer -->
 		{{ partial "components/footer" (dict "path" "") }}
+		<link rel="stylesheet" type="text/css" href="../css/homepage.css" />
 	</body>
 </html>
