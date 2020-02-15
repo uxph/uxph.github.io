@@ -21,28 +21,33 @@
 	background-color: #c4c4c4;
 }
 
-.partners{
+.partners {
 	border-radius: 16px;
 	box-shadow: 2px 4px 11px rgba(0, 0, 0, 0.1);
 }
-.unselected{
+
+.unselected {
 	background-color: #E2E2E2;
 	transition: 0.3s;
 }
-.sort{
+
+.sort {
 	margin-right: 16px;
 	border-radius: 40px; 
 }
-.unselected:hover{
+
+.unselected:hover {
 	background-color: #c4c4c4;
 	
 }
-.timestamp{
+
+.timestamp {
 	color: #989898; 
 	font-size: 16px; 
 	line-height:23px;
 }
-.img_article{
+
+.img_article {
 	background-color: #c4c4c4; 
 	border-radius: 12px; 
 	min-height: 174px;
