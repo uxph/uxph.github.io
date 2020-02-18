@@ -1,6 +1,4 @@
 <!-- Volunteers page -->
-
-<title>{{ .Site.Data.info.site_name }}</title>
 <style>
 
 select.input-lg {
@@ -42,26 +40,27 @@ button{
             <br><br>
             Check out the roles below and send your applications to 
             info@uxph.org! Please note that all roles are completely 
-            volunteer-based.</p>
-       
+            volunteer-based.
+        </p>
     </div>
 </section>
 
 <!-- Role Selection -->
-<div class = "wrapper">
-    <select name="position" id="position" class ="padding-x-8
-    margin-x-64 shadow p-3 mb-2 " 
-    style = "width:640px ; height:78px; margin-top: -35px; border:none;
-    border-radius: 16px; cursor: pointer;">
-        <option value="Community Manager">Community Manager</option>
-    </select>
-</div>
+<section>
+    <div class = "wrapper">
+        <select name="position" id="position" class ="padding-x-8 shadow mb-2 w-100" 
+        style = "height:78px; margin-top: -35px; border:none;
+        border-radius: 16px; cursor: pointer;">
+            <option value="Community Manager">Community Manager</option>
+        </select>
+    </div>
+</section>
 
 
 <!-- Role Description -->
 <section>
-    <div class = "wrapper">
-        <h1 class="margin-top-96  font-size-32 text-body">
+    <div class="wrapper">
+        <h1 class="margin-top-96 font-size-32 text-body">
            {{ .Site.Data.volunteers.community_manager.name }}</h1>
         <p style="height:78px; border:none;" class="margin-top-32" >
            {{ .Site.Data.volunteers.community_manager.description }}
@@ -108,7 +107,7 @@ button{
 </section>
 
 <!-- Requirements Section -->
-<section>
+<section class="padding-bottom-96">
     <div class = "wrapper padding-top-32 ">
         <h2 class = "text-secondary">Requirements</h2>
         <ul class= "text-body padding-top-32 width-640">
@@ -140,13 +139,12 @@ button{
             Download Role Description
         </button>
     </div>
-
 </section>
 
 <!-- Volunteer Perks Section -->
 
-<section class = "bg-light">
-    <div class = "wrapper padding-top-96">
+<section class = "bg-light padding-y-96">
+    <div class = "wrapper">
         <h1 class = "text-body font-size-32">Volunteer Perks</h1>
 
         <!-- First row  -->
@@ -180,8 +178,9 @@ button{
                     <div class = "width-256 margin-left-24  p-2 bd-highlight">
                         <h2 class = "text-body">Non netus viverra.</h2>
                         <br>
-                        <p>Lorem ipsum dolor sit amet,
-                            consectetur adipsicing elit. Nam at dictum nunc arcu id.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipsicing elit. Nam at dictum nunc arcu id.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -221,10 +220,7 @@ button{
                     </div>
                 </div>
             </div>
-            
-            
           </div>
-          
     </div>
 
 </section>
