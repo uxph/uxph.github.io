@@ -1,5 +1,7 @@
 /* Main stylesheet */
 
+@import url(nav.css);
+@import url(footer.css);
 @import url(utilities.css);
 @import url(overlaps.css);
 @import url(bootstrap-utilities.css);
