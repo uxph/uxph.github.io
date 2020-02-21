@@ -1,31 +1,43 @@
 <!-- Volunteers page -->
 <style>
 
-select.input-lg {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -o-appearance: none;
-}
+    select.input-lg {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -o-appearance: none;
+    }
 
-select + i.fa {
-  float: right;
-  margin-top: -30px;
-  margin-right: 5px;
-  pointer-events: none;
-  background-color: #fff;
-  padding-right: 5px;
-}
+    select + i.fa {
+      float: right;
+      margin-top: -30px;
+      margin-right: 5px;
+      pointer-events: none;
+      background-color: #fff;
+      padding-right: 5px;
+    }
 
-li{
-    line-height: 25px;
-    
-}
-button{
-    background-color:#C4C4C4;
-    font-weight: bold;
-    border:none;
-    cursor:pointer;
-}
+    #role-responsibilties li,
+    #role-requirements li {
+        line-height: 25px; 
+    }
+
+    button {
+        background-color:#C4C4C4;
+        font-weight: bold;
+        border:none;
+        cursor:pointer;
+    }
+
+    #position {
+        height:78px;
+        margin-top: -35px;
+        border:none;
+        border-radius: 16px;
+        cursor: pointer;
+        text-indent: 1rem;
+        outline: none;
+        font-family: 'circular', sans-serif;
+    }
 
 </style>
 
@@ -48,9 +60,7 @@ button{
 <!-- Role Selection -->
 <section>
     <div class = "wrapper">
-        <select name="position" id="position" class ="padding-x-8 shadow mb-2 w-100" 
-        style = "height:78px; margin-top: -35px; border:none;
-        border-radius: 16px; cursor: pointer;">
+        <select name="position" id="position" class="font-size-16 shadow mb-2 w-100 bg-white border-radius-96">
             <option value="Community Manager">Community Manager</option>
         </select>
     </div>
@@ -71,9 +81,9 @@ button{
 <!-- Responsibilities Section -->
 
 <section>
-    <div class = "wrapper padding-top-48 ">
-        <h2 class = "text-secondary">Responsibilities</h2>
-        <ul class= "text-body padding-top-32 width-640" id = "role-responsibilties" >
+    <div class="wrapper padding-top-48">
+        <h2 class="text-secondary">Responsibilities</h2>
+        <ul class="text-body padding-top-32 width-640" id="role-responsibilties">
             
             <!-- <li>
                 {{ .Site.Data.volunteers.community_manager.responsibilities.a }}
@@ -110,7 +120,7 @@ button{
 <section class="padding-bottom-96">
     <div class = "wrapper padding-top-32 ">
         <h2 class = "text-secondary">Requirements</h2>
-        <ul class= "text-body padding-top-32 width-640">
+        <ul class= "text-body padding-top-32 width-640" id="role-requirements">
             <li>
             Strong Organizational skills
             </li><br>

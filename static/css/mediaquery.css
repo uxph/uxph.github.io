@@ -1,0 +1,19 @@
+/* responsive stylesheet */
+
+@media only screen and (max-width: 768px) {
+	#main-nav {
+		height: 4.25rem !important;
+		display: flex;
+		align-items: center;
+	}
+
+	#main-nav ul {
+		display: none !important;
+	}
+
+	div.wrapper {
+		width: 100% !important;
+		box-sizing: border-box !important;
+		padding: 0 var(--value-16) !important;
+	}
+}

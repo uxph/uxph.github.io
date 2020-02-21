@@ -6,8 +6,8 @@
 }
 
 #meet-the-team .featured-image {
-	width: var(--value-96);
-	height: var(--value-96);
+	width: 4.5rem;
+	height: 4.5rem;
 }
 
 .team-feed > div {
