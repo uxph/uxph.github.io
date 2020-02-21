@@ -1,237 +1,226 @@
 <!-- Volunteers page -->
 <style>
 
-    select.input-lg {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      -o-appearance: none;
-    }
+	select.input-lg {
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	  -o-appearance: none;
+	}
 
-    select + i.fa {
-      float: right;
-      margin-top: -30px;
-      margin-right: 5px;
-      pointer-events: none;
-      background-color: #fff;
-      padding-right: 5px;
-    }
+	select + i.fa {
+	  float: right;
+	  margin-top: -30px;
+	  margin-right: 5px;
+	  pointer-events: none;
+	  background-color: #fff;
+	  padding-right: 5px;
+	}
 
-    #role-responsibilties li,
-    #role-requirements li {
-        line-height: 25px; 
-    }
+	#role-responsibilties li,
+	#role-requirements li {
+		line-height: 25px; 
+	}
 
-    button {
-        background-color:#C4C4C4;
-        font-weight: bold;
-        border:none;
-        cursor:pointer;
-    }
+	button {
+		background-color:#C4C4C4;
+		font-weight: bold;
+		border:none;
+		cursor:pointer;
+	}
 
-    #position {
-        height:78px;
-        margin-top: -35px;
-        border:none;
-        border-radius: 16px;
-        cursor: pointer;
-        text-indent: 1rem;
-        outline: none;
-        font-family: 'circular', sans-serif;
-    }
+	#position {
+		height:78px;
+		margin-top: -18rem;
+		border:none;
+		border-radius: 16px;
+		cursor: pointer;
+		text-indent: 1rem;
+		outline: none;
+		font-family: 'circular', sans-serif;
+	}
 
 </style>
 
 
 <!-- Intro -->
-<section class ="bg-light">
-    <div class ="wrapper padding-top-96 ">
-        <h1 class = "font-size-32 text-body">Be part of the organizing team</h1>
-        <p class = "margin-top-32 padding-bottom-128">
-            We are seeking motivated individuals who want to help the organization grow and engage the greater design community, 
-            while gaining valuable experience and skills from it.
-            <br><br>
-            Check out the roles below and send your applications to 
-            info@uxph.org! Please note that all roles are completely 
-            volunteer-based.
-        </p>
-    </div>
-</section>
-
-<!-- Role Selection -->
-<section>
-    <div class = "wrapper">
-        <select name="position" id="position" class="font-size-16 shadow mb-2 w-100 bg-white border-radius-96">
-            <option value="Community Manager">Community Manager</option>
-        </select>
-    </div>
-</section>
-
-
-<!-- Role Description -->
-<section>
-    <div class="wrapper">
-        <h1 class="margin-top-96 font-size-32 text-body">
-           {{ .Site.Data.volunteers.community_manager.name }}</h1>
-        <p style="height:78px; border:none;" class="margin-top-32" >
-           {{ .Site.Data.volunteers.community_manager.description }}
-        </p>
-    </div>
-</section>
+<header id="volunteers-header" class="bg-light padding-top-96">
+	<div class ="wrapper">
+		<h1 class="font-size-32 text-body">Be part of the organizing team</h1>
+		<p class="margin-top-32 padding-bottom-96">
+			We are seeking motivated individuals who want to help the organization grow and engage the greater design community, 
+			while gaining valuable experience and skills from it.
+			<br><br>
+			Check out the roles below and send your applications to 
+			info@uxph.org! Please note that all roles are completely 
+			volunteer-based.
+		</p>
+	</div>
+</header>
 
 <!-- Responsibilities Section -->
 
 <section>
-    <div class="wrapper padding-top-48">
-        <h2 class="text-secondary">Responsibilities</h2>
-        <ul class="text-body padding-top-32 width-640" id="role-responsibilties">
-            
-            <!-- <li>
-                {{ .Site.Data.volunteers.community_manager.responsibilities.a }}
-            </li> -->
-            <li>
-            Public Relations; UXPH Community Managers will act as the spokespeople for the UXPH Organization.
-            </li><br>
-            <li>
-            Event coordination; Schedule meetups, plan event topics, seek sponsorship, seek speakers, coordinate 
-            event logistics on event days, coordinate and manage materials for event days
-            </li><br>
-            <li>
-            Content Curation; create or source content to share with the community, coordinate with the marketing 
-            team with regards to social media and event postings
-            </li><br>
-            <li>
-            Community Engagement; Leads the community in achieving its goals, objectives and activities. Conducts 
-            him/herself in the highest level of standard representative of the community, motivating and recruiting 
-            volunteers and mentors that will serve the needs of the community. Issues sanctions and deals with
-            problematic members of the community in ensuring members uphold the highest code of conduct.
-            </li><br>
-            <li>
-            Sponsorships and Partnerships; Identifies and faces with multiple entities, organizations, individuals 
-            towards building fruitful engagements in supporting, and securing funds that support UXPH’s initiatives.
-            </li><br>
-            <li>
-            Depending on circumstance, there is possibility for travel benefits or stipends.
-            </li><br>
-        </ul>
-    </div>
+	<div class="wrapper padding-top-48">
+		<select name="position" id="position" class="font-size-16 shadow w-100 bg-white border-radius-96">
+			<option value="Community Manager">Community Manager</option>
+		</select>
+
+		<h1 class="margin-top-96 font-size-32 text-body">
+		   {{ .Site.Data.volunteers.community_manager.name }}</h1>
+		<p class="margin-top-32 margin-bottom-48">
+		   {{ .Site.Data.volunteers.community_manager.description }}
+		</p>
+
+		<h2 class="text-secondary">Responsibilities</h2>
+		<ul class="text-body padding-top-16" id="role-responsibilties">
+			<!-- <li>
+				{{ .Site.Data.volunteers.community_manager.responsibilities.a }}
+			</li> -->
+			<li>
+			Public Relations; UXPH Community Managers will act as the spokespeople for the UXPH Organization.
+			</li><br>
+			<li>
+			Event coordination; Schedule meetups, plan event topics, seek sponsorship, seek speakers, coordinate 
+			event logistics on event days, coordinate and manage materials for event days
+			</li><br>
+			<li>
+			Content Curation; create or source content to share with the community, coordinate with the marketing 
+			team with regards to social media and event postings
+			</li><br>
+			<li>
+			Community Engagement; Leads the community in achieving its goals, objectives and activities. Conducts 
+			him/herself in the highest level of standard representative of the community, motivating and recruiting 
+			volunteers and mentors that will serve the needs of the community. Issues sanctions and deals with
+			problematic members of the community in ensuring members uphold the highest code of conduct.
+			</li><br>
+			<li>
+			Sponsorships and Partnerships; Identifies and faces with multiple entities, organizations, individuals 
+			towards building fruitful engagements in supporting, and securing funds that support UXPH’s initiatives.
+			</li><br>
+			<li>
+			Depending on circumstance, there is possibility for travel benefits or stipends.
+			</li><br>
+		</ul>
+	</div>
 </section>
 
 <!-- Requirements Section -->
 <section class="padding-bottom-96">
-    <div class = "wrapper padding-top-32 ">
-        <h2 class = "text-secondary">Requirements</h2>
-        <ul class= "text-body padding-top-32 width-640" id="role-requirements">
-            <li>
-            Strong Organizational skills
-            </li><br>
-            <li>
-            Strong written and verbal communication skills
-            </li><br>
-            <li>
-            Outgoing personality and interpersonal skills
-            </li><br>
-            <li>
-            Experience with event coordination is a huge plus; no design background needed
-            </li><br>
-            <li>
-            Experience with social media tools and campaigns is a plus
-            </li><br>
-            <li>
-            Time requirements; 5-15 hours a week on average, more during event and convention periods
-            </li><br>
-        </ul>
+	<div class="wrapper padding-top-32">
+		<h2 class="text-secondary">Requirements</h2>
+		<ul class= "text-body padding-top-16" id="role-requirements">
+			<li>
+			Strong Organizational skills
+			</li><br>
+			<li>
+			Strong written and verbal communication skills
+			</li><br>
+			<li>
+			Outgoing personality and interpersonal skills
+			</li><br>
+			<li>
+			Experience with event coordination is a huge plus; no design background needed
+			</li><br>
+			<li>
+			Experience with social media tools and campaigns is a plus
+			</li><br>
+			<li>
+			Time requirements; 5-15 hours a week on average, more during event and convention periods
+			</li><br>
+		</ul>
 
-        <p class="text-body padding-top-32 margin-bottom-32">
-            Please send all you CV/Resume and cover letter (optional) to 
-            recruitment@uxph.org and we'll get back to you at the soonest for a chat!
-        </p>
-        <button class="padding-x-32 padding-y-12 rounded-lg margin-bottom-32">
-            Download Role Description
-        </button>
-    </div>
+		<p class="text-body padding-top-32 margin-bottom-32">
+			Please send all you CV/Resume and cover letter (optional) to 
+			recruitment@uxph.org and we'll get back to you at the soonest for a chat!
+		</p>
+		<button class="padding-x-32 padding-y-12 rounded-lg margin-bottom-32">
+			Download Role Description
+		</button>
+	</div>
 </section>
 
 <!-- Volunteer Perks Section -->
 
-<section class = "bg-light padding-y-96">
-    <div class = "wrapper">
-        <h1 class = "text-body font-size-32">Volunteer Perks</h1>
+<section class="bg-light padding-y-96">
+	<div class="wrapper">
+		<h1 class="text-body font-size-32">Volunteer Perks</h1>
 
-        <!-- First row  -->
-        <div class="d-flex flex-row bd-highlight mb-3 padding-top-32">
-            <div class="p-2 bd-highlight ">
-                <div class = "d-flex flex-row bd-highlight mb-3 " >
+		<div id="volunteer-perks">
+			<!-- First row  -->
+			<div class="d-flex flex-row bd-highlight mb-3 padding-top-32">
+				<div class="p-2 bd-highlight perk-wrapper">
+					<div class = "d-flex flex-row bd-highlight mb-3">
+						<!-- Circle -->
+						<div class = "bg-dark rounded-circle p-2 bd-highlight" 
+						style="width:35px; height:35px; vertical-align: middle;">
+						</div>
 
-                    <!-- Circle -->
-                    <div class = "bg-dark rounded-circle p-2 bd-highlight" 
-                    style="width:35px; height:35px; vertical-align: middle;">
-                    </div>
+						<!-- Content -->
+						<div class="width-256 margin-left-24 p-2 bd-highlight perk-content">
+							<h2 class = "text-body">Non netus viverra.</h2>
+							<br>
+							<p>Lorem ipsum dolor sit amet,
+								consectetur adipsicing elit. Nam at dictum nunc arcu id.</p>
+						</div>
+					</div>
+				</div>
+				<div class="p-2 bd-highlight margin-left-64 perk-wrapper">
+					<div class="d-flex flex-row bd-highlight mb-3">
 
-                    <!-- Content -->
-                    <div class = "width-256 margin-left-24 p-2 bd-highlight">
-                        <h2 class = "text-body">Non netus viverra.</h2>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet,
-                            consectetur adipsicing elit. Nam at dictum nunc arcu id.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="p-2 bd-highlight margin-left-64">
-                <div class = "d-flex flex-row bd-highlight mb-3 " >
+						<!-- Circle -->
+						<div class = "bg-dark rounded-circle p-2 bd-highlight" 
+						style="width:35px; height:35px; vertical-align: middle;">
+						</div>
 
-                    <!-- Circle -->
-                    <div class = "bg-dark rounded-circle p-2 bd-highlight" 
-                    style="width:35px; height:35px; vertical-align: middle;">
-                    </div>
+						<!-- Content -->
+						<div class="width-256 margin-left-24 p-2 bd-highlight perk-content">
+							<h2 class="text-body">Non netus viverra.</h2>
+							<br>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipsicing elit. Nam at dictum nunc arcu id.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                    <!-- Content -->
-                    <div class = "width-256 margin-left-24  p-2 bd-highlight">
-                        <h2 class = "text-body">Non netus viverra.</h2>
-                        <br>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipsicing elit. Nam at dictum nunc arcu id.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
-        <!-- Second Row -->
-          </div>
-          <div class="d-flex flex-row bd-highlight mb-3 padding-top-32">
-            <div class="p-2 bd-highlight ">
-                <div class = "d-flex flex-row bd-highlight mb-3 " >
-                    <!-- Circle -->
-                    <div class = "bg-dark rounded-circle p-2 bd-highlight" 
-                    style="width:35px; height:35px; vertical-align: middle;">
-                    </div>
+			<!-- Second Row -->
+			<div class="d-flex flex-row bd-highlight mb-3 padding-top-32">
+				<div class="p-2 bd-highlight perk-wrapper">
+					<div class = "d-flex flex-row bd-highlight mb-3 " >
+						<!-- Circle -->
+						<div class = "bg-dark rounded-circle p-2 bd-highlight" 
+						style="width:35px; height:35px; vertical-align: middle;">
+						</div>
 
-                    <!-- Content -->
-                    <div class = "width-256 margin-left-24 p-2 bd-highlight">
-                        <h2 class = "text-body">Non netus viverra.</h2>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet,
-                            consectetur adipsicing elit. Nam at dictum nunc arcu id.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="p-2 bd-highlight margin-left-64">
-                <div class = "d-flex flex-row bd-highlight mb-3 " >
-                    <!-- Circle -->
-                    <div class = "bg-dark rounded-circle p-2 bd-highlight" 
-                    style="width:35px; height:35px; vertical-align: middle;">
-                    </div>
+						<!-- Content -->
+						<div class = "width-256 margin-left-24 p-2 bd-highlight perk-content">
+							<h2 class = "text-body">Non netus viverra.</h2>
+							<br>
+							<p>Lorem ipsum dolor sit amet,
+								consectetur adipsicing elit. Nam at dictum nunc arcu id.</p>
+						</div>
+					</div>
+				</div>
+				<div class="p-2 bd-highlight margin-left-64 perk-wrapper">
+					<div class = "d-flex flex-row bd-highlight mb-3 " >
+						<!-- Circle -->
+						<div class = "bg-dark rounded-circle p-2 bd-highlight" 
+						style="width:35px; height:35px; vertical-align: middle;">
+						</div>
 
-                    <!-- Content -->
-                    <div class = "width-256 margin-left-24  p-2 bd-highlight">
-                        <h2 class = "text-body">Non netus viverra.</h2>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet,
-                            consectetur adipsicing elit. Nam at dictum nunc arcu id.</p>
-                    </div>
-                </div>
-            </div>
-          </div>
-    </div>
+						<!-- Content -->
+						<div class="width-256 margin-left-24 p-2 bd-highlight perk-content">
+							<h2 class = "text-body">Non netus viverra.</h2>
+							<br>
+							<p>Lorem ipsum dolor sit amet,
+								consectetur adipsicing elit. Nam at dictum nunc arcu id.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </section>
 
