@@ -1,6 +1,30 @@
 /* responsive stylesheet */
 
 @media only screen and (max-width: 768px) {
+
+	/* elements */
+	#events-header, #faq-header, #coc-header, #sponsorships-header, #volunteers-header {
+		padding-top: var(--value-48) !important;
+		padding-bottom: var(--value-48) !important;
+	}
+
+	#about-header, #home-header {
+		padding-top: var(--value-48) !important;
+		padding-bottom: var(--value-192) !important;
+	}
+
+	section div.d-flex.justify-content-between {
+		flex-direction: column !important;
+	}
+
+	div.wrapper {
+		width: 100% !important;
+		box-sizing: border-box !important;
+		padding: 0 var(--value-16) !important;
+	}
+
+
+	/* nav.html */
 	#main-nav {
 		height: 4.25rem !important;
 		display: flex;
@@ -11,9 +35,113 @@
 		display: none !important;
 	}
 
-	div.wrapper {
+
+	/* footer.html */
+	footer > div.wrapper {
+		flex-direction: column !important;
+	}
+
+	footer div.column-content {
+		flex-direction: column !important;
+	}
+
+	footer #copyright {
+		margin-bottom: var(--value-48);
+	}
+
+
+	/* index.html */
+	#upcoming-events {
+		margin-bottom: var(--value-64);
+	}
+
+	#current-event-overlap {
+		flex-direction: column !important;
 		width: 100% !important;
+	}
+
+	#current-event-overlap * {
+		word-wrap: break-word;
+	}
+
+	#current-event-overlap .featured-image {
+		width: 100% !important;
+		margin-bottom: var(--value-16);
+	}
+
+
+	/* about.html */
+	#mission-vision-overlap {
 		box-sizing: border-box !important;
-		padding: 0 var(--value-16) !important;
+		flex-direction: column !important;
+		width: 100% !important;
+		margin-top: -8rem !important;
+	}
+
+	#mission-vision-overlap > div {
+		margin: 0 !important;
+		box-sizing: border-box;
+	}
+
+	#mission-vision-overlap #mission {
+		margin-bottom: var(--value-32) !important;
+	}
+
+	#what-we-do .what-we-do-item .featured-image {
+		margin: var(--value-16) 0 !important;
+	}
+
+
+	/* events.html */
+	div.d-flex.event-item {
+		flex-direction: column !important;
+	}
+
+	div.event-item .img_article {
+		max-width: 100% !important;
+		min-width: 100% !important;
+	}
+
+	div.event-item-content {
+		margin: var(--value-16) 0 !important;
+	}
+
+	#events-menu {
+		justify-content: center !important;
+	}
+
+
+	/* coc.html */
+	#references li {
+		word-wrap: break-word !important;
+	}
+
+
+	/* sponsorships.html */
+	#partner-cta {
+		align-items: center;
+		padding: var(--value-16) !important;
+	}
+
+	#partner-cta button {
+		margin-top: var(--value-16);
+	}
+
+
+	/* volunteers.html */
+	#role-responsibilities li {
+		word-wrap: break-word !important;
+	}
+
+	#volunteer-perks > div.d-flex.flex-row {
+		flex-direction: column !important;
+	}
+
+	#volunteer-perks .perk-content {
+		margin-left: var(--value-16) !important;
+	}
+
+	#volunteer-perks .perk-wrapper {
+		margin: 0 !important;
 	}
 }
