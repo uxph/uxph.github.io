@@ -9,7 +9,7 @@
 		border-radius: 40px; 
 	}
 	.unselected:hover{
-		background-color: #c4c4c4;	
+		background-color: #c4c4c4;
 	}
 	.timestamp{
 		color: #989898; 
@@ -17,7 +17,7 @@
 		line-height:23px;
 	}
 	.img_article{
-		background-color: #c4c4c4; 
+		background-color: #c4c4c4;
 		border-radius: 12px; 
 		min-height: 174px;
 		min-width: 174px;
@@ -31,29 +31,56 @@
 	<div class="wrapper">
 		<div>
 			<h1>Featured Event</h1>
-			<div class="padding-top-32 d-flex event-item">
-				<div class="img_article"></div>
-				<div class="margin-left-32 event-item-content">
-					<h2>Do UXsee What I See?</h2>
-					<p class="margin-y-8 timestamp"> January 29, 2020 - 7pm - Cignal HQ</p>
-					<p>Join us and 5 UX leaders as they share their insights on the State of UX in 2020.</p>
-					<div class="margin-y-8">
-						<button class="padding-x-24 padding-y-12 margin-right-8">Get Tickets</button>            
-						<button class="unselected padding-x-24 padding-y-12">Become a Speaker</button>            
+			{{ range .Site.Data.events.current }}
+				<div class="padding-top-32 d-flex event-item">
+					<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
+					<div class="margin-left-32 event-item-content">
+						<h2>{{ .name }}</h2>
+						<p class="margin-y-8 timestamp">{{ .date }} | {{ .time }} | {{ .venue }}</p>
+						<p>{{ .description }}</p>
+						<div class="margin-y-8 margin-top-24">
+							{{ if ne .status "done" }}
+								<a href="{{ .ticket_url }}" target="_blank">
+									<button class="padding-x-24 padding-y-12 margin-right-8">Get Tickets</button>
+								</a>
+							{{ else }}
+								<a href="{{ .blog_url }}" target="_blank">
+									<button class="padding-x-24 padding-y-12 margin-right-8">See Event Recap</button>
+								</a>
+							{{ end }}
+							{{ if ne .become_speaker_url "#" }}
+								<button class="unselected padding-x-24 padding-y-12">Become a Speaker</button>
+							{{ end }}
+						</div>
 					</div>
 				</div>
-			</div>
+			{{ end }}
 		</div>
 	</div>
 </header>
 <section class="padding-y-96">
 	<div class="wrapper">
 		<div id="events-menu" class="d-flex padding-bottom-24">
-			<button class="sort unselected padding-x-24 padding-y-12">All</button>            
-			<button class="sort unselected padding-x-24 padding-y-12">Upcoming Events</button>            
+			<button class="sort unselected padding-x-24 padding-y-12 tertiary">All</button>            
+			<button class="sort unselected padding-x-24 padding-y-12 tertiary">Upcoming Events</button>            
 			<button class="sort padding-x-24 padding-y-12">Past Events</button>            
 		</div>
-		<div class="padding-y-24 d-flex event-item">
+		{{ range .Site.Data.events.past }}
+			<div class="padding-y-24 d-flex event-item">
+				<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
+				<div class="margin-left-32 event-item-content">
+					<h2>{{ .name }}</h2>
+					<p class="margin-y-8 timestamp">{{ .date }} | {{ .time }} | {{ .venue }}</p>
+					<p>{{ .description }}</p>
+					<div class="margin-y-24">
+						<a href="{{ .blog_url }}">
+							<button class="padding-x-24 padding-y-12 margin-right-8 outline">Read More</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		{{ end }}
+		<!-- <div class="padding-y-24 d-flex event-item">
 			<div class="img_article"></div>
 			<div class="margin-left-32 event-item-content">
 				<h2>Enim rhoncus imperdiet congue.</h2>
@@ -85,17 +112,6 @@
 					<button class="padding-x-24 padding-y-12 margin-right-8">Read More</button>            
 				</div>
 			</div>
-		</div>
-		<div class="padding-y-24 d-flex event-item">
-			<div class="img_article"></div>
-			<div class="margin-left-32 event-item-content">
-				<h2>Enim rhoncus imperdiet congue.</h2>
-				<p class="margin-y-8 timestamp"> January 29, 2020 - 7pm - Cignal HQ</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ac varius pharetra sem sodales tellus pellentesque a.</p>
-				<div class="margin-y-12">
-					<button class="padding-x-24 padding-y-12 margin-right-8">Read More</button>            
-				</div>
-			</div>
-		</div>
+		</div> -->
 	</div>
 </section>

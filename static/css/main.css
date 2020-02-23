@@ -86,12 +86,42 @@ button {
 	cursor: pointer;
 	outline: none;
 	border-radius: var(--value-8);
-	background-color: #c4c4c4;
-	font-size: var(--value-12);
-	font-weight: bold;
+	background-color: var(--main-blue);
+	color: white;
+	font-size: 14px;
+	/*font-weight: bold;*/
 	box-shadow: none;
 	border-style: none;
 	padding: var(--value-12) var(--value-24);
+	font-family: 'circular', sans-serif;
+	border: thin solid var(--main-blue);
+	transition: ease all 0.3s;
+}
+
+button:hover {
+	background-color: var(--main-blue-dark);
+	border-color: var(--main-blue-dark);
+}
+
+button.outline {
+	background-color: transparent;
+	color: var(--main-blue);
+}
+
+button.outline:hover {
+	color: var(--main-blue-dark);
+	border-color: var(--main-blue-dark);
+}
+
+button.tertiary {
+	background-color: transparent;
+	border-color: transparent;
+	color: var(--main-blue);
+}
+
+button.tertiary:hover {
+	background-color: var(--main-gray);
+	border-color: var(--main-gray);
 }
 
 div.wrapper {
@@ -103,4 +133,18 @@ div.wrapper {
 #header-logo {
 	display: block;
 	margin: 0 auto !important;
+}
+
+.featured-image-bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.blue {
+	color: var(--main-blue);
+}
+
+.red {
+	color: var(--main-red);
 }

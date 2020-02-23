@@ -1,32 +1,29 @@
 {
-	"role_name": {
-		"name": "<name>",
-		"description": "<description>",
-		"responsibilities": ["<responsibilities>"],
-		"requirements": ["<requirements>"],
-		"url": "<url>"
-	},
+	"web_team": {
+		"name": "Web Team",
+		"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
 
-	"community_manager": {
-		"name": "Community Manager",
-        "description": "The community manager will be the at the core of the organization’s momentum as they will be in charge of engaging with the online and offline community, scheduling meetups, and helping useful and insightful content flow. This role is for a 6 months to 1 year commitment.",
-		"responsibilities": {
-			"a": "Public Relations; UXPH Community Managers will act as the spokespeople for the UXPH Organization.",
-			"b": "Event coordination; Schedule meetups, plan event topics, seek sponsorship, seek speakers, coordinate event logistics on event days, coordinate and manage materials for event days",
-            "c": "Content Curation; create or source content to share with the community, coordinate with the marketing team with regards to social media and event postings",
-            "d": "Community Engagement; Leads the community in achieving its goals, objectives and activities. Conducts him/herself in the highest level of standard representative of the community, motivating and recruiting volunteers and mentors that will serve the needs of the community. Issues sanctions and deals with problematic members of the community in ensuring members uphold the highest code of conduct.",
-            "e": "Sponsorships and Partnerships; Identifies and faces with multiple entities, organizations, individuals towards building fruitful engagements in supporting, and securing funds that support UXPH’s initiatives.",
-            "f": "Depending on circumstance, there is possibility for travel benefits or stipends."
-		},
-		"requirements": {
-			"a": "Strong organizational skills",
-            "b": "Strong written and verbal communication skills",
-            "c": "Outgoing personality and interpersonal skills",
-            "d": "Experience with event coordination is a huge plus; no design background needed",
-            "e": "Experience with social media tools and campaigns is a plus",
-            "f": "Time requirements; 5-15 hours a week on average, more during event and convention periods"
-		},
-		"url": "<url>"
+		"responsibilities": [
+			"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+			"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+			"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+		],
+
+		"requirements": [
+			"Very game to code in HTML, CSS & JavaScript.",
+			"Experience in building websites is a plus.",
+			"Familiarity with product management tools (i.e. GitHub) would be great. ",
+			"Familiarity with Hugo framework would be awesome too!",
+			"Willing to dedicate some time for revisions and/or content updates."
+		],
+
+		"learn": [
+			"The in’s and out’s of the fastest framework for building websites",
+			"Team dynamics and remote collaboration for software development",
+			"Techniques in writing responsible code especially in Front-end Development"
+		],
+
+		"url": "<url>",
+		"team_image_url": "<url>"
 	}
-
 }

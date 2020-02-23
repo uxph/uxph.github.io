@@ -1,17 +1,73 @@
 {
 	"board_members": {
-		"person": {
-			"name": "<name>",
-			"role": "<role>",
+		"aldrich_tan": {
+			"name": "Aldrich Tan",
+			"role": "Managing Director",
+			"image_url": "<url>"
+		},
+
+		"jordan_deja": {
+			"name": "Jordan Deja",
+			"role": "Advisory Board",
+			"image_url": "<url>"
+		},
+
+		"ely_apao": {
+			"name": "Elymar Apao",
+			"role": "Advisory Board",
 			"image_url": "<url>"
 		}
 	},
 
 	"committee_leads": {
+		"kristine_garcia": {
+			"name": "Kristine Garcia",
+			"role": "Volunteers Lead",
+			"image_url": "<url>"
+		},
 
+		"janyl_tamayo": {
+			"name": "Janyl Tamayo",
+			"role": "Events Lead",
+			"image_url": "<url>"
+		},
+
+		"chiara_senires": {
+			"name": "Chiara Señires",
+			"role": "Marketing Lead",
+			"image_url": "<url>"
+		},
+
+		"mike_jaren_yap": {
+			"name": "Mike Jaren Yap",
+			"role": "Web Lead",
+			"image_url": "<url>"
+		},
+
+		"reine_bantang": {
+			"name": "Reine Bantang",
+			"role": "Creative Lead",
+			"image_url": "<url>"
+		}
 	},
 
 	"coordinators": {
+		"mars_quinay": {
+			"name": "Mars Quinay",
+			"role": "Marketing Coordinator",
+			"image_url": "<url>"
+		},
 
+		"pierce_jonota": {
+			"name": "Pierce Jonota",
+			"role": "Events Coordinator",
+			"image_url": "<url>"
+		},
+
+		"richard_parayno": {
+			"name": "Richard Parayno",
+			"role": "Events Coordinator",
+			"image_url": "<url>"
+		}
 	}
 }

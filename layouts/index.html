@@ -29,25 +29,33 @@
 
 		<section class="padding-top-64 padding-bottom-96">
 			<div class="wrapper">
-				<div id="current-event-overlap" class="bg-white rounded shadow padding-y-32 padding-x-32 width-768 d-flex space-between">
-					<div style="width: 256px; height: 200px; background-color: #ccc" class="rounded-lg margin-right-32 featured-image"></div>
-					<div>
-						<h2 class="text-dark">Do UXsee What I See?</h2>
-						<p class="text-black-50 margin-bottom-12">January 29, 2020 - 7pm - Cignal HQ</p>
-						<p class="text-dark padding-bottom-24">
-							Join us and 5 UX leaders as they share their insights on the State of UX in 2020.
-						</p>
+				<div id="current-event-overlap" class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 width-768 d-flex space-between">
+					{{ range .Site.Data.events.current }}
+						<div style="background: url({{ .image_square_url }}); background-size: cover;" class="border-radius-12 margin-right-32 featured-image"></div>
 						<div>
-							<button class="margin-right-4">Get tickets</button>
-							<button>Become a speaker</button>
+							<h2 class="text-dark">{{ .name }}</h2>
+							<p class="text-black-50 margin-bottom-12">{{ .date }} | {{ .time }} | {{ .venue }}</p>
+							<p class="text-dark margin-bottom-24 description">{{ .description }}</p>
+							<div>
+								{{ if ne .status "done" }}
+									<a href="{{ .ticket_url }}" target="_blank">
+										<button class="padding-x-24 padding-y-12 margin-right-8">Get Tickets</button>
+									</a>
+								{{ else }}
+									<a href="{{ .blog_url }}" target="_blank">
+										<button class="padding-x-24 padding-y-12 margin-right-8">See Event Recap</button>
+									</a>
+								{{ end }}
+								{{ if ne .become_speaker_url "#" }}
+									<button class="unselected padding-x-24 padding-y-12">Become a Speaker</button>
+								{{ end }}
+							</div>
 						</div>
-					</div>
+					{{ end }}
 				</div>
 				<div class="margin-top-96">
 					<h1 class="margin-bottom-16">About UXPH</h1>
-					<p class="margin-bottom-24">
-						UXPH is a non-profit organization that hosts the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related. The organization runs annual conferences and monthly meetups to deliver valuable information, insight, and engagement to anyone seeking to learn and improve their craft. The organization aims to help spread awareness and raise the bar for design practices all over the Philippines. Events are free, and online participation is always encouraged. Join our Facebook group!
-					</p>
+					<p class="margin-bottom-24">{{ .Site.Data.info.about_uxph }}</p>
 					<button>Join the Facebook Community</button>
 				</div>
 			</div>
@@ -58,26 +66,12 @@
 				<div>
 					<h2 class="margin-bottom-16">Be a part of the organizing team</h2>
 					<ul class="px-0 py-0 mx-0 my-0" id="volunteer-perks">
-						<li>
-							<i class="far fa-check-circle margin-right-16"></i>
-							<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-						</li>
-						<li>
-							<i class="far fa-check-circle margin-right-16"></i>
-							<span>Venenatis dolor est, pellentesque facilisis.</span>
-						</li>
-						<li>
-							<i class="far fa-check-circle margin-right-16"></i>
-							<span>Ut dignissim massa mauris adipiscing.</span>
-						</li>
-						<li>
-							<i class="far fa-check-circle margin-right-16"></i>
-							<span>Metus lectus a aliquet eu ornare ante laoreet vitae turpis.</span>
-						</li>
-						<li>
-							<i class="far fa-check-circle margin-right-16"></i>
-							<span>Nunc scelerisque enim, dolor id sed id lorem.</span>
-						</li>
+						{{ range .Site.Data.info.organizing_team }}
+							<li>
+								<i class="far fa-check-circle margin-right-16"></i>
+								<span>{{ . }}</span>
+							</li>
+						{{ end }}
 					</ul>
 				</div>
 			</div>
@@ -86,9 +80,7 @@
 		<section class="padding-y-96">
 			<div class="wrapper">
 				<h2 class="margin-bottom-16">Be a community partner</h2>
-				<p class="margin-bottom-24">
-					UXPH hosts monthly meetups and workshops all around Metro Manila. We hold our events at various locations to both showcase companies that are passionate about design and community engagement, and to maximize our reach within the community. If your company or organization would like to partner with us as a venue sponsor, or on any other capacity, please reach out!
-				</p>
+				<p class="margin-bottom-24">{{ .Site.Data.info.community_partner }}</p>
 				<button>Become a sponsor</button>
 			</div>
 		</section>
@@ -106,23 +98,17 @@
 							<p><b>Eu at mauris sit et facilisis nulla.</b></p>
 							<p class="text-secondary">January 20, 2020</p>
 						</div>
-						<button>View more</button>
+						<button class="outline">View more</button>
 					</div>
 					<div id="past-events" class="flex-grow-1">
 						<h2>Past Events</h2>
-						<div class="margin-y-24">
-							<p><b>Vel amet elementum orci aliquet.</b></p>
-							<p class="text-secondary">January 20, 2020</p>
-						</div>
-						<div class="margin-y-24">
-							<p><b>Adipiscing quis ac leo sed.</b></p>
-							<p class="text-secondary">January 20, 2020</p>
-						</div>
-						<div class="margin-y-24">
-							<p><b>Augue et justo tempor elementum.</b></p>
-							<p class="text-secondary">January 20, 2020</p>
-						</div>
-						<button>View more</button>
+						{{ range .Site.Data.events.past }}
+							<div class="margin-y-24">
+								<p><b>{{ .name }}</b></p>
+								<p class="text-secondary">{{ .date }}</p>
+							</div>
+						{{ end }}
+						<button class="outline">View more</button>
 					</div>
 				</div>
 			</div>

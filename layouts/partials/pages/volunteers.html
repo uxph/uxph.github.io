@@ -20,23 +20,16 @@
 	#role-requirements li {
 		line-height: 25px; 
 	}
-
-	button {
-		background-color:#C4C4C4;
-		font-weight: bold;
-		border:none;
-		cursor:pointer;
-	}
-
+	
 	#position {
 		height:78px;
-		margin-top: -18rem;
-		border:none;
-		border-radius: 16px;
+		/*margin-top: -18rem;*/
+		border: none;
 		cursor: pointer;
 		text-indent: 1rem;
 		outline: none;
 		font-family: 'circular', sans-serif;
+		appearance: none;
 	}
 
 </style>
@@ -61,72 +54,50 @@
 
 <section>
 	<div class="wrapper padding-top-48">
-		<select name="position" id="position" class="font-size-16 shadow w-100 bg-white border-radius-96">
-			<option value="Community Manager">Community Manager</option>
+		<select name="position" id="position" class="font-size-16 shadow w-100 bg-white border-radius-12">
+			{{ range .Site.Data.volunteers }}
+				<option value="{{ .name }}">{{ .name }}</option>
+			{{ end }}
 		</select>
 
 		<h1 class="margin-top-96 font-size-32 text-body">
-		   {{ .Site.Data.volunteers.community_manager.name }}</h1>
+		   {{ .Site.Data.volunteers.web_team.name }}</h1>
 		<p class="margin-top-32 margin-bottom-48">
-		   {{ .Site.Data.volunteers.community_manager.description }}
+		   {{ .Site.Data.volunteers.web_team.description }}
 		</p>
 
 		<h2 class="text-secondary">Responsibilities</h2>
 		<ul class="text-body padding-top-16" id="role-responsibilties">
-			<!-- <li>
-				{{ .Site.Data.volunteers.community_manager.responsibilities.a }}
-			</li> -->
-			<li>
-			Public Relations; UXPH Community Managers will act as the spokespeople for the UXPH Organization.
-			</li><br>
-			<li>
-			Event coordination; Schedule meetups, plan event topics, seek sponsorship, seek speakers, coordinate 
-			event logistics on event days, coordinate and manage materials for event days
-			</li><br>
-			<li>
-			Content Curation; create or source content to share with the community, coordinate with the marketing 
-			team with regards to social media and event postings
-			</li><br>
-			<li>
-			Community Engagement; Leads the community in achieving its goals, objectives and activities. Conducts 
-			him/herself in the highest level of standard representative of the community, motivating and recruiting 
-			volunteers and mentors that will serve the needs of the community. Issues sanctions and deals with
-			problematic members of the community in ensuring members uphold the highest code of conduct.
-			</li><br>
-			<li>
-			Sponsorships and Partnerships; Identifies and faces with multiple entities, organizations, individuals 
-			towards building fruitful engagements in supporting, and securing funds that support UXPH’s initiatives.
-			</li><br>
-			<li>
-			Depending on circumstance, there is possibility for travel benefits or stipends.
-			</li><br>
+			{{ range .Site.Data.volunteers.web_team.responsibilities }}
+				<li>{{ . }}</li>
+				<br>
+			{{ end }}
 		</ul>
 	</div>
 </section>
 
 <!-- Requirements Section -->
-<section class="padding-bottom-96">
+<section>
 	<div class="wrapper padding-top-32">
 		<h2 class="text-secondary">Requirements</h2>
 		<ul class= "text-body padding-top-16" id="role-requirements">
-			<li>
-			Strong Organizational skills
-			</li><br>
-			<li>
-			Strong written and verbal communication skills
-			</li><br>
-			<li>
-			Outgoing personality and interpersonal skills
-			</li><br>
-			<li>
-			Experience with event coordination is a huge plus; no design background needed
-			</li><br>
-			<li>
-			Experience with social media tools and campaigns is a plus
-			</li><br>
-			<li>
-			Time requirements; 5-15 hours a week on average, more during event and convention periods
-			</li><br>
+			{{ range .Site.Data.volunteers.web_team.requirements }}
+				<li>{{ . }}</li>
+				<br>
+			{{ end }}
+		</ul>
+	</div>
+</section>
+
+<!-- What You'll Learn Section -->
+<section class="padding-bottom-96">
+	<div class="wrapper padding-top-32">
+		<h2 class="text-secondary">What You'll Learn</h2>
+		<ul class= "text-body padding-top-16" id="role-requirements">
+			{{ range .Site.Data.volunteers.web_team.learn }}
+				<li>{{ . }}</li>
+				<br>
+			{{ end }}
 		</ul>
 
 		<p class="text-body padding-top-32 margin-bottom-32">

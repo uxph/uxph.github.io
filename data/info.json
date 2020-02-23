@@ -13,6 +13,21 @@
 		"UXPH has become the country’s premier community for sharing information, resources, and building networks. As of 2019, the UXPH community has over 3,300 local and international members, all from a wide range of industries related to technology and even traditional businesses."
 	],
 
+	"about_uxph": "UXPH is a non-profit organization that hosts the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related. The organization runs annual conferences and monthly meetups to deliver valuable information, insight, and engagement to anyone seeking to learn and improve their craft. The organization aims to help spread awareness and raise the bar for design practices all over the Philippines. Events are free, and online participation is always encouraged. Join our Facebook group!",
+
+	"organizing_team": [
+		"Adipisicing id adipisicing quis duis in enim occaecat non ullamco mollit aute laborum magna ad.",
+		"Velit ad sint deserunt sit sit dolor sit sit ea sunt labore id esse ut.",
+		"Veniam velit consectetur ullamco tempor dolore consequat aliqua excepteur ut dolor.",
+		"Sint magna magna eiusmod labore ut aliquip quis consectetur minim nostrud tempor aute dolore tempor consequat laboris.",
+		"Aute officia sint sed quis aute labore proident aliqua qui id pariatur ad ad anim aute."
+	],
+
+	"community_partner": "UXPH hosts monthly meetups and workshops all around Metro Manila. We hold our events at various locations to both showcase companies that are passionate about design and community engagement, and to maximize our reach within the community. If your company or organization would like to partner with us as a venue sponsor, or on any other capacity, please reach out!",
+
 	"mission": "To grow and nurture the Filipino creative community through sharing and collaboration.",
-	"vision": "An empowered culture where products and services are built mindfully and sustainably."
+	"vision": "An empowered culture where products and services are built mindfully and sustainably.",
+
+	"monthly_meetups": "UXPH organizes free monthly meetups all around Metro Manila (and soon outside of it).",
+	"conferences": "From 2019 onwards, UXPH is organizing a National Roadshow to connect Filipino design communities all around."
 }
