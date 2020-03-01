@@ -1,0 +1,18 @@
+/* main nav stylesheet */
+
+#main-nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+#main-nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: var(--value-8) var(--value-16);
+}
+
+#nav-logo {
+	width: var(--value-128);
+}

@@ -1,2 +1,25 @@
 <!-- FAQ page -->
-<h1>Frequently Asked Questions</h1>
+<!-- <style>
+	ul{
+		list-style-type: none;
+	}
+	
+	li{
+		font-weight: bold;
+		font-size: 22px;
+		padding-top: var(--value-64) !important;
+	}
+</style> -->
+
+<header id="faq-header" class="padding-y-96">
+	<div class="wrapper">
+		<h1 class="margin-bottom-32">Frequently Asked Questions</h1>
+
+		{{ range .Site.Data.faq }}
+			<div class="margin-bottom-64">
+				<h2 class="margin-bottom-12">{{ .Q }}</h2>
+				<p>{{ .A }}</p>
+			</div>
+		{{ end }}
+	</div>
+</header>
