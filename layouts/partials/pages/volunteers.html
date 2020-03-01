@@ -36,10 +36,10 @@
 
 
 <!-- Intro -->
-<header id="volunteers-header" class="bg-light padding-top-96">
+<header id="volunteers-header" class="bg-light padding-y-96">
 	<div class ="wrapper">
 		<h1 class="font-size-32 text-body">Be part of the organizing team</h1>
-		<p class="margin-top-32 padding-bottom-96">
+		<p class="margin-y-32">
 			We are seeking motivated individuals who want to help the organization grow and engage the greater design community, 
 			while gaining valuable experience and skills from it.
 			<br><br>
@@ -47,19 +47,18 @@
 			info@uxph.org! Please note that all roles are completely 
 			volunteer-based.
 		</p>
+		<select name="position" id="position" class="font-size-16 shadow w-100 bg-white border-radius-12">
+			{{ range .Site.Data.volunteers }}
+				<option value="{{ .name }}">{{ .name }}</option>
+			{{ end }}
+		</select>
 	</div>
 </header>
 
 <!-- Responsibilities Section -->
 
 <section>
-	<div class="wrapper padding-top-48">
-		<select name="position" id="position" class="font-size-16 shadow w-100 bg-white border-radius-12">
-			{{ range .Site.Data.volunteers }}
-				<option value="{{ .name }}">{{ .name }}</option>
-			{{ end }}
-		</select>
-
+	<div class="wrapper">
 		<h1 class="margin-top-96 font-size-32 text-body">
 		   {{ .Site.Data.volunteers.web_team.name }}</h1>
 		<p class="margin-top-32 margin-bottom-48">

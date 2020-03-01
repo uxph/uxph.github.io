@@ -27,12 +27,20 @@
 	/* nav.html */
 	#main-nav {
 		height: 4.25rem !important;
-		display: flex;
+		display: flex !important;
 		align-items: center;
+	}
+
+	#main-nav > div.wrapper {
+		justify-content: flex-start !important;
 	}
 
 	#main-nav ul {
 		display: none !important;
+	}
+
+	#menu-bar {
+		display: block;
 	}
 
 

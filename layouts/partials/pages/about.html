@@ -48,13 +48,15 @@
 		<h1 class="margin-bottom-48">Meet the Team</h1>
 		<div class="margin-bottom-48">
 			<h2 class="text-secondary margin-bottom-32">Board Members</h2>
-			<div class="d-flex justify-content-between flex-wrap team-feed">
+			<div class="d-flex justify-content-between flex-wrap team-feed flex-column">
 				{{ range .Site.Data.team.board_members }}
-					<div class="d-flex align-items-center margin-bottom-32">
-						<div class="featured-image rounded-circle bg-secondary margin-right-16"></div>
-						<div>
+					<div class="d-flex justify-content-between align-items-top margin-bottom-32">
+						<div class="featured-image rounded-circle bg-secondary margin-right-16 flex-grow-1"></div>
+						<div class="flex-shrink-1">
 							<h2>{{ .name }}</h2>
 							<p class="text-secondary">{{ .role }}</p>
+							<br/>
+							<p class="text-secondary">Do ullamco enim do sed elit ea ex sed cillum veniam laboris culpa quis anim exercitation labore. Exercitation fugiat occaecat amet in culpa laboris aliquip occaecat officia consectetur non ut pariatur aliqua cillum labore nostrud in.</p>
 						</div>
 					</div>
 				{{ end }}

@@ -1,6 +1,7 @@
 <!-- Navigation of the website -->
 <nav id="main-nav" class="bg-white">
 	<div class="wrapper d-flex justify-content-between align-items-center">
+		<i class="fas fa-bars margin-right-24" id="menu-bar"></i>
 		<a href="/" class="d-flex align-items-center">
 			<img src="{{ .path }}assets/logos/uxph_logo.svg" id="nav-logo" />
 		</a>
@@ -8,9 +9,31 @@
 			<a href="/"><li>Home</li></a>
 			<a href="/about"><li>About Us</li></a>
 			<a href="/events"><li>Events</li></a>
-			<a href="/sponsorships"><li>Get Involved</li></a>
-			<a href="/volunteers"><li>Volunteers</li></a>
+			<li>
+				Get Involved
+				<div class="position-fixed subnav rounded-bottom">
+					<a href="/sponsorships"><p class="bg-white padding-x-16 padding-y-8 padding-right-48">Sponsorships</p></a>
+					<a href="/volunteers"><p class="bg-white padding-x-16 padding-y-8 padding-right-48 rounded-bottom">Volunteers</p></a>
+				</div>
+			</li>
 			<a href="/faq"><li>FAQ</li></a>
 		</ul>
 	</div>
+</nav>
+
+<nav id="mobile-nav">
+	<i class="fas fa-close" id="menu-close"></i>
+	<ul>
+		<a href="/"><li>Home</li></a>
+		<a href="/about"><li>About Us</li></a>
+		<a href="/events"><li>Events</li></a>
+		<li>
+			Get Involved
+			<div class="subnav rounded-bottom margin-top-12">
+				<a href="/sponsorships"><p class="text-light padding-x-16 padding-y-8">Sponsorships</p></a>
+				<a href="/volunteers"><p class="text-light padding-x-16 padding-y-8 rounded-bottom">Volunteers</p></a>
+			</div>
+		</li>
+		<a href="/faq"><li>FAQ</li></a>
+	</ul>
 </nav>
