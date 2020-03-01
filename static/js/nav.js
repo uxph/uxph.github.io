@@ -6,10 +6,11 @@ $(document).ready(function() {
 		else $('#main-nav').removeClass('shadow-sm');
 	});
 
-	$("#main-nav").click(function() {
-		if($(this).hasClass('show'))
-			$('#mobile-nav').removeClass('show');
+	$("#menu-bar").click(function() {
+		$('#mobile-nav').addClass('show');
+	});
 
-		else $('#mobile-nav').addClass('show');
+	$('#menu-close').click(function() {
+		$('#mobile-nav').removeClass('show');
 	});
 });

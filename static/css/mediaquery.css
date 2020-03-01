@@ -13,6 +13,10 @@
 		padding-bottom: var(--value-192) !important;
 	}
 
+	#home-header::before {
+		top: 0 !important;
+	}
+
 	section div.d-flex.justify-content-between {
 		flex-direction: column !important;
 	}
@@ -41,6 +45,10 @@
 
 	#menu-bar {
 		display: block;
+	}
+
+	#mobile-nav {
+		display: block !important;
 	}
 
 

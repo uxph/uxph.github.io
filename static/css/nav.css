@@ -52,6 +52,7 @@
 
 /* nav drawer */
 #mobile-nav {
+	display: none;
 	position: fixed;
 	top: 0;
 	left: -100%;
@@ -78,4 +79,8 @@
 
 #mobile-nav.show {
 	left: 0;
+}
+
+#menu-close {
+	float: right;
 }
