@@ -19,7 +19,7 @@
 }
 
 #home-header::before {
-	background-color: rgba(0, 123, 191, 0.9);
+	background-color: rgba(0, 58, 137, 0.9);
 	position: absolute;
 	top: 0;
 	content: '';

@@ -15,11 +15,18 @@
 	list-style-type: none;
 	display: inline-block;
 	padding: var(--value-24) var(--value-16);
+	font-weight: 400;
 }
 
 #main-nav ul > a > li {
 	transition: ease all 0.2s;
+	border-bottom: thin solid transparent;
 	z-index: 999;
+}
+
+#main-nav ul > a > li.active {
+	color: var(--main-blue);
+	border-bottom-color: var(--main-blue);
 }
 
 #main-nav ul > a > li:hover {

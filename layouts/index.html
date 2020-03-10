@@ -11,7 +11,7 @@
 			<div class="wrapper padding-bottom-192 padding-top-48 text-white position-relative">
 				<img src="assets/logos/uxph_logo.svg" class="width-192 padding-y-48" id="header-logo" />
 				<h1 class="text-center margin-bottom-8 font-size-32">UX Philippines</h1>
-				<p class="text-center">
+				<p class="text-center subheading">
 					Host of the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related.
 					<br/><br/>
 				</p>
@@ -67,7 +67,7 @@
 						{{ end }}
 					</ul>
 					<a href="/volunteers">
-						<button class="margin-top-24">See Volunteer Opportunities</button>
+						<button class="margin-top-32">See Volunteer Opportunities</button>
 					</a>
 				</div>
 			</div>
@@ -76,9 +76,9 @@
 		<section class="padding-y-96">
 			<div class="wrapper">
 				<h2 class="margin-bottom-16">Be a community partner</h2>
-				<p class="margin-bottom-24">{{ .Site.Data.info.community_partner }}</p>
+				<p>{{ .Site.Data.info.community_partner }}</p>
 				<a href="/sponsorships">
-					<button>Become a sponsor</button>
+					<button class="margin-top-32">Become a sponsor</button>
 				</a>
 			</div>
 		</section>
@@ -89,11 +89,11 @@
 					<div id="upcoming-events" class="flex-grow-1">
 						<h2>Upcoming Events</h2>
 						<div class="margin-y-24">
-							<p><b>Purus egestas mauris turpis.</b></p>
+							<h4><b>Purus egestas mauris turpis.</b></h4>
 							<p class="text-secondary">January 20, 2020</p>
 						</div>
 						<div class="margin-y-24">
-							<p><b>Eu at mauris sit et facilisis nulla.</b></p>
+							<h4><b>Eu at mauris sit et facilisis nulla.</b></h4>
 							<p class="text-secondary">January 20, 2020</p>
 						</div>
 						<a href="/events">
@@ -104,7 +104,7 @@
 						<h2>Past Events</h2>
 						{{ range .Site.Data.events.past }}
 							<div class="margin-y-24">
-								<p><b>{{ .name }}</b></p>
+								<h4><b>{{ .name }}</b></h4>
 								<p class="text-secondary">{{ .date }}</p>
 							</div>
 						{{ end }}
@@ -119,5 +119,6 @@
 		<!-- Footer -->
 		{{ partial "components/footer" (dict "path" "") }}
 		<link rel="stylesheet" type="text/css" href="../css/homepage.css" />
+		<script type="text/javascript">setActive(0);</script>
 	</body>
 </html>

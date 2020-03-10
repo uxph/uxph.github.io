@@ -14,3 +14,10 @@ $(document).ready(function() {
 		$('#mobile-nav').removeClass('show');
 	});
 });
+
+function setActive(n) {
+	let main_nav = $('#main-nav ul li');
+	$(main_nav).removeClass('active');
+	$(main_nav[n]).addClass('active');
+	console.log(main_nav, n);
+}
