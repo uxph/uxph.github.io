@@ -16,6 +16,125 @@
 	},
 
 	"upcoming": {
+		"designHers": {
+			"name": "DesignHers",
+			"date": "March 26, 2020",
+			"time": "#",
+			"venue": "#",
+			"description": "#",
+			"image_square_url": "#",
+			"image_banner_url": "#",
+			"ticket_url": "#",
+			"become_speaker_url": "#",
+			"blog_url": "/#",
+			"status": "#"
+		},
+
+		"apr2020": {
+			"name": "Meetup (Co-presented by UXSEA)",
+			"date": "April 18, 2020",
+			"time": "#",
+			"venue": "#",
+			"description": "#",
+			"image_square_url": "#",
+			"image_banner_url": "#",
+			"ticket_url": "#",
+			"become_speaker_url": "#",
+			"blog_url": "/#",
+			"status": "#"
+		},
+		"may2020": {
+			"name": "May Meetup",
+			"date": "May 28, 2020",
+			"time": "#",
+			"venue": "#",
+			"description": "#",
+			"image_square_url": "#",
+			"image_banner_url": "#",
+			"ticket_url": "#",
+			"become_speaker_url": "#",
+			"blog_url": "/#",
+			"status": "#"
+		},
+		"june2020": {
+			"name": "Conference",
+			"date": "June #, 2020",
+			"time": "#",
+			"venue": "#",
+			"description": "#",
+			"image_square_url": "#",
+			"image_banner_url": "#",
+			"ticket_url": "#",
+			"become_speaker_url": "#",
+			"blog_url": "/#",
+			"status": "#"
+		},
+		"july2020": {
+			"name": "July Meetup",
+			"date": "July 30, 2020",
+			"time": "#",
+			"venue": "#",
+			"description": "#",
+			"image_square_url": "#",
+			"image_banner_url": "#",
+			"ticket_url": "#",
+			"become_speaker_url": "#",
+			"blog_url": "/#",
+			"status": "#"
+		},
+		"aug2020": {
+			"name": "Conference",
+			"date": "August #, 2020",
+			"time": "#",
+			"venue": "#",
+			"description": "#",
+			"image_square_url": "#",
+			"image_banner_url": "#",
+			"ticket_url": "#",
+			"become_speaker_url": "#",
+			"blog_url": "/#",
+			"status": "#"
+		},
+		"sep2020": {
+			"name": "September Meetup",
+			"date": "September 24, 2020",
+			"time": "#",
+			"venue": "#",
+			"description": "#",
+			"image_square_url": "#",
+			"image_banner_url": "#",
+			"ticket_url": "#",
+			"become_speaker_url": "#",
+			"blog_url": "/#",
+			"status": "#"
+		},
+		"oct2020": {
+			"name": "Conference",
+			"date": "October #, 2020",
+			"time": "#",
+			"venue": "#",
+			"description": "#",
+			"image_square_url": "#",
+			"image_banner_url": "#",
+			"ticket_url": "#",
+			"become_speaker_url": "#",
+			"blog_url": "/#",
+			"status": "#"
+		},
+		"nov2020": {
+			"name": "Community Socials",
+			"date": "November 26, 2020",
+			"time": "#",
+			"venue": "#",
+			"description": "#",
+			"image_square_url": "#",
+			"image_banner_url": "#",
+			"ticket_url": "#",
+			"become_speaker_url": "#",
+			"blog_url": "/#",
+			"status": "#"
+		}
+
 
 	},
 
