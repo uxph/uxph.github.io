@@ -107,6 +107,11 @@
 		margin: var(--value-16) 0 !important;
 	}
 
+	#meet-the-team .team-feed > div {
+		flex: 0 100% !important;
+		width: 100% !important;
+	}
+
 
 	/* events.html */
 	div.d-flex.event-item {
