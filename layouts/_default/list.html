@@ -1,0 +1,15 @@
+{{ if eq .Type "single" }}
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ .Title }} - {{ .Site.Data.info.site_name }}</title>
+			{{ partial "components/meta" (dict "path" "../") }}
+		</head>
+		<body>
+			{{ partial "components/nav" (dict "path" "../") }}
+			{{ partial .Params.page . }}
+			{{ partial "components/footer" (dict "path" "../")  }}
+			<script type="text/javascript">setActive({{ .Params.active }})</script>
+		</body>
+	</html>
+{{ end }}
