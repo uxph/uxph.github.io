@@ -10,7 +10,8 @@
 			"image_banner_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F91864785%2F312770456981%2F1%2Foriginal.20200211-005042?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3280%2C1440&s=dc974df15f310bfa69db5c4c03468b99",
 			"ticket_url": "https://wiad2020manila.eventbrite.com",
 			"become_speaker_url": "#",
-			"blog_url": "/wiad-2020",
+			"blog_url": "/blogs/wiad-2020",
+			"livestream_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F504338016951633%2F&show_text=0&width=560",
 			"status": "done"
 		}
 	},
@@ -27,6 +28,7 @@
 			"ticket_url": "#",
 			"become_speaker_url": "#",
 			"blog_url": "/#",
+			"livestream_url": "#",
 			"status": "#"
 		},
 
@@ -41,6 +43,7 @@
 			"ticket_url": "#",
 			"become_speaker_url": "#",
 			"blog_url": "/#",
+			"livestream_url": "#",
 			"status": "#"
 		},
 
@@ -55,6 +58,7 @@
 			"ticket_url": "#",
 			"become_speaker_url": "#",
 			"blog_url": "/#",
+			"livestream_url": "#",
 			"status": "#"
 		},
 
@@ -69,6 +73,7 @@
 			"ticket_url": "#",
 			"become_speaker_url": "#",
 			"blog_url": "/#",
+			"livestream_url": "#",
 			"status": "#"
 		},
 
@@ -83,6 +88,7 @@
 			"ticket_url": "#",
 			"become_speaker_url": "#",
 			"blog_url": "/#",
+			"livestream_url": "#",
 			"status": "#"
 		},
 
@@ -97,6 +103,7 @@
 			"ticket_url": "#",
 			"become_speaker_url": "#",
 			"blog_url": "/#",
+			"livestream_url": "#",
 			"status": "#"
 		},
 
@@ -111,6 +118,7 @@
 			"ticket_url": "#",
 			"become_speaker_url": "#",
 			"blog_url": "/#",
+			"livestream_url": "#",
 			"status": "#"
 		},
 
@@ -125,6 +133,7 @@
 			"ticket_url": "#",
 			"become_speaker_url": "#",
 			"blog_url": "/#",
+			"livestream_url": "#",
 			"status": "#"
 		},
 
@@ -139,10 +148,9 @@
 			"ticket_url": "#",
 			"become_speaker_url": "#",
 			"blog_url": "/#",
+			"livestream_url": "#",
 			"status": "#"
 		}
-
-
 	},
 
 	"past": {
@@ -156,7 +164,8 @@
 			"image_banner_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F88407673%2F312770456981%2F1%2Foriginal.20200120-094421?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=c05e01c1163f248492248a07ab6b1a12",
 			"ticket_url": "https://www.eventbrite.com/e/2020-vision-do-uxsee-what-i-see-tickets-90085906371?fbclid=IwAR1bckzqaciAYwt1G_2XH1TnJcffC2XodlgbtD9xI7udcahiff7MCtzKUY4#",
 			"become_speaker_url": "#",
-			"blog_url": "/do-uxsee-what-i-see",
+			"blog_url": "/blogs/do-uxsee-what-i-see",
+			"livestream_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F554095255203202%2F&show_text=0&width=560",
 			"status": "done"
 		}
 	}

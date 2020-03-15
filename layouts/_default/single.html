@@ -1,13 +1,43 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>{{ .Title }} - {{ .Site.Data.info.site_name }}</title>
-        {{ partial "components/meta" (dict "path" "../") }}
-    </head>
-    <body>
-        {{ partial "components/nav" (dict "path" "../") }}
-        {{ partial .Params.page . }}
-        {{ partial "components/footer" (dict "path" "../")  }}
-        <script type="text/javascript">setActive({{ .Params.active }})</script>
-    </body>
-</html>
+{{ if eq .Type "single" }}
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ .Title }} - {{ .Site.Data.info.site_name }}</title>
+			{{ partial "components/meta" (dict "path" "../") }}
+		</head>
+		<body>
+			{{ partial "components/nav" (dict "path" "../") }}
+			{{ partial .Params.page . }}
+			{{ partial "components/footer" (dict "path" "../")  }}
+			<script type="text/javascript">setActive({{ .Params.active }})</script>
+		</body>
+	</html>
+{{ end }}
+
+{{ if eq .Type "blog" }}
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ .Title }} - {{ .Site.Data.info.site_name }}</title>
+			{{ partial "components/meta" (dict "path" "../../") }}
+		</head>
+		<body>
+			{{ partial "components/nav" (dict "path" "../../") }}
+			<header class="bg-dark">
+				<iframe src="{{ .Params.livestream }}" height="560" style="border:none;overflow:hidden; margin: auto; display: block; width: 100%" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+			</header>
+			<section class="padding-y-96">
+				<div class="wrapper">
+					<div class="margin-bottom-32">
+						<h1 class="margin-bottom-8">{{ .Title }}</h1>
+						<h3>{{ .Params.publish }}</h3>
+					</div>
+					{{ .Content }}
+					<br/>
+				</div>
+			</section>
+			{{ partial "components/footer" (dict "path" "../../")  }}
+			<script type="text/javascript">setActive({{ .Params.active }})</script>
+		</body>
+	</html>
+{{ end }}

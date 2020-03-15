@@ -10,6 +10,7 @@
 	}
 	.unselected:hover{
 		background-color: #c4c4c4;
+		color: white;
 	}
 	.timestamp{
 		color: #989898; 
@@ -60,11 +61,10 @@
 </header>
 <section class="padding-y-96">
 	<div class="wrapper">
-		<!-- <div id="events-menu" class="d-flex padding-bottom-24">
-			<button class="sort unselected padding-x-24 padding-y-12 tertiary">All</button>            
+		<div id="events-menu" class="d-flex padding-bottom-24">         
 			<button class="sort unselected padding-x-24 padding-y-12 tertiary">Upcoming Events</button>            
 			<button class="sort padding-x-24 padding-y-12">Past Events</button>            
-		</div> -->
+		</div>
 		<h1 class="margin-bottom-32">Past Events</h1>
 		{{ range .Site.Data.events.past }}
 			<div class="padding-y-24 d-flex event-item">
