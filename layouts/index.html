@@ -56,30 +56,38 @@
 
 		<section class="bg-light padding-y-96">
 			<div class="wrapper">
-				<div>
-					<h2 class="margin-bottom-16">Be a part of the organizing team</h2>
-					<ul class="px-0 py-0 mx-0 my-0" id="volunteer-perks">
-						{{ range .Site.Data.info.organizing_team }}
-							<li>
-								<i class="far fa-check-circle margin-right-16"></i>
-								<span>{{ . }}</span>
-							</li>
-						{{ end }}
-					</ul>
-					<a href="/volunteers">
-						<button class="margin-top-32">See Volunteer Opportunities</button>
-					</a>
+				<div class="flex-wrapper d-flex justify-content-between align-items-center">
+					<img src="assets/images/organizing-team-square.png" class="featured-image d-block margin-right-32" />
+					<div>
+						<h2 class="margin-bottom-16">Be a part of the organizing team</h2>
+						<ul class="px-0 py-0 mx-0 my-0" id="volunteer-perks">
+							{{ range .Site.Data.info.organizing_team }}
+								<li>
+									<i class="far fa-check-circle margin-right-16"></i>
+									<span>{{ . }}</span>
+								</li>
+							{{ end }}
+						</ul>
+						<a href="/volunteers">
+							<button class="margin-top-32">See Volunteer Opportunities</button>
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<section class="padding-y-96">
 			<div class="wrapper">
-				<h2 class="margin-bottom-16">Be a community partner</h2>
-				<p>{{ .Site.Data.info.community_partner }}</p>
-				<a href="/sponsorships">
-					<button class="margin-top-32">Become a sponsor</button>
-				</a>
+				<div class="flex-wrapper d-flex justify-content-between align-items-center">
+					<div>
+						<h2 class="margin-bottom-16">Be a community partner</h2>
+						<p>{{ .Site.Data.info.community_partner }}</p>
+						<a href="/sponsorships">
+							<button class="margin-top-32">Become a sponsor</button>
+						</a>
+					</div>
+					<img src="assets/images/community-circle.png" class="featured-image d-block margin-left-32" />
+				</div>
 			</div>
 		</section>
 
