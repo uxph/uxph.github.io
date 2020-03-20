@@ -17,6 +17,12 @@
 		top: 0 !important;
 	}
 
+	.flex-wrapper .featured-image {
+		width: 100% !important;
+		margin: 0 auto !important;
+		margin-bottom: var(--value-32) !important;
+	}
+
 	section div.d-flex.justify-content-between {
 		flex-direction: column !important;
 	}

@@ -5,6 +5,10 @@
 	height: 40%;
 }
 
+.flex-wrapper-reverse {
+	flex-direction: row-reverse;
+}
+
 #home-header {
 	/*background: url(https://scontent.fmnl6-2.fna.fbcdn.net/v/t1.0-9/80548013_1251668998371502_151504503214964736_o.jpg?_nc_cat=106&_nc_ohc=UKmgOAGI8iIAX-xS9Bb&_nc_ht=scontent.fmnl6-2.fna&oh=241cb0876aa66b12b8b1eb1ef93be01f&oe=5EBE4159);*/
 	background: url(../assets/images/web-cover-photo.png);
