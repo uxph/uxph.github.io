@@ -200,3 +200,8 @@ section#gmaps{
 #role-info{
     width: 270%;
 }
+
+/** Code of conduct **/
+section#code-of-conduct ul li{
+    margin-bottom: 1.3em;
+}
