@@ -3,20 +3,15 @@
 	<head>
 		<title>{{ .Site.Data.info.site_name }}</title>
 		{{ partial "components/meta" (dict "path" "") }}
-
-		<style>
-			button{
-				border-width: 1.5px !important;
-			}
-
-		</style>
 	</head>
 	<body>
 		<!-- Navigation -->
 		{{ partial "components/nav" (dict "path" "") }}
 		<header id="home-header" class="bg-dark">
 			<div class="wrapper padding-bottom-192 padding-top-48 text-white position-relative">
-				<img src="assets/logos/uxph_logo.svg" class="width-192 padding-y-48" id="header-logo" />
+				<a href="/">
+					<img src="assets/logos/uxph_logo.svg" class="width-192 padding-y-48" id="header-logo" />
+				</a>
 				<h1 class="text-center margin-bottom-8 font-size-32">UX Philippines</h1>
 				<p class="text-center subheading">
 					Host of the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related.

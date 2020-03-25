@@ -106,7 +106,7 @@ li {
 button {
 	cursor: pointer;
 	outline: none;
-	border-radius: var(--value-8);
+	border-radius: var(--value-4);
 	background-color: var(--main-blue);
 	color: white;
 	font-size: 14px;
@@ -116,6 +116,7 @@ button {
 	padding: var(--value-12) var(--value-24);
 	font-family: 'Roboto', sans-serif;
 	border: thin solid var(--main-blue);
+	border-width: 1.5px;
 	transition: ease all 0.3s;
 }
 

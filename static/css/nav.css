@@ -7,8 +7,13 @@
 	z-index: 999;
 }
 
+#main-nav div.wrapper {
+	transition: ease all 0.3s;
+}
+
 #main-nav ul {
 	margin: 0 !important;
+	padding-left: 0;
 }
 
 #main-nav ul li {
@@ -34,6 +39,11 @@
 }
 
 #nav-logo {
+	width: 0;
+	transition: ease all 0.3s;
+}
+
+#nav-logo.show {
 	width: var(--value-128);
 }
 
