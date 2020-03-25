@@ -3,6 +3,13 @@
 	<head>
 		<title>{{ .Site.Data.info.site_name }}</title>
 		{{ partial "components/meta" (dict "path" "") }}
+
+		<style>
+			button{
+				border-width: 1.5px !important;
+			}
+
+		</style>
 	</head>
 	<body>
 		<!-- Navigation -->
@@ -24,6 +31,7 @@
 					{{ range .Site.Data.events.current }}
 						<div style="background: url({{ .image_square_url }}); background-size: cover;" class="border-radius-12 margin-right-32 featured-image"></div>
 						<div>
+							<h3 class = "text-secondary margin-bottom-8">Our latest event</h3>
 							<h2 class="text-dark">{{ .name }}</h2>
 							<p class="text-black-50 margin-bottom-12">{{ .date }} | {{ .time }} | {{ .venue }}</p>
 							<p class="text-dark margin-bottom-24 description">{{ .description }}</p>
@@ -34,7 +42,7 @@
 									</a>
 								{{ else }}
 									<a href="{{ .blog_url }}" target="_blank">
-										<button class="padding-x-24 padding-y-12 margin-right-8">See Event Recap</button>
+										<button class="padding-x-24 padding-y-12 margin-right-8 rounded-sm">See Event Recap</button>
 									</a>
 								{{ end }}
 								{{ if ne .become_speaker_url "#" }}
@@ -48,7 +56,8 @@
 					<h1 class="margin-bottom-16">About UXPH</h1>
 					<p class="margin-bottom-24">{{ .Site.Data.info.about_uxph }}</p>
 					<a href="https://www.facebook.com/groups/uxphilippines/" target="_blank">
-						<button>Join the Facebook Community</button>
+						<button class = "ux-blue" style = "border: 0px"><i class="fab fa-facebook-f "></i> Join the Facebook Group </button>
+						<button class = "ux-blue" style = "border: 0px"><i class="fab fa-facebook-f"></i> Facebook Page</button>
 					</a>
 				</div>
 			</div>
@@ -84,7 +93,7 @@
 						<h2 class="margin-bottom-16">Be a community partner</h2>
 						<p>{{ .Site.Data.info.community_partner }}</p>
 						<a href="/sponsorships">
-							<button class="margin-top-32">Become a sponsor</button>
+							<button class="margin-top-32">Learn More</button>
 						</a>
 					</div>
 				</div>

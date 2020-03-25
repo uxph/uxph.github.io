@@ -169,3 +169,7 @@ div.wrapper {
 .red {
 	color: var(--main-red);
 }
+
+.ux-blue{
+	background-color: var(--uxph-blue-1);
+}
