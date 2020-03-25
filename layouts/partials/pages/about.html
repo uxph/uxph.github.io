@@ -12,17 +12,13 @@
 
 </style>
 
-
-
-
-
 <header id="about-header" class="bg-light padding-top-96 padding-bottom-192">
 	<div class="wrapper">
 		<div>
-		<h1 class="margin-bottom-32">About Us</h1>
+		<h1 class="margin-bottom-32">About UXPH</h1>
 			<div class="margin-bottom-32 about-image"></div>
 			{{ range .Site.Data.info.about_us }}
-				<p class="margin-bottom-32">{{ . }}</p>
+				<p class="margin-bottom-16">{{ . }}</p>
 			{{ end }}
 		</div>
 	</div>
@@ -41,7 +37,7 @@
 			</div>
 		</div>
 
-		<h1 class="margin-bottom-32 margin-top-96">What We Do</h1>
+		<h1 class="margin-bottom-32 margin-top-96">Organization Initiatives</h1>
 		<div class="d-flex justify-content-between margin-bottom-48 what-we-do-item">
 			<div style="background: url(https://scontent.fmnl6-2.fna.fbcdn.net/v/t1.0-9/67623356_1105284413009962_5937634103074488320_o.jpg?_nc_cat=108&_nc_ohc=8mP4lFPb3GsAX9c0aZq&_nc_ht=scontent.fmnl6-2.fna&oh=7758f9a1c644af5abf2e9f1da3f4c5b7&oe=5EF4BDB4); background-size: cover; background-position: center;" class="border-radius-12 bg-secondary margin-right-32 featured-image flex-grow-1"></div>
 			<div>
@@ -50,12 +46,34 @@
 				<button class="outline">View our events</button>
 			</div>
 		</div>
-		<div class="d-flex justify-content-between what-we-do-item">
+		<div class="d-flex justify-content-between margin-bottom-48 what-we-do-item">
 			<div style="background: url(https://scontent.fmnl6-1.fna.fbcdn.net/v/t1.0-9/81040016_1251664141705321_4898711282590416896_o.jpg?_nc_cat=102&_nc_ohc=5E9VoKuKursAX-2msXh&_nc_ht=scontent.fmnl6-1.fna&oh=2b688a29fe2845f70cd67abc7dd296d7&oe=5EC25375); background-size: cover; background-position: center;" class="border-radius-12 bg-secondary margin-right-32 featured-image flex-grow-1"></div>
 			<div>
-				<h2 class="margin-bottom-16">Conferences and other programs</h2>
+				<h2 class="margin-bottom-16">Workshops and Keynotes</h2>
+				<p class="margin-bottom-24">{{ .Site.Data.info.conferences }}</p>
+				<button class="outline">View our workshops</button>
+			</div>
+		</div>
+		<div class="d-flex justify-content-between margin-bottom-48 what-we-do-item">
+			<div style="background: url(https://scontent.fmnl6-1.fna.fbcdn.net/v/t1.0-9/81040016_1251664141705321_4898711282590416896_o.jpg?_nc_cat=102&_nc_ohc=5E9VoKuKursAX-2msXh&_nc_ht=scontent.fmnl6-1.fna&oh=2b688a29fe2845f70cd67abc7dd296d7&oe=5EC25375); background-size: cover; background-position: center;" class="border-radius-12 bg-secondary margin-right-32 featured-image flex-grow-1"></div>
+			<div>
+				<h2 class="margin-bottom-16">Design Conferences</h2>
 				<p class="margin-bottom-24">{{ .Site.Data.info.conferences }}</p>
 				<button class="outline">Visit our conference website</button>
+			</div>
+		</div>		<div class="d-flex justify-content-between margin-bottom-48 what-we-do-item">
+			<div style="background: url(https://scontent.fmnl6-1.fna.fbcdn.net/v/t1.0-9/81040016_1251664141705321_4898711282590416896_o.jpg?_nc_cat=102&_nc_ohc=5E9VoKuKursAX-2msXh&_nc_ht=scontent.fmnl6-1.fna&oh=2b688a29fe2845f70cd67abc7dd296d7&oe=5EC25375); background-size: cover; background-position: center;" class="border-radius-12 bg-secondary margin-right-32 featured-image flex-grow-1"></div>
+			<div>
+				<h2 class="margin-bottom-16">UX Bootcamp (Coming Soon)</h2>
+				<p class="margin-bottom-24">{{ .Site.Data.info.conferences }}</p>
+				<button class="outline">View our UX Bootcamp</button>
+			</div>
+		</div>		<div class="d-flex justify-content-between what-we-do-item">
+			<div style="background: url(https://scontent.fmnl6-1.fna.fbcdn.net/v/t1.0-9/81040016_1251664141705321_4898711282590416896_o.jpg?_nc_cat=102&_nc_ohc=5E9VoKuKursAX-2msXh&_nc_ht=scontent.fmnl6-1.fna&oh=2b688a29fe2845f70cd67abc7dd296d7&oe=5EC25375); background-size: cover; background-position: center;" class="border-radius-12 bg-secondary margin-right-32 featured-image flex-grow-1"></div>
+			<div>
+				<h2 class="margin-bottom-16">Design Mentorship</h2>
+				<p class="margin-bottom-24">{{ .Site.Data.info.conferences }}</p>
+				<button class="outline">View our mentorship programs</button>
 			</div>
 		</div>
 	</div>
@@ -63,7 +81,7 @@
 
 <section id="meet-the-team" class="padding-bottom-128">
 	<div class="wrapper">
-		<h1 class="margin-bottom-48">Meet the Team</h1>
+		<h1 class="margin-bottom-48">Organazing Members</h1>
 		<div class="margin-bottom-48">
 			<h2 class="text-secondary margin-bottom-32">Board Members</h2>
 			<div class="d-flex justify-content-between flex-wrap team-feed">
