@@ -1,25 +1,38 @@
 <!-- FAQ page -->
-<!-- <style>
-	ul{
-		list-style-type: none;
+<style type="text/css">
+	#topic-select > p {
+		cursor: pointer;
+		margin-bottom: var(--value-16);
+		transition: ease all 0.2s;
 	}
-	
-	li{
-		font-weight: bold;
-		font-size: 22px;
-		padding-top: var(--value-64) !important;
+
+	#topic-select > p.active {
+		color: var(--main-blue) !important;
 	}
-</style> -->
+
+	#topic-select > p:hover {
+		color: var(--main-red) !important;
+	}
+</style>
 
 <header id="faq-header" class="padding-y-96">
 	<div class="wrapper">
 		<h1 class="margin-bottom-64">Frequently Asked Questions</h1>
-
-		{{ range .Site.Data.faq }}
-			<div class="margin-bottom-64">
-				<h2 class="margin-bottom-12">{{ .Q }}</h2>
-				<p>{{ .A }}</p>
+		<div class="d-flex justify-content-between">
+			<div class="margin-right-48 width-384" id="topic-select">
+				<p class="active text-secondary"><b>All topics</b></p>
+				<p class="text-secondary"><b>FAQ Topic 1</b></p>
+				<p class="text-secondary"><b>FAQ Topic 2</b></p>
+				<p class="text-secondary"><b>FAQ Topic 3</b></p>
 			</div>
-		{{ end }}
+			<div>
+				{{ range .Site.Data.faq }}
+					<div class="margin-bottom-64">
+						<h2 class="margin-bottom-12">{{ .Q }}</h2>
+						<p>{{ .A }}</p>
+					</div>
+				{{ end }}
+			</div>
+		</div>
 	</div>
 </header>
