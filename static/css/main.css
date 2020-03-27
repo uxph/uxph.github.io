@@ -174,3 +174,31 @@ div.wrapper {
 .ux-blue{
 	background-color: var(--uxph-blue-1);
 }
+
+/* Back-to-top button styling */
+div#back-to-top {
+	position: fixed;
+	padding: 1em 1.2em;
+	z-index: 999;
+	bottom: 5%;
+	right: 2%;
+	cursor: pointer;
+	color: var(--main-blue);
+	border: 2px solid var(--main-blue);
+	border-radius: 0.5em;
+	background-color: transparent;
+	transition: ease all 0.5s;
+}
+
+div#back-to-top.hide {
+	right: -8em;
+}
+
+div#back-to-top:hover {
+	color: var(--main-blue-dark);
+	border-color: var(--main-blue-dark);
+}
+
+div#back-to-top i {
+	font-size: 1.1em;
+}

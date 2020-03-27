@@ -100,4 +100,5 @@
 
 #menu-close {
 	float: right;
+	margin: var(--value-24);
 }

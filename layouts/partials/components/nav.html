@@ -1,7 +1,9 @@
 <!-- Navigation of the website -->
 <nav id="main-nav" class="bg-white">
 	<div class="wrapper d-flex justify-content-center align-items-center">
-		<i class="las la-bars fa-2x margin-right-16" id="menu-bar"></i>
+		<!-- <i class="las la-bars fa-2x margin-right-16" id="menu-bar"></i> -->
+		<img src="{{ .path }}assets/icons/menu_options.svg" id="menu-bar" width="30" />
+
 		<a href="/" class="d-flex align-items-center">
 			<img src="{{ .path }}assets/logos/uxph_logo.svg" id="nav-logo" />
 		</a>
@@ -22,7 +24,8 @@
 </nav>
 
 <nav id="mobile-nav">
-	<i class="las la-times fa-2x margin-x-24 margin-y-24" id="menu-close"></i>
+	<!-- <i class="las la-times fa-2x margin-x-24 margin-y-24" id="menu-close"></i> -->
+	<img src="{{ .path }}assets/icons/close.svg" id="menu-close" width="30" />
 	<br/><br/><br/>
 	<ul>
 		<a href="/"><li>Home</li></a>

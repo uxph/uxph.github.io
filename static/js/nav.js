@@ -35,6 +35,14 @@ $(document).ready(function() {
 	$('#menu-close').click(function() {
 		$('#mobile-nav').removeClass('show');
 	});
+
+	$('#back-to-top').click(function() {
+		$("html, body").animate({scrollTop: 0}, 400);
+	});
+});
+
+$(document).scroll(function() {
+	$(this).scrollTop() >= 655 ? $('#back-to-top').removeClass('hide') : $('#back-to-top').addClass('hide');
 });
 
 function setActive(n) {
