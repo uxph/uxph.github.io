@@ -1,0 +1,5 @@
+/* blog stylesheet */
+
+#blog-content p {
+	padding-bottom: var(--value-24);
+}
