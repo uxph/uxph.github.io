@@ -1,17 +1,17 @@
 {
 	"current": {
-		"wiad": {
-			"name": "World IA Day 2020: The IA Element",
-			"date": "February 22, 2020",
-			"time": "1PM - 5PM",
-			"venue": "Asia Pacific College",
-			"description": "UXPH, in partnership with Asia Pacific College, is bringing back World IA Day 2020 in Manila on February 22, Saturday! World IA Day was created to celebrate Information Architecture (IA) and to empower local leaders to keep growing and sharing this knowledge within their communities.",
-			"image_square_url": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/84723630_1296705917201143_2020853344800604160_o.jpg?_nc_cat=108&_nc_ohc=4tmd7kDxQwkAX-VD-Be&_nc_ht=scontent.fmnl17-1.fna&oh=43611decca9eb585c8b1406fd1bf09a4&oe=5EBA0DFF",
-			"image_banner_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F91864785%2F312770456981%2F1%2Foriginal.20200211-005042?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3280%2C1440&s=dc974df15f310bfa69db5c4c03468b99",
-			"ticket_url": "https://wiad2020manila.eventbrite.com",
+		"remoteffc01": {
+			"name": "RemoteFFC #01: Enhanced Work From Home",
+			"date": "April 3, 2020",
+			"time": "7PM - 10PM",
+			"venue": "Livestream via Zoom and YouTube",
+			"description": "Just because you're getting used to working at home doesn't mean you can't do your best work. Learn all about working from home as UXPH and Philippine Web Designers Organization hosts our first ever remote meetup featuring digital nomads and remote-first companies.",
+			"image_square_url": "https://scontent.fmnl5-1.fna.fbcdn.net/v/t1.0-9/91438331_1345155805689487_2754924828338159616_o.png?_nc_cat=109&_nc_sid=730e14&_nc_oc=AQnHNe2XzzXktgmbsUaBpnfWcEOmI8UP4hGQyyF8P_TF0xM8G_t2xnCGeAqjlcF-z9g&_nc_ht=scontent.fmnl5-1.fna&oh=73dbcc8cc929ee48e7015cd4ecbe4c2c&oe=5EAC85E8",
+			"image_banner_url": "#",
+			"ticket_url": "https://remoteffc01.eventbrite.com",
 			"become_speaker_url": "#",
-			"blog_url": "/events/wiad-2020",
-			"livestream_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F504338016951633%2F&show_text=0&width=560",
+			"blog_url": "#",
+			"livestream_url": "bit.ly/RemoteFFC01Livestream",
 			"status": "done"
 		}
 	},
@@ -167,6 +167,21 @@
 			"blog_url": "/blogs/do-uxsee-what-i-see",
 			"livestream_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F554095255203202%2F&show_text=0&width=560",
 			"status": "done"
+		},
+		"wiad": {
+			"name": "World IA Day 2020: The IA Element",
+			"date": "February 22, 2020",
+			"time": "1PM - 5PM",
+			"venue": "Asia Pacific College",
+			"description": "UXPH, in partnership with Asia Pacific College, is bringing back World IA Day 2020 in Manila on February 22, Saturday! World IA Day was created to celebrate Information Architecture (IA) and to empower local leaders to keep growing and sharing this knowledge within their communities.",
+			"image_square_url": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/84723630_1296705917201143_2020853344800604160_o.jpg?_nc_cat=108&_nc_ohc=4tmd7kDxQwkAX-VD-Be&_nc_ht=scontent.fmnl17-1.fna&oh=43611decca9eb585c8b1406fd1bf09a4&oe=5EBA0DFF",
+			"image_banner_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F91864785%2F312770456981%2F1%2Foriginal.20200211-005042?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3280%2C1440&s=dc974df15f310bfa69db5c4c03468b99",
+			"ticket_url": "https://wiad2020manila.eventbrite.com",
+			"become_speaker_url": "#",
+			"blog_url": "/events/wiad-2020",
+			"livestream_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F504338016951633%2F&show_text=0&width=560",
+			"status": "done"
 		}
+
 	}
 }
