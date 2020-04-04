@@ -1,5 +1,5 @@
 /* blog stylesheet */
 
-#blog-content p {
+#blog-content p, #blog-content h2, #blog-content h3 {
 	padding-bottom: var(--value-24);
 }
