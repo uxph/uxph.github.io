@@ -1,29 +1,44 @@
 {
-	"web_team": {
-		"name": "Web Team",
-		"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
+	"blurb": {
+		"description": "#",
+		"img_url": "#"
+	},
 
-		"responsibilities": [
-			"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
-			"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
-			"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
-		],
+	"perks": {
+		"perk_name": {
+			"name": "<name>",
+			"description": "<description>",
+			"icon": "<icon>"
+		}
+	},
 
-		"requirements": [
-			"Very game to code in HTML, CSS & JavaScript.",
-			"Experience in building websites is a plus.",
-			"Familiarity with product management tools (i.e. GitHub) would be great. ",
-			"Familiarity with Hugo framework would be awesome too!",
-			"Willing to dedicate some time for revisions and/or content updates."
-		],
+	"teams": {
+		"web_team": {
+			"name": "Web Team",
+			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
 
-		"learn": [
-			"The in’s and out’s of the fastest framework for building websites",
-			"Team dynamics and remote collaboration for software development",
-			"Techniques in writing responsible code especially in Front-end Development"
-		],
+			"responsibilities": [
+				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+			],
 
-		"url": "<url>",
-		"team_image_url": "<url>"
+			"requirements": [
+				"Very game to code in HTML, CSS & JavaScript.",
+				"Experience in building websites is a plus.",
+				"Familiarity with product management tools (i.e. GitHub) would be great. ",
+				"Familiarity with Hugo framework would be awesome too!",
+				"Willing to dedicate some time for revisions and/or content updates."
+			],
+
+			"learn": [
+				"The in’s and out’s of the fastest framework for building websites",
+				"Team dynamics and remote collaboration for software development",
+				"Techniques in writing responsible code especially in Front-end Development"
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		}
 	}
 }

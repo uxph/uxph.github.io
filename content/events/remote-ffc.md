@@ -18,7 +18,7 @@ livestream: "https://www.youtube.com/embed/-amLnZxpDEA?version=3&amp;frameborder
 	#PWDO #UXPH #RemoteFFC #EnhancedWFH
 </span>
 
-<p> Team Management Tools </p>
+<h3>Team Management Tools</h3>
 
 <ul>
     <li>Sococo / Remo / Sneek Google Meet (Team Coworking)</li>
@@ -30,20 +30,20 @@ livestream: "https://www.youtube.com/embed/-amLnZxpDEA?version=3&amp;frameborder
     <li><a href = "https://www.process.st/" target="blank" class="blue"> Process.st (Communication with hiring) </a></li>
 </ul>
 
-<p> Design Tools </p>
+<h3 class="margin-top-32">Design Tools</h3>
 
 <ul>
     <li>Figma</li>
 </ul>
 
-<p> Development Tools </p>
+<h3 class="margin-top-32">Development Tools</h3>
 
 <ul>
     <li><a href = "https://www.teamviewer.com/en/" target="blank" class="blue"> Teamviewer </a></li>
     <li><a href = "https://screen.so/#/home" target="blank" class="blue"> Screen.so </a></li>
 </ul>
 
-<p>Remote Work Articles</p>
+<h3 class="margin-top-32">Remote Work Articles</h3>
 <ul>
     <li><a href = "https://zapier.com/learn/remote-work/" target="blank" class="blue"> Zapier.com </a></li>
 </ul>

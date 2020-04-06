@@ -1,17 +1,23 @@
 <!-- FAQ page -->
 <style type="text/css">
-	#topic-select > p {
+	#topic-select > small {
+		display: block;
 		cursor: pointer;
 		margin-bottom: var(--value-16);
+		padding-left: var(--value-16);
 		transition: ease all 0.2s;
+		line-height: var(--value-24);
+		border-left: thick solid transparent;
 	}
 
-	#topic-select > p.active {
+	#topic-select > small.active {
 		color: var(--main-blue) !important;
+		border-color: var(--main-blue) !important;
 	}
 
-	#topic-select > p:hover {
+	#topic-select > small:hover {
 		color: var(--main-red) !important;
+		border-color: var(--main-red) !important
 	}
 </style>
 
@@ -20,10 +26,13 @@
 		<h1 class="margin-bottom-64">Frequently Asked Questions</h1>
 		<div class="d-flex justify-content-between">
 			<div class="margin-right-48 width-384" id="topic-select">
-				<p class="active text-secondary"><b>All topics</b></p>
-				<p class="text-secondary"><b>FAQ Topic 1</b></p>
-				<p class="text-secondary"><b>FAQ Topic 2</b></p>
-				<p class="text-secondary"><b>FAQ Topic 3</b></p>
+				<small class="active text-secondary"><b>All topics</b></small>
+				<small class="text-secondary"><b>Code of Conduct</b></small>
+				<small class="text-secondary"><b>Community and Volunteering</b></small>
+				<small class="text-secondary"><b>Events</b></small>
+				<small class="text-secondary"><b>Certificates</b></small>
+				<small class="text-secondary"><b>Conferences</b></small>
+				<small class="text-secondary"><b>Purchases</b></small>
 			</div>
 			<div>
 				{{ range .Site.Data.faq }}

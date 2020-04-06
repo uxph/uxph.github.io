@@ -154,20 +154,6 @@
 	},
 
 	"past": {
-		"do_uxsee_what_i_see": {
-			"name": "Do UXSee What I See?",
-			"date": "January 29, 2020",
-			"time": "6PM - 9PM",
-			"venue": "Cignal HQ",
-			"description": "Join us and 5 UX leaders as they share their insights on the State of UX in 2020. Get up to date on the different UX trends we’ve seen last year, and what we might expect in the upcoming year in this interactive panel discussion.",
-			"image_square_url": "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/83404936_1276848685853533_9176945008048078848_o.jpg?_nc_cat=102&_nc_ohc=wHLvg6BSugoAX_ObEMN&_nc_ht=scontent.fmnl17-2.fna&oh=8e22fcc0ca06e15ccdcc24818e161992&oe=5EFFEC1A",
-			"image_banner_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F88407673%2F312770456981%2F1%2Foriginal.20200120-094421?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=c05e01c1163f248492248a07ab6b1a12",
-			"ticket_url": "https://www.eventbrite.com/e/2020-vision-do-uxsee-what-i-see-tickets-90085906371?fbclid=IwAR1bckzqaciAYwt1G_2XH1TnJcffC2XodlgbtD9xI7udcahiff7MCtzKUY4#",
-			"become_speaker_url": "#",
-			"blog_url": "/events/do-ux-see-what-i-see",
-			"livestream_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F554095255203202%2F&show_text=0&width=560",
-			"status": "done"
-		},
 		"wiad": {
 			"name": "World IA Day 2020: The IA Element",
 			"date": "February 22, 2020",
@@ -180,8 +166,24 @@
 			"become_speaker_url": "#",
 			"blog_url": "/events/wiad-2020",
 			"livestream_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F504338016951633%2F&show_text=0&width=560",
-			"status": "done"
+			"status": "done",
+			"event_id": 1
+		},
+		
+		"do-ux-see-what-i-see": {
+			"name": "Do UXSee What I See?",
+			"date": "January 29, 2020",
+			"time": "6PM - 9PM",
+			"venue": "Cignal HQ",
+			"description": "Join us and 5 UX leaders as they share their insights on the State of UX in 2020. Get up to date on the different UX trends we’ve seen last year, and what we might expect in the upcoming year in this interactive panel discussion.",
+			"image_square_url": "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/83404936_1276848685853533_9176945008048078848_o.jpg?_nc_cat=102&_nc_ohc=wHLvg6BSugoAX_ObEMN&_nc_ht=scontent.fmnl17-2.fna&oh=8e22fcc0ca06e15ccdcc24818e161992&oe=5EFFEC1A",
+			"image_banner_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F88407673%2F312770456981%2F1%2Foriginal.20200120-094421?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=c05e01c1163f248492248a07ab6b1a12",
+			"ticket_url": "https://www.eventbrite.com/e/2020-vision-do-uxsee-what-i-see-tickets-90085906371?fbclid=IwAR1bckzqaciAYwt1G_2XH1TnJcffC2XodlgbtD9xI7udcahiff7MCtzKUY4#",
+			"become_speaker_url": "#",
+			"blog_url": "/events/do-ux-see-what-i-see",
+			"livestream_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F554095255203202%2F&show_text=0&width=560",
+			"status": "done",
+			"event_id": 0
 		}
-
 	}
 }

@@ -66,7 +66,7 @@
 			<button class="sort padding-x-24 padding-y-12">Past Events</button>            
 		</div>
 		<h1 class="margin-bottom-32">Past Events</h1>
-		{{ range .Site.Data.events.past }}
+		{{ range sort .Site.Data.events.past ".event_id" "desc" }}
 			<div class="padding-y-24 d-flex event-item">
 				<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
 				<div class="margin-left-32 event-item-content">

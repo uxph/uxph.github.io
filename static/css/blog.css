@@ -1,5 +1,9 @@
 /* blog stylesheet */
 
-#blog-content p, #blog-content h2, #blog-content h3 {
+#blog-content p, #blog-content h2 {
 	padding-bottom: var(--value-24);
+}
+
+#blog-content ul li {
+	margin-bottom: var(--value-16);
 }

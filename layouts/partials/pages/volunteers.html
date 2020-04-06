@@ -48,70 +48,15 @@
 			volunteer-based.
 		</p>
 		<select name="position" id="position" class="font-size-16 shadow w-100 bg-white border-radius-12">
-			{{ range .Site.Data.volunteers }}
+			{{ range .Site.Data.volunteers.teams }}
 				<option value="{{ .name }}">{{ .name }}</option>
 			{{ end }}
 		</select>
 	</div>
 </header>
 
-<!-- Responsibilities Section -->
-
-<section>
-	<div class="wrapper">
-		<h1 class="margin-top-96 font-size-32 text-body">
-		   {{ .Site.Data.volunteers.web_team.name }}</h1>
-		<p class="margin-top-32 margin-bottom-48">
-		   {{ .Site.Data.volunteers.web_team.description }}
-		</p>
-
-		<h2 class="text-secondary">Responsibilities</h2>
-		<ul class="text-body padding-top-16" id="role-responsibilties">
-			{{ range .Site.Data.volunteers.web_team.responsibilities }}
-				<li>{{ . }}</li>
-				<br>
-			{{ end }}
-		</ul>
-	</div>
-</section>
-
-<!-- Requirements Section -->
-<section>
-	<div class="wrapper padding-top-32">
-		<h2 class="text-secondary">Requirements</h2>
-		<ul class= "text-body padding-top-16" id="role-requirements">
-			{{ range .Site.Data.volunteers.web_team.requirements }}
-				<li>{{ . }}</li>
-				<br>
-			{{ end }}
-		</ul>
-	</div>
-</section>
-
-<!-- What You'll Learn Section -->
-<section class="padding-bottom-96">
-	<div class="wrapper padding-top-32">
-		<h2 class="text-secondary">What You'll Learn</h2>
-		<ul class= "text-body padding-top-16" id="role-requirements">
-			{{ range .Site.Data.volunteers.web_team.learn }}
-				<li>{{ . }}</li>
-				<br>
-			{{ end }}
-		</ul>
-
-		<p class="text-body padding-top-32 margin-bottom-32">
-			Please send all you CV/Resume and cover letter (optional) to 
-			recruitment@uxph.org and we'll get back to you at the soonest for a chat!
-		</p>
-		<button class="padding-x-32 padding-y-12 rounded-lg margin-bottom-32">
-			Download Role Description
-		</button>
-	</div>
-</section>
-
 <!-- Volunteer Perks Section -->
-
-<section class="bg-light padding-y-96">
+<section class="bg-light padding-y-16 padding-bottom-96">
 	<div class="wrapper">
 		<h1 class="text-body font-size-32">Volunteer Perks</h1>
 
@@ -191,6 +136,57 @@
 			</div>
 		</div>
 	</div>
-
 </section>
 
+<!-- Responsibilities Section -->
+<section>
+	<div class="wrapper">
+		<h1 class="margin-top-96 font-size-32 text-body">
+		   {{ .Site.Data.volunteers.web_team.name }}</h1>
+		<p class="margin-top-32 margin-bottom-48">
+		   {{ .Site.Data.volunteers.web_team.description }}
+		</p>
+
+		<h2 class="text-secondary">Responsibilities</h2>
+		<ul class="text-body padding-top-16" id="role-responsibilties">
+			{{ range .Site.Data.volunteers.web_team.responsibilities }}
+				<li>{{ . }}</li>
+				<br>
+			{{ end }}
+		</ul>
+	</div>
+</section>
+
+<!-- Requirements Section -->
+<section>
+	<div class="wrapper padding-top-32">
+		<h2 class="text-secondary">Requirements</h2>
+		<ul class= "text-body padding-top-16" id="role-requirements">
+			{{ range .Site.Data.volunteers.web_team.requirements }}
+				<li>{{ . }}</li>
+				<br>
+			{{ end }}
+		</ul>
+	</div>
+</section>
+
+<!-- What You'll Learn Section -->
+<section class="padding-bottom-96">
+	<div class="wrapper padding-top-32">
+		<h2 class="text-secondary">What You'll Learn</h2>
+		<ul class= "text-body padding-top-16" id="role-requirements">
+			{{ range .Site.Data.volunteers.web_team.learn }}
+				<li>{{ . }}</li>
+				<br>
+			{{ end }}
+		</ul>
+
+		<p class="text-body padding-top-32 margin-bottom-32">
+			Please send all you CV/Resume and cover letter (optional) to 
+			recruitment@uxph.org and we'll get back to you at the soonest for a chat!
+		</p>
+		<button class="padding-x-32 padding-y-12 rounded-lg margin-bottom-32">
+			Download Role Description
+		</button>
+	</div>
+</section>
