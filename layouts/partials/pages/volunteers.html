@@ -31,6 +31,21 @@
 		font-family: 'Roboto', sans-serif;
 		appearance: none;
 	}
+	ul li {
+		padding: 4px 0px; 
+	}
+
+	.show_list{
+		margin-top:0px;
+		opacity: 1;
+		transition: 2s;
+		
+	}
+	.hide_list{
+		margin-top: 50px;
+		opacity: 0;
+		position: absolute;
+	}
 
 </style>
 
@@ -38,20 +53,10 @@
 <!-- Intro -->
 <header id="volunteers-header" class="bg-light padding-y-96">
 	<div class ="wrapper">
-		<h1 class="font-size-32 text-body">Be part of the organizing team</h1>
+		<h1 class="font-size-32 text-body">Volunteer with UXPH</h1>
 		<p class="margin-y-32">
-			We are seeking motivated individuals who want to help the organization grow and engage the greater design community, 
-			while gaining valuable experience and skills from it.
-			<br><br>
-			Check out the roles below and send your applications to 
-			info@uxph.org! Please note that all roles are completely 
-			volunteer-based.
+			{{.Site.Data.volunteers.blurb.description}}
 		</p>
-		<select name="position" id="position" class="font-size-16 shadow w-100 bg-white border-radius-12">
-			{{ range .Site.Data.volunteers.teams }}
-				<option value="{{ .name }}">{{ .name }}</option>
-			{{ end }}
-		</select>
 	</div>
 </header>
 
@@ -72,10 +77,9 @@
 
 						<!-- Content -->
 						<div class="width-256 margin-left-24 p-2 bd-highlight perk-content">
-							<h2 class = "text-body">Non netus viverra.</h2>
+							<h2 class = "text-body">{{.Site.Data.volunteers.perks.perk1.name}}</h2>
 							<br>
-							<p>Lorem ipsum dolor sit amet,
-								consectetur adipsicing elit. Nam at dictum nunc arcu id.</p>
+							<p>{{.Site.Data.volunteers.perks.perk1.description}}</p>
 						</div>
 					</div>
 				</div>
@@ -89,10 +93,10 @@
 
 						<!-- Content -->
 						<div class="width-256 margin-left-24 p-2 bd-highlight perk-content">
-							<h2 class="text-body">Non netus viverra.</h2>
+							<h2 class="text-body">{{.Site.Data.volunteers.perks.perk2.name}}</h2>
 							<br>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipsicing elit. Nam at dictum nunc arcu id.
+								{{.Site.Data.volunteers.perks.perk2.description}}
 							</p>
 						</div>
 					</div>
@@ -110,10 +114,11 @@
 
 						<!-- Content -->
 						<div class = "width-256 margin-left-24 p-2 bd-highlight perk-content">
-							<h2 class = "text-body">Non netus viverra.</h2>
+							<h2 class = "text-body">{{.Site.Data.volunteers.perks.perk3.name}}</h2>
 							<br>
-							<p>Lorem ipsum dolor sit amet,
-								consectetur adipsicing elit. Nam at dictum nunc arcu id.</p>
+							<p>
+								{{.Site.Data.volunteers.perks.perk3.description}}
+							</p>
 						</div>
 					</div>
 				</div>
@@ -126,10 +131,11 @@
 
 						<!-- Content -->
 						<div class="width-256 margin-left-24 p-2 bd-highlight perk-content">
-							<h2 class = "text-body">Non netus viverra.</h2>
+							<h2 class = "text-body">{{.Site.Data.volunteers.perks.perk4.name}}</h2>
 							<br>
-							<p>Lorem ipsum dolor sit amet,
-								consectetur adipsicing elit. Nam at dictum nunc arcu id.</p>
+							<p>
+								{{.Site.Data.volunteers.perks.perk4.description}}								
+							</p>
 						</div>
 					</div>
 				</div>
@@ -137,6 +143,51 @@
 		</div>
 	</div>
 </section>
+
+<section class="bg-light padding-y-16">
+	<div class ="wrapper">
+		<h1 class="text-body font-size-32 margin-y-32">Volunteer Openings</h1>
+		<select onchange="getVal()" name="position" id="position" class=" margin-y-32 font-size-16 shadow w-100 bg-white border-radius-12">
+			{{ range .Site.Data.volunteers.teams }}
+				<option value="{{ .name }}">{{ .name }}</option>
+			{{ end }}
+		</select>
+	</div>
+</section>
+
+<!-- Positions Available-->
+<section class="bg-light padding-y-16" style="min-height: 250px;">
+	<div class="wrapper">
+		<h2 class="text-secondary">Positions Available</h2>
+		<ul id="pos_events" class="show_list">
+			{{ range .Site.Data.volunteers.teams.events.positions }}
+				<li>{{ . }}</li>
+			{{ end }}
+		</ul>
+		<ul id="pos_marketing" class="hide_list">
+			{{ range .Site.Data.volunteers.teams.marketing.positions }}
+				<li>{{ . }}</li>
+			{{ end }}
+		</ul>
+		<ul id="pos_partners" class="hide_list">
+			{{ range .Site.Data.volunteers.teams.partnerships.positions }}
+				<li>{{ . }}</li>
+			{{ end }}
+		</ul>
+		<ul id="pos_speakers" class="hide_list">
+			{{ range .Site.Data.volunteers.teams.speakers.positions }}
+				<li>{{ . }}</li>
+			{{ end }}
+		</ul>
+		<ul id="pos_web" class="hide_list">
+			{{ range .Site.Data.volunteers.teams.web_team.positions }}
+				<li>{{ . }}</li>
+			{{ end }}
+		</ul>
+
+	</div>
+</section>
+
 
 <!-- Responsibilities Section -->
 <section>
@@ -174,6 +225,7 @@
 <section class="padding-bottom-96">
 	<div class="wrapper padding-top-32">
 		<h2 class="text-secondary">What You'll Learn</h2>
+
 		<ul class= "text-body padding-top-16" id="role-requirements">
 			{{ range .Site.Data.volunteers.web_team.learn }}
 				<li>{{ . }}</li>
@@ -190,3 +242,52 @@
 		</button>
 	</div>
 </section>
+
+<script>
+function getVal(){
+	posVal = document.getElementById("position").value;
+	
+	var events = document.getElementById('pos_events');
+	var marketing = document.getElementById('pos_marketing');
+	var speaker = document.getElementById('pos_speakers');
+	var partners = document.getElementById('pos_partners');
+	var web = document.getElementById('pos_web');
+
+	var list = [events, marketing, speaker, partners, web];
+
+	switch(posVal){
+		case "Events":
+			l = 0;
+			break;
+		case "Marketing":
+			l = 1;
+		break;
+		case "Speakers and Workshop":
+			l = 2;
+		break;
+		case "Partnerships":
+			l = 3;
+		break;
+		case "Web":
+			l = 4;
+		break;
+		default:
+			l = 0;
+		break;
+	}
+
+	console.log(l);
+	for(i = 0; i < 5; i++){
+		if(i === l){
+			list[i].classList.add("show_list");
+			list[i].classList.remove("hide_list");						
+			console.log(list[i]);
+		}else{
+			if(list[i].classList.contains("show_list"))
+				list[i].classList.remove("show_list");
+			if(list[i].classList.contains("hide_list") !== 0)
+				list[i].classList.add("hide_list");						
+		}
+	}
+}
+</script>
