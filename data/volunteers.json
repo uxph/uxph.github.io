@@ -1,21 +1,167 @@
 {
 	"blurb": {
-		"description": "#",
+		"description": "UXPH is always looking for passionate and enthusiastic individuals who want to be a part of the growing Filipino design community! Whether you're a professional, student, or simply a design enthusiast, we're happy to have you join us! Check out our openings below.",
 		"img_url": "#"
 	},
 
 	"perks": {
-		"perk_name": {
-			"name": "<name>",
-			"description": "<description>",
-			"icon": "<icon>"
+		"perk1": {
+			"name": "Access to the largest network of UX designers in the Philippines",
+			"description": "Just by joining UXPH you already gain access to an invaluable network of designers to connect, share, and collaborate with",
+			"icon": "fas fa-users"
+		},
+		"perk2": {
+			"name": "Ongoing mentorship and learning",
+			"description": "UXPH works with some of the country's most experienced designers. As a way to give back to the community, they offer ongoing mentorship for those seeking to learn and improve their craft.",
+			"icon": "fas fa-chalkboard-teacher"
+		},
+		"perk3": {
+			"name": "Community events and avenues to learn more skills",
+			"description": "To be a community organizer, you'll need to practice a few disciplines outside of UX design. There's no better way to learn by doing!",
+			"icon": "fas fa-calendar"
+		},
+		"perk4": {
+			"name": "Career opportunities",
+			"description": "UXPH works with forward-thinking companies who values design and collaboration. Being a part of UXPH puts you at the forefront for job openings and internships.",
+			"icon": "fas fa-briefcase"
 		}
 	},
 
 	"teams": {
 		"web_team": {
-			"name": "Web Team",
+			"name": "Web",
 			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
+
+			"positions": [
+				"Front-End Web Developer",
+				"Mobile App Developer",
+				"User Experience Designer"
+			],
+	
+			"responsibilities": [
+				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+			],
+
+			"requirements": [
+				"Very game to code in HTML, CSS & JavaScript.",
+				"Experience in building websites is a plus.",
+				"Familiarity with product management tools (i.e. GitHub) would be great. ",
+				"Familiarity with Hugo framework would be awesome too!",
+				"Willing to dedicate some time for revisions and/or content updates."
+			],
+
+			"learn": [
+				"The in’s and out’s of the fastest framework for building websites",
+				"Team dynamics and remote collaboration for software development",
+				"Techniques in writing responsible code especially in Front-end Development"
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		},
+		"marketing": {
+			"name": "Marketing",
+			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
+
+			"positions": [
+				"Marketing Coordinator"
+			],
+
+			"responsibilities": [
+				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+			],
+
+			"requirements": [
+				"Very game to code in HTML, CSS & JavaScript.",
+				"Experience in building websites is a plus.",
+				"Familiarity with product management tools (i.e. GitHub) would be great. ",
+				"Familiarity with Hugo framework would be awesome too!",
+				"Willing to dedicate some time for revisions and/or content updates."
+			],
+
+			"learn": [
+				"The in’s and out’s of the fastest framework for building websites",
+				"Team dynamics and remote collaboration for software development",
+				"Techniques in writing responsible code especially in Front-end Development"
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		},
+		"events": {
+			"name": "Events",
+			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
+
+			"positions": [
+				"Event coordinator",
+				"Event volunteer"
+			],
+
+			"responsibilities": [
+				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+			],
+
+			"requirements": [
+				"Very game to code in HTML, CSS & JavaScript.",
+				"Experience in building websites is a plus.",
+				"Familiarity with product management tools (i.e. GitHub) would be great. ",
+				"Familiarity with Hugo framework would be awesome too!",
+				"Willing to dedicate some time for revisions and/or content updates."
+			],
+
+			"learn": [
+				"The in’s and out’s of the fastest framework for building websites",
+				"Team dynamics and remote collaboration for software development",
+				"Techniques in writing responsible code especially in Front-end Development"
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		},
+		"partnerships": {
+			"name": "Partnerships",
+			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
+
+			"positions": [
+				"Sponsorship coordinator"
+			],
+
+			"responsibilities": [
+				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+			],
+
+			"requirements": [
+				"Very game to code in HTML, CSS & JavaScript.",
+				"Experience in building websites is a plus.",
+				"Familiarity with product management tools (i.e. GitHub) would be great. ",
+				"Familiarity with Hugo framework would be awesome too!",
+				"Willing to dedicate some time for revisions and/or content updates."
+			],
+
+			"learn": [
+				"The in’s and out’s of the fastest framework for building websites",
+				"Team dynamics and remote collaboration for software development",
+				"Techniques in writing responsible code especially in Front-end Development"
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		},
+		"speakers": {
+			"name": "Speakers and Workshop",
+			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
+
+			"positions": [
+				"Speakers /  Workshop Facilitators"
+			],
 
 			"responsibilities": [
 				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
