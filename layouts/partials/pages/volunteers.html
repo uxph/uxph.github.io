@@ -31,7 +31,7 @@
 		font-family: 'Roboto', sans-serif;
 		appearance: none;
 	}
-	ul li {
+	#pos_sect ul li {
 		padding: 4px 0px; 
 	}
 
@@ -45,6 +45,14 @@
 		margin-top: 50px;
 		opacity: 0;
 		position: absolute;
+	}
+	.rounded-circle{
+		color: #ddd;
+		text-align: center;
+	}
+	.rounded-circle i{
+		line-height: 34px;
+		font-size: 24px !important;
 	}
 
 </style>
@@ -73,6 +81,7 @@
 						<!-- Circle -->
 						<div class = "bg-dark rounded-circle p-2 bd-highlight" 
 						style="width:35px; height:35px; vertical-align: middle;">
+						<i class="{{.Site.Data.volunteers.perks.perk1.icon}}"></i>
 						</div>
 
 						<!-- Content -->
@@ -89,6 +98,7 @@
 						<!-- Circle -->
 						<div class = "bg-dark rounded-circle p-2 bd-highlight" 
 						style="width:35px; height:35px; vertical-align: middle;">
+						<i class="{{.Site.Data.volunteers.perks.perk2.icon}}"></i>
 						</div>
 
 						<!-- Content -->
@@ -110,6 +120,7 @@
 						<!-- Circle -->
 						<div class = "bg-dark rounded-circle p-2 bd-highlight" 
 						style="width:35px; height:35px; vertical-align: middle;">
+						<i class="{{.Site.Data.volunteers.perks.perk3.icon}}"></i>
 						</div>
 
 						<!-- Content -->
@@ -127,6 +138,7 @@
 						<!-- Circle -->
 						<div class = "bg-dark rounded-circle p-2 bd-highlight" 
 						style="width:35px; height:35px; vertical-align: middle;">
+						<i class="{{.Site.Data.volunteers.perks.perk4.icon}}"></i>
 						</div>
 
 						<!-- Content -->
@@ -157,7 +169,7 @@
 
 <!-- Positions Available-->
 <section class="bg-light padding-y-16" style="min-height: 250px;">
-	<div class="wrapper">
+	<div class="wrapper" id="pos_sect">
 		<h2 class="text-secondary">Positions Available</h2>
 		<ul id="pos_events" class="show_list">
 			{{ range .Site.Data.volunteers.teams.events.positions }}

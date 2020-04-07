@@ -8,22 +8,22 @@
 		"perk1": {
 			"name": "Access to the largest network of UX designers in the Philippines",
 			"description": "Just by joining UXPH you already gain access to an invaluable network of designers to connect, share, and collaborate with",
-			"icon": "<icon>"
+			"icon": "fas fa-users"
 		},
 		"perk2": {
 			"name": "Ongoing mentorship and learning",
 			"description": "UXPH works with some of the country's most experienced designers. As a way to give back to the community, they offer ongoing mentorship for those seeking to learn and improve their craft.",
-			"icon": "<icon>"
+			"icon": "fas fa-chalkboard-teacher"
 		},
 		"perk3": {
 			"name": "Community events and avenues to learn more skills",
 			"description": "To be a community organizer, you'll need to practice a few disciplines outside of UX design. There's no better way to learn by doing!",
-			"icon": "<icon>"
+			"icon": "fas fa-calendar"
 		},
 		"perk4": {
 			"name": "Career opportunities",
 			"description": "UXPH works with forward-thinking companies who values design and collaboration. Being a part of UXPH puts you at the forefront for job openings and internships.",
-			"icon": "<icon>"
+			"icon": "fas fa-briefcase"
 		}
 	},
 
