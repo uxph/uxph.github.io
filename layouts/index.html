@@ -13,7 +13,7 @@
 					<img src="assets/logos/uxph_logo.svg" class="width-192 padding-y-48" id="header-logo" />
 				</a>
 				<h1 class="text-center margin-bottom-8 font-size-32">UX Philippines</h1>
-				<p class="text-center subheading">
+				<p class="text-center subheading width-640 mx-auto">
 					Host of the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related.
 					<br/><br/>
 				</p>
@@ -22,7 +22,7 @@
 
 		<section class="padding-top-64 padding-bottom-96">
 			<div class="wrapper">
-				<div id="current-event-overlap" class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 width-768 d-flex space-between">
+				<div id="current-event-overlap" class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 w-100 d-flex space-between">
 					{{ range .Site.Data.events.current }}
 						<div style="background: url({{ .image_square_url }}); background-size: cover;" class="border-radius-12 margin-right-32 featured-image"></div>
 						<div>
@@ -66,6 +66,7 @@
 					<img src="assets/images/organizing-team-square.png" class="featured-image d-block margin-right-32" />
 					<div>
 						<h2 class="margin-bottom-16">Be a part of the organizing team</h2>
+						<p>{{ .Site.Data.volunteers.blurb.description }}</p>
 						<ul class="px-0 py-0 mx-0 my-0" id="volunteer-perks">
 							{{ range .Site.Data.info.organizing_team }}
 								<li>

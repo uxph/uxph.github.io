@@ -148,7 +148,7 @@ button.tertiary:hover {
 }
 
 div.wrapper {
-	width: var(--value-768);
+	width: 896px;
 	padding: 0 var(--value-64);
 	margin: auto;
 }
@@ -170,6 +170,14 @@ div.wrapper {
 
 .red {
 	color: var(--main-red);
+}
+
+.bg-blue {
+	background-color: var(--main-blue);
+}
+
+.bg-red {
+	background-color: var(--main-red);
 }
 
 .ux-blue{
