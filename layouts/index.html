@@ -49,7 +49,9 @@
 				</div>
 				<div class="margin-top-96">
 					<h1 class="margin-bottom-16">About UXPH</h1>
-					<p class="margin-bottom-24">{{ .Site.Data.info.about_uxph }}</p>
+					{{ range .Site.Data.info.about_us }}
+						<p class="margin-bottom-24">{{ . }}</p>
+					{{ end }}
 					<a href="https://www.facebook.com/groups/uxphilippines/" target="_blank">
 						<button class = "ux-blue" style = "border: 0px"><i class="fab fa-facebook-f "></i> Join the Facebook Group </button>
 						<button class = "ux-blue" style = "border: 0px"><i class="fab fa-facebook-f"></i> Facebook Page</button>
@@ -100,14 +102,13 @@
 				<div class="d-flex justify-content-between">
 					<div id="upcoming-events" class="flex-grow-1">
 						<h2>Upcoming Events</h2>
+						{{ range .Site.Data.events.upcoming }}
 						<div class="margin-y-24">
-							<h4><b>Purus egestas mauris turpis.</b></h4>
-							<p class="text-secondary">January 20, 2020</p>
+							<h4><b> {{ .name }} </b></h4>
+							<p class="text-secondary"> {{ .date }} </p>
 						</div>
-						<div class="margin-y-24">
-							<h4><b>Eu at mauris sit et facilisis nulla.</b></h4>
-							<p class="text-secondary">January 20, 2020</p>
-						</div>
+						{{ end }}
+
 						<a href="/events">
 							<button class="outline">View more</button>
 						</a>
