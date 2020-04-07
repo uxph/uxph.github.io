@@ -25,40 +25,56 @@
 		max-height: 174px;
 		max-width: 174px;
 	}
+	header .wrapper{
+		height: 400px
+	}
 
 </style>
 <!-- Events page -->
-<header id="events-header" class="bg-light padding-y-96">
-	<div class="wrapper">
-		<div>
-			<h1>Our latest event</h1>
-			{{ range .Site.Data.events.current }}
-				<div class="padding-top-32 d-flex event-item">
-					<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
-					<div class="margin-left-32 event-item-content">
-						<h2>{{ .name }}</h2>
-						<p class="margin-y-8 timestamp">{{ .date }} | {{ .time }} | {{ .venue }}</p>
-						<p>{{ .description }}</p>
-						<div class="margin-y-8 margin-top-24">
-							{{ if ne .status "done" }}
-								<a href="{{ .ticket_url }}" target="_blank">
-									<button class="padding-x-24 padding-y-12 margin-right-8">Get Tickets</button>
-								</a>
-							{{ else }}
-								<a href="{{ .blog_url }}">
-									<button class="padding-x-24 padding-y-12 margin-right-8">See Event Recap</button>
-								</a>
-							{{ end }}
-							{{ if ne .become_speaker_url "#" }}
-								<button class="unselected padding-x-24 padding-y-12">Become a Speaker</button>
-							{{ end }}
+{{ range .Site.Data.events.current }}
+	<header id="events-header" class="bg-light padding-y-96" style = "background: url({{ .image_banner_url }}); background-size:cover;">
+		<div class="wrapper bg-white rounded-lg">
+			<div class = "padding-top-32">
+				<h1>Our latest event</h1>
+					<div class="padding-top-32 d-flex event-item">
+						<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
+						<div class="margin-left-32 event-item-content">
+							<h2>{{ .name }}</h2>
+							<p class="margin-y-8 timestamp">{{ .date }} | {{ .time }} | {{ .tag }} | {{ .venue }} </p>
+							<p>{{ .description }}</p>
+							<div class="margin-y-8 margin-top-24">
+								{{ if ne .status "done" }}
+									<a href="{{ .ticket_url }}" target="_blank">
+										<button class="padding-x-24 padding-y-12 margin-right-8">Get Tickets</button>
+									</a>
+								{{ else }}
+									<a href="{{ .blog_url }}">
+										<button class="padding-x-24 padding-y-12 margin-right-8">See Event Recap</button>
+									</a>
+								{{ end }}
+								{{ if ne .become_speaker_url "#" }}
+									<button class="unselected padding-x-24 padding-y-12">Become a Speaker</button>
+								{{ end }}
+							</div>
 						</div>
 					</div>
-				</div>
-			{{ end }}
+{{ end }}
+			</div>
+		</div>
+	</header>
+
+<section class = "bg-light padding-y-64 ">
+	<div class = "wrapper bg-white padding-y-64 rounded-lg ">
+		<div>
+			<h1 class = "margin-bottom-16">Host your own UXPH event (Coming soon!)</h1>
+			<p class = "margin-bottom-24">Have an event idea? You can host your own UXPH-sanctioned event! Download our information packet to know more about the requirements and process. </p>
+			<br>
+			<button class="padding-x-24 padding-y-12 margin-right-8 ">Learn More</button>
 		</div>
 	</div>
-</header>
+</section>
+
+
 <section class="padding-y-96">
 	<div class="wrapper">
 		<div id="events-menu" class="d-flex padding-bottom-24">         
@@ -71,7 +87,7 @@
 				<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
 				<div class="margin-left-32 event-item-content">
 					<h2>{{ .name }}</h2>
-					<p class="margin-y-8 timestamp">{{ .date }} | {{ .time }} | {{ .venue }}</p>
+					<p class="margin-y-8 timestamp">{{ .date }} | {{ .time }} | {{ .tag }} | {{ .venue }}</p>
 					<p>{{ .description }}</p>
 					<div class="margin-y-24">
 						<a href="{{ .blog_url }}">
