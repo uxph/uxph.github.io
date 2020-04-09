@@ -6,6 +6,7 @@
 @import url(utilities.css);
 @import url(overlaps.css);
 @import url(blog.css);
+@import url(headers.css);
 @import url(bootstrap-utilities.css);
 
 @font-face {
@@ -187,7 +188,7 @@ div.wrapper {
 /* Back-to-top button styling */
 div#back-to-top {
 	position: fixed;
-	padding: 1em 1.2em;
+	padding: 1em 1.1em;
 	z-index: 999;
 	bottom: 5%;
 	right: 2%;
@@ -210,4 +211,12 @@ div#back-to-top:hover {
 
 div#back-to-top i {
 	font-size: 1.1em;
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+.visuals {
+	position: absolute;
+	display: block;
 }

@@ -28,78 +28,37 @@
 	},
 
 	"teams": {
-		"web_team": {
-			"name": "Web",
-			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
+		"marketing_coordinator": {
+			"name": "Marketing Coordinator",
+			"description": "Lorem ipsum in dolore reprehenderit ea cupidatat nostrud ut dolor consequat adipisicing. Fugiat aliquip deserunt do sunt in non do laborum ea dolor irure ea in ullamco nisi cupidatat.",
 
-			"positions": [
-				"Front-End Web Developer",
-				"Mobile App Developer",
-				"User Experience Designer"
-			],
-	
 			"responsibilities": [
-				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
-				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
-				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+				"Aliquip in proident occaecat dolore aliquip reprehenderit ut veniam dolore elit consequat in enim in sed mollit dolore dolore.",
+				"Lorem ipsum magna dolor dolore dolore adipisicing eiusmod excepteur ad quis incididunt nulla irure nostrud reprehenderit ut dolor ea.",
+				"Lorem ipsum anim aliquip in ea commodo ad reprehenderit fugiat do incididunt sint amet sunt dolore in aliquip est non."
 			],
 
 			"requirements": [
-				"Very game to code in HTML, CSS & JavaScript.",
-				"Experience in building websites is a plus.",
-				"Familiarity with product management tools (i.e. GitHub) would be great. ",
-				"Familiarity with Hugo framework would be awesome too!",
-				"Willing to dedicate some time for revisions and/or content updates."
+				"Lorem ipsum officia excepteur aliquip ex.",
+				"Amet ut ut elit deserunt do ut in ea sed adipisicing nostrud exercitation excepteur.",
+				"Consectetur quis commodo pariatur esse consequat sint magna est cillum elit ut.",
+				"Commodo elit ex ut ad et laboris nostrud labore.",
+				"Aute occaecat est duis dolore fugiat excepteur aliquip consequat eiusmod."
 			],
 
 			"learn": [
-				"The in’s and out’s of the fastest framework for building websites",
-				"Team dynamics and remote collaboration for software development",
-				"Techniques in writing responsible code especially in Front-end Development"
+				"Lorem ipsum elit eu et ad ad pariatur aliqua qui aute ad amet occaecat.",
+				"Id duis minim enim elit esse non consequat culpa sunt.",
+				"Adipisicing sit velit consequat in ullamco et pariatur in minim."
 			],
 
 			"url": "<url>",
 			"team_image_url": "<url>"
 		},
-		"marketing": {
-			"name": "Marketing",
-			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
 
-			"positions": [
-				"Marketing Coordinator"
-			],
-
-			"responsibilities": [
-				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
-				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
-				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
-			],
-
-			"requirements": [
-				"Very game to code in HTML, CSS & JavaScript.",
-				"Experience in building websites is a plus.",
-				"Familiarity with product management tools (i.e. GitHub) would be great. ",
-				"Familiarity with Hugo framework would be awesome too!",
-				"Willing to dedicate some time for revisions and/or content updates."
-			],
-
-			"learn": [
-				"The in’s and out’s of the fastest framework for building websites",
-				"Team dynamics and remote collaboration for software development",
-				"Techniques in writing responsible code especially in Front-end Development"
-			],
-
-			"url": "<url>",
-			"team_image_url": "<url>"
-		},
-		"events": {
-			"name": "Events",
-			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
-
-			"positions": [
-				"Event coordinator",
-				"Event volunteer"
-			],
+		"event_coordinator": {
+			"name": "Event Coordinator",
+			"description": "Dolor eiusmod ut ut dolore dolor dolore veniam in magna. Exercitation dolor amet labore labore minim velit excepteur ut pariatur in. Lorem ipsum sed dolore velit velit incididunt in eu proident eu.",
 
 			"responsibilities": [
 				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
@@ -124,13 +83,10 @@
 			"url": "<url>",
 			"team_image_url": "<url>"
 		},
-		"partnerships": {
-			"name": "Partnerships",
-			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
 
-			"positions": [
-				"Sponsorship coordinator"
-			],
+		"event_volunteer": {
+			"name": "Event Volunteer",
+			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
 
 			"responsibilities": [
 				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
@@ -155,13 +111,38 @@
 			"url": "<url>",
 			"team_image_url": "<url>"
 		},
-		"speakers": {
-			"name": "Speakers and Workshop",
+
+		"sponsorship_coordinator": {
+			"name": "Sponsorship Coordinator",
 			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
 
-			"positions": [
-				"Speakers /  Workshop Facilitators"
+			"responsibilities": [
+				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
 			],
+
+			"requirements": [
+				"Very game to code in HTML, CSS & JavaScript.",
+				"Experience in building websites is a plus.",
+				"Familiarity with product management tools (i.e. GitHub) would be great. ",
+				"Familiarity with Hugo framework would be awesome too!",
+				"Willing to dedicate some time for revisions and/or content updates."
+			],
+
+			"learn": [
+				"The in’s and out’s of the fastest framework for building websites",
+				"Team dynamics and remote collaboration for software development",
+				"Techniques in writing responsible code especially in Front-end Development"
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		},
+
+		"speaker_workshop_facilitators": {
+			"name": "Speakers / Workshop Facilitators",
+			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
 
 			"responsibilities": [
 				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",

@@ -5,26 +5,26 @@
 		height: 350px; 
 		border-radius: 20px;
 	}
+
 	i{
 		margin-right: 0.25em;
 	}
-
-
 </style>
 
 <header id="about-header" class="bg-light padding-top-64 padding-bottom-192">
 	<div class="wrapper">
-		<div>
-		<h1 class="margin-bottom-32">About UXPH</h1>
-			<div class="margin-bottom-32 about-image"></div>
+		<div class="w-75">
+			<h1 class="margin-bottom-32 text-white">About UXPH</h1>
+			<!-- <div class="margin-bottom-32 about-image"></div> -->
 			{{ range .Site.Data.info.about_us }}
-				<p class="margin-bottom-16">{{ . }}</p>
+				<p class="margin-bottom-16 text-white">{{ . }}</p>
 			{{ end }}
 		</div>
 	</div>
 </header>
 
-<section id="what-we-do" class="padding-bottom-96">
+<section id="what-we-do" class="padding-bottom-96 position-relative">
+	<img src="../assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" />
 	<div class="wrapper">
 		<div id="mission-vision-overlap" class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 w-100 d-flex space-between">
 			<div id="mission" class="w-50 margin-right-16">
@@ -69,8 +69,10 @@
 			</div>
 		</div>
 	</div>
+	<img src="../assets/visuals/link-red.svg" class="visuals width-192" id="link-red-1" />
 </section>
-<section id="meet-the-team" class="padding-bottom-128">
+<section id="meet-the-team" class="padding-bottom-128 position-relative">
+	<img src="../assets/visuals/link-yellow.svg" class="visuals width-192" id="link-yellow-1" />
 	<div class="wrapper">
 		<h1 class="margin-bottom-48">Organizing Members</h1>
 		<div class="margin-bottom-48">

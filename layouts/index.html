@@ -20,7 +20,7 @@
 			</div>
 		</header>
 
-		<section class="padding-top-64 padding-bottom-96">
+		<section class="padding-top-64 padding-bottom-96" id="about-uxph-section">
 			<div class="wrapper">
 				<div id="current-event-overlap" class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 w-100 d-flex space-between">
 					{{ range .Site.Data.events.current }}
@@ -36,7 +36,7 @@
 										<button class="padding-x-24 padding-y-12 margin-right-8">Get Tickets</button>
 									</a>
 								{{ else }}
-									<a href="{{ .blog_url }}" target="_blank">
+									<a href="{{ .blog_url }}">
 										<button class="padding-x-24 padding-y-12 margin-right-8 rounded-sm">See Event Recap</button>
 									</a>
 								{{ end }}
@@ -47,6 +47,7 @@
 						</div>
 					{{ end }}
 				</div>
+				<img src="assets/visuals/link-yellow.svg" class="visuals width-192" id="link-yellow-1" />
 				<div class="margin-top-96">
 					<h1 class="margin-bottom-16">About UXPH</h1>
 					{{ range .Site.Data.info.about_us }}
@@ -83,6 +84,8 @@
 			</div>
 		</section>
 
+		<img src="assets/visuals/link-red.svg" class="visuals width-192" id="link-red-1" />
+
 		<section class="padding-y-96">
 			<div class="wrapper">
 				<div class="flex-wrapper flex-wrapper-reverse d-flex justify-content-between align-items-center">
@@ -97,6 +100,8 @@
 				</div>
 			</div>
 		</section>
+
+		<img src="assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" />
 
 		<section class="padding-y-96 bg-light">
 			<div class="wrapper">

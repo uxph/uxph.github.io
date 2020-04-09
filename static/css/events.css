@@ -1,0 +1,8 @@
+/* events stylesheet */
+#events-feed-section {
+	background: url(../assets/visuals/ph-map-blue.png);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom;
+}

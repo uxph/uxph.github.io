@@ -1,0 +1,19 @@
+/* headers stylesheet */
+
+#about-header {
+	background: url(../assets/images/about-uxph.png);
+	background-size: cover;
+	background-position: center;
+}
+
+#volunteers-header {
+	background: url(../assets/images/organizing-team.png);
+	background-size: cover;
+	background-position: center;
+}
+
+#sponsorships-header {
+	background: url(../assets/images/community-partner.png);
+	background-size: cover;
+	background-position: center;
+}

@@ -45,3 +45,18 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
+#about-uxph-section {
+	background: url(../assets/visuals/ph-map-gray.png);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#link-red-1 {
+	right: 0;
+}
+
+#link-yellow-1 {
+	left: 0;
+}

@@ -171,4 +171,8 @@
 	#volunteer-perks .perk-wrapper {
 		margin: 0 !important;
 	}
+
+	.visuals {
+		display: none !important;
+	}
 }

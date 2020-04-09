@@ -17,7 +17,8 @@
 	}
 
 	#role-responsibilties li,
-	#role-requirements li {
+	#role-requirements li,
+	#what-you-learn li {
 		line-height: 25px; 
 	}
 	
@@ -31,26 +32,12 @@
 		font-family: 'Roboto', sans-serif;
 		appearance: none;
 	}
-	#pos_sect ul li {
-		padding: 4px 0px; 
-	}
 
-	.show_list{
-		margin-top:0px;
-		opacity: 1;
-		transition: 2s;
-		
-	}
-	.hide_list{
-		margin-top: 50px;
-		opacity: 0;
-		position: absolute;
-	}
-	.rounded-circle{
+	.rounded-circle {
 		color: #ddd;
 		text-align: center;
 	}
-	.rounded-circle i{
+	.rounded-circle i {
 		line-height: 34px;
 		font-size: 24px !important;
 	}
@@ -59,115 +46,99 @@
 		flex: 1 0 33%;
 	}
 
+	#position-select {
+		min-width: var(--value-192);
+	}
+
+	#position-select > * {
+		border-left: thick solid transparent;
+		padding: var(--value-4) var(--value-8);
+		transition: ease all 0.3s;
+		cursor: pointer;
+	}
+
+	#position-select > *.active {
+		border-color: var(--main-blue);
+		color: var(--main-blue) !important;
+	}
+
+	#position-select > *:hover {
+		border-color: var(--main-red);
+		color: var(--main-red) !important;
+	}
 </style>
 
-
+<script src="../js/volunteers.js" type="text/javascript"></script>
 <!-- Intro -->
-<header id="volunteers-header" class="bg-light padding-top-96 padding-bottom-32">
+<header id="volunteers-header" class="bg-light padding-y-96">
 	<div class ="wrapper">
-		<h1 class="font-size-32 text-body">Volunteer with UXPH</h1>
-		<p class="margin-y-32">
-			{{.Site.Data.volunteers.blurb.description}}
-		</p>
-		<p>Check out our openings below:</p>
+		<div class="w-75">
+			<p class="text-white font-size-24 margin-bottom-24">Volunteer</p>
+			<h1 class="font-size-32 text-white">Be a part of the organizing team</h1>
+			<p class="margin-y-32 text-white">
+				{{.Site.Data.volunteers.blurb.description}}
+			</p>
+			<p class="text-white">Check out our openings below:</p>
+			<br/>
+		</div>
 	</div>
 </header>
 
-<section class="bg-light padding-y-16">
-	<div class ="wrapper">
-		<select onchange="getVal()" name="position" id="position" class=" font-size-16 shadow w-100 bg-white border-radius-12">
-			{{ range .Site.Data.volunteers.teams }}
-				<option value="{{ .name }}">{{ .name }}</option>
-			{{ end }}
-		</select>
-	</div>
-</section>
-
 <!-- Positions Available-->
-<section class="bg-light padding-y-16" style="min-height: 250px;">
+<section class="padding-y-96">
 	<div class="wrapper" id="pos_sect">
-		<h2 class="text-secondary">Positions Available</h2>
-		<ul id="pos_events" class="show_list">
-			{{ range .Site.Data.volunteers.teams.events.positions }}
-				<li>{{ . }}</li>
-			{{ end }}
-		</ul>
-		<ul id="pos_marketing" class="hide_list">
-			{{ range .Site.Data.volunteers.teams.marketing.positions }}
-				<li>{{ . }}</li>
-			{{ end }}
-		</ul>
-		<ul id="pos_partners" class="hide_list">
-			{{ range .Site.Data.volunteers.teams.partnerships.positions }}
-				<li>{{ . }}</li>
-			{{ end }}
-		</ul>
-		<ul id="pos_speakers" class="hide_list">
-			{{ range .Site.Data.volunteers.teams.speakers.positions }}
-				<li>{{ . }}</li>
-			{{ end }}
-		</ul>
-		<ul id="pos_web" class="hide_list">
-			{{ range .Site.Data.volunteers.teams.web_team.positions }}
-				<li>{{ . }}</li>
-			{{ end }}
-		</ul>
-
-	</div>
-</section>
-
-
-<!-- Responsibilities Section -->
-<section>
-	<div class="wrapper">
-		<h1 class="margin-top-96 font-size-32 text-body">
-		   {{ .Site.Data.volunteers.web_team.name }}</h1>
-		<p class="margin-top-32 margin-bottom-48">
-		   {{ .Site.Data.volunteers.web_team.description }}
-		</p>
-
-		<h2 class="text-secondary">Responsibilities</h2>
-		<ul class="text-body padding-top-16" id="role-responsibilties">
-			{{ range .Site.Data.volunteers.web_team.responsibilities }}
-				<li>{{ . }}</li>
-				<br>
-			{{ end }}
-		</ul>
-	</div>
-</section>
-
-<!-- Requirements Section -->
-<section>
-	<div class="wrapper padding-top-32">
-		<h2 class="text-secondary">Requirements</h2>
-		<ul class= "text-body padding-top-16" id="role-requirements">
-			{{ range .Site.Data.volunteers.web_team.requirements }}
-				<li>{{ . }}</li>
-				<br>
-			{{ end }}
-		</ul>
-	</div>
-</section>
-
-<!-- What You'll Learn Section -->
-<section class="padding-bottom-96">
-	<div class="wrapper padding-top-32">
-		<h2 class="text-secondary">What You'll Learn</h2>
-
-		<ul class= "text-body padding-top-16" id="role-requirements">
-			{{ range .Site.Data.volunteers.web_team.learn }}
-				<li>{{ . }}</li>
-				<br>
-			{{ end }}
-		</ul>
-
-		<p class="text-body padding-top-32 margin-bottom-32">
-			Please send all you CV/Resume and cover letter (optional) to 
-			recruitment@uxph.org and we'll get back to you at the soonest for a chat!
-		</p>
-		<button class="padding-x-32 padding-y-12 rounded-lg margin-bottom-32">
-			Download Role Description
-		</button>
+		<div class="d-flex justify-content-between">
+			<div class="margin-right-48" id="position-select">
+				{{ range .Site.Data.volunteers.teams }}
+					<small class="text-secondary d-block margin-bottom-16" data-id="{{ .name }}"><b>{{ .name }}</b></small>
+					<script type="text/javascript">
+						addContent(
+							{{ .name }},
+							{{ .responsibilities }},
+							{{ .requirements }},
+							{{ .learn }},
+							{{ .description }}
+						);
+					</script>
+				{{ end }}
+			</div>
+			<div>
+				<h1 class="mb-4" id="role-name">{{ .Site.Data.volunteers.teams.event_coordinator.name }}</h1>
+				<p class="mb-5" id="role-description">
+					{{ .Site.Data.volunteers.teams.event_coordinator.description }}
+				</p>
+				<div>
+					<h2 class="text-secondary">Responsibilities</h2>
+					<ul class="text-body" id="role-responsibilties">
+						{{ range .Site.Data.volunteers.teams.event_coordinator.responsibilities }}
+							<li>{{ . }}</li>
+						{{ end }}
+					</ul>
+				</div>
+				<br/>
+				<div>
+					<h2 class="text-secondary">Requirements</h2>
+					<ul class="text-body" id="role-requirements">
+						{{ range .Site.Data.volunteers.teams.event_coordinator.requirements }}
+							<li>{{ . }}</li>
+						{{ end }}
+					</ul>
+				</div>
+				<br/>
+				<div>
+					<h2 class="text-secondary">What You'll Learn</h2>
+					<ul class="text-body" id="what-you-learn">
+						{{ range .Site.Data.volunteers.teams.event_coordinator.learn }}
+							<li>{{ . }}</li>
+						{{ end }}
+					</ul>
+				</div>
+				<br/>
+				<a href="https://forms.gle/3Yc5AP7bAwqTHLGQ9" target="blank">
+					<button>Sign up for this role</button>
+				</a>
+			</div>
+		</div>
 	</div>
 </section>
 
@@ -255,52 +226,3 @@
 		</div>
 	</div>
 </section>
-
-<script>
-function getVal(){
-	posVal = document.getElementById("position").value;
-	
-	var events = document.getElementById('pos_events');
-	var marketing = document.getElementById('pos_marketing');
-	var speaker = document.getElementById('pos_speakers');
-	var partners = document.getElementById('pos_partners');
-	var web = document.getElementById('pos_web');
-
-	var list = [events, marketing, speaker, partners, web];
-
-	switch(posVal){
-		case "Events":
-			l = 0;
-			break;
-		case "Marketing":
-			l = 1;
-		break;
-		case "Speakers and Workshop":
-			l = 2;
-		break;
-		case "Partnerships":
-			l = 3;
-		break;
-		case "Web":
-			l = 4;
-		break;
-		default:
-			l = 0;
-		break;
-	}
-
-	console.log(l);
-	for(i = 0; i < 5; i++){
-		if(i === l){
-			list[i].classList.add("show_list");
-			list[i].classList.remove("hide_list");						
-			console.log(list[i]);
-		}else{
-			if(list[i].classList.contains("show_list"))
-				list[i].classList.remove("show_list");
-			if(list[i].classList.contains("hide_list") !== 0)
-				list[i].classList.add("hide_list");						
-		}
-	}
-}
-</script>
