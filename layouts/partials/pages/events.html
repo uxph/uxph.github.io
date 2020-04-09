@@ -64,7 +64,7 @@
 </style>
 <!-- Events page -->
 {{ range .Site.Data.events.current }}
-	<header id="events-header" class="padding-y-96" style="background: url({{ .image_banner_url }}); background-size:cover;">
+	<header id="events-header" class="padding-y-96 auto-hidden" style="background: url({{ .image_banner_url }}); background-size:cover;">
 		<div class="wrapper">
 			<div class="rounded-lg">
 				<h1>Our latest event</h1>
@@ -95,7 +95,7 @@
 	</header>
 {{ end }}
 
-<section class="padding-top-64 padding-bottom-32">
+<section class="padding-top-64 padding-bottom-32 hidden">
 	<div class="wrapper bg-white">
 		<div class="padding-x-32 padding-y-32 rounded-lg shadow">
 			<h2 class="margin-bottom-16">Host your own UXPH event (Coming soon!)</h2>
@@ -107,7 +107,7 @@
 
 <img src="../assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" />
 
-<section class="padding-top-64 padding-bottom-32 events-feed-section">
+<section class="padding-top-64 padding-bottom-32 events-feed-section hidden">
 	<div class="wrapper">
 		<!-- <div id="events-menu" class="d-flex padding-bottom-24">         
 			<button class="sort unselected padding-x-24 padding-y-12 tertiary">Upcoming Events</button>            

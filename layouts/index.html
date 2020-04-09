@@ -7,7 +7,7 @@
 	<body>
 		<!-- Navigation -->
 		{{ partial "components/nav" (dict "path" "") }}
-		<header id="home-header" class="bg-dark">
+		<header id="home-header" class="bg-dark auto-hidden position-relative">
 			<div class="wrapper padding-bottom-192 padding-top-48 text-white position-relative">
 				<a href="/">
 					<img src="assets/logos/uxph_logo.svg" class="width-192 padding-y-48" id="header-logo" />
@@ -20,7 +20,7 @@
 			</div>
 		</header>
 
-		<section class="padding-top-64 padding-bottom-96" id="about-uxph-section">
+		<section class="padding-top-64 padding-bottom-96 auto-hidden" id="about-uxph-section">
 			<div class="wrapper">
 				<div id="current-event-overlap" class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 w-100 d-flex space-between">
 					{{ range .Site.Data.events.current }}
@@ -61,7 +61,7 @@
 			</div>
 		</section>
 
-		<section class="bg-light padding-y-96">
+		<section class="bg-light padding-y-96 hidden">
 			<div class="wrapper">
 				<div class="flex-wrapper d-flex justify-content-between align-items-center">
 					<img src="assets/images/organizing-team-square.png" class="featured-image d-block margin-right-32" />
@@ -86,7 +86,7 @@
 
 		<img src="assets/visuals/link-red.svg" class="visuals width-192" id="link-red-1" />
 
-		<section class="padding-y-96">
+		<section class="padding-y-96 hidden">
 			<div class="wrapper">
 				<div class="flex-wrapper flex-wrapper-reverse d-flex justify-content-between align-items-center">
 					<img src="assets/images/community-circle.png" class="featured-image d-block margin-left-32" />
@@ -103,23 +103,22 @@
 
 		<img src="assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" />
 
-		<section class="padding-y-96 bg-light">
+		<section class="padding-y-96 bg-light hidden">
 			<div class="wrapper">
 				<div class="d-flex justify-content-between">
-					<div id="upcoming-events" class="flex-grow-1">
-						<h2>Upcoming Events</h2>
-						{{ range .Site.Data.events.upcoming }}
-						<div class="margin-y-24">
-							<h4><b> {{ .name }} </b></h4>
-							<p class="text-secondary"> {{ .date }} </p>
-						</div>
+					<div id="upcoming-events" class="padding-right-96">
+						{{ range .Site.Data.events.current }}
+							<img src="{{ .image_banner_url }}" class="w-100 border-radius-16" />
+							<div class="margin-y-24">
+								<h4><b> {{ .name }} </b></h4>
+								<p class="text-secondary"> {{ .date }} </p>
+							</div>
+							<a href="{{ .blog_url }}">
+								<button>See Event Recap</button>
+							</a>
 						{{ end }}
-
-						<a href="/events">
-							<button class="outline">View more</button>
-						</a>
 					</div>
-					<div id="past-events" class="flex-grow-1">
+					<div id="past-events" class="w-75">
 						<h2>Past Events</h2>
 						{{ range .Site.Data.events.past }}
 							<div class="margin-y-24">

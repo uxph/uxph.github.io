@@ -13,7 +13,7 @@
 			"blog_url": "/events/remote-ffc",
 			"livestream_url": "bit.ly/RemoteFFC01Livestream",
 			"status": "done",
-			"tag": "Virtual Meetup"
+			"tag": ["Virtual Meetup", "Meetup"]
 		}
 	},
 
@@ -169,7 +169,7 @@
 			"livestream_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F504338016951633%2F&show_text=0&width=560",
 			"status": "done",
 			"event_id": 1,
-			"tag": "Conference"
+			"tag": ["Meetup"]
 		},
 		
 		"do-ux-see-what-i-see": {
@@ -186,7 +186,7 @@
 			"livestream_url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F554095255203202%2F&show_text=0&width=560",
 			"status": "done",
 			"event_id": 0,
-			"tag": "Meetup"
+			"tag": ["Meetup"]
 		}
 	}
 }
