@@ -14,148 +14,37 @@
 </style>
 <header id="sponsorships-header" class="bg-light padding-y-96 auto-hidden">
 	<div class="wrapper">
-		<div class="w-75">
+		<div class="w-75" id="sponsorships-header-content">
 			<p class="text-white font-size-24 margin-bottom-24">Sponsorships</p>
-			<h1 class="text-white">Get involved with UXPH</h1>
-			<p class="text-white margin-top-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-				incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-				irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-				 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-				 deserunt mollit anim id est laborum.
+			<h1 class="text-white">{{ .Site.Data.sponsorships.blurb.name }}</h1>
+			<p class="text-white margin-top-16">
+				{{ .Site.Data.sponsorships.blurb.description }}
+				<br/><br/>
+				Send us an email at <strong>partnerships@uxph.org</strong> or download our Sponsorship Package to get started.
 			</p>
 		</div>
 	</div>
 </header>
 
-<section class="padding-y-96 hidden">
+<section class="padding-y-96 auto-hidden" id="sponsorships-section">
 	<div class="wrapper">
-		<div>
-			<img src="../assets/images/sponsorship-packages-banner.png" class="d-block w-100 border-radius-12" />
-			<h2 class="margin-top-32">Become a sponsor of UXPH</h2>
-			<p class="margin-top-16">
-				We hold a lot of meetups and workshops at various co-working spaces and tech offices. If you'd like to showcase your space and support our growing community, we'd love to talk. Download our Sponsorship Package to get started! 
-				<br><br>
-				Send us an email at <span class="blue">partnerships@uxph.org</span> or download our Sponsorship Package to get started.
-			</p>
-			<!-- <button class="padding-x-24 margin-top-24 padding-y-12">Download sponsorship package</button> -->
-		</div>
-	</div>
-</section>
-
-<section class="bg-light margin-bottom-32 hidden">
-	<div>
-		<div class="d-flex flex-row bd-highlight mb-2">
-			<div class="bd-highlight">
-				<img src="../assets/images/event-partnership-banner.png" class="d-block w-100" />
-				<div class="bg-info img-caption">
-					<h3 class="padding-top-16 margin-left-32">Event Partnership Packages</h3>
-					<p class="margin-top-16 margin-left-32"> 
-						We're all for supporting the greater community! If your organization would like to learn more about UX and design practices, we'd love to help. We can have members of our organization visit your meetup and share some information and insight. We'd be happy to have members of other organizations visit our events as well to do the same. 
-					</p>
-				</div> 
-			</div>
-
-			<div class="bd-highlight">
-				<img src="../assets/images/host-uxph-banner.png" class="d-block w-100" />
-				<div class="bg-warning img-caption">
-					<h3 class="padding-top-16 margin-left-32">Host your own UXPH Event</h3>
-					<p class="margin-top-16 margin-left-32">
-						We're all for supporting the greater community! If your organization would like to learn more about UX and design practices, we'd love to help. We can have members of our organization visit your meetup and share some information and insight. We'd be happy to have members of other organizations visit our events as well to do the same. 
-					</p>
-				</div>
-			</div>
-		</div>
-		
-			<!-- <div class="padding-bottom-96">
-				<div class="img_banner border-radius-12 featured-image-bg"></div>
-				<img src="../assets/images/event-partnership-banner.png" class="d-block w-100 border-radius-12" />
-				<h2 class="margin-top-32">Event Partnership Packages</h2>
+		<div class="d-flex justify-content-between">
+			<div class="mr-3 w-50 margin-bottom-32 sponsorship-item">
+				<img src="{{ .Site.Data.sponsorships.sponsorships.sponsorship.image_url }}" class="d-block w-100 border-radius-12" />
+				<h2 class="margin-top-32">{{ .Site.Data.sponsorships.sponsorships.sponsorship.name }}</h2>
 				<p class="margin-top-16">
-					We're all for supporting the greater community! If your organization would like to learn more about UX and design practices, we'd love to help. We can have members of our organization visit your meetup and share some information and insight. We'd be happy to have members of other organizations visit our events as well to do the same. 
-					<br><br>Send us a message at info@uxph.org.
+					{{ .Site.Data.sponsorships.sponsorships.sponsorship.description }}
 				</p>
-				<button class="padding-x-24 margin-top-24 padding-y-12 outline">Download Packages</button>            
 			</div>
-
-			<div>
-				<div class="img_banner border-radius-12 featured-image-bg"></div>
-				<img src="../assets/images/host-uxph-banner.png" class="d-block w-100 border-radius-12" />
-				<h2 class="margin-top-32">Host your own UXPH Event</h2>
+			<div class="ml-3 w-50 margin-bottom-32 sponsorship-item">
+				<img src="{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.image_url }}" class="d-block w-100 border-radius-12" />
+				<h2 class="margin-top-32">{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.name }}</h2>
 				<p class="margin-top-16">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nunc a condimentum purus donec massa, duis. Turpis id cursus orci pulvinar scelerisque. Platea lacus tempus nisl dolor eget aliquam. Morbi turpis mi, in placerat dui lacus, est, venenatis consectetur. Curabitur aliquet semper porttitor proin amet tellus auctor tempor. Vestibulum, id rhoncus sed sed mattis. Ut velit sit non metus. Amet est odio volutpat donec viverra.
+					{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.description }}
 				</p>
-				<button class="padding-x-24 margin-top-24 padding-y-12 outline">Download Packages</button>            
-			</div> -->
-		
-	</div>
-</section>
-<!--
-<section>
-	<div class="wrapper">
-		<div class="sponsors padding-y-64">
-			<h1 class="font-size-32">Sponsors</h1>
-			<h2 class="padding-top-32 padding-bottom-12">Gold Sponsors</h2>
-			<div class="padding-top-12 padding-bottom-24 sponsor_avatar_list">
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24 "></div>
 			</div>
-			<h2 class="padding-top-24 padding-bottom-12">Silver Sponsors</h2>
-			<div class="padding-top-12 padding-bottom-16 sponsor_avatar_list">
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>        
-			</div>            
-			<h2 class="padding-top-24 padding-bottom-12">Bronze Sponsors</h2>
-			<div class="padding-top-12 padding-bottom-16 sponsor_avatar_list">
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>        
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>        
-			</div>            
-		</div>
-
-		<div>
-			<h1 class="font-size-32">Community Partners</h1>
-			<div class="padding-top-32 padding-bottom-16 sponsor_avatar_list">
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-				<div class="margin-right-32 sponsor_avatar margin-bottom-24"></div>
-			</div>
-		</div>
-		<div id="partner-cta" class="partners bg-white padding-x-32 padding-y-32 margin-y-128 d-flex justify-content-between">
-			<h2>Partner with us!</h2>
-			<button class="d-block padding-x-24 padding-y-12">View Packages</button>
 		</div>
 	</div>
 </section>
--->
 
 <link rel="stylesheet" type="text/css" href="../css/sponsorships.css" />

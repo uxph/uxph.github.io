@@ -72,7 +72,7 @@
 <!-- Intro -->
 <header id="volunteers-header" class="bg-light padding-y-96 auto-hidden">
 	<div class ="wrapper">
-		<div class="w-75">
+		<div class="w-75" id="volunteers-header-content">
 			<p class="text-white font-size-24 margin-bottom-24">Volunteer</p>
 			<h1 class="font-size-32 text-white">Be a part of the organizing team</h1>
 			<p class="margin-y-32 text-white">
@@ -85,12 +85,12 @@
 </header>
 
 <!-- Positions Available-->
-<section class="padding-y-96 auto-hidden">
-	<div class="wrapper" id="pos_sect">
+<section class="padding-y-96 auto-hidden" id="position-select-section">
+	<div class="wrapper">
 		<div class="d-flex justify-content-between">
 			<div class="margin-right-48" id="position-select">
 				{{ range .Site.Data.volunteers.teams }}
-					<small class="text-secondary d-block margin-bottom-16" data-id="{{ .name }}"><b>{{ .name }}</b></small>
+					<small class="text-secondary d-block margin-bottom-16 select-option" data-id="{{ .name }}"><b>{{ .name }}</b></small>
 					<script type="text/javascript">
 						addContent(
 							{{ .name }},
@@ -143,7 +143,7 @@
 </section>
 
 <!-- Volunteer Perks Section -->
-<section class="bg-light padding-y-96">
+<section class="bg-light padding-y-96" id="volunteer-perks-section">
 	<div class="wrapper">
 		<h1 class="text-body font-size-32">Volunteer Perks</h1>
 		<div id="volunteer-perks">

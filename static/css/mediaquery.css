@@ -17,6 +17,10 @@
 		top: 0 !important;
 	}
 
+	#home-header .subheading {
+		width: 100% !important;
+	}
+
 	.flex-wrapper .featured-image {
 		width: 100% !important;
 		margin: 0 auto !important;
@@ -51,6 +55,7 @@
 
 	#menu-bar {
 		display: block;
+		margin-right: var(--value-16) !important;
 	}
 
 	#mobile-nav {
@@ -91,8 +96,25 @@
 		margin-bottom: var(--value-16);
 	}
 
+	#about-uxph-section {
+		background: none !important;
+		background-color: white !important;
+	}
+
+	#upcoming-events {
+		padding: 0 !important;
+	}
+
+	#past-events {
+		width: 100% !important;
+	}
+
 
 	/* about.html */
+	#about-uxph-content {
+		width: 100% !important;
+	}
+
 	#mission-vision-overlap {
 		box-sizing: border-box !important;
 		flex-direction: column !important;
@@ -109,8 +131,16 @@
 		margin-bottom: var(--value-32) !important;
 	}
 
+	#mission, #vision {
+		width: 100% !important;
+	}
+
 	#what-we-do .what-we-do-item .featured-image {
 		margin: var(--value-16) 0 !important;
+	}
+
+	#meet-the-team {
+		background: none !important;
 	}
 
 	#meet-the-team .team-feed > div {
@@ -120,6 +150,10 @@
 
 
 	/* events.html */
+	#events-header .wrapper {
+		height: 100% !important;
+	}
+
 	div.d-flex.event-item {
 		flex-direction: column !important;
 	}
@@ -127,6 +161,8 @@
 	div.event-item .img_article {
 		max-width: 100% !important;
 		min-width: 100% !important;
+		min-height: 340px !important;
+		background-position: center !important;
 	}
 
 	div.event-item-content {
@@ -145,6 +181,23 @@
 
 
 	/* sponsorships.html */
+	#sponsorships-header-content {
+		width: 100% !important;
+	}
+
+	#sponsorships-section {
+		padding-top: var(--value-48) !important;
+	}
+
+	#sponsorships-section .justify-content-between {
+		flex-direction: column !important;
+	}
+
+	#sponsorships-section .sponsorship-item {
+		width: 100% !important;
+		margin: var(--value-24) 0 !important;
+	}
+
 	#partner-cta {
 		align-items: center;
 		padding: var(--value-16) !important;
@@ -156,8 +209,41 @@
 
 
 	/* volunteers.html */
+	#volunteers-header-content {
+		width: 100% !important;
+	}
+
+	#position-select-section {
+		padding-top: var(--value-48) !important;
+	}
+
+	#position-select {
+		margin: 0 !important;
+		padding-bottom: var(--value-48) !important;
+		padding-top: var(--value-16) !important;
+		overflow-y: scroll;
+		white-space: nowrap;
+	}
+
+	#position-select::-webkit-scrollbar {
+		width: 0 !important;
+	}
+
+	#position-select .select-option {
+		display: inline !important;
+		padding: var(--value-16) !important;
+		font-size: var(--value-16) !important;
+		border-left: none;
+		border-bottom: 3px solid transparent;
+	}
+
 	#role-responsibilities li {
 		word-wrap: break-word !important;
+	}
+
+	#volunteer-perks-section {
+		padding-top: var(--value-64) !important;
+		padding-bottom: var(--value-64) !important;
 	}
 
 	#volunteer-perks > div.d-flex.flex-row {
@@ -170,9 +256,35 @@
 
 	#volunteer-perks .perk-wrapper {
 		margin: 0 !important;
+		padding: 0 !important;
+		width: 100% !important;
 	}
 
 	.visuals {
 		display: none !important;
+	}
+
+	/* faq.html */
+	#faq-header .justify-content-between {
+		flex-direction: column !important;
+	}
+
+	#topic-select {
+		margin: 0 !important;
+		padding-bottom: var(--value-32) !important;
+		overflow-y: scroll;
+		white-space: nowrap;
+	}
+
+	#topic-select::-webkit-scrollbar {
+		width: 0 !important;
+	}
+
+	#topic-select .topic-option {
+		padding: var(--value-16) !important;
+		display: inline !important;
+		font-size: var(--value-16) !important;
+		border-left: none;
+		border-bottom: 3px solid transparent;
 	}
 }

@@ -1,8 +1,22 @@
 {
-	"sponsorship_name": {
-		"name": "<name>",
-		"description": "<description>",
-		"image_url": "<url>",
-		"url": "<url>"
+	"blurb": {
+		"name": "Partner with UXPH",
+		"description": "UXPH is committed to collaborating with like-minded non-profit or commercial companies and organizations. We're always interested in partnership opportunities whether it is for new project, speaking engagements, workshops, or sponsorships. Learn more about what we can do together to support our causes!"
+	},
+
+	"sponsorships": {
+		"sponsorship": {
+			"name": "Sponsorship",
+			"description": "If you'd like to become a sponsor of UXPH to some capacity, please download our sponsorship package for more information or contact partnerships@uxph.org.",
+			"image_url": "../assets/images/event-partnership-banner.png",
+			"url": "<url>"
+		},
+
+		"host_uxph_event": {
+			"name": "Host your own UXPH event (Coming soon!)",
+			"description": "Have an event idea? You can host your own UXPH-sanctioned event! Download our information packet to know more about the requirements and process.",
+			"image_url": "../assets/images/host-uxph-banner.png",
+			"url": "<url>"
+		}
 	}
 }

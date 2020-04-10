@@ -13,9 +13,8 @@
 
 <header id="about-header" class="bg-light padding-top-64 padding-bottom-192 auto-hidden">
 	<div class="wrapper">
-		<div class="w-75">
+		<div class="w-75" id="about-uxph-content">
 			<h1 class="margin-bottom-32 text-white">About UXPH</h1>
-			<!-- <div class="margin-bottom-32 about-image"></div> -->
 			{{ range .Site.Data.info.about_us }}
 				<p class="margin-bottom-16 text-white">{{ . }}</p>
 			{{ end }}
@@ -80,10 +79,14 @@
 			<div class="d-flex justify-content-between flex-wrap team-feed">
 				{{ range .Site.Data.team.board_members }}
 					<div class="d-flex margin-bottom-64 flex-column w-50">
-						<div class="featured-image rounded-circle bg-secondary margin-bottom-24"></div>
 						<div>
-							<h2>{{ .name }}</h2>
-							<p class="text-secondary margin-bottom-8">{{ .role }}</p>
+							<div class="d-flex align-items-center margin-bottom-24">
+								<div class="featured-image rounded-circle bg-secondary mr-3"></div>
+								<div>
+									<h2>{{ .name }}</h2>
+									<p class="text-secondary">{{ .role }}</p>
+								</div>
+							</div>
 							<p class="text-secondary margin-bottom-16 padding-right-16">
 								Ex est ad amet amet magna nostrud nisi reprehenderit nostrud do non aliquip cupidatat minim laboris cupidatat.
 							</p>
@@ -101,10 +104,14 @@
 			<div class="d-flex justify-content-between flex-wrap team-feed">
 				{{ range .Site.Data.team.committee_leads }}
 					<div class="d-flex margin-bottom-64 flex-column w-50">
-						<div class="featured-image rounded-circle bg-secondary margin-bottom-24"></div>
 						<div>
-							<h2>{{ .name }}</h2>
-							<p class="text-secondary margin-bottom-8">{{ .role }}</p>
+							<div class="d-flex align-items-center margin-bottom-24">
+								<div class="featured-image rounded-circle bg-secondary mr-3"></div>
+								<div>
+									<h2>{{ .name }}</h2>
+									<p class="text-secondary">{{ .role }}</p>
+								</div>
+							</div>
 							<p class="text-secondary margin-bottom-16 padding-right-16">
 								Ex est ad amet amet magna nostrud nisi reprehenderit nostrud do non aliquip cupidatat minim laboris cupidatat.
 							</p>
@@ -122,17 +129,20 @@
 			<div class="d-flex justify-content-between flex-wrap team-feed">
 				{{ range .Site.Data.team.coordinators }}
 					<div class="d-flex margin-bottom-64 flex-column w-50">
-						<div class="featured-image rounded-circle bg-secondary margin-bottom-24"></div>
 						<div>
-							<h2>{{ .name }}</h2>
-							<p class="text-secondary margin-bottom-8">{{ .role }}</p>
+							<div class="d-flex align-items-center margin-bottom-24">
+								<div class="featured-image rounded-circle bg-secondary mr-3"></div>
+								<div>
+									<h2>{{ .name }}</h2>
+									<p class="text-secondary">{{ .role }}</p>
+								</div>
+							</div>
 							<p class="text-secondary margin-bottom-16 padding-right-16">
 								Ex est ad amet amet magna nostrud nisi reprehenderit nostrud do non aliquip cupidatat minim laboris cupidatat.
 							</p>
 							<i class="fab fa-linkedin fa-lg"></i>
 							<i class="fab fa-twitter fa-lg"></i>
 							<i class="fab fa-github fa-lg"></i>
-
 						</div>
 					</div>
 				{{ end }}
