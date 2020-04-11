@@ -6,3 +6,34 @@
 	background-attachment: fixed;
 	background-position: bottom;
 }
+
+#event-select {
+	margin: 0 !important;
+	padding-bottom: var(--value-32) !important;
+	overflow-y: scroll;
+	white-space: nowrap;
+}
+
+#event-select::-webkit-scrollbar {
+	width: 0 !important;
+}
+
+#event-select .event-category {
+	padding: var(--value-16) !important;
+	display: inline !important;
+	font-size: var(--value-16) !important;
+	border-left: none;
+	border-bottom: 3px solid transparent;
+	transition: ease all 0.3s;
+	cursor: pointer;
+}
+
+#event-select > small.active {
+	color: var(--main-blue) !important;
+	border-color: var(--main-blue) !important;
+}
+
+#event-select > small:hover {
+	color: var(--main-red) !important;
+	border-color: var(--main-red) !important
+}

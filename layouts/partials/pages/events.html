@@ -108,11 +108,14 @@
 
 <section class="padding-top-64 padding-bottom-32 events-feed-section hidden">
 	<div class="wrapper">
-		<!-- <div id="events-menu" class="d-flex padding-bottom-24">         
-			<button class="sort unselected padding-x-24 padding-y-12 tertiary">Upcoming Events</button>            
-			<button class="sort padding-x-24 padding-y-12">Past Events</button>            
-		</div> -->
-		<h1 class="margin-bottom-32">Past Events</h1>
+		<div class="w-100" id="event-select">
+			<small class="active text-secondary event-category"><b>All Events</b></small>
+			<small class="text-secondary event-category"><b>Meetups</b></small>
+			<small class="text-secondary event-category"><b>Virtual Meetups</b></small>
+			<small class="text-secondary event-category"><b>Workshops</b></small>
+			<small class="text-secondary event-category"><b>Conferences</b></small>
+		</div>
+		<br/><br/>
 		{{ range sort .Site.Data.events.past ".event_id" "desc" }}
 			<div class="padding-y-24 d-flex event-item">
 				<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
@@ -130,3 +133,4 @@
 		{{ end }}
 	</div>
 </section>
+<link rel="stylesheet" type="text/css" href="../css/events.css" />
