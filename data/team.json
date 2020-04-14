@@ -3,19 +3,35 @@
 		"aldrich_tan": {
 			"name": "Aldrich Tan",
 			"role": "Managing Director",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "https://www.linkedin.com/in/aldricht/",
+			"description": [
+				"Aldrich is an Sr. Experience Architect who has worked with multiple companies and industries in the US, Canada, and Philippines.",
+				"He is a passionate advocate for mentoring designers and building stronger design cultures with companies and organizations through consultancy and UXPH.",
+				"He enjoys PC gaming, Korean BBQ, steaks, giant salads, and puns."
+			]
 		},
 
 		"jordan_deja": {
 			"name": "Jordan Deja",
 			"role": "Advisory Board",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "https://www.linkedin.com/in/jrdndj/",
+			"description": [
+				"Jordan became involved in UXPH when he was a speaker in the 2017 Conference. He moved behind the scenes as Volunteer Lead in the 2018 Conference and became the Over-all Lead with Aldrich Tan in 2019.",
+				"He is currently part of its Board of Directors, Lead for Speakers and Community Engagement.",
+				"He is an HCI Researcher and a University Professor by profession. He is currently doing his PhD in Slovenia, Europe."
+			]
 		},
 
 		"ely_apao": {
 			"name": "Elymar Apao",
 			"role": "Advisory Board",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "https://www.linkedin.com/in/jozzua/",
+			"description": [
+				"One of the original founders of the UX Philippines community. Currently the customer experience manager for the digital transformation office of one of the Philippine's biggest conglomerates - JG Summit."
+			]
 		}
 	},
 
@@ -23,31 +39,47 @@
 		"kristine_garcia": {
 			"name": "Kristine Garcia",
 			"role": "Volunteers Lead",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "",
+			"description": [""]
 		},
 
 		"janyl_tamayo": {
 			"name": "Janyl Tamayo",
 			"role": "Events Lead",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "https://www.linkedin.com/in/janyltamayo/",
+			"description": [""]
 		},
 
 		"chiara_senires": {
 			"name": "Chiara Señires",
 			"role": "Marketing Lead",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "https://www.linkedin.com/in/chisenires/",
+			"description": [""]
 		},
 
 		"mike_jaren_yap": {
 			"name": "Mike Jaren Yap",
 			"role": "Web Lead",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "https://www.linkedin.com/in/mjarenyap/",
+			"description": [
+				"MJ is a Computer Science graduate who is passionate in designing and developing digital products.",
+				"When it comes to learning new things and improving his skillsets, he is always eager especially if it means serving the community better.",
+				"He likes physical sports, gym workouts, guitars, cats and memes."
+			]
 		},
 
 		"reine_bantang": {
 			"name": "Reine Bantang",
 			"role": "Creative Lead",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "https://www.linkedin.com/in/reine-bantang/",
+			"description": [
+				"Multimedia producer and occasional host who finds joy in theater, cats, and sushi."
+			]
 		}
 	},
 
@@ -55,19 +87,25 @@
 		"mars_quinay": {
 			"name": "Mars Quinay",
 			"role": "Marketing Coordinator",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "https://www.linkedin.com/in/mars-quinay-0658a317b/",
+			"description": [""]
 		},
 
 		"pierce_jonota": {
 			"name": "Pierce Jonota",
 			"role": "Events Coordinator",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "https://www.linkedin.com/in/piercejonota/",
+			"description": [""]
 		},
 
 		"richard_parayno": {
 			"name": "Richard Parayno",
 			"role": "Events Coordinator",
-			"image_url": "<url>"
+			"image_url": "<url>",
+			"linkedin": "https://www.linkedin.com/in/richardparayno/",
+			"description": [""]
 		}
 	}
 }

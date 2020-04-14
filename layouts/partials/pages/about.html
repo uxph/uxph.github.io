@@ -87,12 +87,14 @@
 									<p class="text-secondary">{{ .role }}</p>
 								</div>
 							</div>
-							<p class="text-secondary margin-bottom-16 padding-right-16">
-								Ex est ad amet amet magna nostrud nisi reprehenderit nostrud do non aliquip cupidatat minim laboris cupidatat.
-							</p>
-							<i class="fab fa-linkedin fa-lg"></i>
-							<i class="fab fa-twitter fa-lg"></i>
-							<i class="fab fa-github fa-lg"></i>
+							{{ range .description }}
+								<p class="text-secondary margin-bottom-16 padding-right-16">
+									{{ . }}
+								</p>
+							{{ end }}
+							<a href="{{ .linkedin }}" target="blank">
+								<i class="fab fa-linkedin fa-lg"></i>
+							</a>
 						</div>
 					</div>
 				{{ end }}
@@ -112,12 +114,14 @@
 									<p class="text-secondary">{{ .role }}</p>
 								</div>
 							</div>
-							<p class="text-secondary margin-bottom-16 padding-right-16">
-								Ex est ad amet amet magna nostrud nisi reprehenderit nostrud do non aliquip cupidatat minim laboris cupidatat.
-							</p>
-							<i class="fab fa-linkedin fa-lg"></i>
-							<i class="fab fa-twitter fa-lg"></i>
-							<i class="fab fa-github fa-lg"></i>
+							{{ range .description }}
+								<p class="text-secondary margin-bottom-16 padding-right-16">
+									{{ . }}
+								</p>
+							{{ end }}
+							<a href="{{ .linkedin }}" target="blank">
+								<i class="fab fa-linkedin fa-lg"></i>
+							</a>
 						</div>
 					</div>
 				{{ end }}
@@ -137,12 +141,14 @@
 									<p class="text-secondary">{{ .role }}</p>
 								</div>
 							</div>
-							<p class="text-secondary margin-bottom-16 padding-right-16">
-								Ex est ad amet amet magna nostrud nisi reprehenderit nostrud do non aliquip cupidatat minim laboris cupidatat.
-							</p>
-							<i class="fab fa-linkedin fa-lg"></i>
-							<i class="fab fa-twitter fa-lg"></i>
-							<i class="fab fa-github fa-lg"></i>
+							{{ range .description }}
+								<p class="text-secondary margin-bottom-16 padding-right-16">
+									{{ . }}
+								</p>
+							{{ end }}
+							<a href="{{ .linkedin }}" target="blank">
+								<i class="fab fa-linkedin fa-lg"></i>
+							</a>
 						</div>
 					</div>
 				{{ end }}
