@@ -6,20 +6,20 @@
 	}
 	.sort{
 		margin-right: 16px;
-		border-radius: 40px; 
+		border-radius: 40px;
 	}
 	.unselected:hover{
 		background-color: #c4c4c4;
 		color: white;
 	}
 	.timestamp{
-		color: #989898; 
-		font-size: 16px; 
+		color: #989898;
+		font-size: 16px;
 		line-height:23px;
 	}
 	.img_article{
 		background-color: #c4c4c4;
-		border-radius: 12px; 
+		border-radius: 12px;
 		min-height: var(--value-192);
 		min-width: var(--value-192);
 		max-height: var(--value-192);
@@ -109,11 +109,10 @@
 <section class="padding-top-64 padding-bottom-32 events-feed-section hidden">
 	<div class="wrapper">
 		<div class="w-100" id="event-select">
-			<small class="active text-secondary event-category"><b>All Events</b></small>
-			<small class="text-secondary event-category"><b>Meetups</b></small>
-			<small class="text-secondary event-category"><b>Virtual Meetups</b></small>
-			<small class="text-secondary event-category"><b>Workshops</b></small>
-			<small class="text-secondary event-category"><b>Conferences</b></small>
+			<small class="active text-secondary event-category" data-id="all"><b>All Events</b></small>
+			<small class="text-secondary event-category" data-id="meetups"><b>Meetups</b></small>
+			<small class="text-secondary event-category" data-id="virual meetups"><b>Virtual Meetups</b></small>
+			<small class="text-secondary event-category" data-id="conferences"><b>Conferences</b></small>
 		</div>
 		<br/><br/>
 		{{ range sort .Site.Data.events.past ".event_id" "desc" }}

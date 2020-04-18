@@ -11,11 +11,10 @@ livestream: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.f
 
 <p>Join us and 5 UX leaders as they share their insights on the State of UX in 2020. Get up to date on the different UX trends we’ve seen last year, and what we might expect in the upcoming year in this interactive panel discussion. 💡</p>
 
-<p>📍 See you this Wednesday, January 29, 6 – 9PM at the Cignal office, 10th floor Launchpad Building, 9 Sheridan St., Highway Hills, Mandaluyong City. </p>
+<p>📍 See you this Wednesday, January 29, 6 – 9PM at the Cignal office, 10th floor Launchpad Building, 9 Sheridan St., Highway Hills, Mandaluyong City.</p>
 
 <p> Hurry, seats are limited on a first-come-first served basis. See you there! 👋</p>
 
 <span class="blue">
 	#StateOfUX2020
 </span>
-
