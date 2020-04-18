@@ -67,7 +67,7 @@
 		<div class="wrapper">
 			<div class="rounded-lg">
 				<h1>Our latest event</h1>
-				<div class="padding-top-48 d-flex event-item">
+				<div class="padding-top-48 d-flex">
 					<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
 					<div class="margin-left-32 event-item-content">
 						<h2>{{ .name }}</h2>
@@ -109,14 +109,14 @@
 <section class="padding-top-64 padding-bottom-32 events-feed-section hidden">
 	<div class="wrapper">
 		<div class="w-100" id="event-select">
-			<small class="active text-secondary event-category" data-id="all"><b>All Events</b></small>
+			<small class="active text-secondary event-category" data-id=""><b>All Events</b></small>
 			<small class="text-secondary event-category" data-id="meetups"><b>Meetups</b></small>
-			<small class="text-secondary event-category" data-id="virual meetups"><b>Virtual Meetups</b></small>
+			<small class="text-secondary event-category" data-id="virual-meetups"><b>Virtual Meetups</b></small>
 			<small class="text-secondary event-category" data-id="conferences"><b>Conferences</b></small>
 		</div>
 		<br/><br/>
 		{{ range sort .Site.Data.events.past ".event_id" "desc" }}
-			<div class="padding-y-24 d-flex event-item">
+			<div class="padding-y-24 d-flex event-item" data-id="{{ .tag }}">
 				<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
 				<div class="margin-left-32 event-item-content">
 					<h2>{{ .name }}</h2>
