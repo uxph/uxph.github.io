@@ -23,9 +23,17 @@
 		</head>
 		<body>
 			{{ partial "components/nav" (dict "path" "../../") }}
-			<header class="bg-dark">
-				<iframe src="{{ .Params.livestream }}" height="560" style="border:none;overflow:hidden; margin: auto; display: block; width: 100%" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-			</header>
+
+			{{ if eq .Params.header "video" }}
+				<header class="bg-dark">
+					<iframe src="{{ .Params.cover }}" height="560" style="border:none;overflow:hidden; margin: auto; display: block; width: 100%" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+				</header>
+			{{ end }}
+
+			{{ if eq .Params.header "photo" }}
+				<header style="height: 560px; background: url({{ .Params.cover }}); background-size: cover; background-position: center;"></header>
+			{{ end }}
+
 			<section class="padding-y-96">
 				<div class="wrapper">
 					<div class="margin-bottom-32">

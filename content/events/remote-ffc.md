@@ -6,7 +6,8 @@ page: "pages/events"
 type: "blog"
 active: 2
 publish: "April 3, 2020"
-livestream: "https://www.youtube.com/embed/-amLnZxpDEA?version=3&amp;frameborder=0&amp;allow=accelerometer&amp;autoplay&amp;encrypted-media&amp;gyroscope&amp;picture-in-picture" 
+cover: "https://www.youtube.com/embed/-amLnZxpDEA?version=3&amp;frameborder=0&amp;allow=accelerometer&amp;autoplay&amp;encrypted-media&amp;gyroscope&amp;picture-in-picture"
+header: "video"
 ---
 
 <p>Just because you're getting used to working at home doesn't mean you can't do your best work.</p>
