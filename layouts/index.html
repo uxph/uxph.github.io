@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<title>{{ .Site.Data.info.site_name }}</title>
@@ -18,6 +19,42 @@
 					<br/><br/>
 				</p>
 			</div>
+		<style>
+		.par_text p{
+			font-size: 18px;
+		}
+		button{
+			border-radius: 8px;
+		}
+
+		.alt_section{
+			background-color: #0077B2 !important;
+			color: #fff !important;
+		}
+
+		.alt_button{
+			background-color: #fff;
+			color: #0077B2;
+			border: 1.5px solid #FFF;
+			opacity: .8;
+			border-color: #fff;
+		}
+		.fb_button{
+			background-color: #3b5998;
+			border-color: #3b5998;
+		}
+		.alt_button:hover{
+			opacity: 1;
+			background-color: #FFF;
+		}
+
+		.alt_section2{
+			background-color: #00C0FD;
+			color: #FFF !important;
+		}
+
+		</style>
+
 		</header>
 
 		<section class="padding-top-64 padding-bottom-96 auto-hidden" id="about-uxph-section">
@@ -48,62 +85,63 @@
 					{{ end }}
 				</div>
 				<img src="assets/visuals/link-yellow.svg" class="visuals width-192" id="link-yellow-1" />
-				<div class="margin-top-96">
+				<div class="margin-top-96 par_text">
 					<h1 class="margin-bottom-16">About UXPH</h1>
 					{{ range .Site.Data.info.about_us }}
 						<p class="margin-bottom-24">{{ . }}</p>
 					{{ end }}
 					<a href="https://www.facebook.com/groups/uxphilippines/" target="_blank">
-						<button class = "ux-blue" style = "border: 0px"><i class="fab fa-facebook-f "></i> Join the Facebook Group </button>
-						<button class = "ux-blue" style = "border: 0px"><i class="fab fa-facebook-f"></i> Facebook Page</button>
+						<button style = "margin-right: 16px;"><i class="fab fa-facebook-f "></i>  Join the Facebook Group </button>
+						<button><i class="fab fa-facebook-f"></i>  Facebook Page</button>
 					</a>
 				</div>
 			</div>
 		</section>
 
-		<section class="bg-light padding-y-96 hidden">
+		<section class="padding-y-96 hidden alt_section">
 			<div class="wrapper">
 				<div class="flex-wrapper d-flex justify-content-between align-items-center">
 					<img src="assets/images/organizing-team-square.png" class="featured-image d-block margin-right-32" />
-					<div>
+					<div class="par_text">
 						<h2 class="margin-bottom-16">Be a part of the organizing team</h2>
 						<p>{{ .Site.Data.volunteers.blurb.description }}</p>
 						<ul class="px-0 py-0 mx-0 my-0" id="volunteer-perks">
 							{{ range .Site.Data.info.organizing_team }}
 								<li>
-									<i class="far fa-check-circle margin-right-16"></i>
+									<i class="far fa-check-circle margin-right-16" style="color: #77dd77"></i>
 									<span>{{ . }}</span>
 								</li>
 							{{ end }}
 						</ul>
 						<a href="/volunteers">
-							<button class="margin-top-32">See Volunteer Opportunities</button>
+							<button class="alt_button margin-top-32">See Volunteer Opportunities</button>
 						</a>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<img src="assets/visuals/link-red.svg" class="visuals width-192" id="link-red-1" />
 
-		<section class="padding-y-96 hidden">
+		<section class="padding-y-96 hidden alt_section2">
+			<img src="assets/visuals/link-red.svg" class="visuals width-192" id="link-red-1" />
+
 			<div class="wrapper">
 				<div class="flex-wrapper flex-wrapper-reverse d-flex justify-content-between align-items-center">
 					<img src="assets/images/community-circle.png" class="featured-image d-block margin-left-32" />
-					<div>
+					<div class="par_text">
 						<h2 class="margin-bottom-16">Be a community partner</h2>
 						<p>{{ .Site.Data.info.community_partner }}</p>
 						<a href="/sponsorships">
-							<button class="margin-top-32">Learn More</button>
+							<button class="alt_button margin-top-32">Learn More</button>
 						</a>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<img src="assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" />
-
 		<section class="padding-y-96 bg-light hidden">
+			<img src="assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" />
+x
 			<div class="wrapper">
 				<div class="d-flex justify-content-between">
 					<div id="upcoming-events" class="padding-right-96">
