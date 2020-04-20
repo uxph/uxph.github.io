@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	
+
 	if(window.location.pathname != '/') {
 		$('#nav-logo').addClass('show');
 		$("#main-nav div.wrapper").addClass('justify-content-between');
@@ -46,7 +46,7 @@ $(document).scroll(function() {
 });
 
 function setActive(n) {
-	let main_nav = $('#main-nav ul li');
+	let main_nav = $('#main-nav ul li span');
 	$(main_nav).removeClass('active');
 	$(main_nav[n]).addClass('active');
 }

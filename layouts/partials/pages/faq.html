@@ -1,5 +1,9 @@
 <!-- FAQ page -->
 <style type="text/css">
+	#topic-select {
+		min-width: var(--value-192);
+		max-width: var(--value-192);
+	}
 	#topic-select > small {
 		display: block;
 		cursor: pointer;
@@ -8,6 +12,7 @@
 		transition: ease all 0.2s;
 		line-height: var(--value-24);
 		border-left: thick solid transparent;
+		font-weight: 500;
 	}
 
 	#topic-select > small.active {
@@ -31,19 +36,35 @@
 		<h1 class="margin-bottom-64">Frequently Asked Questions</h1>
 		<div class="d-flex justify-content-between">
 			<div class="margin-right-48 width-384" id="topic-select">
-				<small class="active text-secondary topic-option"><b>All topics</b></small>
-				<small class="text-secondary topic-option"><b>Code of Conduct</b></small>
-				<small class="text-secondary topic-option"><b>Community and Volunteering</b></small>
-				<small class="text-secondary topic-option"><b>Events</b></small>
-				<small class="text-secondary topic-option"><b>Certificates</b></small>
-				<small class="text-secondary topic-option"><b>Conferences</b></small>
-				<small class="text-secondary topic-option"><b>Purchases</b></small>
+				<small class="active text-secondary topic-option" data-id="all">
+					All topics
+				</small>
+				<small class="text-secondary topic-option" data-id="Events & Certificates">
+					Events & Certificates
+				</small>
+				<small class="text-secondary topic-option" data-id="Community and Volunteering">
+					Community and Volunteering
+				</small>
+				<small class="text-secondary topic-option" data-id="Speakers, Partnerships, and Sponsorships">
+					Speakers, Partnerships, and Sponsorships
+				</small>
+				<small class="text-secondary topic-option" data-id="Conferences">
+					Conferences
+				</small>
+				<small class="text-secondary topic-option" data-id="Ticketing & Purchases">
+					Ticketing & Purchases
+				</small>
+				<small class="text-secondary topic-option" data-id="Reporting an incident">
+					Reporting an incident
+				</small>
 			</div>
 			<div>
 				{{ range .Site.Data.faq }}
-					<div class="margin-bottom-64">
+					<div class="margin-bottom-48 faq-item" data-id="{{ .topic }} all">
 						<h2 class="margin-bottom-12">{{ .Q }}</h2>
-						<p>{{ .A }}</p>
+						{{ range .A }}
+							<p class="margin-bottom-24">{{ . }}</p>
+						{{ end }}
 					</div>
 				{{ end }}
 			</div>

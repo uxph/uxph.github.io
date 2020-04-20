@@ -71,7 +71,13 @@
 					<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
 					<div class="margin-left-32 event-item-content">
 						<h2>{{ .name }}</h2>
-						<p class="margin-y-8 margin-bottom-24 timestamp">{{ .date }} | {{ .time }} | {{ .tag }} | {{ .venue }} </p>
+						<p class="margin-y-8 margin-bottom-24 timestamp text-white">
+							{{ .date }}
+							<span class="px-3">|</span>
+							{{ .time }}
+							<span class="px-3">|</span>
+							{{ .venue }}
+						</p>
 						<p>{{ .description }}</p>
 						<div class="margin-y-8 margin-top-24">
 							{{ if ne .status "done" }}
@@ -99,7 +105,7 @@
 		<div class="padding-x-32 padding-y-32 rounded-lg shadow">
 			<h2 class="margin-bottom-16">Host your own UXPH event (Coming soon!)</h2>
 			<p class="margin-bottom-24">Have an event idea? You can host your own UXPH-sanctioned event! Download our information packet to know more about the requirements and process. </p>
-			<button class="padding-x-24 padding-y-12 margin-right-8 ">Learn More</button>
+			<!-- <button class="padding-x-24 padding-y-12 margin-right-8">Learn More</button> -->
 		</div>
 	</div>
 </section>
@@ -109,10 +115,10 @@
 <section class="padding-top-64 padding-bottom-32 events-feed-section hidden">
 	<div class="wrapper">
 		<div class="w-100" id="event-select">
-			<small class="active text-secondary event-category" data-id=""><b>All Events</b></small>
-			<small class="text-secondary event-category" data-id="meetups"><b>Meetups</b></small>
-			<small class="text-secondary event-category" data-id="virual-meetups"><b>Virtual Meetups</b></small>
-			<small class="text-secondary event-category" data-id="conferences"><b>Conferences</b></small>
+			<small class="active text-secondary event-category" data-id="">All Events</small>
+			<small class="text-secondary event-category" data-id="meetups">Meetups</small>
+			<small class="text-secondary event-category" data-id="virual-meetups">Virtual Meetups</small>
+			<small class="text-secondary event-category" data-id="conferences">Conferences</small>
 		</div>
 		<br/><br/>
 		{{ range sort .Site.Data.events.past ".event_id" "desc" }}
@@ -120,7 +126,13 @@
 				<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
 				<div class="margin-left-32 event-item-content">
 					<h2>{{ .name }}</h2>
-					<p class="margin-y-8 timestamp">{{ .date }} | {{ .time }} | {{ .venue }}</p>
+					<p class="margin-y-8 timestamp">
+						{{ .date }}
+						<span class="px-3">|</span>
+						{{ .time }}
+						<span class="px-3">|</span>
+						{{ .venue }}
+					</p>
 					<p>{{ .description }}</p>
 					<div class="margin-y-24">
 						<a href="{{ .blog_url }}">

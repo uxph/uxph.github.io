@@ -28,6 +28,10 @@
 	cursor: pointer;
 }
 
+#event-select > small {
+	font-weight: 500;
+}
+
 #event-select > small.active {
 	color: var(--main-blue) !important;
 	border-color: var(--main-blue) !important;

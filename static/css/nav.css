@@ -19,19 +19,24 @@
 #main-nav ul li {
 	list-style-type: none;
 	display: inline-block;
-	padding: var(--value-24) var(--value-16);
 	font-weight: 400;
 }
 
-#main-nav ul > a > li {
+#main-nav ul li span {
+	display: block;
+	padding: var(--value-24) var(--value-16);
+}
+
+#main-nav ul li span {
 	transition: ease all 0.2s;
-	border-bottom: thin solid transparent;
+	border-bottom: 2px solid transparent;
 	z-index: 999;
 }
 
-#main-nav ul > a > li.active {
+#main-nav ul li span.active {
 	color: var(--main-blue);
 	border-bottom-color: var(--main-blue);
+	background-color: #f8f8f8;
 }
 
 #main-nav ul > a > li:hover {
@@ -51,7 +56,7 @@
 	display: none;
 	border: thin solid #ccc;
 	border-top: none;
-	top: 68px;
+	top: 69px;
 }
 
 #main-nav li:hover > .subnav {
