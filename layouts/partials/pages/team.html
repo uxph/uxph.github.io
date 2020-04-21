@@ -10,30 +10,17 @@
     position: relative;
 
 }
-.user-card-compress{
-    height: 75px;
-    overflow: hidden;
-
-}
-.user-card-expand{
-    overflow: unset;
-    height: auto;
-
+.hide{
+	display: none;
 }
 
 .read-more{
-    position: absolute;
-    right: 16px;
-    font-size: 48px;
+	color: blue;
+	cursor: pointer;
 }
-.read-more i{
-    cursor: pointer;
-    transition: 1s;
+.read-more:hover{
+	text-decoration: underline;
 }
-.read-more i:hover{
-    text-shadow: 1px 3px 3px rgba(0,0,0,0.4);
-}
-
 </style>
 
 
@@ -48,19 +35,35 @@
 			<div class="d-flex justify-content-between flex-wrap team-feed">
 				{{ range .Site.Data.team.board_members }}
 					<div class="d-flex margin-bottom-64 flex-column w-50">
-						<div class="user-card user-card-compress">
+						<div>
 							<div class="d-flex align-items-center margin-bottom-24">
 								<div class="featured-image rounded-circle bg-secondary mr-3"></div>
 								<div>
 									<h2>{{ .name }}</h2>
 									<p class="text-secondary">{{ .role }}</p>
                                 </div>
-                                <div class="read-more"><i class="fas fa-angle-down"></i></div>
 							</div>
-							{{ range .description }}
-								<p class="text-secondary margin-bottom-16 padding-right-16">
-									{{ . }}
-								</p>
+							{{ $list :=  .description }}
+							{{ $len := (len $list) }}
+							
+							{{ range $index, $value := .description }}							
+							{{if (eq ($index) 1)}}
+								<span class="hide ext-txt">
+							{{end}}
+
+							<p class="text-secondary margin-bottom-16 padding-right-16">
+									{{if(lt ($index) 1 ) }}
+										{{ . }} 
+										{{if (ne $len 1)}}
+											<span onclick="show(this)" class="read-more" href="#">Show More</span>	
+										{{end}}
+									{{else}}
+										{{.}}
+										{{if (eq $index (sub $len 1))}}
+										<span onclick="hide(this)" class="read-more" href="#">Show less</span></span>
+										{{end}}
+									{{end}}
+							</p>
                             {{ end }}
 
 							<a href="{{ .linkedin }}" target="blank">
@@ -77,20 +80,36 @@
 			<div class="d-flex justify-content-between flex-wrap team-feed">
 				{{ range .Site.Data.team.committee_leads }}
 					<div class="d-flex margin-bottom-64 flex-column w-50">
-						<div class="user-card user-card-compress">
+						<div>
 							<div class="d-flex align-items-center margin-bottom-24">
 								<div class="featured-image rounded-circle bg-secondary mr-3"></div>
 								<div>
 									<h2>{{ .name }}</h2>
 									<p class="text-secondary">{{ .role }}</p>
 								</div>
-                                <div class="read-more"><i class="fas fa-angle-down"></i></div>
                             </div>
-							{{ range .description }}
-								<p class="text-secondary margin-bottom-16 padding-right-16">
-									{{ . }}
-								</p>
-							{{ end }}
+							{{ $list :=  .description }}
+							{{ $len := (len $list) }}
+							
+							{{ range $index, $value := .description }}							
+							{{if (eq ($index) 1)}}
+								<span class="hide ext-txt">
+							{{end}}
+
+							<p class="text-secondary margin-bottom-16 padding-right-16">
+									{{if(lt ($index) 1 ) }}
+										{{ . }} 
+										{{if (ne $len 1)}}
+											<span onclick="show(this)" class="read-more" href="#">Show More</span>	
+										{{end}}
+									{{else}}
+										{{.}}
+										{{if (eq $index (sub $len 1))}}
+										<span onclick="hide(this)" class="read-more" href="#">Show less</span></span>
+										{{end}}
+									{{end}}
+							</p>
+                            {{ end }}
 							<a href="{{ .linkedin }}" target="blank">
 								<i class="fab fa-linkedin fa-lg"></i>
 							</a>
@@ -105,20 +124,37 @@
 			<div class="d-flex justify-content-between flex-wrap team-feed">
 				{{ range .Site.Data.team.coordinators }}
 					<div class="d-flex margin-bottom-64 flex-column w-50">
-						<div class="user-card user-card-compress">
+						<div>
 							<div class="d-flex align-items-center margin-bottom-24">
 								<div class="featured-image rounded-circle bg-secondary mr-3"></div>
 								<div>
 									<h2>{{ .name }}</h2>
 									<p class="text-secondary">{{ .role }}</p>
                                 </div>
-                                <div class="read-more"><i class="fas fa-angle-down"></i></div>
 							</div>
-							{{ range .description }}
-								<p class="text-secondary margin-bottom-16 padding-right-16">
-									{{ . }}
-								</p>
-							{{ end }}
+
+							{{ $list :=  .description }}
+							{{ $len := (len $list) }}
+							
+							{{ range $index, $value := .description }}							
+							{{if (eq ($index) 1)}}
+								<span class="hide ext-txt">
+							{{end}}
+
+							<p class="text-secondary margin-bottom-16 padding-right-16">
+									{{if(lt ($index) 1 ) }}
+										{{ . }} 
+										{{if (ne $len 1)}}
+											<span onclick="show(this)" class="read-more" href="#">Show More</span>	
+										{{end}}
+									{{else}}
+										{{.}}
+										{{if (eq $index (sub $len 1))}}
+										<span onclick="hide(this)" class="read-more" href="#">Show less</span></span>
+										{{end}}
+									{{end}}
+							</p>
+                            {{ end }}
 							<a href="{{ .linkedin }}" target="blank">
 								<i class="fab fa-linkedin fa-lg"></i>
 							</a>
@@ -133,18 +169,25 @@
 <link rel="stylesheet" type="text/css" href="../css/about.css" />
 
 <script>
-        document.addEventListener('click', function(e) {
-            e = e || window.event;
-            var target = e.srcElement,
-                target2 = target.closest('div.read-more>i');   
-                target = (target.closest('div.user-card'));
-                
-                if(target2 != null){
-                    target2.classList.toggle('fa-angle-down');
-                    target2.classList.toggle('fa-angle-up');    
-                    target.classList.toggle('user-card-compress');
-                    target.classList.toggle('user-card-expand');    
-                }
-            }, false);
+function show(e){
+
+	let f = e.parentElement;
+	let exp_text = f.nextElementSibling;
+	e.classList.toggle('hide');
+	exp_text.classList.toggle('hide');
+
+}
+
+function hide(e){
+
+	let f = e.parentElement.parentElement;
+	console.log(f);
+	let readmore = f.previousElementSibling.getElementsByClassName('read-more')[0];
+
+	console.log(readmore);
+	f.classList.toggle('hide');
+	readmore.classList.toggle('hide');
+
+}
 
 </script>
