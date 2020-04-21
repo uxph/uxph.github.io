@@ -104,10 +104,14 @@ li {
 	font-size: var(--value-16);
 }
 
- a {
- 	text-decoration: none;
- 	color: inherit;
- }
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p b, p strong {
+	font-weight: 500;
+}
 
 button {
 	cursor: pointer;
@@ -124,11 +128,17 @@ button {
 	border: thin solid var(--main-blue);
 	border-width: 1.5px;
 	transition: ease all 0.3s;
+	box-shadow: 3px 3px 0px var(--uxph-blue-2);
+}
+
+button.no-shadow {
+	box-shadow: 0px 0px 0px transparent;
 }
 
 button:hover {
 	background-color: var(--main-blue-dark);
 	border-color: var(--main-blue-dark);
+	box-shadow: 0px 0px 0px var(--main-blue-dark);
 }
 
 button.outline {

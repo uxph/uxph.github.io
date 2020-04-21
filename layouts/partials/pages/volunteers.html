@@ -19,9 +19,9 @@
 	#role-responsibilties li,
 	#role-requirements li,
 	#what-you-learn li {
-		line-height: 25px; 
+		line-height: 25px;
 	}
-	
+
 	#position {
 		height:78px;
 		/*margin-top: -18rem;*/
@@ -55,6 +55,7 @@
 		padding: var(--value-4) var(--value-8);
 		transition: ease all 0.3s;
 		cursor: pointer;
+		font-weight: 500 !important;
 	}
 
 	#position-select > *.active {
@@ -84,13 +85,98 @@
 	</div>
 </header>
 
+<!-- Volunteer Perks Section -->
+<section class="bg-light padding-y-96" id="volunteer-perks-section">
+	<div class="wrapper">
+		<h1 class="text-body font-size-32">Volunteer Perks</h1>
+		<div id="volunteer-perks">
+			<!-- First row  -->
+			<div class="d-flex flex-wrap flex-row bd-highlight mb-3 padding-top-32">
+				<div class="p-2 bd-highlight perk-wrapper w-50">
+					<div class = "d-flex flex-row bd-highlight mb-3">
+						<!-- Circle -->
+						<div class="bg-blue rounded-circle p-2 bd-highlight"
+						style="min-width:35px; height:35px; vertical-align: middle;">
+							<i class="{{.Site.Data.volunteers.perks.perk1.icon}} text-white"></i>
+						</div>
+
+						<!-- Content -->
+						<div class="margin-left-16 p-2 bd-highlight perk-content">
+							<h3 class = "text-body">{{.Site.Data.volunteers.perks.perk1.name}}</h3>
+							<br>
+							<p>{{.Site.Data.volunteers.perks.perk1.description}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="p-2 bd-highlight margin-left-32 perk-wrapper w-50">
+					<div class="d-flex flex-row bd-highlight mb-3">
+
+						<!-- Circle -->
+						<div class = "bg-blue rounded-circle p-2 bd-highlight"
+						style="min-width:35px; height:35px; vertical-align: middle;">
+							<i class="{{.Site.Data.volunteers.perks.perk2.icon}} text-white"></i>
+						</div>
+
+						<!-- Content -->
+						<div class="margin-left-16 p-2 bd-highlight perk-content">
+							<h3 class="text-body">{{.Site.Data.volunteers.perks.perk2.name}}</h3>
+							<br>
+							<p>
+								{{.Site.Data.volunteers.perks.perk2.description}}
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="p-2 bd-highlight perk-wrapper w-50">
+					<div class="d-flex flex-row bd-highlight mb-3">
+
+						<!-- Circle -->
+						<div class="bg-blue rounded-circle p-2 bd-highlight"
+						style="min-width:35px; height:35px; vertical-align: middle;">
+							<i class="{{.Site.Data.volunteers.perks.perk3.icon}} text-white"></i>
+						</div>
+
+						<!-- Content -->
+						<div class="margin-left-16 p-2 bd-highlight perk-content">
+							<h3 class="text-body">{{.Site.Data.volunteers.perks.perk3.name}}</h3>
+							<br>
+							<p>
+								{{.Site.Data.volunteers.perks.perk3.description}}
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="p-2 bd-highlight margin-left-32 perk-wrapper w-50">
+					<div class="d-flex flex-row bd-highlight mb-3">
+
+						<!-- Circle -->
+						<div class = "bg-blue rounded-circle p-2 bd-highlight"
+						style="min-width:35px; height:35px; vertical-align: middle;">
+							<i class="{{.Site.Data.volunteers.perks.perk4.icon}} text-white"></i>
+						</div>
+
+						<!-- Content -->
+						<div class="margin-left-16 p-2 bd-highlight perk-content">
+							<h3 class="text-body">{{.Site.Data.volunteers.perks.perk4.name}}</h3>
+							<br>
+							<p>
+								{{.Site.Data.volunteers.perks.perk4.description}}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <!-- Positions Available-->
 <section class="padding-y-96 auto-hidden" id="position-select-section">
 	<div class="wrapper">
 		<div class="d-flex justify-content-between">
 			<div class="margin-right-48" id="position-select">
 				{{ range .Site.Data.volunteers.teams }}
-					<small class="text-secondary d-block margin-bottom-16 select-option" data-id="{{ .name }}"><b>{{ .name }}</b></small>
+					<small class="text-secondary d-block margin-bottom-16 select-option" data-id="{{ .name }}">{{ .name }}</small>
 					<script type="text/javascript">
 						addContent(
 							{{ .name }},
@@ -137,91 +223,6 @@
 				<a href="https://forms.gle/3Yc5AP7bAwqTHLGQ9" target="blank">
 					<button>Sign up for this role</button>
 				</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- Volunteer Perks Section -->
-<section class="bg-light padding-y-96" id="volunteer-perks-section">
-	<div class="wrapper">
-		<h1 class="text-body font-size-32">Volunteer Perks</h1>
-		<div id="volunteer-perks">
-			<!-- First row  -->
-			<div class="d-flex flex-wrap flex-row bd-highlight mb-3 padding-top-32">
-				<div class="p-2 bd-highlight perk-wrapper w-50">
-					<div class = "d-flex flex-row bd-highlight mb-3">
-						<!-- Circle -->
-						<div class="bg-blue rounded-circle p-2 bd-highlight" 
-						style="min-width:35px; height:35px; vertical-align: middle;">
-							<i class="{{.Site.Data.volunteers.perks.perk1.icon}} text-white"></i>
-						</div>
-
-						<!-- Content -->
-						<div class="margin-left-16 p-2 bd-highlight perk-content">
-							<h3 class = "text-body">{{.Site.Data.volunteers.perks.perk1.name}}</h3>
-							<br>
-							<p>{{.Site.Data.volunteers.perks.perk1.description}}</p>
-						</div>
-					</div>
-				</div>
-				<div class="p-2 bd-highlight margin-left-32 perk-wrapper w-50">
-					<div class="d-flex flex-row bd-highlight mb-3">
-
-						<!-- Circle -->
-						<div class = "bg-blue rounded-circle p-2 bd-highlight" 
-						style="min-width:35px; height:35px; vertical-align: middle;">
-							<i class="{{.Site.Data.volunteers.perks.perk2.icon}} text-white"></i>
-						</div>
-
-						<!-- Content -->
-						<div class="margin-left-16 p-2 bd-highlight perk-content">
-							<h3 class="text-body">{{.Site.Data.volunteers.perks.perk2.name}}</h3>
-							<br>
-							<p>
-								{{.Site.Data.volunteers.perks.perk2.description}}
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="p-2 bd-highlight perk-wrapper w-50">
-					<div class="d-flex flex-row bd-highlight mb-3">
-
-						<!-- Circle -->
-						<div class="bg-blue rounded-circle p-2 bd-highlight" 
-						style="min-width:35px; height:35px; vertical-align: middle;">
-							<i class="{{.Site.Data.volunteers.perks.perk3.icon}} text-white"></i>
-						</div>
-
-						<!-- Content -->
-						<div class="margin-left-16 p-2 bd-highlight perk-content">
-							<h3 class="text-body">{{.Site.Data.volunteers.perks.perk3.name}}</h3>
-							<br>
-							<p>
-								{{.Site.Data.volunteers.perks.perk3.description}}
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="p-2 bd-highlight margin-left-32 perk-wrapper w-50">
-					<div class="d-flex flex-row bd-highlight mb-3">
-
-						<!-- Circle -->
-						<div class = "bg-blue rounded-circle p-2 bd-highlight" 
-						style="min-width:35px; height:35px; vertical-align: middle;">
-							<i class="{{.Site.Data.volunteers.perks.perk4.icon}} text-white"></i>
-						</div>
-
-						<!-- Content -->
-						<div class="margin-left-16 p-2 bd-highlight perk-content">
-							<h3 class="text-body">{{.Site.Data.volunteers.perks.perk4.name}}</h3>
-							<br>
-							<p>
-								{{.Site.Data.volunteers.perks.perk4.description}}
-							</p>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>

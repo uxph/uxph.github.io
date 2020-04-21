@@ -59,11 +59,11 @@
 		position: relative;
 		z-index: 300;
 	}
-
 </style>
+
 <!-- Events page -->
 {{ range .Site.Data.events.current }}
-	<header id="events-header" class="padding-y-96 auto-hidden" style="background: url({{ .image_banner_url }}); background-size:cover;">
+	<header id="events-header" class="padding-y-96 auto-hidden" style="background: url({{ .image_banner_url }}); background-size:cover; background-attachment: fixed;">
 		<div class="wrapper">
 			<div class="rounded-lg">
 				<h1>Our latest event</h1>
@@ -106,7 +106,7 @@
 	<div class="wrapper bg-white">
 		<div class="padding-x-32 padding-y-32 border-radius-12 shadow">
 			<h2 class="margin-bottom-16">Host your own UXPH event (Coming soon!)</h2>
-			<p class="margin-bottom-24">Have an event idea? You can host your own UXPH-sanctioned event! Download our information packet to know more about the requirements and process. </p>
+			<p>Have an event idea? You can host your own UXPH-sanctioned event! Download our information packet to know more about the requirements and process. </p>
 			<!-- <button class="padding-x-24 padding-y-12 margin-right-8">Learn More</button> -->
 		</div>
 	</div>

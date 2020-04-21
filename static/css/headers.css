@@ -4,16 +4,19 @@
 	background: url(../assets/images/about-uxph.png);
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 #volunteers-header {
 	background: url(../assets/images/organizing-team.png);
-	background-size: cover;
+	background-size: 155%;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 #sponsorships-header {
 	background: url(../assets/images/community-partner.png);
-	background-size: cover;
+	background-size: 155%;
 	background-position: center;
+	background-attachment: fixed;
 }
