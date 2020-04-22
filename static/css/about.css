@@ -13,11 +13,6 @@
 	background-position: right;
 }
 
-#meet-the-team .featured-image {
-	width: 4.5rem;
-	height: 4.5rem;
-}
-
 .team-feed > div {
 	flex: 0 50%;
 }

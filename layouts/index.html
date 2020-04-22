@@ -19,39 +19,6 @@
 					<br/><br/>
 				</p>
 			</div>
-		<style>
-		.par_text p{
-			font-size: 18px;
-		}
-
-		.alt_section{
-			background-color: #0077B2 !important;
-			color: #fff !important;
-		}
-
-		.alt_button{
-			background-color: #fff;
-			color: #0077B2;
-			border: 1.5px solid #FFF;
-			opacity: .8;
-			border-color: #fff;
-		}
-		.fb_button{
-			background-color: #3b5998;
-			border-color: #3b5998;
-		}
-		.alt_button:hover{
-			opacity: 1;
-			background-color: #FFF;
-		}
-
-		.alt_section2{
-			background-color: #00C0FD;
-			color: #FFF !important;
-		}
-
-		</style>
-
 		</header>
 
 		<section class="padding-top-64 padding-bottom-96 auto-hidden" id="about-uxph-section">
@@ -88,7 +55,7 @@
 					{{ end }}
 				</div>
 				<img src="assets/visuals/link-yellow.svg" class="visuals width-192" id="link-yellow-1" />
-				<div class="margin-top-96 par_text">
+				<div class="margin-top-96">
 					<h1 class="margin-bottom-16">About UXPH</h1>
 					{{ range .Site.Data.info.about_us }}
 						<p class="margin-bottom-24">{{ . }}</p>
@@ -112,11 +79,11 @@
 			</div>
 		</section>
 
-		<section class="padding-y-96 hidden bg-light">
+		<section class="padding-y-96 hidden bg-light" id="organizing-team-section">
 			<div class="wrapper">
 				<div class="flex-wrapper d-flex justify-content-between align-items-center">
 					<img src="assets/images/organizing-team-square.png" class="featured-image d-block margin-right-32" />
-					<div class="par_text">
+					<div>
 						<h2 class="margin-bottom-16">Be a part of the organizing team</h2>
 						<p>{{ .Site.Data.volunteers.blurb.description }}</p>
 						<ul class="px-0 py-0 mx-0 my-0" id="volunteer-perks">
@@ -136,13 +103,12 @@
 		</section>
 
 
-		<section class="padding-y-96 hidden">
+		<section class="padding-y-96 hidden" id="community-partner-section">
 			<img src="assets/visuals/link-red.svg" class="visuals width-192" id="link-red-1" />
-
 			<div class="wrapper">
 				<div class="flex-wrapper flex-wrapper-reverse d-flex justify-content-between align-items-center">
 					<img src="assets/images/community-circle.png" class="featured-image d-block margin-left-32" />
-					<div class="par_text">
+					<div class="">
 						<h2 class="margin-bottom-16">Be a community partner</h2>
 						<p>{{ .Site.Data.info.community_partner }}</p>
 						<a href="/sponsorships">

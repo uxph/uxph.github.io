@@ -56,6 +56,24 @@
 	background-attachment: fixed;
 }
 
+#organizing-team-section {
+	background-color: red;
+	background: url(../assets/visuals/ph-map-gray.png);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-attachment: fixed;
+}
+
+#community-partner-section {
+	background-color: red;
+	background: url(../assets/visuals/ph-map-gray.png);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: fixed;
+}
+
 #link-red-1 {
 	right: 0;
 }

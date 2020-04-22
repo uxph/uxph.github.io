@@ -3,7 +3,7 @@
 		"aldrich_tan": {
 			"name": "Aldrich Tan",
 			"role": "Managing Director",
-			"image_url": "<url>",
+			"image_url": "assets/team/aldrich.png",
 			"linkedin": "https://www.linkedin.com/in/aldricht/",
 			"description": [
 				"Aldrich is an Sr. Experience Architect who has worked with multiple companies and industries in the US, Canada, and Philippines.",
@@ -15,19 +15,18 @@
 		"jordan_deja": {
 			"name": "Jordan Deja",
 			"role": "Advisory Board",
-			"image_url": "<url>",
+			"image_url": "assets/team/jordan.jpeg",
 			"linkedin": "https://www.linkedin.com/in/jrdndj/",
 			"description": [
 				"Jordan became involved in UXPH when he was a speaker in the 2017 Conference. He moved behind the scenes as Volunteer Lead in the 2018 Conference and became the Over-all Lead with Aldrich Tan in 2019.",
-				"He is currently part of its Board of Directors, Lead for Speakers and Community Engagement.",
-				"He is an HCI Researcher and a University Professor by profession. He is currently doing his PhD in Slovenia, Europe."
+				"He is currently part of its Board of Directors, Lead for Speakers and Community Engagement. He is an HCI Researcher and a University Professor by profession. He is currently doing his PhD in Slovenia, Europe."
 			]
 		},
 
 		"ely_apao": {
 			"name": "Elymar Apao",
 			"role": "Advisory Board",
-			"image_url": "<url>",
+			"image_url": "assets/team/ely.jpg",
 			"linkedin": "https://www.linkedin.com/in/jozzua/",
 			"description": [
 				"One of the original founders of the UX Philippines community. Currently the customer experience manager for the digital transformation office of one of the Philippine's biggest conglomerates - JG Summit."
@@ -39,7 +38,7 @@
 		"kristine_garcia": {
 			"name": "Kristine Garcia",
 			"role": "Volunteers Lead",
-			"image_url": "<url>",
+			"image_url": "assets/team/kringle.jpg",
 			"linkedin": "",
 			"description": [""]
 		},
@@ -47,27 +46,31 @@
 		"janyl_tamayo": {
 			"name": "Janyl Tamayo",
 			"role": "Events Lead",
-			"image_url": "<url>",
+			"image_url": "assets/team/janyl.jpg",
 			"linkedin": "https://www.linkedin.com/in/janyltamayo/",
-			"description": [""]
+			"description": [
+				"Janyl is an Experience Designer from Vancouver, currently crafting human-centric experiences at a Fintech startup to make payments simple for SMEs. Gets chatty when she's tea high and is a recovering skincare addict."
+			]
 		},
 
 		"chiara_senires": {
 			"name": "Chiara Señires",
 			"role": "Marketing Lead",
-			"image_url": "<url>",
+			"image_url": "assets/team/chi.jpg",
 			"linkedin": "https://www.linkedin.com/in/chisenires/",
 			"description": [
-				"Chi is a Lead Product Designer at Cignal TV and a front-end web developer with over 4 years of industry experience.",
-				"Before graduating from Ateneo de Manila University, she co-founded User Experience Society, the first global Filipino student organization that advocates and practices human-centered design in solving problems in the community.",
-				"She also spends her time freelancing and volunteering in various creative communities like UXPH and Figma PH."
+				"Chi is a UX Designer, Front-End Web Developer, and a Product Manager.",
+
+				"She's currently working as a Product Manager at Cignal TV. Aside from her day job, she helps organize tech communities like UXPH and Figma PH.",
+
+				"When Chi isn't working, she spends her time riding her bike, scrolling through social media, playing games on her computer or Switch."
 			]
 		},
 
 		"mike_jaren_yap": {
 			"name": "Mike Jaren Yap",
 			"role": "Web Lead",
-			"image_url": "<url>",
+			"image_url": "assets/team/mj.png",
 			"linkedin": "https://www.linkedin.com/in/mjarenyap/",
 			"description": [
 				"MJ is a Computer Science graduate who is the Co-Founder and former Chapter Head of User Experience Society-DLSU.",
@@ -79,7 +82,7 @@
 		"reine_bantang": {
 			"name": "Reine Bantang",
 			"role": "Creative Lead",
-			"image_url": "<url>",
+			"image_url": "assets/team/reine.jpg",
 			"linkedin": "https://www.linkedin.com/in/reine-bantang/",
 			"description": [
 				"Multimedia producer and occasional host who finds joy in theater, cats, and sushi."

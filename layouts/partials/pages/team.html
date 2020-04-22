@@ -1,14 +1,20 @@
 <style>
     .user-card{
-        /* border: 1.2px solid rgba(0,0,0,0.8); */
-        padding: 16px;
-        margin: 8px;
         border-radius: 8px;
         width: auto;
         z-index: 99;
         position: relative;
-
+        overflow: hidden;
+        height: var(--value-384);
     }
+
+    .user-card .featured-image {
+        position: absolute;
+        height: var(--value-384);
+        top: 0;
+        left: 0;
+    }
+
     .hide{
     	display: none;
     }
@@ -22,49 +28,36 @@
     }
 </style>
 
-<section id="meet-the-team" class="padding-y-128 position-relative">
+<section id="meet-the-team" class="padding-y-96 position-relative">
 	<img src="../assets/visuals/link-yellow.svg" class="visuals width-192" id="link-yellow-1" />
 	<div class="wrapper">
 		<h1 class="margin-bottom-48">Organizing Members</h1>
-		<div class="margin-bottom-48">
+		<div class="margin-bottom-96">
 			<h2 class="text-secondary margin-bottom-32">Board Members</h2>
-			<div class="d-flex justify-content-between flex-wrap team-feed">
+			<div class="team-feed">
 				{{ range .Site.Data.team.board_members }}
-					<div class="d-flex margin-bottom-64 flex-column w-50">
-						<div class="user-card shadow bg-white">
-							<div class="d-flex align-items-center margin-bottom-24">
-								<div class="featured-image rounded-circle bg-secondary mr-3"></div>
-								<div>
-									<h2>{{ .name }}</h2>
-									<p class="text-secondary">{{ .role }}</p>
+					<div class="margin-bottom-32">
+						<div class="user-card shadow-sm bg-white padding-left-256">
+                            <div class="featured-image bg-secondary width-256" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
+                            </div>
+                            <div class="padding-x-32 padding-y-32">
+    							<div class="d-flex align-items-center margin-bottom-16">
+    								<div>
+    									<h2 class="blue">{{ .name }}</h2>
+    									<p class="red">{{ .role }}</p>
+                                    </div>
+    							</div>
+                                <div>
+                                    {{ range .description }}
+            							<p class="text-secondary margin-bottom-16">
+            						        {{ . }}
+            							</p>
+                                    {{ end }}
                                 </div>
-							</div>
-							{{ $list :=  .description }}
-							{{ $len := (len $list) }}
-
-							{{ range $index, $value := .description }}
-							{{if (eq ($index) 1)}}
-								<span class="hide ext-txt">
-							{{end}}
-
-							<p class="text-secondary margin-bottom-16 padding-right-16">
-									{{if(lt ($index) 1 ) }}
-										{{ . }}
-										{{if (ne $len 1)}}
-											<span onclick="show(this)" class="read-more" href="#">Show More</span>
-										{{end}}
-									{{else}}
-										{{.}}
-										{{if (eq $index (sub $len 1))}}
-										<span onclick="hide(this)" class="read-more" href="#">Show less</span></span>
-										{{end}}
-									{{end}}
-							</p>
-                            {{ end }}
-
-							<a href="{{ .linkedin }}" target="blank">
-								<i class="fab fa-linkedin fa-lg"></i>
-							</a>
+                                <a href="{{ .linkedin }}" target="blank">
+    								<i class="fab fa-linkedin fa-lg"></i>
+    							</a>
+                            </div>
 						</div>
 					</div>
 				{{ end }}
@@ -73,87 +66,30 @@
 
 		<div class="margin-bottom-48">
 			<h2 class="text-secondary margin-bottom-32">Committee Leads</h2>
-			<div class="d-flex justify-content-between flex-wrap team-feed">
-				{{ range .Site.Data.team.committee_leads }}
-					<div class="d-flex margin-bottom-64 flex-column w-50">
-						<div class="user-card">
-							<div class="d-flex align-items-center margin-bottom-24">
-								<div class="featured-image rounded-circle bg-secondary mr-3"></div>
-								<div>
-									<h2>{{ .name }}</h2>
-									<p class="text-secondary">{{ .role }}</p>
-								</div>
+			<div class="team-feed">
+                {{ range .Site.Data.team.committee_leads }}
+					<div class="margin-bottom-32">
+						<div class="user-card shadow-sm bg-white padding-left-256">
+                            <div class="featured-image bg-secondary width-256" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
                             </div>
-							{{ $list :=  .description }}
-							{{ $len := (len $list) }}
-
-							{{ range $index, $value := .description }}
-							{{if (eq ($index) 1)}}
-								<span class="hide ext-txt">
-							{{end}}
-
-							<p class="text-secondary margin-bottom-16 padding-right-16">
-									{{if(lt ($index) 1 ) }}
-										{{ . }}
-										{{if (ne $len 1)}}
-											<span onclick="show(this)" class="read-more" href="#">Show More</span>
-										{{end}}
-									{{else}}
-										{{.}}
-										{{if (eq $index (sub $len 1))}}
-										<span onclick="hide(this)" class="read-more" href="#">Show less</span></span>
-										{{end}}
-									{{end}}
-							</p>
-                            {{ end }}
-							<a href="{{ .linkedin }}" target="blank">
-								<i class="fab fa-linkedin fa-lg"></i>
-							</a>
-						</div>
-					</div>
-				{{ end }}
-			</div>
-		</div>
-
-		<div>
-			<h2 class="text-secondary margin-bottom-32">Coordinators</h2>
-			<div class="d-flex justify-content-between flex-wrap team-feed">
-				{{ range .Site.Data.team.coordinators }}
-					<div class="d-flex margin-bottom-64 flex-column w-50">
-						<div class="user-card">
-							<div class="d-flex align-items-center margin-bottom-24">
-								<div class="featured-image rounded-circle bg-secondary mr-3"></div>
-								<div>
-									<h2>{{ .name }}</h2>
-									<p class="text-secondary">{{ .role }}</p>
+                            <div class="padding-x-32 padding-y-32">
+    							<div class="d-flex align-items-center margin-bottom-16">
+    								<div>
+    									<h2 class="blue">{{ .name }}</h2>
+    									<p class="red">{{ .role }}</p>
+                                    </div>
+    							</div>
+                                <div>
+                                    {{ range .description }}
+            							<p class="text-secondary margin-bottom-16">
+            						        {{ . }}
+            							</p>
+                                    {{ end }}
                                 </div>
-							</div>
-
-							{{ $list :=  .description }}
-							{{ $len := (len $list) }}
-
-							{{ range $index, $value := .description }}
-							{{if (eq ($index) 1)}}
-								<span class="hide ext-txt">
-							{{end}}
-
-							<p class="text-secondary margin-bottom-16 padding-right-16">
-									{{if(lt ($index) 1 ) }}
-										{{ . }}
-										{{if (ne $len 1)}}
-											<span onclick="show(this)" class="read-more" href="#">Show More</span>
-										{{end}}
-									{{else}}
-										{{.}}
-										{{if (eq $index (sub $len 1))}}
-										<span onclick="hide(this)" class="read-more" href="#">Show less</span></span>
-										{{end}}
-									{{end}}
-							</p>
-                            {{ end }}
-							<a href="{{ .linkedin }}" target="blank">
-								<i class="fab fa-linkedin fa-lg"></i>
-							</a>
+                                <a href="{{ .linkedin }}" target="blank">
+    								<i class="fab fa-linkedin fa-lg"></i>
+    							</a>
+                            </div>
 						</div>
 					</div>
 				{{ end }}
