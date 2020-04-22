@@ -8,7 +8,7 @@
 		padding-bottom: var(--value-48) !important;
 	}
 
-	#about-header, #home-header {
+	#about-header, #home-header, #meet-the-team {
 		padding-top: var(--value-48) !important;
 		padding-bottom: var(--value-192) !important;
 	}
@@ -139,6 +139,9 @@
 		margin: var(--value-16) 0 !important;
 	}
 
+
+
+	/* team.html */
 	#meet-the-team {
 		background: none !important;
 	}
@@ -146,6 +149,35 @@
 	#meet-the-team .team-feed > div {
 		flex: 0 100% !important;
 		width: 100% !important;
+	}
+
+	#meet-the-team .user-card {
+		height: 100%;
+		padding: var(--value-32) var(--value-16) !important;
+	}
+
+	#meet-the-team .user-card .featured-image {
+		position: static;
+		width: var(--value-192) !important;
+		height: var(--value-192) !important;
+		background-position: center !important;
+		border-radius: 200px !important;
+		margin: auto !important;
+		margin-bottom: var(--value-24) !important;
+	}
+
+	#meet-the-team .user-card .user-card-content {
+		padding: 0 !important;
+	}
+
+	#meet-the-team .user-card .user-card-content * {
+		text-align: center !important;
+	}
+
+	#meet-the-team .user-card .user-card-content .fab {
+		display: block;
+		margin: auto !important;
+		font-size: var(--value-32);
 	}
 
 

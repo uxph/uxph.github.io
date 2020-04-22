@@ -58,8 +58,8 @@
 
 #organizing-team-section {
 	background-color: red;
-	background: url(../assets/visuals/ph-map-gray.png);
-	background-size: 500px;
+	background: url(../assets/visuals/circuit.png);
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left;
 	background-attachment: fixed;

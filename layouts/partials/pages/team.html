@@ -40,8 +40,8 @@
 						<div class="user-card shadow-sm bg-white padding-left-256">
                             <div class="featured-image bg-secondary width-256" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
                             </div>
-                            <div class="padding-x-32 padding-y-32">
-    							<div class="d-flex align-items-center margin-bottom-16">
+                            <div class="padding-x-32 padding-y-32 user-card-content">
+    							<div class="margin-bottom-16">
     								<div>
     									<h2 class="blue">{{ .name }}</h2>
     									<p class="red">{{ .role }}</p>
@@ -72,8 +72,8 @@
 						<div class="user-card shadow-sm bg-white padding-left-256">
                             <div class="featured-image bg-secondary width-256" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
                             </div>
-                            <div class="padding-x-32 padding-y-32">
-    							<div class="d-flex align-items-center margin-bottom-16">
+                            <div class="padding-x-32 padding-y-32 user-card-content">
+    							<div class="margin-bottom-16">
     								<div>
     									<h2 class="blue">{{ .name }}</h2>
     									<p class="red">{{ .role }}</p>
@@ -85,10 +85,10 @@
             						        {{ . }}
             							</p>
                                     {{ end }}
+                                    <a href="{{ .linkedin }}" target="blank">
+        								<i class="fab fa-linkedin fa-lg"></i>
+        							</a>
                                 </div>
-                                <a href="{{ .linkedin }}" target="blank">
-    								<i class="fab fa-linkedin fa-lg"></i>
-    							</a>
                             </div>
 						</div>
 					</div>
