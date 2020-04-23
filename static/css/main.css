@@ -219,7 +219,7 @@ div#back-to-top.hide {
 }
 
 div#back-to-top:hover {
-	color: var(--main-blue-dark);
+	background-color: var(--main-blue-dark);
 	border-color: var(--main-blue-dark);
 }
 
