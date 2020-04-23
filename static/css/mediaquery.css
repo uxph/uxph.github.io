@@ -34,7 +34,7 @@
 	div.wrapper {
 		width: 100% !important;
 		box-sizing: border-box !important;
-		padding: 0 var(--value-16) !important;
+		padding: 0 var(--value-24) !important;
 	}
 
 
@@ -101,12 +101,33 @@
 		background-color: white !important;
 	}
 
+	#about-uxph-section button {
+		margin: 0 !important;
+		margin-bottom: var(--value-16) !important;
+		width: 100%;
+	}
+
+	#organizing-team-section button,
+	#community-partner-section button {
+		margin: var(--value-32) 0 !important;
+		width: 100%;
+	}
+
 	#upcoming-events {
 		padding: 0 !important;
 	}
 
 	#past-events {
 		width: 100% !important;
+	}
+
+	#past-events button {
+		font-size: var(--value-12) !important;
+		padding: var(--value-12) var(--value-24) !important;
+	}
+
+	#past-events div.d-flex.justify-content-between {
+		flex-direction: row !important;
 	}
 
 
@@ -139,6 +160,10 @@
 		margin: var(--value-16) 0 !important;
 	}
 
+	.organization-initiatives .what-we-do-item {
+		width: 100% !important;
+	}
+
 
 
 	/* team.html */
@@ -152,8 +177,8 @@
 	}
 
 	#meet-the-team .user-card {
-		height: 100%;
 		padding: var(--value-32) var(--value-16) !important;
+		flex-direction: column !important;
 	}
 
 	#meet-the-team .user-card .featured-image {
@@ -162,7 +187,7 @@
 		height: var(--value-192) !important;
 		background-position: center !important;
 		border-radius: 200px !important;
-		margin: auto !important;
+		margin: 0 auto !important;
 		margin-bottom: var(--value-24) !important;
 	}
 
@@ -201,6 +226,14 @@
 		margin: var(--value-16) 0 !important;
 	}
 
+	#latest-event-content {
+		flex-direction: column;
+	}
+
+	#latest-event-content .featured-image-bg {
+		margin-bottom: var(--value-32) !important;
+	}
+
 	#events-menu {
 		justify-content: center !important;
 	}
@@ -213,6 +246,10 @@
 
 
 	/* sponsorships.html */
+	#sponsorships-header {
+		background-size: cover !important;
+	}
+
 	#sponsorships-header-content {
 		width: 100% !important;
 	}
@@ -241,6 +278,10 @@
 
 
 	/* volunteers.html */
+	#volunteers-header {
+		background-size: cover !important;
+	}
+
 	#volunteers-header-content {
 		width: 100% !important;
 	}
@@ -306,6 +347,8 @@
 		padding-bottom: var(--value-32) !important;
 		overflow-y: scroll;
 		white-space: nowrap;
+		min-width: 100% !important;
+		max-width: 100% !important;
 	}
 
 	#topic-select::-webkit-scrollbar {
@@ -318,5 +361,10 @@
 		font-size: var(--value-16) !important;
 		border-left: none;
 		border-bottom: 3px solid transparent;
+	}
+
+	/* back-to-top */
+	#back-to-top {
+		display: none;
 	}
 }
