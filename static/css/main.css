@@ -204,8 +204,8 @@ div#back-to-top {
 	position: fixed;
 	padding: 1em 1.1em;
 	z-index: 999;
-	bottom: 5%;
-	right: 2%;
+	bottom: 18pt;
+	right: 64pt;
 	cursor: pointer;
 	color: var(--main-blue);
 	border: 2px solid var(--main-blue);
