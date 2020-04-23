@@ -38,6 +38,10 @@
 }
 
 #event-select > small:hover {
-	color: var(--main-red) !important;
-	border-color: var(--main-red) !important
+	color: var(--uxph-yellow-1) !important;
+	border-color: var(--uxph-yellow-1) !important
+}
+
+.event-item:hover h2 {
+	text-decoration: underline;
 }

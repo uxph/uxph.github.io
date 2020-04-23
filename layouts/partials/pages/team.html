@@ -5,14 +5,16 @@
         z-index: 99;
         position: relative;
         overflow: hidden;
-        height: var(--value-384);
+        padding: var(--value-32);
     }
 
     .user-card .featured-image {
-        position: absolute;
-        height: var(--value-384);
-        top: 0;
-        left: 0;
+        border-radius: 100%;
+        max-height: var(--value-128);
+        max-width: var(--value-128);
+        min-height: var(--value-128);
+        min-width: var(--value-128);
+        margin-right: var(--value-32);
     }
 
     .hide{
@@ -37,10 +39,10 @@
 			<div class="team-feed">
 				{{ range .Site.Data.team.board_members }}
 					<div class="margin-bottom-32">
-						<div class="user-card shadow-sm bg-white padding-left-256">
-                            <div class="featured-image bg-secondary width-256" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
+						<div class="user-card shadow-sm bg-white d-flex">
+                            <div class="featured-image bg-secondary" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
                             </div>
-                            <div class="padding-x-32 padding-y-32 user-card-content">
+                            <div class="user-card-content">
     							<div class="margin-bottom-16">
     								<div>
     									<h2 class="blue">{{ .name }}</h2>
@@ -69,10 +71,10 @@
 			<div class="team-feed">
                 {{ range .Site.Data.team.committee_leads }}
 					<div class="margin-bottom-32">
-						<div class="user-card shadow-sm bg-white padding-left-256">
-                            <div class="featured-image bg-secondary width-256" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
+						<div class="user-card shadow-sm bg-white d-flex">
+                            <div class="featured-image bg-secondary" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
                             </div>
-                            <div class="padding-x-32 padding-y-32 user-card-content">
+                            <div class="user-card-content">
     							<div class="margin-bottom-16">
     								<div>
     									<h2 class="blue">{{ .name }}</h2>
