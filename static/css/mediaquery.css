@@ -365,6 +365,7 @@
 
 	/* back-to-top */
 	#back-to-top {
-		display: none;
+		bottom: 75pt !important;
+		right: 20pt !important;
 	}
 }
