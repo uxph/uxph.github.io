@@ -58,7 +58,7 @@
 
 #organizing-team-section {
 	background-color: red;
-	background: url(../assets/visuals/circuit.png);
+	/* background: url(../assets/visuals/circuit.png); */
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left;
