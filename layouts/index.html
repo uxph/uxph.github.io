@@ -31,7 +31,7 @@
 		page_id="314394185432326"
 		theme_color="#15B0DE">
 		</div>
-		
+
 		<!-- Navigation -->
 		{{ partial "components/nav" (dict "path" "") }}
 		<header id="home-header" class="bg-dark auto-hidden position-relative">
@@ -55,14 +55,14 @@
 						<div>
 							<h3 class = "text-secondary margin-bottom-8">Our latest event</h3>
 							<h2 class="text-dark">{{ .name }}</h2>
-							<p class="text-black-50 margin-bottom-12">
+							<p class="text-black-50 font-size-16">
 								{{ .date }}
 								<span class="px-3">|</span>
 								{{ .time }}
 								<span class="px-3">|</span>
 								{{ .venue }}
 							</p>
-							<p class="text-dark margin-bottom-24 description">{{ .description }}</p>
+							<p class="text-dark margin-bottom-24 description font-size-16">{{ .description }}</p>
 							<div>
 								{{ if ne .status "done" }}
 									<a href="{{ .ticket_url }}" target="_blank">
@@ -86,21 +86,23 @@
 					{{ range .Site.Data.info.about_us }}
 						<p class="margin-bottom-24">{{ . }}</p>
 					{{ end }}
-					<a href="/about">
-						<button class="margin-right-4">Learn More</button>
-					</a>
-					<a href="https://www.facebook.com/groups/uxphilippines/" target="_blank">
-						<button class="margin-right-4 outline">
-							<i class="fab fa-facebook-f "></i>
-							&nbsp;Join the Facebook Group
-						</button>
-					</a>
-					<a href="https://www.facebook.com/groups/uxphilippines/" target="_blank">
-						<button class="outline">
-							<i class="fab fa-facebook-f"></i>
-							&nbsp;Facebook Page
-						</button>
-					</a>
+					<div class="d-flex">
+						<a href="/about">
+							<button class="margin-right-4">Learn More</button>
+						</a>
+						<a href="https://www.facebook.com/groups/uxphilippines/" target="_blank">
+							<button class="margin-right-4 outline">
+								<i class="fab fa-facebook-f "></i>
+								&nbsp;Join the Facebook Group
+							</button>
+						</a>
+						<a href="https://www.facebook.com/groups/uxphilippines/" target="_blank">
+							<button class="outline">
+								<i class="fab fa-facebook-f"></i>
+								&nbsp;Facebook Page
+							</button>
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>

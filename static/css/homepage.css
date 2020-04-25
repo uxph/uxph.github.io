@@ -43,6 +43,7 @@
 
 #current-event-overlap .description {
 	height: 3.5rem;
+	line-height: 1.9rem;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }

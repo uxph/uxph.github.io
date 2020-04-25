@@ -20,6 +20,7 @@
 	list-style-type: none;
 	display: inline-block;
 	font-weight: 400;
+	cursor: pointer;
 }
 
 #main-nav ul li span {
@@ -64,8 +65,14 @@
 	z-index: 0;
 }
 
-#main-nav li > .subnav:hover {
-	background-color: #ccc;
+#main-nav li > .subnav p {
+	transition: ease all 0.3s;
+	font-size: var(--value-16);
+	line-height: 1.9rem;
+}
+
+#main-nav li > .subnav p:hover {
+	color: var(--main-blue) !important;
 }
 
 #menu-bar {
