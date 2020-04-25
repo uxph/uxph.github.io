@@ -294,8 +294,32 @@
 		margin: 0 !important;
 		padding-bottom: var(--value-48) !important;
 		padding-top: var(--value-16) !important;
-		overflow-y: scroll;
+		overflow-y: hidden;
 		white-space: nowrap;
+		position: relative;
+	}
+
+	.white-shadow {
+		display: block !important;
+		background: transparent;
+		width: var(--value-4);
+		height: 75%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 300;
+		filter: blur(15%);
+	}
+
+	.white-shadow {
+		display: block !important;
+		background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 1));
+		width: var(--value-48);
+		height: 75%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 300;
 	}
 
 	#position-select::-webkit-scrollbar {
@@ -306,7 +330,7 @@
 		display: inline !important;
 		padding: var(--value-16) !important;
 		font-size: var(--value-16) !important;
-		border-left: none;
+		border-left: none !important;
 		border-bottom: 3px solid transparent;
 	}
 

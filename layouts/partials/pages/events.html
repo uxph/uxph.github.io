@@ -116,11 +116,14 @@
 
 <section class="padding-top-64 padding-bottom-32 events-feed-section hidden">
 	<div class="wrapper">
-		<div class="w-100" id="event-select">
-			<small class="active text-secondary event-category" data-id="">All Events</small>
-			<small class="text-secondary event-category" data-id="meetups">Meetups</small>
-			<!-- <small class="text-secondary event-category" data-id="virual-meetups">Virtual Meetups</small> -->
-			<small class="text-secondary event-category" data-id="conferences">Conferences</small>
+		<div class="position-relative">
+			<div class="white-shadow"></div>
+			<div class="w-100" id="event-select">
+				<small class="active text-secondary event-category" data-id="">All Events</small>
+				<small class="text-secondary event-category" data-id="meetups">Meetups</small>
+				<!-- <small class="text-secondary event-category" data-id="virual-meetups">Virtual Meetups</small> -->
+				<small class="text-secondary event-category" data-id="conferences">Conferences</small>
+			</div>
 		</div>
 		<br/><br/>
 		{{ range sort .Site.Data.events.past ".event_id" "desc" }}

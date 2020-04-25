@@ -174,19 +174,22 @@
 <section class="padding-y-96 auto-hidden" id="position-select-section">
 	<div class="wrapper">
 		<div class="d-flex justify-content-between">
-			<div class="margin-right-48" id="position-select">
-				{{ range .Site.Data.volunteers.teams }}
-					<small class="text-secondary d-block margin-bottom-16 select-option" data-id="{{ .name }}">{{ .name }}</small>
-					<script type="text/javascript">
-						addContent(
-							{{ .name }},
-							{{ .responsibilities }},
-							{{ .requirements }},
-							{{ .learn }},
-							{{ .description }}
-						);
-					</script>
-				{{ end }}
+			<div class="position-relative">
+				<div class="white-shadow"></div>
+				<div class="margin-right-48" id="position-select">
+					{{ range .Site.Data.volunteers.teams }}
+						<small class="text-secondary d-block margin-bottom-16 select-option" data-id="{{ .name }}">{{ .name }}</small>
+						<script type="text/javascript">
+							addContent(
+								{{ .name }},
+								{{ .responsibilities }},
+								{{ .requirements }},
+								{{ .learn }},
+								{{ .description }}
+							);
+						</script>
+					{{ end }}
+				</div>
 			</div>
 			<div>
 				<h1 class="mb-4" id="role-name">{{ .Site.Data.volunteers.teams.event_coordinator.name }}</h1>

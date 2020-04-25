@@ -35,28 +35,31 @@
 	<div class="wrapper">
 		<h1 class="margin-bottom-64">Frequently Asked Questions</h1>
 		<div class="d-flex justify-content-between">
-			<div class="margin-right-48 width-384" id="topic-select">
-				<small class="active text-secondary topic-option" data-id="all">
-					All topics
-				</small>
-				<small class="text-secondary topic-option" data-id="Events & Certificates">
-					Events & Certificates
-				</small>
-				<small class="text-secondary topic-option" data-id="Community and Volunteering">
-					Community and Volunteering
-				</small>
-				<small class="text-secondary topic-option" data-id="Speakers, Partnerships, and Sponsorships">
-					Speakers, Partnerships, and Sponsorships
-				</small>
-				<small class="text-secondary topic-option" data-id="Conferences">
-					Conferences
-				</small>
-				<small class="text-secondary topic-option" data-id="Ticketing & Purchases">
-					Ticketing & Purchases
-				</small>
-				<small class="text-secondary topic-option" data-id="Reporting an incident">
-					Reporting an incident
-				</small>
+			<div class="position-relative">
+				<div class="white-shadow"></div>
+				<div class="margin-right-48 width-384" id="topic-select">
+					<small class="active text-secondary topic-option" data-id="all">
+						All topics
+					</small>
+					<small class="text-secondary topic-option" data-id="Events & Certificates">
+						Events & Certificates
+					</small>
+					<small class="text-secondary topic-option" data-id="Community and Volunteering">
+						Community and Volunteering
+					</small>
+					<small class="text-secondary topic-option" data-id="Speakers, Partnerships, and Sponsorships">
+						Speakers, Partnerships, and Sponsorships
+					</small>
+					<small class="text-secondary topic-option" data-id="Conferences">
+						Conferences
+					</small>
+					<small class="text-secondary topic-option" data-id="Ticketing & Purchases">
+						Ticketing & Purchases
+					</small>
+					<small class="text-secondary topic-option" data-id="Reporting an incident">
+						Reporting an incident
+					</small>
+				</div>
 			</div>
 			<div>
 				{{ range .Site.Data.faq }}
