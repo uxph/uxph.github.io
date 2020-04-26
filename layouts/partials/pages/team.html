@@ -44,6 +44,11 @@
                                 {{ range .description }}
                                     <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
                                 {{ end }}
+                                <div class="d-none socials-wrapper">
+                                    {{ range .socials }}
+                                        {{ . }}
+                                    {{ end }}
+                                </div>
                             </div>
                         </div>
 					</div>
