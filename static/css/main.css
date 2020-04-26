@@ -7,6 +7,7 @@
 @import url(overlaps.css);
 @import url(blog.css);
 @import url(headers.css);
+@import url(modal.css);
 @import url(bootstrap-utilities.css);
 
 @font-face {
@@ -66,6 +67,10 @@ body, html {
 
 body {
 	margin-top: 4.25rem;
+}
+
+body.stiff {
+	overflow: hidden;
 }
 
 header, section {

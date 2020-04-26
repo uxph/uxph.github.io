@@ -4,7 +4,9 @@
 			"name": "Aldrich Tan",
 			"role": "Managing Director",
 			"image_url": "assets/team/aldrich.png",
-			"linkedin": "https://www.linkedin.com/in/aldricht/",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/aldricht/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
 			"description": [
 				"Aldrich is an Sr. Experience Architect who has worked with multiple companies and industries in the US, Canada, and Philippines.",
 				"He is a passionate advocate for mentoring designers and building stronger design cultures with companies and organizations through consultancy and UXPH.",
@@ -16,7 +18,9 @@
 			"name": "Jordan Deja",
 			"role": "Advisory Board",
 			"image_url": "assets/team/jordan.jpeg",
-			"linkedin": "https://www.linkedin.com/in/jrdndj/",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/jrdndj/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
 			"description": [
 				"Jordan became involved in UXPH when he was a speaker in the 2017 Conference. He moved behind the scenes as Volunteer Lead in the 2018 Conference and became the Over-all Lead with Aldrich Tan in 2019.",
 				"He is currently part of its Board of Directors, Lead for Speakers and Community Engagement. He is an HCI Researcher and a University Professor by profession. He is currently doing his PhD in Slovenia, Europe."
@@ -27,7 +31,9 @@
 			"name": "Elymar Apao",
 			"role": "Advisory Board",
 			"image_url": "assets/team/ely.jpg",
-			"linkedin": "https://www.linkedin.com/in/jozzua/",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/jozzua/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
 			"description": [
 				"One of the original founders of the UX Philippines community. Currently the customer experience manager for the digital transformation office of one of the Philippine's biggest conglomerates - JG Summit."
 			]
@@ -39,7 +45,9 @@
 			"name": "Kristine Garcia",
 			"role": "Volunteers Lead",
 			"image_url": "assets/team/kringle.jpg",
-			"linkedin": "",
+			"socials": [
+				""
+			],
 			"description": [
 				"Kringle is currently working to improve the B2B experience as a UX Architect at Globe Telecoms. A nerd at heart, she loves playing D&D and RPGs during her downtime, and dreams of studying abroad to further her education."
 			]
@@ -49,7 +57,9 @@
 			"name": "Janyl Tamayo",
 			"role": "Events Lead",
 			"image_url": "assets/team/janyl.jpg",
-			"linkedin": "https://www.linkedin.com/in/janyltamayo/",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/janyltamayo/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
 			"description": [
 				"Janyl is an Experience Designer from Vancouver, currently crafting human-centric experiences at a Fintech startup to make payments simple for SMEs. Gets chatty when she's tea high and is a recovering skincare addict."
 			]
@@ -59,7 +69,9 @@
 			"name": "Chiara Señires",
 			"role": "Marketing Lead",
 			"image_url": "assets/team/chi.jpg",
-			"linkedin": "https://www.linkedin.com/in/chisenires/",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/chisenires/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
 			"description": [
 				"Chi is a UX Designer, Front-End Web Developer, and a Product Manager.",
 
@@ -73,7 +85,9 @@
 			"name": "Mike Jaren Yap",
 			"role": "Web Lead",
 			"image_url": "assets/team/mj.png",
-			"linkedin": "https://www.linkedin.com/in/mjarenyap/",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/mjarenyap/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
 			"description": [
 				"MJ is a Computer Science graduate who is the Co-Founder and former Chapter Head of User Experience Society-DLSU.",
 				"When it comes to learning new things and improving his skillsets, he is always eager especially if it means serving the community better.",
@@ -85,7 +99,9 @@
 			"name": "Reine Bantang",
 			"role": "Creative Lead",
 			"image_url": "assets/team/reine.jpg",
-			"linkedin": "https://www.linkedin.com/in/reine-bantang/",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/reine-bantang/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
 			"description": [
 				"Multimedia producer and occasional host who finds joy in theater, cats, and sushi."
 			]
@@ -97,7 +113,7 @@
 			"name": "Mars Quinay",
 			"role": "Marketing Coordinator",
 			"image_url": "<url>",
-			"linkedin": "https://www.linkedin.com/in/mars-quinay-0658a317b/",
+			"socials": "https://www.linkedin.com/in/mars-quinay-0658a317b/",
 			"description": [""]
 		},
 
@@ -105,7 +121,7 @@
 			"name": "Pierce Jonota",
 			"role": "Events Coordinator",
 			"image_url": "<url>",
-			"linkedin": "https://www.linkedin.com/in/piercejonota/",
+			"socials": "https://www.linkedin.com/in/piercejonota/",
 			"description": [""]
 		},
 
@@ -113,7 +129,7 @@
 			"name": "Richard Parayno",
 			"role": "Events Coordinator",
 			"image_url": "<url>",
-			"linkedin": "https://www.linkedin.com/in/richardparayno/",
+			"socials": "https://www.linkedin.com/in/richardparayno/",
 			"description": [""]
 		}
 	}

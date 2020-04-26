@@ -1,11 +1,80 @@
+{{ partial "components/modal" (dict "path" "../") }}
+<section id="meet-the-team" class="padding-y-96 position-relative">
+	<img src="../assets/visuals/link-yellow.svg" class="visuals width-192" id="link-yellow-1" />
+	<div class="wrapper">
+		<h1 class="margin-bottom-48 text-center">Organizing Members</h1>
+		<div class="margin-bottom-96">
+			<h2 class="text-secondary margin-bottom-32 text-center">Board Members</h2>
+			<div class="d-flex flex-wrap justify-content-center team-feed">
+				{{ range .Site.Data.team.board_members }}
+					<div class="user-card shadow-sm bg-white m-2">
+                        <div class="featured-image bg-secondary mx-auto margin-bottom-16" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
+                        </div>
+                        <div>
+							<div>
+								<h2 class="blue m-0 text-center">{{ .name }}</h2>
+								<p class="red m-0 text-center role">{{ .role }}</p>
+                                {{ range .description }}
+                                    <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
+                                {{ end }}
+                                <div class="d-none socials-wrapper">
+                                    {{ range .socials }}
+                                        {{ . }}
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+
+		<div class="margin-bottom-48">
+            <h2 class="text-secondary margin-bottom-32 text-center">Committee Leads</h2>
+			<div class="d-flex flex-wrap justify-content-center team-feed">
+				{{ range .Site.Data.team.committee_leads }}
+					<div class="user-card shadow-sm bg-white m-2">
+                        <div class="featured-image bg-secondary mx-auto margin-bottom-16" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
+                        </div>
+                        <div>
+							<div>
+								<h2 class="blue m-0 text-center">{{ .name }}</h2>
+								<p class="red m-0 text-center">{{ .role }}</p>
+                                <br class="d-none" />
+                                {{ range .description }}
+                                    <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
+                                {{ end }}
+                            </div>
+                        </div>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</section>
+
 <style>
+    #meet-the-team {
+    	background: url(../assets/visuals/ph-map-blue.png);
+    	background-size: 500px;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: right;
+    }
+
     .user-card{
         border-radius: 8px;
         width: auto;
         z-index: 99;
         position: relative;
         overflow: hidden;
-        padding: var(--value-32);
+        padding: var(--value-24);
+        cursor: pointer;
+        transition: ease all 0.3s;
+    }
+
+    .user-card:hover {
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     }
 
     .user-card .featured-image {
@@ -28,100 +97,8 @@
     .read-more:hover{
     	text-decoration: underline;
     }
+
+    .team-feed > div {
+    	flex: 0 25%;
+    }
 </style>
-
-<section id="meet-the-team" class="padding-y-96 position-relative">
-	<img src="../assets/visuals/link-yellow.svg" class="visuals width-192" id="link-yellow-1" />
-	<div class="wrapper">
-		<h1 class="margin-bottom-48">Organizing Members</h1>
-		<div class="margin-bottom-96">
-			<h2 class="text-secondary margin-bottom-32">Board Members</h2>
-			<div class="team-feed">
-				{{ range .Site.Data.team.board_members }}
-					<div class="margin-bottom-32">
-						<div class="user-card shadow-sm bg-white d-flex">
-                            <div class="featured-image bg-secondary" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
-                            </div>
-                            <div class="user-card-content">
-    							<div class="margin-bottom-16">
-    								<div>
-    									<h2 class="blue">{{ .name }}</h2>
-    									<p class="red">{{ .role }}</p>
-                                    </div>
-    							</div>
-                                <div>
-                                    {{ range .description }}
-            							<p class="text-secondary margin-bottom-16">
-            						        {{ . }}
-            							</p>
-                                    {{ end }}
-                                </div>
-                                <a href="{{ .linkedin }}" target="blank">
-    								<i class="fab fa-linkedin fa-lg"></i>
-    							</a>
-                            </div>
-						</div>
-					</div>
-				{{ end }}
-			</div>
-		</div>
-
-		<div class="margin-bottom-48">
-			<h2 class="text-secondary margin-bottom-32">Committee Leads</h2>
-			<div class="team-feed">
-                {{ range .Site.Data.team.committee_leads }}
-					<div class="margin-bottom-32">
-						<div class="user-card shadow-sm bg-white d-flex">
-                            <div class="featured-image bg-secondary" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
-                            </div>
-                            <div class="user-card-content">
-    							<div class="margin-bottom-16">
-    								<div>
-    									<h2 class="blue">{{ .name }}</h2>
-    									<p class="red">{{ .role }}</p>
-                                    </div>
-    							</div>
-                                <div>
-                                    {{ range .description }}
-            							<p class="text-secondary margin-bottom-16">
-            						        {{ . }}
-            							</p>
-                                    {{ end }}
-                                    <a href="{{ .linkedin }}" target="blank">
-        								<i class="fab fa-linkedin fa-lg"></i>
-        							</a>
-                                </div>
-                            </div>
-						</div>
-					</div>
-				{{ end }}
-			</div>
-		</div>
-	</div>
-</section>
-
-<link rel="stylesheet" type="text/css" href="../css/about.css" />
-
-<script>
-function show(e){
-
-	let f = e.parentElement;
-	let exp_text = f.nextElementSibling;
-	e.classList.toggle('hide');
-	exp_text.classList.toggle('hide');
-
-}
-
-function hide(e){
-
-	let f = e.parentElement.parentElement;
-	console.log(f);
-	let readmore = f.previousElementSibling.getElementsByClassName('read-more')[0];
-
-	console.log(readmore);
-	f.classList.toggle('hide');
-	readmore.classList.toggle('hide');
-
-}
-
-</script>

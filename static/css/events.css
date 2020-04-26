@@ -42,6 +42,25 @@
 	border-color: var(--uxph-yellow-1) !important
 }
 
+.event-item {
+	overflow: hidden;
+	transition: ease all 0.3s;
+}
+
+.event-item:hover {
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
 .event-item:hover h2 {
 	text-decoration: underline;
+}
+
+.event-item .event-ended-banner {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: var(--main-red);
+	color: white;
+	padding: var(--value-8) var(--value-32);
+	border-bottom-left-radius: var(--value-12);
 }

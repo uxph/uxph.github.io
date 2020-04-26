@@ -127,7 +127,12 @@
 		</div>
 		<br/><br/>
 		{{ range sort .Site.Data.events.past ".event_id" "desc" }}
-			<div class="padding-y-24 padding-x-24 margin-bottom-48 shadow-sm border-radius-12 d-flex event-item" data-id="{{ .tag }}">
+			<div class="padding-y-24 padding-x-24 margin-bottom-48 shadow-sm border-radius-12 border-top border-light d-flex event-item position-relative" data-id="{{ .tag }}">
+				{{ if eq .status "done" }}
+					<div class="event-ended-banner">
+						<h4 class="p-0 m-0">Event ended</h4>
+					</div>
+				{{ end }}
 				<a href="{{ .blog_url }}">
 					<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
 				</a>
