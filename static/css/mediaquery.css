@@ -104,7 +104,11 @@
 	#about-uxph-section button {
 		margin: 0 !important;
 		margin-bottom: var(--value-16) !important;
-		width: 100%;
+		width: 100% !important;
+	}
+
+	#about-uxph-section .about-buttons {
+		flex-direction: column !important;
 	}
 
 	#organizing-team-section button,
@@ -123,7 +127,7 @@
 
 	#past-events button {
 		font-size: var(--value-12) !important;
-		padding: var(--value-12) var(--value-24) !important;
+		padding: var(--value-12) var(--value-12) !important;
 	}
 
 	#past-events div.d-flex.justify-content-between {
@@ -391,6 +395,10 @@
 	#back-to-top {
 		bottom: 75pt !important;
 		right: 20pt !important;
+	}
+
+	#back-to-top.hide {
+		right: -8em !important;
 	}
 
 	/* modal */
