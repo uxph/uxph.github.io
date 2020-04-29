@@ -1,7 +1,9 @@
 {
-	"sponsor_name": {
-		"name": "<name>",
-		"tier": "<gold | silver | bronze>",
-		"image_url": "<url>"
+	"community_partners": {
+		"sponsor_name": {
+			"name": "<name>",
+			"tier": "<gold | silver | bronze | community>",
+			"image_url": "assets/sponsor_logos/<url>"
+		}
 	}
 }
