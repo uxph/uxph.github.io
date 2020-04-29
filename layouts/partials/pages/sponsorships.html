@@ -48,9 +48,14 @@
 	</div>
 </section>
 
-<section class="padding-y-48" id="sponsors-section">
+<section class="padding-y-48 padding-bottom-128" id="sponsors-section">
 	<div class="wrapper">
-		<h1>Our Community Partners</h1>
+		<h1 class="margin-bottom-32">Our Community Partners</h1>
+		<div id="community-partners-feed">
+			{{ range .Site.Data.sponsors.community_partners }}
+				<img src="../{{ .image_url }}" alt="{{ .name }}" class="featured-image" />
+			{{ end }}
+		</div>
 	</div>
 </section>
 

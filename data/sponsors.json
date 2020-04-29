@@ -3,97 +3,116 @@
 		"sponsor_name1": {
 			"name": "Brainsparks",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/All_Brainsparks.jpeg"
+			"image_url": "assets/sponsor_logos/All_Brainsparks.jpeg",
+			"id": 1
 		},
 		"sponsor_name2": {
 			"name": "IDF - Interaction Design Foundation",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/All_IDF.png"
+			"image_url": "assets/sponsor_logos/All_IDF.png",
+			"id": 2
 		},
 		"sponsor_name3": {
 			"name": "Philippine Tech Leads Community",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/All_PTLC.jpg"
+			"image_url": "assets/sponsor_logos/All_PTLC.jpg",
+			"id": 3
 		},
 		"sponsor_name4": {
 			"name": "Roots",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/All_Roots.jpeg"
+			"image_url": "assets/sponsor_logos/All_Roots.png",
+			"id": 4
 		},
 		"sponsor_name5": {
 			"name": "UXSEA - User Experience South East Asia Society",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/All_UXSEA.png"
+			"image_url": "assets/sponsor_logos/All_UXSEA.png",
+			"id": 5
 		},
 		"sponsor_name6": {
 			"name": "Cebu Design Week",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Cebu_CDW.png"
+			"image_url": "assets/sponsor_logos/Cebu_CDW.png",
+			"id": 6
 		},
 		"sponsor_name7": {
 			"name": "CEBUXD - Cebu User Experience Design",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Cebu_CebuXD.png"
+			"image_url": "assets/sponsor_logos/Cebu_CebuXD.png",
+			"id": 7
 		},
 		"sponsor_name8": {
 			"name": "Davao JavaScript",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Davao_DavaoJS.png"
+			"image_url": "assets/sponsor_logos/Davao_DavaoJS.png",
+			"id": 8
 		},
 		"sponsor_name9": {
 			"name": "DevCon Davao",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Davao_DevConDavao.png"
+			"image_url": "assets/sponsor_logos/Davao_DevConDavao.png",
+			"id": 9
 		},
 		"sponsor_name10": {
 			"name": "DGDC - Davao Graphic Designers Community",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Davao_DGDC.png"
+			"image_url": "assets/sponsor_logos/Davao_DGDC.png",
+			"id": 10
 		},
 		"sponsor_name11": {
 			"name": "UXDVO - User Experience Davao",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Davao_UXDVO.png"
+			"image_url": "assets/sponsor_logos/Davao_UXDVO.png",
+			"id": 11
 		},
 		"sponsor_name12": {
 			"name": "Design Week Philippines",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Manila_DesignWeek.png"
+			"image_url": "assets/sponsor_logos/Manila_DesignWeek.png",
+			"id": 12
 		},
 		"sponsor_name13": {
 			"name": "DSC Loyola - Developer Student Club Loyola",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Manila_DSCLoyola.png"
+			"image_url": "assets/sponsor_logos/Manila_DSCLoyola.png",
+			"id": 13
 		},
 		"sponsor_name14": {
 			"name": "Green Giant FM",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Manila_GGFM.png"
+			"image_url": "assets/sponsor_logos/Manila_GGFM.png",
+			"id": 14
 		},
 		"sponsor_name15": {
 			"name": "Skylabs",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Manila_Skylabs.jpg"
+			"image_url": "assets/sponsor_logos/Manila_Skylabs.jpg",
+			"id": 15
 		},
 		"sponsor_name16": {
 			"name": "Tech Shake",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Manila_TechShake.png"
+			"image_url": "assets/sponsor_logos/Manila_TechShake.png",
+			"id": 16
 		},
 		"sponsor_name17": {
 			"name": "ADMU User Experience Society",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Manila_UXSoc_ADMU.png"
+			"image_url": "assets/sponsor_logos/Manila_UXSoc_ADMU.png",
+			"id": 17
 		},
 		"sponsor_name18": {
 			"name": "DLSU User Experience Society",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Manila_UXSoc_DLSU.png"
+			"image_url": "assets/sponsor_logos/Manila_UXSoc_DLSU.png",
+			"id": 18
 		},
 		"sponsor_name19": {
 			"name": "UST User Experience Society",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Manila_UXSoc_UST.png"
+			"image_url": "assets/sponsor_logos/Manila_UXSoc_UST.png",
+			"id": 19
 		}
 
 	}

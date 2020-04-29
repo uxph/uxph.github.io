@@ -4,11 +4,16 @@ $(document).ready(function() {
         $('body').removeClass('stiff');
     });
 
+    $('#modal-click-off').click(function() {
+        $('#modal-overlay').hide();
+        $('body').removeClass('stiff');
+    });
+
     $('.user-card').click(function() {
         $('body').addClass('stiff');
         $('#modal-overlay').show();
-        $('#modal-container').empty();
-        $(this).clone().appendTo('#modal-container');
+        $('#modal-container #modal-content').empty();
+        $(this).clone().appendTo('#modal-content');
 
         $('#modal-container *').removeClass('d-none');
         $('#modal-container .user-card').removeClass('shadow-sm');

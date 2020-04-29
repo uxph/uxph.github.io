@@ -117,6 +117,10 @@
 		width: 100%;
 	}
 
+	#community-partner-logos > * {
+		margin: auto !important;
+	}
+
 	#upcoming-events {
 		padding: 0 !important;
 	}
@@ -278,6 +282,11 @@
 
 	#partner-cta button {
 		margin-top: var(--value-16);
+	}
+
+	#community-partners-feed .featured-image {
+		margin: var(--value-8) !important;
+		width: 4.5rem !important;
 	}
 
 

@@ -139,8 +139,15 @@
 					<div class="">
 						<h2 class="margin-bottom-16">Be a community partner</h2>
 						<p>{{ .Site.Data.info.community_partner }}</p>
+						<div class="padding-y-24" id="community-partner-logos">
+							{{ range .Site.Data.sponsors.community_partners }}
+								{{ if le .id 6 }}
+									<img src="../{{ .image_url }}" class="width-64 margin-right-8 align-middle" />
+								{{ end }}
+							{{ end }}
+						</div>
 						<a href="/sponsorships">
-							<button class="margin-top-32">Learn More</button>
+							<button>Learn More</button>
 						</a>
 					</div>
 				</div>
