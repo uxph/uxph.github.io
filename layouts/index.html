@@ -142,7 +142,7 @@
 						<div class="padding-y-24" id="community-partner-logos">
 							{{ range .Site.Data.sponsors.community_partners }}
 								{{ if le .id 6 }}
-									<img src="../{{ .image_url }}" class="width-64 margin-right-8 align-middle" />
+									<img src="../{{ .image_url }}" class="width-64 margin-right-8 align-middle shadow-sm rounded-circle" />
 								{{ end }}
 							{{ end }}
 						</div>
