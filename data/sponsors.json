@@ -73,13 +73,28 @@
 		"sponsor_name15": {
 			"name": "Skylabs",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Davao_DGDC.png"
+			"image_url": "assets/sponsor_logos/Manila_Skylabs.jpg"
 		},
 		"sponsor_name16": {
-			"name": "UXDVO - User Experience Davao",
+			"name": "Tech Shake",
 			"tier": "community",
-			"image_url": "assets/sponsor_logos/Davao_UXDVO.png"
+			"image_url": "assets/sponsor_logos/Manila_TechShake.png"
 		},
+		"sponsor_name17": {
+			"name": "ADMU User Experience Society",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_UXSoc_ADMU.png"
+		},
+		"sponsor_name18": {
+			"name": "DLSU User Experience Society",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_UXSoc_DLSU.png"
+		},
+		"sponsor_name19": {
+			"name": "UST User Experience Society",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_UXSoc_UST.png"
+		}
 
 	}
 }
