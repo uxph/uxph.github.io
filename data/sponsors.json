@@ -1,9 +1,100 @@
 {
 	"community_partners": {
-		"sponsor_name": {
-			"name": "<name>",
-			"tier": "<gold | silver | bronze | community>",
-			"image_url": "assets/sponsor_logos/<url>"
+		"sponsor_name1": {
+			"name": "Brainsparks",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/All_Brainsparks.jpeg"
+		},
+		"sponsor_name2": {
+			"name": "IDF - Interaction Design Foundation",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/All_IDF.png"
+		},
+		"sponsor_name3": {
+			"name": "Philippine Tech Leads Community",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/All_PTLC.jpg"
+		},
+		"sponsor_name4": {
+			"name": "Roots",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/All_Roots.jpeg"
+		},
+		"sponsor_name5": {
+			"name": "UXSEA - User Experience South East Asia Society",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/All_UXSEA.png"
+		},
+		"sponsor_name6": {
+			"name": "Cebu Design Week",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Cebu_CDW.png"
+		},
+		"sponsor_name7": {
+			"name": "CEBUXD - Cebu User Experience Design",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Cebu_CebuXD.png"
+		},
+		"sponsor_name8": {
+			"name": "Davao JavaScript",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Davao_DavaoJS.png"
+		},
+		"sponsor_name9": {
+			"name": "DevCon Davao",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Davao_DevConDavao.png"
+		},
+		"sponsor_name10": {
+			"name": "DGDC - Davao Graphic Designers Community",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Davao_DGDC.png"
+		},
+		"sponsor_name11": {
+			"name": "UXDVO - User Experience Davao",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Davao_UXDVO.png"
+		},
+		"sponsor_name12": {
+			"name": "Design Week Philippines",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_DesignWeek.png"
+		},
+		"sponsor_name13": {
+			"name": "DSC Loyola - Developer Student Club Loyola",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_DSCLoyola.png"
+		},
+		"sponsor_name14": {
+			"name": "Green Giant FM",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_GGFM.png"
+		},
+		"sponsor_name15": {
+			"name": "Skylabs",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_Skylabs.jpg"
+		},
+		"sponsor_name16": {
+			"name": "Tech Shake",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_TechShake.png"
+		},
+		"sponsor_name17": {
+			"name": "ADMU User Experience Society",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_UXSoc_ADMU.png"
+		},
+		"sponsor_name18": {
+			"name": "DLSU User Experience Society",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_UXSoc_DLSU.png"
+		},
+		"sponsor_name19": {
+			"name": "UST User Experience Society",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/Manila_UXSoc_UST.png"
 		}
+
 	}
 }
