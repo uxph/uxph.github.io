@@ -1,5 +1,24 @@
 {
 	"current": {
+		"fireside-chat": {
+			"name": "Fireside Chat",
+			"date": "May 7, 2020",
+			"time": "7PM - 9PM",
+			"venue": "Livestream via Zoom and Facebook Live",
+			"description": "KamUXta na? Come join the UXPH team for a casual evening of chatting with other designers as they discuss their UX journeys and other topics. This will be an open-floor format event where the UXPH team will be sharing their experiences and all audiences are welcome to participate, share, and ask questions!",
+			"image_square_url": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/95477921_1372934452911622_8977504319007883264_o.png?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=tRym8wrjPvgAX-iCrzc&_nc_ht=scontent.fmnl17-1.fna&oh=4ca00d1b87477c29e3ddf0e9044bd152&oe=5ED01092",
+			"image_banner_url": "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/95489847_1373091676229233_8201740376747278336_o.png?_nc_cat=107&_nc_sid=dd9801&_nc_ohc=UI2pPgxwL3oAX-NkKot&_nc_ht=scontent.fmnl17-2.fna&oh=1e89e554c2702bbb95c0c34d02d7437b&oe=5ED15ACD",
+			"ticket_url": "http://uxphfiresidechat01.eventbrite.com/",
+			"become_speaker_url": "#",
+			"blog_url": "/events/remote-ffc",
+			"livestream_url": "bit.ly/RemoteFFC01Livestream",
+			"status": "upcoming",
+			"event_id": 6,
+			"tag": "Virtual Meetups; Meetups"
+		}
+	},
+
+	"past": {
 		"remoteffc01": {
 			"name": "RemoteFFC #01: Enhanced Work From Home",
 			"date": "April 3, 2020",
@@ -13,148 +32,10 @@
 			"blog_url": "/events/remote-ffc",
 			"livestream_url": "bit.ly/RemoteFFC01Livestream",
 			"status": "done",
+			"event_id": 5,
 			"tag": "Virtual Meetups; Meetups"
-		}
-	},
-
-	"upcoming": {
-		"designHers": {
-			"name": "DesignHers",
-			"date": "March 26, 2020",
-			"time": "#",
-			"venue": "#",
-			"description": "#",
-			"image_square_url": "#",
-			"image_banner_url": "#",
-			"ticket_url": "#",
-			"become_speaker_url": "#",
-			"blog_url": "/#",
-			"livestream_url": "#",
-			"status": "#"
 		},
 
-		"apr2020": {
-			"name": "Meetup (Co-presented by UXSEA)",
-			"date": "April 18, 2020",
-			"time": "#",
-			"venue": "#",
-			"description": "#",
-			"image_square_url": "#",
-			"image_banner_url": "#",
-			"ticket_url": "#",
-			"become_speaker_url": "#",
-			"blog_url": "/#",
-			"livestream_url": "#",
-			"status": "#"
-		},
-
-		"may2020": {
-			"name": "May Meetup",
-			"date": "May 28, 2020",
-			"time": "#",
-			"venue": "#",
-			"description": "#",
-			"image_square_url": "#",
-			"image_banner_url": "#",
-			"ticket_url": "#",
-			"become_speaker_url": "#",
-			"blog_url": "/#",
-			"livestream_url": "#",
-			"status": "#"
-		},
-
-		"june2020": {
-			"name": "Conference",
-			"date": "June #, 2020",
-			"time": "#",
-			"venue": "#",
-			"description": "#",
-			"image_square_url": "#",
-			"image_banner_url": "#",
-			"ticket_url": "#",
-			"become_speaker_url": "#",
-			"blog_url": "/#",
-			"livestream_url": "#",
-			"status": "#"
-		},
-
-		"july2020": {
-			"name": "July Meetup",
-			"date": "July 30, 2020",
-			"time": "#",
-			"venue": "#",
-			"description": "#",
-			"image_square_url": "#",
-			"image_banner_url": "#",
-			"ticket_url": "#",
-			"become_speaker_url": "#",
-			"blog_url": "/#",
-			"livestream_url": "#",
-			"status": "#"
-		},
-
-		"aug2020": {
-			"name": "Conference",
-			"date": "August #, 2020",
-			"time": "#",
-			"venue": "#",
-			"description": "#",
-			"image_square_url": "#",
-			"image_banner_url": "#",
-			"ticket_url": "#",
-			"become_speaker_url": "#",
-			"blog_url": "/#",
-			"livestream_url": "#",
-			"status": "#"
-		},
-
-		"sep2020": {
-			"name": "September Meetup",
-			"date": "September 24, 2020",
-			"time": "#",
-			"venue": "#",
-			"description": "#",
-			"image_square_url": "#",
-			"image_banner_url": "#",
-			"ticket_url": "#",
-			"become_speaker_url": "#",
-			"blog_url": "/#",
-			"livestream_url": "#",
-			"status": "#"
-		},
-
-		"oct2020": {
-			"name": "Conference",
-			"date": "October #, 2020",
-			"time": "#",
-			"venue": "#",
-			"description": "#",
-			"image_square_url": "#",
-			"image_banner_url": "#",
-			"ticket_url": "#",
-			"become_speaker_url": "#",
-			"blog_url": "/#",
-			"livestream_url": "#",
-			"status": "#"
-		},
-
-		"nov2020": {
-			"name": "Community Socials",
-			"date": "November 26, 2020",
-			"time": "#",
-			"venue": "#",
-			"description": "#",
-			"image_square_url": "#",
-			"image_banner_url": "#",
-			"ticket_url": "#",
-			"become_speaker_url": "#",
-			"blog_url": "/#",
-			"livestream_url": "#",
-			"status": "#"
-		}
-	},
-
-	"past": {
 		"wiad": {
 			"name": "World IA Day 2020: The IA Element",
 			"date": "February 22, 2020",
