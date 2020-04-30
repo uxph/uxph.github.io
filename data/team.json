@@ -62,6 +62,18 @@
 			"description": [
 				"Matt is currently works as a Service Design Research consultant  for the Asian Development Bank. Over 20 years, he has had a variety of roles from a head of design, to a researcher, and to interaction designer for private, government, and military clients from San Francisco to Sydney. He consults on innovation and research in the areas of data display, service design, and enterprise applications."
 			]
+		},
+
+		"fish_ibasco": {
+			"name": "Tisha Ibasco",
+			"role": "Advisor",
+			"image_url": "assets/team/fish.jpg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/tisha-ibasco-41463063/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": [
+				"Fish Ibasco is a self-taught designer who gradually became one of the Experience Design Leads at Accenture Philippines. Throughout her 6 year journey in design, she has helped shape and build the UX practice in organizations.  Now focusing on operations, she is passionate about finding ways to serve and empower designers in their careers."
+			]
 		}
 	},
 
