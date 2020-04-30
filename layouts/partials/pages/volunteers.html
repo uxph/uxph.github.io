@@ -10,16 +10,26 @@
 			<p class="margin-y-32 text-white">
 				{{.Site.Data.volunteers.blurb.description}}
 			</p>
-			<p class="text-white">Check out our openings below:</p>
+			
 			<br/>
 		</div>
 	</div>
 </header>
 
 <!-- Volunteer Perks Section -->
-<section class="bg-light padding-y-96" id="volunteer-perks-section">
+<section class="bg-light padding-y-96 position-relative auto-hidden" id="volunteer-perks-section">
 	<div class="wrapper">
-		<h1 class="text-body font-size-32">Volunteer Perks</h1>
+		<div class="padding-x-32 padding-y-32 border-radius-12 shadow bg-white" id = "volunteer-overlap">
+			<h2 class="margin-bottom-16">Volunteer with us!</h2>
+			<p>If you’d like to join our team and get involved in the community, please fill out our form and we’ll get back to you as soon as we can.</p>
+			<br>
+			<a href="https://forms.gle/3Yc5AP7bAwqTHLGQ9" target = "_">
+				<button class="margin-right-8">Fill out the form</button>
+			</a>
+		</div>
+	</div>
+	<div class="wrapper">
+		<h1 class="text-body font-size-32 margin-top-96">Volunteer Perks</h1>
 		<div id="volunteer-perks">
 			<!-- First row  -->
 			<div class="d-flex flex-wrap flex-row bd-highlight mb-3 padding-top-32">
@@ -99,67 +109,15 @@
 			</div>
 		</div>
 	</div>
-</section>
 
-<!-- Positions Available-->
-<section class="padding-y-96 auto-hidden" id="position-select-section">
-	<div class="wrapper">
-		<div class="d-flex justify-content-between">
-			<div class="position-relative">
-				<div class="white-shadow"></div>
-				<div class="margin-right-48" id="position-select">
-					{{ range .Site.Data.volunteers.teams }}
-						<small class="text-secondary d-block margin-bottom-16 select-option" data-id="{{ .name }}">{{ .name }}</small>
-						<script type="text/javascript">
-							addContent(
-								{{ .name }},
-								{{ .responsibilities }},
-								{{ .requirements }},
-								{{ .learn }},
-								{{ .description }}
-							);
-						</script>
-					{{ end }}
-				</div>
-			</div>
-			<div>
-				<h1 class="mb-4" id="role-name">{{ .Site.Data.volunteers.teams.event_coordinator.name }}</h1>
-				<p class="mb-5" id="role-description">
-					{{ .Site.Data.volunteers.teams.event_coordinator.description }}
-				</p>
-				<div>
-					<h2 class="text-secondary">Responsibilities</h2>
-					<ul class="text-body" id="role-responsibilties">
-						{{ range .Site.Data.volunteers.teams.event_coordinator.responsibilities }}
-							<li>{{ . }}</li>
-						{{ end }}
-					</ul>
-				</div>
-				<br/>
-				<div>
-					<h2 class="text-secondary">Requirements</h2>
-					<ul class="text-body" id="role-requirements">
-						{{ range .Site.Data.volunteers.teams.event_coordinator.requirements }}
-							<li>{{ . }}</li>
-						{{ end }}
-					</ul>
-				</div>
-				<br/>
-				<div>
-					<h2 class="text-secondary">What You'll Learn</h2>
-					<ul class="text-body" id="what-you-learn">
-						{{ range .Site.Data.volunteers.teams.event_coordinator.learn }}
-							<li>{{ . }}</li>
-						{{ end }}
-					</ul>
-				</div>
-				<br/>
-				<a href="https://forms.gle/3Yc5AP7bAwqTHLGQ9" target="blank">
-					<button>Sign up for this role</button>
-				</a>
-			</div>
+	<!-- <div class="wrapper">
+		<div class="padding-x-32 padding-y-32 border-radius-12 shadow bg-white" >
+			<h2 class="margin-bottom-16">Volunteer with us!</h2>
+			<p>If you’d like to join our team and get involved in the community, please fill out our form and we’ll get back to you as soon as we can.</p>
+			<br>
+			<button class="margin-right-8">Fill out the form</button>
 		</div>
-	</div>
+	</div> -->
 </section>
 
 <style>

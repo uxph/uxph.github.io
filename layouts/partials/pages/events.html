@@ -146,11 +146,20 @@
 						{{ .venue }}
 					</p>
 					<p>{{ .description }}</p>
-					<div class="margin-top-24">
-						<a href="{{ .blog_url }}">
-							<button class="padding-x-24 padding-y-12 margin-right-8 outline">Read More</button>
-						</a>
-					</div>
+					{{ if eq .status "done" }}
+						<div class="margin-top-24">
+							<a href="{{ .blog_url }}">
+								<button class="padding-x-24 padding-y-12 margin-right-8 outline">See Event Recap</button>
+							</a>
+						</div>
+					{{ else }}
+						<div class="margin-top-24">
+							<a href="{{ .ticket_url }}">
+								<button class="padding-x-24 padding-y-12 margin-right-8 outline">Learn More</button>
+							</a>
+						</div>
+					{{ end }}
+
 				</div>
 			</div>
 		{{ end }}
