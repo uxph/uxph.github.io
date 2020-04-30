@@ -16,7 +16,7 @@
 
 		"jordan_deja": {
 			"name": "Jordan Deja",
-			"role": "Advisory Board",
+			"role": "Advisor",
 			"image_url": "assets/team/jordan.jpeg",
 			"socials": [
 				"<a href=\"https://www.linkedin.com/in/jrdndj/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
@@ -29,13 +29,38 @@
 
 		"ely_apao": {
 			"name": "Elymar Apao",
-			"role": "Advisory Board",
+			"role": "Advisor",
 			"image_url": "assets/team/ely.jpg",
 			"socials": [
 				"<a href=\"https://www.linkedin.com/in/jozzua/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
 			],
 			"description": [
 				"One of the original founders of the UX Philippines community. Currently the customer experience manager for the digital transformation office of one of the Philippine's biggest conglomerates - JG Summit."
+			]
+		},
+
+		"vj_francisco": {
+			"name": "VJ Francisco",
+			"role": "Advisor",
+			"image_url": "assets/team/vj.jpg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/vjfrancisco/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": [
+				"VJ spent the last 20 years immersed in the field of design, learning and developing his skills in its creative, technical, and functional aspects.  His experience with all these gives him a unique perspective of the field and prepared him to become a thought leader recognized in the country’s UX Design industry.",
+				"As a design leader he takes on the role of the contrarian who tenaciously challenges norms and popular opinions to push his team to think beyond conventions and go towards innovation."
+			]
+		},
+
+		"matt_green": {
+			"name": "Matthew Green",
+			"role": "Advisor",
+			"image_url": "assets/team/matt.jpg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/matthewagreen/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": [
+				"Matt is currently works as a Service Design Research consultant  for the Asian Development Bank. Over 20 years, he has had a variety of roles from a head of design, to a researcher, and to interaction designer for private, government, and military clients from San Francisco to Sydney. He consults on innovation and research in the areas of data display, service design, and enterprise applications."
 			]
 		}
 	},
