@@ -173,8 +173,9 @@
 					</div>
 					<div id="past-events" class="w-75">
 						<h2>Past Events</h2>
+						{{ $items := len .Site.Data.events.past }}
 						{{ range sort .Site.Data.events.past ".event_id" "desc" }}
-							{{ if ge .event_id 2 }}
+							{{ if ge .event_id (sub $items 4) }}
 								<div class="d-flex justify-content-between align-items-center border-bottom">
 									<div class="margin-y-24 width-256">
 										<h4 class="font-size-16"><b>{{ .name }}</b></h4>
