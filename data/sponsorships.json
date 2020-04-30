@@ -8,14 +8,14 @@
 		"sponsorship": {
 			"name": "Sponsorship",
 			"description": "If you'd like to become a sponsor of UXPH to some capacity, please download our sponsorship package for more information or contact",
-			"image_url": "../assets/images/event-partnership-banner.png",
+			"image_url": "../assets/images/event-partnership-banner2.jpg",
 			"url": "<url>"
 		},
 
 		"host_uxph_event": {
 			"name": "Host your own UXPH event (Coming soon!)",
 			"description": "Have an event idea? You can host your own UXPH-sanctioned event! Download our information packet to know more about the requirements and process.",
-			"image_url": "../assets/images/host-uxph-banner.png",
+			"image_url": "../assets/images/host-uxph-banner2.jpg",
 			"url": "<url>"
 		}
 	}

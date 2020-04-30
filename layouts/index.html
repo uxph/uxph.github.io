@@ -66,15 +66,15 @@
 							<div>
 								{{ if ne .status "done" }}
 									<a href="{{ .ticket_url }}" target="_blank">
-										<button class="padding-x-24 padding-y-12 margin-right-8">Get Tickets</button>
+										<button class="padding-x-24 padding-y-12 margin-right-8">Get tickets</button>
 									</a>
 								{{ else }}
 									<a href="{{ .blog_url }}">
-										<button class="padding-x-24 padding-y-12 margin-right-8">See Event Recap</button>
+										<button class="padding-x-24 padding-y-12 margin-right-8">See event recap</button>
 									</a>
 								{{ end }}
 								{{ if ne .become_speaker_url "#" }}
-									<button class="unselected padding-x-24 padding-y-12">Become a Speaker</button>
+									<button class="unselected padding-x-24 padding-y-12">Become a speaker</button>
 								{{ end }}
 							</div>
 						</div>
@@ -88,19 +88,7 @@
 					{{ end }}
 					<div class="d-flex about-buttons">
 						<a href="/about">
-							<button class="margin-right-4">Learn More</button>
-						</a>
-						<a href="https://www.facebook.com/groups/uxphilippines/" target="_blank">
-							<button class="margin-right-4 outline">
-								<i class="fab fa-facebook-f "></i>
-								&nbsp;Join the Facebook Group
-							</button>
-						</a>
-						<a href="https://www.facebook.com/groups/uxphilippines/" target="_blank">
-							<button class="outline">
-								<i class="fab fa-facebook-f"></i>
-								&nbsp;Facebook Page
-							</button>
+							<button class="margin-right-4">Learn more</button>
 						</a>
 					</div>
 				</div>
@@ -117,13 +105,13 @@
 						<ul class="px-0 py-0 mx-0 my-0" id="volunteer-perks">
 							{{ range .Site.Data.info.organizing_team }}
 								<li>
-									<i class="far fa-check-circle margin-right-16 text-success"></i>
+									<i class="fas fa-check-circle margin-right-16 text-success"></i>
 									<span>{{ . }}</span>
 								</li>
 							{{ end }}
 						</ul>
 						<a href="/volunteers">
-							<button class="margin-top-32">See Volunteer Opportunities</button>
+							<button class="margin-top-32">See volunteer opportunities</button>
 						</a>
 					</div>
 				</div>
@@ -147,7 +135,7 @@
 							{{ end }}
 						</div>
 						<a href="/sponsorships">
-							<button>Learn More</button>
+							<button>Learn more</button>
 						</a>
 					</div>
 				</div>
@@ -167,7 +155,7 @@
 								<p class="text-secondary"> {{ .date }} </p>
 							</div>
 							<a href="{{ .blog_url }}">
-								<button>See Event Recap</button>
+								<button>See event recap</button>
 							</a>
 						{{ end }}
 					</div>

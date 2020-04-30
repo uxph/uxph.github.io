@@ -11,16 +11,35 @@
 		font-size: 14px;
 	}
 
+	.community-items{
+		display: inline-block;
+		width: 240px;
+		min-height: 120px;
+		vertical-align: top;
+	}
+	.community-items img{
+		margin-top: 48px !important;
+		margin-left: 72px !important;
+		
+	}
+	.community-items a:hover{
+		text-decoration: underline;
+	}
+	.community-img{
+		margin-top: 36px;
+		
+	}
+
 </style>
 <header id="sponsorships-header" class="bg-light padding-y-96 auto-hidden">
 	<div class="wrapper">
-		<div class="w-75" id="sponsorships-header-content">
+		<div class="" id="sponsorships-header-content">
 			<p class="text-white font-size-24 margin-bottom-24">Sponsorships</p>
 			<h1 class="text-white">{{ .Site.Data.sponsorships.blurb.name }}</h1>
 			<p class="text-white margin-top-16">
 				{{ .Site.Data.sponsorships.blurb.description }}
 				<br/><br/>
-				Send us an email at <strong>partnerships@uxph.org</strong> or download our Sponsorship Package to get started.
+				Send us an email at <strong><a href="mailto:partnerships@uxph.org">partnerships@uxph.org</a></strong> or download our Sponsorship Package to get started.
 			</p>
 		</div>
 	</div>
@@ -53,8 +72,11 @@
 		<h1 class="margin-bottom-32">Our Community Partners</h1>
 		<div id="community-partners-feed">
 			{{ range .Site.Data.sponsors.community_partners }}
-				<img src="../{{ .image_url }}" alt="{{ .name }}" class="featured-image shadow-sm rounded-circle" />
-			{{ end }}
+				<div class="padding-x-16 community-items">
+					<div class="community-img"><img src="../{{ .image_url }}" alt="{{ .name }}" class="featured-image shadow-sm rounded-circle" /></div>
+					<a href="{{.link}}"><p class="text-center"><strong>{{ .name }}</strong></p></a>
+				</div>
+				{{ end }}
 		</div>
 	</div>
 </section>

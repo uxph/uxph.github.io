@@ -4,6 +4,33 @@
 	<div class="wrapper">
 		<h1 class="margin-bottom-48 text-center">Organizing Members</h1>
 		<div class="margin-bottom-96">
+            <h2 class="text-secondary margin-bottom-32 text-center">Team Leads</h2>
+			<div class="d-flex flex-wrap justify-content-center team-feed">
+				{{ range .Site.Data.team.committee_leads }}
+					<div class="user-card shadow-sm bg-white m-2">
+                        <div class="featured-image bg-secondary mx-auto margin-bottom-16" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
+                        </div>
+                        <div>
+							<div>
+								<h2 class="blue m-0 text-center">{{ .name }}</h2>
+								<p class="red m-0 text-center">{{ .role }}</p>
+                                <br class="d-none" />
+                                {{ range .description }}
+                                    <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
+                                {{ end }}
+                                <div class="d-none socials-wrapper">
+                                    {{ range .socials }}
+                                        {{ . }}
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				{{ end }}
+			</div>
+        </div>
+        
+        <div class="margin-bottom-48">
 			<h2 class="text-secondary margin-bottom-32 text-center">Board Members</h2>
 			<div class="d-flex flex-wrap justify-content-center team-feed">
 				{{ range .Site.Data.team.board_members }}
@@ -29,32 +56,6 @@
 			</div>
 		</div>
 
-		<div class="margin-bottom-48">
-            <h2 class="text-secondary margin-bottom-32 text-center">Committee Leads</h2>
-			<div class="d-flex flex-wrap justify-content-center team-feed">
-				{{ range .Site.Data.team.committee_leads }}
-					<div class="user-card shadow-sm bg-white m-2">
-                        <div class="featured-image bg-secondary mx-auto margin-bottom-16" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
-                        </div>
-                        <div>
-							<div>
-								<h2 class="blue m-0 text-center">{{ .name }}</h2>
-								<p class="red m-0 text-center">{{ .role }}</p>
-                                <br class="d-none" />
-                                {{ range .description }}
-                                    <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
-                                {{ end }}
-                                <div class="d-none socials-wrapper">
-                                    {{ range .socials }}
-                                        {{ . }}
-                                    {{ end }}
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				{{ end }}
-			</div>
-		</div>
 	</div>
 </section>
 
@@ -106,4 +107,12 @@
     .team-feed > div {
     	flex: 0 25%;
     }
+    .socials-wrapper a i{
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .socials-wrapper a i:hover{
+        color: rgba(0, 0, 0, 0.9);
+        text-shadow: 1px 3px 3px rgba(0,0,0,.15);
+    }
+
 </style>
