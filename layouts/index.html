@@ -153,24 +153,38 @@
 							<div class="margin-y-24">
 								<h4><b> {{ .name }} </b></h4>
 								<p class="text-secondary"> {{ .date }} </p>
+								<p class="description">
+									{{ .description }}
+								</p>
 							</div>
-							<a href="{{ .blog_url }}">
-								<button>See Event Recap</button>
-							</a>
+							{{ if ne .status "done" }}
+								<a href="{{ .ticket_url }}" target="_blank">
+									<button>Get tickets</button>
+								</a>
+							{{ else }}
+								<a href="{{ .blog_url }}">
+									<button>See event recap</button>
+								</a>
+							{{ end }}
+							{{ if ne .become_speaker_url "#" }}
+								<button>Become a speaker</button>
+							{{ end }}
 						{{ end }}
 					</div>
 					<div id="past-events" class="w-75">
 						<h2>Past Events</h2>
 						{{ range sort .Site.Data.events.past ".event_id" "desc" }}
-							<div class="d-flex justify-content-between align-items-center border-bottom">
-								<div class="margin-y-24 width-256">
-									<h4><b>{{ .name }}</b></h4>
-									<p class="text-secondary">{{ .date }}</p>
+							{{ if ge .event_id 2 }}
+								<div class="d-flex justify-content-between align-items-center border-bottom">
+									<div class="margin-y-24 width-256">
+										<h4 class="font-size-16"><b>{{ .name }}</b></h4>
+										<p class="text-secondary">{{ .date }}</p>
+									</div>
+									<a href="{{ .blog_url }}">
+										<button class="font-size-8 outline padding-y-8 padding-x-8 no-shadow">Read More</button>
+									</a>
 								</div>
-								<a href="{{ .blog_url }}">
-									<button class="font-size-8 outline padding-y-8 padding-x-8 no-shadow">Read More</button>
-								</a>
-							</div>
+							{{ end }}
 						{{ end }}
 					</div>
 				</div>

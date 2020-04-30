@@ -41,9 +41,10 @@
 	background-color: #ccc;
 }
 
-#current-event-overlap .description {
-	display: -webkit-box;
+#current-event-overlap .description,
+#upcoming-events .description {
 	line-height: 1.9rem;
+	display: -webkit-box;
 	overflow: hidden;
 	text-overflow: ellipsis !important;
 	-webkit-line-clamp: 2;
