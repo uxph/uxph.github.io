@@ -1,0 +1,17 @@
+/* overlaps stylesheet */
+#current-event-overlap {
+	box-sizing: border-box;
+	margin-top: -12rem;
+	position: relative;
+	z-index: 99;
+}
+
+#mission-vision-overlap {
+	box-sizing: border-box;
+	margin-top: -6rem;
+}
+
+#volunteer-overlap{
+	box-sizing: border-box;
+	margin-top: -12rem;
+}

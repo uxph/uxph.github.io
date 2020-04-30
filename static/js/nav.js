@@ -1,44 +1,52 @@
-$(document).ready(function(){
-    $('#close-nav').click(function(){
-        $('#mobile-nav').addClass("hide");
-    });
+$(document).ready(function() {
 
-    $('#hamburger').click(function(){
-        $('#mobile-nav').removeClass("hide");
-    });
+	if(window.location.pathname != '/') {
+		$('#nav-logo').addClass('show');
+		$("#main-nav div.wrapper").addClass('justify-content-between');
+		$("#main-nav div.wrapper").removeClass('justify-content-center');
+	}
+
+	$(window).scroll(function() {
+		if($(window).scrollTop() > 0)
+			$('#main-nav').addClass('shadow-sm');
+
+		else $('#main-nav').removeClass('shadow-sm');
+
+		// show uxph logo
+		if(window.location.pathname == '/') {
+			if($(window).scrollTop() > 200) {
+				$('#nav-logo').addClass('show');
+				$("#main-nav div.wrapper").addClass('justify-content-between');
+				$("#main-nav div.wrapper").removeClass('justify-content-center');
+			}
+
+			else {
+				$('#nav-logo').removeClass('show');
+				$("#main-nav div.wrapper").removeClass('justify-content-between');
+				$("#main-nav div.wrapper").addClass('justify-content-center');
+			}
+		}
+	});
+
+	$("#menu-bar").click(function() {
+		$('#mobile-nav').addClass('show');
+	});
+
+	$('#menu-close').click(function() {
+		$('#mobile-nav').removeClass('show');
+	});
+
+	$('#back-to-top').click(function() {
+		$("html, body").animate({scrollTop: 0}, 400);
+	});
 });
 
-function setActive(index){
-    var main_items = $('#nav-items li');
-    var mobile_items = $('#mobile-nav ul li');
+$(document).scroll(function() {
+	$(this).scrollTop() >= 655 ? $('#back-to-top').removeClass('hide') : $('#back-to-top').addClass('hide');
+});
 
-    main_items.removeClass("active");
-    mobile_items.removeClass("active");
-
-    $(main_items[index]).addClass("active");
-    $(mobile_items[index]).addClass("active");
+function setActive(n) {
+	let main_nav = $('#main-nav ul li span');
+	$(main_nav).removeClass('active');
+	$(main_nav[n]).addClass('active');
 }
-/*
-<div class="wrapper">
-                
-    <div id="main-heading">
-        <h1 class="red">WOWMentor:</h1>
-        <!--<h1 class="blue larger">{{ .Site.Data.info.theme }}</h1>-->
-        <h1 class="blue">Mentors for Women Program</h1>
-    </div>
-    <div id="main-info">
-        <div class="content-wrapper">
-            <img src="assets/icons/calendar.svg" />
-            <!--<p>{{ .Site.Data.info.date }}</p>-->
-            <p>March 20, 2019 (Wednesday) <br/> 5pm - 10pm</p>
-        </div>
-        <div class="content-wrapper">
-            <img src="assets/icons/pin.svg" />
-            <!--<p>{{ .Site.Data.info.venue }}</p>-->
-            <p>ASPACE Makati</p>
-        </div>
-    </div>
-    
-</div>
-<img src="assets/images/UXPH_hero_2019.png" id="hero-image" />
-*/

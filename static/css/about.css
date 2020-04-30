@@ -1,0 +1,29 @@
+/* about stylesheet */
+
+#what-we-do .featured-image {
+	min-width: 250px !important;
+	height: 240px;
+}
+
+#link-blue-1 {
+	top: 30%;
+}
+
+#link-red-1 {
+	right: 0;
+	bottom: 10%;
+}
+
+#link-yellow-1 {
+	top: 35%;
+}
+
+.fb-buttons button {
+	border-color: white;
+	color: white;
+}
+
+.fb-buttons button:hover {
+	border-color: #eee;
+	color: #eee;
+}

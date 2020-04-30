@@ -1,20 +1,32 @@
 {
-    "name": "UX Philippines",
-    "facebook_page": "https://facebook.com/UXPhilippines",
-    "facebook_group": "https://facebook.com/groups/uxphilippines",
-    "instagram": "https://instagram.com/uxphofficial",
-    "twitter": "https://twitter.com/uxphofficial",
-    "linkedin": "https://www.linkedin.com/company/uxph/",
+	"site_name": "UX Philippines",
+	"organization": "User Experience Philippines",
+	"facebook_page": "https://facebook.com/UXPhilippines",
+	"facebook_group": "https://facebook.com/groups/uxphilippines",
+	"instagram": "https://instagram.com/uxphofficial",
+	"twitter": "https://twitter.com/uxphofficial",
+	"linkedin": "https://www.linkedin.com/company/uxph/",
 
-    "theme": "Design Stories",
-    "date": "May 26 (Sat) - 27 (Sun)",
-    "venue": "The Globe Tower Bonifacio Global City Taguig, Philippines",
+	"about_us": [
+		"UXPH (User Experience Philippines) is a Filipino non-profit organization that hosts the largest network of design professionals, enthusiasts, and students in the Philippines. Since 2012, we have been building towards a more mature, collaborative, and design-driven country through hosting online and offline community initiatives, conferences, and programs within local design and technology communities.",
 
-    "about": "is a non-profit organization that hosts the Philippines' largest community of individuals  passionate about the realm of User Experience, and all things related. The organization runs annual conferences and monthly meetups to deliver valuable information, insight, and engagement to anyone seeking to learn and improve their craft. The organization aims to help spread awareness and raise the bar for design practices all over the Philippines. Events are free, and online participation is always encouraged. Join our Facebook group!",
+		"UXPH has become the country’s hub for sharing information, resources, and building networks in the design community. As of 2020, the UXPH community has over 4,000 local and international members from a wide range of industries related to technology and even traditional businesses."
+	],
 
-    "team": "is a group of passionate design professionals who organize events and programs on experience and design. They aim to engage local Filipino communities by helping spread awareness and raise the bar for design practices all over the Philippines. All members are volunteers - and they're always looking for motivated individuals to join in and help out!",
+	"organizing_team": [
+		"Access to the largest network of UX designers in the Philippines",
+		"Ongoing mentorship and learning",
+		"Community events and avenues to learn more skills",
+		"Career opportunities"
+	],
 
-    "community_sponsor": "UXPH hosts monthly meetups and workshops all around Metro Manila. We hold our events at various locations to both showcase companies that are passionate about design and community engagement, and to maximize our reach within the community. If your company or organization would like to partner with us as a venue sponsor, or on any other capacity, please reach out!",
+	"community_partner": "UXPH is committed to collaborating with like-minded non-profit or commercial companies and organizations. We're always interested in partnership opportunities whether it is for new projects, speaking engagements, workshops, or sponsorships. Learn more about what we can do together to support our causes!",
 
-    "team_recruitment": "We are seeking motivated individuals who want to help the organization grow and engage the greater design community, while gaining valuable experience and skills from it."
+	"mission": "To grow and nurture the Filipino creative community through sharing and collaboration, to help uplift the lives of people and our society.",
+	"vision": "An empowered culture where products and services are built mindfully and sustainably.",
+
+	"monthly_meetups": "UXPH organizes free monthly meetups all around Metro Manila (and soon outside of it). Meetups range from design and entrepreneurship talks, panels, workshops, or social events hosted at partner venues.",
+	"conferences": "Each year, we hold large-scale design conferences throughout the Philippines. These events feature keynote speakers, workshops, and hiring fairs with local and international partners and are open to all audiences.",
+	"bootcamp": "Soon you'll be able to learn more about the fundamentals of UX Design and put them into practice in an immersive UX Bootcamp. Coming in 2021!",
+	"mentorship": "UXPH works with some of the country's most experienced designers. As a way to give back to the community, these designers often offer ongoing mentorship engagements for new and experienced practitioners to the public or private sectors. Message us to learn more!"
 }

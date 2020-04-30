@@ -1,72 +1,185 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>{{ .Site.Data.info.name }}</title>
-        {{ partial "components/meta" (dict "path" "") }}
-    </head>
-    <body>
-        {{ partial "components/nav" (dict "path" "") }}
 
-        <header id="index-edition">
-            <div class="wrapper">
-                <a href="https://remoteffc01.eventbrite.com/" target="_blank">
-                    <img src="assets/event-images/event-banner.png" class="event-banner" />
-                    <img src="assets/event-images/event-square.png" class="event-square" />
-                </a>
-            </div>
-        </header>
-        <section class="featured">
-            <div class="wrapper">
-                <img src="assets/images/illustration_1.svg" class="featured-image" />
-                <div class="content-wrapper">
-                    <h2>What is UXPH?</h2>
-                    <p>
-                        <b class="blue">UXPH</b> {{ .Site.Data.info.about }}
-                    <p>
-                    <a href="{{ .Site.Data.info.facebook_page }}" target="_blank"><button>Join the Facebook Community!</button></a>
-                </div>
-            </div>
-        </section>
-        <section class="featured reversed pale">
-            <div class="wrapper">
-                <img src="assets/images/illustration_2.svg" class="featured-image" />
-                <div class="content-wrapper">
-                    <h2>The UXPH Team</h2>
-                    <p>
-                        <b class="red">User Experience Philippines (UXPH)</b> {{ .Site.Data.info.team }}
-                    <p>
-                    <a href="/volunteer/"><button>Join the Team!</button></a>
-                </div>
-            </div>
-        </section>
-        <section class="featured">
-            <div class="wrapper">
-                <img src="assets/images/illustration_3.svg" class="featured-image" />
-                <div class="content-wrapper">
-                    <h2>Be a community partner</h2>
-                    <p>
-                        {{ .Site.Data.info.community_sponsor }}
-                    <p>
-                    <a href="/sponsor/"><button>Become a Sponsor!</button></a>
-                </div>
-            </div>
-        </section>
-        <section class="meetup-featured pale">
-            <div class="wrapper">
-                <h2>Past Meetups</h2>
-                <div class="column-content">
-                    <div class="featured-image"></div>
-                    <div class="featured-image"></div>
-                    <div class="featured-image"></div>
-                </div>
-                <div class="column-content">
-                    <div class="featured-image"></div>
-                    <div class="featured-image"></div>
-                    <div class="featured-image"></div>
-                </div>
-            </div>
-        </section>
-        {{ partial "components/footer" (dict "path" "") }}
-        <script>setActive(0)</script>
-    </body>
+<html>
+	<head>
+		<title>{{ .Site.Data.info.site_name }}</title>
+		{{ partial "components/meta" (dict "path" "") }}
+	</head>
+	<body>
+		<!-- Load Facebook SDK for JavaScript -->
+		<div id="fb-root"></div>
+		<script>
+			window.fbAsyncInit = function() {
+			FB.init({
+			xfbml            : true,
+			version          : 'v6.0'
+			});
+			};
+
+			(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+
+		<!-- Your customer chat code -->
+		<div class="fb-customerchat"
+		attribution=setup_tool
+		page_id="314394185432326"
+		theme_color="#15B0DE">
+		</div>
+
+		<!-- Navigation -->
+		{{ partial "components/nav" (dict "path" "") }}
+		<header id="home-header" class="bg-dark auto-hidden position-relative">
+			<div class="wrapper padding-bottom-192 padding-top-48 text-white position-relative">
+				<a href="/">
+					<img src="assets/logo/uxph_logo.svg" class="width-192 padding-y-48" id="header-logo" />
+				</a>
+				<h1 class="text-center margin-bottom-8 font-size-32">UX Philippines</h1>
+				<p class="text-center subheading width-640 mx-auto">
+					Welcome to the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related.
+					<br/><br/>
+				</p>
+			</div>
+		</header>
+
+		<section class="padding-top-64 padding-bottom-96 auto-hidden" id="about-uxph-section">
+			<div class="wrapper">
+				<div id="current-event-overlap" class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 w-100 d-flex space-between">
+					{{ range .Site.Data.events.current }}
+						<div style="background: url({{ .image_square_url }}); background-size: cover;" class="border-radius-12 margin-right-32 featured-image"></div>
+						<div>
+							<h3 class = "text-secondary margin-bottom-8">Our latest event</h3>
+							<h2 class="text-dark">{{ .name }}</h2>
+							<p class="text-black-50 font-size-16">
+								{{ .date }}
+								<span class="px-3">|</span>
+								{{ .time }}
+								<span class="px-3">|</span>
+								{{ .venue }}
+							</p>
+							<p class="text-dark margin-bottom-24 description font-size-16">{{ .description }}</p>
+							<div>
+								{{ if ne .status "done" }}
+									<a href="{{ .ticket_url }}" target="_blank">
+										<button class="padding-x-24 padding-y-12 margin-right-8">Get tickets</button>
+									</a>
+								{{ else }}
+									<a href="{{ .blog_url }}">
+										<button class="padding-x-24 padding-y-12 margin-right-8">See event recap</button>
+									</a>
+								{{ end }}
+								{{ if ne .become_speaker_url "#" }}
+									<button class="unselected padding-x-24 padding-y-12">Become a speaker</button>
+								{{ end }}
+							</div>
+						</div>
+					{{ end }}
+				</div>
+				<img src="assets/visuals/link-yellow.svg" class="visuals width-192" id="link-yellow-1" />
+				<div class="margin-top-96">
+					<h1 class="margin-bottom-16">About UXPH</h1>
+					{{ range .Site.Data.info.about_us }}
+						<p class="margin-bottom-24">{{ . }}</p>
+					{{ end }}
+					<div class="d-flex about-buttons">
+						<a href="/about">
+							<button class="margin-right-4">Learn more</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="padding-y-96 hidden bg-light" id="organizing-team-section">
+			<div class="wrapper">
+				<div class="flex-wrapper d-flex justify-content-between align-items-center">
+					<img src="assets/images/organizing-team-circle.png" class="featured-image d-block margin-right-32" />
+					<div>
+						<h2 class="margin-bottom-16">Be a part of the organizing team</h2>
+						<p>{{ .Site.Data.volunteers.blurb.description }}</p>
+						<ul class="px-0 py-0 mx-0 my-0" id="volunteer-perks">
+							{{ range .Site.Data.info.organizing_team }}
+								<li>
+									<i class="fas fa-check-circle margin-right-16 text-success"></i>
+									<span>{{ . }}</span>
+								</li>
+							{{ end }}
+						</ul>
+						<a href="/volunteers">
+							<button class="margin-top-32">See volunteer opportunities</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="padding-y-96 hidden" id="community-partner-section">
+			<img src="assets/visuals/link-red.svg" class="visuals width-192" id="link-red-1" />
+			<div class="wrapper">
+				<div class="flex-wrapper flex-wrapper-reverse d-flex justify-content-between align-items-center">
+					<img src="assets/images/community-circle.png" class="featured-image d-block margin-left-32" />
+					<div class="">
+						<h2 class="margin-bottom-16">Be a community partner</h2>
+						<p>{{ .Site.Data.info.community_partner }}</p>
+						<div class="padding-y-24" id="community-partner-logos">
+							{{ range .Site.Data.sponsors.community_partners }}
+								{{ if le .id 6 }}
+									<img src="../{{ .image_url }}" class="width-64 margin-right-8 align-middle shadow-sm rounded-circle" />
+								{{ end }}
+							{{ end }}
+						</div>
+						<a href="/sponsorships">
+							<button>Learn more</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="padding-y-96 bg-light hidden">
+			<img src="assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" />
+			<div class="wrapper">
+				<div class="d-flex justify-content-between">
+					<div id="upcoming-events" class="padding-right-96">
+						<h2 class="margin-bottom-24">Featured Event</h2>
+						{{ range .Site.Data.events.current }}
+							<img src="{{ .image_banner_url }}" class="w-100 border-radius-16" />
+							<div class="margin-y-24">
+								<h4><b> {{ .name }} </b></h4>
+								<p class="text-secondary"> {{ .date }} </p>
+							</div>
+							<a href="{{ .blog_url }}">
+								<button>See event recap</button>
+							</a>
+						{{ end }}
+					</div>
+					<div id="past-events" class="w-75">
+						<h2>Past Events</h2>
+						{{ range sort .Site.Data.events.past ".event_id" "desc" }}
+							<div class="d-flex justify-content-between align-items-center border-bottom">
+								<div class="margin-y-24 width-256">
+									<h4><b>{{ .name }}</b></h4>
+									<p class="text-secondary">{{ .date }}</p>
+								</div>
+								<a href="{{ .blog_url }}">
+									<button class="font-size-8 outline padding-y-8 padding-x-8 no-shadow">Read more</button>
+								</a>
+							</div>
+						{{ end }}
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		{{ partial "components/footer" (dict "path" "") }}
+		<link rel="stylesheet" type="text/css" href="../css/homepage.css" />
+		<script type="text/javascript">setActive(0);</script>
+	</body>
 </html>

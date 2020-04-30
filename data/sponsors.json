@@ -1,0 +1,75 @@
+{
+	"community_partners": {
+		"brain_sparks": {
+			"name": "Brainsparks",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/brainsparks.png",
+			"id": 1,
+			"link": "https://www.brainsparks.ph/"
+		},
+
+		"idf": {
+			"name": "IDF - Interaction Design Foundation",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/idf.png",
+			"id": 2,
+			"link": "https://www.interaction-design.org/"
+		},
+
+		"ptlc": {
+			"name": "Philippine Tech Leads Community",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/ptlc.png",
+			"id": 3,
+			"link": "https://www.phtechcommunity.org/"
+		},
+
+		"uxsea": {
+			"name": "UXSEA - User Experience South East Asia Society",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/uxsea.png",
+			"id": 4,
+			"link": "https://uxsea.org/"
+		},
+
+		"cebuxd": {
+			"name": "CEBUXD - Cebu User Experience Design",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/cebuxd.png",
+			"id": 5,
+			"link": "https://www.facebook.com/CebUXD/"
+		},
+
+		"uxdvo": {
+			"name": "UXDVO - User Experience Davao",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/uxdvo.png",
+			"id": 6,
+			"link": "https://www.facebook.com/uxdvo/"
+		},
+
+		"tech_shake": {
+			"name": "Tech Shake",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/tech-shake.png",
+			"id": 7,
+			"link": "https://www.techshake.asia/"
+		},
+
+		"figma_ph": {
+			"name": "Figma Philippines",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/figma.png",
+			"id": 8,
+			"link": "https://www.facebook.com/groups/FigmaPhilippines"
+		},
+
+		"pwdo": {
+			"name": "Philippine Web Designers Organization",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/pwdo.png",
+			"id": 9,
+			"link": "https://pwdo.org/"
+		}
+	}
+}

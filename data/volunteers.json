@@ -1,0 +1,171 @@
+{
+	"blurb": {
+		"description": "UXPH is always looking for passionate and enthusiastic individuals who want to be a part of the growing Filipino design community! Whether you're a professional, student, or simply a design enthusiast, we're happy to have you join us!",
+		"img_url": "#"
+	},
+
+	"perks": {
+		"perk1": {
+			"name": "Access to the largest network of UX designers in the Philippines",
+			"description": "Just by joining UXPH you already gain access to an invaluable community of designers to connect, share, and collaborate with.",
+			"icon": "fas fa-users"
+		},
+		"perk2": {
+			"name": "Ongoing mentorship and learning",
+			"description": "UXPH works with some of the country's most experienced designers. As a way to give back to the community, they offer ongoing mentorship for those seeking to learn and improve their craft.",
+			"icon": "fas fa-chalkboard-teacher"
+		},
+		"perk3": {
+			"name": "Community events and avenues to learn more skills",
+			"description": "To be a community organizer, you'll need to practice a few disciplines outside of UX design. There's no better way to learn by doing!",
+			"icon": "fas fa-calendar"
+		},
+		"perk4": {
+			"name": "Career opportunities",
+			"description": "UXPH works with forward-thinking companies who values design and collaboration. Being a part of UXPH puts you at the forefront for job openings and internships.",
+			"icon": "fas fa-briefcase"
+		}
+	},
+
+	"teams": {
+		"marketing_coordinator": {
+			"name": "Marketing Coordinator",
+			"description": "Lorem ipsum in dolore reprehenderit ea cupidatat nostrud ut dolor consequat adipisicing. Fugiat aliquip deserunt do sunt in non do laborum ea dolor irure ea in ullamco nisi cupidatat.",
+
+			"responsibilities": [
+				"Aliquip in proident occaecat dolore aliquip reprehenderit ut veniam dolore elit consequat in enim in sed mollit dolore dolore.",
+				"Lorem ipsum magna dolor dolore dolore adipisicing eiusmod excepteur ad quis incididunt nulla irure nostrud reprehenderit ut dolor ea.",
+				"Lorem ipsum anim aliquip in ea commodo ad reprehenderit fugiat do incididunt sint amet sunt dolore in aliquip est non."
+			],
+
+			"requirements": [
+				"Lorem ipsum officia excepteur aliquip ex.",
+				"Amet ut ut elit deserunt do ut in ea sed adipisicing nostrud exercitation excepteur.",
+				"Consectetur quis commodo pariatur esse consequat sint magna est cillum elit ut.",
+				"Commodo elit ex ut ad et laboris nostrud labore.",
+				"Aute occaecat est duis dolore fugiat excepteur aliquip consequat eiusmod."
+			],
+
+			"learn": [
+				"Lorem ipsum elit eu et ad ad pariatur aliqua qui aute ad amet occaecat.",
+				"Id duis minim enim elit esse non consequat culpa sunt.",
+				"Adipisicing sit velit consequat in ullamco et pariatur in minim."
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		},
+
+		"event_coordinator": {
+			"name": "Event Coordinator",
+			"description": "Dolor eiusmod ut ut dolore dolor dolore veniam in magna. Exercitation dolor amet labore labore minim velit excepteur ut pariatur in. Lorem ipsum sed dolore velit velit incididunt in eu proident eu.",
+
+			"responsibilities": [
+				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+			],
+
+			"requirements": [
+				"Very game to code in HTML, CSS & JavaScript.",
+				"Experience in building websites is a plus.",
+				"Familiarity with product management tools (i.e. GitHub) would be great. ",
+				"Familiarity with Hugo framework would be awesome too!",
+				"Willing to dedicate some time for revisions and/or content updates."
+			],
+
+			"learn": [
+				"The in’s and out’s of the fastest framework for building websites",
+				"Team dynamics and remote collaboration for software development",
+				"Techniques in writing responsible code especially in Front-end Development"
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		},
+
+		"event_volunteer": {
+			"name": "Event Volunteer",
+			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
+
+			"responsibilities": [
+				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+			],
+
+			"requirements": [
+				"Very game to code in HTML, CSS & JavaScript.",
+				"Experience in building websites is a plus.",
+				"Familiarity with product management tools (i.e. GitHub) would be great. ",
+				"Familiarity with Hugo framework would be awesome too!",
+				"Willing to dedicate some time for revisions and/or content updates."
+			],
+
+			"learn": [
+				"The in’s and out’s of the fastest framework for building websites",
+				"Team dynamics and remote collaboration for software development",
+				"Techniques in writing responsible code especially in Front-end Development"
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		},
+
+		"sponsorship_coordinator": {
+			"name": "Sponsorship Coordinator",
+			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
+
+			"responsibilities": [
+				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+			],
+
+			"requirements": [
+				"Very game to code in HTML, CSS & JavaScript.",
+				"Experience in building websites is a plus.",
+				"Familiarity with product management tools (i.e. GitHub) would be great. ",
+				"Familiarity with Hugo framework would be awesome too!",
+				"Willing to dedicate some time for revisions and/or content updates."
+			],
+
+			"learn": [
+				"The in’s and out’s of the fastest framework for building websites",
+				"Team dynamics and remote collaboration for software development",
+				"Techniques in writing responsible code especially in Front-end Development"
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		},
+
+		"speaker_workshop_facilitators": {
+			"name": "Speakers / Workshop Facilitators",
+			"description": "We’re looking for people who will take charge in the overall implementation and management of the organization’s official website/s. The main goal of the team is to consistently reflect updates and to deliver content, web collaterals as well as other important matters online.",
+
+			"responsibilities": [
+				"Take initiatives in communicating and collecting outputs from different departments that may need to be shown online.",
+				"Implement necessary changes to the website/s (i.e. layout structure, information, optimizations & etc.).",
+				"Consistently publish UXPH content especially upcoming events, announcements, conferences, etc."
+			],
+
+			"requirements": [
+				"Very game to code in HTML, CSS & JavaScript.",
+				"Experience in building websites is a plus.",
+				"Familiarity with product management tools (i.e. GitHub) would be great. ",
+				"Familiarity with Hugo framework would be awesome too!",
+				"Willing to dedicate some time for revisions and/or content updates."
+			],
+
+			"learn": [
+				"The in’s and out’s of the fastest framework for building websites",
+				"Team dynamics and remote collaboration for software development",
+				"Techniques in writing responsible code especially in Front-end Development"
+			],
+
+			"url": "<url>",
+			"team_image_url": "<url>"
+		}
+	}
+}

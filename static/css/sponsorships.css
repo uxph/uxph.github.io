@@ -1,0 +1,64 @@
+/* Events stylesheet */
+.img_banner {
+	border-radius: 12px;
+	background-color: #c4c4c4;
+	height: 201px;
+}
+
+.sponsors h2 {
+	color: #a3a3a3;
+}
+
+.sponsor_avatar {
+	display: inline-block;
+}
+
+.sponsor_avatar {
+	height: 64px;
+	width: 64px;
+	border-radius: 64px;
+	opacity: 0.5;
+	background-color: #c4c4c4;
+}
+
+.partners {
+	border-radius: 16px;
+	box-shadow: 2px 4px 11px rgba(0, 0, 0, 0.1);
+}
+
+.unselected {
+	background-color: #E2E2E2;
+	transition: 0.3s;
+}
+
+.sort {
+	margin-right: 16px;
+	border-radius: 40px;
+}
+
+.unselected:hover {
+	background-color: #c4c4c4;
+
+}
+
+.timestamp {
+	color: #989898;
+	font-size: 16px;
+	line-height:23px;
+}
+
+.img_article {
+	background-color: #c4c4c4;
+	border-radius: 12px;
+	min-height: 174px;
+	min-width: 174px;
+	max-height: 174px;
+	max-width: 174px;
+}
+
+#community-partners-feed .featured-image {
+	width: var(--value-96);
+	vertical-align: middle;
+	margin: var(--value-4) var(--value-24);
+	margin-left: 0;
+}

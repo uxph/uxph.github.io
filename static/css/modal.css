@@ -1,0 +1,51 @@
+#modal-overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1000;
+}
+
+#modal-container {
+    position: relative;
+    z-index: 800;
+}
+
+#modal-container .featured-image {
+    border-radius: 100%;
+    max-height: var(--value-128);
+    max-width: var(--value-128);
+    min-height: var(--value-128);
+    min-width: var(--value-128);
+    margin-right: var(--value-32);
+}
+
+#modal-close {
+    cursor: pointer;
+	float: right;
+	margin: var(--value-16);
+    position: absolute;
+    top: 10pt;
+    right: 10pt;
+    z-index: 900;
+}
+
+#modal-click-off {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 700;
+}
+
+.socials-wrapper > * {
+    transition: ease all 0.3s;
+}
+
+.socials-wrapper > *:hover {
+    color: var(--main-blue);
+}

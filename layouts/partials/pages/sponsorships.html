@@ -1,0 +1,86 @@
+<!-- Sponsorships page -->
+<header id="sponsorships-header" class="bg-light padding-y-96 auto-hidden">
+	<div class="wrapper">
+		<div class="" id="sponsorships-header-content">
+			<p class="text-white font-size-24 margin-bottom-24">Sponsorships</p>
+			<h1 class="text-white">{{ .Site.Data.sponsorships.blurb.name }}</h1>
+			<p class="text-white margin-top-16">
+				{{ .Site.Data.sponsorships.blurb.description }}
+				<br/><br/>
+				Send us an email at <strong><a href="mailto:partnerships@uxph.org" class="link">partnerships@uxph.org</a></strong> or download our Sponsorship Package to get started.
+			</p>
+		</div>
+	</div>
+</header>
+
+<section class="padding-y-48 padding-top-96 auto-hidden" id="sponsorships-section">
+	<div class="wrapper">
+		<div class="d-flex justify-content-between">
+			<div class="mr-3 w-50 margin-bottom-32 sponsorship-item">
+				<img src="{{ .Site.Data.sponsorships.sponsorships.sponsorship.image_url }}" class="d-block w-100 border-radius-12" />
+				<h2 class="margin-top-32">{{ .Site.Data.sponsorships.sponsorships.sponsorship.name }}</h2>
+				<p class="margin-top-16">
+					{{ .Site.Data.sponsorships.sponsorships.sponsorship.description }}
+					<a href="mailto:partnerships@uxph.org" class="blue link">partnerships@uxph.org</a>.
+				</p>
+			</div>
+			<div class="ml-3 w-50 margin-bottom-32 sponsorship-item">
+				<img src="{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.image_url }}" class="d-block w-100 border-radius-12" />
+				<h2 class="margin-top-32">{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.name }}</h2>
+				<p class="margin-top-16">
+					{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.description }}
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="padding-y-48 padding-bottom-128" id="sponsors-section">
+	<div class="wrapper">
+		<h1 class="margin-bottom-32">Our Community Partners</h1>
+		<div id="community-partners-feed">
+			{{ range .Site.Data.sponsors.community_partners }}
+				<div class="padding-x-16 community-items">
+					<div class="community-img">
+						<img src="../{{ .image_url }}" alt="{{ .name }}" class="featured-image shadow-sm rounded-circle margin-bottom-16" />
+					</div>
+					<a href="{{.link}}" target="blank"><p class="text-center"><strong>{{ .name }}</strong></p></a>
+				</div>
+				{{ end }}
+		</div>
+	</div>
+</section>
+
+<style>
+	.img-caption{
+		margin-top: -205px;
+		position:relative;
+		z-index: 10;
+		height: 55%;
+	}
+	.img-caption p{
+		width: 560px;
+		font-size: 14px;
+	}
+
+	.community-items{
+		display: inline-block;
+		width: var(--value-256);
+		min-height: 120px;
+		vertical-align: top;
+	}
+	.community-items img{
+		margin-top: 48px !important;
+		margin-left: 72px !important;
+
+	}
+	.community-items a:hover{
+		text-decoration: underline;
+	}
+	.community-img{
+		margin-top: 36px;
+
+	}
+</style>
+
+<link rel="stylesheet" type="text/css" href="../css/sponsorships.css" />

@@ -1,0 +1,66 @@
+/* events stylesheet */
+#events-feed-section {
+	background: url(../assets/visuals/ph-map-blue.png);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom;
+}
+
+#event-select {
+	margin: 0 !important;
+	padding-bottom: var(--value-32) !important;
+	overflow-y: scroll;
+	white-space: nowrap;
+}
+
+#event-select::-webkit-scrollbar {
+	width: 0 !important;
+}
+
+#event-select .event-category {
+	padding: var(--value-16) !important;
+	display: inline !important;
+	font-size: var(--value-16) !important;
+	border-left: none;
+	border-bottom: 3px solid transparent;
+	transition: ease all 0.3s;
+	cursor: pointer;
+}
+
+#event-select > small {
+	font-weight: 500;
+}
+
+#event-select > small.active {
+	color: var(--main-blue) !important;
+	border-color: var(--main-blue) !important;
+}
+
+#event-select > small:hover {
+	color: var(--uxph-yellow-1) !important;
+	border-color: var(--uxph-yellow-1) !important
+}
+
+.event-item {
+	overflow: hidden;
+	transition: ease all 0.3s;
+}
+
+.event-item:hover {
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.event-item:hover h2 {
+	text-decoration: underline;
+}
+
+.event-item .event-ended-banner {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: var(--main-red);
+	color: white;
+	padding: var(--value-8) var(--value-32);
+	border-bottom-left-radius: var(--value-12);
+}

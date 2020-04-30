@@ -1,71 +1,253 @@
-/* UXPH main stylsheet */
+/* Main stylesheet */
 
-/* component stylesheet imports */
 @import url(nav.css);
-@import url(button.css);
-@import url(header.css);
-@import url(section.css);
 @import url(footer.css);
 @import url(mediaquery.css);
+@import url(utilities.css);
+@import url(overlaps.css);
+@import url(blog.css);
+@import url(headers.css);
+@import url(modal.css);
+@import url(bootstrap-utilities.css);
 
-:root{
+@font-face {
+	font-family: 'circular';
+	src: url('../assets/fonts/CircularStd-Book.otf') format("opentype");
+}
+
+@font-face {
+	font-family: 'circular-bold';
+	src: url('../assets/fonts/CircularStd-Bold.otf') format("opentype");
+}
+
+:root {
 	--main-blue: #15B0DE;
 	--main-blue-dark: #007BBF;
 	--main-red: #EC3558;
 	--main-red-dark: #CE0000;
-	--main-pale: #F9F9F9;
+	--main-gray: #C4C4C4;
 
+	--uxph-blue-1: #003A89;
+	--uxph-blue-2: #0077B2;
+	--uxph-blue-3: #00C0FD;
+	--uxph-red-1: #B20000;
+	--uxph-red-2: #FF3838;
+	--uxph-yellow-1: #FCC70E;
+	--uxph-yellow-2: #FFE141;
+	--uxph-neutral-1: #212427;
+	--uxph-neutral-2: #C4C4C4;
+	--uxph-neutral-3: #FAFAFC;
+
+	--value-4: 0.25rem;
+	--value-8: 0.5rem;
+	--value-12: 0.75rem;
+	--value-16: 1rem;
+	--value-24: 1.5rem;
+	--value-32: 2rem;
+	--value-48: 3rem;
+	--value-64: 4rem;
+	--value-96: 6rem;
+	--value-128: 8rem;
+	--value-192: 12rem;
+	--value-256: 16rem;
+	--value-384: 24rem;
+	--value-512: 32rem;
+	--value-640: 40rem;
+	--value-768: 48rem;
+
+	color: #333333;
 	font-family: 'Roboto', sans-serif;
-	color: #555555;
+	font-weight: lighter;
 }
 
-html, body{
+body, html {
 	margin: 0;
 	padding: 0;
 }
 
-body{
-	margin-top: 62.59px;
+body {
+	margin-top: 4.25rem;
 }
 
-h1, h2, h3, h4, h5, h6{
-	font-weight: normal;
-	color: black;
+body.stiff {
+	overflow: hidden;
 }
 
-p{
+header, section {
+	transition: ease all 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'montserrat', sans-serif;
+	font-weight: 600;
+	margin: 0;
+}
+
+h1 {
+	font-size: var(--value-32);
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+}
+
+h2 {
+	font-size: var(--value-24);
+	font-weight: 600;
+}
+
+.subheading {
+	font-family: 'montserrat', sans-serif;
 	font-weight: lighter;
-	line-height: 1.8em;
-	font-size: 1em;
 }
 
-a{
-	color: inherit;
+p {
+	line-height: 2.3rem;
+	margin: 0;
+	font-size: 1.125rem;
+}
+
+li {
+	font-size: var(--value-16);
+}
+
+a {
 	text-decoration: none;
+	color: inherit;
 }
 
-b{
+a.link:hover {
+	text-decoration: underline;
+}
+
+p b, p strong {
+	font-weight: 500;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+	border-radius: var(--value-4);
+	background-color: var(--main-blue);
+	color: white;
+	font-size: 14px;
 	font-weight: normal;
-	color: black;
+	border-style: none;
+	padding: var(--value-12) var(--value-24);
+	font-family: 'Roboto', sans-serif;
+	border: thin solid var(--main-blue);
+	border-width: 1.5px;
+	transition: ease all 0.3s;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+	position: relative;
+	transform: translate(0px, 0px);
 }
 
-ul li{
-	font-weight: lighter;
+button.no-shadow {
+	box-shadow: 0px 0px 0px transparent;
 }
 
-.blue{
+button:hover {
+	background-color: var(--main-blue-dark);
+	border-color: var(--main-blue-dark);
+	box-shadow: 0px 0px 0px var(--main-blue-dark);
+	transform: translate(0px, 3px);
+}
+
+button.outline {
+	background-color: transparent;
 	color: var(--main-blue);
 }
 
-.red{
+button.outline:hover {
+	color: var(--main-blue-dark);
+	border-color: var(--main-blue-dark);
+}
+
+button.tertiary {
+	background-color: transparent;
+	border-color: transparent;
+	color: var(--main-blue);
+}
+
+button.tertiary:hover {
+	background-color: var(--main-gray);
+	border-color: var(--main-gray);
+}
+
+div.wrapper {
+	width: 896px;
+	padding: 0 var(--value-64);
+	margin: auto;
+}
+
+#header-logo {
+	display: block;
+	margin: 0 auto !important;
+}
+
+.featured-image-bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.blue {
+	color: var(--main-blue);
+}
+
+.red {
 	color: var(--main-red);
 }
 
-.centered {
-	text-align: center;
+.bg-blue {
+	background-color: var(--main-blue);
 }
 
-div.wrapper{
-	width: 60em;
+.bg-red {
+	background-color: var(--main-red);
+}
+
+.ux-blue{
+	background-color: var(--uxph-blue-1);
+}
+
+/* Back-to-top button styling */
+div#back-to-top {
+	position: fixed;
+	padding: 1em 1.1em;
+	z-index: 999;
+	bottom: 19pt;
+	right: 72pt;
+	cursor: pointer;
+	color: white;
+	border: 2px solid var(--main-blue);
+	border-radius: 100%;
+	background-color: var(--main-blue);
+	transition: ease all 0.5s;
+}
+
+div#back-to-top.hide {
+	right: -8em;
+}
+
+div#back-to-top:hover {
+	background-color: var(--main-blue-dark);
+	border-color: var(--main-blue-dark);
+}
+
+div#back-to-top i {
+	font-size: 1.1em;
+	display: block;
+	text-align: center;
 	margin: auto;
+}
+
+.visuals {
+	position: absolute;
+	display: block;
+}
+
+.hidden,
+.auto-hidden {
+	opacity: 0;
+	transition: ease all 0.3s;
 }

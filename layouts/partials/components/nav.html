@@ -1,26 +1,71 @@
-<nav>
-    <div class="wrapper">
-        <div id="main-nav">
-            <img src="{{ .path }}assets/icons/menu_options.svg" id="hamburger" />
-            <a href="/">
-                <img src="{{ .path }}assets/logo/uxph_logo.svg" id="nav-logo" />
-            </a>
-        </div>
-        <ul id="nav-items">
-            <a href="/"><li>Home</li></a>
-            <a href="/volunteer/"><li>Volunteer</li></a>
-            <a href="/sponsor/"><li>Partner with us</li></a>
-        </ul>
-        <!-- <a href="https://roadshow.uxph.org" target="_blank"><button id="cta">UXPH Roadshow</button></a> -->
-    </div>
+<!-- Navigation of the website -->
+<nav id="main-nav" class="bg-white">
+	<div class="wrapper d-flex justify-content-center align-items-center">
+		<!-- <i class="las la-bars fa-2x margin-right-16" id="menu-bar"></i> -->
+		<img src="{{ .path }}assets/icons/menu_options.svg" id="menu-bar" width="30" />
+
+		<a href="/" class="d-flex align-items-center">
+			<img src="{{ .path }}assets/logo/uxph_logo.svg" id="nav-logo" />
+		</a>
+		<ul>
+			<a href="/">
+				<li class="active">
+					<span>Home</span>
+				</li>
+			</a>
+			<li>
+				<span>About</span>
+				<div class="position-fixed subnav rounded-bottom">
+					<a href="/about"><p class="bg-white padding-x-16 padding-y-8 padding-right-48">About UXPH</p></a>
+					<a href="/organizing-members"><p class="bg-white padding-x-16 padding-y-8 padding-right-48 rounded-bottom">Organizing Members</p></a>
+				</div>
+			</li>
+			<a href="/events">
+				<li>
+					<span>Events</span>
+				</li>
+			</a>
+			<li>
+				<span>Get involved</span>
+				<div class="position-fixed subnav rounded-bottom">
+					<a href="/sponsorships">
+						<p class="bg-white padding-x-16 padding-y-8 padding-right-48">Partner with UXPH</p>
+					</a>
+					<a href="/volunteers">
+						<p class="bg-white padding-x-16 padding-y-8 padding-right-48 rounded-bottom">Volunteers</p>
+					</a>
+				</div>
+			</li>
+			<a href="/faq">
+				<li>
+					<span>FAQ</span>
+				</li>
+			</a>
+		</ul>
+	</div>
 </nav>
 
-<nav id="mobile-nav" class="hide">
-    <img src="{{ .path }}assets/icons/close.svg" id="close-nav" />
-    <ul>
-        <a href="/"><li>Home</li></a>
-        <a href="/volunteer/"><li>Volunteer</li></a>
-        <a href="/sponsor/"><li>Partner with us</li></a>
-    </ul>
-    <!-- <a href="https://roadshow.uxph.org" target="_blank"><button id="cta">UXPH Roadshow</button></a> -->
+<nav id="mobile-nav">
+	<!-- <i class="las la-times fa-2x margin-x-24 margin-y-24" id="menu-close"></i> -->
+	<img src="{{ .path }}assets/icons/close.svg" id="menu-close" width="30" />
+	<br/><br/><br/>
+	<ul>
+		<a href="/"><li>Home</li></a>
+		<li>
+			About Us
+			<div class="subnav rounded-bottom margin-top-12">
+				<a href="/about"><p class="text-light padding-x-16 padding-y-8">About UXPH</p></a>
+				<a href="/organizing-members"><p class="text-light padding-x-16 padding-y-8 rounded-bottom">Organizing Members</p></a>
+			</div>
+		</li>
+		<a href="/events"><li>Events</li></a>
+		<li>
+			Get Involved
+			<div class="subnav rounded-bottom margin-top-12">
+				<a href="/sponsorships"><p class="text-light padding-x-16 padding-y-8">Sponsorships</p></a>
+				<a href="/volunteers"><p class="text-light padding-x-16 padding-y-8 rounded-bottom">Volunteers</p></a>
+			</div>
+		</li>
+		<a href="/faq"><li>FAQ</li></a>
+	</ul>
 </nav>

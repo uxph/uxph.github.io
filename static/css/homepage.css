@@ -1,0 +1,84 @@
+/* homepage stylesheet */
+
+.flex-wrapper .featured-image {
+	width: 40%;
+	height: 40%;
+}
+
+.flex-wrapper-reverse {
+	flex-direction: row-reverse;
+}
+
+#home-header {
+	background: url(../assets/images/web-cover-photo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 1;
+}
+
+#home-header::before {
+	background-color: rgba(0, 58, 137, 0.3);
+	position: absolute;
+	top: 0;
+	content: '';
+	width: 100%;
+	height: 100%;
+}
+
+#volunteer-perks li {
+	display: flex;
+	align-items: center;
+	margin-top: var(--value-24);
+}
+
+
+#current-event-overlap .featured-image {
+	min-width: 12.5rem;
+	max-height: 12.5rem;
+	background-color: #ccc;
+}
+
+#current-event-overlap .description {
+	height: 3.5rem;
+	line-height: 1.9rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#about-uxph-section {
+	background-color: red;
+	background: url(../assets/visuals/ph-map-gray.png);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: fixed;
+}
+
+#organizing-team-section {
+	background-color: red;
+	/* background: url(../assets/visuals/circuit.png); */
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-attachment: fixed;
+}
+
+#community-partner-section {
+	background-color: red;
+	background: url(../assets/visuals/ph-map-gray.png);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: fixed;
+}
+
+#link-red-1 {
+	right: 0;
+}
+
+#link-yellow-1 {
+	left: 0;
+}

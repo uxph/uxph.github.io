@@ -1,0 +1,168 @@
+<style>
+	/* Events stylesheet */
+	.unselected{
+		background-color: #E2E2E2;
+		transition: 0.3s;
+	}
+	.sort{
+		margin-right: 16px;
+		border-radius: 40px;
+	}
+	.unselected:hover{
+		background-color: #c4c4c4;
+		color: white;
+	}
+	.timestamp{
+		color: #989898;
+		font-size: 16px;
+		line-height:23px;
+	}
+	.img_article{
+		background-color: #c4c4c4;
+		border-radius: 12px;
+		min-height: var(--value-192);
+		min-width: var(--value-192);
+		max-height: var(--value-192);
+		max-width: var(--value-192);
+	}
+	header .wrapper{
+		height: 400px
+	}
+
+	#events-header {
+		position: relative;
+	}
+
+	#events-header * {
+		color: white;
+	}
+
+	#events-header .timestamp {
+		color: #ccc;
+	}
+
+	#events-header::before {
+		background-color: rgba(0, 58, 137, 0.95);
+		background-image: linear-gradient(to left, #00AAFF, #00456D, #00456D);
+		opacity: 0.9;
+		content: '';
+		display: block;
+		height: 100%;
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 0;
+	}
+
+	#events-header > div {
+		position: relative;
+		z-index: 300;
+	}
+</style>
+
+<!-- Events page -->
+{{ range .Site.Data.events.current }}
+	<header id="events-header" class="padding-y-96 auto-hidden" style="background: url({{ .image_banner_url }}); background-size:cover; background-attachment: fixed;">
+		<div class="wrapper">
+			<div class="rounded-lg">
+				<h1>Our latest event</h1>
+				<div class="padding-top-48 d-flex" id="latest-event-content">
+					<a href="{{ .blog_url }}">
+						<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
+					</a>
+					<div class="margin-left-32 event-item-content">
+						<a href="{{ .blog_url }}"><h2>{{ .name }}</h2></a>
+						<p class="margin-y-8 margin-bottom-24 timestamp text-white">
+							{{ .date }}
+							<span class="px-3">|</span>
+							{{ .time }}
+							<span class="px-3">|</span>
+							{{ .venue }}
+						</p>
+						<p>{{ .description }}</p>
+						<div class="margin-y-8 margin-top-24">
+							{{ if ne .status "done" }}
+								<a href="{{ .ticket_url }}" target="_blank">
+									<button class="padding-x-24 padding-y-12 margin-right-8">Get Tickets</button>
+								</a>
+							{{ else }}
+								<a href="{{ .blog_url }}">
+									<button class="padding-x-24 padding-y-12 margin-right-8">See Event Recap</button>
+								</a>
+							{{ end }}
+							{{ if ne .become_speaker_url "#" }}
+								<button class="unselected padding-x-24 padding-y-12">Become a Speaker</button>
+							{{ end }}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+{{ end }}
+
+<section class="padding-top-64 padding-bottom-32 hidden">
+	<div class="wrapper bg-white">
+		<div class="padding-x-32 padding-y-32 border-radius-12 shadow">
+			<h2 class="margin-bottom-16">Host your own UXPH event (Coming soon!)</h2>
+			<p>Have an event idea? You can host your own UXPH-sanctioned event! Download our information packet to know more about the requirements and process. </p>
+			<!-- <button class="padding-x-24 padding-y-12 margin-right-8">Learn More</button> -->
+		</div>
+	</div>
+</section>
+
+<img src="../assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" />
+
+<section class="padding-top-64 padding-bottom-32 events-feed-section hidden">
+	<div class="wrapper">
+		<div class="position-relative">
+			<div class="white-shadow"></div>
+			<div class="w-100" id="event-select">
+				<small class="active text-secondary event-category" data-id="">All Events</small>
+				<small class="text-secondary event-category" data-id="meetups">Meetups</small>
+				<!-- <small class="text-secondary event-category" data-id="virual-meetups">Virtual Meetups</small> -->
+				<small class="text-secondary event-category" data-id="conferences">Conferences</small>
+			</div>
+		</div>
+		<br/><br/>
+		{{ range sort .Site.Data.events.past ".event_id" "desc" }}
+			<div class="padding-y-24 padding-x-24 margin-bottom-48 shadow-sm border-radius-12 border-top border-light d-flex event-item position-relative" data-id="{{ .tag }}">
+				{{ if eq .status "done" }}
+					<div class="event-ended-banner">
+						<h4 class="p-0 m-0">Event ended</h4>
+					</div>
+				{{ end }}
+				<a href="{{ .blog_url }}">
+					<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
+				</a>
+				<div class="margin-left-32 event-item-content">
+					<a href="{{ .blog_url }}"><h2>{{ .name }}</h2></a>
+					<p class="margin-y-8 timestamp">
+						{{ .date }}
+						<span class="px-3">|</span>
+						{{ .time }}
+						<span class="px-3">|</span>
+						{{ .venue }}
+					</p>
+					<p>{{ .description }}</p>
+					{{ if eq .status "done" }}
+						<div class="margin-top-24">
+							<a href="{{ .blog_url }}">
+								<button class="padding-x-24 padding-y-12 margin-right-8 outline">See Event Recap</button>
+							</a>
+						</div>
+					{{ else }}
+						<div class="margin-top-24">
+							<a href="{{ .ticket_url }}">
+								<button class="padding-x-24 padding-y-12 margin-right-8 outline">Learn More</button>
+							</a>
+						</div>
+					{{ end }}
+
+				</div>
+			</div>
+		{{ end }}
+	</div>
+</section>
+<link rel="stylesheet" type="text/css" href="../css/events.css" />
