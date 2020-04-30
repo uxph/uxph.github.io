@@ -1,6 +1,6 @@
 ---
 title: "Recap: UXPH Roadshow 2019, Manila"
-date: 2019-26-10T18:56:48+08:00
+date: 2019-05-10T18:56:48+08:00
 draft: false
 page: "pages/events"
 type: "blog"
