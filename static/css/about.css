@@ -20,10 +20,11 @@
 
 .fb-buttons button {
 	border-color: white;
-	color: white;
+	background: white;
+	color: var(--main-blue);
 }
 
 .fb-buttons button:hover {
 	border-color: #eee;
-	color: #eee;
+	background: #eee;
 }

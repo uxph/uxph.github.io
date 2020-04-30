@@ -42,10 +42,12 @@
 }
 
 #current-event-overlap .description {
-	height: 3.5rem;
+	display: -webkit-box;
 	line-height: 1.9rem;
 	overflow: hidden;
-	text-overflow: ellipsis;
+	text-overflow: ellipsis !important;
+	-webkit-line-clamp: 2;
+  	-webkit-box-orient: vertical;
 }
 
 #about-uxph-section {

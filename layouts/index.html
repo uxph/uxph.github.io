@@ -40,7 +40,7 @@
 					<img src="assets/logo/uxph_logo.svg" class="width-192 padding-y-48" id="header-logo" />
 				</a>
 				<h1 class="text-center margin-bottom-8 font-size-32">UX Philippines</h1>
-				<p class="text-center subheading width-640 mx-auto">
+				<p class="text-center subheading width-768 mx-auto">
 					Welcome to the Philippines' largest community of individuals passionate about the realm of UX (User Experience), and all things related.
 					<br/><br/>
 				</p>
@@ -66,15 +66,15 @@
 							<div>
 								{{ if ne .status "done" }}
 									<a href="{{ .ticket_url }}" target="_blank">
-										<button class="padding-x-24 padding-y-12 margin-right-8">Get Tickets</button>
+										<button class="padding-x-24 padding-y-12 margin-right-8">Get tickets</button>
 									</a>
 								{{ else }}
 									<a href="{{ .blog_url }}">
-										<button class="padding-x-24 padding-y-12 margin-right-8">See Event Recap</button>
+										<button class="padding-x-24 padding-y-12 margin-right-8">See event recap</button>
 									</a>
 								{{ end }}
 								{{ if ne .become_speaker_url "#" }}
-									<button class="unselected padding-x-24 padding-y-12">Become A Speaker</button>
+									<button class="unselected padding-x-24 padding-y-12">Become a speaker</button>
 								{{ end }}
 							</div>
 						</div>
@@ -88,7 +88,7 @@
 					{{ end }}
 					<div class="d-flex about-buttons">
 						<a href="/about">
-							<button class="margin-right-4">Learn More</button>
+							<button class="margin-right-4">Learn more</button>
 						</a>
 					</div>
 				</div>
@@ -111,7 +111,7 @@
 							{{ end }}
 						</ul>
 						<a href="/volunteers">
-							<button class="margin-top-32">See Volunteer Opportunities</button>
+							<button class="margin-top-32">See volunteer opportunities</button>
 						</a>
 					</div>
 				</div>
@@ -135,7 +135,7 @@
 							{{ end }}
 						</div>
 						<a href="/sponsorships">
-							<button>Learn More</button>
+							<button>Learn more</button>
 						</a>
 					</div>
 				</div>
