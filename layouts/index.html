@@ -41,7 +41,7 @@
 				</a>
 				<h1 class="text-center margin-bottom-8 font-size-32">UX Philippines</h1>
 				<p class="text-center subheading width-640 mx-auto">
-					Welcome to the Philippines' largest community of individuals passionate about the realm of User Experience, and all things related.
+					Welcome to the Philippines' largest community of individuals passionate about the realm of UX (User Experience), and all things related.
 					<br/><br/>
 				</p>
 			</div>
@@ -66,15 +66,15 @@
 							<div>
 								{{ if ne .status "done" }}
 									<a href="{{ .ticket_url }}" target="_blank">
-										<button class="padding-x-24 padding-y-12 margin-right-8">Get tickets</button>
+										<button class="padding-x-24 padding-y-12 margin-right-8">Get Tickets</button>
 									</a>
 								{{ else }}
 									<a href="{{ .blog_url }}">
-										<button class="padding-x-24 padding-y-12 margin-right-8">See event recap</button>
+										<button class="padding-x-24 padding-y-12 margin-right-8">See Event Recap</button>
 									</a>
 								{{ end }}
 								{{ if ne .become_speaker_url "#" }}
-									<button class="unselected padding-x-24 padding-y-12">Become a speaker</button>
+									<button class="unselected padding-x-24 padding-y-12">Become A Speaker</button>
 								{{ end }}
 							</div>
 						</div>
@@ -88,7 +88,7 @@
 					{{ end }}
 					<div class="d-flex about-buttons">
 						<a href="/about">
-							<button class="margin-right-4">Learn more</button>
+							<button class="margin-right-4">Learn More</button>
 						</a>
 					</div>
 				</div>
@@ -111,7 +111,7 @@
 							{{ end }}
 						</ul>
 						<a href="/volunteers">
-							<button class="margin-top-32">See volunteer opportunities</button>
+							<button class="margin-top-32">See Volunteer Opportunities</button>
 						</a>
 					</div>
 				</div>
@@ -135,7 +135,7 @@
 							{{ end }}
 						</div>
 						<a href="/sponsorships">
-							<button>Learn more</button>
+							<button>Learn More</button>
 						</a>
 					</div>
 				</div>
@@ -155,7 +155,7 @@
 								<p class="text-secondary"> {{ .date }} </p>
 							</div>
 							<a href="{{ .blog_url }}">
-								<button>See event recap</button>
+								<button>See Event Recap</button>
 							</a>
 						{{ end }}
 					</div>
@@ -168,7 +168,7 @@
 									<p class="text-secondary">{{ .date }}</p>
 								</div>
 								<a href="{{ .blog_url }}">
-									<button class="font-size-8 outline padding-y-8 padding-x-8 no-shadow">Read more</button>
+									<button class="font-size-8 outline padding-y-8 padding-x-8 no-shadow">Read More</button>
 								</a>
 							</div>
 						{{ end }}

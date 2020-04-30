@@ -1,7 +1,7 @@
 {
 	"a": {
 		"Q": "What are UXPH events like?",
-		"A": ["UXPH organizes free monthly meetups all around Metro Manila (and soon outside of it). Meetups range from talks, panels, workshops, or social events focused on design, research, entrepreneurship, and project management. These events are hosted at various sponsor venues or held remotely online."],
+		"A": ["UXPH organizes free monthly meetups all around Metro Manila (and soon outside of it). Meetups range from talks, panels, workshops, or social events focused on design, research, entrepreneurship, and project management. These events are hosted at various sponsor venues or held remotely online.", "Our events are casual and open to everyone anyone interested in learning. Come out and meet the community!"],
 		"topic": "Events & Certificates"
 	},
 
@@ -111,5 +111,11 @@
 		"Q": "I'd like to report an incident.",
 		"A": ["If you were part of or witnessed an incident at a UXPH event or online community that was in violation of our <a href=\"/code-of-conduct\" class=\"blue link\">Code of Conduct</a> or your own private space, please let our team members know as soon as possible so we may try and address the matter. Please fill out this form to report an incident."],
 		"topic": "Reporting an incident"
+	},
+
+	"t": {
+		"Q": "Do you have a Code of Conduct?",
+		"A": ["Please view our community Code of Conduct <a href=\"/code-of-conduct\" class=\"blue link\">here</a>. We follow and enforce this throughout all our events and community initiatives."],
+		"topic": "Code of Conduct"
 	}
 }
