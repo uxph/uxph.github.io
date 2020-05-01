@@ -244,6 +244,7 @@ div#back-to-top i {
 .visuals {
 	position: absolute;
 	display: block;
+	width: 15vw !important;
 }
 
 .hidden,
