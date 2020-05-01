@@ -12,6 +12,8 @@
 #modal-container {
     position: relative;
     z-index: 800;
+    max-height: var(--value-640);
+    overflow-y: scroll;
 }
 
 #modal-container .featured-image {

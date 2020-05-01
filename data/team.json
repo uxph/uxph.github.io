@@ -74,6 +74,18 @@
 			"description": [
 				"Fish Ibasco is a self-taught designer who gradually became one of the Experience Design Leads at Accenture Philippines. Throughout her 6 year journey in design, she has helped shape and build the UX practice in organizations. Now focusing on operations, she is passionate about finding ways to serve and empower designers in their careers."
 			]
+		},
+
+		"chelle_obligacion": {
+			"name": "Chelle Obligacion-Gray",
+			"role": "Advisor",
+			"image_url": "assets/team/chelle.jpg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/chelleogray/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": [
+				"Chelle Obligacion-Gray leads the Business Development, Product Development and Customer Experience of BLISS Insurance Digital Platform for Computer Professionals Inc. She also leads the AWS Partner Alliance for the organization helping companies with their Cloud Journey. Prior to joining CPI she was the Director of Growth at Thinking Machines Data Science (the leading Data Science and Machine Learning firm in the country).", "She also lead Globe Telecom's Corporate Social Responsibility team with high-impact projects and initiatives on environment, education, volunteering and sustainability campaigns. She also worked in Google for 5 years managing developer communities and start-up ecosystems across Asia Pacific where she grew and nurtured the communities from 11 to over 50 chapters.", "Chelle is a diversity and women empowerment advocate so she finds time to work and mentor girls and women. She loves tech, innovation, product dev, social good and data."
+			]
 		}
 	},
 
