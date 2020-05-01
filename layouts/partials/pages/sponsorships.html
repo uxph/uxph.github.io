@@ -41,8 +41,8 @@
 		<div id="community-partners-feed">
 			{{ range sort .Site.Data.sponsors.community_partners ".id" "asc" }}
 				<div class="padding-x-16 community-items">
-					<div class="community-img">
-						<img src="../{{ .image_url }}" alt="{{ .name }}" class="featured-image shadow-sm rounded-circle margin-bottom-16" />
+					<div class="community-img text-center">
+						<img src="../{{ .image_url }}" alt="{{ .name }}" class="featured-image-2 shadow-sm rounded-circle margin-bottom-16" />
 					</div>
 					<a href="{{.link}}" target="blank"><p class="text-center"><strong>{{ .name }}</strong></p></a>
 				</div>
@@ -69,17 +69,17 @@
 		min-height: 120px;
 		vertical-align: top;
 	}
-	.community-items img{
-		margin-top: 48px !important;
-		margin-left: 72px !important;
-
-	}
 	.community-items a:hover{
 		text-decoration: underline;
 	}
 	.community-img{
-		margin-top: 36px;
-
+		margin-top: 72px;
+		display: block;
+		text-align: center;
+	}
+	
+	.featured-image-2 {
+		width: var(--value-96);
 	}
 </style>
 
