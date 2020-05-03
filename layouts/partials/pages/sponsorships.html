@@ -35,6 +35,91 @@
 	</div>
 </section>
 
+<section class="padding-y-48">
+	<div class="wrapper">
+		<h1 class="text-body font-size-32 margin-top-96">Sponsorship Perks</h1>
+		<div id="sponsorship-perks">
+			<!-- First row  -->
+			<div class="d-flex flex-wrap flex-row bd-highlight mb-3 padding-top-32">
+				<div class="p-2 bd-highlight perk-wrapper w-50">
+					<div class = "d-flex flex-row bd-highlight mb-3">
+						<!-- Circle -->
+						<div class="bg-blue rounded-circle p-2 bd-highlight"
+						style="min-width:35px; height:35px; vertical-align: middle;">
+							<i class="{{.Site.Data.sponsorships.perks.perk1.icon}} text-white margin-left-4"></i>
+						</div>
+
+						<!-- Content -->
+						<div class="margin-left-16 p-2 bd-highlight perk-content">
+							<h3 class = "text-body">{{.Site.Data.sponsorships.perks.perk1.name}}</h3>
+							<br>
+							<p>{{.Site.Data.sponsorships.perks.perk1.description}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="p-2 bd-highlight margin-left-32 perk-wrapper w-50">
+					<div class="d-flex flex-row bd-highlight mb-3">
+
+						<!-- Circle -->
+						<div class = "bg-blue rounded-circle p-2 bd-highlight"
+						style="min-width:35px; height:35px; vertical-align: middle;">
+							<i class="{{.Site.Data.sponsorships.perks.perk2.icon}} text-white"></i>
+						</div>
+
+						<!-- Content -->
+						<div class="margin-left-16 p-2 bd-highlight perk-content">
+							<h3 class="text-body">{{.Site.Data.sponsorships.perks.perk2.name}}</h3>
+							<br>
+							<p>
+								{{.Site.Data.sponsorships.perks.perk2.description}}
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="p-2 bd-highlight perk-wrapper w-50">
+					<div class="d-flex flex-row bd-highlight mb-3">
+
+						<!-- Circle -->
+						<div class="bg-blue rounded-circle p-2 bd-highlight"
+						style="min-width:35px; height:35px; vertical-align: middle;">
+							<i class="{{.Site.Data.sponsorships.perks.perk3.icon}} text-white"></i>
+						</div>
+
+						<!-- Content -->
+						<div class="margin-left-16 p-2 bd-highlight perk-content">
+							<h3 class="text-body">{{.Site.Data.sponsorships.perks.perk3.name}}</h3>
+							<br>
+							<p>
+								{{.Site.Data.sponsorships.perks.perk3.description}}
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="p-2 bd-highlight margin-left-32 perk-wrapper w-50">
+					<div class="d-flex flex-row bd-highlight mb-3">
+
+						<!-- Circle -->
+						<div class = "bg-blue rounded-circle p-2 bd-highlight"
+						style="min-width:35px; height:35px; vertical-align: middle;">
+							<i class="{{.Site.Data.sponsorships.perks.perk4.icon}} text-white margin-left-4"></i>
+						</div>
+
+						<!-- Content -->
+						<div class="margin-left-16 p-2 bd-highlight perk-content">
+							<h3 class="text-body">{{.Site.Data.sponsorships.perks.perk4.name}}</h3>
+							<br>
+							<p>
+								{{.Site.Data.sponsorships.perks.perk4.description}}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
 <section class="padding-y-48 padding-bottom-128" id="sponsors-section">
 	<div class="wrapper">
 		<h1 class="margin-bottom-32 text-center">Our Community Partners</h1>
@@ -81,6 +166,36 @@
 	.featured-image-2 {
 		width: var(--value-96);
 	}
+	#role-responsibilties li,
+	#role-requirements li,
+	#what-you-learn li {
+		line-height: 25px;
+	}
+
+	#position {
+		height:78px;
+		/*margin-top: -18rem;*/
+		border: none;
+		cursor: pointer;
+		text-indent: 1rem;
+		outline: none;
+		font-family: 'Roboto', sans-serif;
+		appearance: none;
+	}
+
+	.rounded-circle {
+		color: #ddd;
+		text-align: center;
+	}
+	.rounded-circle i {
+		line-height: 34px;
+		font-size: 24px !important;
+	}
+
+	#sponsorship-perks > div > div {
+		flex: 1 0 33%;
+	}
+
 </style>
 
 <link rel="stylesheet" type="text/css" href="../css/sponsorships.css" />

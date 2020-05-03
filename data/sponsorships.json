@@ -18,5 +18,27 @@
 			"image_url": "../assets/images/host-uxph-banner2.jpg",
 			"url": "<url>"
 		}
-	}
-}
+	},
+	
+	"perks": {
+		"perk1": {
+			"name": "Expand your network and reach",
+			"description": "UXPH boasts a wide reach of professional creatives, students, and companies throughout the Philippines from our events and online community.",
+			"icon": "fas fa-code-branch"
+		},
+		"perk2": {
+			"name": "Engage the creative community",
+			"description": "We connect you with professional designers, students, speakers, workshop facilitators, and other communities throughout the Philippines. Help us give back and establish more thought leadership within the industry.",
+			"icon": "fas fa-street-view"
+		},
+		"perk3": {
+			"name": "Showcase your brand",
+			"description": "Showcase what your brand is all about from your products or services to your advocacies and company culture. Help us push for a better, more design-driven Philippines!",
+			"icon": "fas fa-signature"
+		},
+		"perk4": {
+			"name": "Hire for your team",
+			"description": "The UXPH community is the perfect place to look when it comes to hiring creative professionals for your team from students to seasoned professionals and consultants.",
+			"icon": "fas fa-user-edit"
+		}
+	}}
