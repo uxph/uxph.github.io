@@ -70,6 +70,14 @@
 			"image_url": "assets/sponsor_logos/pwdo.png",
 			"id": 9,
 			"link": "https://pwdo.org/"
+		},
+
+		"edukasyon": {
+			"name": "Edukasyon.ph",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/edukasyon.png",
+			"id": 10,
+			"link": "https://portal.edukasyon.ph"
 		}
 	}
 }

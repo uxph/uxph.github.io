@@ -90,15 +90,15 @@
 	},
 
 	"committee_leads": {
-		"kristine_garcia": {
-			"name": "Kristine Garcia",
+		"kringle_garcia": {
+			"name": "Kringle Garcia",
 			"role": "Volunteers Lead",
 			"image_url": "assets/team/kringle.jpg",
 			"socials": [
 				""
 			],
 			"description": [
-				"Kringle is currently working to improve the B2B experience as a UX Architect at Globe Telecoms. A nerd at heart, she loves playing D&D and RPGs during her downtime, and dreams of studying abroad to further her education."
+				"Kringle is currently working to improve the B2B experience as a UX Architect at Globe Telecom. A nerd at heart, she loves playing D&D and RPGs during her downtime, and dreams of studying abroad to further her education."
 			]
 		},
 
