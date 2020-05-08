@@ -7,7 +7,6 @@ type: "blog"
 active: 2
 publish: "May 7, 2020"
 cover: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fuxphofficial%2Fvideos%2F220984952532986%2F&show_text=0&width=560"
-
 header: "video"
 ---
 
@@ -22,8 +21,6 @@ header: "video"
     <li>Our biggest learnings so far</li>
     <li>Our work and company processes (tips, tricks)</li>
     <li>and many more!</li>
-
-
 </ul>
 
 
