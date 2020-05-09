@@ -23,6 +23,10 @@ header: "photo"
     <li>and many more!</li>
 </ul>
 
+<p>
+    You can watch our livestream <a href="https://www.facebook.com/uxphofficial/videos/220984952532986/" target="blank" class="link">here</a>.
+</p>
+
 
 <span class="blue">
 	#KamUXtahan #UXPHFireside01
