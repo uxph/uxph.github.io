@@ -109,7 +109,7 @@
 
 	"s": {
 		"Q": "I'd like to report an incident.",
-		"A": ["If you were part of or witnessed an incident at a UXPH event or online community that was in violation of our <a href=\"/code-of-conduct\" class=\"blue link\">Code of Conduct</a> or your own private space, please let our team members know as soon as possible so we may try and address the matter. Please fill out this form to report an incident."],
+		"A": ["If you were part of or witnessed an incident at a UXPH event or online community that was in violation of our <a href=\"/code-of-conduct\" class=\"blue link\">Code of Conduct</a> or your own private space, please let our team members know as soon as possible so we may try and address the matter. Please fill out <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfuM_uB2c9oCPWBacXW4b-gYESB-qHVA9204uhh9hp7_0ESZA/viewform\" class=\"blue link\" target=\"blank\">this form</a> to report an incident."],
 		"topic": "Reporting an incident"
 	},
 
