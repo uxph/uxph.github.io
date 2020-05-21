@@ -1,5 +1,24 @@
 {
 	"current": {
+		"triple-treat": {
+			"name": "Triple Treat",
+			"date": "May 28, 2020",
+			"time": "7PM - 10PM",
+			"venue": "Livestream via Zoom and Facebook Live",
+			"description": "Beat the heat 🔥 with our Triple Treat online meetup! We've got an international lineup of speakers from BestBuy, Aleph-Labs, and AXA PH",
+			"image_square_url": "https://lh3.googleusercontent.com/pw/ACtC-3dmgYImISJVHYjfNm7AEqxL5K5kXre4hVNTeNvZ4es4CNMzqSrO0FF3bjtHV07E1EmlmwzEddlMKN_7Hsl3lwB5sgDRiG0UOaHI6snf_83QGmKaKwL_04p6iw-Fz9vXhUXGyLQwVPR_pPdzEUyoyPo=s920-no?authuser=1",
+			"image_banner_url": "https://lh3.googleusercontent.com/pw/ACtC-3cPzxT0p-DfnV9Ou2eZhdOiOmhZN-pizgknBIaf0C5pT3tUREQcr7ID39Zy3CtGxRUW8PKLtsiUAdUM-T6lUhQAmREn7cvISBP9SejzDQZceR7J7iHwmbYTO5d5GEoGSyZONtIUH9HtRRgnNN_kVbc=w1768-h920-no?authuser=1",
+			"ticket_url": "https://uxphtripletreat.eventbrite.com/",
+			"become_speaker_url": "#",
+			"blog_url": "#",
+			"livestream_url": "#",
+			"status": "done",
+			"event_id": 7,
+			"tag": "Virtual Meetups; Meetups; Audio UX; Project Management; Conversational Design"
+		}
+	},
+
+	"past": {
 		"fireside-chat": {
 			"name": "Fireside Chat",
 			"date": "May 7, 2020",
@@ -15,10 +34,7 @@
 			"status": "done",
 			"event_id": 6,
 			"tag": "Virtual Meetups; Meetups"
-		}
-	},
-
-	"past": {
+		},
 		"remoteffc01": {
 			"name": "RemoteFFC #01: Enhanced Work From Home",
 			"date": "April 3, 2020",
