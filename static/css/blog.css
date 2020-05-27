@@ -43,3 +43,75 @@
 #blog-content h3 {
 	margin-top: var(--value-24);
 }
+
+table thead th {
+	font-weight: 500;
+	text-align: left !important;
+}
+
+table th, table td {
+	border-bottom: thin solid #eee;
+	padding: var(--value-16) var(--value-16);
+	margin: 0 !important;
+}
+
+table thead th.url {
+	width: var(--value-256) !important;
+	max-width: var(--value-256) !important;
+	background-color: black !important;
+}
+
+table a {
+	word-wrap: break-word;
+	width: var(--value-384);
+}
+
+table#fireside-table td span.description {
+	width: 17rem;
+	line-height: var(--value-24);
+	font-size: var(--value-16)
+}
+
+table .chip {
+	padding: var(--value-8) var(--value-16);
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: var(--value-8);
+	border-radius: 200px;
+	background-color: #eee;
+	font-size: 0.625rem;
+	color: #000000;
+}
+
+table .chip.blue {
+	background-color: #F0F8FF;
+}
+
+table .chip.gray {
+	background-color: #F5F5F5;
+}
+
+table .chip.yellow {
+	background-color: #FFFAF0;
+}
+
+table .chip.pink {
+	background-color: #FFE4E1;
+}
+
+table .chip.peach {
+	background-color: #FAF0E6;
+}
+
+table .chip.brown {
+	background-color: #FAEBD7;
+}
+
+table .chip.green {
+	background-color: #F0FFF0;
+}
+
+table .chip.purple {
+	background-color: #E6E6FA;
+}
