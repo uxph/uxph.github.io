@@ -86,7 +86,20 @@
 			"description": [
 				"Chelle Obligacion-Gray leads the Business Development, Product Development and Customer Experience of BLISS Insurance Digital Platform for Computer Professionals Inc. She also leads the AWS Partner Alliance for the organization helping companies with their Cloud Journey. Prior to joining CPI she was the Director of Growth at Thinking Machines Data Science (the leading Data Science and Machine Learning firm in the country).", "She also lead Globe Telecom's Corporate Social Responsibility team with high-impact projects and initiatives on environment, education, volunteering and sustainability campaigns. She also worked in Google for 5 years managing developer communities and start-up ecosystems across Asia Pacific where she grew and nurtured the communities from 11 to over 50 chapters.", "Chelle is a diversity and women empowerment advocate so she finds time to work and mentor girls and women. She loves tech, innovation, product dev, social good and data."
 			]
+		},
+
+		"jen_teves": {
+			"name": "Jen Teves, PHD",
+			"role": "Advisor",
+			"image_url": "assets/team/jen.jpg",
+			"socials":[
+				"<a href=\"https://www.linkedin.com/in/jenniferteves/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": [
+				"Jen is currently the Director for CX Research at Best Buy after her stints at other Fortune 100 companies in the US as a UX Researcher & Human Factors Scientist. She loves being in the company of learners that's why she also teaches graduate classes in UX Design at Kent State University's School of Information. Jen's not-so-secret passion is exploring the applications of design and psychology in nation-building, social programs, and counter-insurgency strategy."
+			]
 		}
+
 	},
 
 	"committee_leads": {
