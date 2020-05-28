@@ -1,5 +1,31 @@
 /* responsive stylesheet */
 
+@media only screen and (max-width: 1112px) {
+	/* nav.html */
+	#main-nav {
+		height: 4.25rem !important;
+		display: flex !important;
+		align-items: center;
+	}
+
+	#main-nav > div.wrapper {
+		justify-content: flex-start !important;
+	}
+
+	#main-nav ul {
+		display: none !important;
+	}
+
+	#menu-bar {
+		display: block;
+		margin-right: var(--value-16) !important;
+	}
+
+	#mobile-nav {
+		display: block !important;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 
 	/* elements */
