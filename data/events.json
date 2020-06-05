@@ -1,5 +1,24 @@
 {
 	"current": {
+		"24-hours-of-ux": {
+			"name": "24 Hours of UX",
+			"date": "June 10, 2020 - June 11, 2020",
+			"time": "Starts at 1pm PHT",
+			"venue": "Livestream via Hopin",
+			"description": "We're partnering with \"24 Hours of UX\" for a unique event that's (you guessed it!) 24 FULL HOURS OF LIVE UX CONTENT 🕒 with speakers from 20 countries. Representing the Philippines is UXPH's very own Richard Parayno whose unique topic will be: \"Conversational Assistants in times of COVID\". Richard is leading Conversational Design in Senti AI, a local startup focusing on Social & Conversational AI technologies.",
+			"image_square_url": "https://lh3.googleusercontent.com/pw/ACtC-3f0ieqT7_cQ93KIRWfEUkPPVYQq1h7fOF7nuNdW-Fz2c3tfKzJtoyPbqgiI5qwuo_NcY9AA1TumQx6xeh2rU3TeJYaZTceRp-x7K0DQBsDeG-qi7i_xXaPxXRzmMKFcInAawfj4VEImJjzgcxDVSgw=s920-no?authuser=1",
+			"image_banner_url": "https://lh3.googleusercontent.com/pw/ACtC-3fWyLIu3WWc0beeB863FRE9IvMxqCIOScDI4XASY1mSOXLfuUzxyFkW_OwAINFwokUgStrM2A9SPTFmqdzB8odeP9P4EJ8kHKo37JS0udssAWIUtCwXGwWV7yMUHcUqbubMNgy2wlD-Miy7xj0Bkm8=w1200-h628-no?authuser=1",
+			"ticket_url": "https://24hoursofuxmanila.eventbrite.com",
+			"become_speaker_url": "#",
+			"blog_url": "#",
+			"livestream_url": "#",
+			"status": "done",
+			"event_id": 8,
+			"tag": "Virtual Meetups; Meetups; Conversational Assistants"
+		}
+	},
+
+	"past": {
 		"triple-treat": {
 			"name": "Triple Treat",
 			"date": "May 28, 2020",
@@ -15,10 +34,7 @@
 			"status": "done",
 			"event_id": 7,
 			"tag": "Virtual Meetups; Meetups; Audio UX; Project Management; Conversational Design"
-		}
-	},
-
-	"past": {
+		},
 		"fireside-chat": {
 			"name": "Fireside Chat",
 			"date": "May 7, 2020",
