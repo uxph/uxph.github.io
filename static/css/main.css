@@ -122,7 +122,7 @@ p b, p strong {
 	font-weight: 500;
 }
 
-button {
+button, .button {
 	cursor: pointer;
 	outline: none;
 	border-radius: var(--value-4);
@@ -141,34 +141,38 @@ button {
 	transform: translate(0px, 0px);
 }
 
-button.no-shadow {
+.button {
+	display: inline-block;
+}
+
+button.no-shadow, .button.no-shadow {
 	box-shadow: 0px 0px 0px transparent;
 }
 
-button:hover {
+button:hover, .button:hover {
 	background-color: var(--main-blue-dark);
 	border-color: var(--main-blue-dark);
 	box-shadow: 0px 0px 0px var(--main-blue-dark);
 	transform: translate(0px, 3px);
 }
 
-button.outline {
+button.outline, .button.outline {
 	background-color: transparent;
 	color: var(--main-blue);
 }
 
-button.outline:hover {
+button.outline:hover, .button.outline:hover {
 	color: var(--main-blue-dark);
 	border-color: var(--main-blue-dark);
 }
 
-button.tertiary {
+button.tertiary, .button.tertiary {
 	background-color: transparent;
 	border-color: transparent;
 	color: var(--main-blue);
 }
 
-button.tertiary:hover {
+button.tertiary:hover, .button.tertiary:hover {
 	background-color: var(--main-gray);
 	border-color: var(--main-gray);
 }

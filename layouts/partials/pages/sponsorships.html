@@ -17,7 +17,7 @@
 	<div class="wrapper">
 		<div class="d-flex justify-content-between">
 			<div class="mr-3 w-50 margin-bottom-32 sponsorship-item">
-				<img src="{{ .Site.Data.sponsorships.sponsorships.sponsorship.image_url }}" class="d-block w-100 border-radius-12" />
+				<img src="{{ .Site.Data.sponsorships.sponsorships.sponsorship.image_url }}" class="d-block w-100 border-radius-12" alt="{{ .Site.Data.sponsorships.sponsorships.sponsorship.name }}" />
 				<h2 class="margin-top-32">{{ .Site.Data.sponsorships.sponsorships.sponsorship.name }}</h2>
 				<p class="margin-top-16">
 					{{ .Site.Data.sponsorships.sponsorships.sponsorship.description }}
@@ -25,7 +25,7 @@
 				</p>
 			</div>
 			<div class="ml-3 w-50 margin-bottom-32 sponsorship-item">
-				<img src="{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.image_url }}" class="d-block w-100 border-radius-12" />
+				<img src="{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.image_url }}" class="d-block w-100 border-radius-12" alt="{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.name }}" />
 				<h2 class="margin-top-32">{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.name }}</h2>
 				<p class="margin-top-16">
 					{{ .Site.Data.sponsorships.sponsorships.host_uxph_event.description }}
@@ -37,7 +37,7 @@
 
 <section class="padding-y-96 bg-light">
 	<div class="wrapper">
-		<h1 class="text-body font-size-32">Sponsorship Perks</h1>
+		<h2 class="text-body font-size-32">Sponsorship Perks</h2>
 		<div id="sponsorship-perks">
 			<!-- First row  -->
 			<div class="d-flex flex-wrap flex-row bd-highlight mb-3 padding-top-32">
@@ -51,7 +51,7 @@
 
 						<!-- Content -->
 						<div class="margin-left-16 p-2 bd-highlight perk-content">
-							<h3 class = "text-body">{{.Site.Data.sponsorships.perks.perk1.name}}</h3>
+							<h3 class="text-body">{{.Site.Data.sponsorships.perks.perk1.name}}</h3>
 							<br>
 							<p>{{.Site.Data.sponsorships.perks.perk1.description}}</p>
 						</div>
@@ -122,12 +122,12 @@
 
 <section class="padding-y-96 padding-bottom-128" id="sponsors-section">
 	<div class="wrapper">
-		<h1 class="margin-bottom-32 text-center">Our Community Partners</h1>
+		<h2 class="margin-bottom-32 text-center font-size-32">Our Community Partners</h2>
 		<div id="community-partners-feed">
 			{{ range sort .Site.Data.sponsors.community_partners ".id" "asc" }}
 				<div class="padding-x-16 community-items">
 					<div class="community-img text-center">
-						<img src="../{{ .image_url }}" alt="{{ .name }}" class="featured-image-2 shadow-sm rounded-circle margin-bottom-16" />
+						<img src="../{{ .image_url }}" alt="{{ .name }}" class="featured-image-2 shadow-sm rounded-circle margin-bottom-16" alt="{{ .name }}" />
 					</div>
 					<a href="{{.link}}" target="blank"><p class="text-center"><strong>{{ .name }}</strong></p></a>
 				</div>

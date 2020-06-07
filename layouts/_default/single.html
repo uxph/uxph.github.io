@@ -6,6 +6,16 @@
 			{{ partial "components/meta" (dict "path" "../") }}
 		</head>
 		<body>
+			<!-- Your customer chat code -->
+			<div class="fb-customerchat"
+			attribution=setup_tool
+			page_id="314394185432326"
+			theme_color="#15B0DE">
+			</div>
+			{{ partial "components/nav" (dict "path" "../") }}
+			{{ partial .Params.page . }}
+			{{ partial "components/footer" (dict "path" "../")  }}
+
 			<!-- Load Facebook SDK for JavaScript -->
       		<div id="fb-root"></div>
 			<script>
@@ -24,16 +34,7 @@
 				fjs.parentNode.insertBefore(js, fjs);
 				}(document, 'script', 'facebook-jssdk'));
 			</script>
-
-			<!-- Your customer chat code -->
-			<div class="fb-customerchat"
-			attribution=setup_tool
-			page_id="314394185432326"
-			theme_color="#15B0DE">
-			</div>
-			{{ partial "components/nav" (dict "path" "../") }}
-			{{ partial .Params.page . }}
-			{{ partial "components/footer" (dict "path" "../")  }}
+			
 			<script type="text/javascript">setActive({{ .Params.active }})</script>
 		</body>
 	</html>
@@ -72,7 +73,7 @@
 			page_id="314394185432326"
 			theme_color="#15B0DE">
 			</div>
-			
+
 			{{ partial "components/nav" (dict "path" "../../") }}
 
 			{{ if eq .Params.header "video" }}

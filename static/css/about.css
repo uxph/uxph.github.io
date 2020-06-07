@@ -18,13 +18,13 @@
 	top: 35%;
 }
 
-.fb-buttons button {
+.fb-buttons .button {
 	border-color: white;
 	background: white;
 	color: var(--main-blue);
 }
 
-.fb-buttons button:hover {
+.fb-buttons .button:hover {
 	border-color: #eee;
 	background: #eee;
 }
