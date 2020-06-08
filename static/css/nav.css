@@ -40,7 +40,7 @@
 	background-color: #f8f8f8;
 }
 
-#main-nav ul > a > li:hover {
+#main-nav ul > li:hover span {
 	color: var(--main-blue);
 }
 
