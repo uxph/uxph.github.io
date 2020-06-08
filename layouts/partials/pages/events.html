@@ -63,16 +63,22 @@
 
 <img src="../assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" />
 
-<section class="padding-top-64 padding-bottom-32 events-feed-section hidden">
+<section class="padding-top-64 padding-bottom-64 events-feed-section hidden">
 	<div class="wrapper">
-		<div class="position-relative">
+		<!-- <div class="position-relative">
 			<div class="white-shadow"></div>
 			<div class="w-100" id="event-select">
 				<small class="active text-secondary event-category" data-id="">All Events</small>
 				<small class="text-secondary event-category" data-id="meetups">Meetups</small>
-				<!-- <small class="text-secondary event-category" data-id="virual-meetups">Virtual Meetups</small> -->
 				<small class="text-secondary event-category" data-id="conferences">Conferences</small>
 			</div>
+		</div> -->
+
+		{{ $pages := add (math.Ceil (div (len .Site.Data.events.past) 5)) 1 }}
+		<div class="d-none" id="pages" data-id="{{ $pages }}"></div>
+		<div class="d-flex justify-content-between align-items-center">
+			<h2 class="font-size-32">Past Events</h2>
+			<div class="pagination"></div>
 		</div>
 		<br/><br/>
 		{{ range sort .Site.Data.events.past ".event_id" "desc" }}
@@ -112,6 +118,8 @@
 				</div>
 			</div>
 		{{ end }}
+
+		<div class="pagination d-flex justify-content-end"></div>
 	</div>
 </section>
 <link rel="stylesheet" type="text/css" href="../css/events.css" />

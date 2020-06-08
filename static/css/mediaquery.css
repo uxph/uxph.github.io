@@ -276,6 +276,11 @@
 		justify-content: center !important;
 	}
 
+	.pagination {
+		margin: auto !important;
+		margin-top: var(--value-32) !important;
+	}
+
 
 	/* coc.html */
 	#references li {

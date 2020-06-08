@@ -2,6 +2,7 @@
 
 ## Version 1.2.1
  - Fix for accessibility issues
+ - Implementation of pagination in events page
 
 ## Version 1.1.2
  - Fix for the navigation mobile usability issues
