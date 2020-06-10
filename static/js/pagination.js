@@ -10,7 +10,6 @@ const page_assignments = () => {
         }
 
         $(event_items[i]).addClass(`page-${page_mark}`);
-        console.log(event_items[i]);
     }
 }
 
@@ -26,7 +25,7 @@ $(document).ready(function() {
     page_assignments();
     preview_items(current_page);
 
-    $('.pagination').append(`<p class="d-inline-block font-size-16 font-weight-bold margin-right-12 current-page" data-id="${current_page}">Current page: ${current_page}</p>`);
+    $('.pagination').append(`<p class="d-inline-block font-size-16 font-weight-bold margin-right-12 current-page" data-id="${current_page}">Page ${current_page} of ${parseInt($('#pages').attr('data-id'))}</p>`);
     $('.pagination').append(`<button name="previous" class="margin-right-4 previous-page" disabled><i class="fas fa-arrow-left"></i></button>`);
     $('.pagination').append(`<button name="next" class="next-page"><i class="fas fa-arrow-right"></i></button>`);
 
@@ -35,7 +34,7 @@ $(document).ready(function() {
         if(current_page > 1) {
             current_page -= 1;
             $('.current-page').attr('data-id', current_page);
-            $('.current-page').text(`Current page: ${current_page}`);
+            $('.current-page').text(`Page ${current_page} of ${parseInt($('#pages').attr('data-id'))}`);
 
             $('.next-page').removeAttr('disabled');
             current_page == 1 ? $('.previous-page').attr('disabled', 'true') : '';
@@ -49,7 +48,7 @@ $(document).ready(function() {
         if(current_page < parseInt($('#pages').attr('data-id'))) {
             current_page += 1;
             $('.current-page').attr('data-id', current_page);
-            $('.current-page').text(`Current page: ${current_page}`);
+            $('.current-page').text(`Page ${current_page} of ${parseInt($('#pages').attr('data-id'))}`);
 
             $('.previous-page').removeAttr('disabled');
             current_page == parseInt($('#pages').attr('data-id')) ? $('.next-page').attr('disabled', 'true') : '';
