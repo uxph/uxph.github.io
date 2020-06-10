@@ -5,12 +5,14 @@
 			"role": "Managing Director",
 			"image_url": "assets/team/aldrich.png",
 			"socials": [
-				"<a href=\"https://www.linkedin.com/in/aldricht/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+				"<a href=\"https://www.linkedin.com/in/aldricht/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+				"<a href=\"https://www.twitter.com/aldricht/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+				
 			],
 			"description": [
 				"Aldrich is an Sr. Experience Architect who has worked with multiple companies and industries in the US, Canada, and Philippines.",
 				"He is a passionate advocate for mentoring designers and building stronger design cultures with companies and organizations through consultancy and UXPH.",
-				"He enjoys PC gaming, Korean BBQ, steaks, giant salads, and puns."
+				"He enjoys PC gaming, Korean BBQ, steaks, giant salads, and puns (or a \"punnoseur\")."
 			]
 		},
 
@@ -19,7 +21,8 @@
 			"role": "Advisor",
 			"image_url": "assets/team/jordan.jpeg",
 			"socials": [
-				"<a href=\"https://www.linkedin.com/in/jrdndj/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+				"<a href=\"https://www.linkedin.com/in/jrdndj/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+				"<a href=\"https://www.twitter.com/jrdndj/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
 			],
 			"description": [
 				"Jordan became involved in UXPH when he was a speaker in the 2017 Conference. He moved behind the scenes as Volunteer Lead in the 2018 Conference and became the Over-all Lead with Aldrich Tan in 2019.",
@@ -32,7 +35,8 @@
 			"role": "Advisor",
 			"image_url": "assets/team/ely.jpg",
 			"socials": [
-				"<a href=\"https://www.linkedin.com/in/jozzua/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+				"<a href=\"https://www.linkedin.com/in/jozzua/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+				"<a href=\"https://www.twitter.com/jozzua/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
 			],
 			"description": [
 				"One of the original founders of the UX Philippines community. Currently the customer experience manager for the digital transformation office of one of the Philippine's biggest conglomerates - JG Summit."
@@ -108,7 +112,8 @@
 			"role": "Volunteers Lead",
 			"image_url": "assets/team/kringle.jpg",
 			"socials": [
-				""
+				"<a href=\"https://www.linkedin.com/in/angelakristinegarcia/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+				
 			],
 			"description": [
 				"Kringle is currently working to improve the B2B experience as a UX Architect at Globe Telecom. A nerd at heart, she loves playing D&D and RPGs during her downtime, and dreams of studying abroad to further her education."
@@ -132,7 +137,9 @@
 			"role": "Marketing Lead",
 			"image_url": "assets/team/chi.jpg",
 			"socials": [
-				"<a href=\"https://www.linkedin.com/in/chisenires/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+				"<a href=\"https://www.linkedin.com/in/chisenires/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+				"<a href=\"https://www.twitter.com/ChiSenires/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+				
 			],
 			"description": [
 				"Chi is a UX Designer, Front-End Web Developer, and a Product Manager.",
@@ -148,7 +155,9 @@
 			"role": "Web Lead",
 			"image_url": "assets/team/mj.png",
 			"socials": [
-				"<a href=\"https://www.linkedin.com/in/mjarenyap/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+				"<a href=\"https://www.linkedin.com/in/mjarenyap/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+				"<a href=\"https://www.twitter.com/mjarenyap/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+			
 			],
 			"description": [
 				"MJ is a Computer Science graduate who is the Co-Founder and former Chapter Head of User Experience Society-DLSU.",
@@ -162,10 +171,12 @@
 			"role": "Creative Lead",
 			"image_url": "assets/team/reine.jpg",
 			"socials": [
-				"<a href=\"https://www.linkedin.com/in/reine-bantang/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+				"<a href=\"https://www.linkedin.com/in/reine-bantang/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+				"<a href=\"https://www.twitter.com/reinebantang/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+				
 			],
 			"description": [
-				"Reine is a multimedia producer and occasional host who finds joy in theater, cats, and sushi."
+				"Reine is a multimedia producer and occasional host who finds joy in film, theater, cats, and sushi. She is currently working with ABS-CBN Digital, and she is also affiliated with DLSU Radio: Green Giant FM and Juan Gadget."
 			]
 		}
 	},
@@ -173,26 +184,84 @@
 	"coordinators": {
 		"mars_quinay": {
 			"name": "Mars Quinay",
-			"role": "Marketing Coordinator",
-			"image_url": "<url>",
-			"socials": "https://www.linkedin.com/in/mars-quinay-0658a317b/",
-			"description": [""]
-		},
+			"role": "Bootcamps Coordinator",
+			"image_url": "assets/team/mars.jpeg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/mars-quinay-0658a317b/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+				"<a href=\"https://www.twitter.com/kdotMars/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
 
-		"pierce_jonota": {
-			"name": "Pierce Jonota",
-			"role": "Events Coordinator",
-			"image_url": "<url>",
-			"socials": "https://www.linkedin.com/in/piercejonota/",
-			"description": [""]
+			],
+			"description": ["Mars is a UX/UI designer and Graphic Designer. She’s also a Associate Creative Trainer at Creative Nation Academy and Community Volunteer at UXPH.",
+				"She maximizes her free time by learning. She loves reading and watching documentaries. She enjoys traveling with her peers to learn more about culture and arts. With all these side hustles, she also values work-life balance.",
+				"She’s online playing PUBG Mobile! Go play with her!"
+			]
 		},
 
 		"richard_parayno": {
 			"name": "Richard Parayno",
 			"role": "Events Coordinator",
-			"image_url": "<url>",
-			"socials": "https://www.linkedin.com/in/richardparayno/",
-			"description": [""]
+			"image_url": "assets/team/richard.PNG",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/richardparayno/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": ["I am a Filipino Conversation Designer and Product Design Consultant currently working as a Product Manager at Senti AI, where I work on AI/ML projects for the Philippines' biggest names in advertising, telecommunications, and real estate.", 
+				"When I’m not working, I help out the local tech community as the Community Lead of PWDO and as an Events Manager at UXPH."
+			]
+		},
+		"claudine_san_diego": {
+			"name": "Claudine San Diego",
+			"role": "Events & Research Coordinator",
+			"image_url": "assets/team/claudine.png",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/claudinesandiego/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": ["Din is a content strategist specializing in content development and management. She is currently learning more about UX research within the organization and helping out in the events team!",
+				"An avid learner, she enjoys ideating alongside teams, presenting concepts through decks, pairing non-fiction + fiction books, and creating mixtapes for special occasions."
+			]
+		},
+		"karllo_mayordomo":{
+			"name": "Karllo Mayordomo",
+			"role": "Marketing Coordinator",
+			"image_url": "assets/team/karllo.jpg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/km2018/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": ["Karllo (yes, with a K and two L's) is a Filipino Digital Marketer currently leading online advertising and loans marketing for TrueMoney, a fintech startup. He has a decade of marketing experience in market-leading companies such as P&G, Unilab, LBC, and Globe Telecom.",
+				"Outside of work, Karllo supports the social media efforts of UXPH, plays PS4, and enjoys going to the gym."
+			]
+		},
+		"gavin_dizon": {
+			"name": "Gavin Raine Dizon",
+			"role": "Web Coordinator",
+			"image_url": "assets/team/gavin.jpeg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/gavin-dizon-40b08b190/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": ["Gavin is an undergraduate student at De La Salle University taking up Computer Science. He joined the community to learn more about UX and surround himself with passion-driven people who want to improve the community. He joined the web team to enhance his skills in web development.",
+				"In his free time, he plays video games with his friends, reads mangas/ comics, and watches his favorite series. "
+			]
+		},
+		"tyrone_stamaria": {
+			"name": "Tyrone Sta. Maria",
+			"role": "Web Coordinator",
+			"image_url": "assets/team/tyrone.jpg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/tyrone-sta-maria-243a69188/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": ["Tyrone is a Computer Science student at De La Salle University. He joined the community to learn more about UX and the tech industry.",
+				"During his free time he reads manga and webtoons, watches anime or plays video games."
+			]
+		},
+		"annika_pascasio": {
+			"name": "Annika Pascasio",
+			"role": "Students Coordinator",
+			"image_url": "assets/team/annika.jpeg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/annikapascasio/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": ["Annika is a student at De La Salle University taking up Business Management and AB Psychology. She is also an aspiring UX Researcher, the current President of User Experience Society DLSU, and a Community Volunteer at UXPH.",
+				"Annika is a student at De La Salle University taking up Business Management and AB Psychology. She is also an aspiring UX Researcher, the current President of User Experience Society DLSU, and a Community Volunteer at UXPH."
+			]
 		}
 	}
 }
