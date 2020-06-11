@@ -262,6 +262,20 @@
 			"description": ["Annika is a student at De La Salle University taking up Business Management and AB Psychology. She is also an aspiring UX Researcher, the current President of User Experience Society DLSU, and a Community Volunteer at UXPH.",
 				"Outside work, Annika enjoys watching tv shows, cooking, reading books, and listening to music."
 			]
+		},
+		"pierce_jonota": {
+			"name": "Pierce Jason Jonota",
+			"role": "Events Coordinator",
+			"image_url": "assets/team/pierce.jpg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/piercejonota/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+				"<a href=\"https://twitter.com/piercetayo\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+
+			],
+			"description": ["Pierce is a Product Manager & Designer currently supporting as a Product Owner for a leading airline in the Philippines - managing delivery streams to improve airline experiences for everyJuan. Apart from the above mentioned, Pierce also works on initiatives on microcopy, accessible services, and clear understanding of a system's Information Architecture.",
+				"Outside work, Pierce spends time outdoors to the mountains, indoors playing video games, and helping communities through PWDO, UXPH, and WIAD. Noodles dishes are Pierce's comfort food and prefers Shio ramen of its different types."
+			]
 		}
+
 	}
 }
