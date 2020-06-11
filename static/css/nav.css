@@ -54,14 +54,18 @@
 }
 
 #main-nav .subnav {
-	display: none;
+	transform: translateY(-400px);
 	border: thin solid #ccc;
 	border-top: none;
 	top: 69px;
 }
 
-#main-nav li:hover > .subnav {
+#main-nav .subnav li {
 	display: block;
+}
+
+#main-nav li:hover > .subnav {
+	transform: translateY(0px);
 	z-index: 0;
 }
 

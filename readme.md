@@ -2,7 +2,9 @@
 
 ### Patch 1.2.1
  - Fixed several accessibility issues
+ - Fixed navigation keyboard inaccessibility
  - Implemented pagination in events page
+ - Added coordinators to "Organizing Members" page
 
 ### Patch 1.1.2
  - Fixed navigation mobile usability issues
