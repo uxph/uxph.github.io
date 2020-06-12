@@ -31,7 +31,7 @@
         </div>
 
         <div class="margin-bottom-96">
-			<h2 class="text-secondary margin-bottom-32 text-center">Coordinators</h2>
+			<h2 class="text-secondary margin-bottom-32 text-center">Core Team</h2>
 			<div class="d-flex flex-wrap justify-content-center team-feed">
 				{{ range .Site.Data.team.coordinators }}
 					<div class="user-card shadow-sm bg-white m-2">
@@ -41,6 +41,7 @@
 							<div>
 								<h2 class="blue m-0 text-center">{{ .name }}</h2>
 								<p class="red m-0 text-center role">{{ .role }}</p>
+								<br class="d-none" />
                                 {{ range .description }}
                                     <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
                                 {{ end }}

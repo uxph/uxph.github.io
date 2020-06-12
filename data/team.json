@@ -31,7 +31,7 @@
 		},
 
 		"ely_apao": {
-			"name": "Elymar Apao",
+			"name": "Ely Apao",
 			"role": "Advisor",
 			"image_url": "assets/team/ely.jpg",
 			"socials": [
@@ -93,7 +93,7 @@
 		},
 
 		"jen_teves": {
-			"name": "Jen Teves, PHD",
+			"name": "Jen Teves, PhD",
 			"role": "Advisor",
 			"image_url": "assets/team/jen.jpg",
 			"socials":[
@@ -151,7 +151,7 @@
 		},
 
 		"mike_jaren_yap": {
-			"name": "Mike Jaren Yap",
+			"name": "MJ Yap",
 			"role": "Web Lead",
 			"image_url": "assets/team/mj.png",
 			"socials": [
@@ -199,7 +199,7 @@
 
 		"richard_parayno": {
 			"name": "Richard Parayno",
-			"role": "Events Coordinator",
+			"role": "Operations Team",
 			"image_url": "assets/team/richard.PNG",
 			"socials": [
 				"<a href=\"https://www.linkedin.com/in/richardparayno/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
@@ -232,7 +232,7 @@
 		},
 		"gavin_dizon": {
 			"name": "Gavin Raine Dizon",
-			"role": "Web Coordinator",
+			"role": "Web Team",
 			"image_url": "assets/team/gavin.jpeg",
 			"socials": [
 				"<a href=\"https://www.linkedin.com/in/gavin-dizon-40b08b190/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
@@ -243,7 +243,7 @@
 		},
 		"tyrone_stamaria": {
 			"name": "Tyrone Sta. Maria",
-			"role": "Web Coordinator",
+			"role": "Web Team",
 			"image_url": "assets/team/tyrone.jpg",
 			"socials": [
 				"<a href=\"https://www.linkedin.com/in/tyrone-sta-maria-243a69188/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
@@ -254,7 +254,7 @@
 		},
 		"annika_pascasio": {
 			"name": "Annika Pascasio",
-			"role": "Students Coordinator",
+			"role": "Student Programs Coordinator",
 			"image_url": "assets/team/annika.jpeg",
 			"socials": [
 				"<a href=\"https://www.linkedin.com/in/annikapascasio/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
@@ -265,7 +265,7 @@
 		},
 		"pierce_jonota": {
 			"name": "Pierce Jason Jonota",
-			"role": "Events Coordinator",
+			"role": "Operations Team",
 			"image_url": "assets/team/pierce.jpg",
 			"socials": [
 				"<a href=\"https://www.linkedin.com/in/piercejonota/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
