@@ -10,7 +10,7 @@
 							<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
 						</a>
 					{{ else }}
-						<a href="{{ .blog_url }}" target="blank">
+						<a href="{{ .blog_url }}">
 							<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
 						</a>
 					{{ end }}
@@ -19,7 +19,7 @@
 						{{ if ne .status "done" }}
 							<a href="{{ .ticket_url }}" target="blank"><h2>{{ .name }}</h2></a>
 						{{ else }}
-							<a href="{{ .blog_url }}" target="blank"><h2>{{ .name }}</h2></a>
+							<a href="{{ .blog_url }}"><h2>{{ .name }}</h2></a>
 						{{ end }}
 
 						<p class="margin-y-8 margin-bottom-24 timestamp text-white">
