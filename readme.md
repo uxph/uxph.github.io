@@ -1,6 +1,6 @@
 # UXPH Patch Notes
 
-### Patch 1.2.1
+### Patch 1.2.0
  - Fixed several accessibility issues
  - Fixed navigation keyboard inaccessibility
  - Implemented pagination in events page
