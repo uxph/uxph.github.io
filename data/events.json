@@ -1,5 +1,25 @@
 {
 	"current": {
+		"screenside-chat": {
+			"name": "Screenside Chat",
+			"date": "June 25, 2020",
+			"time": "7PM - 9PM",
+			"venue": "Livestream via Zoom and Facebook Live",
+			"description": "Come and join our next Screenside Chat session all about UX Management! This will be a casual, open-forum discussion where the UXPH team, design managers, and YOU, the audience, can share your insights, experiences, and questions!",
+			"image_square_url": "https://lh3.googleusercontent.com/pw/ACtC-3fe_lLKqSTx7DaIo2sHsmkB7QQbeEnHxUz6rK_f9QLjtvW3q41SZUcI8YUBZ0qQOYpDpLPOB756lb_Cdz0Z6rDhCccSdzSjdG_1dopODkScDBkwqSJBplwrbsJjqlGmDhYUNQ800-2zjV832FrIXp8=s609-no?authuser=0",
+			"image_banner_url": "https://lh3.googleusercontent.com/pw/ACtC-3fWCv8ibsVpxliNXevCfF1xkA5c0kpcbVmE-bZ4GIcHwjELwPCDFXDwCiMEyCW51mt0lnL57dMxEWotDwJa2YBfaVqhbL7iZizSvDlB5I0wfq_MUL_4eeHzRb0RxsThtYbNJtRXmyMAxfJvS7KM8lQ=w975-h609-no?authuser=0",
+			"ticket_url": "https://screensidechat02.eventbrite.com",
+			"become_speaker_url": "#",
+			"blog_url": "#",
+			"livestream_url": "h#",
+			"status": "upcoming",
+			"event_id": 9,
+			"tag": "Virtual Meetups; Meetups"
+		}
+		
+	},
+
+	"past": {
 		"24-hours-of-ux": {
 			"name": "24 Hours of UX",
 			"date": "June 10, 2020 - June 11, 2020",
@@ -15,10 +35,8 @@
 			"status": "done",
 			"event_id": 8,
 			"tag": "Virtual Meetups; Meetups; Conversational Assistants"
-		}
-	},
-
-	"past": {
+		},
+		
 		"triple-treat": {
 			"name": "Triple Treat",
 			"date": "May 28, 2020",
