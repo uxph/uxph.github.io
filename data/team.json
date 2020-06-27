@@ -178,6 +178,17 @@
 			"description": [
 				"Reine is a multimedia producer and occasional host who finds joy in film, theater, cats, and sushi. She is currently working with ABS-CBN Digital, and she is also affiliated with DLSU Radio: Green Giant FM and Juan Gadget."
 			]
+		},
+		"claudine_san_diego": {
+			"name": "Din San Diego",
+			"role": "Research Lead",
+			"image_url": "assets/team/claudine.png",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/claudinesandiego/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": ["Din is a content strategist specializing in content development and management. She is currently learning more about UX research within the organization and helping out in the events team!",
+				"An avid learner, she enjoys ideating alongside teams, presenting concepts through decks, pairing non-fiction + fiction books, and creating mixtapes for special occasions."
+			]
 		}
 	},
 
@@ -206,17 +217,6 @@
 			],
 			"description": ["I am a Filipino Conversation Designer and Product Design Consultant currently working as a Product Manager at Senti AI, where I work on AI/ML projects for the Philippines' biggest names in advertising, telecommunications, and real estate.",
 				"When I’m not working, I help out the local tech community as the Community Lead of PWDO and as an Events Manager at UXPH."
-			]
-		},
-		"claudine_san_diego": {
-			"name": "Claudine San Diego",
-			"role": "Events & Research Coordinator",
-			"image_url": "assets/team/claudine.png",
-			"socials": [
-				"<a href=\"https://www.linkedin.com/in/claudinesandiego/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
-			],
-			"description": ["Din is a content strategist specializing in content development and management. She is currently learning more about UX research within the organization and helping out in the events team!",
-				"An avid learner, she enjoys ideating alongside teams, presenting concepts through decks, pairing non-fiction + fiction books, and creating mixtapes for special occasions."
 			]
 		},
 		"karllo_mayordomo":{
