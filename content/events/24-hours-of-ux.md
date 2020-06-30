@@ -6,8 +6,8 @@ page: "pages/events"
 type: "blog"
 active: 2
 publish: "June 10, 2020"
-cover: "https://lh3.googleusercontent.com/pw/ACtC-3fWyLIu3WWc0beeB863FRE9IvMxqCIOScDI4XASY1mSOXLfuUzxyFkW_OwAINFwokUgStrM2A9SPTFmqdzB8odeP9P4EJ8kHKo37JS0udssAWIUtCwXGwWV7yMUHcUqbubMNgy2wlD-Miy7xj0Bkm8=w1200-h628-no?authuser=1"
-header: "photo"
+cover: "https://www.youtube.com/embed/sIP4l98t63o?version=3&amp;frameborder=0&amp;allow=accelerometer&amp;autoplay&amp;encrypted-media&amp;gyroscope&amp;picture-in-picture"
+header: "video"
 ---
 
 <p>
