@@ -1,5 +1,8 @@
 # UXPH Patch Notes
 
+### Patch 2.0.0
+ - Implemented the blogs page
+
 ### Patch 1.2.0
  - Fixed several accessibility issues
  - Fixed navigation keyboard inaccessibility

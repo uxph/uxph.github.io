@@ -3,7 +3,7 @@ title: "RemoteFFC #1: Enhanced Work from Home"
 date: 2020-04-03T18:56:48+08:00
 draft: false
 page: "pages/events"
-type: "blog"
+type: "event"
 active: 2
 publish: "April 3, 2020"
 cover: "https://www.youtube.com/embed/-amLnZxpDEA?version=3&amp;frameborder=0&amp;allow=accelerometer&amp;autoplay&amp;encrypted-media&amp;gyroscope&amp;picture-in-picture"

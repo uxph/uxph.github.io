@@ -3,7 +3,7 @@ title: "Recap: UXPH Roadshow 2019, Manila"
 date: 2019-05-10T18:56:48+08:00
 draft: false
 page: "pages/events"
-type: "blog"
+type: "event"
 active: 2
 publish: "October 26, 2019"
 cover: "https://roadshow.uxph.org/uploads/image16.jpg"

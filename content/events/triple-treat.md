@@ -3,7 +3,7 @@ title: "Triple Treat"
 date: 2020-02-10T18:56:48+08:00
 draft: false
 page: "pages/events"
-type: "blog"
+type: "event"
 active: 2
 publish: "May 28, 2020"
 cover: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fuxphofficial%2Fvideos%2F1227865507549467%2F&show_text=0&width=560"

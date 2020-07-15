@@ -3,7 +3,7 @@ title: "Recap: UXPH Roadshow 2019, Davao"
 date: 2019-05-10T18:56:48+08:00
 draft: false
 page: "pages/events"
-type: "blog"
+type: "event"
 active: 2
 publish: "September 28, 2019"
 cover: "https://roadshow.uxph.org/uploads/image01.jpg"
