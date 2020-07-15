@@ -4,7 +4,7 @@ date: 2020-07-13T20:00:00+08:00
 draft: false
 page: "pages/blogs"
 type: "blog"
-active: 2
+active: 4
 publish: "July 13, 2020"
 cover: "https://miro.medium.com/max/1000/1*MyW7S1V-r3p1FGNxLpVU-Q.jpeg"
 header: "photo"

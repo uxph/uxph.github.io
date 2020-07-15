@@ -4,7 +4,7 @@ date: 2020-07-15T00:00:00+08:00
 draft: false
 page: "pages/blogs"
 type: "blog"
-active: 2
+active: 4
 publish: "July 15, 2020"
 cover: "https://cdn-images-1.medium.com/max/800/1*SxCd_tQ0Oji-XRM23frYZQ.png"
 header: "photo"
