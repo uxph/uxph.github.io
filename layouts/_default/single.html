@@ -41,7 +41,7 @@
 	</html>
 {{ end }}
 
-{{ if eq .Type "blog" }}
+{{ if or (eq .Type "blog") (eq .Type "event") }}
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -71,9 +71,17 @@
 						{{ .Content }}
 					</div>
 					<br/><br/>
-					<a href="/events" class="button outline">
-						<i class="fas fa-arrow-left"></i> &nbsp; Back to events
-					</a>
+					{{ if eq .Type "event" }}
+						<a href="/events" class="button outline">
+							<i class="fas fa-arrow-left"></i> &nbsp; Back to events
+						</a>
+					{{ end }}
+
+					{{ if eq .Type "blog" }}
+						<a href="/blogs" class="button outline">
+							<i class="fas fa-arrow-left"></i> &nbsp; Back to blogs
+						</a>
+					{{ end }}
 					<br/>
 				</div>
 			</section>

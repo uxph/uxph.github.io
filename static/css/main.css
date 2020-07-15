@@ -119,6 +119,11 @@ a.link:hover {
 	text-decoration: underline;
 }
 
+hr {
+	border: none;
+	border-bottom: thin solid var(--uxph-neutral-2);
+}
+
 p b, p strong {
 	font-weight: 500;
 }

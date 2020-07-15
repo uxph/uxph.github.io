@@ -2,7 +2,7 @@
 title: "Learning to be inquisitive: reflections from a beginner’s perspective"
 date: 2020-07-13T20:00:00+08:00
 draft: false
-page: "pages/events"
+page: "pages/blogs"
 type: "blog"
 active: 2
 publish: "July 13, 2020"

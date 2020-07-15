@@ -3,7 +3,7 @@ title: "24 Hours of UX"
 date: 2020-01-29T18:56:48+08:00
 draft: false
 page: "pages/events"
-type: "blog"
+type: "event"
 active: 2
 publish: "June 10, 2020"
 cover: "https://www.youtube.com/embed/sIP4l98t63o?version=3&amp;frameborder=0&amp;allow=accelerometer&amp;autoplay&amp;encrypted-media&amp;gyroscope&amp;picture-in-picture"

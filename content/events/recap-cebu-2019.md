@@ -3,7 +3,7 @@ title: "Recap: UXPH Roadshow 2019, Cebu"
 date: 2019-06-09T18:56:48+08:00
 draft: false
 page: "pages/events"
-type: "blog"
+type: "event"
 active: 2
 publish: "August 31, 2019"
 cover: "https://roadshow.uxph.org/uploads/class.jpg"

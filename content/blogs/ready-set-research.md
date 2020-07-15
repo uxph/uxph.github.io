@@ -2,7 +2,7 @@
 title: "Ready, Set, Research! 3 Things You Need to Know as a Fresh UX Researcher"
 date: 2020-07-15T00:00:00+08:00
 draft: false
-page: "pages/events"
+page: "pages/blogs"
 type: "blog"
 active: 2
 publish: "July 15, 2020"

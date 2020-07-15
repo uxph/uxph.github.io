@@ -3,7 +3,7 @@ title: "Do UXSee What I See"
 date: 2020-01-29T18:56:48+08:00
 draft: false
 page: "pages/events"
-type: "blog"
+type: "event"
 active: 2
 publish: "January 29, 2020"
 cover: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUXPhilippines%2Fvideos%2F554095255203202%2F&width=500&show_text=0"

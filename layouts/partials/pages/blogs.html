@@ -1,0 +1,47 @@
+<!-- Blogs page -->
+<header id="blogs-header" class="padding-y-96 auto-hidden">
+	<div class="wrapper">
+		<h1 class="margin-bottom-64">Blogs</h1>
+		{{ range sort .Site.Data.blogs ".blog_id" "desc" }}
+			<div class="padding-y-24 padding-x-24 margin-bottom-48 shadow-sm border-radius-12 border-top border-light d-flex event-item position-relative" data-id="{{ .tag }}">
+				<a href="{{ .blog_url }}">
+					<div style="background: url({{ .image_square_url }}); background-size: cover; background-position: center;" class="img_article featured-image-bg border-radius-12"></div>
+				</a>
+				<div class="margin-left-32 event-item-content">
+					<a href="{{ .blog_url }}"><h2 class="event-title">{{ .name }}</h2></a>
+					<p class="margin-y-8 timestamp">
+						{{ .date }}
+					</p>
+					<p class="description font-size-16">{{ .description }}</p>
+					<div class="margin-top-24">
+						<a href="{{ .blog_url }}" class="button padding-x-24 padding-y-12 margin-right-8 outline">
+							Read more
+						</a>
+					</div>
+				</div>
+			</div>
+		{{ end }}
+	</div>
+</header>
+
+<style>
+	.img_article{
+		background-color: #c4c4c4;
+		border-radius: 12px;
+		min-height: var(--value-192);
+		min-width: var(--value-192);
+		max-height: var(--value-192);
+		max-width: var(--value-192);
+	}
+	.description {
+		display: -webkit-box;
+		overflow: hidden;
+		text-overflow: ellipsis !important;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+
+	.timestamp {
+		color: #aaa;
+	}
+</style>
