@@ -1,5 +1,25 @@
 {
 	"current": {
+		"designing-with-totally-human-bots": {
+			"name": "Designing with Totally Human Bots",
+			"date": "July 30, 2020",
+			"time": "7PM - 9PM",
+			"venue": "Livestream via Zoom and Facebook Live",
+			"description": "#",
+			"image_square_url": "https://lh3.googleusercontent.com/pw/ACtC-3ffINydAJlVRrf6mK7kTvza2h-ZUafWw0UlR1jbwIfnKYpEC44nP3dScjfhVlkPRHhAc042-ZmODtorHKU-ufACLV1NWkwUkXNOcH9uHLKeNukS6lEQ8JY032cWhNrtGwt-9A40bpMjeZ34YSHgovOA=s969-no?authuser=0",
+			"image_banner_url": "https://lh3.googleusercontent.com/pw/ACtC-3djNlKH6N_cfZs3HG31Uy25C5suUgIljeLR05Nj6x_NLXUJNN9kX-jlV6fS6_9yR1yGUmPpMwRPaWtuaYc7BLAdWXnzKuMPYfivJ7rDL_2kXlOBKHYSG_KcUkbCT29qIMv-Vq2ZI0-zvVMYCMBAQuA2=w1640-h856-no?authuser=0",
+			"ticket_url": "https://uxphtotallyhuman.eventbrite.com",
+			"become_speaker_url": "#",
+			"blog_url": "#",
+			"livestream_url": "#",
+			"status": "ongoing",
+			"event_id": 10,
+			"tag": "Virtual Meetups; Meetups"
+		}
+		
+	},
+
+	"past": {
 		"screenside-chat": {
 			"name": "Screenside Chat",
 			"date": "June 25, 2020",
@@ -15,11 +35,7 @@
 			"status": "done",
 			"event_id": 9,
 			"tag": "Virtual Meetups; Meetups"
-		}
-		
-	},
-
-	"past": {
+		},
 		"24-hours-of-ux": {
 			"name": "24 Hours of UX",
 			"date": "June 10, 2020 - June 11, 2020",
