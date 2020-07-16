@@ -1,7 +1,7 @@
 <!-- Blogs page -->
 <header id="blogs-header" class="padding-y-96 auto-hidden">
 	<div class="wrapper">
-		<h1 class="margin-bottom-64">Blogs</h1>
+		<h1 class="margin-bottom-64">Blog</h1>
 		{{ range sort .Site.Data.blogs ".blog_id" "desc" }}
 			<div class="padding-y-24 padding-x-24 margin-bottom-48 shadow-sm border-radius-12 border-top border-light d-flex event-item position-relative" data-id="{{ .tag }}">
 				<a href="{{ .blog_url }}">
@@ -25,7 +25,7 @@
 </header>
 
 <style>
-	.img_article{
+	.img_article {
 		background-color: #c4c4c4;
 		border-radius: 12px;
 		min-height: var(--value-192);
@@ -33,6 +33,7 @@
 		max-height: var(--value-192);
 		max-width: var(--value-192);
 	}
+	
 	.description {
 		display: -webkit-box;
 		overflow: hidden;
