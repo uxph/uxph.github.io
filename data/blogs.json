@@ -1,8 +1,21 @@
 {
+	"role-of-uxr-in-ph-rising-startup-scene": {
+		"name": "The Role of UXR in the Philippines’ Rising Startup Scene",
+		"date": "July 17, 2020",
+		"description": "UXRConf Anywhere 2020 imparted a wealth of takeaways that illustrates the invaluable impact that UXR can bring to our local tech community.",
+		"image_square_url": "https://miro.medium.com/max/700/1*qSVqJ3GlXEm_WLh40ew1HA.png",
+		"image_banner_url": "https://miro.medium.com/max/700/1*qSVqJ3GlXEm_WLh40ew1HA.png",
+		"become_speaker_url": "#",
+		"blog_url": "/blogs/role-of-uxr-in-ph-rising-startup-scene",
+		"livestream_url": "#",
+		"blog_id": 2,
+		"tag": "Research"
+	},
+	
 	"ready-set-research": {
 		"name": "Ready, Set, Research! 3 Things You Need to Know as a Fresh UX Researcher",
 		"date": "July 15, 2020",
-		"description": "As a Filipino student taking my first steps into the field of UX Research, figuring out where to start has always been the most difficult part. However, thanks to UXR Conference Anywhere 2020, and UXPH's scholarship, I was able to attend and hear from professionals around the world, with the comforting sense of clarity that the field isn't as intimidating and ruthless as I thought it would be.",
+		"description": "Starting always seems like the hardest, most intimidating part, but it doesn't have to be.",
 		"image_square_url": "https://cdn-images-1.medium.com/max/800/1*SxCd_tQ0Oji-XRM23frYZQ.png",
 		"image_banner_url": "https://cdn-images-1.medium.com/max/800/1*SxCd_tQ0Oji-XRM23frYZQ.png",
 		"become_speaker_url": "#",
@@ -15,7 +28,7 @@
 	"learning-to-be-inquisitve": {
 		"name": "Learning to be inquisitive: reflections from a beginner’s perspective",
 		"date": "July 13, 2020",
-		"description": "UX Research is as complex as the humans the discipline is trying to understand. It is a world of its own — particularly a young one. As much as other disciplines are evolving, UX Research continues to figure out what is and what isn’t, along with the questions that make up our core.",
+		"description": "UXRConf Anywhere 2020 brings to light a lot of things we need to be talking about in UX Research.",
 		"image_square_url": "https://miro.medium.com/max/1000/1*MyW7S1V-r3p1FGNxLpVU-Q.jpeg",
 		"image_banner_url": "https://miro.medium.com/max/1000/1*MyW7S1V-r3p1FGNxLpVU-Q.jpeg",
 		"become_speaker_url": "#",

@@ -6,4 +6,3 @@ page: "pages/blogs"
 type: "single"
 active: 4
 ---
-
