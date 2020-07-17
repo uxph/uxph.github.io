@@ -81,6 +81,7 @@
 
 #menu-bar {
 	display: none;
+	cursor: pointer;
 }
 
 /* nav drawer */
@@ -117,4 +118,5 @@
 #menu-close {
 	float: right;
 	margin: var(--value-24);
+	cursor: pointer;
 }
