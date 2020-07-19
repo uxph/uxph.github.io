@@ -74,7 +74,7 @@
 			</div>
 		</div> -->
 
-		{{ $pages := add (math.Ceil (div (len .Site.Data.events.past) 5)) 1 }}
+		{{ $pages := add (math.Ceil (div (len .Site.Data.events.past) 5)) 0 }}
 		<div class="d-none" id="pages" data-id="{{ $pages }}"></div>
 		<div class="d-flex justify-content-between align-items-center">
 			<h2 class="font-size-32">Past Events</h2>
