@@ -78,6 +78,14 @@
 			"image_url": "assets/sponsor_logos/edukasyon.png",
 			"id": 10,
 			"link": "https://portal.edukasyon.ph"
+		},
+		"developh": {
+			"name": "Developh",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/developh-circle.png",
+			"id": 11,
+			"link": "https://developh.org/"
 		}
+
 	}
 }
