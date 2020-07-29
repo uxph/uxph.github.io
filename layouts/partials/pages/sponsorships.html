@@ -127,9 +127,11 @@
 			{{ range sort .Site.Data.sponsors.community_partners ".id" "asc" }}
 				<div class="padding-x-16 community-items">
 					<div class="community-img text-center">
-						<img src="../{{ .image_url }}" alt="{{ .name }}" class="featured-image-2 shadow-sm rounded-circle margin-bottom-16" alt="{{ .name }}" />
+						<a href="{{ .link }}" target="blank">
+							<img src="../{{ .image_url }}" alt="{{ .name }}" class="featured-image-2 shadow-sm rounded-circle margin-bottom-16" alt="{{ .name }}" />
+						</a>
 					</div>
-					<a href="{{.link}}" target="blank"><p class="text-center"><strong>{{ .name }}</strong></p></a>
+					<a href="{{ .link }}" target="blank"><p class="text-center"><strong>{{ .name }}</strong></p></a>
 				</div>
 			{{ end }}
 		</div>
