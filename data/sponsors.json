@@ -94,6 +94,14 @@
 			"image_url": "assets/sponsor_logos/chi-mnl.png",
 			"id": 12,
 			"link": "https://sigchimnl.org/"
+		},
+
+		"pwa": {
+			"name": "PWA Pilipinas",
+			"tier": "community",
+			"image_url": "assets/sponsor_logos/pwa.png",
+			"id": 13,
+			"link": "https://pwapilipinas.org/"
 		}
 	}
 }
