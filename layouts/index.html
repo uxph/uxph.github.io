@@ -24,7 +24,7 @@
 			<div class="wrapper">
 				<div id="current-event-overlap" class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 w-100 d-flex space-between">
 					{{ range .Site.Data.events.current }}
-						<div style="background: url({{ .image_square_url }}); background-size: cover;" class="border-radius-12 margin-right-32 featured-image"></div>
+						<div style="background: url({{ .image_square_url }}); background-size: cover; background-position: center;" class="border-radius-12 margin-right-32 featured-image"></div>
 						<div>
 							<h3 class="text-secondary margin-bottom-8">Our latest event</h3>
 							<h2 class="text-dark">{{ .name }}</h2>
