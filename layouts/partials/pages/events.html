@@ -7,11 +7,11 @@
 				<div class="padding-top-48 d-flex" id="latest-event-content">
 					{{ if ne .status "done" }}
 						<a href="{{ .ticket_url }}" target="blank">
-							<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
+							<div style="background: url({{ .image_square_url }}); background-size: cover; background-position: center;" class="img_article featured-image-bg border-radius-12"></div>
 						</a>
 					{{ else }}
 						<a href="{{ .blog_url }}">
-							<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
+							<div style="background: url({{ .image_square_url }}); background-size: cover; background-position: center;" class="img_article featured-image-bg border-radius-12"></div>
 						</a>
 					{{ end }}
 
@@ -89,7 +89,7 @@
 					</div>
 				{{ end }}
 				<a href="{{ .blog_url }}">
-					<div style="background: url({{ .image_square_url }}); background-size: cover;" class="img_article featured-image-bg border-radius-12"></div>
+					<div style="background: url({{ .image_square_url }}); background-size: cover; background-position: center;" class="img_article featured-image-bg border-radius-12"></div>
 				</a>
 				<div class="margin-left-32 event-item-content">
 					<a href="{{ .blog_url }}"><h2 class="w-75 event-title">{{ .name }}</h2></a>
