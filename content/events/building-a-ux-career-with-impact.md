@@ -1,5 +1,5 @@
 ---
-title: "Designing with Totally Human Bots"
+title: "Building a UX Career with Impact"
 date: 2020-07-30T18:56:48+08:00
 draft: false
 page: "pages/events"
