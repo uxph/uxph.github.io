@@ -1,0 +1,121 @@
+{{ partial "components/modal" (dict "path" "../") }}
+<header class="padding-y-64">
+  <div class="wrapper">
+    <h2 class="font-weight-bold">About UXPH Research</h2>
+    <p class="margin-y-24">
+      The objective of the UXPH Research team is to leverage existing
+      industry-academe connection in gaining better understanding of the UX
+      landscape in the PH Context. This can be a potential income-generating
+      activity and a training ground for those who want to engage in research.
+    </p>
+    <p>Specifically, UXPH Research team shall:</p>
+    <ul class="margin-y-24 objectives">
+      <li>
+        contribute to the body of knowledge towards the better understanding of
+        the UX and HCI landscape in the Philippines
+      </li>
+      <li>
+        work its partners in the collection of data, design of experiments that
+        are ethical and scientifically-sound
+      </li>
+      <li>
+        share and make its findings accessible to the PH context towards a more
+        data-driven design-mature UX Strategy landscape
+      </li>
+      <li>
+        provide an avenue for young and budding researchers to take part in
+        research activities
+      </li>
+      <li>
+        actively find, secure and procure funding, equipment and other resources
+        that helps in the research process
+      </li>
+    </ul>
+  </div>
+</header>
+<section class="padding-bottom-96 padding-top-64 bg-light">
+  <div class="wrapper">
+    <h1 class="margin-bottom-48 text-center">Team Members</h1>
+    <div class="margin-bottom-96">
+      <!-- <h2 class="text-secondary margin-bottom-32 text-center">Team Leads</h2> -->
+      <div class="d-flex flex-wrap justify-content-center team-feed">
+        {{ range .Site.Data.research.members }}
+        <div class="user-card shadow-sm bg-white m-2">
+          <div class="featured-image bg-secondary mx-auto margin-bottom-16"
+            style="background: url(../{{ .image }}); background-position: center; background-size: cover;"></div>
+          <div>
+            <div>
+              <h2 class="blue m-0 text-center">{{ .name }}</h2>
+              <p class="red m-0 text-center">{{ .position }}</p>
+              <br class="d-none" />
+              {{ range .bio }}
+              <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
+              {{ end }}
+              <div class="d-none socials-wrapper">
+                {{ range .socials }}
+                <a href="{{ .link }}" target="_blank">
+                  <i class="{{ .icon }}"></i>
+                </a>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+  </div>
+</section>
+<style>
+  ul.objectives li {
+    line-height: var(--value-32);
+    margin-bottom: var(--value-12);
+  }
+
+  #meet-the-team {
+    background: url(../assets/visuals/ph-map-blue.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+  }
+
+  .user-card {
+    border-radius: 8px;
+    width: auto;
+    z-index: 99;
+    position: relative;
+    overflow: hidden;
+    padding: var(--value-24);
+    cursor: pointer;
+    transition: ease all 0.3s;
+  }
+
+  .user-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .user-card .featured-image {
+    border-radius: 100%;
+    max-height: var(--value-128);
+    max-width: var(--value-128);
+    min-height: var(--value-128);
+    min-width: var(--value-128);
+    margin-right: var(--value-32);
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .read-more {
+    color: blue;
+    cursor: pointer;
+  }
+  .read-more:hover {
+    text-decoration: underline;
+  }
+
+  .team-feed > div {
+    flex: 0 25%;
+  }
+</style>

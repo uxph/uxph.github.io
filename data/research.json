@@ -1,0 +1,130 @@
+{
+  "featuredProject": {
+    "projectSoup": {
+      "id": 0,
+      "title": "Project S.O.U.P.",
+      "slug": "project-soup-2020",
+      "fullTitle": "State of UX in The Philippines Report",
+      "description": "The UX landscape in the Philippines is getting broader each year. The earliest UX'ers in the country began their march almost a decade ago. Since then, technological innovations and cultural paradigms both globally and locally, have called for a deeper understanding of the UX practice. In recent years, we have seen reports that attempt to understand its current state and imagine future trends. These reports however, have been mostly done on a global or regional context. In this research, we attempt to take a closer look into the State of UX in the Philippines, and how its culturally-diverse environment nurture a specific breed of designers, researchers and leaders. We will look at data from the past decade in see trends that have shaped this industry. Further, we intend to use and share this data to various stakeholders towards crafting the local UX roadmap for the next decade. ",
+      "squareImg": "../assets/images/projects/soup2020/square-img.svg",
+      "bannerImg": "../assets/images/projects/soup2020/square-img.svg",
+      "abstract": "",
+      "pageLink": "/project",
+      "downloadLink": "/",
+      "surveyLink": "/",
+      "keywords": [
+        "Research",
+        "User Experience",
+        "Report",
+        "UXPH Conference",
+        "Science"
+      ],
+      "date": "December 25, 2020",
+      "finished": false,
+      "featured": true
+    }
+  },
+
+  "members": {
+    "jordan": {
+      "name": "Jordan Deja",
+      "position": "UX Researcher",
+      "bio": [
+        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
+      ],
+      "socials": [
+        {
+          "name": "Twitter",
+          "link": "https://www.twitter.com/jrdndj",
+          "icon": "fab fa-twitter"
+        },
+        {
+          "name": "Github",
+          "link": "http://github.com/jrdndj",
+          "icon": "fab fa-github"
+        }
+      ],
+      "image": "assets/team/jordan.jpeg"
+    },
+    "din": {
+      "name": "Din San Diego",
+      "position": "UX Researcher",
+      "bio": [
+        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
+      ],
+      "socials": [
+        {
+          "name": "Twitter",
+          "link": "https://www.twitter.com/jrdndj",
+          "icon": "fab fa-twitter"
+        },
+        {
+          "name": "Github",
+          "link": "http://github.com/jrdndj",
+          "icon": "fab fa-github"
+        }
+      ],
+      "image": "assets/team/claudine.png"
+    },
+    "janyl": {
+      "name": "Janyl Tamayo",
+      "position": "UX Researcher",
+      "bio": [
+        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
+      ],
+      "socials": [
+        {
+          "name": "Twitter",
+          "link": "https://www.twitter.com/jrdndj",
+          "icon": "fab fa-twitter"
+        },
+        {
+          "name": "Github",
+          "link": "http://github.com/jrdndj",
+          "icon": "fab fa-github"
+        }
+      ],
+      "image": "assets/team/janyl.jpg"
+    },
+    "cha": {
+      "name": "Charlotte Mae Efren",
+      "position": "UX Researcher",
+      "bio": [
+        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
+      ],
+      "socials": [
+        {
+          "name": "Twitter",
+          "link": "https://www.twitter.com/jrdndj",
+          "icon": "fab fa-twitter"
+        },
+        {
+          "name": "Github",
+          "link": "http://github.com/jrdndj",
+          "icon": "fab fa-github"
+        }
+      ],
+      "image": "assets/team/cha.jpg"
+    },
+    "jen": {
+      "name": "Jen Teves",
+      "position": "UX Researcher",
+      "bio": [
+        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
+      ],
+      "socials": [
+        {
+          "name": "Twitter",
+          "link": "https://www.twitter.com/jrdndj",
+          "icon": "fab fa-twitter"
+        },
+        {
+          "name": "Github",
+          "link": "http://github.com/jrdndj",
+          "icon": "fab fa-github"
+        }
+      ],
+      "image": "assets/team/jen.jpg"
+    }
+  }
+}

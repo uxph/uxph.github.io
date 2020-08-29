@@ -1,0 +1,20 @@
+.chip {
+  border-radius: 200px;
+  display: inline-block;
+  padding: 0.125rem var(--value-12);
+  background-color: #efefef;
+}
+
+.chip small {
+  color: #727272;
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.chip.progress {
+  background-color: #fff0bd;
+}
+
+.chip.progress small {
+  color: #d7aa0f;
+}

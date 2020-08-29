@@ -1,84 +1,86 @@
 <!-- FAQ page -->
 <img src="../assets/visuals/link-group.svg" class="visuals position-fixed" id="link-group-1" />
 <header id="faq-header" class="padding-y-96 auto-hidden">
-	<div class="wrapper">
-		<h1 class="margin-bottom-64">Frequently Asked Questions</h1>
-		<div class="d-flex justify-content-between">
-			<div class="position-relative">
-				<div class="white-shadow"></div>
-				<div class="margin-right-48 width-384" id="topic-select">
-					<small class="active text-secondary topic-option" data-id="all">
-						All topics
-					</small>
-					<small class="text-secondary topic-option" data-id="Events & Certificates">
-						Events & Certificates
-					</small>
-					<small class="text-secondary topic-option" data-id="Community and Volunteering">
-						Community and Volunteering
-					</small>
-					<small class="text-secondary topic-option" data-id="Speakers, Partnerships, and Sponsorships">
-						Speakers, Partnerships, and Sponsorships
-					</small>
-					<small class="text-secondary topic-option" data-id="Conferences">
-						Conferences
-					</small>
-					<small class="text-secondary topic-option" data-id="Ticketing & Purchases">
-						Ticketing & Purchases
-					</small>
-					<small class="text-secondary topic-option" data-id="Reporting an incident">
-						Reporting an incident
-					</small>
-					<small class="text-secondary topic-option" data-id="Code of Conduct">
-						Code of Conduct
-					</small>
-				</div>
-			</div>
-			<div>
-				{{ range .Site.Data.faq }}
-					<div class="margin-bottom-48 faq-item" data-id="{{ .topic }} all">
-						<h2 class="margin-bottom-12">{{ .Q }}</h2>
-						{{ range .A }}
-							<p class="margin-bottom-24 answer">{{ . }}</p>
-						{{ end }}
-					</div>
-				{{ end }}
-			</div>
-		</div>
-	</div>
+  <div class="wrapper">
+    <h1 class="margin-bottom-64">Frequently Asked Questions</h1>
+    <div class="d-flex justify-content-between">
+      <div class="position-relative">
+        <div class="white-shadow"></div>
+        <div class="margin-right-48 width-384" id="topic-select">
+          <small class="active text-secondary topic-option" data-id="all">
+            All topics
+          </small>
+          <small class="text-secondary topic-option" data-id="Events & Certificates">
+            Events & Certificates
+          </small>
+          <small class="text-secondary topic-option" data-id="Community and Volunteering">
+            Community and Volunteering
+          </small>
+          <small class="text-secondary topic-option" data-id="Speakers, Partnerships, and Sponsorships">
+            Speakers, Partnerships, and Sponsorships
+          </small>
+          <small class="text-secondary topic-option" data-id="Conferences">
+            Conferences
+          </small>
+          <small class="text-secondary topic-option" data-id="Ticketing & Purchases">
+            Ticketing & Purchases
+          </small>
+          <small class="text-secondary topic-option" data-id="Reporting an incident">
+            Reporting an incident
+          </small>
+          <small class="text-secondary topic-option" data-id="Code of Conduct">
+            Code of Conduct
+          </small>
+        </div>
+      </div>
+      <div>
+        {{ range .Site.Data.faq }}
+        <div class="margin-bottom-48 faq-item" data-id="{{ .topic }} all">
+          <h2 class="margin-bottom-12">{{ .Q }}</h2>
+          {{ range .A }}
+          <p class="margin-bottom-24 answer">{{ . }}</p>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
 </header>
 
 <style type="text/css">
-	#topic-select {
-		min-width: var(--value-192);
-		max-width: var(--value-192);
-		position: sticky;
-		top: 109px;
-	}
-	#topic-select > small {
-		display: block;
-		cursor: pointer;
-		margin-bottom: var(--value-16);
-		padding-left: var(--value-16);
-		transition: ease all 0.2s;
-		line-height: var(--value-24);
-		border-left: thick solid transparent;
-		font-weight: 500;
-		font-size: 0.875rem;
-	}
+  #topic-select {
+    min-width: var(--value-192);
+    max-width: var(--value-192);
+    position: sticky;
+    top: 109px;
+  }
 
-	#topic-select > small.active {
-		color: var(--main-blue) !important;
-		border-color: var(--main-blue) !important;
-	}
+  #topic-select>small {
+    display: block;
+    cursor: pointer;
+    margin-bottom: var(--value-16);
+    padding-left: var(--value-16);
+    transition: ease all 0.2s;
+    line-height: var(--value-24);
+    border-left: thick solid transparent;
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
 
-	#topic-select > small:hover {
-		color: var(--uxph-yellow-1) !important;
-		border-color: var(--uxph-yellow-1) !important
-	}
+  #topic-select>small.active {
+    color: var(--main-blue) !important;
+    border-color: var(--main-blue) !important;
+  }
 
-	#link-group-1 {
-		transform: rotate(90deg);
-		top: 200px;
-		width: 5vw !important;;
-	}
+  #topic-select>small:hover {
+    color: var(--uxph-yellow-1) !important;
+    border-color: var(--uxph-yellow-1) !important
+  }
+
+  #link-group-1 {
+    transform: rotate(90deg);
+    top: 200px;
+    width: 5vw !important;
+    ;
+  }
 </style>

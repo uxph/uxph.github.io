@@ -1,81 +1,138 @@
 <!-- Navigation of the website -->
 <nav id="main-nav" class="bg-white">
-	<div class="wrapper d-flex justify-content-center align-items-center">
-		<!-- <i class="las la-bars fa-2x margin-right-16" id="menu-bar"></i> -->
-		<img src="{{ .path }}assets/icons/menu_options.svg" id="menu-bar" width="30" alt="Menu Options" />
+  <div class="wrapper d-flex justify-content-center align-items-center">
+    <!-- <i class="las la-bars fa-2x margin-right-16" id="menu-bar"></i> -->
+    <img
+      src="{{ .path }}assets/icons/menu_options.svg"
+      id="menu-bar"
+      width="30"
+      alt="Menu Options"
+    />
 
-		<a href="/" class="d-flex align-items-center">
-			<img src="{{ .path }}assets/logo/uxph_logo.svg" id="nav-logo" alt="UXPH" />
-		</a>
-		<ul>
-			<li class="active">
-				<a href="/">
-					<span>Home</span>
-				</a>
-			</li>
-			<li>
-				<span>About</span>
-				<ul class="position-fixed subnav rounded-bottom">
-					<li>
-						<a href="/about"><p class="bg-white padding-x-16 padding-y-8 padding-right-48">About UXPH</p></a>
-					</li>
-					<li>
-						<a href="/team"><p class="bg-white padding-x-16 padding-y-8 padding-right-48 rounded-bottom">Organizing Members</p></a>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<a href="/events">
-					<span>Events</span>
-				</a>
-			</li>
-			<li>
-				<span>Get involved</span>
-				<div class="position-fixed subnav rounded-bottom">
-					<a href="/sponsorships">
-						<p class="bg-white padding-x-16 padding-y-8 padding-right-48">Be a partner</p>
-					</a>
-					<a href="/volunteers">
-						<p class="bg-white padding-x-16 padding-y-8 padding-right-48 rounded-bottom">Be a volunteer</p>
-					</a>
-				</div>
-			</li>
-			<li>
-				<a href="/blog">
-					<span>Blog</span>
-				</a>
-			</li>
-			<li>
-				<a href="/faq">
-					<span>FAQ</span>
-				</a>
-			</li>
-		</ul>
-	</div>
+    <a href="/" class="d-flex align-items-center">
+      <img
+        src="{{ .path }}assets/logo/uxph_logo.svg"
+        id="nav-logo"
+        alt="UXPH"
+      />
+    </a>
+    <ul>
+      <li class="active">
+        <a href="/">
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <span>About</span>
+        <ul class="position-fixed subnav rounded-bottom">
+          <li>
+            <a href="/about">
+              <p class="bg-white padding-x-16 padding-y-8 padding-right-48">
+                About UXPH
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="/team">
+              <p
+                class="bg-white padding-x-16 padding-y-8 padding-right-48 rounded-bottom"
+              >
+                Organizing Members
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="/research-team">
+              <p
+                class="bg-white padding-x-16 padding-y-8 padding-right-48 rounded-bottom"
+              >
+                UXPH Research Team
+              </p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/events">
+          <span>Events</span>
+        </a>
+      </li>
+      <li>
+        <span>Get involved</span>
+        <div class="position-fixed subnav rounded-bottom">
+          <a href="/sponsorships">
+            <p class="bg-white padding-x-16 padding-y-8 padding-right-48">
+              Be a partner
+            </p>
+          </a>
+          <a href="/volunteers">
+            <p
+              class="bg-white padding-x-16 padding-y-8 padding-right-48 rounded-bottom"
+            >
+              Be a volunteer
+            </p>
+          </a>
+        </div>
+      </li>
+      <li>
+        <a href="/blog">
+          <span>Blog</span>
+        </a>
+      </li>
+      <li>
+        <a href="/research">
+          <span>Research</span>
+        </a>
+      </li>
+      <li>
+        <a href="/faq">
+          <span>FAQ</span>
+        </a>
+      </li>
+    </ul>
+  </div>
 </nav>
 
 <nav id="mobile-nav">
-	<!-- <i class="las la-times fa-2x margin-x-24 margin-y-24" id="menu-close"></i> -->
-	<img src="{{ .path }}assets/icons/close.svg" id="menu-close" width="30" alt="Close" />
-	<br/><br/><br/>
-	<ul>
-		<a href="/"><li>Home</li></a>
-		<li>
-			About Us
-			<div class="subnav rounded-bottom margin-top-12">
-				<a href="/about"><p class="text-light padding-x-16 padding-y-8">About UXPH</p></a>
-				<a href="/team"><p class="text-light padding-x-16 padding-y-8 rounded-bottom">Organizing Members</p></a>
-			</div>
-		</li>
-		<a href="/events"><li>Events</li></a>
-		<li>
-			Get Involved
-			<div class="subnav rounded-bottom margin-top-12">
-				<a href="/sponsorships"><p class="text-light padding-x-16 padding-y-8">Be a partner</p></a>
-				<a href="/volunteers"><p class="text-light padding-x-16 padding-y-8 rounded-bottom">Be a volunteer</p></a>
-			</div>
-		</li>
-		<a href="/blog"><li>Blog</li></a>
-		<a href="/faq"><li>FAQ</li></a>
-	</ul>
+  <!-- <i class="las la-times fa-2x margin-x-24 margin-y-24" id="menu-close"></i> -->
+  <img
+    src="{{ .path }}assets/icons/close.svg"
+    id="menu-close"
+    width="30"
+    alt="Close"
+  />
+  <br /><br /><br />
+  <ul>
+    <a href="/"><li>Home</li></a>
+    <li>
+      About Us
+      <div class="subnav rounded-bottom margin-top-12">
+        <a href="/about"
+          ><p class="text-light padding-x-16 padding-y-8">About UXPH</p></a
+        >
+        <a href="/team"
+          ><p class="text-light padding-x-16 padding-y-8 rounded-bottom">
+            Organizing Members
+          </p></a
+        >
+      </div>
+    </li>
+    <a href="/events"><li>Events</li></a>
+    <li>
+      Get Involved
+      <div class="subnav rounded-bottom margin-top-12">
+        <a href="/sponsorships">
+          <p class="text-light padding-x-16 padding-y-8">Be a partner</p>
+        </a>
+        <a href="/volunteers">
+          <p class="text-light padding-x-16 padding-y-8 rounded-bottom">
+            Be a volunteer
+          </p>
+        </a>
+      </div>
+    </li>
+    <a href="/blog"><li>Blog</li></a>
+    <a href="/research"><li>Research</li></a>
+    <a href="/faq"><li>FAQ</li></a>
+  </ul>
 </nav>

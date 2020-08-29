@@ -1,138 +1,142 @@
 {{ partial "components/modal" (dict "path" "../") }}
 <section id="meet-the-team" class="padding-y-96 position-relative">
-	<img src="../assets/visuals/link-yellow.svg" class="visuals width-192" id="link-yellow-1" />
-	<div class="wrapper">
-		<h1 class="margin-bottom-48 text-center">Organizing Members</h1>
-		<div class="margin-bottom-96">
-            <h2 class="text-secondary margin-bottom-32 text-center">Team Leads</h2>
-			<div class="d-flex flex-wrap justify-content-center team-feed">
-				{{ range .Site.Data.team.committee_leads }}
-					<div class="user-card shadow-sm bg-white m-2">
-                        <div class="featured-image bg-secondary mx-auto margin-bottom-16" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
-                        </div>
-                        <div>
-							<div>
-								<h2 class="blue m-0 text-center">{{ .name }}</h2>
-								<p class="red m-0 text-center">{{ .role }}</p>
-                                <br class="d-none" />
-                                {{ range .description }}
-                                    <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
-                                {{ end }}
-                                <div class="d-none socials-wrapper">
-                                    {{ range .socials }}
-                                        {{ . }}
-                                    {{ end }}
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				{{ end }}
-			</div>
+  <img
+    src="../assets/visuals/link-yellow.svg"
+    class="visuals width-192"
+    id="link-yellow-1"
+  />
+  <div class="wrapper">
+    <h1 class="margin-bottom-48 text-center">Organizing Members</h1>
+    <div class="margin-bottom-96">
+      <h2 class="text-secondary margin-bottom-32 text-center">Team Leads</h2>
+      <div class="d-flex flex-wrap justify-content-center team-feed">
+        {{ range .Site.Data.team.committee_leads }}
+        <div class="user-card shadow-sm bg-white m-2">
+          <div
+            class="featured-image bg-secondary mx-auto margin-bottom-16"
+            style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;"
+          ></div>
+          <div>
+            <div>
+              <h2 class="blue m-0 text-center">{{ .name }}</h2>
+              <p class="red m-0 text-center">{{ .role }}</p>
+              <br class="d-none" />
+              {{ range .description }}
+              <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
+              {{ end }}
+              <div class="d-none socials-wrapper">
+                {{ range .socials }} {{ . }} {{ end }}
+              </div>
+            </div>
+          </div>
         </div>
+        {{ end }}
+      </div>
+    </div>
 
-        <div class="margin-bottom-96">
-			<h2 class="text-secondary margin-bottom-32 text-center">Core Team</h2>
-			<div class="d-flex flex-wrap justify-content-center team-feed">
-				{{ range .Site.Data.team.coordinators }}
-					<div class="user-card shadow-sm bg-white m-2">
-                        <div class="featured-image bg-secondary mx-auto margin-bottom-16" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
-                        </div>
-                        <div>
-							<div>
-								<h2 class="blue m-0 text-center">{{ .name }}</h2>
-								<p class="red m-0 text-center role">{{ .role }}</p>
-								<br class="d-none" />
-                                {{ range .description }}
-                                    <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
-                                {{ end }}
-                                <div class="d-none socials-wrapper">
-                                    {{ range .socials }}
-                                        {{ . }}
-                                    {{ end }}
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				{{ end }}
-			</div>
+    <div class="margin-bottom-96">
+      <h2 class="text-secondary margin-bottom-32 text-center">Core Team</h2>
+      <div class="d-flex flex-wrap justify-content-center team-feed">
+        {{ range .Site.Data.team.coordinators }}
+        <div class="user-card shadow-sm bg-white m-2">
+          <div
+            class="featured-image bg-secondary mx-auto margin-bottom-16"
+            style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;"
+          ></div>
+          <div>
+            <div>
+              <h2 class="blue m-0 text-center">{{ .name }}</h2>
+              <p class="red m-0 text-center role">{{ .role }}</p>
+              <br class="d-none" />
+              {{ range .description }}
+              <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
+              {{ end }}
+              <div class="d-none socials-wrapper">
+                {{ range .socials }} {{ . }} {{ end }}
+              </div>
+            </div>
+          </div>
         </div>
+        {{ end }}
+      </div>
+    </div>
 
-        <div class="margin-bottom-48">
-			<h2 class="text-secondary margin-bottom-32 text-center">Advisory Board</h2>
-			<div class="d-flex flex-wrap justify-content-center team-feed">
-				{{ range .Site.Data.team.board_members }}
-					<div class="user-card shadow-sm bg-white m-2">
-                        <div class="featured-image bg-secondary mx-auto margin-bottom-16" style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;">
-                        </div>
-                        <div>
-							<div>
-								<h2 class="blue m-0 text-center">{{ .name }}</h2>
-								<p class="red m-0 text-center role">{{ .role }}</p>
-                                {{ range .description }}
-                                    <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
-                                {{ end }}
-                                <div class="d-none socials-wrapper">
-                                    {{ range .socials }}
-                                        {{ . }}
-                                    {{ end }}
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				{{ end }}
-			</div>
-		</div>
-
-	</div>
+    <div class="margin-bottom-48">
+      <h2 class="text-secondary margin-bottom-32 text-center">
+        Advisory Board
+      </h2>
+      <div class="d-flex flex-wrap justify-content-center team-feed">
+        {{ range .Site.Data.team.board_members }}
+        <div class="user-card shadow-sm bg-white m-2">
+          <div
+            class="featured-image bg-secondary mx-auto margin-bottom-16"
+            style="background: url(../{{ .image_url }}); background-position: center; background-size: cover;"
+          ></div>
+          <div>
+            <div>
+              <h2 class="blue m-0 text-center">{{ .name }}</h2>
+              <p class="red m-0 text-center role">{{ .role }}</p>
+              {{ range .description }}
+              <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
+              {{ end }}
+              <div class="d-none socials-wrapper">
+                {{ range .socials }} {{ . }} {{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
 </section>
 
 <style>
-    #meet-the-team {
-    	background: url(../assets/visuals/ph-map-blue.png);
-    	background-size: 500px;
-    	background-repeat: no-repeat;
-    	background-attachment: fixed;
-    	background-position: right;
-    }
+  #meet-the-team {
+    background: url(../assets/visuals/ph-map-blue.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+  }
 
-    .user-card{
-        border-radius: 8px;
-        width: auto;
-        z-index: 99;
-        position: relative;
-        overflow: hidden;
-        padding: var(--value-24);
-        cursor: pointer;
-        transition: ease all 0.3s;
-    }
+  .user-card {
+    border-radius: 8px;
+    width: auto;
+    z-index: 99;
+    position: relative;
+    overflow: hidden;
+    padding: var(--value-24);
+    cursor: pointer;
+    transition: ease all 0.3s;
+  }
 
-    .user-card:hover {
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-    }
+  .user-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
 
-    .user-card .featured-image {
-        border-radius: 100%;
-        max-height: var(--value-128);
-        max-width: var(--value-128);
-        min-height: var(--value-128);
-        min-width: var(--value-128);
-        margin-right: var(--value-32);
-    }
+  .user-card .featured-image {
+    border-radius: 100%;
+    max-height: var(--value-128);
+    max-width: var(--value-128);
+    min-height: var(--value-128);
+    min-width: var(--value-128);
+    margin-right: var(--value-32);
+  }
 
-    .hide{
-    	display: none;
-    }
+  .hide {
+    display: none;
+  }
 
-    .read-more{
-    	color: blue;
-    	cursor: pointer;
-    }
-    .read-more:hover{
-    	text-decoration: underline;
-    }
+  .read-more {
+    color: blue;
+    cursor: pointer;
+  }
+  .read-more:hover {
+    text-decoration: underline;
+  }
 
-    .team-feed > div {
-    	flex: 0 25%;
-    }
-
+  .team-feed > div {
+    flex: 0 25%;
+  }
 </style>
