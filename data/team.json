@@ -102,8 +102,19 @@
 			"description": [
 				"Jen is currently the Director for CX Research at Best Buy after her stints at other Fortune 100 companies in the US as a UX Researcher & Human Factors Scientist. She loves being in the company of learners that's why she also teaches graduate classes in UX Design at Kent State University's School of Information. Jen's not-so-secret passion is exploring the applications of design and psychology in nation-building, social programs, and counter-insurgency strategy."
 			]
-		}
+		},
 
+		"artie_lopez": {
+			"name": "Artie Lopez",
+			"role": "Advisor",
+			"image_url": "assets/team/artie.jpeg",
+			"socials":[
+				"<a href=\"https://www.linkedin.com/in/artielopez/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": [
+				"Artie Lopez is a start-up coach, the Ambassador of Seedstars - Manila, Investment Manager at First Asia Venture Capital and co-founder of Brainsparks, the first and only \"founder-focused\" incubator in the Philippines. Brainsparks' vision is to \"Turn Dreamers into Founders\". He has over 15yrs of experience in the tech startup industry of Southeast Asia and is a passionate advocate of using technology and innovation to improve people's lives. Through Brainsparks, #StartupCoachArtie has supported countless startups develop their ideas, accelerate their growth, and raise funding from investors globally. #StartupCoachArtie and Brainsparks are happy to have successfully helped several PH Startups grow their company, and scale up their business. In his spare time, he also likes to support and mentor small local businesses and social enterprises."
+			]
+		}
 	},
 
 	"committee_leads": {
@@ -274,6 +285,16 @@
 			],
 			"description": ["Pierce is a Product Manager & Designer currently supporting as a Product Owner for a leading airline in the Philippines - managing delivery streams to improve airline experiences for everyJuan. Apart from the above mentioned, Pierce also works on initiatives on microcopy, accessible services, and clear understanding of a system's Information Architecture.",
 				"Outside work, Pierce spends time outdoors to the mountains, indoors playing video games, and helping communities through PWDO, UXPH, and WIAD. Noodles dishes are Pierce's comfort food and prefers Shio ramen of its different types."
+			]
+		},
+		"cha_efren": {
+			"name": "Charlotte Mae Efren",
+			"role": "Research Team",
+			"image_url": "assets/team/cha.jpg",
+			"socials": [
+				"<a href=\"https://www.linkedin.com/in/charlotteefren/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+			],
+			"description": ["Charlotte is a UX/UI Designer, Front-end Developer, and Co-Founder at MokuTek.She gets involved in various projects - educational, volunteer groups, and hackathons - trying anything in tech and design that connects her to people. Outside work she's learning Japanese and Mandarin, loves Anime, and likes to draw."
 			]
 		}
 
