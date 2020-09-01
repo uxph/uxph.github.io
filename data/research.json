@@ -2,10 +2,19 @@
   "featuredProject": {
     "projectSoup": {
       "id": 0,
-      "title": "Project S.O.U.P.",
+      "surveyTitle": "State of UX in the Philippines Survey",
       "slug": "project-soup-2020",
       "fullTitle": "State of UX in The Philippines Report",
-      "description": "The UX landscape in the Philippines is getting broader each year. The earliest UX'ers in the country began their march almost a decade ago. Since then, technological innovations and cultural paradigms both globally and locally, have called for a deeper understanding of the UX practice. In recent years, we have seen reports that attempt to understand its current state and imagine future trends. These reports however, have been mostly done on a global or regional context. In this research, we attempt to take a closer look into the State of UX in the Philippines, and how its culturally-diverse environment nurture a specific breed of designers, researchers and leaders. We will look at data from the past decade in see trends that have shaped this industry. Further, we intend to use and share this data to various stakeholders towards crafting the local UX roadmap for the next decade. ",
+      "description": [
+        "The UX landscape in the Philippines is getting broader each year. The earliest UX'ers in the country began their march almost a decade ago. Since then, technological innovations and cultural paradigms both globally and locally, have called for a deeper understanding of the UX practice. In recent years, we have seen reports that attempt to understand its current state and imagine future trends. These reports, however, have been mostly done on a global or regional context.",
+        "In this research, we will do a mixed-method study to understand the UX landscape in the Philippines. First, we deploy the <strong> State of UX in the Philippines Survey </strong> following industry-standards through stratified sampling. Second, we will conduct <strong>remote Focus Groups </strong> to draw  qualitative insights about Filipino UX'ers experiences, attitudes, and beliefs. Lastly, we will scrape online data from a decade, perform analysis, and draw out extra insights at a historical perspective while applying a data-driven approach to understand trends at the local context. Target release of the report is on January 2021.",
+        "If you are a student, <b>UX Practitioner</b> or is from HR hiring for UX roles, with your help (by participating in the survey) we can begin to understand the current state of the UX practice in the Philippines and provide valuable insights for improvement in the local context. Your answers will be kept anonymous and strictly confidential, this includes socio-demographic details and information about your company or organization will not be published in any capacity."
+      ],
+      "participation": [
+        "You will be included in our survey raffle where we'll give 5 lucky winners free tickets to the upcoming UXPH Conference this November 7-8 (P2,000 value).  Winners will be announced in UXPH social channels by September 30, 2020. Please make sure to input your contact details in the raffle page of the survey to be eligible to join.",
+        "You will also have the opportunity to participate in the second phase of this research, the remote Focus Groups. For your participation, you will receive P300 off your UXPH Conference ticket purchase. ",
+        "As another thank you, we will be sending the State of UX in the Philippines report straight to your inbox. The report will be shared by January 2021. "
+      ],
       "squareImg": "../assets/images/projects/soup2020/square-img.svg",
       "bannerImg": "../assets/images/projects/soup2020/square-img.svg",
       "abstract": "",
@@ -13,13 +22,13 @@
       "downloadLink": "/",
       "surveyLink": "/",
       "keywords": [
-        "Research",
         "User Experience",
+        "Philippines",
+        "Research",
         "Report",
-        "UXPH Conference",
-        "Science"
+        "UXPH Conference"
       ],
-      "date": "December 25, 2020",
+      "date": "December 31, 2020",
       "finished": false,
       "featured": true
     }

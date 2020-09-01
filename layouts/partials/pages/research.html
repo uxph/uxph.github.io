@@ -1,44 +1,68 @@
-<header class="padding-y-96" id="homepage-header" style="
+<header
+  class="padding-y-96"
+  id="homepage-header"
+  style="
     background-color: white;
     background-image: url(../assets/images/projects/cover_elements.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-  ">
+  "
+>
   <div class="wrapper">
-    <div class="d-flex justify-content-between" id="featured-project">
+    <!-- <div class="d-flex justify-content-between" id="featured-project">
       <div class="min-width-256 margin-right-32">
-        <img src="{{.Site.Data.research.featuredProject.projectSoup.squareImg}}"
+        <img
+          src="{{.Site.Data.research.featuredProject.projectSoup.squareImg}}"
           class="width-256 height-256 d-block featured-image shadow"
-          alt="{{.Site.Data.research.featuredProject.projectSoup.title}}" style="position: sticky; top: 100px" />
-      </div>
+          alt="{{.Site.Data.research.featuredProject.projectSoup.title}}"
+          style="position: sticky; top: 100px"
+        />
+      </div> -->
       <div>
-        <h3 class="gray margin-bottom-12">
+        <!-- <h3 class="gray margin-bottom-12">
           {{.Site.Data.research.featuredProject.projectSoup.title}}
-        </h3>
-        <h1 class="font-size-32 margin-bottom-4">
+        </h3> -->
+        <h1 class="font-size-32 margin-bottom-12">About UXPH Research</h1>
+        <p class="margin-bottom-32 description">
+          We are a group of researchers who wish to understand the UX landscape
+          in the Philippine context. We envision ourselves to be the foremost
+          source of reports and trends that describe how UX is immersed in
+          various industries in the country. Our mission is to empower Filipinos
+          to use data-driven approaches in designing solutions to address
+          problems and pain points in our nation.
+        </p>
+        <h1 class="font-size-32 margin-bottom-12">
           {{.Site.Data.research.featuredProject.projectSoup.fullTitle}}
         </h1>
-        <div class="margin-bottom-24">
+        <!-- <div class="margin-bottom-24">
           <p>
             <strong class="blue">Target date: </strong>
             {{.Site.Data.research.featuredProject.projectSoup.date}}
           </p>
-        </div>
-        <a href="{{.Site.Data.research.featuredProject.projectSoup.surveyLink}}" class="button margin-bottom-48">
-          Answer the survey
-        </a>
-        <h3 class="gray margin-bottom-12 font-size-16">
-          About this paper
-        </h3>
-        <p class="margin-bottom-32 description">
-          {{.Site.Data.research.featuredProject.projectSoup.description}}
-        </p>
+        </div> -->
+
+        <h3 class="gray margin-bottom-12 font-size-16">About the survey</h3>
+        {{range .Site.Data.research.featuredProject.projectSoup.description}}
+        <p class="margin-bottom-32 description">{{.}}</p>
+        {{end}}
+
+        <h3>As a thank you for your time and participation in the survey,</h3>
+        <ul class="participation">
+          {{range .Site.Data.research.featuredProject.projectSoup.participation}}
+          <li>{{.}}</li>
+          {{end}}
+        </ul>
+        <!-- <h1 class="font-size-32 margin-bottom-12">
+          {{.Site.Data.research.featuredProject.projectSoup.surveyTitle}}
+        </h1> -->
+
         <div class="d-flex">
           <div class="margin-right-16">
             <em class="font-size-12 font-weight-bold blue"> Keywords: </em>
           </div>
+
           <div>
             {{range .Site.Data.research.featuredProject.projectSoup.keywords}}
             <div class="chip margin-right-4 margin-bottom-4">
@@ -47,10 +71,26 @@
             {{end}}
           </div>
         </div>
+        <p class="margin-y-24">
+          The survey takes about <b>6 minutes to complete. </b>
+        </p>
+        <a
+          href="{{.Site.Data.research.featuredProject.projectSoup.surveyLink}}"
+          class="button"
+        >
+          Take the survey
+        </a>
       </div>
     </div>
   </div>
 </header>
+
+<style>
+  ul.participation li {
+    line-height: var(--value-32);
+    margin-bottom: var(--value-12);
+  }
+</style>
 
 <link rel="stylesheet" type="text/css" href="../css/chip.css" />
 <link rel="stylesheet" type="text/css" href="../css/research.css" />
