@@ -33,16 +33,8 @@
         "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
       ],
       "socials": [
-        {
-          "name": "Twitter",
-          "link": "https://www.twitter.com/jrdndj",
-          "icon": "fab fa-twitter"
-        },
-        {
-          "name": "Github",
-          "link": "http://github.com/jrdndj",
-          "icon": "fab fa-github"
-        }
+        "<a href=\"https://www.linkedin.com/in/jrdndj/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+        "<a href=\"https://www.twitter.com/jrdndj/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
       ],
       "image": "assets/team/jordan.jpeg"
     },
@@ -50,19 +42,11 @@
       "name": "Din San Diego",
       "position": "UX Researcher",
       "bio": [
-        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
+        "Din is a content strategist specializing in content development and management. She is currently learning more about UX research within the organization and helping out in the events team!",
+        "An avid learner, she enjoys ideating alongside teams, presenting concepts through decks, pairing non-fiction + fiction books, and creating mixtapes for special occasions."
       ],
       "socials": [
-        {
-          "name": "Twitter",
-          "link": "https://www.twitter.com/jrdndj",
-          "icon": "fab fa-twitter"
-        },
-        {
-          "name": "Github",
-          "link": "http://github.com/jrdndj",
-          "icon": "fab fa-github"
-        }
+        "<a href=\"https://www.linkedin.com/in/claudinesandiego/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
       ],
       "image": "assets/team/claudine.png"
     },
@@ -70,19 +54,10 @@
       "name": "Janyl Tamayo",
       "position": "UX Researcher",
       "bio": [
-        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
+        "Janyl is an Experience Designer from Vancouver, currently crafting human-centric experiences at a Fintech startup to make payments simple for SMEs. Gets chatty when she's tea high and is a recovering skincare addict."
       ],
       "socials": [
-        {
-          "name": "Twitter",
-          "link": "https://www.twitter.com/jrdndj",
-          "icon": "fab fa-twitter"
-        },
-        {
-          "name": "Github",
-          "link": "http://github.com/jrdndj",
-          "icon": "fab fa-github"
-        }
+        "<a href=\"https://www.linkedin.com/in/janyltamayo/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
       ],
       "image": "assets/team/janyl.jpg"
     },
@@ -90,19 +65,11 @@
       "name": "Charlotte Mae Efren",
       "position": "UX Researcher",
       "bio": [
-        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
+        "Charlotte is a UX/UI Designer, Front-end Developer, and Co-Founder at MokuTek. She has two master's degrees, one in Applied Design and one in Information Systems.",
+        "She gets involved in various projects - educational, volunteer groups, and hackathons - trying anything in tech and design that connects her to people. Outside work she's learning Japanese and Mandarin, loves Anime, and likes to draw."
       ],
       "socials": [
-        {
-          "name": "Twitter",
-          "link": "https://www.twitter.com/jrdndj",
-          "icon": "fab fa-twitter"
-        },
-        {
-          "name": "Github",
-          "link": "http://github.com/jrdndj",
-          "icon": "fab fa-github"
-        }
+        "<a href=\"https://www.linkedin.com/in/charlotteefren/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
       ],
       "image": "assets/team/cha.jpg"
     },
@@ -110,19 +77,10 @@
       "name": "Jen Teves",
       "position": "UX Researcher",
       "bio": [
-        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
+        "Jen is currently the Director for CX Research at Best Buy after her stints at other Fortune 100 companies in the US as a UX Researcher & Human Factors Scientist. She loves being in the company of learners that's why she also teaches graduate classes in UX Design at Kent State University's School of Information. Jen's not-so-secret passion is exploring the applications of design and psychology in nation-building, social programs, and counter-insurgency strategy."
       ],
       "socials": [
-        {
-          "name": "Twitter",
-          "link": "https://www.twitter.com/jrdndj",
-          "icon": "fab fa-twitter"
-        },
-        {
-          "name": "Github",
-          "link": "http://github.com/jrdndj",
-          "icon": "fab fa-github"
-        }
+        "<a href=\"https://www.linkedin.com/in/jenniferteves/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
       ],
       "image": "assets/team/jen.jpg"
     }
