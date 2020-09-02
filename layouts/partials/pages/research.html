@@ -1,96 +1,89 @@
-<header
-  class="padding-y-96"
-  id="homepage-header"
-  style="
-    background-color: white;
-    background-image: url(../assets/images/projects/cover_elements.svg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-  "
->
+<header class="padding-y-128" style="background-color: white;
+  background-image: url(../assets/images/projects/cover_elements.svg);
+  background-repeat: no-repeat;
+  background-size: cover;">
   <div class="wrapper">
-    <!-- <div class="d-flex justify-content-between" id="featured-project">
-      <div class="min-width-256 margin-right-32">
-        <img
-          src="{{.Site.Data.research.featuredProject.projectSoup.squareImg}}"
-          class="width-256 height-256 d-block featured-image shadow"
-          alt="{{.Site.Data.research.featuredProject.projectSoup.title}}"
-          style="position: sticky; top: 100px"
-        />
-      </div> -->
-      <div>
-        <!-- <h3 class="gray margin-bottom-12">
-          {{.Site.Data.research.featuredProject.projectSoup.title}}
-        </h3> -->
-        <h1 class="font-size-32 margin-bottom-12">About UXPH Research</h1>
-        <p class="margin-bottom-32 description">
-          We are a group of researchers who wish to understand the UX landscape
-          in the Philippine context. We envision ourselves to be the foremost
-          source of reports and trends that describe how UX is immersed in
-          various industries in the country. Our mission is to empower Filipinos
-          to use data-driven approaches in designing solutions to address
-          problems and pain points in our nation.
-        </p>
-        <h1 class="font-size-32 margin-bottom-12">
-          {{.Site.Data.research.featuredProject.projectSoup.fullTitle}}
-        </h1>
-        <!-- <div class="margin-bottom-24">
-          <p>
-            <strong class="blue">Target date: </strong>
-            {{.Site.Data.research.featuredProject.projectSoup.date}}
-          </p>
-        </div> -->
-
-        <h3 class="gray margin-bottom-12 font-size-16">About the survey</h3>
-        {{range .Site.Data.research.featuredProject.projectSoup.description}}
-        <p class="margin-bottom-32 description">{{.}}</p>
-        {{end}}
-
-        <h3>As a thank you for your time and participation in the survey,</h3>
-        <ul class="participation">
-          {{range .Site.Data.research.featuredProject.projectSoup.participation}}
-          <li>{{.}}</li>
-          {{end}}
-        </ul>
-        <!-- <h1 class="font-size-32 margin-bottom-12">
-          {{.Site.Data.research.featuredProject.projectSoup.surveyTitle}}
-        </h1> -->
-
-        <div class="d-flex">
-          <div class="margin-right-16">
-            <em class="font-size-12 font-weight-bold blue"> Keywords: </em>
-          </div>
-
-          <div>
-            {{range .Site.Data.research.featuredProject.projectSoup.keywords}}
-            <div class="chip margin-right-4 margin-bottom-4">
-              <small> {{.}} </small>
-            </div>
-            {{end}}
-          </div>
-        </div>
-        <p class="margin-y-24">
-          The survey takes about <b>6 minutes to complete. </b>
-        </p>
-        <a
-          href="{{.Site.Data.research.featuredProject.projectSoup.surveyLink}}"
-          class="button"
-        >
-          Take the survey
-        </a>
-      </div>
+    <img src="../assets/images/projects//uxph_rp_light.svg" style="width: 350px; margin: auto; display: block;"
+      alt="UXPH Research Logo" />
+    <div class="padding-top-24 text-center">
+      <p class="padding-x-192">
+        Welcome to the Philippines' largest community of individuals
+        passionate about the realm of UX (User Experience), and all things
+        related.
+      </p>
+      <a class="button research text-center margin-top-24" href="#">
+        BE A CONTRIBUTOR
+      </a>
     </div>
   </div>
 </header>
 
+<section class="padding-y-128">
+  <div class="wrapper">
+    <div id="current-event-overlap"
+      class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 w-100 d-flex space-between">
+      {{ range .Site.Data.research.featuredProject }}
+      <div>
+        <h3 class="text-secondary margin-bottom-8">Featured Project</h3>
+        <h2 class="text-dark margin-bottom-24">{{ .fullTitle }}</h2>
+        <p class="text-dark margin-bottom-24 description font-size-16">{{ .shortDescription }}</p>
+        <div>
+          {{ if eq .finished true }}
+          <a href="{{ .download_url }}" target="_blank"
+            class="button research padding-x-24 padding-y-12 margin-right-8">
+            Download Report
+          </a>
+          {{ else }}
+          <a href="{{ .survey_url }}" class="button research padding-x-24 padding-y-12 margin-right-8" target="blank">
+            Take the Survey
+          </a>
+          {{ end }}
+          <a class="button research outline unselected padding-x-24 padding-y-12" href="{{ .page_url }}">
+            Read More
+          </a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
 <style>
-  ul.participation li {
-    line-height: var(--value-32);
-    margin-bottom: var(--value-12);
+  .featured-project {
+    background: linear-gradient(95.16deg, #ffb800 -6.06%, #ce0000 105.37%);
+    border-radius: 8px;
+  }
+
+  .featured-project .center-line {
+    background-color: white;
+    height: 130px;
+    width: 5px;
+  }
+
+  .featured-project .short-info {
+    height: 90px;
+    width: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .featured-project .short-info p {
+    margin-left: var(--value-32);
+    text-overflow: ellipsis;
+  }
+
+  button.white,
+  .button.white {
+    border-color: white !important;
+    background-color: white;
+    color: var(--uxph-red-2);
+  }
+
+  button.white:hover,
+  .button.white:hover {
+    background-color: var(--main-gray);
+    border-color: var(--main-gray) !important;
+    box-shadow: 0px 0px 0px var(--main-gray);
+    transform: translate(0px, 3px);
   }
 </style>
-
-<link rel="stylesheet" type="text/css" href="../css/chip.css" />
-<link rel="stylesheet" type="text/css" href="../css/research.css" />

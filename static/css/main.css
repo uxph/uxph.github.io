@@ -148,7 +148,7 @@ button,
   border-style: none;
   padding: var(--value-12) var(--value-24);
   font-family: "Roboto", sans-serif;
-  border: thin solid var(--main-blue);
+  border: 2px solid var(--main-blue) !important;
   border-width: 1.5px;
   transition: ease all 0.3s;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
@@ -168,7 +168,7 @@ button.no-shadow,
 button:hover,
 .button:hover {
   background-color: var(--main-blue-dark);
-  border-color: var(--main-blue-dark);
+  border-color: var(--main-blue-dark) !important;
   box-shadow: 0px 0px 0px var(--main-blue-dark);
   transform: translate(0px, 3px);
 }
@@ -196,6 +196,34 @@ button.tertiary:hover,
 .button.tertiary:hover {
   background-color: var(--main-gray);
   border-color: var(--main-gray);
+}
+
+button.research,
+.button.research {
+  border-color: var(--uxph-red-2) !important;
+  background-color: var(--uxph-red-2);
+}
+
+button.research:hover,
+.button.research:hover {
+  background-color: var(--uxph-red-1);
+  border-color: var(--uxph-red-1) !important;
+  box-shadow: 0px 0px 0px var(--uxph-red-1);
+  transform: translate(0px, 3px);
+}
+
+button.research.outline,
+.button.research.outline {
+  border-color: var(--uxph-red-2) !important;
+  background-color: transparent;
+  color: var(--uxph-red-2);
+}
+button.research.outline:hover,
+.button.research.outline:hover {
+  border-color: var(--uxph-red-1) !important;
+  background-color: transparent;
+  color: var(--uxph-red-1);
+  transform: translate(0px, 3px);
 }
 
 div.wrapper {

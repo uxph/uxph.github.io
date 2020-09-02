@@ -1,7 +1,12 @@
 {{ partial "components/modal" (dict "path" "../") }}
 <header class="padding-y-64">
   <div class="wrapper">
-    <h2 class="font-weight-bold">About UXPH Research</h2>
+    <div class="d-flex align-items-center margin-bottom-32">
+      <h1 class="font-weight-bold blue">
+        About
+      </h1>
+      <img src="../assets/logo/uxph_research_logo.svg" class="width-256 margin-left-12" />
+    </div>
     <p class="margin-y-24">
       The objective of the UXPH Research team is to leverage existing
       industry-academe connection in gaining better understanding of the UX
@@ -61,7 +66,7 @@
         </div>
         {{ end }}
       </div>
-  </div>
+    </div>
 </section>
 
 <style>
@@ -110,11 +115,12 @@
     color: blue;
     cursor: pointer;
   }
+
   .read-more:hover {
     text-decoration: underline;
   }
 
-  .team-feed > div {
+  .team-feed>div {
     flex: 0 25%;
   }
 </style>

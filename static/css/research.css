@@ -2,6 +2,26 @@
   border-radius: var(--value-8);
 }
 
+p {
+  color: #333333;
+}
+
+blockquote {
+  background-color: #f3f3f3;
+  border-radius: var(--value-4);
+  border-left: var(--value-4) solid var(--uxph-red-2);
+  margin: var(--value-24) 0;
+  padding: var(--value-16) var(--value-24);
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+ul.survey li {
+  line-height: var(--value-32);
+  margin-bottom: var(--value-16);
+}
 @media only screen and (max-width: 414px) {
   /* homepage */
   #homepage-header {
