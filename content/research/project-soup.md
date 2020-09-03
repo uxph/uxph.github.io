@@ -16,8 +16,8 @@ active: 5
   background-size: contain;"
 >
   <div class="wrapper">
-    <a href="/research" class="button research outline margin-bottom-48">
-      <i class="fas fa-arrow-left"></i> &nbsp; Back to research
+    <a href="/research" class="button outline margin-bottom-48">
+      <i class="fas fa-arrow-left"></i> &nbsp; Back to Research Page
     </a>
     <h1 class="margin-bottom-32 text-dark">State of UX in The Philippines Report</h1>
     <div class="margin-bottom-96">
@@ -57,7 +57,8 @@ active: 5
         </li>
       </ul>
       <p>The survey takes about <b>5-10 minutes to complete.</b></p>
-      <a href="https://www.surveymonkey.com/r/thesoup2020" class="button research padding-x-24 padding-y-12 margin-right-8 margin-top-16" target="blank">
+      <a href="https://www.surveymonkey.com/r/thesoup2020" class="button padding-x-24 
+      font-size-16 padding-y-12 margin-right-8 margin-top-32" target="blank">
         Take the Survey
       </a>
     </div>

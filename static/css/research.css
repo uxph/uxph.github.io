@@ -9,7 +9,7 @@ p {
 blockquote {
   background-color: #f3f3f3;
   border-radius: var(--value-4);
-  border-left: var(--value-4) solid var(--uxph-red-2);
+  border-left: var(--value-4) solid var(--uxph-blue-2);
   margin: var(--value-24) 0;
   padding: var(--value-16) var(--value-24);
 }

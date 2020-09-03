@@ -12,9 +12,9 @@
         the country. Our mission is to empower Filipinos to use data-driven approaches in designing solutions to address
         problems and pain points in our nation.
       </p>
-      <a class="button research text-center margin-top-24" href="#">
+      <!-- <a class="button research text-center margin-top-24" href="#">
         BE A CONTRIBUTOR
-      </a>
+      </a> -->
     </div>
   </div>
 </header>
@@ -31,15 +31,15 @@
         <div>
           {{ if eq .finished true }}
           <a href="{{ .download_url }}" target="_blank"
-            class="button research padding-x-24 padding-y-12 margin-right-8">
+            class="button padding-x-24 padding-y-12 margin-right-8">
             Download Report
           </a>
           {{ else }}
-          <a href="{{ .survey_url }}" class="button research padding-x-24 padding-y-12 margin-right-8" target="blank">
+          <a href="{{ .survey_url }}" class="button padding-x-24 padding-y-12 margin-right-8" target="blank">
             Take the Survey
           </a>
           {{ end }}
-          <a class="button research outline unselected padding-x-24 padding-y-12" href="{{ .page_url }}">
+          <a class="button outline unselected padding-x-24 padding-y-12" href="{{ .page_url }}">
             Read More
           </a>
         </div>
