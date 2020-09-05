@@ -22,7 +22,17 @@ ul.survey li {
   line-height: var(--value-32);
   margin-bottom: var(--value-16);
 }
+.hero-research p{
+  padding-right: var(--value-96) !important;
+  padding-left: var(--value-96) !important;
+
+}
 @media only screen and (max-width: 414px) {
+  .hero-research p{
+    padding-right: var(--value-24) !important;
+    padding-left: var(--value-24) !important;
+
+  }
   /* homepage */
   #homepage-header {
     padding-top: var(--value-64) !important;
