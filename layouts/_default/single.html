@@ -1,119 +1,166 @@
 {{ if eq .Type "single" }}
-	<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ .Title }} - {{ .Site.Data.info.site_name }}</title>
-			{{ partial "components/meta" (dict "path" "../") }}
-		</head>
-		<body>
-			{{ partial "components/nav" (dict "path" "../") }}
-			{{ partial .Params.page . }}
-			{{ partial "components/footer" (dict "path" "../")  }}
+<!DOCTYPE html>
+<html>
 
-			<!-- Load Facebook SDK for JavaScript -->
-      		<div id="fb-root"></div>
-			<script>
-				window.fbAsyncInit = function() {
-				FB.init({
-				xfbml            : true,
-				version          : 'v6.0'
-				});
-				};
+<head>
+  <title>{{ .Title }} - {{ .Site.Data.info.site_name }}</title>
+  {{ partial "components/meta" (dict "path" "../") }}
+</head>
 
-				(function(d, s, id) {
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) return;
-				js = d.createElement(s); js.id = id;
-				js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-				fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-			</script>
+<body>
+  {{ partial "components/nav" (dict "path" "../") }}
+  {{ partial .Params.page . }}
+  {{ partial "components/footer" (dict "path" "../")  }}
 
-			<!-- Your customer chat code -->
-			<div class="fb-customerchat"
-			attribution=setup_tool
-			page_id="314394185432326"
-			theme_color="#15B0DE">
-			</div>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v6.0'
+      });
+    };
 
-			<script type="text/javascript">setActive({{ .Params.active }})</script>
-		</body>
-	</html>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="314394185432326" theme_color="#15B0DE">
+  </div>
+
+  <script type="text/javascript">setActive({{ .Params.active }})</script>
+</body>
+
+</html>
+{{ end }}
+
+{{ if eq .Type "research" }}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ .Title }} - {{ .Site.Data.info.site_name }}</title>
+  {{ partial "components/meta" (dict "path" "../../") }}
+</head>
+
+<body>
+  {{ partial "components/nav" (dict "path" "../../") }}
+  {{ .Content }}
+  {{ partial "components/footer" (dict "path" "../../")  }}
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v6.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="314394185432326" theme_color="#15B0DE">
+  </div>
+
+  <script type="text/javascript">setActive({{ .Params.active }})</script>
+</body>
+
+</html>
 {{ end }}
 
 {{ if or (eq .Type "blog") (eq .Type "event") }}
-	<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ .Title }} - {{ .Site.Data.info.site_name }}</title>
-			{{ partial "components/meta" (dict "path" "../../") }}
-		</head>
-		<body>
-			{{ partial "components/nav" (dict "path" "../../") }}
+<!DOCTYPE html>
+<html>
 
-			{{ if eq .Params.header "video" }}
-				<header class="bg-dark">
-					<iframe src="{{ .Params.cover }}" height="560" style="border:none;overflow:hidden; margin: auto; display: block; width: 100%" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-				</header>
-			{{ end }}
+<head>
+  <title>{{ .Title }} - {{ .Site.Data.info.site_name }}</title>
+  {{ partial "components/meta" (dict "path" "../../") }}
+</head>
 
-			{{ if eq .Params.header "photo" }}
-				<header style="height: 560px; background: url({{ .Params.cover }}); background-size: cover; background-position: center;"></header>
-			{{ end }}
+<body>
+  {{ partial "components/nav" (dict "path" "../../") }}
 
-			<section class="padding-y-96">
-				<div class="wrapper">
-					<div class="margin-bottom-32">
-						<h1 class="margin-bottom-8">{{ .Title }}</h1>
-						<h3>{{ .Params.publish }}</h3>
-					</div>
-					<div id="blog-content">
-						{{ .Content }}
-					</div>
-					<br/><br/>
-					{{ if eq .Type "event" }}
-						<a href="/events" class="button outline">
-							<i class="fas fa-arrow-left"></i> &nbsp; Back to events
-						</a>
-					{{ end }}
+  {{ if eq .Params.header "video" }}
+  <header class="bg-dark">
+    <iframe src="{{ .Params.cover }}" height="560"
+      style="border:none;overflow:hidden; margin: auto; display: block; width: 100%" scrolling="no" frameborder="0"
+      allowTransparency="true" allowFullScreen="true"></iframe>
+  </header>
+  {{ end }}
 
-					{{ if eq .Type "blog" }}
-						<a href="/blog" class="button outline">
-							<i class="fas fa-arrow-left"></i> &nbsp; Back to blogs
-						</a>
-					{{ end }}
-					<br/>
-				</div>
-			</section>
-			{{ partial "components/footer" (dict "path" "../../")  }}
+  {{ if eq .Params.header "photo" }}
+  <header
+    style="height: 560px; background: url({{ .Params.cover }}); background-size: cover; background-position: center;">
+  </header>
+  {{ end }}
 
-			<!-- Load Facebook SDK for JavaScript -->
-      		<div id="fb-root"></div>
-			<script>
-				window.fbAsyncInit = function() {
-				FB.init({
-				xfbml            : true,
-				version          : 'v6.0'
-				});
-				};
+  <section class="padding-y-96">
+    <div class="wrapper">
+      <div class="margin-bottom-32">
+        <h1 class="margin-bottom-8">{{ .Title }}</h1>
+        <h3>{{ .Params.publish }}</h3>
+      </div>
+      <div id="blog-content">
+        {{ .Content }}
+      </div>
+      <br /><br />
+      {{ if eq .Type "event" }}
+      <a href="/events" class="button outline">
+        <i class="fas fa-arrow-left"></i> &nbsp; Back to events
+      </a>
+      {{ end }}
 
-				(function(d, s, id) {
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) return;
-				js = d.createElement(s); js.id = id;
-				js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-				fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-			</script>
+      {{ if eq .Type "blog" }}
+      <a href="/blog" class="button outline">
+        <i class="fas fa-arrow-left"></i> &nbsp; Back to blogs
+      </a>
+      {{ end }}
+      <br />
+    </div>
+  </section>
+  {{ partial "components/footer" (dict "path" "../../")  }}
 
-			<!-- Your customer chat code -->
-			<div class="fb-customerchat"
-			attribution=setup_tool
-			page_id="314394185432326"
-			theme_color="#15B0DE">
-			</div>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v6.0'
+      });
+    };
 
-			<script type="text/javascript">setActive({{ .Params.active }})</script>
-		</body>
-	</html>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="314394185432326" theme_color="#15B0DE">
+  </div>
+
+  <script type="text/javascript">setActive({{ .Params.active }})</script>
+</body>
+
+</html>
 {{ end }}

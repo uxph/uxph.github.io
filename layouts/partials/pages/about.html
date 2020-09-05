@@ -1,94 +1,104 @@
 <!-- About page -->
 <header id="about-header" class="bg-light padding-top-64 padding-bottom-192 auto-hidden">
-	<div class="wrapper">
-		<div class="w-100" id="about-uxph-content">
-			<h1 class="margin-bottom-32 text-white">About UXPH</h1>
-			{{ range .Site.Data.info.about_us }}
-				<p class="margin-bottom-16 text-white">{{ . }}</p>
-			{{ end }}
-			<div class="d-flex fb-buttons">
-				<a href="https://www.facebook.com/uxphofficial/" target="_blank" class="button margin-right-4">
-					<i class="fab fa-facebook-f"></i>
-					&nbsp;Join The Facebook Group
-				</a>
-				<a href="https://www.facebook.com/groups/uxphofficial/" target="_blank" class="button">
-					<i class="fab fa-facebook-f"></i>
-					&nbsp;Facebook Page
-				</a>
-			</div>
-		</div>
-	</div>
+  <div class="wrapper">
+    <div class="w-100" id="about-uxph-content">
+      <h1 class="margin-bottom-32 text-white">About UXPH</h1>
+      {{ range .Site.Data.info.about_us }}
+      <p class="margin-bottom-16 text-white">{{ . }}</p>
+      {{ end }}
+      <div class="d-flex fb-buttons">
+        <a href="https://www.facebook.com/uxphofficial/" target="_blank" class="button margin-right-4">
+          <i class="fab fa-facebook-f"></i>
+          &nbsp;Join The Facebook Group
+        </a>
+        <a href="https://www.facebook.com/groups/uxphofficial/" target="_blank" class="button">
+          <i class="fab fa-facebook-f"></i>
+          &nbsp;Facebook Page
+        </a>
+      </div>
+    </div>
+  </div>
 </header>
 
 <section id="what-we-do" class="padding-bottom-96 position-relative auto-hidden">
 
-	<img src="../assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" alt="" />
-	<div class="wrapper">
-		<div id="mission-vision-overlap" class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 w-100 d-flex space-between">
-			<div id="mission" class="w-50 margin-right-16">
-				<h2 class="margin-bottom-12">Mission</h2>
-				<p>{{ .Site.Data.info.mission }}</p>
-			</div>
-			<div id="vision" class="w-50 margin-left-16">
-				<h2 class="margin-bottom-12">Vision</h2>
-				<p>{{ .Site.Data.info.vision }}</p>
-			</div>
-		</div>
-	</div>
+  <img src="../assets/visuals/link-blue.svg" class="visuals width-192" id="link-blue-1" alt="" />
+  <div class="wrapper">
+    <div id="mission-vision-overlap"
+      class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 w-100 d-flex space-between">
+      <div id="mission" class="w-50 margin-right-16">
+        <h2 class="margin-bottom-12">Mission</h2>
+        <p>{{ .Site.Data.info.mission }}</p>
+      </div>
+      <div id="vision" class="w-50 margin-left-16">
+        <h2 class="margin-bottom-12">Vision</h2>
+        <p>{{ .Site.Data.info.vision }}</p>
+      </div>
+    </div>
+  </div>
 
-	<div class="wrapper organization-initiatives">
-		<h1 class="margin-bottom-32 margin-top-96">Organization Initiatives</h1>
-		<div class="d-flex justify-content-between margin-bottom-48 ">
-			<div class = "mr-3 w-50 margin-bottom-32 what-we-do-item">
-				<div style="background: url(https://lh3.googleusercontent.com/pw/ACtC-3fJjKIo05iZQWb8W3phY_tdaUXOymNlBcrIue4PNTTxKVuXY3x7zqKBMKx0EdjsDOlIIBwjxuCIYNKPUQlXZFfylk51BBVR2LZddL2P-sP9F81NMPQ53YzvVg1ifOYhD1B_Onno7OGMb5vfsQUW6Ic=w960-h720-no?authuser=0); background-size: cover; background-position: center;" class="border-radius-12 bg-secondary margin-right-32 featured-image d-block w-100 border-radius-12"></div>
-				<h2 class="margin-bottom-16 margin-top-32">Monthly Meetups</h2>
-				<p class="margin-bottom-24">{{ .Site.Data.info.monthly_meetups }}</p>
-				<a href="/events" class="button outline">View our events</a>
+  <div class="wrapper organization-initiatives">
+    <h1 class="margin-bottom-32 margin-top-96">Organization Initiatives</h1>
+    <div class="d-flex justify-content-between margin-bottom-48 ">
+      <div class="mr-3 w-50 margin-bottom-32 what-we-do-item">
+        <div
+          style="background: url(https://lh3.googleusercontent.com/pw/ACtC-3fJjKIo05iZQWb8W3phY_tdaUXOymNlBcrIue4PNTTxKVuXY3x7zqKBMKx0EdjsDOlIIBwjxuCIYNKPUQlXZFfylk51BBVR2LZddL2P-sP9F81NMPQ53YzvVg1ifOYhD1B_Onno7OGMb5vfsQUW6Ic=w960-h720-no?authuser=0); background-size: cover; background-position: center;"
+          class="border-radius-12 bg-secondary margin-right-32 featured-image d-block w-100 border-radius-12"></div>
+        <h2 class="margin-bottom-16 margin-top-32">Monthly Meetups</h2>
+        <p class="margin-bottom-24">{{ .Site.Data.info.monthly_meetups }}</p>
+        <a href="/events" class="button outline">View our events</a>
 
-			</div>
-			<div class = "mr-3 w-50 margin-bottom-32 what-we-do-item">
-				<div style="background: url(https://lh3.googleusercontent.com/pw/ACtC-3cJiKGCPMxYJiN_M6ukKFfsZSeY58O6oaQyzbB7-sBqo8y0Cryzat-DSRU2QXCAe9ON3nsSCjZPYv7qfnCm2scodVJZQ1i1HPj7rBws0twca4FdoIU68j6jTG7TEgPwigzDL5coO75xMJKQ4vUtbPA=w2048-h1365-no?authuser=1); background-size: cover; background-position: center;" class="border-radius-12 bg-secondary margin-right-32 featured-image d-block w-100 border-radius-12"></div>
-				<h2 class="margin-bottom-16 margin-top-32">Design Conferences</h2>
-				<p class="margin-bottom-24">{{ .Site.Data.info.conferences }}</p>
-				<a href="https://roadshow.uxph.org" target="blank" class="button outline">Visit UXPH Roadshow</a>
-			</div>
-		</div>
-	</div>
-	<div class="wrapper organization-initiatives">
-		<div class="d-flex justify-content-between margin-bottom-48">
-			<div class = "mr-3 w-50 margin-bottom-32 what-we-do-item">
-				<div style="background: url(https://lh3.googleusercontent.com/pw/ACtC-3cuiapF9LUvKfqy6vCUm5dQiqS79xwJ4phGrYMLs-96Y10hSwYjiVn8L1VHVYSAb8eDBiTegSFGhxfmvt0n3KqNT35O-LaA6t8AZDcVa_cvvH4BF8HBqxEVOkAcvWWjJoA0Nh_XI8-7XViuw757nZE=w2048-h1365-no?authuser=1); background-size: cover; background-position: center;" class="border-radius-12 bg-secondary margin-right-32 featured-image d-block w-100 border-radius-12"></div>
-				<h2 class="margin-bottom-16 margin-top-32">UX Bootcamp (Coming Soon)</h2>
-				<p class="margin-bottom-24">{{ .Site.Data.info.bootcamp }}</p>
-				<!-- <button class="outline">View our UX Bootcamp</button> -->
-			</div>
-			<div class = "mr-3 w-50 margin-bottom-32 what-we-do-item">
-				<div style="background: url(https://lh3.googleusercontent.com/pw/ACtC-3e7TAdeqsFMgi6ltzOQ_LbLc8o3cmT0VUX4dSlIrYjoJxuQ0gU24VT7kxV4jlZb2FiB2JQTqhgs45qIbD0NnIQzz0o_d75y_8iIxWfskoc1PzLbW91YawY-vVCmecLrMzoYU56dgvROlZHE4MVFORc=w2048-h1365-no?authuser=1); background-size: cover; background-position: center;" class="border-radius-12 bg-secondary margin-right-32 featured-image d-block w-100 border-radius-12"></div>
-				<h2 class="margin-bottom-16 margin-top-32">Design Mentorship</h2>
-				<p class="margin-bottom-24">{{ .Site.Data.info.mentorship }}</p>
-				<!-- <button class="outline">View our mentorship programs</button> -->
-			</div>
-		</div>
-	</div>
-	<img src="../assets/visuals/link-red.svg" class="visuals width-192" id="link-red-1" alt="" />
+      </div>
+      <div class="mr-3 w-50 margin-bottom-32 what-we-do-item">
+        <div
+          style="background: url(https://lh3.googleusercontent.com/pw/ACtC-3cJiKGCPMxYJiN_M6ukKFfsZSeY58O6oaQyzbB7-sBqo8y0Cryzat-DSRU2QXCAe9ON3nsSCjZPYv7qfnCm2scodVJZQ1i1HPj7rBws0twca4FdoIU68j6jTG7TEgPwigzDL5coO75xMJKQ4vUtbPA=w2048-h1365-no?authuser=1); background-size: cover; background-position: center;"
+          class="border-radius-12 bg-secondary margin-right-32 featured-image d-block w-100 border-radius-12"></div>
+        <h2 class="margin-bottom-16 margin-top-32">Design Conferences</h2>
+        <p class="margin-bottom-24">{{ .Site.Data.info.conferences }}</p>
+        <a href="https://roadshow.uxph.org" target="blank" class="button outline">Visit UXPH Roadshow</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper organization-initiatives">
+    <div class="d-flex justify-content-between margin-bottom-48">
+      <div class="mr-3 w-50 margin-bottom-32 what-we-do-item">
+        <div
+          style="background: url(https://lh3.googleusercontent.com/pw/ACtC-3cuiapF9LUvKfqy6vCUm5dQiqS79xwJ4phGrYMLs-96Y10hSwYjiVn8L1VHVYSAb8eDBiTegSFGhxfmvt0n3KqNT35O-LaA6t8AZDcVa_cvvH4BF8HBqxEVOkAcvWWjJoA0Nh_XI8-7XViuw757nZE=w2048-h1365-no?authuser=1); background-size: cover; background-position: center;"
+          class="border-radius-12 bg-secondary margin-right-32 featured-image d-block w-100 border-radius-12"></div>
+        <h2 class="margin-bottom-16 margin-top-32">UX Bootcamp (Coming Soon)</h2>
+        <p class="margin-bottom-24">{{ .Site.Data.info.bootcamp }}</p>
+        <!-- <button class="outline">View our UX Bootcamp</button> -->
+      </div>
+      <div class="mr-3 w-50 margin-bottom-32 what-we-do-item">
+        <div
+          style="background: url(https://lh3.googleusercontent.com/pw/ACtC-3e7TAdeqsFMgi6ltzOQ_LbLc8o3cmT0VUX4dSlIrYjoJxuQ0gU24VT7kxV4jlZb2FiB2JQTqhgs45qIbD0NnIQzz0o_d75y_8iIxWfskoc1PzLbW91YawY-vVCmecLrMzoYU56dgvROlZHE4MVFORc=w2048-h1365-no?authuser=1); background-size: cover; background-position: center;"
+          class="border-radius-12 bg-secondary margin-right-32 featured-image d-block w-100 border-radius-12"></div>
+        <h2 class="margin-bottom-16 margin-top-32">Design Mentorship</h2>
+        <p class="margin-bottom-24">{{ .Site.Data.info.mentorship }}</p>
+        <!-- <button class="outline">View our mentorship programs</button> -->
+      </div>
+    </div>
+  </div>
+  <img src="../assets/visuals/link-red.svg" class="visuals width-192" id="link-red-1" alt="" />
 </section>
 
 <style>
-	.about-image{
-		background-color: #c4c4c4;
-		height: 350px;
-		border-radius: 20px;
-	}
+  .about-image {
+    background-color: #c4c4c4;
+    height: 350px;
+    border-radius: 20px;
+  }
 
-	i{
-		margin-right: 0.25em;
-	}
-	#what-we-do {
-		background: url(../assets/visuals/ph-map-gray.png);
-		background-size: 500px;
-		background-repeat: no-repeat;
-		background-position: right;
-	}
+  i {
+    margin-right: 0.25em;
+  }
+
+  #what-we-do {
+    background: url(../assets/visuals/ph-map-gray.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
 </style>
 
 <link rel="stylesheet" type="text/css" href="../css/about.css" />

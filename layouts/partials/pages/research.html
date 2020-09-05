@@ -1,0 +1,90 @@
+<header class="padding-y-128 padding-bottom-256" style="background-color: #fafafa;
+  background-image: url(../assets/images/projects/soup2020/research_cover_elements.svg);
+  background-repeat: no-repeat;
+  background-size: cover;">
+  <div class="wrapper">
+    <img src="../assets/images/projects//uxph_rp_light.svg" style="width: 350px; margin: auto; display: block;"
+      alt="UXPH Research Logo" />
+    <div class="padding-top-24 text-center">
+      <p class="padding-x-96">
+        We are a group of researchers who wish to understand the UX landscape in the Philippine context. We envision
+        ourselves to be the foremost source of reports, trends that describe how UX is immersed in various industries in
+        the country. Our mission is to empower Filipinos to use data-driven approaches in designing solutions to address
+        problems and pain points in our nation.
+      </p>
+      <!-- <a class="button research text-center margin-top-24" href="#">
+        BE A CONTRIBUTOR
+      </a> -->
+    </div>
+  </div>
+</header>
+
+<section class="padding-y-128">
+  <div class="wrapper">
+    <div id="featured-research-overlap"
+      class="bg-white border-radius-12 shadow padding-y-32 padding-x-32 w-100 d-flex space-between">
+      {{ range .Site.Data.research.featuredProject }}
+      <div>
+        <h3 class="text-secondary margin-bottom-8">Featured Project</h3>
+        <h2 class="text-dark margin-bottom-24">{{ .fullTitle }}</h2>
+        <p class="text-dark margin-bottom-24 description font-size-16">{{ .shortDescription }}</p>
+        <div>
+          {{ if eq .finished true }}
+          <a href="{{ .download_url }}" target="_blank"
+            class="button padding-x-24 padding-y-12 margin-right-8">
+            Download Report
+          </a>
+          {{ else }}
+          <a href="{{ .survey_url }}" class="button padding-x-24 padding-y-12 margin-right-8" target="blank">
+            Take the Survey
+          </a>
+          {{ end }}
+          <a class="button outline unselected padding-x-24 padding-y-12" href="{{ .page_url }}">
+            Read More
+          </a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<style>
+  .featured-project {
+    background: linear-gradient(95.16deg, #ffb800 -6.06%, #ce0000 105.37%);
+    border-radius: 8px;
+  }
+
+  .featured-project .center-line {
+    background-color: white;
+    height: 130px;
+    width: 5px;
+  }
+
+  .featured-project .short-info {
+    height: 90px;
+    width: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .featured-project .short-info p {
+    margin-left: var(--value-32);
+    text-overflow: ellipsis;
+  }
+
+  button.white,
+  .button.white {
+    border-color: white !important;
+    background-color: white;
+    color: var(--uxph-red-2);
+  }
+
+  button.white:hover,
+  .button.white:hover {
+    background-color: var(--main-gray);
+    border-color: var(--main-gray) !important;
+    box-shadow: 0px 0px 0px var(--main-gray);
+    transform: translate(0px, 3px);
+  }
+</style>
