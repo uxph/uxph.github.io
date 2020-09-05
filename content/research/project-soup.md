@@ -23,7 +23,7 @@ active: 5
     <div class="margin-bottom-96">
       <h2 class="text-secondary margin-bottom-24">About</h2>
       <p>
-      The UX landscape in the Philippines is getting broader each year. The earliest UX'ers in the country began their march almost a decade ago. Since then, technological innovations and cultural paradigms both globally and locally, have called for a deeper understanding of the UX practice. In recent years, we have seen reports that attempt to understand its current state and imagine future trends. These reports, however, have been mostly done on a global or regional context.
+        The UX landscape in the Philippines is still in its nascent stages, but the need is growing more apparent and comprehensive each year. Since more than a decade ago, technological innovations and cultural paradigms have called for a deeper understanding and implementation of UX practices globally. There have been many reports that attempt to understand its current state and imagine future trends. However, have been mostly done on a global or regional context.
       </p>
       <blockquote>
         <p>
@@ -31,7 +31,10 @@ active: 5
         </p>
       </blockquote>
       <p>
-      In this research, we will do a mixed-method study to understand the UX landscape in the Philippines. First, we deploy the <b>State of UX in the Philippines Survey</b> following industry-standards through stratified sampling. Second, we will conduct <b> remote Focus Groups</b> to draw  qualitative insights about Filipino UX'ers experiences, attitudes, and beliefs. Lastly, we will scrape online data from a decade, perform analysis, and draw out extra insights at a historical perspective while applying a data-driven approach to understand trends at the local context. Target release of the report is on January 2021.
+      In this mixed-method study to understand the UX landscape in the Philippines, we are first conducting the <b>State of UX in the Philippines Survey</b> that follow industry standards through stratified sampling. <br/><br/>
+      Second, we will conduct <b>remote Focus Groups</b> to draw qualitative insights about Filipino UX practitioners' experiences, attitudes, and beliefs. <br/><br/>
+      Lastly, we will scrape online data from over a decade to analyze and draw out extra insights at a historical perspective while applying a data-driven approach to understand trends at the local context. <br/><br/>
+      The targeted release of the report is in <b> January 2021 </b>. 
       </p>
       <blockquote>
         <p>
