@@ -43,7 +43,7 @@
         <p class="text-dark margin-bottom-24 description font-size-16">
           {{ .shortDescription }}
         </p>
-        <div>
+        <div class="featured-project-buttons">
           {{ if eq .finished true }}
           <a
             href="{{ .download_url }}"
@@ -117,6 +117,9 @@
     padding-left: var(--value-96) !important;
   }
   @media only screen and (max-width: 768px) {
+    .featured-project-buttons .button.outline {
+      margin-top: var(--value-24) !important;
+    }
     .hero-research p {
       padding-right: var(--value-24) !important;
       padding-left: var(--value-24) !important;

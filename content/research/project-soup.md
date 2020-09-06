@@ -45,8 +45,13 @@ active: 5
     <div class="margin-bottom-96">
       <h2 class="text-secondary margin-bottom-24">State of UX in the Philippines Survey</h2>
       <p>
-      If you are a <b>student, UX Practitioner or is from HR hiring for UX roles</b>, with your help (by participating in the survey) we can begin to understand the current state of the UX practice in the Philippines and provide valuable insights for improvement in the local context. <b>Your answers will be kept anonymous and strictly confidential, this includes socio-demographic details and information about your company or organization will not be published in any capacity. </b>
+        We invite you to take part in UXPH's research study, <b>The State of UX in the Philippines 2020, the first baseline report about everything UX in the Philippines.</b> In the first phase of this research, we've prepared the <b> State of UX in the Philippines Survey. </b>
       </p>
+      <br/>
+      <p>
+        If you are a <b>student, UX Practitioner, UX Manager, or is from HR hiring for UX roles</b>, with your help (by participating in the survey) we can begin to understand the current state of the UX practice in the Philippines and provide valuable insights for improvement in the local context. We hope the output of this research will reveal interesting insights that can help guide various stakeholders in crafting the local UX professional roadmap for the next decade. <b>Your answers will be kept anonymous and strictly confidential, this includes socio-demographic details and information about your company or organization will not be published in any capacity.</b>
+      </p>
+      <br/>
       <p>As a thank you for your time and participation in the survey,</p>
       <ul class="survey">
         <li>
