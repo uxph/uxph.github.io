@@ -1,4 +1,16 @@
 {
+	"attending-asias-largest-ux-event-as-a-scholar": {
+		"name": "Attending Asia’s largest UX event as a scholar!",
+		"date": "September 5, 2020",
+		"description": "This will be my first time attending a UX+ Conference. I'm excited to learn from everyone's journey and their topics!",
+		"image_square_url": "https://miro.medium.com/max/700/0*B_owcQpugXNQbbVu",
+		"image_banner_url": "https://miro.medium.com/max/700/0*B_owcQpugXNQbbVu",
+		"become_speaker_url": "#",
+		"blog_url": "/blog/attending-asias-largest-ux-event-as-a-scholar",
+		"livestream_url": "#",
+		"blog_id": 3,
+		"tag": "UX+ Conference"
+	},
 	"5-whys-one-must-see-uxplus-2020": {
 		"name": "5 Whys one must see UX+ 2020",
 		"date": "September 5, 2020",
@@ -9,7 +21,7 @@
 		"blog_url": "/blog/5-whys-one-must-see-uxplus-2020",
 		"livestream_url": "#",
 		"blog_id": 2,
-		"tag": "Research"
+		"tag": "UX+ Conference"
 	},
 	"role-of-uxr-in-ph-rising-startup-scene": {
 		"name": "The Role of UXR in the Philippines’ Rising Startup Scene",
