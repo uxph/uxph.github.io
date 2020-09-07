@@ -65,7 +65,7 @@ active: 5
         </li>
       </ul>
       <p>The survey takes about <b>5-10 minutes to complete.</b></p>
-      <a href="https://www.surveymonkey.com/r/thesoup2020" class="button padding-x-24 
+      <a href="https://www.surveymonkey.com/r/soup2020-web" class="button padding-x-24 
       font-size-16 padding-y-12 margin-right-8 margin-top-32" target="blank">
         Take the Survey
       </a>
