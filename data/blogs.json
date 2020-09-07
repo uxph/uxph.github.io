@@ -1,4 +1,16 @@
 {
+	"5-whys-one-must-see-uxplus-2020": {
+		"name": "5 Whys one must see UX+ 2020",
+		"date": "September 5, 2020",
+		"description": "This is not your usual five whys.",
+		"image_square_url": "https://miro.medium.com/max/700/1*qnjk5qJsKF5xth90-2ApLg.jpeg",
+		"image_banner_url": "https://miro.medium.com/max/700/1*qnjk5qJsKF5xth90-2ApLg.jpeg",
+		"become_speaker_url": "#",
+		"blog_url": "/blog/5-whys-one-must-see-uxplus-2020",
+		"livestream_url": "#",
+		"blog_id": 2,
+		"tag": "Research"
+	},
 	"role-of-uxr-in-ph-rising-startup-scene": {
 		"name": "The Role of UXR in the Philippines’ Rising Startup Scene",
 		"date": "July 17, 2020",
@@ -9,7 +21,7 @@
 		"blog_url": "/blog/role-of-uxr-in-ph-rising-startup-scene",
 		"livestream_url": "#",
 		"blog_id": 2,
-		"tag": "Research"
+		"tag": "UXR Conf Anywhere 2020"
 	},
 	
 	"ready-set-research": {
@@ -22,7 +34,7 @@
 		"blog_url": "/blog/ready-set-research",
 		"livestream_url": "#",
 		"blog_id": 1,
-		"tag": "Research"
+		"tag": "UXR Conf Anywhere 2020"
 	},
 
 	"learning-to-be-inquisitve": {
@@ -35,6 +47,6 @@
 		"blog_url": "/blog/learning-to-be-inquisitive",
 		"livestream_url": "#",
 		"blog_id": 0,
-		"tag": "Research"
+		"tag": "UXR Conf Anywhere 2020"
 	}
 }
