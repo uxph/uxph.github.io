@@ -74,19 +74,6 @@
 		"tag": "UXPH Conference 2019"
 
 	},
-	"recap-cebu-2019":{
-		"name": "Recap: UXPH Roadshow 2019, Cebu",
-		"date": "August 31, 2019",
-		"description": "On August 31, 2019, UXPH (User Experience Philippines) held its first ever National Roadshow across the Philippines, starting in Cebu City.",
-		"image_square_url": "https://lh3.googleusercontent.com/UvvGS0_YKH-iJX8Wybg1gZJ276N4yC8nCLkmjr5TwOe0GIq__CyEALPYSoLB6W_-apej2TiCG2Ko78VmpW_huQHy4r3FEyuRLRZmvSVld6aQlxhMBw2ThJ7RyaDYFWUFBqVgog-uq-UZ3O_zbkoK_JsZ2LC6dOR5liwdkkSZDhExAM1FGv8tHRazrrrSJC2-qLhNih94tMSwBbkkypHKvfcgC7m6CqWiNmtiC22d2Wo6daHKbm_0AUNDdWE1dhhUdlcMomWidvdEI3t9AeHFzRm9eBHXphMtqcqUpfN8-AXj1ZzE19LJMCjwsK7qKyCBDia70_xYeybvoSeX6LN7dbfaWeH9VyYpDak_APe7G2stA8g3QXFwZ6M0jsyAIIYk0BQKx_AqSJQz7eemBYRKXPp7tMgsh_8IZT5kTCyBsU9RueI1qL8D6GU4LIdYwHn0me_3SV40k8XThXzJc-lxwsOVaABfD1RsWDxD3xvwdywYslUQ4bKMFq2WcYvuqCfhnWc-wsRehY67grzKeTTSGPJpkugfNz9oVyhOc4ebqx8g6VwziMG2wu39OGSzD2hgyZHsL_mk6X73gZJvY5yiltF-2p8FJapAUfe5A3nqYLEC9EqWWSuYZSuiC-uOr6qFL-X-u2LG5oabZx_J5sRwxaZEuVCUKV_f-tVLkM4GJ49ca4Itn2vQ_nX-I_w=s1674-no?authuser=1",
-		"image_banner_url": "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/67882418_1115932495278487_8959149729023787008_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=dg-MtlrRg4UAX9icegC&_nc_ht=scontent.fmnl17-2.fna&oh=0ed280fda3357318fb65cd912c200f60&oe=5EC17BF3",
-		"become_speaker_url": "#",
-		"blog_url": "/blog/recap-cebu-2019",
-		"livestream_url": "#",
-		"blog_id": 1,
-		"tag": "UXPH Conference 2019"
-
-	},
 	"recap-davao-2019":{
 		"name": "Recap: UXPH Roadshow 2019, Davao",
 		"date": "September 28, 2019",
@@ -95,6 +82,19 @@
 		"image_banner_url": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/70725784_1152471761624560_660603765837004800_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=lHEWuZFkvg4AX_JwnXG&_nc_ht=scontent.fmnl17-1.fna&oh=e2684c968eabc3f09603f9e52e2a47a1&oe=5EC08A5B",
 		"become_speaker_url": "#",
 		"blog_url": "/blog/recap-davao-2019",
+		"livestream_url": "#",
+		"blog_id": 1,
+		"tag": "UXPH Conference 2019"
+
+	},
+	"recap-cebu-2019":{
+		"name": "Recap: UXPH Roadshow 2019, Cebu",
+		"date": "August 31, 2019",
+		"description": "On August 31, 2019, UXPH (User Experience Philippines) held its first ever National Roadshow across the Philippines, starting in Cebu City.",
+		"image_square_url": "https://lh3.googleusercontent.com/UvvGS0_YKH-iJX8Wybg1gZJ276N4yC8nCLkmjr5TwOe0GIq__CyEALPYSoLB6W_-apej2TiCG2Ko78VmpW_huQHy4r3FEyuRLRZmvSVld6aQlxhMBw2ThJ7RyaDYFWUFBqVgog-uq-UZ3O_zbkoK_JsZ2LC6dOR5liwdkkSZDhExAM1FGv8tHRazrrrSJC2-qLhNih94tMSwBbkkypHKvfcgC7m6CqWiNmtiC22d2Wo6daHKbm_0AUNDdWE1dhhUdlcMomWidvdEI3t9AeHFzRm9eBHXphMtqcqUpfN8-AXj1ZzE19LJMCjwsK7qKyCBDia70_xYeybvoSeX6LN7dbfaWeH9VyYpDak_APe7G2stA8g3QXFwZ6M0jsyAIIYk0BQKx_AqSJQz7eemBYRKXPp7tMgsh_8IZT5kTCyBsU9RueI1qL8D6GU4LIdYwHn0me_3SV40k8XThXzJc-lxwsOVaABfD1RsWDxD3xvwdywYslUQ4bKMFq2WcYvuqCfhnWc-wsRehY67grzKeTTSGPJpkugfNz9oVyhOc4ebqx8g6VwziMG2wu39OGSzD2hgyZHsL_mk6X73gZJvY5yiltF-2p8FJapAUfe5A3nqYLEC9EqWWSuYZSuiC-uOr6qFL-X-u2LG5oabZx_J5sRwxaZEuVCUKV_f-tVLkM4GJ49ca4Itn2vQ_nX-I_w=s1674-no?authuser=1",
+		"image_banner_url": "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/67882418_1115932495278487_8959149729023787008_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=dg-MtlrRg4UAX9icegC&_nc_ht=scontent.fmnl17-2.fna&oh=0ed280fda3357318fb65cd912c200f60&oe=5EC17BF3",
+		"become_speaker_url": "#",
+		"blog_url": "/blog/recap-cebu-2019",
 		"livestream_url": "#",
 		"blog_id": 0,
 		"tag": "UXPH Conference 2019"
