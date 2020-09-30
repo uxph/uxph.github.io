@@ -1,6 +1,25 @@
 {
   "current": {
     "building-a-ux-career-with-impact": {
+      "name": "UXPH Conference 2020 : Designers as Navigators of Change",
+      "date": "November 14 - 15, 2020",
+      "time": "Starts at 9:30am PHT",
+      "venue": "TBD",
+      "description": "Ready for more UX knowledge? A huge virtual conference is coming, and it's the UXPH Conference 2020, with the theme: Designers as Navigators of Change! 🎉. Enjoy two full days of amazing UX content from local and international design leaders. Learn how they adapted and thrived in the past to help us designers navigate the constant change in the world as we design products and services that will have a lasting impact in the future.",
+      "image_square_url": "https://lh3.googleusercontent.com/pw/ACtC-3fITzb66Q1hlJTNVkLQ3EkAEmGu5jFo407Ue5fowCvV144Ky2VrZC192o4ieD4f0GIbEIwgnn4I4dX13bwlVvzCIdOzxutG3YawQaG8AWU_OeWj7mmJh_7iqGojAIM2FDzFY-owy-HO5blpdKu8Q1aH=w1640-h856-no?authuser=2",
+      "image_banner_url": "https://lh3.googleusercontent.com/pw/ACtC-3fITzb66Q1hlJTNVkLQ3EkAEmGu5jFo407Ue5fowCvV144Ky2VrZC192o4ieD4f0GIbEIwgnn4I4dX13bwlVvzCIdOzxutG3YawQaG8AWU_OeWj7mmJh_7iqGojAIM2FDzFY-owy-HO5blpdKu8Q1aH=w1640-h856-no?authuser=2",
+      "ticket_url": "https://2020.uxph.org",
+      "become_speaker_url": "#",
+      "blog_url": "#",
+      "livestream_url": "#",
+      "status": "ongoing",
+      "event_id": 12,
+      "tag": "Virtual Conference; Annual Conference"
+    }
+  },
+
+  "past": {
+    "building-a-ux-career-with-impact": {
       "name": "Building a UX Career with Impact",
       "date": "August 27, 2020",
       "time": "8:30PM - 9:30PM",
@@ -15,10 +34,7 @@
       "status": "done",
       "event_id": 11,
       "tag": "Virtual Meetups; Meetups"
-    }
-  },
-
-  "past": {
+    },
     "designing-with-totally-human-bots": {
       "name": "Designing with Totally Human Bots",
       "date": "July 30, 2020",
