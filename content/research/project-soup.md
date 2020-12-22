@@ -42,34 +42,6 @@ active: 5
         </p>
       </blockquote>
     </div>
-    <div class="margin-bottom-96">
-      <h2 class="text-secondary margin-bottom-24">State of UX in the Philippines Survey</h2>
-      <p>
-        We invite you to take part in UXPH's research study, <b>The State of UX in the Philippines 2020, the first baseline report about everything UX in the Philippines.</b> In the first phase of this research, we've prepared the <b> State of UX in the Philippines Survey. </b>
-      </p>
-      <br/>
-      <p>
-        If you are a <b>student, UX Practitioner, UX Manager, or is from HR hiring for UX roles</b>, with your help (by participating in the survey) we can begin to understand the current state of the UX practice in the Philippines and provide valuable insights for improvement in the local context. We hope the output of this research will reveal interesting insights that can help guide various stakeholders in crafting the local UX professional roadmap for the next decade. <b>Your answers will be kept anonymous and strictly confidential, this includes socio-demographic details and information about your company or organization will not be published in any capacity.</b>
-      </p>
-      <br/>
-      <p>As a thank you for your time and participation in the survey,</p>
-      <ul class="survey">
-        <li>
-          You will be included in our survey raffle where we'll give 5 lucky winners free tickets to the upcoming UXPH Conference this November 7-8 (P2,000 value).  Winners will be announced in UXPH social channels by September 30, 2020. Please make sure to input your contact details in the raffle page of the survey to be eligible to join.
-        </li>
-        <li>
-          You will also have the opportunity to participate in the second phase of this research, the remote Focus Groups. For your participation, you will receive P300 off your UXPH Conference ticket purchase.
-        </li>
-        <li>
-          As another thank you, we will be sending the State of UX in the Philippines report straight to your inbox. The report will be shared by January 2021.
-        </li>
-      </ul>
-      <p>The survey takes about <b>5-10 minutes to complete.</b></p>
-      <a href="https://www.surveymonkey.com/r/soup2020-web" class="button padding-x-24 
-      font-size-16 padding-y-12 margin-right-8 margin-top-32" target="blank">
-        Take the Survey
-      </a>
-    </div>
 
   </div>
 </header>
