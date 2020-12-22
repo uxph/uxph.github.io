@@ -34,7 +34,7 @@ active: 5
       In this mixed-method study to understand the UX landscape in the Philippines, we are first conducting the <b>State of UX in the Philippines Survey</b> that follow industry standards through stratified sampling. <br/><br/>
       Second, we will conduct <b>in-depth interviews</b> to draw qualitative insights about Filipino UX practitioners' experiences, attitudes, and beliefs. <br/><br/>
       Lastly, we will scrape online data from over a decade to analyze and draw out extra insights at a historical perspective while applying a data-driven approach to understand trends at the local context. <br/><br/>
-      The targeted release of the report is in <b> January 2021 </b>. 
+      The targeted release of the report is in <b> February 2021 </b>. 
       </p>
       <blockquote>
         <p>
