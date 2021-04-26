@@ -3,113 +3,141 @@
 
 <!-- Intro -->
 <header id="volunteers-header" class="bg-light padding-y-96 auto-hidden">
-	<div class ="wrapper">
-		<div class="w-75" id="volunteers-header-content">
-			<p class="text-white font-size-24 margin-bottom-24">Volunteer</p>
-			<h1 class="font-size-32 text-white">Be a part of the organizing team</h1>
-			<p class="margin-y-32 text-white">
-				{{.Site.Data.volunteers.blurb.description}}
-			</p>
-			<br/><br/><br/><br/>
-		</div>
-	</div>
+  <div class="wrapper">
+    <div class="w-75" id="volunteers-header-content">
+      <p class="text-white font-size-24 margin-bottom-24">Volunteer</p>
+      <h1 class="font-size-32 text-white">Be a part of the organizing team</h1>
+      <p class="margin-y-32 text-white">
+        {{.Site.Data.volunteers.blurb.description}}
+      </p>
+      <br /><br /><br /><br />
+    </div>
+  </div>
 </header>
 
 <!-- Volunteer Perks Section -->
-<section class="bg-light padding-y-96 position-relative auto-hidden" id="volunteer-perks-section">
-	<div class="wrapper">
-		<div class="padding-x-32 padding-y-32 border-radius-12 shadow bg-white" id="volunteer-overlap">
-			<h2 class="margin-bottom-16">Volunteer with us!</h2>
-			<p>If you’d like to join our team and get involved in the community, please fill out our form and we’ll get back to you as soon as we can.</p>
-			<!-- <br>
-			<a href="https://forms.gle/3Yc5AP7bAwqTHLGQ9" target = "_blank" class="button">
-				Sign up to volunteer
-			</a> -->
-		</div>
-	</div>
-	<div class="wrapper">
-		<h2 class="text-body font-size-32 margin-top-96">Volunteer Perks</h2>
-		<div id="volunteer-perks">
-			<!-- First row  -->
-			<div class="d-flex flex-wrap flex-row bd-highlight mb-3 padding-top-32">
-				<div class="p-2 bd-highlight perk-wrapper w-50">
-					<div class = "d-flex flex-row bd-highlight mb-3">
-						<!-- Circle -->
-						<div class="bg-blue rounded-circle p-2 bd-highlight"
-						style="min-width:35px; height:35px; vertical-align: middle;">
-							<i class="{{.Site.Data.volunteers.perks.perk1.icon}} text-white"></i>
-						</div>
+<section
+  class="bg-light padding-y-96 position-relative auto-hidden"
+  id="volunteer-perks-section"
+>
+  <div class="wrapper">
+    <div
+      class="padding-x-32 padding-y-32 border-radius-12 shadow bg-white"
+      id="volunteer-overlap"
+    >
+      <h2 class="margin-bottom-16">Volunteer with us!</h2>
+      <p>
+        If you’d like to join our team and get involved in the community, please
+        fill out our form and we’ll get back to you as soon as we can.
+      </p>
+      <br />
+      <a
+        href="https://forms.gle/3Yc5AP7bAwqTHLGQ9"
+        target="_blank"
+        class="button"
+      >
+        Sign up to volunteer
+      </a>
+    </div>
+  </div>
+  <div class="wrapper">
+    <h2 class="text-body font-size-32 margin-top-96">Volunteer Perks</h2>
+    <div id="volunteer-perks">
+      <!-- First row  -->
+      <div class="d-flex flex-wrap flex-row bd-highlight mb-3 padding-top-32">
+        <div class="p-2 bd-highlight perk-wrapper w-50">
+          <div class="d-flex flex-row bd-highlight mb-3">
+            <!-- Circle -->
+            <div
+              class="bg-blue rounded-circle p-2 bd-highlight"
+              style="min-width: 35px; height: 35px; vertical-align: middle"
+            >
+              <i
+                class="{{.Site.Data.volunteers.perks.perk1.icon}} text-white"
+              ></i>
+            </div>
 
-						<!-- Content -->
-						<div class="margin-left-16 p-2 bd-highlight perk-content">
-							<h3 class="text-body">{{.Site.Data.volunteers.perks.perk1.name}}</h3>
-							<br/>
-							<p>{{.Site.Data.volunteers.perks.perk1.description}}</p>
-						</div>
-					</div>
-				</div>
-				<div class="p-2 bd-highlight margin-left-32 perk-wrapper w-50">
-					<div class="d-flex flex-row bd-highlight mb-3">
+            <!-- Content -->
+            <div class="margin-left-16 p-2 bd-highlight perk-content">
+              <h3 class="text-body">
+                {{.Site.Data.volunteers.perks.perk1.name}}
+              </h3>
+              <br />
+              <p>{{.Site.Data.volunteers.perks.perk1.description}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight margin-left-32 perk-wrapper w-50">
+          <div class="d-flex flex-row bd-highlight mb-3">
+            <!-- Circle -->
+            <div
+              class="bg-blue rounded-circle p-2 bd-highlight"
+              style="min-width: 35px; height: 35px; vertical-align: middle"
+            >
+              <i
+                class="{{.Site.Data.volunteers.perks.perk2.icon}} text-white"
+              ></i>
+            </div>
 
-						<!-- Circle -->
-						<div class = "bg-blue rounded-circle p-2 bd-highlight"
-						style="min-width:35px; height:35px; vertical-align: middle;">
-							<i class="{{.Site.Data.volunteers.perks.perk2.icon}} text-white"></i>
-						</div>
+            <!-- Content -->
+            <div class="margin-left-16 p-2 bd-highlight perk-content">
+              <h3 class="text-body">
+                {{.Site.Data.volunteers.perks.perk2.name}}
+              </h3>
+              <br />
+              <p>{{.Site.Data.volunteers.perks.perk2.description}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight perk-wrapper w-50">
+          <div class="d-flex flex-row bd-highlight mb-3">
+            <!-- Circle -->
+            <div
+              class="bg-blue rounded-circle p-2 bd-highlight"
+              style="min-width: 35px; height: 35px; vertical-align: middle"
+            >
+              <i
+                class="{{.Site.Data.volunteers.perks.perk3.icon}} text-white"
+              ></i>
+            </div>
 
-						<!-- Content -->
-						<div class="margin-left-16 p-2 bd-highlight perk-content">
-							<h3 class="text-body">{{.Site.Data.volunteers.perks.perk2.name}}</h3>
-							<br>
-							<p>
-								{{.Site.Data.volunteers.perks.perk2.description}}
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="p-2 bd-highlight perk-wrapper w-50">
-					<div class="d-flex flex-row bd-highlight mb-3">
+            <!-- Content -->
+            <div class="margin-left-16 p-2 bd-highlight perk-content">
+              <h3 class="text-body">
+                {{.Site.Data.volunteers.perks.perk3.name}}
+              </h3>
+              <br />
+              <p>{{.Site.Data.volunteers.perks.perk3.description}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight margin-left-32 perk-wrapper w-50">
+          <div class="d-flex flex-row bd-highlight mb-3">
+            <!-- Circle -->
+            <div
+              class="bg-blue rounded-circle p-2 bd-highlight"
+              style="min-width: 35px; height: 35px; vertical-align: middle"
+            >
+              <i
+                class="{{.Site.Data.volunteers.perks.perk4.icon}} text-white"
+              ></i>
+            </div>
 
-						<!-- Circle -->
-						<div class="bg-blue rounded-circle p-2 bd-highlight"
-						style="min-width:35px; height:35px; vertical-align: middle;">
-							<i class="{{.Site.Data.volunteers.perks.perk3.icon}} text-white"></i>
-						</div>
+            <!-- Content -->
+            <div class="margin-left-16 p-2 bd-highlight perk-content">
+              <h3 class="text-body">
+                {{.Site.Data.volunteers.perks.perk4.name}}
+              </h3>
+              <br />
+              <p>{{.Site.Data.volunteers.perks.perk4.description}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-						<!-- Content -->
-						<div class="margin-left-16 p-2 bd-highlight perk-content">
-							<h3 class="text-body">{{.Site.Data.volunteers.perks.perk3.name}}</h3>
-							<br>
-							<p>
-								{{.Site.Data.volunteers.perks.perk3.description}}
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="p-2 bd-highlight margin-left-32 perk-wrapper w-50">
-					<div class="d-flex flex-row bd-highlight mb-3">
-
-						<!-- Circle -->
-						<div class = "bg-blue rounded-circle p-2 bd-highlight"
-						style="min-width:35px; height:35px; vertical-align: middle;">
-							<i class="{{.Site.Data.volunteers.perks.perk4.icon}} text-white"></i>
-						</div>
-
-						<!-- Content -->
-						<div class="margin-left-16 p-2 bd-highlight perk-content">
-							<h3 class="text-body">{{.Site.Data.volunteers.perks.perk4.name}}</h3>
-							<br>
-							<p>
-								{{.Site.Data.volunteers.perks.perk4.description}}
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- <div class="wrapper">
+  <!-- <div class="wrapper">
 		<div class="padding-x-32 padding-y-32 border-radius-12 shadow bg-white" >
 			<h2 class="margin-bottom-16">Volunteer with us!</h2>
 			<p>If you’d like to join our team and get involved in the community, please fill out our form and we’ll get back to you as soon as we can.</p>
@@ -120,71 +148,70 @@
 </section>
 
 <style>
+  select.input-lg {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+  }
 
-	select.input-lg {
-	  -webkit-appearance: none;
-	  -moz-appearance: none;
-	  -o-appearance: none;
-	}
+  select + i.fa {
+    float: right;
+    margin-top: -30px;
+    margin-right: 5px;
+    pointer-events: none;
+    background-color: #fff;
+    padding-right: 5px;
+  }
 
-	select + i.fa {
-	  float: right;
-	  margin-top: -30px;
-	  margin-right: 5px;
-	  pointer-events: none;
-	  background-color: #fff;
-	  padding-right: 5px;
-	}
+  #role-responsibilties li,
+  #role-requirements li,
+  #what-you-learn li {
+    line-height: 25px;
+  }
 
-	#role-responsibilties li,
-	#role-requirements li,
-	#what-you-learn li {
-		line-height: 25px;
-	}
+  #position {
+    height: 78px;
+    /*margin-top: -18rem;*/
+    border: none;
+    cursor: pointer;
+    text-indent: 1rem;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    appearance: none;
+  }
 
-	#position {
-		height:78px;
-		/*margin-top: -18rem;*/
-		border: none;
-		cursor: pointer;
-		text-indent: 1rem;
-		outline: none;
-		font-family: 'Roboto', sans-serif;
-		appearance: none;
-	}
+  .rounded-circle {
+    color: #ddd;
+    text-align: center;
+  }
+  .rounded-circle i {
+    line-height: 34px;
+    font-size: 24px !important;
+  }
 
-	.rounded-circle {
-		color: #ddd;
-		text-align: center;
-	}
-	.rounded-circle i {
-		line-height: 34px;
-		font-size: 24px !important;
-	}
+  #volunteer-perks > div > div {
+    flex: 1 0 33%;
+  }
 
-	#volunteer-perks > div > div {
-		flex: 1 0 33%;
-	}
+  #position-select {
+    min-width: var(--value-192);
+  }
 
-	#position-select {
-		min-width: var(--value-192);
-	}
+  #position-select > * {
+    border-left: thick solid transparent;
+    padding: var(--value-4) var(--value-8);
+    transition: ease all 0.3s;
+    cursor: pointer;
+    font-weight: 500 !important;
+  }
 
-	#position-select > * {
-		border-left: thick solid transparent;
-		padding: var(--value-4) var(--value-8);
-		transition: ease all 0.3s;
-		cursor: pointer;
-		font-weight: 500 !important;
-	}
+  #position-select > *.active {
+    border-color: var(--main-blue);
+    color: var(--main-blue) !important;
+  }
 
-	#position-select > *.active {
-		border-color: var(--main-blue);
-		color: var(--main-blue) !important;
-	}
-
-	#position-select > *:hover {
-		border-color: var(--uxph-yellow-1);
-		color: var(--uxph-yellow-1) !important;
-	}
+  #position-select > *:hover {
+    border-color: var(--uxph-yellow-1);
+    color: var(--uxph-yellow-1) !important;
+  }
 </style>
