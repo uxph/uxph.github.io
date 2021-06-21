@@ -1,0 +1,310 @@
+{
+  "board_members": {
+    "aldrich_tan": {
+      "name": "Aldrich Tan",
+      "role": "Managing Director",
+      "image_url": "assets/team/aldrich.png",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/aldricht/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+        "<a href=\"https://www.twitter.com/aldricht/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+      ],
+      "description": [
+        "Aldrich is an Sr. Experience Architect who has worked with multiple companies and industries in the US, Canada, and Philippines.",
+        "He is a passionate advocate for mentoring designers and building stronger design cultures with companies and organizations through consultancy and UXPH.",
+        "He enjoys PC gaming, Korean BBQ, steaks, giant salads, and puns (or a \"punnoseur\")."
+      ]
+    },
+
+    "jordan_deja": {
+      "name": "Jordan Deja",
+      "role": "Advisor",
+      "image_url": "assets/team/jordan.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/jrdndj/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+        "<a href=\"https://www.twitter.com/jrdndj/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+      ],
+      "description": [
+        "Jordan became involved in UXPH when he was a speaker in the 2017 Conference. He moved behind the scenes as Volunteer Lead in the 2018 Conference and became the Over-all Lead with Aldrich Tan in 2019.",
+        "He is currently part of its Board of Directors, Lead for Speakers and Community Engagement. He is an HCI Researcher and a University Professor by profession. He is currently doing his PhD in Slovenia, Europe."
+      ]
+    },
+    "ely_apao": {
+      "name": "Ely Apao",
+      "role": "Advisor",
+      "image_url": "assets/team/ely.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/jozzua/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+        "<a href=\"https://www.twitter.com/jozzua/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+      ],
+      "description": [
+        "One of the original founders of the UX Philippines community. Currently the customer experience manager for the digital transformation office of one of the Philippine's biggest conglomerates - JG Summit."
+      ]
+    },
+    "matt_green": {
+      "name": "Matthew Green",
+      "role": "Advisor",
+      "image_url": "assets/team/matt.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/matthewagreen/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Matt is currently works as a Service Design Research consultant  for the Asian Development Bank. Over 20 years, he has had a variety of roles from a head of design, to a researcher, and to interaction designer for private, government, and military clients from San Francisco to Sydney. He consults on innovation and research in the areas of data display, service design, and enterprise applications."
+      ]
+    },
+    "chelle_obligacion": {
+      "name": "Chelle Obligacion-Gray",
+      "role": "Advisor",
+      "image_url": "assets/team/chelle.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/chelleogray/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Chelle Obligacion-Gray leads the Business Development, Product Development and Customer Experience of BLISS Insurance Digital Platform for Computer Professionals Inc. She also leads the AWS Partner Alliance for the organization helping companies with their Cloud Journey. Prior to joining CPI she was the Director of Growth at Thinking Machines Data Science (the leading Data Science and Machine Learning firm in the country).",
+        "She also lead Globe Telecom's Corporate Social Responsibility team with high-impact projects and initiatives on environment, education, volunteering and sustainability campaigns. She also worked in Google for 5 years managing developer communities and start-up ecosystems across Asia Pacific where she grew and nurtured the communities from 11 to over 50 chapters.",
+        "Chelle is a diversity and women empowerment advocate so she finds time to work and mentor girls and women. She loves tech, innovation, product dev, social good and data."
+      ]
+    },
+
+    "jen_teves": {
+      "name": "Jen Teves, PhD",
+      "role": "Advisor",
+      "image_url": "assets/team/jen.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/jenniferteves/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Jen is currently the Director for CX Research at Best Buy after her stints at other Fortune 100 companies in the US as a UX Researcher & Human Factors Scientist. She loves being in the company of learners that's why she also teaches graduate classes in UX Design at Kent State University's School of Information. Jen's not-so-secret passion is exploring the applications of design and psychology in nation-building, social programs, and counter-insurgency strategy."
+      ]
+    },
+
+    "artie_lopez": {
+      "name": "Artie Lopez",
+      "role": "Advisor",
+      "image_url": "assets/team/artie.jpeg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/artielopez/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Artie Lopez is a start-up coach, the Ambassador of Seedstars - Manila, Investment Manager at First Asia Venture Capital and co-founder of Brainsparks, the first and only \"founder-focused\" incubator in the Philippines. Brainsparks' vision is to \"Turn Dreamers into Founders\". He has over 15yrs of experience in the tech startup industry of Southeast Asia and is a passionate advocate of using technology and innovation to improve people's lives. Through Brainsparks, #StartupCoachArtie has supported countless startups develop their ideas, accelerate their growth, and raise funding from investors globally. #StartupCoachArtie and Brainsparks are happy to have successfully helped several PH Startups grow their company, and scale up their business. In his spare time, he also likes to support and mentor small local businesses and social enterprises."
+      ]
+    }
+  },
+
+  "committee_leads": {
+    "chiara_senires": {
+      "name": "Chi Señires",
+      "role": "Marketing Lead",
+      "image_url": "assets/team/chi.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/chisenires/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+        "<a href=\"https://www.twitter.com/ChiSenires/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+      ],
+      "description": [
+        "Chi is a UX Designer, Front-End Web Developer, and a Product Manager.",
+
+        "She's currently working as a Product Manager at Cignal TV. Aside from her day job, she helps organize tech communities like UXPH and Figma PH.",
+
+        "When Chi isn't working, she spends her time riding her bike, scrolling through social media, playing games on her computer or Switch."
+      ]
+    },
+
+    "mike_jaren_yap": {
+      "name": "MJ Yap",
+      "role": "Web Lead",
+      "image_url": "assets/team/mj.png",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/mjarenyap/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+        "<a href=\"https://www.twitter.com/mjarenyap/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+      ],
+      "description": [
+        "MJ is a Computer Science graduate who is the Co-Founder and former Chapter Head of User Experience Society-DLSU.",
+        "When it comes to learning new things and improving his skillsets, he is always eager especially if it means serving the community better.",
+        "He likes physical sports, gym workouts, guitars, cats and memes."
+      ]
+    },
+
+    "reine_bantang": {
+      "name": "Reine Bantang",
+      "role": "Creative Lead",
+      "image_url": "assets/team/reine.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/reine-bantang/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+        "<a href=\"https://www.twitter.com/reinebantang/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+      ],
+      "description": [
+        "Reine is a multimedia producer and occasional host who finds joy in film, theater, cats, and sushi. She is currently working with ABS-CBN Digital, and she is also affiliated with DLSU Radio: Green Giant FM and Juan Gadget."
+      ]
+    },
+    "claudine_san_diego": {
+      "name": "Din San Diego",
+      "role": "Internal Growth Lead",
+      "image_url": "assets/team/claudine.png",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/claudinesandiego/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Din is a content strategist specializing in content development and management. She is currently learning more about UX research within the organization and helping out in the events team!",
+        "An avid learner, she enjoys ideating alongside teams, presenting concepts through decks, pairing non-fiction + fiction books, and creating mixtapes for special occasions."
+      ]
+    },
+    "gavin_dizon": {
+      "name": "Gavin Dizon",
+      "role": "Web Lead",
+      "image_url": "assets/team/gavin.jpeg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/gavin-dizon-40b08b190/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Gavin is an undergraduate student at De La Salle University taking up Computer Science. He joined the community to learn more about UX and surround himself with passion-driven people who want to improve the community. He joined the web team to enhance his skills in web development.",
+        "In his free time, he plays video games with his friends, reads mangas/ comics, and watches his favorite series. "
+      ]
+    },
+    "cha_efren": {
+      "name": "Charlotte Mae Efren",
+      "role": "Research Lead",
+      "image_url": "assets/team/cha.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/charlotteefren/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Charlotte is a UX/UI Designer, Front-end Developer, and Co-Founder at MokuTek.She gets involved in various projects - educational, volunteer groups, and hackathons - trying anything in tech and design that connects her to people. Outside work she's learning Japanese and Mandarin, loves Anime, and likes to draw."
+      ]
+    },
+    "lindy_hernandez": {
+      "name": "Lindy Hernandez",
+      "role": "Research Lead",
+      "image_url": "assets/team/lindy.png",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/lindyhernandez/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Lindy is currently a UX Designer and Researcher at Accenture. She is interested in human-computer interaction research and hopes to explore personal tracking technologies in the future.",
+        "In her free time, she likes to read books, try out new crafts, or discover new TV shows."
+      ]
+    },
+    "kaizen_marce": {
+      "name": "Kaizen Marce",
+      "role": "Community Lead",
+      "image_url": "assets/team/kaizen.png",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/kaizen-marce-ba0b40186/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Kaizen is a writer who loves to wear different hats at work and put users first. She has around six years of experience in writing different types of content as well as deeply involving herself within the different stages of product development, from content writing to project coordination and QA & testing. Right now, she's working for an Australian digital agency called MindArc as a Copywriter and Digital Marketing Executive and is also a Marketing Volunteer at UXPH.",
+        "When not in work mode, Kaizen loves to watch anime, read manga, and play games (mostly RPG games on console). She's also learning a new language — Japanese — and has set her eyes on living in Japan soon."
+      ]
+    },
+    "mikka_alcachupas": {
+      "name": "Mikka Alcachupas",
+      "role": "Internal Growth Lead",
+      "image_url": "assets/team/mikka.JPG",
+      "socials": [],
+      "description": [
+        "Mikka is a Human Resource practitioner currently transitioning as a Product Manager of an HR solution. She is passionate about the world of tech and design and how it makes people's everyday lives a little bit better and beautiful. 😊 ",
+        "Her interest are aesthetics, brand strategy, and the entertainment industry. She likes to watch choreography videos and anime and paint clouds and sunsets during her free time! "
+      ]
+    },
+    "ina_davis": {
+      "name": "Ina Davis",
+      "role": "External Growth Lead",
+      "image_url": "assets/team/ina.jpg",
+      "socials": [
+        "<a href=\"www.twitter.com/_inadavis\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+      ],
+      "description": [
+        "Ina is a cognitive scientist turned product designer focused on building solutions for the healthcare space. Her specialty is in distilling complex problems into creative solutions through  data and experimentation.",
+        "In her free time, she loves journaling, playing sports and scrolling through interior design inspiration for homes she pretends she can afford."
+      ]
+    }
+  },
+
+  "coordinators": {
+    "mars_quinay": {
+      "name": "Mars Quinay",
+      "role": "Bootcamps Coordinator",
+      "image_url": "assets/team/mars.jpeg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/mars-quinay-0658a317b/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+        "<a href=\"https://www.twitter.com/kdotMars/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
+      ],
+      "description": [
+        "Mars is a UX/UI designer and Graphic Designer. She’s also a Associate Creative Trainer at Creative Nation Academy and Community Volunteer at UXPH.",
+        "She maximizes her free time by learning. She loves reading and watching documentaries. She enjoys traveling with her peers to learn more about culture and arts. With all these side hustles, she also values work-life balance.",
+        "She’s online playing PUBG Mobile! Go play with her!"
+      ]
+    },
+    "tyrone_stamaria": {
+      "name": "Tyrone Sta. Maria",
+      "role": "Web Team",
+      "image_url": "assets/team/tyrone.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/tyrone-sta-maria-243a69188/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Tyrone is a Computer Science student at De La Salle University. He joined the community to learn more about UX and the tech industry.",
+        "During his free time he reads manga and webtoons, watches anime or plays video games."
+      ]
+    },
+    "annika_pascasio": {
+      "name": "Annika Pascasio",
+      "role": "Student Programs Coordinator",
+      "image_url": "assets/team/annika.jpeg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/annikapascasio/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Annika is a student at De La Salle University taking up Business Management and AB Psychology. She is also an aspiring UX Researcher, the current President of User Experience Society DLSU, and a Community Volunteer at UXPH.",
+        "Outside work, Annika enjoys watching tv shows, cooking, reading books, and listening to music."
+      ]
+    },
+    "kendra_go": {
+      "name": "Kendra Go",
+      "role": "Creatives and Community Team",
+      "image_url": "assets/team/kendra.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/kendra-go/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Kendra is a Computer Science student from the Ateneo de Manila University. Volunteering for the organization under the community and creatives pillars has enabled her to work with and learn from UX professionals and enthusiasts. She aspires to bridge tech, design, and fashion as a UX Engineer or Product Developer.",
+        "Outside work, Annika enjoys watching tv shows, cooking, reading books, and listening to music."
+      ]
+    },
+    "jade_teng": {
+      "name": "Jade Teng",
+      "role": "Creatives and Community Team",
+      "image_url": "assets/team/jade.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/jadiene-teng/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Jade is a visual and UX designer, hand-lettering artist, and certified public accountant, who tries to bridge different fields together at work and in life. She is passionate about using art and design to make the world a better and happier place.",
+        "As a curious kid, she has a never-ending list of hobbies, which includes knitting wearables, playing the ukulele, experimenting iced coffee and instant noodle recipes, curating playlists, building databases, and learning something new."
+      ]
+    },
+    "nikka_herrera": {
+      "name": "Ma. Nikka Herrera",
+      "role": "Web Team",
+      "image_url": "assets/team/nikka.jpg",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/ma-nikka-herrera/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
+      ],
+      "description": [
+        "Nikka is currently taking Bachelor of Science in Information Technology at Cavite State University. She has huge interest in UX and UI designs as well as coding. She loves joining different competitions that involves creating something that will benefit the society.",
+        "She is fond of playing games, watching anime, reading manga, and baking sweets in her spare time."
+      ]
+    },
+    "stella_pangilinan": {
+      "name": "Stella Pangilinan",
+      "role": "Creatives Team",
+      "image_url": "assets/team/stella.png",
+      "socials": [
+        "<a href=\"https://www.linkedin.com/in/stellapangilinan\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
+        "<a href=\"https://heystella.design/\" target=\"blank\"><i class=\"fas fa-globe\"></i></a>"
+      ],
+      "description": [
+        "Hey, I'm Stella! I'm a fresh graduate of the University of Navarre where I specialized in service design. I am currently a UX intern at Quiddity Usability Labs and a community volunteer at UXPH with the creative and research teams.",
+        "In my free time, I'm either playing tennis, stalking a font foundry, or reading. I find real joy in making things, in collaborating with others, and in seeing ideas come to life."
+      ]
+    }
+  }
+}

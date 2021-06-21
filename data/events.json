@@ -1,6 +1,25 @@
 {
   "current": {
-    "building-a-ux-career-with-impact": {
+    "uxph-conference-2020": {
+      "name": "UXapan in Clubhouse",
+      "date": "June 25, 2021",
+      "time": "8:00PM - 10:00PM",
+      "venue": "Clubhouse",
+      "description": "Tara, UXap tayo! 🎉Tune in, meet the community, and let’s talk all things UX during our 🎙️ UXapan in Clubhouse! 📝 Let's discuss: What is UX? 🤔 How is UX adopted in your workplace? 👩‍💻 Which UX topics would you like to learn more about this year? 🧠 Open to everyone: students, UX professionals, career transitioners, and anyone interested in UX! ",
+      "image_square_url": "../assets/events/uxapan.png",
+      "image_banner_url": "../assets/events/uxapan.png",
+      "ticket_url": "https://www.clubhouse.com/join/ux-philippines-uxph/NazFMCzI/PrbGg705?fbclid=IwAR3koUq8GPwua6J9guihRJbFGW49iidm_f_M8wV64cTlIEVok5yCicAl2NQ",
+      "become_speaker_url": "#",
+      "blog_url": "#",
+      "livestream_url": "#",
+      "status": "ongoing",
+      "event_id": 13,
+      "tag": "Virtual Conference;"
+    }
+  },
+
+  "past": {
+    "uxph-conference-2020": {
       "name": "UXPH Conference 2020 : Designers as Navigators of Change",
       "date": "November 14 - 15, 2020",
       "time": "Starts at 9:30am PHT",
@@ -12,13 +31,10 @@
       "become_speaker_url": "#",
       "blog_url": "#",
       "livestream_url": "#",
-      "status": "ongoing",
+      "status": "done",
       "event_id": 12,
       "tag": "Virtual Conference; Annual Conference"
-    }
-  },
-
-  "past": {
+    },
     "building-a-ux-career-with-impact": {
       "name": "Building a UX Career with Impact",
       "date": "August 27, 2020",
