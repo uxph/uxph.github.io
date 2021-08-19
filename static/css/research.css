@@ -2,6 +2,14 @@
   border-radius: var(--value-8);
 }
 
+.research-link {
+  color: var(--uxph-blue-2);
+}
+
+.research-link:hover {
+  text-decoration: underline;
+}
+
 p {
   color: #333333;
 }
@@ -22,16 +30,14 @@ ul.survey li {
   line-height: var(--value-32);
   margin-bottom: var(--value-16);
 }
-.hero-research p{
+.hero-research p {
   padding-right: var(--value-96) !important;
   padding-left: var(--value-96) !important;
-
 }
 @media only screen and (max-width: 414px) {
-  .hero-research p{
+  .hero-research p {
     padding-right: var(--value-24) !important;
     padding-left: var(--value-24) !important;
-
   }
   /* homepage */
   #homepage-header {
