@@ -19,28 +19,49 @@ active: 5
     <a href="/research" class="button outline margin-bottom-48">
       <i class="fas fa-arrow-left"></i> &nbsp; Back to Research Page
     </a>
-    <h1 class="margin-bottom-32 text-dark">State of UX in The Philippines Report</h1>
+    <h1 class="margin-bottom-32 text-dark">The State of UX in the Philippines</h1>
     <div class="margin-bottom-96">
-      <h2 class="text-secondary margin-bottom-24">About</h2>
-      <p>
-        The UX landscape in the Philippines is still in its nascent stages, but the need is growing more apparent and comprehensive each year. Since more than a decade ago, technological innovations and cultural paradigms have called for a deeper understanding and implementation of UX practices globally. There have been many reports that attempt to understand its current state and imagine future trends. However, have been mostly done on a global or regional context.
+      <p class="margin-bottom-32">
+        The UX landscape in the Philippines is broadening its scope each year. The earliest UX’ers in our country began their march almost a decade ago. Since then, technological innovations and cultural paradigms both globally and locally, have called for a deeper understanding of the UX practice.
+        <br/><br/>
+        In this report, we aim to capture a holistic picture of the growing UX practice in the Philippines, reveal insightful data, and share a compendium of handy information about the UX design practice in the Philippines. An example of this is the growing and evolving field of UX, the journey of UX practitioners in the Philippines, and a common understanding of what UX is as well as how it is further defined in our country.
+        <br/><br/>
+      View/ Download the report <a href="https://bit.ly/SOUPIntroduction" class="research-link">here</a>
       </p>
-      <blockquote>
-        <p>
-          How does the Philippines' culturally-diverse environment nurture a specific breed of designers, researchers, and leaders? 
-        </p>
-      </blockquote>
-      <p>
-      In this mixed-method study to understand the UX landscape in the Philippines, we are first conducting the <b>State of UX in the Philippines Survey</b> that follow industry standards through stratified sampling. <br/><br/>
-      Second, we will conduct <b>in-depth interviews</b> to draw qualitative insights about Filipino UX practitioners' experiences, attitudes, and beliefs. <br/><br/>
-      Lastly, we will scrape online data from over a decade to analyze and draw out extra insights at a historical perspective while applying a data-driven approach to understand trends at the local context. <br/><br/>
-      Read the article <a href="https://bit.ly/SOUPIntroduction" class="research-link">here</a>
-      </p>
-      <blockquote>
-        <p>
-          We hope the output of this research will reveal interesting insights that can help guide various stakeholders in crafting the local UX professional roadmap for the next decade.
-        </p>
-      </blockquote>
+      <h2 class="margin-bottom-16 text-dark">Topics</h2>
+      <ul class="topic text-dark">
+        <li>Preparing for a UX Career
+            <ul class="subtopic">
+              <li>Undergraduate Degrees</li>
+              <li>Non-degree Education</li>
+              <li>Internships</li>
+              <li>Mentorships</li>
+            </ul>
+        </li>
+        <li>Landing a UX Job in the Philippines
+            <ul class="subtopic">
+              <li>Hiring Process</li>
+              <li>Portfolios</li>
+            </ul>
+        </li>
+        <li>The UX Workplace
+            <ul class="subtopic">
+              <li>Industries</li>
+              <li>Job Titles</li>
+              <li>Responsibilities and Skills</li>
+              <li>Projects, Tools, and Deliverables</li>
+              <li>Team dynamics, structures, and cultures</li>
+              <li>The effect of the pandemic</li>
+            </ul>
+        </li>
+        <li>Industry Satisfaction
+          <ul class="subtopic">
+            <li>Salaries and Salary Satisfaction</li>
+            <li>Career Satisfaction</li>
+          </ul>
+        </li>
+        <li>Recommendations</li>
+      </ul>
     </div>
 
   </div>
