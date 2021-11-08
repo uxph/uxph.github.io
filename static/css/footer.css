@@ -1,78 +1,89 @@
 /* UXPH footer stylesheet */
 
-footer{
-    padding: 5em 0;
-    background-color: #182336;
-    color: white;
+footer {
+  padding: 5em 0;
+  background-color: #182336;
+  color: white;
 }
 
-footer div.wrapper{
-    display: flex;
+footer div.wrapper {
+  display: flex;
 }
 
-footer #copyright{
-    margin-right: 5em;
+footer #copyright {
+  margin-right: 5em;
 }
 
-footer #footer-logo{
-    display: block;
-    width: 10em;
+footer #footer-logo {
+  display: block;
+  width: 10em;
 }
 
-footer p{
-    line-height: 1.5em;
-    font-size: 1em;
+footer p {
+  line-height: 1.5em;
+  font-size: 1em;
 }
 
-footer h3, footer h5{
-    color: white;
-    margin: 0;
+footer h3,
+footer h5 {
+  color: white;
+  margin: 0;
 }
 
-footer h3{
-    font-size: 1.3em;
+footer h3 {
+  font-size: 1.3em;
 }
 
-footer h5{
-    font-size: 0.9em;
+footer h5 {
+  font-size: 0.9em;
 }
 
-footer .column-content{
-    display: flex;
+footer .column-content {
+  display: flex;
 }
 
-footer a{
-    color: #cccccc;
-    font-weight: lighter;
-    margin: 1em 0;
-    font-size: 0.75em;
+footer div.column-content > div {
+  width: 33%;
+}
+
+footer a {
+  color: #cccccc;
+  font-weight: lighter;
+  margin: 1em 0;
+  font-size: 0.75em;
 }
 
 footer a:hover {
-    text-decoration: underline;
-    color: var(--main-blue);
+  text-decoration: underline;
+  color: var(--main-blue);
 }
 
-footer div.content-wrapper{
-    margin: 1.5em 0;
-    margin-right: 2.8em;
+footer div.content-wrapper {
+  margin: 1.5em 0;
+  margin-right: 2.8em;
 }
 
-footer div.content-wrapper > div{
-    display: flex;
-    align-items: center;
+footer div.content-wrapper > div {
+  display: flex;
+  align-items: center;
 }
 
-footer .ic{
-    display: block;
-    margin-right: 0.7em;
-    width: 2em;
+footer .ic {
+  display: block;
+  margin-right: 0.7em;
+  width: 2em;
 }
 
 footer .footer-links {
-    font-size: 0.8125rem;
+  font-size: 0.8125rem;
 }
 
 footer #coc {
-    font-size: 1.3em !important;
+  font-size: 1.3em !important;
+}
+
+@media only screen and (max-width: 768px) {
+  footer div.column-content > div {
+    width: 100%;
+  }
 }
