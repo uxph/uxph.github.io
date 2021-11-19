@@ -1,5 +1,24 @@
 {
     "current": {
+        "ADPListXUXPH": {
+            "name": "UXPH + ADPList Partnership & Kick-off",
+            "date": "November 19, 2021",
+            "time": "8:00PM - 10:00PM",
+            "venue": "Livestream via Zoom and Facebook",
+            "description": "ADPList is on a mission to democratize mentorships for all.\n\n 📢 We're very excited to announce that we're officially partnering with ADPList to provide mentorship to the community. To kick-off, we have this group mentor session with ADPList Mentors: \n\n🏦 Aldrich Tan, CXO, Co-founder of NextPay and Managing Director at UXPH\n🚚 Jake Nuñez, Head of Product Design at Deliverit Software\n🧮 Charlotte Mae Efren, Senior Product Designer at Lista PH\nAngela Salud Chua, Founder, Design Director at Toffeenut Design Studio\n\nJoin us on Friday, November 19, 8pm - 10pm (PHT). Hear what they have to say about the impact of community and mentorship. Why you should consider it? How it helps in your career?\n\n🎫 RSVP:\nvia ADPList: https://bit.ly/ADPListRSVP\nvia Eventbrite: https://bit.ly/ADPListxUXPH",
+            "image_square_url": "../assets/events/ADPList_UXPH_Square2.jpg",
+            "image_banner_url": "../assets/events/ADPList_landscape.jpeg",
+            "ticket_url": "https://www.eventbrite.com/e/uxph-adplist-kick-off-the-impact-of-community-mentorship-tickets-208497259917",
+            "become_speaker_url": "#",
+            "blog_url": "https://fb.watch/9nkk8e2Frx/",
+            "livestream_url": "https://fb.watch/9nkk8e2Frx/",
+            "status": "done",
+            "event_id": 15,
+            "tag": "Virtual Conference;"
+        }
+    },
+
+    "past": {
         "screenside-chat-landing-ux-job": {
             "name": "Screenside Chat: Landing Your First UX Job",
             "date": "October 2, 2021",
@@ -15,10 +34,7 @@
             "status": "done",
             "event_id": 14,
             "tag": "Virtual Conference;"
-        }
-    },
-
-    "past": {
+        },
         "uxapan-in-clubhouse": {
             "name": "UXapan in Clubhouse",
             "date": "June 25, 2021",
