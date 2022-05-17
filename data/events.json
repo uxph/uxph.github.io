@@ -1,5 +1,39 @@
 {
     "current": {
+        "DayInALife_ProductDesigner": {
+            "name": "Day In a Life: Product Designer",
+            "date": "May 19, 2022",
+            "time": "7:30pm - 8:30pm",
+            "venue": "Livestream via Facebook",
+            "description": "In this talk, Riel will share a glimpse of what a day looks like in a fast and scaling startup environment. She'll walk you through some of the sunny and rainy days she had in her past experiences, and the gems she picked up along the way, that led her to understand what it is to be a Product designer and what Design really is.",
+            "image_square_url": "../assets/events/UXR_Method_May_2022_Square.png",
+            "image_banner_url": "../assets/events/UXR_Method_May_2022_Eventbrite.png",
+            "ticket_url": "https://www.eventbrite.com/e/day-in-a-life-product-designer-tickets-317942423347",
+            "become_speaker_url": "#",
+            "blog_url": "#",
+            "livestream_url": "#",
+            "status": "",
+            "event_id": 17,
+            "tag": "Virtual Conference;"
+        }
+    },
+    "past": {
+        "WomenInUX": {
+            "name": "Celebrating Women in UX",
+            "date": "March 17, 2022",
+            "time": "7:30pm - 8:30pm",
+            "venue": "Livestream via Facebook",
+            "description": "In celebration of Women's Month, join us in our March meetup: Celebrating Women in UX! Our panel of women mentors will talk about their experiences and answer questions from the community!",
+            "image_square_url": "../assets/events/WomenInUX_Square.png",
+            "image_banner_url": "../assets/events/WomenInUX_Banner.png",
+            "ticket_url": "#",
+            "become_speaker_url": "#",
+            "blog_url": "#",
+            "livestream_url": "#",
+            "status": "done",
+            "event_id": 16,
+            "tag": "Virtual Conference;"
+        },
         "ADPListXUXPH": {
             "name": "UXPH + ADPList Partnership & Kick-off",
             "date": "November 19, 2021",
@@ -13,12 +47,9 @@
             "blog_url": "https://fb.watch/9nkk8e2Frx/",
             "livestream_url": "https://fb.watch/9nkk8e2Frx/",
             "status": "done",
-            "event_id": 15,
+            "event_id": 16,
             "tag": "Virtual Conference;"
-        }
-    },
-
-    "past": {
+        },
         "screenside-chat-landing-ux-job": {
             "name": "Screenside Chat: Landing Your First UX Job",
             "date": "October 2, 2021",
