@@ -1,5 +1,23 @@
 {
     "current": {
+        "Practical_Usability_Rating_by_Experts": {
+            "name": "August Meetup: Practical Usability Rating by Experts (PURE)",
+            "date": "Aug 31, 2022",
+            "time": "7:00pm - 8:00pm",
+            "venue": "Discord & Livestream via Facebook",
+            "description": "How do experts critique a UX design case study? Watch Ely Apao, Charlotte Efren, and VJ Francisco live on UXPH Discord server as they review a design using PURE method on Wednesday, August 31! Join the event here: https://bit.ly/UXPH-PURE Practical Usability Rating by Experts (PURE) is a usability-evaluation method in which usability experts assign one or more quantitative ratings to a design based on a set of criteria and then combine all these ratings into a final score and easy-to-understand visual representation. (Definition from Nielsen Norman Group) See you next week! 🔔",
+            "image_square_url": "../assets/events/UXPH_Aug2022_Square.png",
+            "image_banner_url": "../assets/events/UXPH_Aug2022_Eventbrite.png",
+            "ticket_url": "https://bit.ly/UXPH-PURE",
+            "become_speaker_url": "#",
+            "blog_url": "#",
+            "livestream_url": "#",
+            "status": "",
+            "event_id": 18,
+            "tag": "Virtual Conference;"
+        }
+    },
+    "past": {
         "DayInALife_ProductDesigner": {
             "name": "Day In a Life: Product Designer",
             "date": "May 19, 2022",
@@ -15,9 +33,7 @@
             "status": "done",
             "event_id": 17,
             "tag": "Virtual Conference;"
-        }
-    },
-    "past": {
+        },
         "WomenInUX": {
             "name": "Celebrating Women in UX",
             "date": "March 17, 2022",
