@@ -1,5 +1,23 @@
 {
     "current": {
+        "UXPH_x_ADPList_Meetup":{
+            "name": "UXPH x ADPList Meetup",
+            "date": "Oct 29, 2022",
+            "time": "4:00pm - 7:00pm",
+            "venue": "The Study by Enderun, 2F Estancia Mall, Meralco Ave., Ortigas Center, Pasig City",
+            "description": "We're excited to announce that we are bringing back in-person meetups, after two years! 🙌 To start, we will be hosting an exclusive event in partnership with ADPList to help cultivate the design mentorship practice in the country. Hear from design mentors Leroy Almeida, Fish Ibasco, and Jake Nunez as they talk about the impact of UX after the pandemic, and join activities to help you network with other UX practitioners.",
+            "image_square_url": "../assets/events/UXPH_Oct 2022_Square.jpg",
+            "image_banner_url": "../assets/events/UXPH_Oct 2022_banner.jpg",
+            "ticket_url": "https://bit.ly/UXPHxADP-October29",
+            "become_speaker_url": "#",
+            "blog_url": "#",
+            "livestream_url": "#",
+            "status": "",
+            "event_id": 19,
+            "tag": "Meetup;"
+        }
+    },
+    "past": {
         "Practical_Usability_Rating_by_Experts": {
             "name": "August Meetup: Practical Usability Rating by Experts (PURE)",
             "date": "Aug 31, 2022",
@@ -12,12 +30,10 @@
             "become_speaker_url": "#",
             "blog_url": "#",
             "livestream_url": "#",
-            "status": "",
+            "status": "done",
             "event_id": 18,
             "tag": "Virtual Conference;"
-        }
-    },
-    "past": {
+        },
         "DayInALife_ProductDesigner": {
             "name": "Day In a Life: Product Designer",
             "date": "May 19, 2022",
