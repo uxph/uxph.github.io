@@ -95,5 +95,47 @@
       ],
       "image": "assets/team/jen.jpg"
     }
+  },
+  "info":{
+    "intro": [
+      "Welcome to the UXPH Research team page! It conducts studies to further understand and analyze the User Experience (UX) landscape in the Philippines. Our team’s goal is to share reports that describe the UX industry and how it is adopted across various sectors in the country. We regularly explore and publish reports that serve as a reference point for practitioners and companies towards a more data-driven understanding of their work.",
+      "The UXPH research team is composed of two main subgroups namely the <b>3T</b> (Think Tank Team) and the RSA (Research Support Arm).",
+      "The <b>3T</b> drives the main research activities of the research team. They are responsible for executing the research mission-vision of UXPH, determining research questions, designing experiments, developing instruments, collecting and analysing data and releasing reports and data-driven policies and recommendations for broader dissemination. These reports are open, free and available for everyone who wish to use them. The 3T is composed of subject matter experts (SMEs) in their field that contribute to useful insights in the research process.",
+      "The <b>RSA</b> enables the main research activities held by the 3T. It is composed of a team of visual storytellers, data encoders and enthusiastic volunteers who contribute in the collection of data and preparation of reports by the research team. The RSA serves as an early starting point for volunteers interested in pursuing research as it equips them with meaningful experience to learn the ropes of industry research.",
+      "In 2021, we have published and released the first ever State of UX in the Philippines (aka SOUP) report. In the next years, we wish to uncover on specific pain points in the industry such as career transitioning, salaries and hopefully even design systems."
+
+    ],
+    "what_we_do":[
+      "We do research <b>about</b> UX – specifically UX in the Philippines – using methods like surveys, interviews, and benchmarking.",
+      "We do not regularly conduct UX research techniques, however our combined skills and expertise allows us to conduct these. If ever you would need an provider of services such as usability testing, beta testing, concept testing, and evaluative/ generative user research, you may send us an email to <a href=\"mailto:research@uxph.org\" class=\"blue\">research@uxph.org</a> so we can arrange a quotation and a research plan for you.",
+      "Take a look at our <a href=\"/research/project-soup/\" class=\"blue\">State of UX in the Philippines</a> (aka SOUP 🍲) report if you haven’t yet" 
+    ],
+    "what_you_learn":[
+      "<b>Research mentorship</b>. The UXPH 3T is composed experts and professionals in the UX industry itself. Get inspired and work with them first-hand in executing our researches.",
+      "<b>Research skills</b> such as planning research, conducting interviews, designing surveys, analyzing quantitative and qualitative data to name a few of the things we do",
+      "<b>Soft skills</b> like public speaking, presentation making, and report creation"
+    ],
+    "qualifications": [
+      "Passionate about research",
+      "Curious to learn more about UX in the Philippines and research practices",
+      "Dependable and enthusiastic",
+      "Motivated to get sh*t done for community"
+    ],
+    "nice_to_haves": [
+      {
+        "list_item": "Research background: user research, academic research, market research, quantitative or qualitative",
+        "sub_list": [
+          "Experience doing research in the past"
+        ]
+      },
+      {
+        "list_item": "Experience leading or being involved in community work",
+        "sub_list":[]
+      },
+      {
+        "list_item": "Presentation skills and storytelling",
+        "sub_list": []
+      }
+    ]
   }
 }
