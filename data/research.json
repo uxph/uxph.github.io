@@ -34,68 +34,92 @@
       "featured": true
     }
   },
-
-  "members": {
-    "jordan": {
-      "name": "Jordan Deja",
-      "position": "UX Researcher",
-      "bio": [
-        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
-      ],
-      "socials": [
-        "<a href=\"https://www.linkedin.com/in/jrdndj/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
-        "<a href=\"https://www.twitter.com/jrdndj/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
-      ],
-      "image": "assets/team/jordan.jpg"
+  "think_tank_team":{
+    "jordan":{
+      "id": 1,
+      "name": "Jordan Aiko Deja",
+      "position": "Director for Research"
     },
-    "din": {
-      "name": "Din San Diego",
-      "position": "UX Researcher",
-      "bio": [
-        "Din is a content strategist specializing in content development and management. She is currently learning more about UX research within the organization and helping out in the events team!",
-        "An avid learner, she enjoys ideating alongside teams, presenting concepts through decks, pairing non-fiction + fiction books, and creating mixtapes for special occasions."
-      ],
-      "socials": [
-        "<a href=\"https://www.linkedin.com/in/claudinesandiego/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
-      ],
-      "image": "assets/team/claudine.png"
+    "lindy":{
+      "id": 2,
+      "name": "Rie Lindy Hernandez",
+      "position": "Research Co-Lead"
     },
-    "janyl": {
-      "name": "Janyl Tamayo",
-      "position": "UX Researcher",
-      "bio": [
-        "Janyl is an Experience Designer from Vancouver, currently crafting human-centric experiences at a Fintech startup to make payments simple for SMEs. Gets chatty when she's tea high and is a recovering skincare addict."
-      ],
-      "socials": [
-        "<a href=\"https://www.linkedin.com/in/janyltamayo/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
-      ],
-      "image": "assets/team/janyl.jpg"
+    "beverly":{
+      "id": 3,
+      "name": "Beverly Bravo",
+      "position": ""
     },
-    "cha": {
-      "name": "Charlotte Mae Efren",
-      "position": "UX Researcher",
-      "bio": [
-        "Charlotte is a Product Designer at First Circle.",
-        "She gets involved in various projects - educational, volunteer groups, and hackathons - trying anything in tech and design that connects her to people.",
-        "Outside work she's learning Japanese and Mandarin, loves Anime, and likes to draw."
-      ],
-      "socials": [
-        "<a href=\"https://www.linkedin.com/in/charlotteefren/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
-      ],
-      "image": "assets/team/cha.jpg"
+    "pierce":{
+      "id": 4,
+      "name": "Pierce Jason Jonota",
+      "position": ""
     },
-    "jen": {
-      "name": "Jen Teves",
-      "position": "UX Researcher",
-      "bio": [
-        "Jen is currently the Director for CX Research at Best Buy after her stints at other Fortune 100 companies in the US as a UX Researcher & Human Factors Scientist. She loves being in the company of learners that's why she also teaches graduate classes in UX Design at Kent State University's School of Information. Jen's not-so-secret passion is exploring the applications of design and psychology in nation-building, social programs, and counter-insurgency strategy."
-      ],
-      "socials": [
-        "<a href=\"https://www.linkedin.com/in/jenniferteves/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
-      ],
-      "image": "assets/team/jen.jpg"
+    "katarina":{
+      "id": 5,
+      "name": "Katarina Rosario",
+      "position": ""
     }
   },
+  "rsa":{
+    "janna":{
+      "name": "Janna Aika Deja",
+      "position": ""
+    },
+    "lee":{
+      "name": "Lee Fernandez",
+      "position": ""
+    },
+    "jeannette":{
+      "name": "Jeanette Rabacio",
+      "position": ""
+    },
+    "jannah":{
+      "name": "Jannah Sandico",
+      "position": ""
+    },
+    "camille":{
+      "name": "Camille Yabut",
+      "position": ""
+    }
+  },
+  "advisory":{
+    "ely":{
+      "name": "Ely Apao",
+      "position": ""
+    },
+    "chelle":{
+      "name": "Chelle Obligacion-Grey",
+      "position": ""
+    },
+    "aldrich":{
+      "name": "Aldrich Tan",
+      "position": ""
+    },
+    "jen":{
+      "name": "Jennifer Teves, PhD",
+      "position": ""
+    }
+  },
+  "alumni":{
+    "din":{
+      "name": "Claudine San Diego",
+      "position": ""
+    },
+    "cha":{
+      "name": "Charlotte Mae Efren",
+      "position": ""
+    },
+    "tyrone":{
+      "name": "Tyrone Justin Sta. Maria",
+      "position": ""
+    },
+    "janyl":{
+      "name": "Janyl Tamayo",
+      "position": ""
+    }
+  },
+  
   "info":{
     "intro": [
       "Welcome to the UXPH Research team page! It conducts studies to further understand and analyze the User Experience (UX) landscape in the Philippines. Our team’s goal is to share reports that describe the UX industry and how it is adopted across various sectors in the country. We regularly explore and publish reports that serve as a reference point for practitioners and companies towards a more data-driven understanding of their work.",

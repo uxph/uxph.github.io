@@ -1,4 +1,3 @@
-{{ partial "components/modal" (dict "path" "../") }}
 <header class="padding-y-64">
   <div class="wrapper">
     <div class="d-flex align-items-center margin-bottom-32">
@@ -38,36 +37,82 @@
     </ul>
   </div>
 </header>
-<section class="padding-bottom-96 padding-top-64 bg-light">
+
+<section class="padding-y-32 bg-light">
   <div class="wrapper">
-    <h1 class="margin-bottom-48 text-center">Team Members</h1>
-    <div class="margin-bottom-96">
-      <!-- <h2 class="text-secondary margin-bottom-32 text-center">Team Leads</h2> -->
+    <h1 class="text-center">🐱‍👤 Meet the Team</h1>
+  </div>
+</section>
+
+<section class="padding-bottom-64 padding-top-64 bg-light">
+  <div class="wrapper">
+    <h2 class="margin-bottom-48 text-center">Think Tank Team</h2>
+    <div>
       <div class="d-flex flex-wrap justify-content-center team-feed">
-        {{ range .Site.Data.research.members }}
-        <div class="user-card shadow-sm bg-white m-2">
-          <div class="featured-image bg-secondary mx-auto margin-bottom-16"
-            style="background: url(../{{ .image }}); background-position: center; background-size: cover;"></div>
+        {{ range sort .Site.Data.research.think_tank_team "id" "asc" }}
+        <div class="user-card-no-modal shadow-sm bg-white m-2">
           <div>
-            <div>
-              <h2 class="blue m-0 text-center">{{ .name }}</h2>
-              <p class="red m-0 text-center">{{ .position }}</p>
-              <br class="d-none" />
-              {{ range .bio }}
-              <p class="margin-bottom-16 text-secondary d-none">{{ . }}</p>
-              {{ end }}
-              <div class="d-none socials-wrapper">
-                {{ range .socials }}
-                {{ . }}
-                {{ end }}
-              </div>
-            </div>
+            <h2 class="blue m-0 text-center">{{ .name }}</h2>
+            <p class="red m-0 text-center">{{ .position }}</p>
           </div>
         </div>
         {{ end }}
       </div>
     </div>
 </section>
+
+<section class="padding-y-64 bg-white">
+  <div class="wrapper">
+    <h2 class="margin-bottom-48 text-center">UXPH RSA (Research Support Arm)</h2>
+    <div>
+      <div class="d-flex flex-wrap justify-content-center team-feed">
+        {{ range .Site.Data.research.rsa  }}
+        <div class="user-card-no-modal shadow-sm bg-white m-2">
+          <div>
+            <h2 class="blue m-0 text-center">{{ .name }}</h2>
+            <p class="red m-0 text-center">{{ .position }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+</section>
+
+<section class="padding-y-64 bg-light">
+  <div class="wrapper">
+    <h2 class="margin-bottom-48 text-center">UXPH Advisory Team</h2>
+    <div>
+      <div class="d-flex flex-wrap justify-content-center team-feed">
+        {{ range .Site.Data.research.advisory  }}
+        <div class="user-card-no-modal shadow-sm bg-white m-2">
+          <div>
+            <h2 class="blue m-0 text-center">{{ .name }}</h2>
+            <p class="red m-0 text-center">{{ .position }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+</section>
+
+
+<section class="padding-y-64 bg-white">
+  <div class="wrapper">
+    <h2 class="margin-bottom-48 text-center">UXPH Research Alumni</h2>
+    <div>
+      <div class="d-flex flex-wrap justify-content-center team-feed">
+        {{ range .Site.Data.research.alumni  }}
+        <div class="user-card-no-modal shadow-sm bg-white m-2">
+          <div>
+            <h2 class="blue m-0 text-center">{{ .name }}</h2>
+            <p class="red m-0 text-center">{{ .position }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+</section>
+
 
 <style>
   ul.objectives li {
@@ -83,18 +128,14 @@
     background-position: right;
   }
 
-  .user-card {
+  .user-card-no-modal {
     border-radius: 8px;
     width: auto;
-    z-index: 99;
-    position: relative;
-    overflow: hidden;
     padding: var(--value-24);
-    cursor: pointer;
     transition: ease all 0.3s;
   }
 
-  .user-card:hover {
+  .user-card-no-modal:hover {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
 
@@ -122,5 +163,16 @@
 
   .team-feed>div {
     flex: 0 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 768px){
+    .team-feed > div{
+      flex: 0 100%;
+      width: 100%;
+    }
   }
 </style>
