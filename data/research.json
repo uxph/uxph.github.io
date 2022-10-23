@@ -34,66 +34,132 @@
       "featured": true
     }
   },
-
-  "members": {
-    "jordan": {
-      "name": "Jordan Deja",
-      "position": "UX Researcher",
-      "bio": [
-        "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines"
-      ],
-      "socials": [
-        "<a href=\"https://www.linkedin.com/in/jrdndj/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>",
-        "<a href=\"https://www.twitter.com/jrdndj/\" target=\"blank\"><i class=\"fab fa-twitter\"></i></a>"
-      ],
-      "image": "assets/team/jordan.jpg"
+  "think_tank_team":{
+    "jordan":{
+      "id": 1,
+      "name": "Jordan Aiko Deja",
+      "position": "Director for Research"
     },
-    "din": {
-      "name": "Din San Diego",
-      "position": "UX Researcher",
-      "bio": [
-        "Din is a content strategist specializing in content development and management. She is currently learning more about UX research within the organization and helping out in the events team!",
-        "An avid learner, she enjoys ideating alongside teams, presenting concepts through decks, pairing non-fiction + fiction books, and creating mixtapes for special occasions."
-      ],
-      "socials": [
-        "<a href=\"https://www.linkedin.com/in/claudinesandiego/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
-      ],
-      "image": "assets/team/claudine.png"
+    "lindy":{
+      "id": 2,
+      "name": "Rie Lindy Hernandez",
+      "position": "Research Co-Lead"
     },
-    "janyl": {
-      "name": "Janyl Tamayo",
-      "position": "UX Researcher",
-      "bio": [
-        "Janyl is an Experience Designer from Vancouver, currently crafting human-centric experiences at a Fintech startup to make payments simple for SMEs. Gets chatty when she's tea high and is a recovering skincare addict."
-      ],
-      "socials": [
-        "<a href=\"https://www.linkedin.com/in/janyltamayo/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
-      ],
-      "image": "assets/team/janyl.jpg"
+    "beverly":{
+      "id": 3,
+      "name": "Beverly Bravo",
+      "position": ""
     },
-    "cha": {
-      "name": "Charlotte Mae Efren",
-      "position": "UX Researcher",
-      "bio": [
-        "Charlotte is a Product Designer at First Circle.",
-        "She gets involved in various projects - educational, volunteer groups, and hackathons - trying anything in tech and design that connects her to people.",
-        "Outside work she's learning Japanese and Mandarin, loves Anime, and likes to draw."
-      ],
-      "socials": [
-        "<a href=\"https://www.linkedin.com/in/charlotteefren/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
-      ],
-      "image": "assets/team/cha.jpg"
+    "pierce":{
+      "id": 4,
+      "name": "Pierce Jason Jonota",
+      "position": ""
     },
-    "jen": {
-      "name": "Jen Teves",
-      "position": "UX Researcher",
-      "bio": [
-        "Jen is currently the Director for CX Research at Best Buy after her stints at other Fortune 100 companies in the US as a UX Researcher & Human Factors Scientist. She loves being in the company of learners that's why she also teaches graduate classes in UX Design at Kent State University's School of Information. Jen's not-so-secret passion is exploring the applications of design and psychology in nation-building, social programs, and counter-insurgency strategy."
-      ],
-      "socials": [
-        "<a href=\"https://www.linkedin.com/in/jenniferteves/\" target=\"blank\"><i class=\"fab fa-linkedin\"></i></a>"
-      ],
-      "image": "assets/team/jen.jpg"
+    "katarina":{
+      "id": 5,
+      "name": "Katarina Rosario",
+      "position": ""
     }
+  },
+  "rsa":{
+    "janna":{
+      "name": "Janna Aika Deja",
+      "position": ""
+    },
+    "lee":{
+      "name": "Lee Fernandez",
+      "position": ""
+    },
+    "jeannette":{
+      "name": "Jeanette Rabacio",
+      "position": ""
+    },
+    "jannah":{
+      "name": "Jannah Sandico",
+      "position": ""
+    },
+    "camille":{
+      "name": "Camille Yabut",
+      "position": ""
+    }
+  },
+  "advisory":{
+    "ely":{
+      "name": "Ely Apao",
+      "position": ""
+    },
+    "chelle":{
+      "name": "Chelle Obligacion-Grey",
+      "position": ""
+    },
+    "aldrich":{
+      "name": "Aldrich Tan",
+      "position": ""
+    },
+    "jen":{
+      "name": "Jennifer Teves, PhD",
+      "position": ""
+    }
+  },
+  "alumni":{
+    "din":{
+      "name": "Claudine San Diego",
+      "position": ""
+    },
+    "cha":{
+      "name": "Charlotte Mae Efren",
+      "position": ""
+    },
+    "tyrone":{
+      "name": "Tyrone Justin Sta. Maria",
+      "position": ""
+    },
+    "janyl":{
+      "name": "Janyl Tamayo",
+      "position": ""
+    }
+  },
+  
+  "info":{
+    "intro": [
+      "Welcome to the UXPH Research team page! It conducts studies to further understand and analyze the User Experience (UX) landscape in the Philippines. Our team’s goal is to share reports that describe the UX industry and how it is adopted across various sectors in the country. We regularly explore and publish reports that serve as a reference point for practitioners and companies towards a more data-driven understanding of their work.",
+      "The UXPH research team is composed of two main subgroups namely the <b>3T</b> (Think Tank Team) and the RSA (Research Support Arm).",
+      "The <b>3T</b> drives the main research activities of the research team. They are responsible for executing the research mission-vision of UXPH, determining research questions, designing experiments, developing instruments, collecting and analysing data and releasing reports and data-driven policies and recommendations for broader dissemination. These reports are open, free and available for everyone who wish to use them. The 3T is composed of subject matter experts (SMEs) in their field that contribute to useful insights in the research process.",
+      "The <b>RSA</b> enables the main research activities held by the 3T. It is composed of a team of visual storytellers, data encoders and enthusiastic volunteers who contribute in the collection of data and preparation of reports by the research team. The RSA serves as an early starting point for volunteers interested in pursuing research as it equips them with meaningful experience to learn the ropes of industry research.",
+      "In 2021, we have published and released the first ever State of UX in the Philippines (aka SOUP) report. In the next years, we wish to uncover on specific pain points in the industry such as career transitioning, salaries and hopefully even design systems."
+
+    ],
+    "what_we_do":[
+      "We do research <b>about</b> UX – specifically UX in the Philippines – using methods like surveys, interviews, and benchmarking.",
+      "We do not regularly conduct UX research techniques, however our combined skills and expertise allows us to conduct these. If ever you would need an provider of services such as usability testing, beta testing, concept testing, and evaluative/ generative user research, you may send us an email to <a href=\"mailto:research@uxph.org\" class=\"blue\">research@uxph.org</a> so we can arrange a quotation and a research plan for you.",
+      "Take a look at our <a href=\"/research/project-soup/\" class=\"blue\">State of UX in the Philippines</a> (aka SOUP 🍲) report if you haven’t yet" 
+    ],
+    "what_you_learn":[
+      "<b>Research mentorship</b>. The UXPH 3T is composed experts and professionals in the UX industry itself. Get inspired and work with them first-hand in executing our researches.",
+      "<b>Research skills</b> such as planning research, conducting interviews, designing surveys, analyzing quantitative and qualitative data to name a few of the things we do",
+      "<b>Soft skills</b> like public speaking, presentation making, and report creation"
+    ],
+    "qualifications": [
+      "Passionate about research",
+      "Curious to learn more about UX in the Philippines and research practices",
+      "Dependable and enthusiastic",
+      "Motivated to get sh*t done for community"
+    ],
+    "nice_to_haves": [
+      {
+        "list_item": "Research background: user research, academic research, market research, quantitative or qualitative",
+        "sub_list": [
+          "Experience doing research in the past"
+        ]
+      },
+      {
+        "list_item": "Experience leading or being involved in community work",
+        "sub_list":[]
+      },
+      {
+        "list_item": "Presentation skills and storytelling",
+        "sub_list": []
+      }
+    ]
   }
 }

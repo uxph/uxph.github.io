@@ -30,7 +30,7 @@
   </div>
 </header>
 
-<section class="padding-y-128">
+<section class="padding-top-128 padding-bottom-96">
   <div class="wrapper">
     <div
       id="featured-research-overlap"
@@ -67,6 +67,96 @@
     </div>
   </div>
 </section>
+
+<section class="padding-bottom-64">
+  <div class="wrapper">
+    <h2>Intro to the UXPH Research</h2>
+    <br />
+    {{ range .Site.Data.research.info.intro }}
+      <p> {{ . | safeHTML }} </p>
+      <br />
+    {{ end }}
+    <blockquote>📫 If you're interested in joining the UXPH research team, you may send an email to <a href="mailto:jordan@uxph.org" class="blue">jordan@uxph.org</a>. Please submit your CV and if possible, a research-portfolio so we can assess potential fit. </blockquote>
+  </div>
+</section>
+
+<section class="padding-bottom-64">
+  <div class="wrapper">
+    <div class="flex-wrapper d-flex flex-column-reverse flex-md-row align-items-center justify-content-center">
+      <div>
+        <h2>🔍 What do we do?</h2>
+        <ul class="research-tasks">
+        {{ range .Site.Data.research.info.what_we_do }}
+          <li> {{ . | safeHTML }} </li>
+          <br />
+        {{ end }}
+        </ul>
+      </div>
+      <div class="featured-image">
+        <img class="margin-left-32" src="../assets/images/research/what-we-do.png" alt="What do we do" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-bottom-64">
+  <div class="wrapper">
+    <div class="flex-wrapper d-flex flex-column flex-md-row align-items-center justify-content-center">
+      <div class="featured-image">
+        <img class="margin-right-32" src="../assets/images/research/what-you-learn.png" alt="What will you learn with the team" width="1200px" />
+      </div>
+      <div>
+        <h2>🚀 What will you learn with the team?</h2>
+        <ul class="research-tasks">
+        {{ range .Site.Data.research.info.what_you_learn }}
+          <li> {{ . | safeHTML }} </li>
+          <br />
+        {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-bottom-64">
+  <div class="wrapper">
+    <div class="flex-wrapper d-flex flex-column-reverse flex-md-row align-items-center justify-content-center">
+      <div>
+        <h2>🧩  What are we looking for in volunteers?</h2>
+        <br>
+        <p><b>People who are</b></p>
+        <ul class="research-tasks">
+        {{ range .Site.Data.research.info.qualifications }}
+          <li> {{ . | safeHTML }} </li>
+          <br />
+        {{ end }}
+        </ul>
+        <h2>🔖 Nice to haves</h2>
+        <p>While we don't require these to join the research team, it will help you stand out!</p>
+        <ul class="research-tasks">
+        {{ range .Site.Data.research.info.nice_to_haves }}
+          <li> {{ .list_item | safeHTML }} </li>
+          {{ if .sub_list }}
+            <ul>
+              {{ range .sub_list }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          {{ end }}
+          <br />
+        {{ end }}
+        </ul>
+      </div>
+      <div class="featured-image">
+        <img class="margin-left-32" src="../assets/images/research/qualifications.png" alt="What are we looking for in volunteers" />
+      </div>
+    </div>
+    <blockquote>
+      📌 Note that you don't have to be a UX practitioner or a researcher to join the team. We value having a diverse team with people of all backgrounds and experiences 🤗
+    </blockquote>
+  </div>
+</section>
+
 
 <style>
   .featured-project {
@@ -110,6 +200,12 @@
     padding-right: var(--value-96) !important;
     padding-left: var(--value-96) !important;
   }
+
+  .featured-image img{
+    width: 80%;
+    object-fit: contain;
+  }
+
   @media only screen and (max-width: 768px) {
     .featured-project-buttons .button.outline {
       margin-top: var(--value-24) !important;
@@ -118,5 +214,27 @@
       padding-right: var(--value-24) !important;
       padding-left: var(--value-24) !important;
     }
+    .featured-image img{
+      width: 70%;
+      margin: 0 auto !important;
+      display: block;
+    }
   }
+  blockquote {
+    background-color: #f3f3f3;
+    border-radius: var(--value-4);
+    border-left: var(--value-4) solid var(--uxph-blue-2);
+    margin: var(--value-24) 0;
+    padding: var(--value-16) var(--value-24);
+  }
+
+  blockquote p {
+      font-style: italic;
+  }
+  .research-tasks li{
+    font-size: 1.125rem;
+    line-height: 2.3rem;
+  }
+  
+  
 </style>
