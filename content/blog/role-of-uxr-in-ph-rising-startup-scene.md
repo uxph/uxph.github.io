@@ -103,14 +103,6 @@ Monal emphasized that throughout each stage of our growth journeys, it is helpfu
 
 Ultimately, UXRConf Anywhere 2020 was surreal and eye-opening. Conversations with leaders in UXR drew us into profound contemplation on challenging and enkindling what we know. More than being an unforgettable and transformative event, it was also a first-rate celebration of its impact and tremendous, often unrecognized efforts devoted to the industry.
 
-## My favorite tweets are below:
-
-{{< tweet 1277980811468341248 >}}
-
-{{< tweet 1276615391561879554 >}}
-
-{{< tweet 1276607784591769601 >}}
-
 In the Philippines, there is still so much work that can and should be done in venturing into technology with a users-first approach in mind (as opposed to a solely profit-oriented one), one change that scales small ideas into wide-reaching, global success. Thus, the urgency of our role:
 
 ![Mel and Jeana's quote, "Researchers must not only present the problems, they must also present the possibility for change"](https://miro.medium.com/max/700/1*fo01Fj2SkJL-0481iK3GuQ.png)
